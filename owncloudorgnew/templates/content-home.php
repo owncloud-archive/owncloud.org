@@ -1,8 +1,4 @@
-<article <?php post_class(); ?>>
-  <header>
-    <?php get_template_part('templates/entry-meta'); ?>
-  </header>
-  <div class="entry-summary">
-    <?php the_excerpt(); ?>
-  </div>
-</article>
+<?php while (have_posts()) : the_post(); ?>
+  <?php the_content(); ?>
+  <?php wp_link_pages(array('before' => '<nav class="pagination">', 'after' => '</nav>')); ?>
+<?php endwhile; ?>
