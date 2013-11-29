@@ -1,3 +1,5 @@
+      <?php dynamic_sidebar('sidebar-news'); ?>
+
 <footer class="content-info" role="contentinfo">
 <div class="container">   
    <div class="row">

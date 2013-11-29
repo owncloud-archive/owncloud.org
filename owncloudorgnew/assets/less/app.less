@@ -3,16 +3,21 @@
  */
 
 @import "bootstrap/bootstrap.less";
+@import "fontawesome/font-awesome.less";
 
 /* ==========================================================================
    Base
    ========================================================================== */
 
 body {
-  font-size: 16px; background-color: #EFEFEF;
+  background-color: #EFEFEF; font-size: 16px; font-family: FontAwesome, sans-serif;
 }
 
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
 
+.btn-lg {font-size: 1.125em; font-height: 1.25;}
 
 /* ==========================================================================
    Header
@@ -20,10 +25,10 @@ body {
 
 .banner { 
   background-color: #1D2D44;
-    img {width: 70%; padding-top: 5px; padding-bottom: 5px;}
-    ul#menu-header.nav {float: right; padding-top: 16px;
+    img {padding-top: 5px; padding-bottom: 5px;}
+    ul#menu-header.nav {float: right; padding-top: 20px;
      > li > a {color: #FFFFFF; font-size: 1.25em;}
-     > li.menu-install a {background-color: #5BB75B; border-radius: 7px; margin-left: 10px;}
+     > li.menu-install a {background-color: #428BCA; border-radius: 6px; border-color: #357EBD; margin-top: 4px; margin-left: 10px; padding: 10px 16px; font-size: 1.125em; line-height: 1.25;}
     }
 }
 
@@ -32,6 +37,11 @@ body {
 /* ==========================================================================
    Content
    ========================================================================== */
+
+.page-template-front-page-php {
+  .row {padding-top: 30px; padding-bottom: 30px;}
+}
+
 
 .content { }
 
@@ -74,8 +84,13 @@ body {
 
 footer {
   background-color: #1D2D44;
+  div.row {padding-top: 30px;}
   &.content-info {
     section {.make-lg-column(4);}
+    h3 {color: #FFFFFF; padding-bottom: 10px;}
+    ul {list-style: none; padding-left: 0;}
+    a {color: #AAAAAA;}
+    .caret {border-top-color: #AAAAAA;}
    }
 }
 /* ==========================================================================
