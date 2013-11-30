@@ -10,14 +10,28 @@
    ========================================================================== */
 
 body {
-  background-color: #EFEFEF; font-size: 16px; font-family: FontAwesome, sans-serif;
+  background-color: #EFEFEF; 
+  color: #1D2D44; 
+  font-size: 16px; 
+  line-height: 1.7; 
+  font-family: FontAwesome, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: inherit; 
+  font-family: inherit; 
+  font-weight: 500; 
+  line-height: 1.25;
 }
 
 /* ==========================================================================
    Buttons
    ========================================================================== */
 
-.btn-lg {font-size: 1.125em; font-height: 1.25;}
+.btn-lg {
+  font-size: 1.125em; 
+  font-height: 1.25;
+}
 
 /* ==========================================================================
    Header
@@ -25,10 +39,27 @@ body {
 
 .banner { 
   background-color: #1D2D44;
-    img {padding-top: 5px; padding-bottom: 5px;}
-    ul#menu-header.nav {float: right; padding-top: 20px;
-     > li > a {color: #FFFFFF; font-size: 1.25em;}
-     > li.menu-install a {background-color: #428BCA; border-radius: 6px; border-color: #357EBD; margin-top: 4px; margin-left: 10px; padding: 10px 16px; font-size: 1.125em; line-height: 1.25;}
+    img {
+      padding-top: 5px; 
+      padding-bottom: 5px;
+    }
+    ul#menu-header.nav {
+      float: right; 
+      padding-top: 20px;
+     > li > a {
+       color: #FFFFFF; 
+       font-size: 1.25em;
+     }
+     > li.menu-install a {
+       background-color: #428BCA; 
+       border-radius: 6px; 
+       border-color: #357EBD; 
+       margin-top: 4px; 
+       margin-left: 10px; 
+       padding: 10px 16px; 
+       font-size: 1.125em; 
+       line-height: 1.25;
+     }
     }
 }
 
@@ -39,7 +70,10 @@ body {
    ========================================================================== */
 
 .page-template-front-page-php {
-  .row {padding-top: 30px; padding-bottom: 30px;}
+  .row {
+    padding-top: 30px; 
+    padding-bottom: 30px;
+  }
 }
 
 
@@ -54,7 +88,9 @@ body {
 .main { }
 
 /* Gallery Shortcode */
-.gallery-row { padding: 15px 0; }
+.gallery-row {
+  padding: 15px 0; 
+}
 
 
 
@@ -84,13 +120,27 @@ body {
 
 footer {
   background-color: #1D2D44;
-  div.row {padding-top: 30px;}
+  div.row {
+    padding-top: 30px;
+  }
   &.content-info {
-    section {.make-lg-column(4);}
-    h3 {color: #FFFFFF; padding-bottom: 10px;}
-    ul {list-style: none; padding-left: 0;}
-    a {color: #AAAAAA;}
-    .caret {border-top-color: #AAAAAA;}
+    section {
+      .make-lg-column(4);
+    }
+    h3 {
+      color: #FFFFFF; 
+      padding-bottom: 10px;
+    }
+    ul {
+      list-style: none; 
+      padding-left: 0;
+    }
+    a {
+      color: #AAAAAA;
+    }
+    .caret {
+      border-top-color: #AAAAAA;
+    }
    }
 }
 /* ==========================================================================

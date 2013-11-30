@@ -9,8 +9,6 @@ Template Name: Blog Planet Page
  
 require('/srv/www/owncloud.org/contribook/main/contribook/lib_contribook.php');
 
-get_header(); 
-
 ?>
 
 <div class="page-header"><h1>ownCloud Planet</h1>
@@ -96,4 +94,3 @@ get_header();
 	</div>
 </div>
 
-<?php get_footer(); ?>
