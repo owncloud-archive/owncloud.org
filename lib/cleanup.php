@@ -111,6 +111,9 @@ function roots_body_class($classes) {
   if (is_single() || is_page() && !is_front_page()) {
     $classes[] = basename(get_permalink());
   }
+  if (!is_front_page()) {
+    $classes[] = 'not-front';
+  }
 
   // Remove unnecessary classes
   $home_id_class = 'page-id-' . get_option('page_on_front');
