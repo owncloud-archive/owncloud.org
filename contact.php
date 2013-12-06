@@ -70,5 +70,4 @@ if( $title != 'About' ){
 
 ?>
 
-<?php get_footer(); ?>
 

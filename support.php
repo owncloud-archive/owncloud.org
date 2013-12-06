@@ -4,8 +4,6 @@ Template Name: Documentation Center
 */
 ?>
 
-<?php get_header(); ?>
-
 <div class="page-header"><h1><a href="<?php echo home_url( '/' ); ?>/support/">Documentation Center</a></h1>
 	<form role="search" method="get" class="headersearch" id="searchform" action="<?php echo home_url( '/' ); ?>">
 	    	<input type="text" value="<?php the_search_query(); ?>" name="s" id="s" />
@@ -16,11 +14,6 @@ Template Name: Documentation Center
 <div class="row">
 	<div class="span3">
 		<div class="sidebar">
-			<div class="well">
-			<?php 
-			wp_nav_menu(array('theme_location' => 'support-nav'));
-			?>
-			</div>
 		</div>
 	</div>
 	
@@ -36,6 +29,4 @@ Template Name: Documentation Center
 
 	</div>
 </div>
-
-<?php get_footer(); ?>
 

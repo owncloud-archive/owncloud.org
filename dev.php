@@ -4,8 +4,6 @@ Template Name: Developer Center
 */
 ?>
 
-<?php get_header(); ?>
-
 <!-- comment out duplicated header, it’s already in the navigation
 <div class="page-header"><h1><a href="<?php echo home_url( '/' ); ?>dev/">Developer Center</a></h1>
 	<form role="search" method="get" class="headersearch" id="searchform" action="<?php echo home_url( '/' ); ?>">
@@ -18,11 +16,7 @@ Template Name: Developer Center
 <div class="row">
 	<div class="span3">
 		<div class="sidebar">
-			<div class="well">
-			<?php 
-			wp_nav_menu(array('theme_location' => 'dev-nav'));
-			?>
-			</div>
+
 		</div>
 	</div>
 	
@@ -47,4 +41,4 @@ if( $title != 'Dev' ){
 	</div>
 </div>
 
-<?php get_footer(); ?>
+
