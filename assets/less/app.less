@@ -24,6 +24,31 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   line-height: 1.25;
 }
 
+ h2 {
+   font-size: 1.75em;
+   font-weight: 700;
+}
+
+/* ==========================================================================
+  Pages 
+   ========================================================================== */
+
+.not-front {
+  img {margin: 1em;}
+}
+
+.page-template-blogpage-php{
+  main {
+    .make-xs-column(12);
+  }
+  .page-header > h1 {display: inline;}
+  .page-header > a {margin-left: 30px; vertical-align: top;}
+      .contribook_bloguser { float:right; margin-top: 65px; margin-right: -65px;}
+      .contribook_blogheadline { font-size: 1.75em;}
+      .contribook_blognavibutton {text-align: center;}
+}
+
+
 /* ==========================================================================
    Buttons
    ========================================================================== */
@@ -40,26 +65,37 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .banner { 
   background-color: #1D2D44;
     img {
+      margin: 0;
       padding-top: 5px; 
       padding-bottom: 5px;
     }
     ul#menu-header.nav {
       float: right; 
       padding-top: 20px;
+      > li {padding: 15px;}
      > li > a {
        color: #FFFFFF; 
-       font-size: 1.25em;
+       font-size: 1.5em;
+       padding: 0 0 15px;
      }
-     > li.menu-install a {
+     > li.menu-install {
+       padding: 0 0 0 15px;
+       margin-left: 10px;
        background-color: #428BCA; 
        border-radius: 6px; 
        border-color: #357EBD; 
-       margin-top: 4px; 
-       margin-left: 10px; 
-       padding: 10px 16px; 
-       font-size: 1.125em; 
+    }
+     > li.menu-install a {
+       padding: 10px 16px 10px 0; 
        line-height: 1.25;
+       border-bottom: 0;
      }
+     .active > a, 
+     a:hover, 
+     a:focus {
+       background-color: transparent;
+       border-bottom: 2px solid #FFFFFF;
+    }
     }
 }
 
@@ -114,14 +150,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 
 
-/* ==========================================================================
-  Pages body class="not-front"
-   ========================================================================== */
-
-body.not-front {
-  img {margin: 1em;}
-}
-
 
 /* ==========================================================================
    Footer
@@ -133,6 +161,10 @@ footer {
   div.row {
     padding-top: 30px;
   }
+  div.footer-nav > a {
+    color: #FFFFFF; 
+    font-size: 1.5em;
+   }
   &.content-info {
     section {
       .make-lg-column(4);

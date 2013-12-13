@@ -12,23 +12,37 @@ require('/srv/www/owncloud.org/contribook/main/contribook/lib_contribook.php');
 ?>
 
 <div class="page-header">
-	<h1><a href="/about/">The latest apps</a></h1>
+	<h1><a href="/about/">About ownCloud</a></h1>
+<nav class="nav-infopages" role="navigation">
+	<?php 
+		wp_nav_menu(array('theme_location' => 'about-nav'));
+	?>
+</nav>
 </div>
 
 
 <div class="row">
-	<div class="span3">
-		<div class="sidebar">
-			<?php 
-			//<div class="well">
-	//		wp_nav_menu(array('theme_location' => 'dev-nav'));
-			//</div>
-			?>
-		</div>
-	</div>
-	
-	<div class="span9">
+<?php if (have_posts()) : while (have_posts()) : the_post();?>
+<?php
+$title = get_the_title();
+?>
+	<div class="span12">
+<?php
+if( $title != 'About' ){
+?>
+		<h2><?php the_title();?></h2>
+		<hr class="pagetitle">
+<?php 
+}
+?>
 		<div class="page-content">
+			<?php the_content(); ?>
+		</div>
+<?php endwhile; endif; ?>
+
+	</div>
+</div>
+
 <?php
 
   // the latest content from an ocs server

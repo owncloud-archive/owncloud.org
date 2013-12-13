@@ -12,23 +12,24 @@ Template Name: Developer Center
 	</form>
 </div>
 -->
-
-<div class="row">
-	<div class="span3">
-		<div class="sidebar">
-
-		</div>
-	</div>
+<div class="page-header">
+	<h1><a href="/about/">Developer Center</a></h1>
+<nav class="nav-infopages" role="navigation">
+	<?php 
+		wp_nav_menu(array('theme_location' => 'dev-nav'));
+	?>
+</nav>
+</div>
 	
 <?php if (have_posts()) : while (have_posts()) : the_post();?>
 <?php
 $title = get_the_title();
 ?>
-	<div class="span9">
+	<div class="span12">
 <?php
 if( $title != 'Dev' ){
 ?>
-		<h1><?php the_title();?></h1>
+		<h2><?php the_title();?></h2>
 		<hr class="pagetitle">
 <?php 
 }

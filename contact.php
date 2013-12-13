@@ -14,13 +14,13 @@ require('/srv/www/owncloud.org/contribook/main/contribook/lib_contribook.php');
 	<h1><a href="/about/">About ownCloud</a></h1>
 
 
-   <nav class="collapse navbar-collapse" role="navigation">
-      <?php
-        if (has_nav_menu('about')) :
-          wp_nav_menu(array('theme_location' => 'about', 'menu_class' => 'navabout'));
-        endif;
-      ?>
-    </nav>
+	<nav class="nav-infopages" role="navigation">
+          <?php
+          if (has_nav_menu('about-nav')) :
+          wp_nav_menu(array('theme_location' => 'about-nav', 'menu_class' => 'navabout'));
+          endif;
+         ?>
+       </nav>
 
 
 

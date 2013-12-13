@@ -1,9 +1,30 @@
-      <?php dynamic_sidebar('sidebar-news'); ?>
-
 <footer class="content-info" role="contentinfo">
 <div class="container">   
    <div class="row">
-      <?php dynamic_sidebar('sidebar-footer'); ?>
+     <div class="col-sm-4">
+        <div class="footer-nav">
+	 <a href="/about/">About ownCloud</a>
+	<?php 
+		wp_nav_menu(array('theme_location' => 'about-nav'));
+	?>
+</div>
+     </div>
+     <div class="col-sm-4">
+        <div class="footer-nav">
+	 <a href="/support/">Support</a>
+	<?php 
+		wp_nav_menu(array('theme_location' => 'support-nav'));
+	?>
+</div>
+     </div> 
+     <div class="col-sm-4">
+        <div class="footer-nav">
+	 <a href="/developer/">Developer</a>
+	<?php 
+		wp_nav_menu(array('theme_location' => 'dev-nav'));
+	?>
+</div>
+     </div>
    </div>
    <div class="row">
     <div class="col-lg-12">

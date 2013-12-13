@@ -12,22 +12,11 @@ require('/srv/www/owncloud.org/contribook/main/contribook/lib_contribook.php');
 ?>
 
 <div class="page-header"><h1>ownCloud Planet</h1>
-<a href="/blogfeed" class="btn headersearch">RSS</a>
+<a href="/blogfeed" class="btn btn-success">RSS</a>
 </div>
 
-
-<div class="row">
-	<div class="span3">
-		<div class="sidebar">
-			<?php 
-			//<div class="well">
-	//		wp_nav_menu(array('theme_location' => 'dev-nav'));
-			//</div>
-			?>
-		</div>
-	</div>
-	
-	<div class="span9">
+	<div class="row">
+	<div class="col-xs-12">
 		<div class="page-content">
 <?php
 
@@ -93,4 +82,4 @@ require('/srv/www/owncloud.org/contribook/main/contribook/lib_contribook.php');
 
 	</div>
 </div>
-
+</div>
