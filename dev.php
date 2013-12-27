@@ -13,7 +13,7 @@ Template Name: Developer Center
 </div>
 -->
 <div class="page-header">
-	<h1><a href="/about/">Developer Center</a></h1>
+	<h1>Developer Center</h1>
 <nav class="nav-infopages" role="navigation">
 	<?php 
 		wp_nav_menu(array('theme_location' => 'dev-nav'));
@@ -29,7 +29,7 @@ $title = get_the_title();
 <?php
 if( $title != 'Dev' ){
 ?>
-		<h2><?php the_title();?></h2>
+		<h1><?php the_title();?></h1>
 		<hr class="pagetitle">
 <?php 
 }

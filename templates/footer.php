@@ -11,7 +11,7 @@
      </div>
      <div class="col-sm-4">
         <div class="footer-nav">
-	 <a href="/support/">Support</a>
+	 <a href="/support/">Support &#38; Documentation</a>
 	<?php 
 		wp_nav_menu(array('theme_location' => 'support-nav'));
 	?>
@@ -19,7 +19,7 @@
      </div> 
      <div class="col-sm-4">
         <div class="footer-nav">
-	 <a href="/developer/">Developer</a>
+	 <a href="/developer/">Developer Center</a>
 	<?php 
 		wp_nav_menu(array('theme_location' => 'dev-nav'));
 	?>

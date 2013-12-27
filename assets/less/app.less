@@ -33,19 +33,63 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   Pages 
    ========================================================================== */
 
-.not-front {
-  img {margin: 1em;}
+.page-template-front-page-php {
+  div.wrap > .content {
+    background-color: transparent; 
+    background-repeat: no-repeat; 
+    background-attachment: scroll; 
+    background-position: 0% 0%; 
+    background-clip: border-box; 
+    background-origin: padding-box; 
+    background-image: url("http://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/cloud.png"); 
+    background-size: 100% auto;
+  }
+  .row {
+    padding-top: 30px; 
+    padding-bottom: 30px;
+  }
 }
 
-.page-template-blogpage-php{
+
+.not-front {
   main {
     .make-xs-column(12);
   }
-  .page-header > h1 {display: inline;}
-  .page-header > a {margin-left: 30px; vertical-align: top;}
-      .contribook_bloguser { float:right; margin-top: 65px; margin-right: -65px;}
-      .contribook_blogheadline { font-size: 1.75em;}
-      .contribook_blognavibutton {text-align: center;}
+  img {
+    margin: 0 1em 1em 0;
+  }
+  .row {margin: 2em -15px 1.5em;}
+  .page-header{
+    margin-top: 0;
+  .row h1, h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .nav-infopages {
+    margin-bottom: 40px;
+  }
+  }
+}
+
+.page-template-blogpage-php{
+  .page-header > h1 {
+    display: inline;
+  }
+  .page-header > a {
+    margin-left: 30px; 
+    vertical-align: top;
+  }
+      .contribook_bloguser {
+	float:right; 
+	margin-top: 65px; 
+	margin-right: -65px;
+      }
+      .contribook_blogheadline { 
+	font-size: 1.75em;
+      }
+      .contribook_blognavibutton {
+	text-align: center;
+      }
 }
 
 
@@ -94,24 +138,35 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
      a:hover, 
      a:focus {
        background-color: transparent;
-       border-bottom: 2px solid #FFFFFF;
+       border-bottom: 1px solid #FFFFFF;
     }
     }
 }
 
+/* ==========================================================================
+  2nd Nav for pages in footer
+   ========================================================================== */
+
+nav.nav-infopages > ul {
+  display: block;
+  list-style: none;
+  padding-left: 0;
+  > li {
+    display: block;
+    float: left;
+    padding-right: 20px;}
+    .active a, a:active, a:hover, a:focus {
+      border-bottom: 1px solid #428BCA;
+      color: #1D2D44;
+      padding-bottom: 7px;
+      text-decoration: none;
+    }
+}
 
 
 /* ==========================================================================
    Content
    ========================================================================== */
-
-.page-template-front-page-php {
-  .row {
-    padding-top: 30px; 
-    padding-bottom: 30px;
-  }
-}
-
 
 .content { }
 

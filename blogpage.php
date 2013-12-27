@@ -16,7 +16,7 @@ require('/srv/www/owncloud.org/contribook/main/contribook/lib_contribook.php');
 </div>
 
 	<div class="row">
-	<div class="col-xs-12">
+	<div class="col-sm-7">
 		<div class="page-content">
 <?php
 
@@ -81,5 +81,18 @@ require('/srv/www/owncloud.org/contribook/main/contribook/lib_contribook.php');
 		</div>
 
 	</div>
+	<div class="sidebar col-sm-4 col-sm-offset-1">
+<?php
+		echo('<h2><i class="icon-twitter"></i> The latest twitter posts</h2>');
+  		CONTRIBOOK_MICROBLOG::show(0,10);
+
+  		echo('</td><td valign="top">');
+  		echo('<h2><i class="icon-comment"></i> The latest from the forum</h2>');
+  		CONTRIBOOK_FORUM::show(0,10);
+  		echo('<h2><i class="icon-cloud"></i> ownCloud.com news</h2>');
+  		CONTRIBOOK_NEWS::show(0,10);
+?>
+	</div>
 </div>
+
 </div>

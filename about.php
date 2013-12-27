@@ -5,7 +5,7 @@ Template Name: About
 ?>
 
 <div class="page-header">
-	<h1><a href="/about/">About ownCloud</a></h1>
+	<h1>About ownCloud</h1>
 <nav class="nav-infopages" role="navigation">
 	<?php 
 		wp_nav_menu(array('theme_location' => 'about-nav'));
