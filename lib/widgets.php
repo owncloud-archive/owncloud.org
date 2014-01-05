@@ -23,6 +23,15 @@ function roots_widgets_init() {
   ));
 
   register_sidebar(array(
+    'name'          => __('Dev_Center', 'roots'),
+    'id'            => 'sidebar-devcenter',
+    'before_widget' => '<section class="widget %1$s %2$s"><div class="widget-inner">',
+    'after_widget'  => '</div></section>',
+    'before_title'  => '<h2>',
+    'after_title'   => '</h2>',
+  ));
+
+  register_sidebar(array(
     'name'          => __('Footer', 'roots'),
     'id'            => 'sidebar-footer',
     'before_widget' => '<section class="widget %1$s %2$s"><div class="widget-inner">',
