@@ -1,13 +1,7 @@
 <?php
-/*
-Template Name: Blog Planet Page
-*/
-?>
-
-<?php
 
  
-require('/srv/www/owncloud.org/contribook/main/contribook/lib_contribook.php');
+require('../../../contribook/main/contribook/lib_contribook.php');
 
 ?>
 
