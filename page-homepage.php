@@ -2,7 +2,7 @@
 <div class="header"><div class="row image"><div class="col-lg-12 col-md-12 col-xs-12 col-sm-12"><img style="display: block; width: 90%; min-width: 320px; margin: 3em auto 10px;" alt="image about owncloud sync" src="/wp-content/themes/owncloudorgnew/assets/img/home/ocsplash.png" />
 </div></div>
 <div class="row">
-<h2 style="margin: 25px 0 10px 0; text-align: center; display: block; vertical-align: middle; font-size: 36px;">Web services under your control</h2>
+<h2 style="margin: 25px 0 10px 0; text-align: center; display: block; vertical-align: middle; font-size: 30px;">Web services under your control</h2>
 </div>
 </div>
 <div class="row 3-column-lg-md-sm">
