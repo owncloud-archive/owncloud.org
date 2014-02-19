@@ -6,7 +6,7 @@
 	padding: 15px 0;
 }
 
-#appstore, #googleplay {
+#appstore, #googleplay, #desktopclient {
 	text-align: center;
 	display: block;
 }
