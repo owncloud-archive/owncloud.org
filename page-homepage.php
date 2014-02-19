@@ -1,14 +1,14 @@
 <?php //require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); ?>
-<div class="header"><div class="row image"><div class="col-lg-12 col-md-12 col-xs-12 col-sm-12"><img style="display: block; width: 100%; min-width: 320px; margin: 3em auto 10px;" alt="image about owncloud sync" src="/wp-content/themes/owncloudorgnew/assets/img/home/ocsplash.png" />
+<div class="header"><div class="row image"><div class="col-lg-12 col-md-12 col-xs-12 col-sm-12"><img style="display: block; width: 90%; min-width: 320px; margin: 3em auto 10px;" alt="image about owncloud sync" src="/wp-content/themes/owncloudorgnew/assets/img/home/ocsplash.png" />
 </div></div>
 <div class="row">
-<h2 style="margin: 0; text-align: center; display: block; vertical-align: middle; font-size: 36px;">Web services under your control</h2>
+<h2 style="margin: 25px 0 10px 0; text-align: center; display: block; vertical-align: middle; font-size: 36px;">Web services under your control</h2>
 </div>
 </div>
 <div class="row 3-column-lg-md-sm">
 
 <div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-<h2><i class="icon-exclamation-filter">&nbsp;</i> Integration</h2>
+<h2><i class="icon-filter">&nbsp;</i> Integration</h2>
 <span>Nullam sit amet tempus nisi. Nulla aliquet laoreet massa eget sodales. Suspendisse massa massa, ullamcorper consequat lacinia tempor, iaculis in libero.</span>
 </div>
 
