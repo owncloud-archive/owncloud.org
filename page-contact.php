@@ -1,3 +1,4 @@
+<?php get_template_part('templates/parts/title'); ?>
 Join our <a href="http://webchat.freenode.net?channels=owncloud" target="_blank">#owncloud chat room</a>
 
 For general questions and discussions, subscribe to our <a href="http://mail.kde.org/mailman/listinfo/owncloud" target="_blank">mailing list</a>!
