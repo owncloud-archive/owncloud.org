@@ -27,8 +27,8 @@
      </div>
    </div>
    <div class="row">
-    <div class="col-lg-12">
-        <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+    <div class="col-lg-12 footer-text">
+        <p>&copy; <?php echo date('Y'); ?> ownCloud.org</p>
     </div>
   </div>
 </div>

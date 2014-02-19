@@ -1,1 +1,1 @@
-<h2><?php echo ucwords($pagename); ?></h2>
+<h1><?php echo ucwords($pagename); ?></h1>

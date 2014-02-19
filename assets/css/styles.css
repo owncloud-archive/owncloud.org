@@ -5,3 +5,14 @@
 .banner img {
 	padding: 15px 0;
 }
+
+#appstore, #googleplay {
+	text-align: center;
+	display: block;
+}
+
+div.footer-text {
+	color: #AAAAAA;
+	text-align: center;
+	margin-bottom: 40px;
+}
