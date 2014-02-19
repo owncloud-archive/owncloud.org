@@ -10,7 +10,7 @@
          "supports":[
             "consumers"
          ],
-         "imagename":"arvixe",
+         "imagename":"arvixe.png",
          "supported":true
       },
       {
@@ -23,7 +23,7 @@
          "supports":[
             "organisations"
          ],
-         "imagename":"vboxx",
+         "imagename":"vboxx.png",
          "supported":true
       },
       {
@@ -36,7 +36,7 @@
          "supports":[
             "organisations"
          ],
-         "imagename":"net",
+         "imagename":"net.gif",
          "supported":true
       },
       {
@@ -49,7 +49,7 @@
          "supports":[
             "organisations"
          ],
-         "imagename":"kangaroot",
+         "imagename":"kangaroot.png",
          "supported":true
       },
       {
@@ -63,7 +63,7 @@
             "organisations",
             "consumers"
          ],
-         "imagename":"enavn",
+         "imagename":"enavn.png",
          "supported":true
       },
       {
@@ -76,7 +76,7 @@
          "supports":[
             "organisations"
          ],
-         "imagename":"saxonsitsolutions",
+         "imagename":"saxonsitsolutions.png",
          "supported":true
       },
       {
@@ -89,7 +89,7 @@
          "supports":[
 
          ],
-         "imagename":"noris",
+         "imagename":"noris.png",
          "supported":true
       },
       {
@@ -102,7 +102,7 @@
          "supports":[
 
          ],
-         "imagename":"sapphire",
+         "imagename":"sapphire.png",
          "supported":true
       },
       {
@@ -115,7 +115,7 @@
          "supports":[
 
          ],
-         "imagename":"supra",
+         "imagename":"supra.png",
          "supported":true
       },
       {
@@ -128,7 +128,7 @@
          "supports":[
 
          ],
-         "imagename":"extensys",
+         "imagename":"extensys.png",
          "supported":true
       },
       {
@@ -141,7 +141,7 @@
          "supports":[
 
          ],
-         "imagename":"netaffairs",
+         "imagename":"netaffairs.jpg",
          "supported":true
       },
       {
@@ -154,7 +154,7 @@
          "supports":[
             "organisations"
          ],
-         "imagename":"a2hosting",
+         "imagename":"a2hosting.png",
          "supported":true
       },
       {
@@ -167,7 +167,7 @@
          "supports":[
             "organisations"
          ],
-         "imagename":"datacentre",
+         "imagename":"datacenter.png",
          "supported":true
       },
       {
@@ -180,7 +180,7 @@
          "supports":[
             "consumers"
          ],
-         "imagename":"owndrive"
+         "imagename":"owndrive.png"
       },
       {
          "title":"cloudu.de",
@@ -192,7 +192,7 @@
          "supports":[
             "consumers"
          ],
-         "imagename":"cloudu"
+         "imagename":"cloudu.png"
       },
       {
          "title":"owncube.com",
@@ -207,10 +207,10 @@
             "organisations",
             "consumers"
          ],
-         "imagename":"owncube"
+         "imagename":"owncube.png"
       },
       {
-         "title":"protknox.net",
+         "title":"portknox.net",
          "url":"https:\/\/portknox.net\/",
          "flags":[
             "gb",
@@ -220,7 +220,7 @@
          "supports":[
             "consumers"
          ],
-         "imagename":"protknox"
+         "imagename":"portknox.png"
       },
       {
          "title":"cloudlay.com",
@@ -233,7 +233,7 @@
          "supports":[
 
          ],
-         "imagename":"cloudlay"
+         "imagename":"cloudlay.png"
       },
       {
          "title":"bpanet.de",
@@ -246,7 +246,7 @@
          "supports":[
             "consumers"
          ],
-         "imagename":"bpanet"
+         "imagename":"bpanet.png"
       },
       {
          "title":"nxserver.org",
@@ -260,7 +260,7 @@
             "organisations",
             "consumers"
          ],
-         "imagename":"nxserver"
+         "imagename":"nxserver.png"
       },
       {
          "title":"aixpro.de",
@@ -273,7 +273,7 @@
          "supports":[
             "consumers"
          ],
-         "imagename":"aixpro"
+         "imagename":"aixpro.png"
       },
       {
          "title":"saasweb.net",
@@ -285,7 +285,7 @@
          "supports":[
             "organisations"
          ],
-         "imagename":"saasweb"
+         "imagename":"saasweb.jpg"
       },
       {
          "title":"aventer.biz",
@@ -298,7 +298,7 @@
          "supports":[
             "consumers"
          ],
-         "imagename":"aventer"
+         "imagename":"aventer.png"
       },
       {
          "title":"hosthane.de",
@@ -311,7 +311,7 @@
          "supports":[
             "consumers"
          ],
-         "imagename":"hosthane"
+         "imagename":"hosthane.png"
       },
       {
          "title":"web-shop-hosting.de",
@@ -323,7 +323,7 @@
          "supports":[
             "consumers"
          ],
-         "imagename":"web-shop-hosting"
+         "imagename":"web-shop-hosting.png"
       },
       {
          "title":"qcloud.pl",
@@ -336,7 +336,7 @@
             "organisations",
             "consumers"
          ],
-         "imagename":"qcloud"
+         "imagename":"qcloud.png"
       },
       {
          "title":"supercorehost.com",
@@ -349,7 +349,7 @@
             "organisations",
             "consumers"
          ],
-         "imagename":"supercorehost"
+         "imagename":"supercorehost.png"
       },
       {
          "title":"rackscale.net",
@@ -362,7 +362,7 @@
             "organisations",
             "consumers"
          ],
-         "imagename":"rackscale"
+         "imagename":"rackscale.png"
       },
       {
          "title":"e24cloud.com",
@@ -377,7 +377,7 @@
             "organisations",
             "consumers"
          ],
-         "imagename":"e24cloud"
+         "imagename":"e24cloud.png"
       },
       {
          "title":"readyspace.com",
@@ -389,7 +389,7 @@
          "supports":[
 
          ],
-         "imagename":"readyspace"
+         "imagename":"readyspace.png"
       },
       {
          "title":"iway.ch",
@@ -401,7 +401,7 @@
          "supports":[
 
          ],
-         "imagename":"iway"
+         "imagename":"iway.png"
       },
       {
          "title":"computel.nl",
@@ -413,7 +413,7 @@
          "supports":[
             "organisations"
          ],
-         "imagename":"computel"
+         "imagename":"computel.jpg"
       },
       {
          "title":"citycloud.com",
@@ -426,7 +426,7 @@
          "supports":[
             "organisations"
          ],
-         "imagename":"citycloud"
+         "imagename":"citycloud.png"
       },
       {
          "title":"polskachmurka.pl",
@@ -439,7 +439,7 @@
             "organisations",
             "consumers"
          ],
-         "imagename":"polskachmurka"
+         "imagename":"polskachmurka.png"
       },
       {
          "title":"hyve.com",
@@ -451,7 +451,7 @@
          "supports":[
 
          ],
-         "imagename":"hyve"
+         "imagename":"hyve.jpeg"
       },
       {
          "title":"acceleris.ch",
@@ -464,7 +464,7 @@
          "supports":[
 
          ],
-         "imagename":"acceleris"
+         "imagename":"acceleris.png"
       },
       {
          "title":"oriented.net",
@@ -479,7 +479,7 @@
             "organisations",
             "consumers"
          ],
-         "imagename":"oriented"
+         "imagename":"oriented.png"
       },
       {
          "title":"nbiserv.de",
@@ -491,7 +491,7 @@
          "supports":[
 
          ],
-         "imagename":"nbiserv"
+         "imagename":"nbiserv.png"
       },
       {
          "title":"nublue.co.uk",
@@ -503,7 +503,7 @@
          "supports":[
 
          ],
-         "imagename":"nublue"
+         "imagename":"nublue.png"
       },
       {
          "title":"nimmerland.de",
@@ -515,7 +515,7 @@
          "supports":[
 
          ],
-         "imagename":"nimmerland"
+         "imagename":"nimmerland.jpg"
       },
       {
          "title":"islebee.ca",
@@ -527,7 +527,7 @@
          "supports":[
 
          ],
-         "imagename":"islebee"
+         "imagename":"islebee.png"
       },
       {
          "title":"cloud.zaclys.fr",
@@ -539,7 +539,7 @@
          "supports":[
 
          ],
-         "imagename":"zaclys"
+         "imagename":"zaclys.jpg"
       },
       {
          "title":"cahoots.nl",
@@ -551,7 +551,7 @@
          "supports":[
 
          ],
-         "imagename":"cahoots"
+         "imagename":"cahoots.png"
       }
    ]
 }
