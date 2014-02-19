@@ -1,8 +1,6 @@
 <?php
-
  
-require('../../../contribook/main/contribook/lib_contribook.php');
-
+require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php');
 
 ?>
 
