@@ -16,3 +16,17 @@ div.footer-text {
 	text-align: center;
 	margin-bottom: 40px;
 }
+
+.banner ul#menu-header.nav>li.menu-get-owncloud {
+	padding: 0 0 0 15px;
+	margin-top: 7px;
+	margin-left: 10px;
+	background-color: #428BCA;
+	border-radius: 6px;
+	border-color: #357EBD}
+
+.banner ul#menu-header.nav>li.menu-get-owncloud a{
+	padding: 7px 16px 7px 0;
+	line-height: 1.25;
+	border-bottom: 0
+}
