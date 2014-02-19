@@ -57,5 +57,23 @@ Sed sapien orci, pretium eu mollis et, volutpat a nisi. Maecenas facilisis sagit
 <h2><i class="icon-pencil">&nbsp;</i> Company support</h2>
 Curabitur rhoncus vulputate elit, ut ullamcorper justo ornare pretium. Praesent orci sem, pellentesque vitae volutpat sit amet, fringilla sit amet lacus. Curabitur sollicitudin felis sit amet orci placerat, a molestie odio mattis. Proin malesuada, felis eu luctus pulvinar, arcu est aliquam est, a mattis magna sem sit amet leo.
 </div>
-
 </div>
+<?php
+//require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php');
+
+  echo('<table width="100%" border="0" cellpadding="10"><tr><td valign="top">');
+  echo('<h2><i class="icon-twitter"></i> The latest twitter posts</h2>');
+//  CONTRIBOOK_MICROBLOG::show(0,10);
+
+  echo('</td><td valign="top">');
+  echo('<h2><i class="icon-comment"></i> The latest from the forum</h2>');
+  //CONTRIBOOK_FORUM::show(0,10);
+  echo('<h2><i class="icon-cloud"></i> ownCloud.com news</h2>');
+  //CONTRIBOOK_NEWS::show(0,10);
+
+  echo('</td></tr></table>');
+
+
+
+
+?>
