@@ -6,7 +6,7 @@ require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.p
 ?>
 
 <div class="page-header"><h1>ownCloud Planet</h1>
-<a href="/blogfeed" class="btn btn-success">RSS</a>
+<a href="/blogfeed" class="btn btn-success blog-rss-button">RSS</a>
 </div>
 
 	<div class="row">
