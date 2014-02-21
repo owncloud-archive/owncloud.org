@@ -30,3 +30,11 @@ div.footer-text {
 	line-height: 1.25;
 	border-bottom: 0
 }
+
+.blog-rss-button {
+	float: right;
+	margin-top: -3.7em;
+}
+.contribook_bloguserpicture img {
+	margin-right: 0;
+}
