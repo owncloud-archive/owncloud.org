@@ -1,4 +1,4 @@
-<?php //require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); ?>
+<?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <div class="header"><div class="row image"><div class="col-lg-12 col-md-12 col-xs-12 col-sm-12"><img style="display: block; width: 90%; min-width: 320px; margin: 3em auto 10px;" alt="image about owncloud sync" src="/wp-content/themes/owncloudorgnew/assets/img/home/ocsplash.png" />
 </div></div>
 <div class="row">
@@ -62,14 +62,14 @@ Curabitur rhoncus vulputate elit, ut ullamcorper justo ornare pretium. Praesent 
 <div class="row 3-column-lg-md-sm">
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-twitter"></i> The latest twitter posts</h2>
-		<?php //CONTRIBOOK_MICROBLOG::show(0,10); ?>
+		<?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,4); } ?>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-comment"></i> The latest from the forum</h2>
-		<?php //CONTRIBOOK_FORUM::show(0,10); ?>
+		<?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,7); }?>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-cloud"></i> ownCloud.com news</h2>
-		<?php //CONTRIBOOK_NEWS::show(0,10); ?>
+		<?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,7); } ?>
 	</div>
 </div>

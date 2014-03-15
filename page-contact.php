@@ -9,7 +9,9 @@ For the latest news, subscribe to our <a href="http://owncloud.org/feed/">RSS fe
 
 <p>Also find us on <a href="http://joindiaspora.com/u/owncloud"><img alt="" src="http://owncloud.org/diaspora.png" /> Diaspora</a>, <a href="http://identi.ca/owncloud"><img alt="" src="http://identi.ca/favicon.ico" width="16px" height="16px" /> Identi.ca</a> and <a href="http://twitter.com/ownclouders"><img alt="" src="http://owncloud.org/wp-content/uploads/2012/06/twitter.png" width="16px" height="16px" />Twitter</a>.</p>
 <h2>Active core contributors:</h2>
+
 <?php
+if(CONTRIBOOK) {
 
 require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php');
 
@@ -30,3 +32,5 @@ foreach($users as $user) {
 }
 
 echo('</table>');
+
+}

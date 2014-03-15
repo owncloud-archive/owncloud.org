@@ -1,6 +1,5 @@
 <?php
  
-require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php');
 
 ?>
 
@@ -23,6 +22,8 @@ require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.p
 		<div class="page-content">
 <?php
 
+if(CONTRIBOOK) {
+  require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php');
 
   if(isset($_GET['user'])) $user=$_GET['user']; else $user='';
   if(CONTRIBOOK_USER::exist($user)) {
@@ -52,7 +53,7 @@ require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.p
 
   }
 
-
+}
 ?>
 		</div>
 
