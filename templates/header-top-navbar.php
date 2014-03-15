@@ -11,11 +11,13 @@
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
-      <?php
-        if (has_nav_menu('primary_navigation')) :
-          wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
-        endif;
-      ?>
+      <ul id="menu-header" class="nav navbar-nav">
+        <li class="menu-news"><a href="news/">News</a></li>
+        <li class="menu-features"><a href="/features/">Features</a></li>
+        <li class="menu-demo"><a href="http://demo.owncloud.org">Demo</a></li>
+        <li class="menu-documentation"><a href="http://doc.owncloud.org">Documentation</a></li>
+        <li class="menu-install"><a href="/install/">Install</a></li>
+      </ul>
     </nav>
   </div>
 </header>
