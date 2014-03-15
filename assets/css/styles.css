@@ -34,3 +34,8 @@ div.footer-text {
 .contribook_bloguserpicture img {
 	margin-right: 0;
 }
+
+footer div.footer-nav>h4 {
+	font-size: 1.125em;
+	color: #FFFFFF;
+}
