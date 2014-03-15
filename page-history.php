@@ -1,5 +1,5 @@
 <?php get_template_part('templates/parts/title'); ?>
-<a href="/wp-content/uploads/2012/09/owncloud-square-logo.png"><img src="/wp-content/uploads/2012/09/owncloud-square-logo-150x150.png" alt="" title="owncloud-square-logo" width="150" height="150" class="alignleft thumbnail size-thumbnail wp-image-3421" /></a>
+<img src="/wp-content/themes/owncloudorgnew/assets/img/common/owncloud-square-logo.png" alt="" title="owncloud-square-logo" width="150" height="150" class="alignleft thumbnail size-thumbnail wp-image-3421" />
 <p>ownCloud gives you universal access to your files through a web interface or WebDAV. It also provides a platform to easily view & sync your contacts, calendars and bookmarks across all your devices and enables basic editing right on the web.
 Installation has minimal server requirements, doesn’t need special permissions and is quick. ownCloud is extendable via a simple but powerful API for applications and plugins.</p>
 <p>ownCloud started with a keynote by Frank Karlitschek at Camp KDE’10 where he talked about the need of a self-controlled free and open source cloud.</p>
