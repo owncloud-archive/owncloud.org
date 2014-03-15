@@ -15,8 +15,7 @@ process easy and effective for everyone involved.
   * First install the Wordpress Import Plugin (via Tools > Import > Wordpress Import > Install Plugin)
   * Select the content.xml file from the www repo and click upload
   * Select Import
-5. Assign the menus to their locations
-  * In Appearance > Menus > Manage Locations assign the menus to their respective locations
+5. Copy over config.php.sample to config.php and adjust settings as necessary
 6. In Settings > Reading assign a static front page of 'home'
 
 ## Development Process
