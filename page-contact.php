@@ -19,11 +19,11 @@ foreach($users as $user) {
 	$data = CONTRIBOOK_USER::getuser($user);
 	echo('<tr><td style="padding:5px;">');
 	if($data['picture_50'] <> ''){
-		echo('<span class="contribook_microbloguserpicture"><a href="'.CONTRIBOOK_USER_URL.$user.'"><img src="'.CONTRIBOOK_PHOTO_URL.$data['picture_50'].'" border="0" /></a></span>');
+		echo('<span class="contribook_microbloguserpicture"><a href="/contributor/?user='.$user.'"><img src="'.CONTRIBOOK_PHOTO_URL.$data['picture_50'].'" border="0" /></a></span>');
 	}
 	echo('</td><td style="padding:5px;">');
 
-	echo('<a href="'.CONTRIBOOK_USER_URL.$user.'">'.$data['name'].'</a><br />');
+	echo('<a href="/contributor/?user='.$user.'">'.$data['name'].'</a><br />');
 	echo($data['role']);
 
 	echo('</td></tr>');
