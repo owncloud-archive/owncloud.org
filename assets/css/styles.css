@@ -39,3 +39,7 @@ footer div.footer-nav>h4 {
 	font-size: 1.125em;
 	color: #FFFFFF;
 }
+
+i[class*='icon-'] {
+	font-style: normal;
+}
