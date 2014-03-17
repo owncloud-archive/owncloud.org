@@ -5,7 +5,7 @@
 <span class="label label-success label-free">New!</span>
 <p style="text-align: justify; margin-top: 10px;">ownCloud Documents is <strong>collaborative editing</strong> of rich-text documents. The documents can be created from within the
 web-interface or existing documents can be uploaded. Sharing and editing can be done securely in the browser and be shared inside ownCloud or via a public link. User that have an account on the same server can be invited or public invitations can also be sent be email. The editing works on top of normal ODF files that are stored in ownCloud. ownCloud Documents is built in cooperation with <a href="http://kogmbh.com/">KO GmbH</a></p>
-Download and try ownCloud Documents in the <a href="http://download.owncloud.org/community/testing/owncloud-6.0.0beta1.zip">ownCloud 6 beta 1</a> now.
+<p>Watch a feature overview video here: <a href="https://www.youtube.com/watch?v=70pCBnNPdew">YouTube</a><br />Install and try ownCloud 6 <a href="/install">now</a>.</p>
 
 </div>
 </div>
