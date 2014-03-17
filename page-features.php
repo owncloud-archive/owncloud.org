@@ -1,7 +1,7 @@
 <div class="row featurerow topfeature">
 <div class="col-md-6"><iframe src="//www.youtube.com/embed/xsqSLeppxm0" height="310" width="95%" style="margin-top:10px;" allowfullscreen="" frameborder="0"></iframe></div>
 <div class="col-md-6">
-<h2 class="featuretitle" style="margin-top: 0;">ownCloud Documents<span class="label label-success label-free">New!</span></h2>
+<h2 class="featuretitle" style="margin-top: 0;">ownCloud Documents <span class="label label-success label-free">New!</span></h2>
 <p style="text-align: justify; margin-top: 10px;">ownCloud Documents is <strong>collaborative editing</strong> of rich-text documents. The documents can be created from within the
 web-interface or existing documents can be uploaded. Sharing and editing can be done securely in the browser and be shared inside ownCloud or via a public link. User that have an account on the same server can be invited or public invitations can also be sent be email. The editing works on top of normal ODF files that are stored in ownCloud. ownCloud Documents is built in cooperation with <a href="http://kogmbh.com/">KO GmbH</a></p>
 <p>Watch a feature overview video here: <a href="https://www.youtube.com/watch?v=70pCBnNPdew">YouTube</a><br />Install and try ownCloud 6 <a href="/install">now</a>.</p>
