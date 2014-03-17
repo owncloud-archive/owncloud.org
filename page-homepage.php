@@ -66,12 +66,12 @@
 </div>
 <div class="row 2-column-lg-md-sm">
 	<div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
-		<h2><i class="icon-pencil">&nbsp;</i> Get involved</h2>
-		<p>Curabitur rhoncus vulputate elit, ut ullamcorper justo ornare pretium. Praesent orci sem, pellentesque vitae volutpat sit amet, fringilla sit amet lacus. Curabitur sollicitudin felis sit amet orci placerat, a molestie odio mattis. Proin malesuada, felis eu luctus pulvinar, arcu est aliquam est, a mattis magna sem sit amet leo.</p>
+		<h2><i class="icon-rocket">&nbsp;</i> Get involved</h2>
+		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="http://forum.owncloud.org/">Forum</a>, post bugs in the <a href="https://github.com/owncloud/core/issues">tracker</a>, test ownCloud using the <a href="http://doc.owncloud.org/server/7.0/developer_manual/testing/index.html">test plan</a>, hang out in the <a href="http://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>
 	</div>
 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
-	<h2><i class="icon-pencil">&nbsp;</i> Company support</h2>
-	<p>Curabitur rhoncus vulputate elit, ut ullamcorper justo ornare pretium. Praesent orci sem, pellentesque vitae volutpat sit amet, fringilla sit amet lacus. Curabitur sollicitudin felis sit amet orci placerat, a molestie odio mattis. Proin malesuada, felis eu luctus pulvinar, arcu est aliquam est, a mattis magna sem sit amet leo.</p>
+	<h2><i class="icon-briefcase">&nbsp;</i> Company support</h2>
+	<p>ownCloud is perfect for use inside your company. Your data on your servers, under your control. <a href="https://owncloud.com">ownCloud Inc</a> offers Enterprise editions with extensive support.</p>
 </div>
 </div>
 <div class="row 3-column-lg-md-sm">
