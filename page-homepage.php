@@ -1,7 +1,7 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <div class="header"><div class="row image">
 	<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-		<img style="display: block; width: 75%; min-width: 320px; margin: 3em auto 10px;" alt="image about owncloud sync" src="/wp-content/themes/owncloudorgnew/assets/img/home/ocsplash.png" />
+		<img style="display: block; width: 75%; min-width: 320px; margin: 3em auto 10px;" alt="image about owncloud sync" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/ocsplash.png" />
 	</div>
 </div>
 <div class="row">
@@ -46,17 +46,17 @@
 					<div class="row" style="padding-top: 0; padding-bottom: 0;">
 					<div class="col-md-4" style="margin-bottom: 0.5em;">
 						<a id="desktopclient" href=" http://owncloud.org/sync-clients/" target="_blank">
-							<img style="width: 160px;" alt="" src="/wp-content/themes/owncloudorgnew/assets/img/clients/buttons/desktopapp.png" />
+							<img style="width: 160px;" alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/desktopapp.png" />
 						</a>
 					</div>
 					<div class="col-md-4" style="margin-bottom: 0.5em;">
 						<a id="appstore" href="http://itunes.apple.com/us/app/owncloud/id543672169?ls=1&amp;mt=8" target="_blank">
-							<img style="width: 160px;" alt="" src="/wp-content/themes/owncloudorgnew/assets/img/clients/buttons/appstore.png" />
+							<img style="width: 160px;" alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png" />
 						</a>
 					</div>
 					<div class="col-md-4">
 						<a id="googleplay" href="https://play.google.com/store/apps/details?id=com.owncloud.android" target="_blank">
-							<img style="width: 160px;" alt="" src="/wp-content/themes/owncloudorgnew/assets/img/clients/buttons/googleplay.png" />
+							<img style="width: 160px;" alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png" />
 						</a>
 					</div>
 				</div>
