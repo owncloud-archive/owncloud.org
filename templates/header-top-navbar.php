@@ -12,7 +12,7 @@
 
     <nav class="collapse navbar-collapse" role="navigation">
       <ul id="menu-header" class="nav navbar-nav">
-        <li class="menu-news"><a href="news/">News</a></li>
+        <li class="menu-news"><a href="/news/">News</a></li>
         <li class="menu-features"><a href="/features/">Features</a></li>
         <li class="menu-demo"><a href="http://demo.owncloud.org">Demo</a></li>
         <li class="menu-documentation"><a href="http://doc.owncloud.org">Documentation</a></li>
