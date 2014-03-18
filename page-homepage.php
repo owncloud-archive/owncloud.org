@@ -12,7 +12,7 @@
 
 		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 			<h2><i class="icon-filter">&nbsp;</i> Integration</h2>
-			<span>ownCloud uses open standards to allow easy integration with your existing it services. Use external storage providers to expand your storage, use CalDAV, CardDAV, and WebDAV to sync your data along with many more endpoints.</span>
+			<span>ownCloud uses open standards to allow easy integration with your existing services. Use CalDAV, CardDAV, and WebDAV to sync your data along with many more.</span>
 		</div>
 
 		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
@@ -25,7 +25,7 @@
 		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 			<h2><i class="icon-unlock">&nbsp;</i> Open Source</h2>
 			<div>
-				<p>Nullam sit amet tempus nisi. Nulla aliquet laoreet massa eget sodales. Suspendisse massa massa, ullamcorper consequat lacinia tempor, iaculis in libero.</p>
+				<p>All of the code running ownCloud is open source, allowing the public to openly review its security.</p>
 			</div>
 		</div>
 	</div>
@@ -42,7 +42,7 @@
 				</div>
 				<div class="col-sm-6">
 					<h2>Sync your files</h2>
-					<div style="margin-bottom: 1em;">Sync your files using our ownCloud sync clients for desktop and mobile devices.</div>
+					<div style="margin-bottom: 1em;">Sync your files using our sync clients for desktop and mobile devices.</div>
 					<div class="row" style="padding-top: 0; padding-bottom: 0;">
 					<div class="col-md-4" style="margin-bottom: 0.5em;">
 						<a id="desktopclient" href=" http://owncloud.org/sync-clients/" target="_blank">
