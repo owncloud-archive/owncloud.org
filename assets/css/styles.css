@@ -48,3 +48,7 @@ i[class*='icon-'] {
 .home .row {
 	padding-bottom: 20px;
 }
+
+p.socialicons > a > img {
+	margin: 0 4px;
+}
