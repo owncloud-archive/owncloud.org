@@ -36,8 +36,8 @@
 					<h2>Get your ownCloud</h2>
 					<p style="margin-bottom: 1em;">Choose <strong>your preferred way</strong> to install your ownCloud Server.</p>
 					<div class="btn-group">
-						<a class="btn btn-primary btn-lg installbtn" href="/install"  target="_blank"><i class="icon-cloud-download" ></i> Host ownCloud yourself</br><small>For server owners</small></a>
-						<a class="btn btn-default btn-lg hostingbtn" href="/providers/"  target="_blank"><i class="icon-search" ></i> Find hosting</br><small>with a third party</small></a>
+						<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Host ownCloud yourself</br><small>For server owners</small></a>
+						<a class="btn btn-default btn-lg hostingbtn" href="/providers/"><i class="icon-search" ></i> Find hosting</br><small>with a third party</small></a>
 					</div>
 				</div>
 				<div class="col-sm-6">
