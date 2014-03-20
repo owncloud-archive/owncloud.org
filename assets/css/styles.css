@@ -54,7 +54,7 @@ p.socialicons > a > img {
 }
 
 .page.install img {
-	margin: 0;
+	margin-bottom: 0;
 }
 
 .page.install h3 {
