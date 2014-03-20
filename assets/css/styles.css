@@ -60,3 +60,8 @@ div.thumbnail > img {
 .page.install h3 {
 	margin-top: 0;
 }
+
+.home div.wrap > .content {
+	background-size: 85% auto;
+	background-position: top center;
+}
