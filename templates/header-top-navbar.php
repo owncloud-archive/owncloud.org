@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-       <a class="brand" href="<?php echo home_url(); ?>/"><img class="logo" src="/wp-content/themes/owncloudorgnew/assets/img/common/logo_owncloud.svg" title="<?php bloginfo('name'); ?>" itemprop="logo"></a>
+       <a class="brand" href="<?php echo home_url(); ?>/"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/logo_owncloud.svg" title="<?php bloginfo('name'); ?>" itemprop="logo"></a>
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
