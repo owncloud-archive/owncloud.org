@@ -5,9 +5,9 @@
     <p>ownCloud can be installed on Windows and Linux operating systems, and is available via packages, sources, or a one file php installer.</p>
     <br />
     <div class="btn-group">
-      <a data-placement="left" class="btn btn-primary btn-large" href="#downloadModal" role="button" data-toggle="modal" rel="tooltip" title="For server owners"><i class="icon-archive"></i> Tar or Zip File</br><small>For server owners</small></a>
-      <a class="btn btn-default btn-large" data-placement="left" href="#webInstallerModal" role="button" data-toggle="modal" rel="tooltip" title="Best for shared hosting"><i class="icon-code"></i> Web Installer</br><small>For shared hosting</small></a>
-      <a class="btn btn-default btn-large" data-placement="left" href="#repoModal" role="button" data-toggle="modal" rel="tooltip" title="Provides automated updates"><i class="icon-linux"></i> Linux packages</br><small>For automated updates</small></a>
+      <a data-placement="left" class="btn btn-primary btn-large" href="#downloadModal" role="button" data-toggle="modal" rel="tooltip" title="For server owners"><i class="icon-archive"></i> Archive File</br><small>For server owners</small></a>
+      <a class="btn btn-default btn-large" data-placement="left" href="#webInstallerModal" role="button" data-toggle="modal" rel="tooltip" title="Best for shared hosts"><i class="icon-code"></i> Web Installer</br><small>For shared hosts</small></a>
+      <a class="btn btn-default btn-large" data-placement="left" href="#repoModal" role="button" data-toggle="modal" rel="tooltip" title="Provides automated updates"><i class="icon-linux"></i> Packages</br><small>For auto updates</small></a>
     </div>
     <br />
     <br />
@@ -25,8 +25,8 @@
     <p>Synchronise your ownCloud with your computer using our desktop clients. Select one or more directories on your local machine and always have access to your latest files wherever you are.</p>
     <div class="btn-group">
       <a href="https://download.owncloud.com/desktop/stable/ownCloud-1.5.3.2523-setup.exe" class="btn btn-large btn-default<?php if(os_info() == 'Windows'){ echo ' btn-primary'; } ?>"><i class="icon-windows"></i>  Windows<br /><small>XP, Vista, 7 and 8</small></a>
-      <a href="https://download.owncloud.com/desktop/stable/ownCloud-1.5.3.2408.dmg" class="btn btn-large btn-default<?php if(os_info() == 'Mac'){ echo ' btn-primary'; } ?>"><i class="icon-apple"></i> Mac<br /><small>OSX 10.6+, Intel 64 bit</small></a>
-      <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client" class="btn btn-large btn-default<?php if(os_info() == 'Linux'){ echo ' btn-primary'; } ?>"><i class="icon-linux"></i> Linux<br /><small>Fedora, Debian and more...</small></a>
+      <a href="https://download.owncloud.com/desktop/stable/ownCloud-1.5.3.2408.dmg" class="btn btn-large btn-default<?php if(os_info() == 'Mac'){ echo ' btn-primary'; } ?>"><i class="icon-apple"></i> Mac<br /><small>Mac OSX 10.6+, 6</small></a>
+      <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client" class="btn btn-large btn-default<?php if(os_info() == 'Linux'){ echo ' btn-primary'; } ?>"><i class="icon-linux"></i> Linux<br /><small>Multiple distros supported</small></a>
     </div>
     <br /><br />
     <p>For more information on the sync client, checkout the <a href="">documentation</a>.</p>
