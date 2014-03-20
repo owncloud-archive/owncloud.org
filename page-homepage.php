@@ -45,17 +45,17 @@
 					<div style="margin-bottom: 1em;">Sync your files using our sync clients for desktop and mobile devices.</div>
 					<div class="row" style="padding-top: 0; padding-bottom: 0;">
 					<div class="col-md-4" style="margin-bottom: 0.5em;">
-						<a id="desktopclient" href=" http://owncloud.org/sync-clients/" target="_blank">
+						<a id="desktopclient" href="/install#desktop">
 							<img style="width: 160px;" alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/desktopapp.png" />
 						</a>
 					</div>
 					<div class="col-md-4" style="margin-bottom: 0.5em;">
-						<a id="appstore" href="http://itunes.apple.com/us/app/owncloud/id543672169?ls=1&amp;mt=8" target="_blank">
+						<a id="appstore" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>" target="_blank">
 							<img style="width: 160px;" alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png" />
 						</a>
 					</div>
 					<div class="col-md-4">
-						<a id="googleplay" href="https://play.google.com/store/apps/details?id=com.owncloud.android" target="_blank">
+						<a id="googleplay" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>" target="_blank">
 							<img style="width: 160px;" alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png" />
 						</a>
 					</div>
