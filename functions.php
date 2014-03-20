@@ -17,3 +17,22 @@ require_once locate_template('/lib/relative-urls.php');   // Root relative URLs
 require_once locate_template('/lib/widgets.php');         // Sidebars and widgets
 require_once locate_template('/lib/scripts.php');         // Scripts and stylesheets
 require_once locate_template('/lib/custom.php');          // Custom functions
+
+// Custom Functions
+
+/**
+ * @brief Attempts to discover if user is on Windows, Linux or Mac.
+ * @return The OS
+ */
+function os_info() {
+	$oses = array(
+		'Windows' => '(Windows NT 5.1)|(Windows XP)|(Windows NT 5.2)|(Windows NT 6.0)|(Windows NT 6.1)|(Windows NT 6.2)',
+		'Linux' => '(Linux)|(X11)',
+		'Mac' => '(Mac_PowerPC)|(Macintosh)'
+	);
+	$agent = $_SERVER['HTTP_USER_AGENT'];
+	foreach($oses as $os=>$pattern)
+		if (preg_match('/'.$pattern.'/i', $agent)) 
+	return $os;
+	return 'Unknown';
+}
