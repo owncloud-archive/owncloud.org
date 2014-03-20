@@ -52,3 +52,11 @@ i[class*='icon-'] {
 p.socialicons > a > img {
 	margin: 0 4px;
 }
+
+.page.install img {
+	margin: 0;
+}
+
+.page.install h3 {
+	margin-top: 0;
+}
