@@ -564,6 +564,18 @@
 
          ],
          "imagename":"perera.png"
+      },
+      {
+         "title":"allmenda.com",
+         "url":"http:\/\/www.allmenda.com\/cloud-pro",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"allmenda.png"
       }
    ]
 }
