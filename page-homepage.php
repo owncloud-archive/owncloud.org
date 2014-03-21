@@ -12,21 +12,17 @@
 
 		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 			<h2><i class="icon-filter">&nbsp;</i> Integration</h2>
-			<span>ownCloud uses open standards to allow easy integration with your existing services. Use CalDAV, CardDAV, and WebDAV to sync your data along with many more.</span>
+			<p>ownCloud uses open standards to allow easy integration with your existing services. Use CalDAV, CardDAV, and WebDAV to sync your data along with many more.</p>
 		</div>
 
 		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 			<h2><i class="icon-exclamation-circle">&nbsp;</i> Privacy</h2>
-			<div>
-				<p>ownCloud protects your privacy by allowing you to maintain control over your data. Server-side encryption can secure data hosted in external sources.</p>
-			</div>
+			<p>ownCloud protects your privacy by allowing you to maintain control over your data. Server-side encryption can secure data hosted in external sources.</p>
 		</div>
 
 		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 			<h2><i class="icon-unlock">&nbsp;</i> Open Source</h2>
-			<div>
-				<p>All of the code running ownCloud is open source, allowing the public to openly review its security.</p>
-			</div>
+			<p>All of the code running ownCloud is open source, allowing the public to openly review its security and anyone can contribute towards the development of ownCloud.</p>
 		</div>
 	</div>
 	<div class="row" id="getapps">
