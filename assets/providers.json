@@ -537,7 +537,8 @@
          ],
          "freeplans":true,
          "supports":[
-
+            "organisations",
+            "consumers"
          ],
          "imagename":"zaclys.jpg"
       },
