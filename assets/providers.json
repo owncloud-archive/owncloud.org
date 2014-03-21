@@ -552,6 +552,18 @@
 
          ],
          "imagename":"cahoots.png"
+      },
+      {
+         "title":"pereramedia.com",
+         "url":"http:\/\/www.pereramedia.com\/owncloud",
+         "flags":[
+            "en"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"perera.png"
       }
    ]
 }
