@@ -43,7 +43,6 @@
     <a name="mobile"></a>
     <h3><strong>Install Mobile Apps</strong></h3>
     <p>Mobile apps are available in both the Apple App Store and the Google Play Store, allowing you to access, sync and upload your data on the go.</p>
-    <br />
     <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
       <img src="https://owncloud.com/wp-content/themes/owncloud/img/appstore.png">
     </a>
