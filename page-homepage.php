@@ -29,7 +29,7 @@
 		<div class="col-sm-12">
 			<div class="row">
 				<div class="col-sm-6">
-					<h2>Get your ownCloud</h2>
+					<h2><i class="icon-cloud-download">&nbsp;</i> Get your ownCloud</h2>
 					<p style="margin-bottom: 1em;">Choose <strong>your preferred way</strong> to install your ownCloud Server.</p>
 					<div class="btn-group">
 						<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Host ownCloud</br><small>For server owners</small></a>
@@ -37,22 +37,22 @@
 					</div>
 				</div>
 				<div class="col-sm-6">
-					<h2>Sync your files</h2>
+					<h2><i class="icon-refresh">&nbsp;</i> Sync your files</h2>
 					<div style="margin-bottom: 1em;">Sync your files using our sync clients for desktop and mobile devices.</div>
 					<div class="row" style="padding-top: 0; padding-bottom: 0;">
 					<div class="col-md-4" style="margin-bottom: 0.5em;">
 						<a id="desktopclient" href="/install#desktop">
-							<img style="width: 160px;" alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/desktopapp.png" />
+							<img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/desktopapp.png" />
 						</a>
 					</div>
 					<div class="col-md-4" style="margin-bottom: 0.5em;">
 						<a id="appstore" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>" target="_blank">
-							<img style="width: 160px;" alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png" />
+							<img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png" />
 						</a>
 					</div>
 					<div class="col-md-4">
 						<a id="googleplay" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>" target="_blank">
-							<img style="width: 160px;" alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png" />
+							<img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png" />
 						</a>
 					</div>
 				</div>
@@ -60,7 +60,7 @@
 		</div>
 	</div>
 </div>
-<div class="row 2-column-lg-md-sm">
+<div class="row 2-column-lg-md-sm" style="margin-top: -0.5em">
 	<div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
 		<h2><i class="icon-rocket">&nbsp;</i> Get involved</h2>
 		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="http://forum.owncloud.org/">Forum</a>, post bugs in the <a href="https://github.com/owncloud/core/issues">tracker</a>, test ownCloud using the <a href="http://doc.owncloud.org/server/7.0/developer_manual/testing/index.html">test plan</a>, hang out in the <a href="http://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>

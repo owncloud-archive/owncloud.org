@@ -10,6 +10,7 @@
 	text-align: center;
 	display: block;
 	opacity: 0.9;
+	height: 60px;
 }
 
 div.footer-text {
@@ -64,4 +65,20 @@ div.thumbnail > img {
 .home div.wrap > .content {
 	background-size: 85% auto;
 	background-position: top center;
+}
+
+.page-content-header > div > h1 {
+	display: inline;
+	margin-top: 0;
+}
+
+.page-content-header > div > a.rss-button {
+	vertical-align: middle;
+	margin-left: 20px;
+	color: rgb(206, 91, 0);
+}
+
+.page-content-header > div > form > input[type=text] {
+	display: inline;
+	width: 78%;
 }
