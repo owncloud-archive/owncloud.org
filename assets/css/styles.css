@@ -82,3 +82,32 @@ div.thumbnail > img {
 	display: inline;
 	width: 78%;
 }
+
+.banner ul#menu-header.nav>li.menu-commercial>a{
+	border-bottom: 2px solid #e8733b;
+	
+}
+
+.banner ul#menu-header.nav>li>a:hover {
+	border-bottom: 2px solid white;
+}
+
+.banner ul#menu-header.nav>li>a {
+	padding-bottom: 6px;
+}
+
+.banner ul#menu-header.nav>li:not(.menu-install)>a {
+	margin-bottom: 19px;
+}
+
+/*
+@media (max-width: 767px) {
+	ul {
+		float: left;
+		margin-left: 20px;
+		margin-bottom: 35px;
+	}
+	body {
+		background-color:grey;
+	}
+}*/
