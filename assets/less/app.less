@@ -222,6 +222,10 @@ code {
        background-color: #428BCA; 
        border-radius: 6px; 
        border-color: #357EBD; 
+       &:hover, &:focus, &:active {
+	 background-color: #3276B1;
+         border-color: #285E8E;
+      }
     }
      > li.menu-install a {
        padding: 7px 16px 7px 0; 
@@ -349,6 +353,26 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+@media (max-width: 768px) {
+  a.brand {
+    padding-left: 15px;
+  }
+  .banner ul#menu-header.nav {
+    float: left;
+    > li {
+      padding-top: 7px;
+    &.menu-install {
+      margin-top: 23px;
+      margin-bottom: 10px;
+     }
+    &:not(.menu-install) > a {
+      height: 1.5em;
+      margin-bottom: 15px;
+    }
+  }
+}
+}
 
 @media (min-width: @screen-sm-min) { }
 

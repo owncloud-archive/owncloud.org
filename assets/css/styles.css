@@ -88,7 +88,7 @@ div.thumbnail > img {
 	
 }
 
-.banner ul#menu-header.nav>li>a:hover {
+.banner ul#menu-header.nav>li:not(.menu-install) >a:hover {
 	border-bottom: 2px solid white;
 }
 
@@ -96,8 +96,21 @@ div.thumbnail > img {
 	padding-bottom: 6px;
 }
 
-.banner ul#menu-header.nav>li:not(.menu-install)>a {
+@media (min-width: 992px) {
+  .banner ul#menu-header.nav>li:not(.menu-install)>a {
+	width: auto;
 	margin-bottom: 19px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .banner ul#menu-header.nav {
+	 width: 65%;
+	padding-top: 0;
+   }
+   .banner ul#menu-header.nav>li:not(.menu-install)>a {
+	margin-bottom: 10px;
+   }
 }
 
 /*
