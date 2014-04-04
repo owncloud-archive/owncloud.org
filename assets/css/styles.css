@@ -103,12 +103,13 @@ div.thumbnail > img {
   }
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .banner ul#menu-header.nav {
 	 width: 65%;
 	padding-top: 0;
    }
    .banner ul#menu-header.nav>li:not(.menu-install)>a {
+	height: 1.5em;
 	margin-bottom: 10px;
    }
 }
