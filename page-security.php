@@ -1,7 +1,7 @@
 <?php get_template_part('templates/parts/title'); ?>
 <div class="row">
 <div class="span12">
-<p><div class="alert alert-error"><strong>Heads up!</strong> We appreciate every report, however, please notice that our team is very busy and therefore won't respond to reports which we rate as "low" severity or invalid (e.g. DoS in Apache or "X-Powered-By" headers). So do us and yourself a favor: Don't report such things, we will ignore it.</div></p>
+<p><div class="alert alert-danger"><strong>Heads up!</strong> We appreciate every report, however, please notice that our team is very busy and therefore won't respond to reports which we rate as "low" severity or invalid (e.g. DoS in Apache or "X-Powered-By" headers). So do us and yourself a favor: Don't report such things, we will ignore it.</div></p>
 <p>If you've discovered a security issue with ownCloud, please read our responsible disclosure policy and contact <strong>security (at) owncloud (dot) com</strong>. Your report should include:
 <ul>
 	<li>Product version</li>
@@ -27,7 +27,7 @@ In order to facilitate secure submission of security issues, we provide the foll
 </div>
 </div>
 
-<div class="alert alert-error"><strong>Note: </strong>Make sure to not disclose details in the subject, as it will not be encrypted!</div>
+<div class="alert alert-danger"><strong>Note: </strong>Make sure to not disclose details in the subject, as it will not be encrypted!</div>
 <div class="row">
 <div class="span7">
 <h3>Full Public Key for Import</h3>
