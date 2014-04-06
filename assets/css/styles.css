@@ -73,7 +73,7 @@ div.thumbnail > img {
 }
 
 .page-content-header > div > a.rss-button {
-	vertical-align: middle;
+	vertical-align: baseline;
 	margin-left: 20px;
 	color: rgb(206, 91, 0);
 }
