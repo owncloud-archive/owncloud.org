@@ -21,7 +21,7 @@ $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-1.
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-1.5.3.2408.dmg';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = 'http://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client';
 
-$DOWNLOAD_SERVER_BASE = 'http_support()://download.owncloud.org/community/';
+$DOWNLOAD_SERVER_BASE = 'https://download.owncloud.org/community/';
 $DOWNLOAD_SERVER_STABLE_TAR = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.tar.bz2';
 $DOWNLOAD_SERVER_STABLE_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.tar.bz2.md5';
 $DOWNLOAD_SERVER_STABLE_TAR_SHA256 = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.tar.bz2.sha265';
