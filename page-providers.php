@@ -23,15 +23,15 @@ foreach($providers as $provider) {
 ?>
 
 
-<div class="row">
+<div class="row col-xs-12">
 	<h2>Supported Providers</h2>
 </div>
 <?php displayProviders($supportedProviders); ?>
-<div class="row">
+<div class="row col-xs-12">
 	<h2>Free Plans</h2>
 </div>
 <?php displayProviders($freeProviders); ?>
-<div class="row">
+<div class="row col-xs-12">
 	<h2>Other Providers</h2>
 </div>
 <?php displayProviders($otherProviders); ?>
@@ -39,24 +39,15 @@ foreach($providers as $provider) {
 
 function displayProviders($providers) {
 	$numProviders = count($providers);
-	$rows = ceil($numProviders/3);
-	$provider = 0;
-
-	for($i=0; $i<$rows; $i++) {
-		echo '<div class="row 3-column-lg-md-sm">';
-		for($j=0; $j<3; $j++) {
-			// Check for remaining providers
-			if(($numProviders - (($i*3)+$j)) > 0) {
-				echo '<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">';
-				echo '<div class="thumbnail">';
-				echo '<img src="' . get_template_directory_uri() . '/assets/img/providers/' . $providers[$provider]->imagename . '"/>';
-				echo '</div>';
-				echo '</div>';
-				$provider++;
-			}
+		echo '<div class="row">';
+		for($provider=0; $provider<$numProviders; $provider++) {
+			echo '<div class="col-xs-12 col-sm-6 col-md-4 ">';
+			echo '<div class="thumbnail">';
+			echo '<img src="' . get_template_directory_uri() . '/assets/img/providers/' . $providers[$provider]->imagename . '"/>';
+			echo '</div>';
+			echo '</div>';
 		}
 		echo '</div>';
-	}
 }
 
 ?>
