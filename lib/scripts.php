@@ -11,7 +11,7 @@
  * 3. /theme/assets/js/main.min.js (in footer)
  */
 function roots_scripts() {
-  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '5ca5accc9a4ef9729b8cfce7c4f0b039');
+  wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '684c112901a9cb53ad274388f277291a');
   wp_enqueue_style('roots_styles', get_template_directory_uri() . '/assets/css/styles.css', false, '73876ee3bdca60f44cab5ea43b8e5aec');
   wp_enqueue_style('roots_font_awesome', get_template_directory_uri() . '/assets/css/font-awesome.min.css', false, '73876ee3bdca60f44cab5ea43b8e5aec');
 
