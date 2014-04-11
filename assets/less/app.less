@@ -194,12 +194,54 @@ code {
    Providers
    ========================================================================== */
 body.providers div.thumbnail {
-  width: 300px;
+  width: 296px;
   max-width: none;
-  img {
+  padding: 1px 2px;
+  div.bannerhead {
+    background-color: #EFEFEF;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 3px;
+    padding-left: 3px;
+  img.flag {
+    display: inline;
+    margin-right: 5px;
+    margin-bottom: 3px;
+  }
+  span.freeplans {
+    float: right;
+    padding-right: 3px;
+  }
+  }
+  img.banner {
     width: 290px;
     height: 70px;
+    margin-right: 0;
+    margin-bottom: 0;
     max-width: none;
+  }
+  div.bannerfoot {
+    background-color: #EFEFEF;
+    border-top: 1px solid #DDDDDD;
+    margin-top: 3px;
+    padding-top: 3px;
+    padding-left: 3px;
+    min-height: 27px;
+    span {
+      font-size: 0.875em;
+      display: inline;
+    }
+    ul {
+      display: inline-block;
+      margin-bottom: 0;
+      li {
+      font-size: 0.875em;
+      padding-left: 5px;
+      padding-right: 5px;
+      }
+      li:not(:last-child) {
+	border-right: 1px solid #1D2D44;
+      }
+    }
   }
 }
 

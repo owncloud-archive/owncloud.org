@@ -42,8 +42,29 @@ function displayProviders($providers) {
 		echo '<div class="row">';
 		for($provider=0; $provider<$numProviders; $provider++) {
 			echo '<div class="col-xs-12 col-sm-6 col-md-4 ">';
-			echo '<div class="thumbnail">';
-			echo '<img src="' . get_template_directory_uri() . '/assets/img/providers/' . $providers[$provider]->imagename . '"/>';
+			echo '<a href="' . $providers[$provider]->url . '" title="' . $providers[$provider]->title . '"><div class="thumbnail">';
+			echo '<div class="bannerhead">';
+			foreach($providers[$provider]->flags as $flag) {
+				echo '<img class="flag" src="' . get_template_directory_uri() . '/assets/img/flags/' . $flag . '.gif"/>';
+			}
+			if($providers[$provider]->freeplans) {
+				echo '<span class="text-primary freeplans">Free plans!</span>';
+			}
+			echo '</div>';
+			echo '<img class="banner" src="' . get_template_directory_uri() . '/assets/img/providers/' . $providers[$provider]->imagename . '"/>';
+
+			echo '</a><div class="bannerfoot">';
+			if(!empty($providers[$provider]->supports)) {
+				echo '<span>Ideal for: </span>';
+				echo '<ul class="list-unstyled list-inline">';
+			foreach($providers[$provider]->supports as $supporting) {
+				echo '<li class="text-primary">' . $supporting . '</li>';
+			}
+				echo '</ul>';
+
+}
+			echo '</div>';
+
 			echo '</div>';
 			echo '</div>';
 		}
