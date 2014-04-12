@@ -58,7 +58,7 @@ If you are new to git, do the <a href="http://git-scm.com/course/svn.html">git c
 	<li>Function names in camelCase starting with a lower character</li>
 	<li>Class names are CamelCase starting with an upper case character</li>
 	<li>Opening brackets in the same line as the statement</li>
-	<li>Closing brackets in a sepearate line</li>
+	<li>Closing brackets in a separate line</li>
 	<li>No global variables</li>
 	<li>No global functions</li>
 	<li>Double quotes in HTML, single quotes in JavaScript &amp; PHP</li>
