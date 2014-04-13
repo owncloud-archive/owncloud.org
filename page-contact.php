@@ -7,7 +7,7 @@ For the latest news, subscribe to our <a href="http://owncloud.org/feed/">RSS fe
 
 <p>For reporting vulnerabilities, read <a href="http://owncloud.org/security">Security</a>.</p>
 
-<p class="socialicons">Also find us on <a href="http://joindiaspora.com/u/owncloud"><img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/diaspora.png" /> Diaspora</a>, <a href="http://identi.ca/owncloud"><img alt="" src="http://identi.ca/favicon.ico" width="16px" height="16px" /> Identi.ca</a> and <a href="http://twitter.com/ownclouders"><img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitter.png" width="16px" height="16px" /> Twitter</a>.</p>
+<p class="socialicons">Also find us on <a href="https://www.facebook.com/owncloud">Facebook</a>, <a href="https://plus.google.com/102805591550379137055">Google+</a> and <a href="http://twitter.com/ownclouders"><img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitter.png" width="16px" height="16px" /> Twitter</a>.</p>
 <h2>Active core contributors:</h2>
 
 <?php
