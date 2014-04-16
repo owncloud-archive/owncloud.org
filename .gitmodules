@@ -1,0 +1,3 @@
+[submodule "security-advisories"]
+	path = security-advisories
+	url = git@github.com:owncloud/security-advisories.git

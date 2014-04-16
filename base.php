@@ -1,5 +1,6 @@
 <?php require get_template_directory().'/config.php'; ?>
-<?php require get_template_directory().'/strings.php'; ?>
+<?php require get_template_directory().'/strings.php';
+if(!is_page('oc-news')) { ?>
 <?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
 
@@ -26,3 +27,8 @@
 
 </body>
 </html>
+<?php 
+  } else { 
+    include roots_template_path(); 
+  } 
+?>
