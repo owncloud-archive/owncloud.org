@@ -1,7 +1,7 @@
 <?php get_template_part('templates/parts/title'); ?>
 <p>Join our <a href="http://webchat.freenode.net?channels=owncloud" target="_blank">#owncloud chat room</a>.
 
-For general questions and discussions, subscribe to our <a href="http://mailman.owncloud.org/mailman/listinfo/user" target="_blank">mailing list</a>!
+For general questions and discussions, subscribe to our <a href="http://mailman.owncloud.org/mailman/listinfo/user" target="_blank">mailing list</a> or use our <a href="https://forum.owncloud.org" target="_blank">community forums</a>!
 
 For the latest news, subscribe to our <a href="http://owncloud.org/feed/">RSS feed</a>.</p>
 
