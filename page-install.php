@@ -22,7 +22,7 @@
 	  </div>
 	</div>
 <!--  Mask instructions server -->
-	   <a href="#" class="mask close"></a>
+	   <a href="#" class="mask"></a>
 
 <!--  Instructions web installer  -->
 	<div id="instructions-web">
@@ -48,7 +48,7 @@
 	    </div>
 	  </div>
 <!--  Mask  instructions web installer -->
-	  <a href="#" class="mask close"></a>
+	  <a href="#" class="mask"></a>
 
 <!--  Instructions packages -->
 	  <div id="instructions-packages">
@@ -72,7 +72,7 @@
 	    </div>
 	  </div>
 <!--  Mask instructions packages -->
-	  <a href="#" class="mask close"></a>
+	  <a href="#" class="mask"></a>
 
 <!--  Server  -->
   <div class="col-md-6">
