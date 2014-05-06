@@ -25,6 +25,11 @@ if(!is_page('oc-news')) { ?>
 
   <?php get_template_part('templates/footer'); ?>
 
+<?php
+if(!is_page('page-install')) {
+  get_template_part('install-instructions');
+  } ?>
+
 </body>
 </html>
 <?php 

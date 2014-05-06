@@ -193,25 +193,28 @@ code {
 /* ==========================================================================
    Install page
    ========================================================================== */
-body.install div.installers {
+body.install {
   div#instructions-server,
   div#instructions-web,
   div#instructions-packages {
     height: auto%;
-    width: 96%;
     margin: 0 auto;
-    background: #F6F6F6;
     color: #1D2D44;
-    padding: 10px;
     position: absolute;
-    top: 5%;
-    left: 2%;
+    top: 0;
+    right: 0;
+    left: 0;
     z-index: 1000;
     display: none;
-    border-radius:4px;
     div.row {
       margin: 0;
       }
+    div.instructions {
+      background: #F6F6F6;
+      margin-top: 9%;
+      padding: 10px;
+      border-radius:4px;
+    }
   }
   a.mask {
     position: fixed;
@@ -498,6 +501,38 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+@media (min-width: 992px) and (max-width: 1199px){
+    body.install div#instructions-server div.instructions,
+    body.install div#instructions-web div.instructions,
+    body.install div#instructions-packages div.instructions {
+    margin-top: 11%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body.install div#instructions-server div.instructions,
+    body.install div#instructions-web div.instructions,
+    body.install div#instructions-packages div.instructions {
+    margin-top: 16%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    body.install div#instructions-server div.instructions,
+    body.install div#instructions-web div.instructions,
+    body.install div#instructions-packages div.instructions {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 499px) {
+    body.install div#instructions-server div.instructions,
+    body.install div#instructions-web div.instructions,
+    body.install div#instructions-packages div.instructions {
+    margin-top: 32%;
+  }
+}
 
 @media (max-width: 767px) {
   a.brand {
