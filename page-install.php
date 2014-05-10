@@ -47,16 +47,41 @@
     <a name="mobile"></a>
     <h3><strong>Install Mobile Apps</strong></h3>
     <p>Mobile apps are available in both the Apple App Store and the Google Play Store, allowing you to access, sync and upload your data on the go.</p>
-    <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
+    <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
     </a>
-    <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
+    <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
     </a>
     <br />
     <p>Looking for the <a href="https://github.com/owncloud/android">Android Sources</a>?</p>
     <br />
     <br />
+  </div>
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/androidmodel.png" alt="ownCloud Desktop Client" />
+    </div>
+  </div>
+</div>
+
+<!--  Testing  -->
+<div class="row">
+  <div class="col-md-6">
+    <a name="mobile"></a>
+    <h3><strong>Help with testing and development</strong></h3>
+    <p>Our mobile apps are in constant development and help is always needed in testing the latest bugfixes and features. Please report any issues to the <a href="https://github.com/owncloud/core/issues" target="_blank">tracker</a>.</p>
+    <h4>ownCloud Server <small>Daily build</small></h4>
+    <div class="btn-group">
+      <a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-large btn-default"><i class="icon-archive"></i>  Archive File</a>
+      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" class="btn btn-large btn-default"><i class="icon-linux"></i> Linux Packages</a>
+    </div>
+    <h4>Desktop Clients <small>1.6.0 beta 2</small></h4>
+    <div class="btn-group">
+      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN; ?>" class="btn btn-large btn-default"><i class="icon-windows"></i>  Windows</a>
+      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC; ?>" class="btn btn-large btn-default"><i class="icon-apple"></i> Mac</a>
+      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>" class="btn btn-large btn-default"><i class="icon-linux"></i> Linux</a>
+    </div>
   </div>
   <div class="col-md-6">
     <div class="thumbnail">
