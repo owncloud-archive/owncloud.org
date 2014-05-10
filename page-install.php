@@ -48,10 +48,10 @@
     <h3><strong>Install Mobile Apps</strong></h3>
     <p>Mobile apps are available in both the Apple App Store and the Google Play Store, allowing you to access, sync and upload your data on the go.</p>
     <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
-      <img src="/assets/img/clients/buttons/appstore.png">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
     </a>
     <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-      <img src="/assets/img/clients/buttons/googleplay.png">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
     </a>
     <br />
     <p>Looking for the <a href="https://github.com/owncloud/android">Android Sources</a>?</p>
