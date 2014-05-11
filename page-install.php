@@ -14,7 +14,7 @@
   </div>
   <div class="col-md-6">
     <div class="thumbnail">
-      <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/server.png" alt="ownCloud Server" />
+      <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
     </div>
   </div>
 </div ><!-- end of div class="row installers" -->
@@ -36,7 +36,7 @@
   </div>
   <div class="col-md-6">
     <div class="thumbnail">
-      <img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/desktopclientsetup.png" alt="ownCloud Android App" />
+      <img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/clientsettingsandtray.png" alt="ownCloud Desktop Client" />
     </div>
   </div>
 </div>
@@ -60,7 +60,7 @@
   </div>
   <div class="col-md-6">
     <div class="thumbnail">
-      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/androidmodel.png" alt="ownCloud Desktop Client" />
+      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/androidmodel.png" alt="ownCloud Mobile Client" />
     </div>
   </div>
 </div>
@@ -85,7 +85,7 @@
   </div>
   <div class="col-md-6">
     <div class="thumbnail">
-      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/androidmodel.png" alt="ownCloud Desktop Client" />
+      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/codebasephp.png" alt="ownCloud Code" />
     </div>
   </div>
 </div>
