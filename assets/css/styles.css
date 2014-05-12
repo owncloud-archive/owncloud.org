@@ -6,11 +6,14 @@
 	padding: 15px 0;
 }
 
+div#getapps li{
+	padding-left: 0;
+}
 #appstore, #googleplay, #desktopclient {
-	text-align: center;
-	display: block;
 	opacity: 0.9;
-	height: 60px;
+}
+img#sync-button {
+	vertical-align: text-bottom;
 }
 
 div.footer-text {

@@ -30,7 +30,7 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<h2><i class="icon-cloud-download">&nbsp;</i> Get your ownCloud</h2>
-					<p style="margin-bottom: 1em;">Choose <strong>your preferred way</strong> to install your ownCloud Server.</p>
+					<p>Choose <strong>your preferred way</strong> to install your ownCloud Server.</p>
 					<div class="btn-group">
 						<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Host ownCloud</br><small>For server owners</small></a>
 						<a class="btn btn-default btn-lg hostingbtn" href="/providers/"><i class="icon-search" ></i> Find hosting</br><small>with a third party</small></a>
@@ -38,37 +38,45 @@
 				</div>
 				<div class="col-sm-6">
 					<h2><i class="icon-refresh">&nbsp;</i> Sync your files</h2>
-					<div style="margin-bottom: 1em;">Sync your files using our sync clients for desktop and mobile devices.</div>
-					<div class="row" style="padding-top: 0; padding-bottom: 0;">
-					<div class="col-md-4" style="margin-bottom: 0.5em;">
-						<a id="desktopclient" href="/install#desktop">
-							<img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/desktopapp.png" />
+					<p>Sync your files using our sync clients for desktop and mobile devices.</p>
+					<ul class="list-unstyled list-inline">
+					  <li>
+						<a id="desktopclient" href="/install#desktop" role="button">
+							<img id="sync-button" alt="desktopclient" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/desktopapp.png" />
 						</a>
-					</div>
-					<div class="col-md-4" style="margin-bottom: 0.5em;">
-						<a id="appstore" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>" target="_blank">
-							<img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png" />
+					  </li>
+					  <li>
+						<a id="appstore" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>" target="_blank"  role="button">
+							<img id="sync-button" alt="appstore" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png" />
 						</a>
-					</div>
-					<div class="col-md-4">
-						<a id="googleplay" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>" target="_blank">
-							<img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png" />
+					  </li>
+					  <li>
+						<a id="googleplay" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>" target="_blank"  role="button">
+							<img id="sync-button" alt="googleplay" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png" />
 						</a>
-					</div>
-				</div>
+					  </li>
+					</ul>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="row 2-column-lg-md-sm" style="margin-top: -0.5em">
-	<div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
+	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-rocket">&nbsp;</i> Get involved</h2>
 		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="http://forum.owncloud.org/">Forum</a>, post bugs in the <a href="https://github.com/owncloud/core/issues">tracker</a>, test ownCloud using the <a href="http://doc.owncloud.org/server/7.0/developer_manual/testing/index.html">test plan</a>, hang out in the <a href="http://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>
 	</div>
-<div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
+	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
+		<h2><i class="icon-users">&nbsp;</i> Join and help</h2>
+		<div class="join">
+			<a class="btn btn-block btn-primary btn-lg join-button" href="http://forum.owncloud.org/" role="button">Join development</a>
+			<a class="btn btn-block btn-primary btn-lg join-button" href="https://github.com/owncloud/core/issues" role="button">Report an issue</a>
+			<a class="btn btn-block btn-primary btn-lg join-button" href="https://www.transifex.com/projects/p/owncloud/" role="button">Help translating</a>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 	<h2><i class="icon-briefcase">&nbsp;</i> Company support</h2>
 	<p>ownCloud is perfect for use inside your company. Your data on your servers, under your control. <a href="https://owncloud.com">ownCloud Inc</a> offers Enterprise editions with extensive support.</p>
-</div>
+	</div>
 </div>
 <div class="row 3-column-lg-md-sm">
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
