@@ -68,7 +68,7 @@
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-users">&nbsp;</i> Join and help</h2>
 		<div class="join">
-			<a class="btn btn-block btn-primary btn-lg join-button" href="http://forum.owncloud.org/" role="button">Join development</a>
+			<a class="btn btn-block btn-primary btn-lg join-button" href="/contribute" role="button">Join development</a>
 			<a class="btn btn-block btn-primary btn-lg join-button" href="https://github.com/owncloud/core/issues" role="button">Report an issue</a>
 			<a class="btn btn-block btn-primary btn-lg join-button" href="https://www.transifex.com/projects/p/owncloud/" role="button">Help translating</a>
 		</div>
