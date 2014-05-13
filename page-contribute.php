@@ -6,7 +6,7 @@
 	<li><a href="https://www.transifex.com/projects/p/owncloud/">Translate ownCloud to your language</a></li>
 	<li>Help coding (see below) and check the <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open/">Junior Jobs</a></li>
 	<li>Check out the <a href="https://github.com/owncloud/core/wiki/GSoC,-GCI-and-OPW">project ideas page</a> (and don't hesitate to contact the mentor of the project you're interested in!)</li>
-	<li><a href="http://doc.owncloud.org/server/7.0/developer_manual/app/index.html">Develop Apps</a></li>
+	<li><a href="<?php echo $DOCUMETNATION_DEVELOPER; ?>">Develop Apps</a></li>
 	<li>Help out with the <a href="https://github.com/owncloud/www">website</a> and <a href="https://github.com/owncloud/documentation/blob/stable6/CONTRIBUTING.rst">write documentation</a> (contact tpn or deryo in the irc channel)</li>
 	<li>Spread the word, tell your friends about it, write a blog post!</li>
 </ul>
@@ -24,7 +24,7 @@ git clone https://github.com/owncloud/core ./owncloud<br />
 git clone https://github.com/owncloud/apps<br />
 git clone https://github.com/owncloud/3rdparty</pre><br />
 ownCloud will automatically detect the 3rdparty folder if it's either in <code>/path/to/webserver/owncloud</code> or in <code>/path/to/webserver/.</code></li>
-	<li>If you want to use an app from the app repository, you have to <a href="http://doc.owncloud.org/server/6.0/admin_manual/configuration/configuration_apps.html#parameters">setup multiple app directories</a> or symlink each app like e.g.
+	<li>If you want to use an app from the app repository, you have to <a href="<?php echo $DOCUMETNATION_ADMIN; ?>configuration/configuration_apps.html#parameters">setup multiple app directories</a> or symlink each app like e.g.
 <pre>ln -s /path/to/webserver/apps/news /path/to/webserver/owncloud/apps/news</pre></li>
 	<li><a href="/install/">Install ownCloud</a></li>
 	<li>Dive into the code!</li>
