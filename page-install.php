@@ -72,8 +72,8 @@
     <h3><strong>Integrate with your ownCloud</strong></h3>
     <p>ownCloud is compatible with a large range of 3rd party applications and services. Use ownCloud to store your data and better integrate with your web services.</p>   
     <div class="btn-group">
-      <a href="https://github.com/owncloud/core/wiki/Apps" class="btn btn-large btn-primary btn-default'" target="_blank"><i class="icon-bars"></i>  Explore applications</a>
-      <a href="https://github.com/owncloud/core/wiki/Apps#integration-efforts" class="btn btn-large btn-default" target="_blank"><i class="icon-code"></i> Integrate ownCloud in your app</a>
+      <a href="https://github.com/owncloud/core/wiki/Apps" class="btn btn-large btn-primary btn-default'" target="_blank"><i class="icon-compass"></i>  Explore applications</a>
+      <a href="https://github.com/owncloud/core/wiki/Apps#integration-efforts" class="btn btn-large btn-default" target="_blank"><i class="icon-filter"></i> Integrate ownCloud in your app</a>
     </div>
   </div>
   <div class="col-md-6">
