@@ -16,6 +16,7 @@
         <li class="menu-features"><a href="/features/">Features</a></li>
         <li class="menu-demo"><a href="http://demo.owncloud.org">Demo</a></li>
         <li class="menu-documentation"><a href="http://doc.owncloud.org">Documentation</a></li>
+        <li class="menu-contribute"><a href="/contribute/">Contribute</a>
         <li class="menu-commercial"><a target="_blank" href="https://owncloud.com">Enterprise Edition <span style="font-size: 16px">&#x2197;</span></span></a></li>
         <li class="menu-install"><a href="/install/">Install</a></li>
       </ul>
