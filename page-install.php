@@ -65,6 +65,21 @@
   </div>
 </div>
 
+<!-- Integrate -->
+<div class="row">
+  <div class="col-md-6">
+    <a name="mobile"></a>
+    <h3><strong>Integrate ownCloud</strong></h3>
+    <p>ownCloud is compatible with a large range of 3rd party applications and services. Use ownCloud to store your data and better integrate with your web services.</p>   
+    <a target="_blank" href="https://github.com/owncloud/core/wiki/Apps" class="btn btn-lg btn-default">Explore applications</a>
+  </div>
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/logocloud.png" alt="ownCloud Compatible locations" />
+    </div>
+  </div>
+</div>
+
 <!--  Testing  -->
 <div class="row">
   <div class="col-md-6">
