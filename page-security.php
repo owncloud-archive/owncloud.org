@@ -9,27 +9,14 @@
 	<li>Reproduction steps</li>
 </ul>
 A member of the security team will confirm the vulnerability, determine its impact, and develop a fix. The fix will be applied to the master branch, tested, and packaged in the next security release. The vulnerability will be publicly announced after the release. Finally, your name will be added to the <a href="/security/hall-of-fame">hall of fame</a> as a thank you from the entire ownCloud community.</p>
-
-</div>
-</div>
-
-<div class="row">
-<div class="span12">
-
 <h3>PGP Key for Submissions</h3>
 In order to facilitate secure submission of security issues, we provide the following PGP key for confidential submission:
-
 <ul>
-<li>Key ID: <code>61709BEF</code></li>
-<li>Fingerprint: <code>491F D927 C0D9 E24E 8AD7  C167 DC3F 85FE 6170 9BEF</code></li>
-<li>Expires: <code>2018-02-11</code></li>
+	<li>Key ID: <code>61709BEF</code></li>
+	<li>Fingerprint: <code>491F D927 C0D9 E24E 8AD7  C167 DC3F 85FE 6170 9BEF</code></li>
+	<li>Expires: <code>2018-02-11</code></li>
 </ul>
-</div>
-</div>
-
 <div class="alert alert-danger"><strong>Note: </strong>Make sure to not disclose details in the subject, as it will not be encrypted!</div>
-<div class="row">
-<div class="span7">
 <h3>Full Public Key for Import</h3>
 
 <pre class="prettyprint linenums">
@@ -110,11 +97,7 @@ a8eVQJoOwzMlvGVdbZISQingUPPF5nWuLPIY448QVyRTPQSYrrk/3FE8GRb5QaaI
 =MbmV
 -----END PGP PUBLIC KEY BLOCK-----
 </pre>
-</div>
-</div>
 
-<div class="row">
-<div class="span12">
 <h3>Responsible Disclosure Policy</h3>
 The ownCloud community asks that you comply with the following guidelines when researching and reporting security vulnerabilities:
 <ul>
