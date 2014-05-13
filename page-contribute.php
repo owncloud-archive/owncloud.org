@@ -1,4 +1,5 @@
 <?php get_template_part('templates/parts/title'); ?>
+<p>Thank you for taking an interest in contributing to the ownCloud project. Please read the information below which will help you get started.
 <h2>How you can contribute:</h2>
 <ul>
 	<li><a href="https://github.com/owncloud/core/issues">Report an issue on our bug tracker</a></li>
@@ -12,19 +13,19 @@
 If you have any questions, <a href="/contact/">we are happy to help you</a>.
 <h2>Set up your development environment</h2>
 <ol>
-	<li>Install git, for example by: <code>sudo apt-get install git</code></li>
+	<li>Install git, for example by:<pre>sudo apt-get install git</pre></li>
 	<li>The following folder structure is suggested:<br />
 <code>/path/to/webserver/owncloud - core repo<br />
 /path/to/webserver/apps - apps repo<br />
 /path/to/webserver/3rdparty - 3rdparty repo</code><br />
 Open a terminal and:<br />
-<code>cd /path/to/webserver<br />
+<pre>cd /path/to/webserver<br />
 git clone https://github.com/owncloud/core ./owncloud<br />
 git clone https://github.com/owncloud/apps<br />
-git clone https://github.com/owncloud/3rdparty</code><br />
+git clone https://github.com/owncloud/3rdparty</pre><br />
 ownCloud will automatically detect the 3rdparty folder if it's either in <code>/path/to/webserver/owncloud</code> or in <code>/path/to/webserver/.</code></li>
 	<li>If you want to use an app from the app repository, you have to <a href="http://doc.owncloud.org/server/6.0/admin_manual/configuration/configuration_apps.html#parameters">setup multiple app directories</a> or symlink each app like e.g.
-<code>ln -s /path/to/webserver/apps/news /path/to/webserver/owncloud/apps/news</code></li>
+<pre>ln -s /path/to/webserver/apps/news /path/to/webserver/owncloud/apps/news</pre></li>
 	<li><a href="/install/">Install ownCloud</a></li>
 	<li>Dive into the code!</li>
 </ol>
@@ -36,8 +37,8 @@ If you are new to git, do the <a href="http://git-scm.com/course/svn.html">git c
 	<li>Fixes go directly to master, nevertheless they need to be tested thoroughly</li>
 	<li>New features are always developed in a branch and only merged to master once they are fully done</li>
 	<li>When you are finished, use the merge request function on Github. The other developers will look at it and give you feedback. Ideally also post your merge request to the mailing list to let people know.</li>
-	<li>When you <code>git pull</code>, always <code>git pull --rebase</code> to not generate extra commits like: <em>merged master into master</em></li>
-	<li>We need a signed contributor agreement from you to commit into the core repository. But no worries. It´s a nice one. ;-) All the information is <a href="http://owncloud.org/about/contributor-agreement/">here</a></li>
+	<li>When you <code>git pull</code>, always use<code> --rebase</code> to not generate extra commits like: <em>merged master into master</em></li>
+	<li>We need a signed contributor agreement from you to commit into the core repository. But no worries. It&#39;s a nice one. ;-) All the information is <a href="/contribute/agreement/">here</a>.</li>
 </ul>
 <h2>Design guidelines</h2>
 <ul>
