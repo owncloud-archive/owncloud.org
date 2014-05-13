@@ -6,7 +6,7 @@
 	<li><a href="https://www.transifex.com/projects/p/owncloud/">Translate ownCloud to your language</a></li>
 	<li>Help coding (see below) and check the <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open/">Junior Jobs</a></li>
 	<li>Check out the <a href="https://github.com/owncloud/core/wiki/GSoC,-GCI-and-OPW">project ideas page</a> (and don't hesitate to contact the mentor of the project you're interested in!)</li>
-	<li><a href="<?php echo $DOCUMETNATION_DEVELOPER; ?>">Develop Apps</a></li>
+	<li>Develop apps using the <a href="<?php echo $DOCUMETNATION_DEVELOPER; ?>">developer documentation</a></li>
 	<li>Help out with the <a href="https://github.com/owncloud/www">website</a> and <a href="https://github.com/owncloud/documentation/blob/stable6/CONTRIBUTING.rst">write documentation</a> (contact tpn or deryo in the irc channel)</li>
 	<li>Spread the word, tell your friends about it, write a blog post!</li>
 </ul>
