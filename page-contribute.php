@@ -37,6 +37,7 @@ If you are new to git, do the <a href="http://git-scm.com/course/svn.html">git c
 	<li>Fixes go directly to master, nevertheless they need to be tested thoroughly</li>
 	<li>New features are always developed in a branch and only merged to master once they are fully done</li>
 	<li>When you are finished, use the merge request function on Github. The other developers will look at it and give you feedback. Ideally also post your merge request to the mailing list to let people know.</li>
+	<li>Decisions are <a href="http://blog.jospoortvliet.com/2013/05/consensus-decision-making.html">made by consensus</a>. We strive for making the best technical decisions and as nobody can know everything, we collaborate. That means a first negative comment might not be the final word, neither is positive feedback an immediate <em>GO</em>. ownCloud is build out of modular pieces (apps) and app maintainers have the final word in case of disagreement.</p>
 	<li>When you <code>git pull</code>, always use<code> --rebase</code> to not generate extra commits like: <em>merged master into master</em></li>
 	<li>We need a signed contributor agreement from you to commit into the core repository. But no worries. It&#39;s a nice one. ;-) All the information is <a href="/contribute/agreement/">here</a>.</li>
 </ul>
