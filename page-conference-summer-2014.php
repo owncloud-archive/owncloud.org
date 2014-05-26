@@ -28,4 +28,4 @@
 <h2>About</h2>
 <p>With millions of users, ownCloud is THE open source file sync and sharing solution. For the second time, the awesome community behind ownCloud will get together for 5 days of writing code and sharing beer, knowledge and inspiration.</p>
 <p>The event is made possible thanks to the graceful donation of the location by the <a href="">TU Berlin</a> and the financial and practical support of <a href="http://owncloud.com">ownCloud inc.</a>.</p>
-<p>You can help us promote the event! Our official hashtag is #oCConf14</p>
+<p>You can help us promote the event! Our official hashtag is #owncloudconf</p>
