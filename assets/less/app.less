@@ -513,7 +513,22 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    Media Queries
    ========================================================================== */
 
+@media (min-width: 1200px) {
+  .banner ul#menu-header.nav>li:not(.menu-install)>a {
+	width: auto;
+	margin-bottom: 19px;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1199px){
+    .banner ul#menu-header.nav {
+	width: 49%;
+	padding-top: 0;
+   }
+   .banner ul#menu-header.nav>li:not(.menu-install)>a {
+	height: 1.5em;
+	margin-bottom: 10px;
+   }
     body.install div#instructions-server div.instructions,
     body.install div#instructions-web div.instructions,
     body.install div#instructions-packages div.instructions {
@@ -522,6 +537,14 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .banner ul#menu-header.nav {
+	width: 64%;
+	padding-top: 0;
+   }
+   .banner ul#menu-header.nav>li:not(.menu-install)>a {
+	height: 1.5em;
+	margin-bottom: 10px;
+   }
     body.install div#instructions-server div.instructions,
     body.install div#instructions-web div.instructions,
     body.install div#instructions-packages div.instructions {
@@ -552,16 +575,20 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   .banner ul#menu-header.nav {
     float: left;
     > li {
-      padding-top: 7px;
+      padding-top: 0px;
     &.menu-install {
       margin-top: 23px;
       margin-bottom: 10px;
      }
     &:not(.menu-install) > a {
-      height: 1.5em;
-      margin-bottom: 15px;
+      line-height: 1.5em;
+      margin-bottom: 14px;
+      padding-bottom: 0;
     }
   }
+}
+  .navbar-collapse.in {
+    overflow-y: visible;
 }
 }
 
