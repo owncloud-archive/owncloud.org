@@ -9,17 +9,17 @@
 		<?php get_template_part('advisories/advisory-side'); ?>
 	</div>
 	<div class="col-md-8">
-		<h2>Session Fixation (oC-SA-2014-001)</h2>
+		<h2>Insecure OpenID implementation (oC-SA-2014-002)</h2>
 		<p>3rd July 2014</p>
-		<p>Risk level: <strong>Medium</strong></p>
+		<p>Risk level: <strong>High</strong></p>
 		<h3>Description</h3>
-		<p><p>Due to authenticating a user without invalidating any existing session identifier an attacker has the opportunity to steal authenticated sessions. A successful exploit requires that PHP is configured to accept session parameters via <code>GET</code>.</p></p>
+		<p><p>Due to an insecure OpenID implementation used by user_openid in ownCloud 5 it is possible to log-into a system using an arbitrary OpenID Account (without knowing any secret information, i.e. the password, about it) by using a malicious OpenID provider.</p></p>
 		<h3>Affected Software</h3>
 		<ul>
-			<li>ownCloud Server < <strong>6.0.2</strong> (CVE-2014-2047)</li>
+			<li>ownCloud Server < <strong>5.0.15</strong> (CVE-2014-2048)</li>
 		</ul>
 		<h3>Action Taken</h3>
-		<p><p>The session is now regenerated after a successful login.</p></p>
+		<p><p>As the application is not longer maintained anymore, user_openid has been removed from the release.</p></p>
 		<h3>Acknowledgements</h3>
 		<p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
 		<ul>
