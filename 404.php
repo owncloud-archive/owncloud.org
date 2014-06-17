@@ -1,13 +1,12 @@
 <?php get_template_part('templates/page', 'header'); ?>
 
 <div class="alert alert-warning">
-  <?php _e('Sorry, but the page you were trying to view does not exist.', 'roots'); ?>
+  <p>Sorry, but the page you were trying to view does not exist.</p>
 </div>
-
-<p><?php _e('It looks like this was the result of either:', 'roots'); ?></p>
-<ul>
-  <li><?php _e('a mistyped address', 'roots'); ?></li>
-  <li><?php _e('an out-of-date link', 'roots'); ?></li>
-</ul>
+<div class="row">
+	<div class="span12">
+		<p>We've recently reorganised the website and some old links may no longer be working correctly. Please try searching for the page you are looking for:</p>
+	</div>
+</div>
 
 <?php get_search_form(); ?>

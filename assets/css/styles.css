@@ -99,32 +99,3 @@ div.thumbnail > img {
 	padding-bottom: 6px;
 }
 
-@media (min-width: 992px) {
-  .banner ul#menu-header.nav>li:not(.menu-install)>a {
-	width: auto;
-	margin-bottom: 19px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .banner ul#menu-header.nav {
-	 width: 65%;
-	padding-top: 0;
-   }
-   .banner ul#menu-header.nav>li:not(.menu-install)>a {
-	height: 1.5em;
-	margin-bottom: 10px;
-   }
-}
-
-/*
-@media (max-width: 767px) {
-	ul {
-		float: left;
-		margin-left: 20px;
-		margin-bottom: 35px;
-	}
-	body {
-		background-color:grey;
-	}
-}*/

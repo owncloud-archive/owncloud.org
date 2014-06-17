@@ -9,17 +9,17 @@
 		<?php get_template_part('advisories/advisory-side'); ?>
 	</div>
 	<div class="col-md-8">
-		<h2>Session Fixation (oC-SA-2014-001)</h2>
-		<p>3rd July 2014</p>
-		<p>Risk level: <strong>Medium</strong></p>
+		<h2>Auth bypass in index.php (oC-SA-2012-016)</h2>
+		<p>1st July 2012</p>
+		<p>Risk level: <strong>High</strong></p>
 		<h3>Description</h3>
-		<p><p>Due to authenticating a user without invalidating any existing session identifier an attacker has the opportunity to steal authenticated sessions. A successful exploit requires that PHP is configured to accept session parameters via <code>GET</code>.</p></p>
+		<p><p>ownCloud 4.0.6 and all versions previous to this doesn’t sufficiently verify whether a request to appconfig.php was sent by an admin, which allows remote authenticated users to edit app configurations.</p><p>NOTE: this can be leveraged by unauthenticated remote attackers using CVE-2012-4393.</p></p>
 		<h3>Affected Software</h3>
 		<ul>
-			<li>ownCloud Server < <strong>6.0.2</strong> (CVE-2014-2047)</li>
+			<li>ownCloud Server < <strong>4.0.6</strong> (CVE-2012-4752)</li>
 		</ul>
 		<h3>Action Taken</h3>
-		<p><p>The session is now regenerated after a successful login.</p></p>
+		<p></p>
 		<h3>Acknowledgements</h3>
 		<p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
 		<ul>
