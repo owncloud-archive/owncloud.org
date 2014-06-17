@@ -577,6 +577,114 @@
 
          ],
          "imagename":"allmenda.png"
+      },
+      {
+         "title":"glowhost.com",
+         "url":"http:\/\/glowhost.com\/script-hosting\/owncloud-hosting.html",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"glowhost.jpg"
+      },
+      {
+         "title":"hostiso.com",
+         "url":"https:\/\/www.hostiso.com\/owncloud-hosting",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"hostiso.png"
+      },
+      {
+         "title":"hummingbirdstorage.com",
+         "url":"http:\/\/hummingbirdstorage.com",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"hummingbird.jpg"
+      },
+      {
+         "title":"openmailbox.org/",
+         "url":"https:\/\/www.openmailbox.org",
+         "flags":[
+            "gb"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"openmailbox.png"
+      },
+      {
+         "title":"ovh.com",
+         "url":"http:\/\/ovh.com",
+         "flags":[
+            "gb"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"ovh.png"
+      },
+      {
+         "title":"owner.io",
+         "url":"http:\/\/www.owner.io",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"ownerio.png"
+      },
+      {
+         "title":"thexyz.com",
+         "url":"https:\/\/www.thexyz.com\/cloud",
+         "flags":[
+            "ca"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"thexyz.png"
+      },
+      {
+         "title":"woelkli.com",
+         "url":"http:\/\/woelkli.com",
+         "flags":[
+            "ch"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"woelkli.png"
+      },
+      {
+         "title":"weblumina.nl",
+         "url":"http:\/\/www.weblumina.nl\/owncloud",
+         "flags":[
+            "nl"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"weblumia.png"
       }
    ]
 }
