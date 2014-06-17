@@ -1,3 +1,6 @@
+<div class="page-header">
+  <h1>ownCloud Desktop Client Changelog</h1>
+</div>
 <h1>Release 1.6.0</h1>
 Release may, 30, 2014
 
