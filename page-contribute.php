@@ -57,7 +57,7 @@ Read the Contribution, Design and Coding guidelines below to get an idea of what
 <li>Write the code!</li>
 <li>Create a pull request on <a href="http://github.com/owncloud">github</a></li>
 <li>Work with the reviewers in getting the code in good shape until you have agreement that it is ready to go in</li>
-<li>Get your code merged and to millions of users</li>
+<li>Get your code merged and to our millions of users!</li>
 </ol>
 <h3>Contribution guidelines</h3>
 <ul>
