@@ -15,7 +15,7 @@ $DOCUMENTATION_ADMIN = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STA
 $DOCUMENTATION_USER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'.0/user_manual/';
 
 /* DOWNLOADS */
-$OWNCLOUD_PGP = 'https://owncloud.org/owncloud.asc';
+$OWNCLOUD_GPG = 'https://owncloud.org/owncloud.asc';
 
 // Desktop client
 $DOWNLOAD_CLIENT_DESKTOP_BASE = 'https://download.owncloud.com/desktop/stable/';

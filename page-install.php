@@ -107,3 +107,8 @@
     </div>
   </div>
 </div>
+<div class="row">
+  <div class="col-md-12">
+    <p>Find our GPG key at <a target="_blank" href="<?php echo $OWNCLOUD_GPG; ?>"><?php echo $OWNCLOUD_GPG; ?></a></p>
+  </div>
+</div>
