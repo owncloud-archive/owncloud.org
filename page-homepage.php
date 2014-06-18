@@ -81,11 +81,11 @@
 <div class="row 3-column-lg-md-sm">
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-twitter"></i> The latest twitter posts</h2>
-		<?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,4); } ?>
+		<?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,3); } ?>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-comment"></i> The latest from the forum</h2>
-		<?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,7); }?>
+		<?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,5); }?>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-cloud"></i> ownCloud.com news</h2>
