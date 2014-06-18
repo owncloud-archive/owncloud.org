@@ -306,8 +306,8 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.9.tar.bz2.md5"
 
 <h3>Version 5.0.8 <small>July 10th 2013</small></h3>
 <ul>
-<li>SECURITY: XSS vulnerability in "Share Interface" (oC-SA-2013-029)</li>
-<li>SECURITY: Authentication bypass in "user_webdavauth" (oC-SA-2013-030)</li>
+<li>SECURITY: XSS vulnerability in "Share Interface" (<a href="/security/advisory/?id=oC-SA-2013-029">oC-SA-2013-029</a>)</li>
+<li>SECURITY: Authentication bypass in "user_webdavauth" (<a href="/security/advisory/?id=oC-SA-2013-030">oC-SA-2013-030</a>)</li>
 <li>New anonymous upload feature</li>
 Fix syncing of external filesystems</li>
 <li>External filesystems performance improvements</li>
@@ -328,7 +328,7 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.8.tar.bz2.md5"
 
 <h3>Version 4.5.13 <small>July 10th 2013</small></h3>
 <ul>
-<li>SECURITY: Authentication bypass in "user_webdavauth" (oC-SA-2013-030)</li>
+<li>SECURITY: Authentication bypass in "user_webdavauth" (<a href="/security/advisory/?id=oC-SA-2013-030">oC-SA-2013-030</a>)</li>
 <li>Fixed deleting old files versions</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-4.5.13.tar.bz2">http://download.owncloud.org/community/owncloud-4.5.13.tar.bz2</a><br />
@@ -338,7 +338,7 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-4.5.13.tar.bz2.md5
 
 <h3>Version 5.0.7 <small>June 6th 2013</small></h3>
 <ul>
-<li>SECURITY: Multiple XSS vulnerabilities (oC-SA-2013-028)</li>
+<li>SECURITY: Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-028">oC-SA-2013-028</a>)</li>
 <li>New encryption app as preview included. WARNING: This is not yet ready for production use but testing and feedback is welcome.</li>
 <li>Several LDAP compatibility fixes</li>
 <li>Several performance improvements of file handling</li>
@@ -356,7 +356,7 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.7.tar.bz2.md5"
 
 <h3>Version 4.5.12 <small>June 6th 2013</small></h3>
 <ul>
-<li>SECURITY: Multiple XSS vulnerabilities (oC-SA-2013-028)</li>
+<li>SECURITY: Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-028">oC-SA-2013-028</a>)</li>
 <li>Several Contacts fixes</li>
 <li>Several Calendar fixes</li>
 <li>Several smaller fixes</li>
@@ -367,7 +367,7 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-4.5.12.tar.bz2.md5
 
 <h3>Version 4.0.16 <small>June 6th 2013</small></h3>
 <ul>
-<li>SECURITY: Multiple XSS vulnerabilities (oC-SA-2013-028)</li>
+<li>SECURITY: Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-028">oC-SA-2013-028</a>)</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-4.0.16.tar.bz2">http://download.owncloud.org/community/owncloud-4.0.16.tar.bz2</a><br />
 MD5: <a href="http://download.owncloud.org/community/owncloud-4.0.16.tar.bz2.md5">http://download.owncloud.org/community/owncloud-4.0.16.tar.bz2.md5</a><br />
@@ -376,15 +376,15 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-4.0.16.tar.bz2.md5
 
 <h3>Version 5.0.6 <small>May 14th 2013</small></h3>
 <ul>
-<li>SECURITY: SQL Injection (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-019/">oC-SA-2013-019)</a></li>
-<li>SECURITY: Multiple directory traversals (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-020/">oC-SA-2013-020</a>)</li>
-<li>SECURITY: Multiple XSS vulnerabilities (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-021/">oC-SA-2013-021</a>)</li>
-<li>SECURITY: Open redirector (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-022/">oC-SA-2013-022</a>)</li>
-<li>SECURITY: Password autocompletion (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-023/">oC-SA-2013-023</a>)</li>
-<li>SECURITY: Privilege escalation in the calendar application (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-024/">oC-SA-2013-024</a>)</li>
-<li>SECURITY: Privilege escalation and CSRF in the API (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-025/">oC-SA-2013-025</a>)</li>
-<li>SECURITY: Incomplete blacklist vulnerability (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-026/">oC-SA-2013-026</a>)</li>
-<li>SECURITY: Information disclosure: CSRF token + username (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-027/">oC-SA-2013-027</a>)</li>
+<li>SECURITY: SQL Injection (<a href="/security/advisory/?id=oC-SA-2013-019">oC-SA-2013-019)</a></li>
+<li>SECURITY: Multiple directory traversals (<a href="/security/advisory/?id=oC-SA-2013-020">oC-SA-2013-020</a>)</li>
+<li>SECURITY: Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-021">oC-SA-2013-021</a>)</li>
+<li>SECURITY: Open redirector (<a href="/security/advisory/?id=oC-SA-2013-022">oC-SA-2013-022</a>)</li>
+<li>SECURITY: Password autocompletion (<a href="/security/advisory/?id=oC-SA-2013-023">oC-SA-2013-023</a>)</li>
+<li>SECURITY: Privilege escalation in the calendar application (<a href="/security/advisory/?id=oC-SA-2013-024">oC-SA-2013-024</a>)</li>
+<li>SECURITY: Privilege escalation and CSRF in the API (<a href="/security/advisory/?id=oC-SA-2013-025">oC-SA-2013-025</a>)</li>
+<li>SECURITY: Incomplete blacklist vulnerability (<a href="/security/advisory/?id=oC-SA-2013-026">oC-SA-2013-026</a>)</li>
+<li>SECURITY: Information disclosure: CSRF token + username (<a href="/security/advisory/?id=oC-SA-2013-027">oC-SA-2013-027</a>)</li>
 <li>Fix renaming of shared files</li>
 <li>Fix UUID handling with LDAP</li>
 <li>Fix several undelete files issues</li>
@@ -417,10 +417,10 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.6.tar.bz2.md5"
 
 <h3>Version 4.5.11 <small>May 14th 2013</small></h3>
 <ul>
-<li>SECURITY: SQL Injection (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-019/">oC-SA-2013-019</a>)</li>
-<li>SECURITY: Multiple directory traversals (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-020/">oC-SA-2013-020</a>)</li>
-<li>SECURITY: Multiple XSS vulnerabilities (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-021/">oC-SA-2013-021</a>)</li>
-<li>SECURITY: Privilege escalation in the calendar application (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-024/">oC-SA-2013-024</a>)</li>
+<li>SECURITY: SQL Injection (<a href="/security/advisory/?id=oC-SA-2013-019">oC-SA-2013-019</a>)</li>
+<li>SECURITY: Multiple directory traversals (<a href="/security/advisory/?id=oC-SA-2013-020">oC-SA-2013-020</a>)</li>
+<li>SECURITY: Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-021">oC-SA-2013-021</a>)</li>
+<li>SECURITY: Privilege escalation in the calendar application (<a href="/security/advisory/?id=oC-SA-2013-024">oC-SA-2013-024</a>)</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-4.5.11.tar.bz2">http://download.owncloud.org/community/owncloud-4.5.11.tar.bz2</a><br />
 MD5: <a href="http://download.owncloud.org/community/owncloud-4.5.11.tar.bz2.md5">http://download.owncloud.org/community/owncloud-4.5.11.tar.bz2.md5</a><br />
@@ -428,8 +428,8 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-4.5.11.tar.bz2.md5
 
 <h3>Version 4.0.15 <small>May 14th 2013</small></h3>
 <ul>
-<li>SECURITY: Multiple directory traversals (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-020/">oC-SA-2013-020</a>)</li>
-<li>SECURITY: Multiple XSS vulnerabilities (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-021/">oC-SA-2013-021</a>)</li>
+<li>SECURITY: Multiple directory traversals (<a href="/security/advisory/?id=oC-SA-2013-020">oC-SA-2013-020</a>)</li>
+<li>SECURITY: Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-021">oC-SA-2013-021</a>)</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-4.0.15.tar.bz2">http://download.owncloud.org/community/owncloud-4.0.15.tar.bz2</a><br />
 MD5: <a href="http://download.owncloud.org/community/owncloud-4.0.15.tar.bz2.md5">http://download.owncloud.org/community/owncloud-4.0.15.tar.bz2.md5</a><br />
@@ -452,8 +452,8 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-4.0.15.tar.bz2.md5
 <li>Fix double address book problem</li>
 <li>Fix layout problem triggered by impress</li>
 <li>Several smaller fixes</li>
-<li>Security: XSS in flashmediaelement.swf (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-017/">oC-SA-2013-017</a>)</li>
-<li>Security: Authentication bypass in Contacts (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-018">oC-SA-2013-018</a>)</li>
+<li>Security: XSS in flashmediaelement.swf (<a href="/security/advisory/?id=oC-SA-2013-017">oC-SA-2013-017</a>)</li>
+<li>Security: Authentication bypass in Contacts (<a href="/security/advisory/?id=oC-SA-2013-018">oC-SA-2013-018</a>)</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-5.0.5.tar.bz2">http://download.owncloud.org/community/owncloud-5.0.5.tar.bz2</a><br />
 MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.5.tar.bz2.md5">http://download.owncloud.org/community/owncloud-5.0.5.tar.bz2.md5</a><br />
@@ -461,8 +461,8 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.5.tar.bz2.md5"
 
 <h3>Version 4.5.10 <small>April 19th 2013</small></h3>
 <ul>
-<li>Security: XSS in flashmediaelement.swf (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-017/">oC-SA-2013-017</a>)</li>
-<li>Security: Authentication bypass in calendar (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-018">oC-SA-2013-018</a>)</li>
+<li>Security: XSS in flashmediaelement.swf (<a href="/security/advisory/?id=oC-SA-2013-017">oC-SA-2013-017</a>)</li>
+<li>Security: Authentication bypass in calendar (<a href="/security/advisory/?id=oC-SA-2013-018">oC-SA-2013-018</a>)</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-4.5.10.tar.bz2">http://download.owncloud.org/community/owncloud-4.5.10.tar.bz2</a><br />
 MD5: <a href="http://download.owncloud.org/community/owncloud-4.5.10.tar.bz2.md5">http://download.owncloud.org/community/owncloud-4.5.10.tar.bz2.md5</a><br />
@@ -491,9 +491,9 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-4.5.10.tar.bz2.md5
 <li>Fix "You do not have write permissions here" warning</li>
 <li>Fix asynchronous loading of users</li>
 <li>Fix notice from the nullbyte check</li>
-<li>XSS vulnerability in jPlayer (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-014/">oC-SA-2013-014</a>)</li>
-<li>PostgreSQL: Insecure database password generator (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-015/">oC-SA-2013-015)</a></li>
-<li>Windows: Local file disclosure (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-016/">oC-SA-2013-016</a>)</li>
+<li>XSS vulnerability in jPlayer (<a href="/security/advisory/?id=oC-SA-2013-014">oC-SA-2013-014</a>)</li>
+<li>PostgreSQL: Insecure database password generator (<a href="/security/advisory/?id=oC-SA-2013-015">oC-SA-2013-015)</a></li>
+<li>Windows: Local file disclosure (<a href="/security/advisory/?id=oC-SA-2013-016">oC-SA-2013-016</a>)</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-5.0.4.tar.bz2">http://download.owncloud.org/community/owncloud-5.0.4.tar.bz2</a><br />
 MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.4.tar.bz2.md5">http://download.owncloud.org/community/owncloud-5.0.4.tar.bz2.md5</a><br />
@@ -504,9 +504,9 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.4.tar.bz2.md5"
 <li>Fix public sharing</li>
 <li>Improved LDAP error reporting</li>
 <li>Don't show share action for Shared folder</li>
-<li>XSS vulnerability in jPlayer (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-014/">oC-SA-2013-014</a>)</li>
-<li>PostgreSQL: Insecure database password generator (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-015/">oC-SA-2013-015)</a></li>
-<li>Windows: Local file disclosure (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-016/">oC-SA-2013-016</a>)</li>
+<li>XSS vulnerability in jPlayer (<a href="/security/advisory/?id=oC-SA-2013-014">oC-SA-2013-014</a>)</li>
+<li>PostgreSQL: Insecure database password generator (<a href="/security/advisory/?id=oC-SA-2013-015">oC-SA-2013-015)</a></li>
+<li>Windows: Local file disclosure (<a href="/security/advisory/?id=oC-SA-2013-016">oC-SA-2013-016</a>)</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-4.5.9.tar.bz2">http://download.owncloud.org/community/owncloud-4.5.9.tar.bz2</a><br />
 MD5: <a href="http://download.owncloud.org/community/owncloud-4.5.9.tar.bz2.md5">http://download.owncloud.org/community/owncloud-4.5.9.tar.bz2.md5</a><br />
@@ -514,9 +514,9 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-4.5.9.tar.bz2.md5"
 
 <h3>Version 4.0.14 <small>April 11th 2013</small></h3>
 <ul>
-<li>XSS vulnerability in jPlayer (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-014/">oC-SA-2013-014</a>)</li>
-<li>PostgreSQL: Insecure database password generator (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-015/">oC-SA-2013-015)</a></li>
-<li>Windows: Local file disclosure (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-016/">oC-SA-2013-016</a>)</li>
+<li>XSS vulnerability in jPlayer (<a href="/security/advisory/?id=oC-SA-2013-014">oC-SA-2013-014</a>)</li>
+<li>PostgreSQL: Insecure database password generator (<a href="/security/advisory/?id=oC-SA-2013-015">oC-SA-2013-015)</a></li>
+<li>Windows: Local file disclosure (<a href="/security/advisory/?id=oC-SA-2013-016">oC-SA-2013-016</a>)</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-4.0.14.tar.bz2">http://download.owncloud.org/community/owncloud-4.0.14.tar.bz2</a><br />
 MD5: <a href="http://download.owncloud.org/community/owncloud-4.0.14.tar.bz2.md5">http://download.owncloud.org/community/owncloud-4.0.14.tar.bz2.md5</a><br />
@@ -569,8 +569,8 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.2.tar.bz2.md5"
 <li>Fixes for text editor</li>
 <li>Several lucene search fixes</li>
 <li>Several smaller fixes</li>
-<li>Contacts: SQL Injection (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-012/">oC-SA-2013-012</a>)</li>
-<li>Multiple XSS vulnerabilities (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-011/">oC-SA-2013-011</a>)</li>
+<li>Contacts: SQL Injection (<a href="/security/advisory/?id=oC-SA-2013-012">oC-SA-2013-012</a>)</li>
+<li>Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-011">oC-SA-2013-011</a>)</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-5.0.1.tar.bz2">http://download.owncloud.org/community/owncloud-5.0.1.tar.bz2</a><br />
 MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.1.tar.bz2.md5">http://download.owncloud.org/community/owncloud-5.0.1.tar.bz2.md5</a><br />
@@ -604,9 +604,9 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.0.tar.bz2.md5"
 <li>Offer download of shared dir as zip only if zip size limit is not exceeded</li>
 <li>Escape more characters for LDAP search</li>
 <li>Fix versioning together with real home directories</li>
-<li>Multiple XSS vulnerabilities (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-008/">oC-SA-2013-008</a>)</li>
-<li>Contacts: Bypass of file blacklist (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-009/">oC-SA-2013-009</a>)</li>
-<li>user_migrate: Local file  disclosure (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-010/">oC-SA-2013-010</a>)</li>
+<li>Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-008">oC-SA-2013-008</a>)</li>
+<li>Contacts: Bypass of file blacklist (<a href="/security/advisory/?id=oC-SA-2013-009">oC-SA-2013-009</a>)</li>
+<li>user_migrate: Local file  disclosure (<a href="/security/advisory/?id=oC-SA-2013-010">oC-SA-2013-010</a>)</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-4.5.8.tar.bz2">http://download.owncloud.org/community/owncloud-4.5.8.tar.bz2</a><br />
 MD5: <a href="http://download.owncloud.org/community/owncloud-4.5.8.tar.bz2.md5">http://download.owncloud.org/community/owncloud-4.5.8.tar.bz2.md5</a><br />
@@ -614,8 +614,8 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-4.5.8.tar.bz2.md5"
 
 <h3>Version 4.0.13 <small>March 14th 2013</small></h3>
 <ul>
-<li>Contacts: Bypass of file blacklist (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-009/">oC-SA-2013-009)</a></li>
-<li>user_migrate: Local file  disclosure (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-010/">oC-SA-2013-010</a>)</li>
+<li>Contacts: Bypass of file blacklist (<a href="/security/advisory/?id=oC-SA-2013-009">oC-SA-2013-009)</a></li>
+<li>user_migrate: Local file  disclosure (<a href="/security/advisory/?id=oC-SA-2013-010">oC-SA-2013-010</a>)</li>
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-4.0.13.tar.bz2">http://download.owncloud.org/community/owncloud-4.0.13.tar.bz2</a><br />
 MD5: <a href="http://download.owncloud.org/community/owncloud-4.0.13.tar.bz2.md5">http://download.owncloud.org/community/owncloud-4.0.13.tar.bz2.md5</a><br />
@@ -638,11 +638,11 @@ MD5: <a href="http://download.owncloud.org/community/owncloud-4.0.13.tar.bz2.md5
 <li>Revoke DB rights on install only if the db is newly created</li>
 <li>Fix rendering of database connection error page</li>
 <li>LDAP: update quota more often</li>
-<li>Multiple XSS vulnerabilities (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-003/">oC-SA-2013-003</a>)</li>
-<li>Multiple CSRF vulnerabilities (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-004/">oC-SA-2013-004</a>)</li>
-<li>PHP settings disclosure (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-005/">oC-SA-2013-005</a>)</li>
-<li>Multiple code executions (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-006/">oC-SA-2013-006</a>)</li>
-<li>Privilege escalation in the calendar application (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-007/">oC-SA-2013-007</a>)</li>
+<li>Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-003">oC-SA-2013-003</a>)</li>
+<li>Multiple CSRF vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-004">oC-SA-2013-004</a>)</li>
+<li>PHP settings disclosure (<a href="/security/advisory/?id=oC-SA-2013-005">oC-SA-2013-005</a>)</li>
+<li>Multiple code executions (<a href="/security/advisory/?id=oC-SA-2013-006">oC-SA-2013-006</a>)</li>
+<li>Privilege escalation in the calendar application (<a href="/security/advisory/?id=oC-SA-2013-007">oC-SA-2013-007</a>)</li>
 </ul>
 Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.7.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.5.7.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.7.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.5.7.tar.bz2.md5</a><br />
@@ -651,9 +651,9 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.7.tar.bz2.md5">h
 
 <h3>Version 4.0.12 <small>Feb 20th 2013</small></h3>
 <ul>
-<li>Multiple XSS vulnerabilities (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-003/">oC-SA-2013-003</a>)</li>
-<li>Multiple CSRF vulnerabilities (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-004/">oC-SA-2013-004</a>)</li>
-<li>Multiple code executions (<a href="http://owncloud.org/about/security/advisories/oC-SA-2013-006/">oC-SA-2013-006</a>)</li>
+<li>Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-003">oC-SA-2013-003</a>)</li>
+<li>Multiple CSRF vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-004">oC-SA-2013-004</a>)</li>
+<li>Multiple code executions (<a href="/security/advisory/?id=oC-SA-2013-006">oC-SA-2013-006</a>)</li>
 </ul>
 Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.12.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.12.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.12.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.0.12.tar.bz2.md5</a><br />
@@ -677,8 +677,8 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.12.tar.bz2.md5">
 <li>Add SMTP port configuration option</li>
 <li>Only show the max possible upload of 2GB on a 32 bit system</li>
 <li>Show progress during file downloads</li>
-<li>Security: Fix multiple XSS problems: <a href="http://owncloud.org/about/security/advisories/oC-SA-2013-001/">CVE-2013-0201,  CVE-2013-0202, CVE-2013-0203</a></li>
-<li>Security: Fix Code execution in external storage: <a href="http://owncloud.org/about/security/advisories/oc-sa-2013-002/">CVE-2013-0204</a></li>
+<li>Security: Fix multiple XSS problems: <a href="/security/advisory/?id=oC-SA-2013-001">CVE-2013-0201,  CVE-2013-0202, CVE-2013-0203</a></li>
+<li>Security: Fix Code execution in external storage: <a href="/security/advisory/?id=oc-sa-2013-002">CVE-2013-0204</a></li>
 <li>Security: Removed remoteStorage app because of unfixed security problems.</li>
 </ul>
 Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.6.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.5.6.tar.bz2</a><br />
@@ -687,7 +687,7 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.6.tar.bz2.md5">h
 
 <h3>Version 4.0.11 <small>Jan 22th 2013</small></h3>
 <ul>
-<li>Security: Fix multiple XSS problems: <a href="http://owncloud.org/about/security/advisories/oC-SA-2013-001/">CVE-2013-0201,  CVE-2013-0202, CVE-2013-0203</a></li>
+<li>Security: Fix multiple XSS problems: <a href="/security/advisory/?id=oC-SA-2013-001">CVE-2013-0201,  CVE-2013-0202, CVE-2013-0203</a></li>
 <li>Security: Removed remoteStorage app because of unfixed security problems.</li>
 </ul>
 Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.11.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.11.tar.bz2</a><br />
@@ -715,16 +715,16 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.11.tar.bz2.md5">
 <li>Fix the folder size calculation</li>
 <li>Fix for deleting multiple files</li>
 <li>Fix for controling the data dir with LDAP</li>
-<li>Security: Auth bypass in user_webdavauth and user_ldap (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-006/">oC-SA-2012-006</a>)</li>
-<li>Security: XSS vulnerability in bookmarks (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-007/">oC-SA-2012-007</a>)</li>
+<li>Security: Auth bypass in user_webdavauth and user_ldap (<a href="/security/advisory/?id=oC-SA-2012-006">oC-SA-2012-006)</li>
+<li>Security: XSS vulnerability in bookmarks (<a href="/security/advisory/?id=oC-SA-2012-007">oC-SA-2012-007)</li>
 </ul>
 Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.5.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.5.5.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.5.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.5.5.tar.bz2.md5</a>
 
 <h3>Version 4.0.10 <small>Dec 20th 2012</small></h3>
 <ul>
-<li>Security: Auth bypass in user_webdavauth and user_ldap (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-006/">oC-SA-2012-006</a>)</li>
-<li>Security: XSS vulnerability in bookmarks (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-007/">oC-SA-2012-007</a>)</li>
+<li>Security: Auth bypass in user_webdavauth and user_ldap (<a href="/security/advisory/?id=oC-SA-2012-006">oC-SA-2012-006)</li>
+<li>Security: XSS vulnerability in bookmarks (<a href="/security/advisory/?id=oC-SA-2012-007">oC-SA-2012-007)</li>
 </ul>
 Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.10.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.10.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.10.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.0.10.tar.bz2.md5</a>
@@ -783,9 +783,9 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.3.tar.bz2.md5">h
 <li>Add visual feedback if password is set</li>
 <li>Various smaller fixes</li>
 <li>Several critical security fixes</li>
-<li>XSS vulnerability in user_webdavauth (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-003/">oC-SA-2012-003</a>)</li>
-<li>Code Execution in /lib/migrate.php (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-004/">oC-SA-2012-004</a>)</li>
-<li>Code Execution in /lib/filesystem.php (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-005/">oC-SA-2012-005</a>)</li>
+<li>XSS vulnerability in user_webdavauth (<a href="/security/advisory/?id=oC-SA-2012-003">oC-SA-2012-003</a>)</li>
+<li>Code Execution in /lib/migrate.php (<a href="/security/advisory/?id=oC-SA-2012-004">oC-SA-2012-004</a>)</li>
+<li>Code Execution in /lib/filesystem.php (<a href="/security/advisory/?id=oC-SA-2012-005">oC-SA-2012-005</a>)</li>
 </ul>
 Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.2.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.5.2.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.2.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.5.2.tar.bz2.md5</a>
@@ -793,10 +793,10 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.2.tar.bz2.md5">h
 <h3>Version 4.0.9 <small>Nov 14th 2012</small></h3>
 <ul>
 <li>Several critical security fixes</li>
-<li>Multiple XSS vulnerabilities (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-001/">oC-SA-2012-001</a>)</li>
-<li>Timing attack in the "Lost Password" implementation (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-002/">oC-SA-2012-002</a>)</li>
-<li>Code Execution in /lib/migrate.php (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-004/">oC-SA-2012-004</a>)</li>
-<li>Code Execution in /lib/filesystem.php (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-005/">oC-SA-2012-005</a>)</li>
+<li>Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2012-001">oC-SA-2012-001</a>)</li>
+<li>Timing attack in the "Lost Password" implementation (<a href="/security/advisory/?id=oC-SA-2012-002">oC-SA-2012-002</a>)</li>
+<li>Code Execution in /lib/migrate.php (<a href="/security/advisory/?id=oC-SA-2012-004">oC-SA-2012-004</a>)</li>
+<li>Code Execution in /lib/filesystem.php (<a href="/security/advisory/?id=oC-SA-2012-005">oC-SA-2012-005</a>)</li>
 </ul>
 Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.9.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.9.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.9.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.0.9.tar.bz2.md5</a>
@@ -818,11 +818,11 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.9.tar.bz2.md5">h
 	<li>Fix syncing of rollback files</li>
 	<li>Fix the swift files backend</li>
 	<li>Disallow user to delete own account</li>
-	<li>Security: Fix multiple XSS vulnerabilities (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-001/">oC-SA-2012-001</a>)</li>
-	<li>Security: Fix a timing attack in the "Lost Password" implementation (<a href="http://owncloud.org/about/security/advisories/oc-sa-2012-001/">oC-SA-2012-002</a>)</li>
+	<li>Security: Fix multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2012-001">oC-SA-2012-001</a>)</li>
+	<li>Security: Fix a timing attack in the "Lost Password" implementation (<a href="/security/advisory/?id=oC-SA-2012-002">oC-SA-2012-002</a>)</li>
 	<li>Various smaller fixes</li>
 </ul>
-Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.1.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.5.1.tar.bz2</a>
+Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.1.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.5.1.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.1.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.5.1.tar.bz2.md5</a>
 <h3>Version 4.5.0 <small>Oct 10th 2012</small></h3>
 <ul>
@@ -834,18 +834,18 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.1.tar.bz2.md5">h
 	<li>Reworked LDAP</li>
 	<li>Big File Chunking</li>
 </ul>
-Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.0.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.5.0.tar.bz2</a>
+Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.0.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.5.0.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.5.0.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.5.0.tar.bz2.md5</a>
 <h3>Version 4.0.8 <small>Oct 10th 2012</small></h3>
 <ul>
 	<li>Show Login Button when user and password are autocompleted</li>
 	<li>Sanitize LDAP base, user and groups</li>
-	<li>Security: Fix for insufficiently Random Values (<a href="http://owncloud.org/about/security/advisories/CVE-2008-4107/">CVE-2008-4107</a>)</li>
-	<li>Security: Fixed multiple XSS vulnerabilities (<a href="http://owncloud.org/about/security/advisories/CVE-2012-5056/">CVE-2012-5056</a>)</li>
-	<li>Security: Fixed a HTTP header injection (<a href="http://owncloud.org/about/security/advisories/CVE-2012-5057/">CVE-2012-5057</a>)</li>
-	<li>Security: Fixed an Auth bypass in /lib/base.php (<a href="http://owncloud.org/about/security/advisories/CVE-2012-5336/">CVE-2012-5336</a>)</li>
+	<li>Security: Fix for insufficiently Random Values (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2008-4107&type=Code">CVE-2008-4107</a>)</li>
+	<li>Security: Fixed multiple XSS vulnerabilities (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-5056&type=Code">CVE-2012-5056</a>)</li>
+	<li>Security: Fixed a HTTP header injection (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-5057&type=Code">CVE-2012-5057</a>)</li>
+	<li>Security: Fixed an Auth bypass in /lib/base.php (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-5336&type=Code">CVE-2012-5336</a>)</li>
 </ul>
-Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2</a>
+Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2.md5</a>
 <h3>Version 4.0.7 <small>Aug 15th 2012</small></h3>
 <ul>
@@ -857,13 +857,13 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2.md5">h
 	<li>Add parent directory into filecache if it doesn't exist</li>
 	<li>Handle non writable files correctly</li>
 	<li>Disable webfinger completely if not activated</li>
-	<li>Security: Disable user listings in DAV (<a href="http://owncloud.org/about/security/advisories/CVE-2012-4390/">CVE-2012-4390</a>)</li>
-	<li>Security: Check file blacklist for file renames (<a href="http://owncloud.org/about/security/advisories/CVE-2012-4389/">CVE-2012-4389</a>)</li>
-	<li>Security: CSRF fix for appconfig.php (<a href="http://owncloud.org/about/security/advisories/CVE-2012-4391/">CVE-2012-4391</a>)</li>
-	<li>Security: Validate cookie to prevent auth bypasses (<a href="http://owncloud.org/about/security/advisories/CVE-2012-4392/">CVE-2012-4392</a>)</li>
+	<li>Security: Disable user listings in DAV (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4390&type=Code">CVE-2012-4390</a>)</li>
+	<li>Security: Check file blacklist for file renames (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4389&type=Code">CVE-2012-4389</a>)</li>
+	<li>Security: CSRF fix for appconfig.php (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4391&type=Code">CVE-2012-4391</a>)</li>
+	<li>Security: Validate cookie to prevent auth bypasses (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4392&type=Code">CVE-2012-4392</a>)</li>
 	<li>Special thanks to Julien Cayssol for reporting several security problems</li>
 </ul>
-Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.7.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.7.tar.bz2</a>
+Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.7.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.7.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.7.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.0.7.tar.bz2.md5</a>
 <h3>Version 4.0.6 <small>Aug 1th 2012</small></h3>
 <ul>
@@ -877,10 +877,10 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.7.tar.bz2.md5">h
 	<li>Don't delete lot's of session files during DAV requests</li>
 	<li>Fix error when no adressbook is created</li>
 	<li>Check if php-ldap is installed</li>
-	<li>Security: Check for Admin user in appconfig.php (<a href="http://owncloud.org/about/security/advisories/CVE-2012-4752/">CVE-2012-4752</a>)</li>
-	<li>Security: Several CSRF security fixes (<a href="http://owncloud.org/about/security/advisories/CVE-2012-4393">CVE-2012-4393</a>)</li>
+	<li>Security: Check for Admin user in appconfig.php (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4752&type=Code">CVE-2012-4752</a>)</li>
+	<li>Security: Several CSRF security fixes (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4393&type=Code">CVE-2012-4393</a>)</li>
 </ul>
-Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2</a>
+Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2.md5</a>
 <h3>Version 4.0.5 <small>July 20th 2012</small></h3>
 <ul>
@@ -893,9 +893,9 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2.md5">h
 	<li>Fix sending of emails</li>
 	<li>Several fixes in the system log</li>
 	<li>Several fixes for the external filesystem feature</li>
-	<li>Security: Fix a reflected XSS (<a href="http://owncloud.org/about/security/advisories/CVE-2012-4394">CVE-2012-4394</a>)</li>
+	<li>Security: Fix a reflected XSS (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4394&type=Code">CVE-2012-4394</a>)</li>
 </ul>
-Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.5.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.5.tar.bz2</a>
+Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.5.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.5.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.5.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.0.5.tar.bz2.md5</a>
 <h3>Version 4.0.4 <small>June 28th 2012</small></h3>
 <ul>
@@ -905,7 +905,7 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.5.tar.bz2.md5">h
 	<li>Fix a warning in Gallery when deleting files</li>
 	<li>Fix a bug in the music scanner</li>
 </ul>
-Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.4.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.4.tar.bz2</a>
+Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.4.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.4.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.4.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.0.4.tar.bz2.md5</a>
 <h3>Version 4.0.3 <small>June 23rd 2012</small></h3>
 <ul>
@@ -917,7 +917,7 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.4.tar.bz2.md5">h
 	<li>Fix the filecache for the /Shared folder</li>
 	<li>Fix a potential data corruption bug in the encryption app</li>
 	<li>Don't show other users filenames during filesystem cache rebuild</li>
-	<li>Security: Fix several XSS bugs (<a href="http://owncloud.org/about/security/advisories/CVE-2012-4395/">CVE-2012-4395</a>)</li>
+	<li>Security: Fix several XSS bugs (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4395&type=Code">CVE-2012-4395</a>)</li>
 	<li>Performance improvements for WebDAV and Desktop Syncing</li>
 	<li>Fix quota calculation</li>
 	<li>Improve the LDAP integration and group management</li>
@@ -932,7 +932,7 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.4.tar.bz2.md5">h
 	<li>Lot's of fixes in the Tasks App</li>
 	<li>Fix a bug in the filesystem cache with ghost entries</li>
 </ul>
-Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.3.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.3.tar.bz2</a>
+Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.3.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.3.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.3.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.0.3.tar.bz2.md5</a>
 <h3>Version 4.0.2 <small>June 11th 2012</small></h3>
 <ul>
@@ -940,10 +940,10 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.3.tar.bz2.md5">h
 	<li>More 3rd party apps visible</li>
 	<li>Fixed update notifications</li>
 	<li>Several calendar fixes</li>
-	<li>Several XSS fixes in calendar (<a href="http://owncloud.org/about/security/advisories/CVE-2012-4396">CVE-2012-4396</a>)</li>
+	<li>Several XSS fixes in calendar (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4396&type=Code">CVE-2012-4396)</a></li>
 	<li>Several improvements in contacts</li>
 	<li>Fix infinite redirect during setup for windows hosts</li>
-	<li>Several XSS fixes in contacts (<a href="http://owncloud.org/about/security/advisories/CVE-2012-4396">CVE-2012-4396</a>)</li>
+	<li>Several XSS fixes in contacts (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4396&type=Code">CVE-2012-4396</a>)</li>
 	<li>New user password salting</li>
 	<li>Several LDAP fixes</li>
 	<li>Fix duplicate emails in sharing</li>
@@ -956,7 +956,7 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.3.tar.bz2.md5">h
 	<li>Fix contact photo editing</li>
 	<li>Don't allow renaming, deleting and resharing of shared folder</li>
 </ul>
-Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.2.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.2.tar.bz2</a>
+Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.2.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.2.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.2.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.0.2.tar.bz2.md5</a>
 <h3>Version 4.0.1 <small>June 4th 2012</small></h3>
 <ul>
@@ -996,7 +996,7 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.2.tar.bz2.md5">h
 	<li>use UTC as default timezone</li>
 	<li>style fixes for tasks app</li>
 </ul>
-Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.1.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.1.tar.bz2</a>
+Download: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.1.tar.bz2">http://mirrors.owncloud.org/releases/owncloud-4.0.1.tar.bz2</a><br />
 MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.1.tar.bz2.md5">http://mirrors.owncloud.org/releases/owncloud-4.0.1.tar.bz2.md5</a>
 <h3>Version 4.0.0 <small>May 22nd 2012</small></h3>
 <ul>
@@ -1022,7 +1022,7 @@ MD5: <a href="http://mirrors.owncloud.org/releases/owncloud-4.0.1.tar.bz2.md5">h
 	<li>New public API for App developers</li>
 	<li>Lots of bug fixes, smaller enhancements and UX improvements.</li>
 </ul>
-Download: <a href="http://owncloud.org/releases/owncloud-4.0.0.tar.bz2">http://owncloud.org/releases/owncloud-4.0.0.tar.bz2</a>
+Download: <a href="http://owncloud.org/releases/owncloud-4.0.0.tar.bz2">http://owncloud.org/releases/owncloud-4.0.0.tar.bz2</a><br />
 MD5: <a href="http://owncloud.org/releases/owncloud-4.0.0.tar.bz2.md5">http://owncloud.org/releases/owncloud-4.0.0.tar.bz2.md5</a>
 <h3>Version 3.0.3 <small>April 27th 2012</small></h3>
 <ul>
@@ -1033,7 +1033,7 @@ MD5: <a href="http://owncloud.org/releases/owncloud-4.0.0.tar.bz2.md5">http://ow
 	<li>Check if JSon module is installed</li>
 	<li>Check if GD module is installed</li>
 </ul>
-Download: <a href="http://owncloud.org/releases/owncloud-3.0.3.tar.bz2">http://owncloud.org/releases/owncloud-3.0.3.tar.bz2</a>
+Download: <a href="http://owncloud.org/releases/owncloud-3.0.3.tar.bz2">http://owncloud.org/releases/owncloud-3.0.3.tar.bz2</a><br />
 MD5: <a href="http://owncloud.org/releases/owncloud-3.0.3.tar.bz2.md5">http://owncloud.org/releases/owncloud-3.0.3.tar.bz2.md5</a>
 <h3>Version 3.0.2 <small>April 11th 2012</small></h3>
 <ul>
@@ -1044,7 +1044,7 @@ MD5: <a href="http://owncloud.org/releases/owncloud-3.0.3.tar.bz2.md5">http://ow
 	<li>Security: Fix a XXS problem</li>
 	<li>Multiple bugfixes</li>
 </ul>
-Download: <a href="http://owncloud.org/releases/owncloud-3.0.2.tar.bz2">http://owncloud.org/releases/owncloud-3.0.2.tar.bz2</a>
+Download: <a href="http://owncloud.org/releases/owncloud-3.0.2.tar.bz2">http://owncloud.org/releases/owncloud-3.0.2.tar.bz2</a><br />
 MD5: <a href="http://owncloud.org/releases/owncloud-3.0.2.tar.bz2.md5">http://owncloud.org/releases/owncloud-3.0.2.tar.bz2.md5</a>
 <h3>Version 3.0.1 <small>April 3rd 2012</small></h3>
 <ul>
@@ -1053,14 +1053,14 @@ MD5: <a href="http://owncloud.org/releases/owncloud-3.0.2.tar.bz2.md5">http://ow
 	<li>IE8 fixes</li>
 	<li>Several small bugfixes</li>
 </ul>
-Download: <a href="http://owncloud.org/releases/owncloud-3.0.1.tar.bz2">http://owncloud.org/releases/owncloud-3.0.1.tar.bz2</a>
+Download: <a href="http://owncloud.org/releases/owncloud-3.0.1.tar.bz2">http://owncloud.org/releases/owncloud-3.0.1.tar.bz2</a><br />
 MD5: <a href="http://owncloud.org/releases/owncloud-3.0.1.tar.bz2.md5">http://owncloud.org/releases/owncloud-3.0.1.tar.bz2.md5</a>
-<h3>Version 3.0 <small>January 31st 2012, <a href="http://owncloud.org/owncloud-3-release/">Release Announcement</a></small></h3>
+<h3>Version 3.0 <small>January 31st 2012</small></h3>
 <ul>
 	<li>Text editor</li>
 	<li>Improved photo gallery</li>
 	<li>Improved calendar view</li>
 	<li>PDF viewer</li>
 </ul>
-Download: <a href="http://owncloud.org/releases/owncloud-3.0.tar.bz2">http://owncloud.org/releases/owncloud-3.0.tar.bz2</a>
+Download: <a href="http://owncloud.org/releases/owncloud-3.0.tar.bz2">http://owncloud.org/releases/owncloud-3.0.tar.bz2</a><br />
 MD5: <a href="http://owncloud.org/releases/owncloud-3.0.tar.bz2.md5">http://owncloud.org/releases/owncloud-3.0.tar.bz2.md5</a>

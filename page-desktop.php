@@ -1,8 +1,8 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
-<h1>Release 1.6.0</h1>
-Release may, 30, 2014
+<h3>Release 1.6.0 <small>May 30th 2014</small></h3>
+
 
 <ul>
 <li>Minor GUI improvements</li>
@@ -38,14 +38,14 @@ Release may, 30, 2014
 <li>Avoid data loss when a client file system is not case sensitive</li>
 </ul>
 
-<h1>Release 1.5.4</h1>
-Release april, 11, 2014
+<h3>Release 1.5.4 <small>April 11th 2014</small></h3>
+
 <ul>
 <li>Fix security issue on Windows and Mac OS X. No functional changes</li>
 </ul>
 
-<h1>Release 1.5.3</h1>
-Release march, 10, 2014
+<h3>Release 1.5.3 <small>March 10th 2014</small></h3>
+
 <ul>
 <li>Fix usage of proxies after first sync run (#1502, #1524, #1459, #1521)</li>
 <li>Do not wipe the credentials from config for reconnect (#1499, #1503)</li>
@@ -60,8 +60,8 @@ Release march, 10, 2014
 <li>[Packaging] Fix incorrect path in desktop file (RHEL6/CentOS6)</li>
 </ul>
 
-<h1>Release 1.5.2</h1>
-Release februrary, 26, 2014
+<h3>Release 1.5.2 <small>February 26th 2014</small></h3>
+
 <ul>
 <li>Fix behavior when attempting to rename Shared folder</li>
 <li>Fix potential endless sync loops on Mac OS (#1463)</li>
@@ -81,8 +81,8 @@ Release februrary, 26, 2014
 <li>Fix license headers</li>
 </ul>
 
-<h1>Release 1.5.1</h1>
-Release februrary, 14, 2014
+<h3>Release 1.5.1 <small>February 14th 2014</small></h3>
+
 <p><small>Please note that for the time being csync and mirall/ownCloud Client (oCC) are going to be released together for now. In the future, separated releases will be possible.</small></p>
 <ul>
   <li>Added an auto updater that updates the client if a more recent version was found automatically (Windows, Mac OS X)</li>
@@ -107,11 +107,11 @@ Release februrary, 14, 2014
   <li>Improve Qt5 compatability</li>
 </ul>
 
-<h1>Release 1.5.0</h1>
-Release december, 12, 2013
+<h3>Release 1.5.0 <small>December 12th 2013</small></h3>
+
 <p>This is a bugfix release with fixes for the 1.5 line. Update is recommended.</p>
 
-<h2>Mirall/ownCloud Client, version 1.5.0</h2>
+<h4>Mirall/ownCloud Client, version 1.5.0</h4>
 csync 0.91.4 required
 <ul>
 <li>New owncloud propagator that skips the vio abstraction layer</li>
@@ -144,7 +144,7 @@ csync 0.91.4 required
 <li>Windows: Fix rename of temporary files</li>
 <li>Windows: Fix move file operation</li>
 </ul>
-<h2>ocsync, version 0.91.4, ownCloud release</h2>
+<h4>ocsync, version 0.91.4, ownCloud release</h4>
 <ul>
 <li>Fix progress bar on win32</li>
 <li>Fix network rate limiting on win32</li>
@@ -184,7 +184,7 @@ csync 0.91.4 required
 <li>Many minor fixes, refactorings and improvements.</li>
 </ul>
 <hr />
-<h2>Mirall/ownCloud Client, version 1.4.2</h2>
+<h4>Mirall/ownCloud Client, version 1.4.2</h4>
 csync 0.90.4 required
 <ul>
 <li>Do not show the warning icon in the tray (#944)</li>
@@ -201,7 +201,7 @@ csync 0.90.4 required
 <li>Progress: Show number of deletes.</li>
 <li>Fix pause/resume behaviour (#1105)</li>
 </ul>
-<h2>ocsync, version 0.90.4, ownCloud release</h2>
+<h4>ocsync, version 0.90.4, ownCloud release</h4>
 <ul>
 <li>Disable comparison of local inode values for the win32 platform, workaround for bug #779</li>
 <li>Count renamed and deleted files for progress information.</li>
@@ -215,11 +215,10 @@ csync 0.90.4 required
 </ul>
 <hr />
 
-<h1>Release 1.4.1</h1>
-Release september, 26, 2013
+<h3>Release 1.4.1 September 26th 2013</small></h3>
 <p>This is a bugfix release with fixes for the 1.4 line. Update is recommended.</p>
 
-<h2>Mirall/ownCloud Client, version 1.4.1</h2>
+<h4>Mirall/ownCloud Client, version 1.4.1</h4>
 csync 0.90.2 required
 <ul>
 <li>Fixed app name for ownCloud.</li>
@@ -241,7 +240,7 @@ csync 0.90.2 required
 <li>Do proper resync after network disconnect, fixes bug #1007</li>
 <li>Various minor code fixes</li>
 </ul>
-<h2>ocsync, version 0.90.2, ownCloud release</h2>
+<h4>ocsync, version 0.90.2, ownCloud release</h4>
 <ul>
 <li>Disable comparison of local inode values for the win32 platform, workaround for bug #779</li>
 <li>detect if server does not send an etag after an upload completed.</li>
@@ -252,11 +251,11 @@ csync 0.90.2 required
 </ul>
 <hr />
 
-<h1>Release 1.4.0</h1>
-Release september, 4, 2013
+<h3>Release 1.4.0 September 4th 2013</small></h3>
+
 <p>This release massively improves user feedback, adds several settings and fixes bugs. Update is recommended.</p>
 
-<h2>Mirall/ownCloud Client, version 1.4.0</h2>
+<h4>Mirall/ownCloud Client, version 1.4.0</h4>
 csync 0.90.0 required
 <ul>
   <li>New Scheduler: Only sync when there are actual changes in the server</li>
@@ -288,7 +287,7 @@ csync 0.90.0 required
   <li>Require Qt 4.7</li>
   <li>Known issue: Under certain conditions, a file will only get uploaded after up to five minutes</li>
 </ul>
-<h2>ocsync, version 0.90.0, ownCloud release</h2>
+<h4>ocsync, version 0.90.0, ownCloud release</h4>
 <ul>
   <li>Added API to get progress information from csync.</li>
   <li>Added c_rename function to csync std.</li>
@@ -312,11 +311,10 @@ csync 0.90.0 required
 
 <hr />
 
-<h1>Release 1.3.0</h1>
-Release june, 25, 2013
+<h3>Release 1.3.0 <small>June 25th 2013</small></h3>
 <p>This Release introduces big file handling and resuming and introduces significant improvements and fixes. Update is recommended</p>
 
-<h2>Mirall/ownCloud Client, version 1.3.0</h2>
+<h4>Mirall/ownCloud Client, version 1.3.0</h4>
 csync 0.80.0 required
 <ul>
   <li>Default proxy port to 8080</li>
@@ -345,7 +343,7 @@ csync 0.80.0 required
   <li>New setup wizard, defaulting to root syncing (only for new setups)</li>
   <li>Improved thread stop/termination</li>
 </ul>
-<h2>csync, version 0.80.0, ownCloud release</h2>
+<h4>csync, version 0.80.0, ownCloud release</h4>
 <ul>
   <li>Big file chunking (e.g. up/download of big files should now be no problem anymore)</li>
   <li>Resuming (download of big files will resume)</li>
@@ -364,10 +362,9 @@ csync 0.80.0 required
 
 <hr />
 
-<h1>Release 1.2.5</h1>
-Released april, 23, 2013
+<h3>Release 1.2.5 <small>April 23rd 2013</small></h3>
 <p>This is another bugfix release for the 1.2 line, coming with important bug fixes. Update is recommended.</p>
-<h2>Mirall/ownCloud Client, version 1.2.5</h2>
+<h4>Mirall/ownCloud Client, version 1.2.5</h4>
 csync 0.70.7 required.
 <ul>
  <li>[Fixes] NSIS installer fixes.</li>
@@ -379,7 +376,7 @@ csync 0.70.7 required.
  <li>GUI feedback for the statistics copy action.</li>
  <li>Safer approach for detecting duplicate sync runs.</li>
 </ul>
-<h2>csync, version 0.70.7, ownCloud release</h2>
+<h4>csync, version 0.70.7, ownCloud release</h4>
 <ul>
   <li>[Fixes] Resource exhaustion</li>
   <li>Better logging of statedb-related errors</li>
@@ -391,10 +388,9 @@ That is <b>wrong</b>, actually the version is 0.70.7 as required, only the displ
 </ul>
 <hr/>
 
-<h1>Release 1.2.4</h1>
-Released april, 11, 2013
+<h3>Release 1.2.4 <small>April 11th 2013</small></h3>
 <p>This is another bugfix release for the 1.2 line, coming with important bug fixes. Update is recommended.</p>
-<h2>Mirall/ownCloud Client, version 1.2.4</h2>
+<h4>Mirall/ownCloud Client, version 1.2.4</h4>
 csync 0.70.6 required.
 <ul>
   <li>[Fixes] Clarify string in folder wizard</li>
@@ -404,7 +400,7 @@ csync 0.70.6 required.
   <li>[Fixes] Skip folders with no absolute path</li>
   <li>[Fixes] Allow setting the configuration directory on command line</li>
 </ul>
-<h2>csync, version 0.70.6, ownCloud release</h2>
+<h4>csync, version 0.70.6, ownCloud release</h4>
 <ul>
   <li>[Fixes] Try to avoid to upload incomplete files</li>
   <li>[Fixes] Increase read timeout to 300 seconds</li>
@@ -415,19 +411,18 @@ csync 0.70.6 required.
   <li>[Fixes] Fix a crash caused by superfluous free() calls</li>
 </ul>
 <hr/>
-<h1>Release 1.2.3</h1>
-Released april, 2, 2013
+<h3>Release 1.2.3 <small>April 2nd 2013</small></h3>
 <p>This is an immediate update superseeding 1.2.2</p>
-<h2>Mirall/ownCloud Client, version 1.2.3</h2>
+<h4>Mirall/ownCloud Client, version 1.2.3</h4>
 csync 0.70.5 required.
 <ul>
 <li>[Fixes] Unbreak self-signed certificate handling</li>
 </ul>
 <hr/>
-<h1>Release 1.2.2</h1>
-Released april, 2, 2013
+<h3>Release 1.2.2</h3>
+Released <small>April, 2, 2013
 <p>This is another bugfix release for the 1.2 line, coming with important bug fixes. Update is recommended.</p>
-<h2>Mirall/ownCloud Client, version 1.2.2</h2>
+<h4>Mirall/ownCloud Client, version 1.2.2</h4>
 csync 0.70.5 required.
 <ul>
 <li>[Fixes] Do not crash when local file tree contains symlinks.</li>
@@ -438,7 +433,7 @@ csync 0.70.5 required.
 <li>[Fixes] Ignore temporary files created by MS Office.</l>
 <li>[Gui] Support Nautilus in setupFavLink.</li>
 </ul>
-<h2>csync, version 0.70.5, ownCloud release</h2>
+<h4>csync, version 0.70.5, ownCloud release</h4>
 <ul>
 <li>[Fixes] detect 'wrong' conflict files on client side.</li>
 <li>[Fixes] Give context to module to enable logging (cmd client).</li>
@@ -448,10 +443,9 @@ csync 0.70.5 required.
 <li>[Fixes] Various small fixes and improvements.</li>
 </ul>
 <hr/>
-<h1>Release 1.2.1</h1>
-Released february, 26, 2013
+<h3>Release 1.2.1 <small>February 26th 2013</small></h3>
 <p>This is a bugfix release for the 1.2 line</p>
-<h2>Mirall/ownCloud Client, version 1.2.1</h2>
+<h4>Mirall/ownCloud Client, version 1.2.1</h4>
 csync 0.70.4 required.
 <ul>
 <li>[Fixes] Leave configured folders on configuration changes.</li>
@@ -475,7 +469,7 @@ csync 0.70.4 required.
 <li>[Gui]  Make sync result popups less annoyingq.</li>
 <li>[Gui] Fix for result popup.</li>
 </ul>
-<h2>csync, version 0.70.4, ownCloud release</h2>
+<h4>csync, version 0.70.4, ownCloud release</h4>
 <ul>
 <lI>[Win32] Ship with up-to-date openssl version to fix SSL problems we saw.</li>
 <li>[Fixes] Fix crash during mkdir.</li>
@@ -485,10 +479,9 @@ csync 0.70.4 required.
 <li>[Fixes] Files with filenames with unix extensions are ignored now.</li>
 </ul>
 <hr/>
-<h1>Release 1.2.0</h1>
-Released january, 24, 2013
+<h3>Release 1.2.0 <small>January 24th 2013</small></h3>
 <p>This is a feature release.</p>
-<h2>Mirall/ownCloud Client, version 1.2.0</h2>
+<h4>Mirall/ownCloud Client, version 1.2.0</h4>
 csync 0.70.3 required.
 <ul>
 <li>[GUI] New status dialog to show a detailed list of synced files. </li>
@@ -503,7 +496,7 @@ csync 0.70.3 required.
 <li>[Platform] cmake fixes.</li>
 <li>[Platform] Improved, more detailed error reporting.</li>
 </ul>
-<h2>csync, version 0.70.3, ownCloud release</h2>
+<h4>csync, version 0.70.3, ownCloud release</h4>
 <ul>
 <li>[Platform] Improved module parameter system.</li>
 <li>[Platform] New logging framework. Dropped log4c dependency.</li>
@@ -519,8 +512,7 @@ csync 0.70.3 required.
 <li>[Win32] Use libneon with openSSL support now.</li>
 </ul>
 <hr/>
-<h1>Release 1.1.4</h1>
-Released december, 19, 2012
+<h3>Release 1.1.4 <small>December 19th 2012</small></h3>
 <p>This is a bugfix release for the 1.1.x line that fixes two significant bugs.</p>
 <ul>
 <li>No changes to mirall/ownCloud Client source.</li>
@@ -532,8 +524,7 @@ Released december, 19, 2012
 <li>Files > 2GB size can cause problems.</li>
 </ul>
 <hr/>
-<h1>Release 1.1.3</h1>
-Released november, 30, 2012
+<h3>Release 1.1.3 <small>November 30th 2012</small></h3>
 <p>This is a urgent bugfix release for 1.1.2 that fixes two potential crashes.</p>
 <ul>
 <li>No changes to mirall/ownCloud Client source.</li>
@@ -547,11 +538,10 @@ Released november, 30, 2012
 <li>Files > 2GB size can cause problems.</li>
 </ul>
 <hr/>
-<h1>Release 1.1.2</h1>
-Released november, 26, 2012
+<h3>Release 1.1.2 <small>November 26th 2012</small></h3>
 <p>This is a bugfix and improvement release which solves some severe bugs in the 1.1.1 release.</p>
 
-<h2>Mirall/ownCloud Client, version 1.1.2</h2>
+<h4>Mirall/ownCloud Client, version 1.1.2</h4>
 csync 0.60.2 required.
 <ul>
 <li>[Fixes] Allow to properly cancel the password dialog.</li>
@@ -584,9 +574,8 @@ csync 0.60.2 required.
 </ul>
 <hr/>
 
-<h1>Release 1.1.1</h1>
-Released october, 18, 2012
-<h2>Mirall/ownCloud Client, version 1.1.1</h2>
+<h3>Release 1.1.1 <small>October 18th 2012</small></h3>
+<h4>Mirall/ownCloud Client, version 1.1.1</h4>
 csync 0.60.1 required.
 
 <p>This is a bugfix and improvement release which resolves issues that have been found after the initial 1.1.0 release</p>
@@ -606,9 +595,8 @@ csync 0.60.1 required.
 
 <hr/>
 
-<h1>Release 1.1.0</h1>
-Released october, 10, 2012
-<h2>Mirall/ownCloud Client, version 1.1.0</h2>
+<h3>Release 1.1.0 <small>October 10th 2012</small></h3>
+<h4>Mirall/ownCloud Client, version 1.1.0</h4>
 csync 0.60.0 required.
 
 <p>This is a big feature release for the sync engine ownCloud client is using. It switches to a new, server based uniq Id based approach.</p>
@@ -640,7 +628,7 @@ csync 0.60.0 required.
 <li>Placed custom.ini with customization options to /etc/appName()</li>
 </ul>
 
-<h2>csync, version 0.60.0, ownCloud release</h2>
+<h4>csync, version 0.60.0, ownCloud release</h4>
 <p>The csync ownCloud of ownCloud saw significant changes to support the Id based syncing.<br/>Until these changes appear in csync upstream the ownCloud maintained csync package is renamed to <b>ocsync</b>  to avoid conflicts with the upstream version.</p>
 <ul>
  <li>simplification of pac based proxy support.</li>
@@ -661,19 +649,17 @@ csync 0.60.0 required.
 <li>Added methods to query IDs from the server and maintain it locally.</li>
 </ul>
 <hr/>
-<h1>Release 1.0.5</h1>
-Released august 14, 2012
-<h2>Mirall/ownCloud Client, version 1.0.5</h2>
+<h3>Release 1.0.5 <small>August 14th 2012</small></h3>
+<h4>Mirall/ownCloud Client, version 1.0.5</h4>
 csync 0.50.8 required (no change over 1.0.4).
 <p>This is a pure bugfix release for release 1.0.4. Update is recommended.</p>
 <ul>
 <li>[Fixes] Really configure https if the checkbox is activated in setup wizard.</li>
 </ul>
 <hr/>
-<h1>Release 1.0.4</h1>
-Release august 10, 2012
+<h3>Release 1.0.4 <small>August 10th 2012</small></h3>
 
-<h2>csync, version 0.50.8, ownCloud release</h2>
+<h4>csync, version 0.50.8, ownCloud release</h4>
 <p>This is a feature and bugfix release.</p>
 <ul>
 <li>Inode equivalent support for Win32 platforms to support rename.</li>
@@ -687,7 +673,7 @@ Release august 10, 2012
 <li>Modules can now report their capabilities to csync core.</li>
 <li>A lot of minor fixes and improvements.</li>
 </ul>
-<h2>Mirall/ownCloud Client, version 1.0.4</h2>
+<h4>Mirall/ownCloud Client, version 1.0.4</h4>
 csync 0.50.8 required.
 <ul>
 <li>[APP] ownCloud is now a single instance app, can not start twice any more.</li>
@@ -712,10 +698,9 @@ csync 0.50.8 required.
 <h3>Known Problems</h3>
 <ul></ul>
 <hr/>
-<h1>Release 1.0.3</h1>
-Released june 22, 2012
+<h3>Release 1.0.3 <small>June 22nd 2012</small></h3>
 
-<h2>csync, version 0.50.7, ownCloud release</h2>
+<h4>csync, version 0.50.7, ownCloud release</h4>
 <p>This is a bugfix and improvement release fixing again encoding issues and streamlining the ownCloud syncing.
 </p>
 <ul>
@@ -724,7 +709,7 @@ Released june 22, 2012
 <li>Fixed file copy function to use wide character (win32).</li>
 <li>Fixed loading of statedb if user has special char (win32).</li>
 </ul>
-<h2>Mirall/ownCloud Client, version 1.0.3</h2>
+<h4>Mirall/ownCloud Client, version 1.0.3</h4>
 csync 0.50.7 required.
 <ul>
  <li>[GUI] Added a log window which catches the logging if required and allows to save for information.</li>
@@ -748,10 +733,9 @@ csync 0.50.7 required.
 <li>The log window drags down the client if its open for long. Better use the --logfile option to catch full logs.</li>
 </ul>
 <hr/>
-<h1>Release 1.0.2</h1>
-Released may 18, 2012
+<h3>Release 1.0.2 <small>May 18th 2012</small></h3>
 
-<h2>csync, version 0.50.6, ownCloud release</h2>
+<h4>csync, version 0.50.6, ownCloud release</h4>
 <p>
 This release is a bugfix release and fixes encoding problems of file and directory names happening cross platform, in particular windows.
 </p>
@@ -762,7 +746,7 @@ This release is a bugfix release and fixes encoding problems of file and directo
 <li>Switch logging off on Apple to not fill the syslog. (oC bug #622)</li>
 </ul>
 
-<h2>Mirall/ownCloud Client, version 1.0.2</h2>
+<h4>Mirall/ownCloud Client, version 1.0.2</h4>
 csync 0.50.6 required.
 
 This version comes with the first iteration of a new icon set for the ownCloud desktop client and comes with a bunch of bug fixes.
@@ -782,10 +766,9 @@ This version comes with the first iteration of a new icon set for the ownCloud d
 <h3>Known Problems</h3>
 none so far.
 <hr/>
-<h1>Release 1.0.1</h1>
-Released april, 24 2012
+<h3>Release 1.0.1 <small>April 24th 2012</small></h3>
 
-<h2>csync, version 0.50.5, ownCloud release:</h2>
+<h4>csync, version 0.50.5, ownCloud release:</h4>
 
 This release reflects our efforts to further improve the platform support of csync and oCC - this release brings us a big step nearer to a MacOSX release in addition to Linux and Windows.
 
@@ -799,7 +782,7 @@ Moreover, in the csync library we improved the error detection and reporting to 
 <li>fixed thread savity with error reporting</li>
 </ul>
 
-<h2>Mirall/ownCloud Client, version 1.0.1</h2>
+<h4>Mirall/ownCloud Client, version 1.0.1</h4>
 csync 0.50.5 required.
 
 With this release we deliver the barely missed SSL support to the users, along with a long line of bugfixes and improvements.
@@ -840,7 +823,6 @@ Detailed list:
 <li>Folders containing special characters in the filename cause problems on the windows platforms.</li>
 </ul>
 
-<h1>Release 1.0.0</h1>
-Released april, 03, 2012
+<h3>Release 1.0.0 <small>April 3rd 2012</small></h3>
 
 First release working on Linux and Windows platforms. 
