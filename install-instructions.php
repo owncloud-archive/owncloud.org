@@ -12,8 +12,8 @@
 		<ol>
 			<li>Download <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">Unix</a> (<tt>.tar.bz2</tt>) or <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">Windows</a> (<tt>.zip</tt>) archive.</li>
 			<li>Check package integrity using MD5 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">Unix</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">Windows</a>) or SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">Unix</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">Windows</a>)</li>
-			<li>Verify the authenticity via PGP (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">Unix </a>/<a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP; ?>">Windows</a>). The ownCloud PGP key <a href="https://owncloud.org/owncloud.asc">is here</a>.
-			</li><li>Follow the <a href="<?php echo $DOCUMETNATION_ADMIN; ?>#installation">ownCloud Admin Manuals’</a> installation chapter</li>
+			<li>Verify the authenticity via PGP (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">Unix </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP; ?>">Windows</a>). The ownCloud PGP key <a target="_blank" href="<?php echo $OWNCLOUD_PGP ; ?>">is here</a>.
+			</li><li>Follow the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>#installation">ownCloud Admin Manuals’</a> installation chapter</li>
 		</ol>
 	  </div>
 	  <div class="col-md-6">
@@ -46,8 +46,8 @@
 		</ol>
 	    </div>
 	  <div class="col-md-6">
-		<p>You can find further instructions in the <a href="<?php echo $DOCUMETNATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
-		<p>Note:</br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="https://owncloud.org/owncloud.asc">GPG key</a>.</p>
+		<p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
+		<p>Note:</br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_PGP; ?>">GPG key</a>.</p>
 	    </div>
 	    </div>
 </div>
@@ -71,8 +71,8 @@
 		<p>The repositories allow you to stay on an up-to-date version of ownCloud using your distributions’ update mechanism, with packages maintained by the ownCloud community.</p>
 	    </div>
 	    <div class="col-md-6">
-		<p>You can find further instructions in the <a href="<?php echo $DOCUMETNATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
-		<p>Note:</br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="https://owncloud.org/owncloud.asc">GPG key</a>.</p>
+		<p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
+		<p>Note:</br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_PGP; ?>">GPG key</a>.</p>
 	    </div>
 	    </div>
 	    <div class="overlay-footer row">

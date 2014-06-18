@@ -31,7 +31,7 @@ if(is_page('oc-news')) { include roots_template_path(); } else {
 
     <?php get_template_part('templates/footer'); ?>
 
-    <?php if(is_page('install')) { get_template_part('install-instructions'); } ?>
+    <?php if(is_page('install')) { require get_template_directory().'/install-instructions.php'; } ?>
 
     <?php if(PIWIKTRACKING) { get_template_part('templates/piwik-tracking'); } ?>
     

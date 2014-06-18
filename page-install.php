@@ -94,7 +94,7 @@
       <a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-large btn-default"><i class="icon-archive"></i>  Archive File</a>
       <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" class="btn btn-large btn-default"><i class="icon-linux"></i> Linux Packages</a>
     </div>
-    <h4>Desktop Clients <small>1.6.0 beta 2</small></h4>
+    <h4>Desktop Clients <small><?php echo $VERSIONS_CLIENT_DESKTOP_TESTING; ?></small></h4>
     <div class="btn-group">
       <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN; ?>" class="btn btn-large btn-default"><i class="icon-windows"></i>  Windows</a>
       <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC; ?>" class="btn btn-large btn-default"><i class="icon-apple"></i> Mac</a>
