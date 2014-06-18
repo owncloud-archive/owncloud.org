@@ -1,4 +1,5 @@
 <?php get_template_part('templates/parts/title'); ?>
+<div class="sub-nav"><a href="/security/advisories">Security Advisories</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/hall-of-fame">Hall of Fame</a></div>
 <div class="row">
 <div class="span12">
 <p><div class="alert alert-danger"><strong>Heads up!</strong> We appreciate every report, however, please notice that our team is very busy and therefore won't respond to reports which we rate as "low" severity or invalid (e.g. DoS in Apache or "X-Powered-By" headers). So do us and yourself a favor: Don't report such things, we will not take them into consideration.</div></p>
