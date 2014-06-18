@@ -1,25 +1,8 @@
-<?php
- 
-
-?>
-
-<div class="page-header"><h1>Contributors</h1>
+<div class="page-header">
+  <h1>Contributors</h1>
 </div>
-
-
-<div class="row">
-	<div class="span3">
-		<div class="sidebar">
-			<?php 
-			//<div class="well">
-	//		wp_nav_menu(array('theme_location' => 'dev-nav'));
-			//</div>
-			?>
-		</div>
-	</div>
-	
-	<div class="span9">
-		<div class="page-content">
+<div class="span9">
+	<div class="page-content">
 <?php
 
 if(CONTRIBOOK) {
