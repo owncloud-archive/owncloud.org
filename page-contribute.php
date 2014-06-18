@@ -71,7 +71,8 @@ Read the Contribution, Design and Coding guidelines below to get an idea of what
 	<li>Decisions are <a href="http://blog.jospoortvliet.com/2013/05/consensus-decision-making.html">made by consensus</a>.
 	We strive for making the best technical decisions and as nobody can know everything, we collaborate.
 	That means a first negative comment might not be the final word, neither is positive feedback an immediate <em>GO</em>.
-	ownCloud is built out of modular pieces (apps) and app maintainers will decide in case of disagreement.</li>
+	ownCloud is built out of modular pieces (apps) and maintainers have a strong influence. In case of
+	disagreement we consult other seasoned contributors.</li>
 	<li>When you <code>git pull</code>, always use <code>--rebase</code> to not generate extra commits like:
 	<em>merged master into master</em></li>
 	<li>We need a signed contributor agreement from you to commit into the core repository. But no worries.
