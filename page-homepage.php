@@ -85,7 +85,7 @@
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-comment"></i> The latest from the forum</h2>
-		<?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,5); }?>
+		<?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,7); }?>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-cloud"></i> ownCloud.com news</h2>
