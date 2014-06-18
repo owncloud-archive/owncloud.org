@@ -8,7 +8,7 @@ Want to <strong>help</strong> translate, promote or document ownCloud?</p>
 	<li><a href="https://github.com/owncloud/core/issues">Report an issue on our bug tracker</a></li>
 	<li><a href="https://www.transifex.com/projects/p/owncloud/">Translate ownCloud to your language</a></li>
 	<li>Learn to write ownCloud code. We have <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open/">Junior Jobs</a>
-	and a <a href="https://github.com/owncloud/core/wiki/GSoC,-GCI-and-OPW">project ideas page</a> with mentors.
+	and a <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding">project ideas page</a> with mentors.
 	See below for how to get started.</li>
 	<li>Develop your own ownCloud app, see below and check the <a href="<?php echo $DOCUMETNATION_DEVELOPER; ?>">developer documentation</a></li>
 	<li>Help out with the <a href="https://github.com/owncloud/www">website</a> and 
@@ -41,7 +41,7 @@ or in <code>/path/to/webserver/.</code></li>
 	<li>Dive into the code!</li>
 </ol>
 <p><em>TIP</em>: For an easy way to get involved, check the <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open/">Junior Jobs</a>
-and check out the <a href="https://github.com/owncloud/core/wiki/GSoC,-GCI-and-OPW">project ideas page</a>
+and check out the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding">project ideas page</a>
 (and don't hesitate to contact the mentor of the project you're interested in!)</p>
 <p><em>TIP</em>: If you are new to git, do the <a href="http://git-scm.com/course/svn.html">git crash course</a>.
 We use <a href="http://github.com/owncloud">github</a> for our collaborative development, and they have an excellent
