@@ -2,7 +2,7 @@
 <!--  Server  -->
   <div class="col-md-6">
     <h3><strong>Install ownCloud Server</strong></h3>
-    <p>Latest stable version: <?php echo $VERSIONS_SERVER_FULL_STABLE; ?></p>
+    <p>Latest stable version: <?php echo $VERSIONS_SERVER_FULL_STABLE; ?>&nbsp;&nbsp;(<a href="/changelog"><small>Changelog</small></a>)</p>
     <p>ownCloud can be installed on Windows and Linux operating systems, and is available via packages, sources, or a one file php installer.</p>
     <div class="btn-group">
 	<a class="btn btn-primary btn-large" href="#instructions-server" role="button" rel="tooltip" title="For server owners"><i class="icon-archive"></i> Archive File</br><small>For server owners</small></a>
@@ -24,7 +24,7 @@
   <div class="col-md-6">
     <a name="desktop"></a>
     <h3><strong>Install Desktop Clients</strong></h3>
-    <p>Latest stable version: <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?></p>
+    <p>Latest stable version: <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;&nbsp;(<a href="/changelog/desktop"><small>Changelog</small></a>)</p>
     <p>Synchronise your ownCloud with your computer using our desktop clients. Select one or more directories on your local machine and always have access to your latest files wherever you are.</p>
     <div class="btn-group">
       <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" class="btn btn-large btn-default<?php if(os_info() == 'Windows'){ echo ' btn-primary'; } ?>"><i class="icon-windows"></i>  Windows<br /><small>XP, Vista, 7 and 8</small></a>
