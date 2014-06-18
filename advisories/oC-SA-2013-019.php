@@ -10,7 +10,7 @@
 	</div>
 	<div class="col-md-8">
 		<h2>Multiple SQL injection (oC-SA-2013-019)</h2>
-		<p>1st January 1970</p>
+		<p>14th May 2013</p>
 		<p>Risk level: <strong>High</strong></p>
 		<h3>Description</h3>
 		<p><p>ownCloud before 5.0.6 does not neutralize special elements that are passed to the SQL query in lib/db.php which therefore allows an authenticated attacker to execute arbitrary SQL commands. (CVE-2013-2045)</p><p>ownCloud before 5.0.6 and 4.5.11 does not neutralize special elements that are passed to the SQL query in lib/bookmarks.php which therefore allows an authenticated attacker to execute arbitrary SQL commands. (CVE-2013-2046)</p></p>

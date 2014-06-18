@@ -31,6 +31,10 @@
 <a href="/security/advisory?id=oC-SA-2014-003">Insecure Flash Cross Domain policies</a><br>
 <a href="/security/advisory?id=oC-SA-2014-002">Insecure OpenID implementation</a><br>
 <br>
+<p>Version 5.0.8</p>
+<a href="/security/advisory?id=oC-SA-2012-030">Auth bypass in "user_webdavauth"</a><br>
+<a href="/security/advisory?id=oC-SA-2012-029">XSS in "Share Interface"</a><br>
+<br>
 <p>Version 5.0.6</p>
 <a href="/security/advisory?id=oC-SA-2013-019">Multiple SQL injection</a><br>
 <a href="/security/advisory?id=oC-SA-2013-025">Privilege escalation and CSRF in the API</a><br>
@@ -53,6 +57,9 @@
 <br>
 <p>Version 5.0.1</p>
 <a href="/security/advisory?id=oC-SA-2013-012">contacts: SQL Injection</a><br>
+<br>
+<p>Version 4.5.13</p>
+<a href="/security/advisory?id=oC-SA-2012-030">Auth bypass in "user_webdavauth"</a><br>
 <br>
 <p>Version 4.5.11</p>
 <a href="/security/advisory?id=oC-SA-2013-019">Multiple SQL injection</a><br>
