@@ -5,22 +5,19 @@ div.conference {
 	background: -moz-linear-gradient(top , #35537A, #1D2D44); 
 	background: -o-linear-gradient(top , #35537A, #1D2D44); 
 	background: linear-gradient( #35537A, #1D2D44);
-	min-width: 960px;
-	min-height: 900px;
 	margin-bottom: -40px; 
 	margin-top: -20px;
 }
 
 div.conf-content {
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: FontAwesome,sans-serif;
-	line-height: 27px;
+	line-height: 1.7;
 	text-align: left;
 }
 
 div.conf-content h1 {
-	font-size: 28px;
 	text-align: center;
 }
 
@@ -50,18 +47,14 @@ div.conf-header {
 	text-align: center;
 }
 
-.conf-img {
+.not-front .conf-img {
+  	margin: 0;
 }
 
 h2.conf-location {
-	font-size: 24px;
-	font-weight: bold;
-	margin-bottom: 30px;
-	padding-top: 14px;
-}
-
-h2.conf-acc {
-	margin-top: 14px;
+  	font-size: 1.75em;
+    	font-weight: 500;
+	margin-top: 0.5em;
 }
 
 div.conf-txt,
@@ -78,13 +71,9 @@ div.conf-info {
 	margin-right: -20px;
 }
 
-div.conf-txt p,
-div.conf-info p,
-div.conf-partners p,
-div.conf-about p {
-	font-size: 14px;
-	font-family: FontAwesome,sans-serif;
-	line-height: 27px;
+div.conf-info h3 {
+  	margin-top: 0;
+	font-weight: 700;
 }
 
 div.conf-info p,
@@ -94,8 +83,4 @@ div.conf-info ul {
 
 div.conf-info ul {
 	margin-left: 15px;
-}
-
-div.conf-info li {
-	line-height: 20px;
 }
