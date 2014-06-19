@@ -7,8 +7,8 @@ div.conference {
 	background: linear-gradient( #35537A, #1D2D44);
 	min-width: 960px;
 	min-height: 900px;
-	margin-bottom: 0px; 
-	margin-top: 0px;
+	margin-bottom: -40px; 
+	margin-top: -20px;
 }
 
 div.conf-content {

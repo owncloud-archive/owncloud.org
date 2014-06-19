@@ -15,7 +15,7 @@
 			<li>Marketing &amp; Promo</li>
 		</ul>
 	</div>
-	<div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
+	<div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
 		<h1>Techtalks &amp; Workshops</h1>
 		<h3>August 30</h3>
 		<p>The Conference Day on Saturday the 30th provides a chance to learn and improve your coding skills on and around ownCloud.</p>
