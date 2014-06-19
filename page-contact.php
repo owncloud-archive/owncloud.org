@@ -20,9 +20,10 @@ if(CONTRIBOOK) {
 	foreach($users as $user) {
 		$data = CONTRIBOOK_USER::getuser($user);
 		echo('<tr><td style="padding:5px;">');
-		if($data['picture_50'] <> ''){
-			echo('<span class="contribook_microbloguserpicture"><a href="/contributor/?user='.$user.'"><img src="'.CONTRIBOOK_PHOTO_URL.$data['picture_50'].'" border="0" /></a></span>');
-		}
+		if(empty($data['picture_50'])) { $data['picture_50'] = 'blogger_50.png'; }
+
+		echo('<span class="contribook_microbloguserpicture"><a href="/contributor/?user='.$user.'"><img src="'.CONTRIBOOK_PHOTO_URL.$data['picture_50'].'" border="0" /></a></span>');
+
 		echo('</td><td style="padding:5px;">');
 
 		echo('<a href="/contributor/?user='.$user.'">'.$data['name'].'</a><br />');
