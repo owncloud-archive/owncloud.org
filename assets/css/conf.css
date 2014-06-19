@@ -1,0 +1,101 @@
+/* Style Conference page from here */
+div.conference {
+	background-color: #35537A;
+	background: -webkit-linear-gradient(top , #35537A, #1D2D44);
+	background: -moz-linear-gradient(top , #35537A, #1D2D44); 
+	background: -o-linear-gradient(top , #35537A, #1D2D44); 
+	background: linear-gradient( #35537A, #1D2D44);
+	min-width: 960px;
+	min-height: 900px;
+	margin-bottom: 0px; 
+	margin-top: 0px;
+}
+
+div.conf-content {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: FontAwesome,sans-serif;
+	line-height: 27px;
+	text-align: left;
+}
+
+div.conf-content h1 {
+	font-size: 28px;
+	text-align: center;
+}
+
+div.conf-content h2,
+div.conf-content h3 {
+	text-align: center;
+	margin-left: 0;
+}
+
+div.conf-content a {
+	color: #FFFFFF;
+	padding: 2px;
+	border-bottom: 1px solid #FFFFFF;
+	border-radius: 2px;
+}
+
+div.conf-content a:hover,
+div.conf-content a:active,
+div.conf-content a:focus {
+	color: #5BC0DE;
+	text-decoration: none;
+}
+
+div.conf-header {
+  	margin-top: 45px;
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+.conf-img {
+}
+
+h2.conf-location {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	padding-top: 14px;
+}
+
+h2.conf-acc {
+	margin-top: 14px;
+}
+
+div.conf-txt,
+div.conf-info,
+div.conf-partners,
+div.conf-about {
+  	padding-top: 20px;
+	padding-left: 20px;
+  	margin-bottom: 45px;
+}
+
+div.conf-info {
+	margin-left: -40px;
+	margin-right: -20px;
+}
+
+div.conf-txt p,
+div.conf-info p,
+div.conf-partners p,
+div.conf-about p {
+	font-size: 14px;
+	font-family: FontAwesome,sans-serif;
+	line-height: 27px;
+}
+
+div.conf-info p,
+div.conf-info ul {
+	text-align: left;
+}
+
+div.conf-info ul {
+	margin-left: 15px;
+}
+
+div.conf-info li {
+	line-height: 20px;
+}
