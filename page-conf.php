@@ -1,3 +1,4 @@
+<div class="conference">
 <div class="row conf-header">
 
 <img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
@@ -54,5 +55,6 @@
 <strong>Spread the word!</strong>
 <p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="http://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/owncloud">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/102805591550379137055/posts">Google+</a>.</p>
 
+</div>
 </div>
 </div>
