@@ -21,14 +21,30 @@ if(is_page('oc-news')) { include roots_template_path(); } else {
       get_template_part('templates/header-top-navbar');
     ?>
 
-    <div class="wrap container" role="document">
-      <div class="content row">
-        <main class="main <?php echo roots_main_class(); ?>" role="main">
-          <?php include roots_template_path(); ?>
-        </main><!-- /.main -->
-      </div><!-- /.content -->
-    </div><!-- /.wrap -->
+    <?php if(is_page('conf')) { // Handle conference layout ?>
 
+      <div class="conference">
+        <div class="wrap container conf-content" role="document">
+          <div class="content row">
+            <main class="main <?php echo roots_main_class(); ?>" role="main">
+              <?php include roots_template_path(); ?>
+            </main><!-- /.main -->
+          </div><!-- /.content -->
+        </div><!-- /.wrap -->
+      </div><!-- /.conference -->
+
+    <?php } else { // Handle all other layouts ?>
+
+      <div class="wrap container" role="document">
+        <div class="content row">
+          <main class="main <?php echo roots_main_class(); ?>" role="main">
+            <?php include roots_template_path(); ?>
+          </main><!-- /.main -->
+        </div><!-- /.content -->
+      </div><!-- /.wrap -->
+
+    <?php } ?>
+    
     <?php get_template_part('templates/footer'); ?>
 
     <?php if(is_page('install')) { require get_template_directory().'/install-instructions.php'; } ?>

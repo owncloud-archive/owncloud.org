@@ -14,8 +14,8 @@
         <div class="footer-nav">
           <h4>Support &#38; Documentation</h4>
           <ul id="menu-support-and-documentation" class="menu">
-            <li class="menu-admin-manual"><a href="http://doc.owncloud.org/server/6.0/admin_manual/">Admin manual</a></li>
-            <li class="menu-user-manual"><a href="http://doc.owncloud.org/server/6.0/user_manual/">User manual</a></li>
+            <li class="menu-admin-manual"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>">Admin manual</a></li>
+            <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_USER; ?>">User manual</a></li>
             <li class="menu-security"><a href="<?php get_bloginfo('url'); ?>/security/">Security</a></li>
             <li class="dropdown menu-resources"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Resources <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -35,7 +35,7 @@
             <li class="menu-contribute"><a href="<?php get_bloginfo('url'); ?>/contribute/">Contribute</a></li>
             <li class="menu-security"><a href="<?php get_bloginfo('url'); ?>/security/">Security</a></li>
             <li class="menu-design"><a href="<?php get_bloginfo('url'); ?>/contribute/design/">Design</a></li>
-            <li class="menu-developer-docs"><a href="http://doc.owncloud.org/server/6.0/developer_manual/">Developer docs</a></li>
+            <li class="menu-developer-docs"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer docs</a></li>
           </ul>
         </div>
      </div>
