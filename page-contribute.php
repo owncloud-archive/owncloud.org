@@ -11,7 +11,7 @@ Want to <strong>help</strong> translate, promote or document ownCloud?</p>
 	and a <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding">project ideas page</a> with mentors.
 	See below for how to get started.</li>
 	<li>Develop your own ownCloud app, see below and check the <a href="<?php echo $DOCUMETNATION_DEVELOPER; ?>">developer documentation</a></li>
-	<li>Help out with the <a href="https://github.com/owncloud/www">website</a> and 
+	<li>Help out with the <a href="https://github.com/owncloud/www/blob/master/README.md">website</a> and
 	<a href="https://github.com/owncloud/documentation/blob/stable6/CONTRIBUTING.rst">write
 	documentation</a> (contact tpn or deryo in the <a href="irc://#owncloud-dev@freenode.net">irc channel</a>)</li>
 	<li>Spread the word, tell your friends about it, write a blog post!</li>
@@ -37,7 +37,7 @@ or in <code>/path/to/webserver/.</code></li>
 	<a href="<?php echo $DOCUMETNATION_ADMIN; ?>configuration/configuration_apps.html#parameters">setup
 	multiple app directories</a> or symlink each app like e.g.
 <pre>ln -s /path/to/webserver/apps/news /path/to/webserver/owncloud/apps/news</pre></li>
-	<li><a href="/install/">Install ownCloud</a> and get it running</li>
+	<li><a href="<?php echo $DOCUMETNATION_ADMIN; ?>">Install ownCloud</a> and get it running</li>
 	<li>Dive into the code!</li>
 </ol>
 <p><em>TIP</em>: For an easy way to get involved, check the <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open/">Junior Jobs</a>
@@ -48,7 +48,7 @@ We use <a href="http://github.com/owncloud">github</a> for our collaborative dev
 series of tutorials on <a href="https://help.github.com/">help.github.com</a>. Try the <em>'Set Up git'</em>,
 <em>'Fork a Repo'</em> and <em>'Be Social'</em> tutorials!</p>
 <h2>Getting your code in ownCloud</h2>
-<p>Once you have written or improved a piece of ownCloud code, you can submit it to us for review and inclusion.
+<p>Once you have written or improved a piece of ownCloud code, you can submit it to the community for review and inclusion.
 Read the Contribution, Design and Coding guidelines below to get an idea of what we are looking for and how it works.</p>
 <p>in short, the steps are:</p>
 <ol><li><em>(optional)</em> check if somebody is already doing something like this or look for others to work with you
