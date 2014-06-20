@@ -1,7 +1,6 @@
 <div class="row page-content-header">
 	<div class="col-md-4">
 		<h1>Security Advisories</h1>
-		<a href="/security/advisories/feed" class="rss-button">RSS</a>
 	</div>
 	<div class="col-md-5 col-md-offset-3">
 		<form role="form" action="/security/advisory/" method="get">
