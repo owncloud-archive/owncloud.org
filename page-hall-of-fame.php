@@ -1,7 +1,7 @@
 <div class="page-header">
 	<h1>Security Hall of Fame</h1>
 </div>
-<div class="alert alert-success"><strong>Heads up!</strong> We appreciate every vulnerability report, however, listing on this page is reserved for people who have reported unknown vulnerabilities which we have determined to be of a high or critical severity. People who have reported issues on our websites *.owncloud.org and *.owncloud.com can be found <a href="http://owncloud.org/about/security/issues-on-our-webservices/">here</a>.</div>
+<div class="alert alert-success"><strong>Heads up!</strong> We appreciate every vulnerability report, however, listing on this page is reserved for people who have reported unknown vulnerabilities which we have determined to be of a high or critical severity. People who have reported issues on our websites *.owncloud.org and *.owncloud.com can be <a href="#issues-with-webservices">here</a>.</div>
 <p>The ownCloud community would like to acknowledge the following people for their contributions to the security of ownCloud:</p>
 <strong>2013</strong>
 <ul>
@@ -38,6 +38,7 @@
 	<li><a href="http://tgries.de/">Thomas Gries</a></li>
 </ul>
 <hr/>
+<a name="issues-with-webservices"></a>
 <h2>Issues with our Web Services</h2>
 <div class="alert alert-warning">
 	<strong>Heads up!</strong> This hall of fame for website related reports is closed. We appreciate report about the web 
