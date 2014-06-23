@@ -20,8 +20,13 @@ process easy and effective for everyone involved.
 
 ## Development Process
 
-* Develop changes in a branch of master, served on your local environment
-* Submit a pull request to master once the feature/bugfix is complete
+* Setup your local development environment using the instructions above
+* Create a new branch based off master live (our equivelant of stable in the core repo)
+* Submit a pull request to master once the feature/bugfix is complete (this is so we can test it on the staging server)
 * Upon review, a core developer will permit the merge into master
-* Code will be pulled onto staging.owncloud.org for testing
-* Upon approval this will be cloned over to www.owncloud.org
+* Code will be pulled onto staging.owncloud.org for testing (ping @tomneedham for this)
+* Upon approval this will be cloned over to www.owncloud.org (by merging into the live branch)
+
+### Notes
+
+* Please don't commit straight into the master or live branches. 
