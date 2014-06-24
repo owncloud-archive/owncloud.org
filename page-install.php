@@ -63,7 +63,7 @@
 <!-- Integrate -->
 <div class="row">
   <div class="col-md-6">
-    <a name="mobile"></a>
+    <a name="integrate"></a>
     <h3><strong>Integrate with your ownCloud</strong></h3>
     <p>ownCloud is compatible with a large range of 3rd party applications and services. Use ownCloud to store your data and better integrate with your web services.</p>   
     <div class="btn-group">
@@ -81,7 +81,7 @@
 <!--  Testing  -->
 <div class="row">
   <div class="col-md-6">
-    <a name="mobile"></a>
+    <a name="testing"></a>
     <h3><strong>Help with testing and development</strong></h3>
     <p>Our mobile apps are in constant development and help is always needed in testing the latest bugfixes and features. Please report any issues to the <a href="https://github.com/owncloud/core/issues" target="_blank">tracker</a>.</p>
     <h4>ownCloud Server <small>Daily build</small></h4>
