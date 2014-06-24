@@ -37,17 +37,23 @@
 	</div>
 	<div class="col-sm-6">
 		<h2>Register</h2>
-		<p>The ownCloud Contributor Conference is entirely open. We do ask you to register to help us plan better for the event. Please register <a href="https://conference.owncloud.org/conference/OCC14/register">here</a>.</p>
+		<p>The ownCloud Contributor Conference is entirely open. We do ask you to register to help us plan better for the event. Please register <a href="https://conference.owncloud.org/conference/OCC14/register">here</a>. Note that you have to register for the site, <em>then</em> for the event!</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
-		<p>Berlin is a great place and it is easy to find a place to sleep. You can find options online, for example at <a href="http://www.tripadvisor.com/SmartDeals-g187323-Berlin-Hotel-Deals.html">trip advisor</a> and <a href="http://www.lonelyplanet.com/germany/berlin/hotels/best-places-to-stay-in-berlin">lonely planet</a>. We're looking for a convenient hotel option close to the venue and we'll put some details here once we have them.</p>
+		<p>We recommend you pick one of the following hotels:
+		<ul>
+		<li><a href="https://www.novum-hotels.de/hotel-gates-berlin/hotel-gates-information-berlin.php">three-star Novum Gates</a>, costs about €34/night</li>
+		<li><a href="https://www.novum-hotels.de/hotel-centrum-berlin/hotel-centrum-information-berlin.php">three-star Novum DAS</a>, costs about €43/night</li>
+		<li><a href="http://www.accorhotels.com/gb/hotel-3649-novotel-berlin-am-tiergarten/index.shtml">four-star Novotel am tiergarten</a>, costs about €75/night</li>
+		</ul>
+		</p>
 	</div>
 </div>
 <div class="row conf-about">
 	<div class="col-sm-6 col-sm-offset-3">
 		<h2>About</h2>
-		<p>With 1.3 million users, ownCloud is THE open source file sync and sharing solution. Interested in getting involved? Check out <a href="http://owncloud.org/contribute">owncloud.org/contribute</a> and get on it!</p>
+		<p>With 1.3 million users, ownCloud is THE open source file sync and sharing solution. Interested in getting involved? Check out <a href="http://owncloud.org/contribute">owncloud.org/contribute</a>!</p>
 		<strong>Thanks!</strong>
-		<p>The event is made possible thanks to the generous donation of the location by the <a>TU Berlin</a> and the financial and practical support of <a href="http://owncloud.com">ownCloud Inc</a>.</p>
+		<p>The event is made possible thanks to the generous donation of the location by the <a>Technische Universität Berlin</a> and the financial and practical support of <a href="http://owncloud.com">ownCloud Inc</a>.</p>
 		<strong>Spread the word!</strong>
 		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="http://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/owncloud">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/102805591550379137055/posts">Google+</a>.</p>
 	</div>
