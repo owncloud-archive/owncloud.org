@@ -29,7 +29,7 @@
       <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" class="btn btn-lg btn-default<?php if(os_info() == 'Mac'){ echo ' btn-primary'; } ?>"><i class="icon-apple"></i> Mac<br /><small>OSX 10.7+, 64 bit</small></a>
       <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" class="btn btn-lg btn-default<?php if(os_info() == 'Linux'){ echo ' btn-primary'; } ?>"><i class="icon-linux"></i> Linux<br /><small>Multiple distributions</small></a>
     </div>
-    <p>Looking for the <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>">Sources</a> (<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP; ?>">PGP signature</a>)? For more information on the sync client, checkout the <a href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>/">documentation</a>.</p>
+    <p>Looking for the <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>">Sources</a> (<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP; ?>">PGP signature</a>)? For more information on the sync client, checkout the <a target="_blank" href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>/">documentation</a>.</p>
   </div>
   <div class="col-md-6">
     <div class="thumbnail">
