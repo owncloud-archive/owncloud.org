@@ -8,6 +8,7 @@ $VERSIONS_SERVER_MAJOR_DEVELOPMENT = '7';
 $VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '1.6.0';
 $VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '1.6'; // For use in documentation link
 $VERSIONS_CLIENT_DESKTOP_TESTING = '1.6.0 beta 2';
+$VERSIONS_CLIENT_DESKTOP_TESTING = '1.6.1 rc1';
 
 /* DOCUMENTATION */
 $DOCUMENTATION_BASE = 'http://doc.owncloud.org';
@@ -24,9 +25,14 @@ $DOWNLOAD_CLIENT_DESKTOP_BASE = 'https://download.owncloud.com/desktop/stable/';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-1.6.0.3082-setup.exe';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-1.6.0.201.dmg';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = 'https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = 'https://download.owncloud.com/desktop/testing/ownCloud-1.6.0.2899beta2-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = 'https://download.owncloud.com/desktop/testing/ownCloud-1.6.0.153beta2.dmg';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = $DOWNLOAD_CLIENT_DESKTOP_BASE.'mirall-1.6.0.tar.bz2';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES.'.asc';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_BASE= 'https://download.owncloud.com/desktop/testing/';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-1.6.1.3247rc1-setup.exe';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-1.6.1.344rc1.dmg';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX = 'http://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&package=owncloud-client';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES= $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'mirall-1.6.1rc1.tar.bz2';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES.'.asc';
 
 // Server
 $DOWNLOAD_SERVER_BASE = 'https://download.owncloud.org/community/';
