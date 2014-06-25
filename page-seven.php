@@ -345,6 +345,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     </div>
   </div>
 	</div>
+<a name="developer"></a>
 <h2>Improvements for Developers</h2>
 <div class="panel-group" id="accordionDeveloper">
 <div class="panel panel-default">
@@ -400,7 +401,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourDev">
-          <i class="icon-pencil"></i>&nbsp;&nbsp;More Features
+          More Features
         </a>
       </h4>
     </div>
