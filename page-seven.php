@@ -159,49 +159,22 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       </div>
     </div>
   </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve">
-          Many More Features
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwelve" class="panel-collapse collapse">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
 </div>
 <a name="admin"></a>
 <h2>Improvements for Administrators</h2>
 <div class="panel-group" id="accordionAdmin">
-	 <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseNineAdmin">
-          <i class="icon-chain-broken"></i>&nbsp;&nbsp;Webhooks
-        </a>
-      </h4>
-    </div>
-    <div id="collapseNineAdmin" class="panel-collapse collapse">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTenAdmin">
-          <i class="icon-exclamation-triangle"></i>&nbsp;&nbsp;Antivirus Action Updates
+          <i class="icon-exclamation-triangle"></i>&nbsp;&nbsp;Antivirus Scanner Integration
         </a>
       </h4>
     </div>
     <div id="collapseTenAdmin" class="panel-collapse collapse">
       <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      	The Antivirus app (with minor customization) may be used with external virus scanners (rather than the default CLAM AV) 
+      	in scanning files as they arrive on the server.
       </div>
     </div>
   </div>
@@ -318,13 +291,14 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	    <div class="panel-heading">
 	      <h4 class="panel-title">
 	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSixAdmin">
-	          <i class="icon-dashboard"></i>&nbsp;&nbsp;Quota Improvements
+	          <i class="icon-dashboard"></i>&nbsp;&nbsp;Quota Improvements (including external storage)
 	        </a>
 	      </h4>
 	    </div>
 	    <div id="collapseSixAdmin" class="panel-collapse collapse">
 	      <div class="panel-body">
-	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	      	Set the configuration switch in the ownCloud config file to include or exclude external storage locations 
+	      	in the calculation of user quota. 
 	      </div>
 	    </div>
 	  </div>
@@ -342,6 +316,29 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	      </div>
 	    </div>
 	  </div>
+	  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelveAdmin">
+          Many More Features
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwelveAdmin" class="panel-collapse collapse">
+      <div class="panel-body">
+      	ownCloud 7 builds on its current admin features to include:</br></br>
+      	<ul>
+      		<li>External storage backend that uses ownCloud credentials to connect to a Samba share</li>
+      		<li>Improved apps management</li>
+      		<li>Better controllers for App Framework</li>
+      		<li>Simple database layer for App Framework</li>
+      		<li>Easy CORS implementation for App Framework</li>
+      		<li>Support DB connections via sockets</li>
+      		<li>Up to date app development documentation</li>
+      	</ul>
+      </div>
+    </div>
+  </div>
 	</div>
 <h2>Improvements for Developers</h2>
 <div class="panel panel-default">
@@ -354,7 +351,41 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     </div>
     <div id="collapseOneDev" class="panel-collapse collapse">
       <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      	Visual representation in the desktop client shows which files are owned by the user, and which files are shared 
+      	with the user but owned by someone else. This API indicates which files are shared, so that the desktop client 
+      	and mobile app can place the shared file or shared folder icon appropriately on files stored on ownCloud files.
       </div>
     </div>
   </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwoDev">
+          <i class="icon-chain-broken"></i>&nbsp;&nbsp;Webhooks
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwoDev" class="panel-collapse collapse">
+      <div class="panel-body">
+      	Integrate ownCloud into other systems with Webhooks. Apps can publish an event, and other apps can subscribe to 
+      	this event using the publication/subscription model ( pubsubhub). Developers create an app that registers itself 
+      	with the published event manager. From that point forward, any time the event occurs, a POST is made to the URL 
+      	provided by the subscriber to notify them of the event. Apps can subscribe to the notification event, unsubscribe, 
+      	set a URL to respond to, set a lease time for the subscription, and provide an optional digest used for security purposes. 
+      </div>
+    </div>
+  </div>
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThreeDev">
+          <i class="icon-pencil"></i>&nbsp;&nbsp;Developer Documentation
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThreeDev" class="panel-collapse collapse">
+      <div class="panel-body">
+      </div>
+    </div>
+  </div>
+</div>
