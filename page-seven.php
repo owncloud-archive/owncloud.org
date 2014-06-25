@@ -334,11 +334,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       	<ul>
       		<li>External storage backend that uses ownCloud credentials to connect to a Samba share</li>
       		<li>Improved apps management</li>
-      		<li>Better controllers for App Framework</li>
-      		<li>Simple database layer for App Framework</li>
-      		<li>Easy CORS implementation for App Framework</li>
-      		<li>Support DB connections via sockets</li>
-      		<li>Up to date app development documentation</li>
+      		<li>Overall speed and performance enhancements</li>
       	</ul>
       </div>
     </div>
@@ -389,6 +385,26 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     </div>
     <div id="collapseThreeDev" class="panel-collapse collapse">
       <div class="panel-body">
+      </div>
+    </div>
+  </div>
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourDev">
+          <i class="icon-pencil"></i>&nbsp;&nbsp;More Features
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFourDev" class="panel-collapse collapse">
+      <div class="panel-body">
+      	ownCloud 7 offers additional developer tools including:</br></br>
+      	<ul>
+      		<li>Better controllers for App Framework</li>
+      		<li>Simple database layer for App Framework</li>
+      		<li>Easy CORS implementation for App Framework</li>
+      		<li>Support DB connections via sockets</li>
+      	</ul>
       </div>
     </div>
   </div>
