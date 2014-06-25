@@ -7,11 +7,26 @@ Jump to improvements for: <a href="#user">User</a> | <a href="#admin">Admin</a> 
 <a name="user"></a>
 <h2>Improvements for Users</h2>
 <div class="panel-group" id="accordionUser">
+	<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+          <i class="icon-sitemap"></i>&nbsp;&nbsp;Server to Server Sharing
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix" class="panel-collapse collapse">
+      <div class="panel-body">
+		A user on one ownCloud instance can share files with a user on a separate ownCloud installation, without using share links.  
+		(Great for large installations.)      
+		</div>
+    </div>
+  </div>
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-          <i class="icon-globe"></i>&nbsp;&nbsp;Improved Sharing
+          <i class="icon-globe"></i>&nbsp;&nbsp;Improved File Sharing
         </a>
       </h4>
     </div>
@@ -31,6 +46,47 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/sharedby.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
 			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/sharedviews.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
 			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/permissions.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+		</div>
+      </div>
+    </div>
+  </div>
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+          <i class="icon-file-text-o"></i>&nbsp;&nbsp;Improved Documents Capabilities
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse">
+      <div class="panel-body">
+      	In addition to the existing ability to collaboratively edit .odt files within the web browser, you can now convert Microsoft Word documents 
+      	on the fly for online editing; open a Word doc online, edit it live with other users in the browser, and close it again – 
+      	it will convert back to Word. And, it will be saved back to your desktop with the changes embedded.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          <i class="icon-lightbulb-o"></i>&nbsp;&nbsp;File Activity Notifications
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+		Select the activities you want to record in your activity stream and set preferences for email notifications if:</br></br>
+		<ul>
+			<li>A file or folder is shared with you</li>
+			<li>A new file or folder is created inside a shared folder</li>
+			<li>A file or folder is changed inside a shared folder</li>
+			<li>A file or folder has been deleted from inside a shared folder</li>
+		</ul>
+		</br>
+		Emails be sent to you on a daily, weekly or monthly schedule.
+		<div class="row">
+			<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/activity/options.png" alt="..." class="img-thumbnail"></div>
 		</div>
       </div>
     </div>
@@ -57,65 +113,9 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       </div>
     </div>
   </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-          <i class="icon-lightbulb-o"></i>&nbsp;&nbsp;File Notifications
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body">
-		Select the activities you want to record in your activity stream and set preferences for email notifications if:</br></br>
-		<ul>
-			<li>A file or folder is shared with you</li>
-			<li>A new file or folder is created inside a shared folder</li>
-			<li>A file or folder is changed inside a shared folder</li>
-			<li>A file or folder has been deleted from inside a shared folder</li>
-		</ul>
-		</br>
-		Emails be sent to you on a daily, weekly or monthly schedule.
-		<div class="row">
-			<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/activity/options.png" alt="..." class="img-thumbnail"></div>
-		</div>
-      </div>
-    </div>
-  </div>
   
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-          <i class="icon-file-text-o"></i>&nbsp;&nbsp;Improved Documents Capabilities
-        </a>
-      </h4>
-    </div>
-    <div id="collapseFive" class="panel-collapse collapse">
-      <div class="panel-body">
-      	In addition to the existing ability to collaboratively edit .odt files within the web browser, you can now convert Microsoft Word documents 
-      	on the fly for online editing; open a Word doc online, edit it live with other users in the browser, and close it again – 
-      	it will convert back to Word. And, it will be saved back to your desktop with the changes embedded.
-      </div>
-    </div>
-  </div>
   
  
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-          <i class="icon-sitemap"></i>&nbsp;&nbsp;Server to Server Sharing
-        </a>
-      </h4>
-    </div>
-    <div id="collapseSix" class="panel-collapse collapse">
-      <div class="panel-body">
-		A user on one ownCloud instance can share files with a user on a separate ownCloud installation, without using share links.  
-		(Great for large installations.)      
-		</div>
-    </div>
-  </div>
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
@@ -137,6 +137,20 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
+          <i class="icon-lock"></i>&nbsp;&nbsp;Password Strength Indicator
+        </a>
+      </h4>
+    </div>
+    <div id="collapseEleven" class="panel-collapse collapse">
+      <div class="panel-body">
+      	When setting up a password in ownCloud, a password strength indicator helps users choose stronger, more secure passwords.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
           <i class="icon-fast-forward"></i>&nbsp;&nbsp;Significant Speed Improvements
         </a>
@@ -149,20 +163,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       </div>
     </div>
   </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
-          <i class="icon-lock"></i>&nbsp;&nbsp;Password Strength Indicator
-        </a>
-      </h4>
-    </div>
-    <div id="collapseEleven" class="panel-collapse collapse">
-      <div class="panel-body">
-      	When setting up a password in ownCloud, a password strength indicator helps users choose stronger, more secure passwords.
-      </div>
-    </div>
-  </div>
+  
 </div>
 <a name="admin"></a>
 <h2>Improvements for Administrators</h2>
