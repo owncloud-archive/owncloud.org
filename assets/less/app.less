@@ -54,12 +54,31 @@ code {
     background-origin: padding-box; 
     background-image: url("/wp-content/themes/owncloudorgnew/assets/img/cloud.png"); 
     background-size: 100% auto;
-    .header a.btn-lg {
+    h2.slogan {
+      margin: 20px 15px 0;
+      text-align: center;
+      font-size: 30px;
+    }
+    h3.conference {
+      margin: -12px 15px 0;
+      color: #428BCA;
+      background-color: #F6F6F6;
+      padding: 4px;
+      text-align: center;
       font-size: 1.375em;
+      border-radius: 10px;
+      font-weight: 700;
+      a:hover, a:focus, a:active {
+	color: #3276B1;
+	text-decoration: none;
+      }
     }
   }
   .row {
     padding-bottom: 30px;
+    .highlight {
+      padding-bottom: 15px;
+    }
   }
   div#getapps {
     background-color: #F6F6F6;
@@ -70,7 +89,17 @@ code {
   div.join {
     padding-top: 0.5em;
     a.join-button {
-      margin-bottom: 1em;
+      margin-bottom: 0.5em;
+    }
+    a.conf-button {
+	color: #428BCA;
+	background-color: #FFFFFF;
+	border: 1px solid #428BCA;
+	font-weight: 700;
+	&:hover,  &:focus, &:active {
+	  color: #3276B1;
+	  border-color: #285E8E;
+	}
     }
   }
 }
@@ -596,6 +625,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   .navbar-collapse.in {
     overflow-y: visible;
 }
+    .home   div.wrap > .content h3.conference {
+      margin-top: 10px;
+      font-weight: 500;
+    }
 }
 
 @media (min-width: @screen-sm-min) { }

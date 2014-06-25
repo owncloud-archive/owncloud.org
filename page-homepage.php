@@ -5,7 +5,12 @@
 	</div>
 </div>
 <div class="row">
-	<h2 style="margin: 25px 0 10px 0; text-align: center; display: block; vertical-align: middle; font-size: 30px;">Web services under your control</h2>
+	<h2 class="slogan">Web services under your control</h2>
+</div>
+<div class="row highlight">
+	<h3 class="conference hidden-xs"><a href="/conf">ownCloud Contributor Conference - August 2014, Berlin</a></h3>
+	<h3 class="conference visible-xs"><a href="/conf">ownCloud Contributor Conference <br/>
+	August 2014, Berlin</a></h3>
 </div>
 </div>
 	<div class="row 3-column-lg-md-sm">
@@ -68,6 +73,7 @@
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-users">&nbsp;</i> Join and help</h2>
 		<div class="join">
+			<a class="btn btn-block btn-lg join-button conf-button" href="/conf" role="button">Hackathon, Berlin</a>
 			<a class="btn btn-block btn-primary btn-lg join-button" href="/contribute" role="button">Join development</a>
 			<a class="btn btn-block btn-primary btn-lg join-button" href="https://github.com/owncloud/core/issues" role="button">Report an issue</a>
 			<a class="btn btn-block btn-primary btn-lg join-button" href="https://www.transifex.com/projects/p/owncloud/" role="button">Help translating</a>
