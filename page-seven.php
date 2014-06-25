@@ -359,7 +359,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     <div id="collapseTwoDev" class="panel-collapse collapse">
       <div class="panel-body">
       	Integrate ownCloud into other systems with Webhooks. Apps can publish an event, and other apps can subscribe to 
-      	this event using the publication/subscription model ( pubsubhub). Developers create an app that registers itself 
+      	this event using the publication/subscription model (pubsubhub). Developers create an app that registers itself 
       	with the published event manager. From that point forward, any time the event occurs, a POST is made to the URL 
       	provided by the subscriber to notify them of the event. Apps can subscribe to the notification event, unsubscribe, 
       	set a URL to respond to, set a lease time for the subscription, and provide an optional digest used for security purposes. 
