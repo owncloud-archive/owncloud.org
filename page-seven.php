@@ -113,9 +113,6 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       </div>
     </div>
   </div>
-  
-  
- 
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
@@ -168,40 +165,6 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 <a name="admin"></a>
 <h2>Improvements for Administrators</h2>
 <div class="panel-group" id="accordionAdmin">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTenAdmin">
-          <i class="icon-exclamation-triangle"></i>&nbsp;&nbsp;Antivirus Scanner Integration
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTenAdmin" class="panel-collapse collapse">
-      <div class="panel-body">
-      	The Antivirus app (with minor customization) may be used with external virus scanners (rather than the default CLAM AV) 
-      	in scanning files as they arrive on the server.
-      </div>
-    </div>
-  </div>
-	<div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEightAdmin">
-          <i class="icon-cloud"></i>&nbsp;&nbsp;External Storage
-        </a>
-      </h4>
-    </div>
-    <div id="collapseEightAdmin" class="panel-collapse collapse">
-      <div class="panel-body">
-      	The external storage app provides faster, more responsive access to storage locations including FTP, Dropbox, Google Drive, sFTP, 
-      	Swift, S3, WebDAV, SMB/CIFS and more. Admins can specify which storage type can be added by end users in their personal tab, 
-      	providing more granular control over external storage mounts. 
-      	<div class="row">
-				<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/files/addstorage.png" alt="..." class="img-thumbnail"></div>
-			</div>
-      </div>
-    </div>
-  </div> 
 	<div class="panel panel-default">
 	    <div class="panel-heading">
 	      <h4 class="panel-title">
@@ -230,6 +193,72 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	    </div>
 	  </div>
 	  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEightAdmin">
+          <i class="icon-cloud"></i>&nbsp;&nbsp;External Storage Access
+        </a>
+      </h4>
+    </div>
+    <div id="collapseEightAdmin" class="panel-collapse collapse">
+      <div class="panel-body">
+      	The external storage app provides faster, more responsive access to storage locations including FTP, Dropbox, Google Drive, sFTP, 
+      	Swift, S3, WebDAV, SMB/CIFS and more. Admins can specify which storage type can be added by end users in their personal tab, 
+      	providing more granular control over external storage mounts. 
+      	<div class="row">
+				<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/files/addstorage.png" alt="..." class="img-thumbnail"></div>
+			</div>
+      </div>
+    </div>
+  </div> 
+  <div class="panel panel-default">
+	    <div class="panel-heading">
+	      <h4 class="panel-title">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourAdmin">
+	          <i class="icon-database"></i>&nbsp;&nbsp;Object Stores as Primary Storage
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseFourAdmin" class="panel-collapse collapse">
+	      <div class="panel-body">
+	      	ownCloud can now leverage SWIFT object stores as primary storage for ownCloud files. Now users can choose the best option 
+	      	for their specific need: local storage, network filesystem mounts, or SWIFT object stores.
+	      </div>
+	    </div>
+	  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTenAdmin">
+          <i class="icon-exclamation-triangle"></i>&nbsp;&nbsp;Antivirus Scanner Integration
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTenAdmin" class="panel-collapse collapse">
+      <div class="panel-body">
+      	The Antivirus app (with minor customization) may be used with external virus scanners (rather than the default CLAM AV) 
+      	in scanning files as they arrive on the server.
+      </div>
+    </div>
+  </div>
+	
+	  <div class="panel panel-default">
+	    <div class="panel-heading">
+	      <h4 class="panel-title">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThreeAdmin">
+	          <i class="icon-user"></i>&nbsp;&nbsp;Active Directory / LDAP Enhancements
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseThreeAdmin" class="panel-collapse collapse">
+	      <div class="panel-body">
+	      	Several improvements have been made to the LDAP and Active Directory plug in application, improving both the performance 
+	      	of the application as well as the compatibility with openLDAP, AD and other vendors. For example, the plug-in can now manage 
+	      	paginated responses to handle tens of thousands of users that are part of a single flat OU.
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
 	    <div class="panel-heading">
 	      <h4 class="panel-title">
 	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwoAdmin">
@@ -245,44 +274,16 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 			<div class="row">
 				<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/settings/mailserversettings.png" alt="..." class="img-thumbnail"></div>
 			</div>
-	    </div>
+    	</div>
 	  </div>
-	  <div class="panel panel-default">
-	    <div class="panel-heading">
-	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThreeAdmin">
-	          <i class="icon-user"></i>&nbsp;&nbsp;AD / LDAP Enhancements
-	        </a>
-	      </h4>
-	    </div>
-	    <div id="collapseThreeAdmin" class="panel-collapse collapse">
-	      <div class="panel-body">
-	      	Several improvements have been made to the LDAP and Active Directory plug in application, improving both the performance 
-	      	of the application as well as the compatibility with openLDAP, AD and other vendors. For example, the plug-in can now manage 
-	      	paginated responses to handle tens of thousands of users that are part of a single flat OU.
-	      </div>
-	    </div>
-	  </div>
-	   <div class="panel panel-default">
-	    <div class="panel-heading">
-	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourAdmin">
-	          <i class="icon-database"></i>&nbsp;&nbsp;Object Stores as Primary Storage
-	        </a>
-	      </h4>
-	    </div>
-	    <div id="collapseFourAdmin" class="panel-collapse collapse">
-	      <div class="panel-body">
-	      	ownCloud can now leverage SWIFT object stores as primary storage for ownCloud files. Now users can choose the best option 
-	      	for their specific need: local storage, network filesystem mounts, or SWIFT object stores.
-	      </div>
-	    </div>
-	  </div>
+	</div>
+	
+	   
 	  <div class="panel panel-default">
 	    <div class="panel-heading">
 	      <h4 class="panel-title">
 	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFiveAdmin">
-	          <i class="icon-inbox"></i>&nbsp;&nbsp;Editable email templates
+	          <i class="icon-inbox"></i>&nbsp;&nbsp;Editable Email Templates
 	        </a>
 	      </h4>
 	    </div>
@@ -290,6 +291,21 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	      <div class="panel-body">
 	      	Edit the email templates that ownCloud sends for lost password recovery (if using the ownCloud user management), as well 
 	      	as the template for sending shared files and share links. 
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading">
+	      <h4 class="panel-title">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSevenAdmin">
+	          <i class="icon-code"></i>&nbsp;&nbsp;Upgrade / Migration Routine Script
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseSevenAdmin" class="panel-collapse collapse">
+	      <div class="panel-body">
+			Upgrade from previous ownCloud versions to ownCloud 7 more quickly.  Additionally, admins can execute scripts to migrate from one database 
+			to another – as part of the command line tools included with ownCloud. For example, a user may migrate from SQLite to MySQL using these tools.
 	      </div>
 	    </div>
 	  </div>
@@ -308,25 +324,12 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	      </div>
 	    </div>
 	  </div>
-	  <div class="panel panel-default">
-	    <div class="panel-heading">
-	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSevenAdmin">
-	          <i class="icon-code"></i>&nbsp;&nbsp;Upgrade / Migration Routine Script
-	        </a>
-	      </h4>
-	    </div>
-	    <div id="collapseSevenAdmin" class="panel-collapse collapse">
-	      <div class="panel-body">
-	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-	      </div>
-	    </div>
-	  </div>
+	  
 	  <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelveAdmin">
-          Many More Features
+          More Features
         </a>
       </h4>
     </div>
@@ -343,23 +346,8 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
   </div>
 	</div>
 <h2>Improvements for Developers</h2>
+<div class="panel-group" id="accordionDeveloper">
 <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordionDeveloper" href="#collapseOneDev">
-          <i class="icon-exchange"></i>&nbsp;&nbsp;Overlay Icon API
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOneDev" class="panel-collapse collapse">
-      <div class="panel-body">
-      	Visual representation in the desktop client shows which files are owned by the user, and which files are shared 
-      	with the user but owned by someone else. This API indicates which files are shared, so that the desktop client 
-      	and mobile app can place the shared file or shared folder icon appropriately on files stored on ownCloud files.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwoDev">
@@ -377,6 +365,23 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       </div>
     </div>
   </div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordionDeveloper" href="#collapseOneDev">
+          <i class="icon-exchange"></i>&nbsp;&nbsp;Overlay Icon API
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOneDev" class="panel-collapse collapse">
+      <div class="panel-body">
+      	Visual representation in the desktop client shows which files are owned by the user, and which files are shared 
+      	with the user but owned by someone else. This API indicates which files are shared, so that the desktop client 
+      	and mobile app can place the shared file or shared folder icon appropriately on files stored on ownCloud files.
+      </div>
+    </div>
+  </div>
+  
    <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
