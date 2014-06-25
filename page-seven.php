@@ -385,6 +385,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     </div>
     <div id="collapseThreeDev" class="panel-collapse collapse">
       <div class="panel-body">
+      	Access the latest <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">developer documentation</a> as you extend ownCloud. 
       </div>
     </div>
   </div>
