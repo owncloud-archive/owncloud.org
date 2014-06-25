@@ -220,6 +220,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	      		<li>Add new groups with a click of a button.</li>
 	      		<li>Add or edit users and user attributes ( i.e. group memberships, quota, and group admin rights) 
 	      			with improved ease and speed</li>
+	      		<li>Enable apps by group</li>
 	      	</ul>
 	      	<div class="row">
 				<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/settings/usermanagement.png" alt="..." class="img-thumbnail"></div>
