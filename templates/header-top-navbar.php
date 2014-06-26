@@ -14,7 +14,7 @@
       <ul id="menu-header" class="nav navbar-nav">
         <li class="menu-news"><a href="/news/">News</a></li>
         <li class="menu-features"><a href="/features/">Features</a></li>
-        <li class="menu-demo"><a href="http://demo.owncloud.org">Demo</a></li>
+        <li class="menu-demo"><a target="_blank" href="http://demo.owncloud.org">Demo</a></li>
         <li class="menu-documentation"><a href="http://doc.owncloud.org">Documentation</a></li>
         <li class="menu-contribute"><a href="/contribute/">Contribute</a>
         <li class="menu-commercial"><a target="_blank" href="https://owncloud.com">Enterprise Edition</a></li>
