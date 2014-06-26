@@ -105,7 +105,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 		<ul>
 			<li><strong>Lazy loading files</strong> – Files are loaded using “lazy loading” which loads files as you scroll down the page, providing faster and more responsive access.</li>
 			<li><strong>File Sorting</strong> – Files can be sorted in the web browser by name, size and last modified time as well as clear identification of shared files.</li>
-			<li><strong>Sorting by Storage</strong> –  An “external storage” filter enables users to filter files based on external storage location, such as ftp, S3, Swift, Dropbox, Google Drive and more.</li>
+			<li><strong>Storage Location Report</strong> –  An “external storage” filter enables users to filter files based on external storage location, such as ftp, S3, Swift, Dropbox, Google Drive and more.</li>
 		</ul>
 		<div class="row">
 			<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/files/newview.png" alt="..." class="img-thumbnail"></div>
