@@ -1,8 +1,28 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
-<h3>Release 1.6.0 <small>May 30th 2014</small></h3>
+<h3>Release 1.6.1 <small>Jun 26th 2014</small></h3>
 
+<ul>
+<li>Fix 'precondition failed' bug with broken upload</li>
+<li>Fix 'precondition failed' bug with broken upload</li>
+<li>Fix openSSL problems for windows deployment</li>
+<li>Fix syncing a folder with '#' in the name</li>
+<li>Fix #1845: do not update parent directory etag before sub directories are removed</li>
+<li>Fix reappearing directories if dirs are removed during its upload</li>
+<li>Fix app version in settings dialog, General tab</li>
+<li>Fix crash in FolderWizard when going offline</li>
+<li>Shibboleth fixes</li>
+<li>More specific error messages (file remove during upload, open local sync file)</li>
+<li>Use QSet rather than QHash in SyncEngine (save memory)</li>
+<li>Fix some memory leaks</li>
+<li>Fix some thread race problems, ie. wait for neon thread to finish</li>
+<li>before the propagator is shut down</li>
+<li>Fix a lot of issues and warnings found by Coverity</li>
+<li>Fix Mac some settings dialog problems</li>
+</ul>
+
+<h3>Release 1.6.0 <small>May 30th 2014</small></h3>
 
 <ul>
 <li>Minor GUI improvements</li>
