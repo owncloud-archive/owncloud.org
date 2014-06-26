@@ -1,4 +1,4 @@
-<h1>ownCloud Seven Features</h1>
+<h1>ownCloud 7 Features</h1>
 <p>ownCloud 7 Community Edition, currently available in Beta, has significant feature improvements for users, administrators and developers.  
 With a scheduled release in mid-July, we invite you to check out the great features highlighted below.  Want to ensure we are putting 
 out the best ownCloud yet?  Join the Beta program <link> and lend your skills to bug fixes, translation and more.</p>
