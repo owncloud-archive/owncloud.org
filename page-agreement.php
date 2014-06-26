@@ -1,7 +1,7 @@
 <div class="page-header">
 	<h1>Contributor Agreement</h1>
 </div>
-<p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/owncloud-copyright-assignment-common">Download the agreement (pdf)</a><br /></p>
+<p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/owncloud-copyright-assignment-common.pdf">Download the agreement (pdf)</a><br /></p>
 <p>We release the ownCloud core and the desktop and Android clients under a dual license. Because of that we require a signed 
 contributor agreement from developers who want to commit code to them. This only applies to these repositories, not the apps or other parts.<p>
 <h3>A contributor agreement? Does this mean that ownCloud is no longer free software?</h3>
