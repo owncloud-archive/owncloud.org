@@ -15,7 +15,7 @@ Jump to improvements for: <a href="#user">User</a> | <a href="#admin">Admin</a> 
         </a>
       </h4>
     </div>
-    <div id="collapseSix" class="panel-collapse collapse">
+    <div id="collapseSix" class="panel-collapse">
       <div class="panel-body">
 		A user on one ownCloud instance can share files with a user on a separate ownCloud installation, without using share links.  
 		(Great for large installations.)      
@@ -173,7 +173,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	        </a>
 	      </h4>
 	    </div>
-	    <div id="collapseOneAdmin" class="panel-collapse collapse">
+	    <div id="collapseOneAdmin" class="panel-collapse">
 	      <div class="panel-body">
 	      	Admins have improved capabilities which make it easier to manage users:</br></br>
 	      	<ul>
@@ -356,7 +356,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
         </a>
       </h4>
     </div>
-    <div id="collapseTwoDev" class="panel-collapse collapse">
+    <div id="collapseTwoDev" class="panel-collapse">
       <div class="panel-body">
       	Integrate ownCloud into other systems with Webhooks. Apps can publish an event, and other apps can subscribe to 
       	this event using the publication/subscription model (pubsubhub). Developers create an app that registers itself 
