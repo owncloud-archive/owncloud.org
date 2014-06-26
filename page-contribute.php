@@ -12,7 +12,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseCoding">
-          <i class="icon-sitemap"></i>&nbsp;&nbsp;Get your code in ownCloud!
+          <i class="icon-sitemap"></i>&nbsp;&nbsp;Help improve ownCloud!
         </a>
       </h4>
     </div>
@@ -56,7 +56,7 @@ and see the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding"
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseIssues">
-          <i class="icon-globe"></i>&nbsp;&nbsp;Help out with testing
+          <i class="icon-globe"></i>&nbsp;&nbsp;Help test ownCloud
         </a>
       </h4>
     </div>
@@ -69,12 +69,12 @@ and see the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding"
 	<h2>How to test</h2>
 	Testing follows these steps:
 	      <ul>
-		      <li>set up your testing environment</li>
-		      <li>pick something to test</li>
-		      <li>test it</li>
-		      <li>back to 2 until something unexpected/bad happens</li>
-		      <li>check if what you found is really a bug</li>
-		      <li>file the bug</li>
+		      <ol>1. set up your testing environment</ol>
+		      <ol>2. pick something to test</ol>
+		      <ol>3. test it</ol>
+		      <ol>4. back to 2 until something unexpected/bad happens</ol>
+		      <ol>5. check if what you found is really a bug</ol>
+		      <ol>6. file the bug</ol>
 	      </ul>
 	      <h3>Installing ownCloud</h3>
 	      <p>Testing starts with setting up a testing environment. We urge you to not put your production data on testing
@@ -82,7 +82,7 @@ and see the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding"
 
 	      <p>Start by installing ownCloud, either on real hardware or in a VM.</p>
 
-	      <p>You can find <a href="http://doc.owncloud.com">instructions for installation in the documentation</a>.
+	      <p>You can find <a href="<?php echo $DOCUMENTATION_ADMIN; ?>#installation">instructions for installation in the documentation</a>.
 	      Please note that we are still working on the documentation and if you bump into a problem, you can 
 	      <a href="https://github.com/owncloud/documentation">help us fix it</a>. You can edit straight on github,
 	      no need to install anything!</p>
@@ -143,7 +143,7 @@ and see the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding"
     <div id="collapseDesign" class="panel-collapse collapse">
       <div class="panel-body">
 	Help out with ownCloud user interaction design or graphic design! Get involved on 
-	<a href="http://mailman.owncloud.org/mailman/listinfo/devel">mailing list</a> and <a href="http://github.com/owncloud">github</a>.
+	<a href="http://owncloud.org/contribute/design/">the design page</a>!
 	</div>
       </div>
     </div>
