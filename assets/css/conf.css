@@ -84,3 +84,16 @@ div.conf-info ul {
 div.conf-info ul {
 	margin-left: 15px;
 }
+
+.navbar-default {
+    border: none;
+}
+
+.banner {
+    background-color: transparent;
+}
+
+div.conference {
+    margin-top: -128px;
+    padding-top: 128px;
+}
