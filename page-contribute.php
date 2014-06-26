@@ -21,7 +21,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 	<ul><li>Develop your own ownCloud app</li>
 	  <li>Get a bug fixed</li>
 	  <li>Improve the ownCloud Core</li>
-	  <li>Or just learn to write ownCloud code.</li></ul>
+	  <li>Or learn to write ownCloud code.</li></ul>
 	<h2>Contribution guidelines</h2>
 	<p>To find out how to write ownCloud code, check out our <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">developer documentation here</a>.
 	Talk to us <a href="irc://#owncloud-dev@freenode.net">on IRC</a> and on our 
@@ -39,6 +39,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 		That means a first negative comment might not be the final word, neither is positive feedback an immediate <em>GO</em>.
 		ownCloud is built out of modular pieces (apps) and maintainers have a strong influence. In case of
 		disagreement we consult other seasoned contributors.</li></ul>
+		
 <p><em>TIP</em>: If you are new to git, do the <a href="http://git-scm.com/course/svn.html">git crash course</a>.
 We use <a href="http://github.com/owncloud">github</a> for our collaborative development, and they have an excellent
 series of tutorials on <a href="https://help.github.com/">help.github.com</a>. Try the <em>'Set Up git'</em>,
