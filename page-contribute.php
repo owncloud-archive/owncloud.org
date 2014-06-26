@@ -27,7 +27,7 @@ But there is more you can do:
 <p>If you have any questions, <a href="/contact/">we are happy to help you</a>.</p>
 
 <h2>Contribution guidelines</h2>
-<p>To find out how to write ownCloud code, check out our <a href="<?php echo $DOCUMETNATION_DEVELOPER; ?>">developer documentation here</a>.</p>
+<p>To find out how to write ownCloud code, check out our <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">developer documentation here</a>.</p>
 <ul>
 	<li>We use <a href="https://github.com/owncloud">Github</a>, please get an account there and
 	clone the repositories you want to work on</li>
