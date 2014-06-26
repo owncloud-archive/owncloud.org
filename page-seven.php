@@ -17,8 +17,13 @@ Jump to improvements for: <a href="#user">User</a> | <a href="#admin">Admin</a> 
     </div>
     <div id="collapseSix" class="panel-collapse">
       <div class="panel-body">
-		A user on one ownCloud instance can share files with a user on a separate ownCloud installation, without using share links.  
-		(Great for large installations.)      
+		ownCloud 7 introduces server to server sharing, allowing you to mount a share from another ownCloud instance and seamlessly collaborate on and share files from within your own ownCloud. This essentially combines two private clouds into a public cloud. You can even have the folder locally synced through the client. No need to create user accounts on your or the other instance - just, once, add the shared folder into your ownCloud.
+		<div class="row">
+			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/s2s0.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/s2s1.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/s2s2.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/s2s3.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+		</div>
 		</div>
     </div>
   </div>
