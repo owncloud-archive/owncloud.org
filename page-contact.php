@@ -22,11 +22,11 @@ if(CONTRIBOOK) {
 		echo('<tr><td style="padding:5px;">');
 		if(empty($data['picture_50'])) { $data['picture_50'] = 'blogger_50.png'; }
 
-		echo('<span class="contribook_microbloguserpicture"><a href="/contributor/?user='.$user.'"><img src="'.CONTRIBOOK_PHOTO_URL.$data['picture_50'].'" border="0" /></a></span>');
+		echo('<span class="contribook_microbloguserpicture"><a href="/user?user='.$user.'"><img src="'.CONTRIBOOK_PHOTO_URL.$data['picture_50'].'" border="0" /></a></span>');
 
 		echo('</td><td style="padding:5px;">');
 
-		echo('<a href="/contributor/?user='.$user.'">'.$data['name'].'</a><br />');
+		echo('<a href="/user/?user='.$user.'">'.$data['name'].'</a><br />');
 		echo($data['role']);
 
 		echo('</td></tr>');
