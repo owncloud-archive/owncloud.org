@@ -147,6 +147,21 @@ and see the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding"
 	</div>
       </div>
     </div>
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseMoney">
+          <i class="icon-globe"></i>&nbsp;&nbsp;Help with bounties!
+        </a>
+      </h4>
+    </div>
+    <div id="collapseMoney" class="panel-collapse collapse">
+      <div class="panel-body">
+	Support ownCloud development by offering some money on features you would like to have!
+	<a href="https://www.bountysource.com/teams/owncloud">Check our bountysource page</a>!
+	</div>
+      </div>
+    </div>
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
