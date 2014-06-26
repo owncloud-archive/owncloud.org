@@ -103,3 +103,18 @@ div.sub-nav {
 	margin-top: -30px;
 }
 
+#menu-interact img {
+	width: 60px;
+	height: auto;
+}
+
+#menu-interact li.social-icons {
+	width: 90%;
+	height: 80px;
+	margin-bottom: -10px;	
+}
+
+#menu-interact li.social-icons > a:hover {
+	opacity: 0.8;
+}
+
