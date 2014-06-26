@@ -45,7 +45,7 @@ if(is_page('oc-news')) { include roots_template_path(); } else {
 
     <?php } ?>
     
-    <?php get_template_part('templates/footer'); ?>
+    <?php require get_template_directory().'/templates/footer.php'; ?>
 
     <?php if(is_page('install')) { require get_template_directory().'/install-instructions.php'; } ?>
 
