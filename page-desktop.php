@@ -17,7 +17,7 @@
 <li>Use QSet rather than QHash in SyncEngine (save memory)</li>
 <li>Fix some memory leaks</li>
 <li>Fix some thread race problems, ie. wait for neon thread to finish</li>
-<li>before the propagator is shut down</li>
+<li>Before the propagator is shut down</li>
 <li>Fix a lot of issues and warnings found by Coverity</li>
 <li>Fix Mac some settings dialog problems</li>
 </ul>
