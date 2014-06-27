@@ -5,6 +5,7 @@ and make it part of ownCloud, so everybody benefits from the improvement!</p>
 <p>Do you want to get a certain <strong>improvement</strong> in ownCloud? Did you find a <strong>problem</strong>?
 Do you want to <strong>help</strong> translate, promote or document ownCloud?</p>
 <a href="https://owncloud.org/blog/owncloud-7-beta-is-out-help-us-test-it" class="btn btn-lg btn-default">Join the Beta Program</a></br></br>
+<a href="http://owncloud.org/blog/hold-the-date-announcing-the-owncloud-contributor-conference-and-hackathon/" class="btn btn-lg btn-default">Be at the ownCloud Contributor Conference!</a></br></br>
 <h2>How to make ownCloud awesome:</h2>
 
 <div class="panel-group" id="accordionContribute">
