@@ -1,4 +1,4 @@
-<h1>ownCloud Seven Features</h1>
+<h1>ownCloud 7 Features</h1>
 <p>ownCloud 7 Community Edition, currently available in Beta, has significant feature improvements for users, administrators and developers.  
 With a scheduled release in mid-July, we invite you to check out the great features highlighted below.  Want to ensure we are putting 
 out the best ownCloud yet?  Join the Beta program <link> and lend your skills to bug fixes, translation and more.</p>
@@ -17,8 +17,13 @@ Jump to improvements for: <a href="#user">User</a> | <a href="#admin">Admin</a> 
     </div>
     <div id="collapseSix" class="panel-collapse">
       <div class="panel-body">
-		A user on one ownCloud instance can share files with a user on a separate ownCloud installation, without using share links.  
-		(Great for large installations.)      
+		ownCloud 7 introduces server to server sharing, allowing you to mount a share from another ownCloud instance and seamlessly collaborate on and share files from within your own ownCloud. This essentially combines two private clouds into a public cloud. You can even have the folder locally synced through the client. No need to create user accounts on your or the other instance - just, once, add the shared folder into your ownCloud.
+		<div class="row">
+			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/s2s0.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/s2s1.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/s2s2.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/s2s3.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+		</div>
 		</div>
     </div>
   </div>
@@ -63,6 +68,9 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       	In addition to the existing ability to collaboratively edit .odt files within the web browser, you can now convert Microsoft Word documents 
       	on the fly for online editing; open a Word doc online, edit it live with other users in the browser, and close it again – 
       	it will convert back to Word. And, it will be saved back to your desktop with the changes embedded.
+		<div class="row">
+			<div class="col-md-5"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/documents/documents.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+		</div>
       </div>
     </div>
   </div>
@@ -414,6 +422,20 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       		<li>Easy CORS implementation for App Framework</li>
       		<li>Support DB connections via sockets</li>
       	</ul>
+      </div>
+    </div>
+  </div>
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFiveDev">
+          <i class="icon-user"></i>&nbsp;&nbsp;Join the ownCloud Contributor Conference to learn more!
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFiveDev" class="panel-collapse collapse">
+      <div class="panel-body">
+      	From August 26-31, ownCloud contributors will gather in Berlin to work on ownCloud. On Saturday the 30th, a Conference day will provide a chance to developers new to ownCloud to learn building ownCloud apps, securing PHP applications, compiling ownCloud unit tests and much more. <a href="/conf/">Find out more and participate</a>!
       </div>
     </div>
   </div>
