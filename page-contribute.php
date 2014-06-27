@@ -16,7 +16,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
         </a>
       </h4>
     </div>
-    <div id="collapseCoding" class="panel-collapse collapse">
+    <div id="collapseCoding" class="panel-collapse collapse.in">
       <div class="panel-body">
       	<ul>
           <li>Develop your own ownCloud app</li>
@@ -63,7 +63,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
         </a>
       </h4>
     </div>
-    <div id="collapseIssues" class="panel-collapse collapse.in">
+    <div id="collapseIssues" class="panel-collapse collapse">
       <div class="panel-body">
       	<p>Testing upcoming ownCloud releases is the best way of making sure the new release can do what you need it 
       	to do. And of course, only if you report a problem to us we know about it and can fix it!</p>
