@@ -16,7 +16,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
         </a>
       </h4>
     </div>
-    <div id="collapseCoding" class="panel-collapse collapse.in">
+    <div id="collapseCoding" class="panel-collapse collapse">
       <div class="panel-body">
       	<ul>
           <li>Develop your own ownCloud app</li>
