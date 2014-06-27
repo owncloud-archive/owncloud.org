@@ -18,6 +18,15 @@
 </ul>
 Download: <a href="http://download.owncloud.org/community/owncloud-6.0.4.tar.bz2">http://download.owncloud.org/community/owncloud-6.0.4.tar.bz2</a></br>
 MD5: <a href="http://download.owncloud.org/community/owncloud-6.0.4.tar.bz2.md5">http://download.owncloud.org/community/owncloud-6.0.4.tar.bz2.md5</a></br>
+<h3>Version 5.0.17 <small>June 23rd 2014</small></h3>
+<ul>
+<li>Fixed a security issue (Will be disclosed two weeks after this release)
+<li>Add deprecated warning to load function
+<li>Fix button text overflow
+<li>Fix search with Oracle
+</ul>
+Download: <a href="http://download.owncloud.org/community/owncloud-5.0.17.tar.bz2">http://download.owncloud.org/community/owncloud-5.0.17.tar.bz2</a></br>
+MD5: <a href="http://download.owncloud.org/community/owncloud-5.0.17.tar.bz2.md5">http://download.owncloud.org/community/owncloud-5.0.17.tar.bz2.md5</a></br>
 <h3>Version 6.0.3 <small>April 29rd 2014</small></h3>
 <ul>
 <li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
