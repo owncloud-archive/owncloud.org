@@ -68,6 +68,9 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       	In addition to the existing ability to collaboratively edit .odt files within the web browser, you can now convert Microsoft Word documents 
       	on the fly for online editing; open a Word doc online, edit it live with other users in the browser, and close it again – 
       	it will convert back to Word. And, it will be saved back to your desktop with the changes embedded.
+		<div class="row">
+			<div class="col-md-5"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/documents/documents.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+		</div>
       </div>
     </div>
   </div>
