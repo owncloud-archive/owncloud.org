@@ -422,4 +422,18 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       </div>
     </div>
   </div>
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFiveDev">
+          <i class="icon-user"></i>&nbsp;&nbsp;Join the ownCloud Contributor Conference to learn more!
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFiveDev" class="panel-collapse collapse">
+      <div class="panel-body">
+      	From August 26-31, ownCloud contributors will gather in Berlin to work on ownCloud. On Saturday the 30th, a Conference day will provide a chance to developers new to ownCloud to learn building ownCloud apps, securing PHP applications, compiling ownCloud unit tests and much more. <a href="http://owncloud.org/conf/">Find out more and participate</a>!
+      </div>
+    </div>
+  </div>
 </div>
