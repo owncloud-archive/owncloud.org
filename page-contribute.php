@@ -5,13 +5,13 @@ and make it part of ownCloud, so everybody benefits from the improvement!</p>
 <p>Do you want to get such a <strong>improvement</strong> in ownCloud? Did you find a <strong>problem</strong>?
 Do you want to <strong>help</strong> translate, promote or document ownCloud?</p>
 <a href="https://owncloud.org/blog/owncloud-7-beta-is-out-help-us-test-it" class="btn btn-lg btn-default">Join the Beta Program</a></br></br>
-<h2>How to make ownCloud awesome:</h2>
+<h2>How to make ownCloud awesome: <small>(click for more details)</small></h2>
 
-<div class="panel-group" id="accordionUser">
+<div class="panel-group" id="accordionContribute">
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseCoding">
+        <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseCoding">
           <i class="icon-sitemap"></i>&nbsp;&nbsp;Help improve ownCloud!
         </a>
       </h4>
@@ -58,7 +58,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseIssues">
+        <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseIssues">
           <i class="icon-globe"></i>&nbsp;&nbsp;Help test ownCloud
         </a>
       </h4>
@@ -101,14 +101,13 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 	      ownCloud developers need sleep!) and the stars, you'll get an answer sooner or later.</p>
 
 	      <p>Finally, if the issue you bump into is a clear bug and the developers are not aware of it, file it as a new issue.</p>
-	     </div>
       </div>
     </div>
   </div>
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTranslate">
+        <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseTranslate">
           <i class="icon-globe"></i>&nbsp;&nbsp;Help translate ownCloud
         </a>
       </h4>
@@ -122,7 +121,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseWebsite">
+        <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseWebsite">
           <i class="icon-globe"></i>&nbsp;&nbsp;Help with the ownCloud website
         </a>
       </h4>
@@ -138,7 +137,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseDesign">
+        <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseDesign">
           <i class="icon-globe"></i>&nbsp;&nbsp;Help with designing ownCloud!
         </a>
       </h4>
@@ -153,7 +152,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseMoney">
+        <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseMoney">
           <i class="icon-globe"></i>&nbsp;&nbsp;Help with bounties!
         </a>
       </h4>
@@ -168,7 +167,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapsePromote">
+        <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapsePromote">
           <i class="icon-globe"></i>&nbsp;&nbsp;Help promote ownCloud
         </a>
       </h4>
