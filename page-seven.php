@@ -65,8 +65,8 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     </div>
     <div id="collapseFive" class="panel-collapse collapse">
       <div class="panel-body">
-      	In addition to the existing ability to collaboratively edit .odt files within the web browser, you can now convert Microsoft Word documents 
-      	on the fly for online editing; open a Word doc online, edit it live with other users in the browser, and close it again – 
+      	In addition to the existing ability to collaboratively edit .odt files within the web browser, ownCloud can now convert Microsoft Word documents 
+      	on the fly for online editing. You can open a Word doc online, edit it live with other users in the browser, and close it again – 
       	it will convert back to Word. And, it will be saved back to your desktop with the changes embedded.
 		<div class="row">
 			<div class="col-md-5"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/documents/documents.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
@@ -84,7 +84,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
       <div class="panel-body">
-		Select the activities you want to record in your activity stream and set preferences for email notifications if:</br></br>
+		The Activities view has been streamlined, giving a cleaner and more efficient look. You can now select the activities you want to record in your activity stream and set preferences for email notifications if:</br></br>
 		<ul>
 			<li>A file or folder is shared with you</li>
 			<li>A new file or folder is created inside a shared folder</li>
@@ -92,7 +92,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 			<li>A file or folder has been deleted from inside a shared folder</li>
 		</ul>
 		</br>
-		Emails be sent to you on a daily, weekly or monthly schedule.
+		Emails can be sent to you on a daily, weekly or monthly schedule.
 		<div class="row">
 			<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/activity/options.png" alt="..." class="img-thumbnail"></div>
 		</div>
@@ -109,10 +109,10 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     </div>
     <div id="collapseTwo" class="panel-collapse collapse">
       <div class="panel-body">
-		The files view in the web browser has an updated UI for an improved user experience including:</br></br>
+		The new user interface of thie Files app gives a much improved user experience with changes including:</br></br>
 		<ul>
 			<li><strong>Lazy loading files</strong> – Files are loaded using “lazy loading” which loads files as you scroll down the page, providing faster and more responsive access.</li>
-			<li><strong>File Sorting</strong> – Files can be sorted in the web browser by name, size and last modified time as well as clear identification of shared files.</li>
+			<li><strong>File Sorting</strong> – Files can be sorted in the web browser by name, size and last modified time.</li>
 			<li><strong>Storage Location Report</strong> –  An “external storage” filter enables users to filter files based on external storage location, such as ftp, S3, Swift, Dropbox, Google Drive and more.</li>
 		</ul>
 		<div class="row">
@@ -131,8 +131,8 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     </div>
     <div id="collapseSeven" class="panel-collapse collapse">
       <div class="panel-body">
-      	ownCloud can now be used on most tablet and mobile browsers. This provides support for devices that don’t have a native app – 
-      	like Microsoft and Blackberry – as well as providing extra options for accessing files stored in ownCloud.
+      	ownCloud now features a web interface usable on most tablet and mobile browsers. This brings support to devices that don’t have a native app – 
+      	like Microsoft Phone and Blackberry OS devices – as well as providing extra options for accessing files stored in ownCloud.
       	<div class="row">
 			<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/files/mobileview.png" alt="..." class="img-thumbnail"></div>
 		</div>
@@ -164,7 +164,8 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     <div id="collapseTen" class="panel-collapse collapse">
       <div class="panel-body">
       	ownCloud web pages render and load faster with new static CSS and JavaScript files. And, ownCloud clients sync faster with 
-      	the new parallel upload and download mechanism. 
+      	the new parallel upload and download mechanism. There have also been many improvements to databas access of ownCloud, improving
+      	responsiveness and decreasing server resource consumption.
       </div>
     </div>
   </div>
@@ -183,7 +184,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	    </div>
 	    <div id="collapseOneAdmin" class="panel-collapse">
 	      <div class="panel-body">
-	      	Admins have improved capabilities which make it easier to manage users:</br></br>
+	      	Admins can take advantage of the improved capabilities for more easily managing users:</br></br>
 	      	<ul>
 	      		<li>View all ownCloud users in a single scrolling window</li>
 	      		<li>Search by user display name using the new text filter</li>
@@ -277,7 +278,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	    <div id="collapseTwoAdmin" class="panel-collapse collapse">
 	      <div class="panel-body">
 			It is now simpler than ever to connect ownCloud to an email server in a simple GUI config wizard, enabling ownCloud 
-			to send automated messages to users – such as the notifications above. ownCloud can connect via PHP or using standard 
+			to send automated messages to users – such as the notifications from the Activities app. ownCloud can connect via PHP or using standard 
 			SMTP.
 			<div class="row">
 				<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/settings/mailserversettings.png" alt="..." class="img-thumbnail"></div>
@@ -312,7 +313,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	    </div>
 	    <div id="collapseSevenAdmin" class="panel-collapse collapse">
 	      <div class="panel-body">
-			Upgrade from previous ownCloud versions to ownCloud 7 more quickly.  Additionally, admins can execute scripts to migrate from one database 
+			Thanks to improvements in the upgrade tool, the upgrade from previous ownCloud versions to ownCloud 7 will go more quickly.  Additionally, admins can execute scripts to migrate from one database 
 			to another – as part of the command line tools included with ownCloud. For example, a user may migrate from SQLite to MySQL using these tools.
 	      </div>
 	    </div>
@@ -327,7 +328,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	    </div>
 	    <div id="collapseSixAdmin" class="panel-collapse collapse">
 	      <div class="panel-body">
-	      	Set the configuration switch in the ownCloud config file to include or exclude external storage locations 
+	      	Admins can set a configuration switch in the ownCloud config file to include or exclude external storage locations 
 	      	in the calculation of user quota. 
 	      </div>
 	    </div>
@@ -343,7 +344,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     </div>
     <div id="collapseTwelveAdmin" class="panel-collapse collapse">
       <div class="panel-body">
-      	ownCloud 7 builds on its current admin features to include:</br></br>
+      	ownCloud 7 builds further on its current admin features to include:</br></br>
       	<ul>
       		<li>External storage backend that uses ownCloud credentials to connect to a Samba share</li>
       		<li>Improved apps management</li>
@@ -384,9 +385,9 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     </div>
     <div id="collapseOneDev" class="panel-collapse collapse">
       <div class="panel-body">
-      	Visual representation in the desktop client shows which files are owned by the user, and which files are shared 
+      	A new API allows for a visual representation facilitated by the desktop client shows which files are owned by the user, and which files are shared 
       	with the user but owned by someone else. This API indicates which files are shared, so that the desktop client 
-      	and mobile app can place the shared file or shared folder icon appropriately on files stored on ownCloud files.
+      	and mobile app can place the shared file or shared folder icon appropriately on files stored in ownCloud.
       </div>
     </div>
   </div>
