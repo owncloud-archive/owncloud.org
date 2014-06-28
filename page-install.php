@@ -84,7 +84,7 @@
   <div class="col-md-6">
     <a name="testing"></a>
     <h3><strong>Help with testing and development</strong></h3>
-    <p>Our server is in constant development and help is always needed in testing the latest bugfixes and features. Please report any issues to the <a href="https://github.com/owncloud/core/issues" target="_blank">tracker</a>.</p>
+    <p>Our server is in constant development and help is always needed in testing the latest bugfixes and features. Please report any issues to the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/bugtracker/" target="_blank">tracker</a>.</p>
     <h4>ownCloud Server <small>Daily build</small></h4>
     <div class="btn-group">
       <a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  Archive File</a>
