@@ -36,7 +36,7 @@
 	  </div>
 	  <div class="overlay-body row">
 	  <div class="col-md-6">
-		<p>The Web Installer is the easiest way for novice users to install ownCloud on their web space. It checks the dependencies, download the newest ownCloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the ownCloud installer.</p>
+		<p>The Web Installer is the easiest way for novice users to install ownCloud on their web space. It checks the dependencies, downloads the newest ownCloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the ownCloud installer.</p>
 		<ol>
 			<li>Right-click <a href="https://download.owncloud.com/download/community/setup-owncloud.php">here</a> and save the file to your computer</li>
 			<li>Upload <tt>setup-owncloud.php</tt> to your web space</li>
