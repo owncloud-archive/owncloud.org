@@ -61,7 +61,7 @@ Download: <a href="http://download.owncloud.org/community/owncloud-6.0.3.tar.bz2
 MD5: <a href="http://download.owncloud.org/community/owncloud-6.0.3.tar.bz2.md5">http://download.owncloud.org/community/owncloud-6.0.3.tar.bz2.md5</a><br />
 <br />
 
-<h3>Version 5.0.16 <small>April 29rd 2014</small></h3>
+<h3>Version 5.0.16 <small>April 29th 2014</small></h3>
 <ul>
 <li>Several security fixes</li>
 <li>Make the trusted domain upgrade feature more robust.</li>
