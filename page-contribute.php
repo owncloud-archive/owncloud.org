@@ -1,19 +1,18 @@
 <?php get_template_part('templates/parts/title'); ?>
-<p>ownCloud is an <strong>open source project</strong>. That means that not only do you have access to the source
-so you <em>can</em> change it, we <em>want</em> you to change it. And once you have, you can take that change
-and make it part of ownCloud, so everybody benefits from the improvement!</p>
+<p>ownCloud is an <strong>open source project</strong>. That means it is <em>yours</em>. You can study, improve and share it however you like.</p>
 <p>Do you want to get a certain <strong>improvement</strong> in ownCloud? Did you find a <strong>problem</strong>?
 Do you want to <strong>help</strong> translate, promote or document ownCloud?</p>
+<h2>Become part of the ownCloud Community and help us liberate data accross the globe!</h2><br />
 <a href="https://owncloud.org/blog/owncloud-7-beta-is-out-help-us-test-it" class="btn btn-lg btn-default">Join the Beta Program</a></br></br>
 <a href="http://owncloud.org/blog/hold-the-date-announcing-the-owncloud-contributor-conference-and-hackathon/" class="btn btn-lg btn-default">Be at the ownCloud Contributor Conference!</a></br></br>
-<h2>How to make ownCloud awesome:</h2>
+<h2>How to participate:</h2>
 
 <div class="panel-group" id="accordionContribute">
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseCoding">
-          <i class="icon-thumbs-up"></i>&nbsp;&nbsp;Help improve ownCloud!
+          <i class="icon-thumbs-up"></i>&nbsp;&nbsp;Help improve ownCloud
         </a>
       </h4>
     </div>
@@ -109,13 +108,14 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseTranslate">
-          <i class="icon-book"></i>&nbsp;&nbsp;Help translate ownCloud
+          <i class="icon-book"></i>&nbsp;&nbsp;Help translate and document ownCloud
         </a>
       </h4>
     </div>
     <div id="collapseTranslate" class="panel-collapse collapse">
       <div class="panel-body">
         <p>Translate ownCloud to your language. Go to <a href="https://www.transifex.com/projects/p/owncloud/">Transifex</a> and get going!</p>
+        <p>Help us improve the ownCloud documentation! Find it in our <a href="https://github.com/owncloud/documentation">github repository</a>. Scroll down for instructions!</p>
       </div>
     </div>
   </div>
@@ -139,7 +139,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseDesign">
-          <i class="icon-pencil"></i>&nbsp;&nbsp;Help with designing ownCloud!
+          <i class="icon-pencil"></i>&nbsp;&nbsp;Help with designing ownCloud
         </a>
       </h4>
     </div>
@@ -154,7 +154,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseMoney">
-          <i class="icon-money"></i>&nbsp;&nbsp;Help with bounties!
+          <i class="icon-money"></i>&nbsp;&nbsp;Help support ownCloud development with bounties
         </a>
       </h4>
     </div>
