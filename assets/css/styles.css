@@ -103,3 +103,29 @@ div.sub-nav {
 	margin-top: -30px;
 }
 
+.home div.wrap>.content h2.slogan {
+	margin-top: 40px;
+}
+
+.home-header-text {
+	margin-top: 30px;
+}
+
+.home-header-image {
+	display: block; 
+	width: 97%; 
+	min-width: 320px; 
+	margin: 5em auto 10px;
+}
+
+@media (max-width: 991px) {
+	.home-header-text {
+		margin-top: 40px;
+	}
+	.home-header-image {
+		margin-top: 2em !important;
+	}
+
+}
+
+

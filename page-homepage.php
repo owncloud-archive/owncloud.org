@@ -1,7 +1,13 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <div class="header"><div class="row image">
-	<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-		<img style="display: block; width: 75%; min-width: 320px; margin: 3em auto 10px;" alt="image about owncloud sync" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/ocsplash.png" />
+	<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
+		<img class="home-header-image" alt="image about owncloud sync" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/ocsplash.png" />
+	</div>
+	<div class="home-header-text col-lg-4 col-md-4 col-xs-12 col-sm-12">
+		<h1>Introducing ownCloud 6</h2>
+		<p>ownCloud provides <strong>universal access to your files</strong> via the web, your computer or your mobile devices — wherever you are.</p>
+		<p>It also provides a platform to <strong>easily view & sync your contacts, calendars and bookmarks</strong> across all your devices and enables basic editing right on the web.</p>
+		<p>Through apps, you can extend ownCloud and <strong>make it your own!</strong></p>
 	</div>
 </div>
 <div class="row">
