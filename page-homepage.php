@@ -10,7 +10,7 @@
 <div class="row">
 	<div class="col-md-10 col-md-offset-1">
 		<p style="text-align: center">With ownCloud you can <strong>sync & share</strong> your <strong>files, calendar, contacts and more</strong>. 
-			Have <strong>your data</strong> on all your devices, on an <strong>open platform</strong> you can <strong>extend and modify</strong>.</p>
+			Access <strong>your data</strong> on all your devices, on an <strong>open platform</strong> you can <strong>extend and modify</strong>.</p>
 	</div>
 </div>
 <div class="row highlight">
