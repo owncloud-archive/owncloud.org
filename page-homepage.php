@@ -5,7 +5,7 @@
 	</div>
 </div>
 <div class="row">
-	<h2 class="slogan">Web services under your control</h2>
+	<h2 class="slogan">Access to your data - Under your control</h2>
 </div>
 <div class="row">
 	<div class="col-md-10 col-md-offset-1">
