@@ -87,7 +87,7 @@ div.thumbnail > img {
 }
 
 .banner ul#menu-header.nav>li.menu-commercial>a{
-	border-bottom: 2px solid #e8733b;
+	color: #e8733b;
 	
 }
 
@@ -97,6 +97,7 @@ div.thumbnail > img {
 
 .banner ul#menu-header.nav>li>a {
 	padding-bottom: 6px;
+	font-size: 1em;
 }
 
 div.sub-nav {
@@ -116,5 +117,6 @@ div.sub-nav {
  	}
  }
 
-
-
+li.top-nav-active > a {
+	border-bottom: 2px solid white;
+}

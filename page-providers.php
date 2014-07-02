@@ -42,7 +42,7 @@ function displayProviders($providers) {
 		echo '<div class="row">';
 		for($provider=0; $provider<$numProviders; $provider++) {
 			echo '<div class="col-xs-12 col-sm-6 col-md-4 ">';
-			echo '<a href="' . $providers[$provider]->url . '" title="' . $providers[$provider]->title . '"><div class="thumbnail">';
+			echo '<a href="' . $providers[$provider]->url . '" target="_blank" title="' . $providers[$provider]->title . '"><div class="thumbnail">';
 			echo '<div class="bannerhead">';
 			foreach($providers[$provider]->flags as $flag) {
 				echo '<img class="flag" src="' . get_template_directory_uri() . '/assets/img/flags/' . $flag . '.gif"/>';
