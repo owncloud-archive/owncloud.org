@@ -313,7 +313,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	    </div>
 	    <div id="collapseSevenAdmin" class="panel-collapse collapse">
 	      <div class="panel-body">
-			Thanks to improvements in the upgrade tool, the upgrade from previous ownCloud versions to ownCloud 7 will go more quickly.  Additionally, admins can execute scripts to migrate from one database 
+			Thanks to improvements in the upgrade tool, the upgrade from previous ownCloud versions to ownCloud 7 will happen more quickly.  Additionally, admins can execute scripts to migrate from one database 
 			to another – as part of the command line tools included with ownCloud. For example, a user may migrate from SQLite to MySQL using these tools.
 	      </div>
 	    </div>
