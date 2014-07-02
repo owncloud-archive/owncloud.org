@@ -568,9 +568,11 @@
       },
       {
          "title":"allmenda.com",
-         "url":"http:\/\/www.allmenda.com\/cloud-pro",
+         "url":"https:\/\/allmenda.net",
          "flags":[
-            "de"
+            "de",
+            "ch",
+            "at"
          ],
          "freeplans":false,
          "supports":[
