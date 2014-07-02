@@ -103,3 +103,6 @@ div.sub-nav {
 	margin-top: -30px;
 }
 
+li.top-nav-active > a {
+	border-bottom: 2px solid white;
+}
