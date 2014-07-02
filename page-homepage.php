@@ -1,11 +1,17 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <div class="header"><div class="row image">
 	<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-		<img style="display: block; width: 75%; min-width: 320px; margin: 3em auto 10px;" alt="image about owncloud sync" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/ocsplash.png" />
+		<img class="home-header-image" alt="image about owncloud sync" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/ocsplash.png" />
 	</div>
 </div>
 <div class="row">
-	<h2 class="slogan">Web services under your control</h2>
+	<h2 class="slogan">Access to your data - Under your control</h2>
+</div>
+<div class="row">
+	<div class="col-md-10 col-md-offset-1">
+		<p style="text-align: center"><strong>With ownCloud you can sync & share your files, calendar, contacts and more.</strong><br/> 
+			Access your data from all your devices, on an open platform you can extend and modify.</p>
+	</div>
 </div>
 <div class="row highlight">
 	<h3 class="conference hidden-xs"><a href="/conf">ownCloud Contributor Conference - August 2014, Berlin</a></h3>
