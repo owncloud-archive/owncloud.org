@@ -164,7 +164,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     <div id="collapseTen" class="panel-collapse collapse">
       <div class="panel-body">
       	ownCloud web pages render and load faster with new static CSS and JavaScript files. And, ownCloud clients sync faster with 
-      	the new parallel upload and download mechanism. There have also been many improvements to databas access of ownCloud, improving
+      	the new parallel upload and download mechanism. There have also been many improvements to database access of ownCloud, improving
       	responsiveness and decreasing server resource consumption.
       </div>
     </div>
