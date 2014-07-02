@@ -8,6 +8,36 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 <h2>How to participate:</h2>
 
 <div class="panel-group" id="accordionContribute">
+  <a name="promote"></a>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapsePromote">
+          <i class="icon-bullhorn"></i>&nbsp;&nbsp;Help promote ownCloud
+        </a>
+      </h4>
+    </div>
+    <div id="collapsePromote" class="panel-collapse collapse.in">
+      <div id="promote" class="panel-body">
+        <p>Help spread the word about ownCloud. Use the resources and links below to let people know about your experiences with ownCloud, or organise your own events.</p>
+        <div class="row">
+          <div class="col-md-3">
+            <a style="width: 100%; margin-bottom: 10px;" target="_blank" href="https://twitter.com/intent/tweet/?url=https%3A%2F%2Fowncloud.org&text=Hey+checkout+ownCloud&via=owncloud&hashtags=owncloud,opensource" class="btn btn-info btn-lg"><i class="icon-twitter"></i> Tweet about ownCloud</a></br>
+            <a style="width: 100%; margin-bottom: 10px;" target="_blank" href="https://www.facebook.com/sharer.php?u=owncloud.org" class="btn btn-primary btn-lg"><i class="icon-facebook"></i> Share on Facebook</a></br>
+            <a style="width: 100%" target="_blank" href="https://plus.google.com/share?url=https%3A%2F%2Fowncloud.org" class="btn btn-danger btn-lg"><i class="icon-google-plus"></i> Post on Google+</a>
+          </div>
+          <div class="col-md-9">
+            <p>Other ways you can help promote ownCloud:</p>
+            <ul>
+              <li>Write a blog post, and get it included in our <a href="/news">planet site</a> (ask <a href="/user/?user=tomneedham">Tom Needham</a>)</li>
+              <li>Organise an <a href="/events">ownCloud event</a> (talks, meetups, tradeshow booths)</li>
+              <li>Recommend ownCloud to your company, University or service provider</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
@@ -162,21 +192,6 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
       <div class="panel-body">
         Support ownCloud development by offering some money on features you would like to have!
         <a href="https://www.bountysource.com/teams/owncloud">Check our bountysource page</a>!
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapsePromote">
-          <i class="icon-bullhorn"></i>&nbsp;&nbsp;Help promote ownCloud
-        </a>
-      </h4>
-    </div>
-    <div id="collapsePromote" class="panel-collapse collapse">
-      <div class="panel-body">
-        Spread the word, tell your friends about it, write a blog post! Or <a href="/events">organize ownCloud events</a> 
-        like meetups and talks or a booth at tradeshows.
       </div>
     </div>
   </div>
