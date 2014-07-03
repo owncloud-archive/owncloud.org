@@ -8,7 +8,7 @@ require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.p
 <div class="row page-content-header">
 <div class="col-sm-12">
 <h1>ownCloud Planet</h1>
-<a href="/blogfeed" class="rss-button">RSS</a>
+<a href="/blogfeed" class="rss-button"><img style="vertical-align: top;" width=35 class="img-circle" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png"></img></a>
 </div>
 </div>
 
