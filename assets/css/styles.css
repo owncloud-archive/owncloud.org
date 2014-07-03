@@ -22,6 +22,16 @@ div.footer-text {
 	margin-bottom: 40px;
 }
 
+div.footer-social-icons {
+	text-align: center;
+	margin-bottom: -14px;
+	margin-top: 7px;
+}
+
+div.footer-social-icons>a:hover {
+	opacity: 0.8;
+}
+
 .banner ul#menu-header.nav>li.menu-get-owncloud {
 	padding: 0 0 0 15px;
 	margin-top: 7px;
