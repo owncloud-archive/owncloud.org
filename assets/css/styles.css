@@ -155,6 +155,10 @@ article.post img {
 	height: auto;
 }
 
+article.post figcaption {
+	margin-top: -14px;
+}
+
 @media (max-width: 600px) {
 	article.post figure {
 		float: none;
