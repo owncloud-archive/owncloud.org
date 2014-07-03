@@ -145,3 +145,7 @@ div.blog-social-icons > div img {
 	width: 40px;
 	margin: 0;
 }
+
+div.blog-social-icons > div a:hover {
+	text-decoration: none;
+}
