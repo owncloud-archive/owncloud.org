@@ -130,3 +130,8 @@ li.top-nav-active > a {
 .news .contribook_bloguser {
 	margin-right: -50px;
 }
+
+div.blog-social-icons > div img {
+	width: 40px;
+	margin: 0;
+}
