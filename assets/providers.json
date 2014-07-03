@@ -568,9 +568,11 @@
       },
       {
          "title":"allmenda.com",
-         "url":"http:\/\/www.allmenda.com\/cloud-pro",
+         "url":"https:\/\/allmenda.net",
          "flags":[
-            "de"
+            "de",
+            "ch",
+            "at"
          ],
          "freeplans":false,
          "supports":[
@@ -685,6 +687,18 @@
 
          ],
          "imagename":"weblumia.png"
+      },
+      {
+         "title":"lazymedia.com.pt",
+         "url":"http:\/\/www.lazymedia.com.pt\/",
+         "flags":[
+            "pt"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"lazymedia.png"
       }
    ]
 }
