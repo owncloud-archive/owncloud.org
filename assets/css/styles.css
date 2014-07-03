@@ -104,6 +104,12 @@ div.sub-nav {
 	margin-top: -30px;
 }
 
+@media (max-width: 992px) {
+	a.facebook-button {
+		margin: 10px 0 !important;
+	}
+}
+
 .home-header-image {
 	display: block; 
 	width: 80%; 
