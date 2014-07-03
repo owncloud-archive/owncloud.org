@@ -149,3 +149,8 @@ div.blog-social-icons > div img {
 div.blog-social-icons > div a:hover {
 	text-decoration: none;
 }
+
+article.post img {
+	max-width: 100%;
+	height: auto;
+}
