@@ -10,12 +10,12 @@ Jump to improvements for: <a href="#user">User</a> | <a href="#admin">Admin</a> 
 	<div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+        <a data-toggle="collapse" data-parent="#accordionUser" href="#collapseSix">
           <i class="icon-sitemap"></i>&nbsp;&nbsp;Server to Server Sharing
         </a>
       </h4>
     </div>
-    <div id="collapseSix" class="panel-collapse">
+    <div id="collapseSix" class="panel-collapse collapse.in">
       <div class="panel-body">
 		ownCloud 7 introduces server to server sharing, allowing you to mount a share from another ownCloud instance and seamlessly collaborate on and share files from within your own ownCloud. This essentially combines two private clouds into a public cloud. You can even have the folder locally synced through the client. No need to create user accounts on your or the other instance - just, once, add the shared folder into your ownCloud.
 		<div class="row">
@@ -30,7 +30,7 @@ Jump to improvements for: <a href="#user">User</a> | <a href="#admin">Admin</a> 
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+        <a data-toggle="collapse" data-parent="#accordionUser" href="#collapseOne">
           <i class="icon-globe"></i>&nbsp;&nbsp;Improved File Sharing
         </a>
       </h4>
@@ -58,7 +58,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
    <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+        <a data-toggle="collapse" data-parent="#accordionUser" href="#collapseFive">
           <i class="icon-file-text-o"></i>&nbsp;&nbsp;Improved Documents Capabilities
         </a>
       </h4>
@@ -77,7 +77,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordionUser" href="#collapseThree">
           <i class="icon-lightbulb-o"></i>&nbsp;&nbsp;File Activity Notifications
         </a>
       </h4>
@@ -102,7 +102,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        <a data-toggle="collapse" data-parent="#accordionUser" href="#collapseTwo">
           <i class="icon-list"></i>&nbsp;&nbsp;New Files View
         </a>
       </h4>
@@ -124,7 +124,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+        <a data-toggle="collapse" data-parent="#accordionUser" href="#collapseSeven">
           <i class="icon-mobile"></i>&nbsp;&nbsp;Mobile Web Browser Support
         </a>
       </h4>
@@ -142,7 +142,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
+        <a data-toggle="collapse" data-parent="#accordionUser" href="#collapseEleven">
           <i class="icon-lock"></i>&nbsp;&nbsp;Password Strength Indicator
         </a>
       </h4>
@@ -156,7 +156,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
+        <a data-toggle="collapse" data-parent="#accordionUser" href="#collapseTen">
           <i class="icon-fast-forward"></i>&nbsp;&nbsp;Significant Speed Improvements
         </a>
       </h4>
@@ -177,7 +177,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	<div class="panel panel-default">
 	    <div class="panel-heading">
 	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOneAdmin">
+	        <a data-toggle="collapse" data-parent="#accordionAdmin" href="#collapseOneAdmin">
 	          <i class="icon-group"></i>&nbsp;&nbsp;New User Management
 	        </a>
 	      </h4>
@@ -204,7 +204,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	  <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEightAdmin">
+        <a data-toggle="collapse" data-parent="#accordionAdmin" href="#collapseEightAdmin">
           <i class="icon-cloud"></i>&nbsp;&nbsp;External Storage Access
         </a>
       </h4>
@@ -223,7 +223,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
   <div class="panel panel-default">
 	    <div class="panel-heading">
 	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourAdmin">
+	        <a data-toggle="collapse" data-parent="#accordionAdmin" href="#collapseFourAdmin">
 	          <i class="icon-database"></i>&nbsp;&nbsp;Object Stores as Primary Storage
 	        </a>
 	      </h4>
@@ -238,7 +238,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTenAdmin">
+        <a data-toggle="collapse" data-parent="#accordionAdmin" href="#collapseTenAdmin">
           <i class="icon-exclamation-triangle"></i>&nbsp;&nbsp;Antivirus Scanner Integration
         </a>
       </h4>
@@ -254,7 +254,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	  <div class="panel panel-default">
 	    <div class="panel-heading">
 	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThreeAdmin">
+	        <a data-toggle="collapse" data-parent="#accordionAdmin" href="#collapseThreeAdmin">
 	          <i class="icon-user"></i>&nbsp;&nbsp;Active Directory / LDAP Enhancements
 	        </a>
 	      </h4>
@@ -270,7 +270,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	  <div class="panel panel-default">
 	    <div class="panel-heading">
 	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwoAdmin">
+	        <a data-toggle="collapse" data-parent="#accordionAdmin" href="#collapseTwoAdmin">
 	          <i class="icon-wrench"></i>&nbsp;&nbsp;SMTP Config Wizard
 	        </a>
 	      </h4>
@@ -291,7 +291,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	  <div class="panel panel-default">
 	    <div class="panel-heading">
 	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFiveAdmin">
+	        <a data-toggle="collapse" data-parent="#accordionAdmin" href="#collapseFiveAdmin">
 	          <i class="icon-inbox"></i>&nbsp;&nbsp;Editable Email Templates
 	        </a>
 	      </h4>
@@ -306,7 +306,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	  <div class="panel panel-default">
 	    <div class="panel-heading">
 	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSevenAdmin">
+	        <a data-toggle="collapse" data-parent="#accordionAdmin" href="#collapseSevenAdmin">
 	          <i class="icon-code"></i>&nbsp;&nbsp;Upgrade / Migration Routine Script
 	        </a>
 	      </h4>
@@ -321,7 +321,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	  <div class="panel panel-default">
 	    <div class="panel-heading">
 	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSixAdmin">
+	        <a data-toggle="collapse" data-parent="#accordionAdmin" href="#collapseSixAdmin">
 	          <i class="icon-dashboard"></i>&nbsp;&nbsp;Quota Improvements (including external storage)
 	        </a>
 	      </h4>
@@ -337,7 +337,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	  <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelveAdmin">
+        <a data-toggle="collapse" data-parent="#accordionAdmin" href="#collapseTwelveAdmin">
           More Features
         </a>
       </h4>
@@ -360,7 +360,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwoDev">
+        <a data-toggle="collapse" data-parent="#accordionDeveloper" href="#collapseTwoDev">
           <i class="icon-chain-broken"></i>&nbsp;&nbsp;Webhooks
         </a>
       </h4>
@@ -395,7 +395,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
    <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThreeDev">
+        <a data-toggle="collapse" data-parent="#accordionDeveloper" href="#collapseThreeDev">
           <i class="icon-pencil"></i>&nbsp;&nbsp;Developer Documentation
         </a>
       </h4>
@@ -409,7 +409,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
    <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourDev">
+        <a data-toggle="collapse" data-parent="#accordionDeveloper" href="#collapseFourDev">
           More Features
         </a>
       </h4>
