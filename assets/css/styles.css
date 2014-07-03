@@ -136,3 +136,16 @@ div.sub-nav {
 li.top-nav-active > a {
 	border-bottom: 2px solid white;
 }
+
+.news .contribook_bloguser {
+	margin-right: -50px;
+}
+
+div.blog-social-icons > div img {
+	width: 40px;
+	margin: 0;
+}
+
+div.blog-social-icons > div a:hover {
+	text-decoration: none;
+}
