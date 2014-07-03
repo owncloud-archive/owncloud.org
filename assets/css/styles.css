@@ -154,3 +154,9 @@ article.post img {
 	max-width: 100%;
 	height: auto;
 }
+
+@media (max-width: 600px) {
+	article.post figure {
+		float: none;
+	}
+}
