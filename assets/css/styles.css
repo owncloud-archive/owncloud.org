@@ -164,3 +164,11 @@ article.post figcaption {
 		float: none;
 	}
 }
+
+#meetup-embed-largest-owncloud {
+	max-width: 400px;
+}
+
+div.box-head {
+	display: none;
+}
