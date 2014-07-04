@@ -211,7 +211,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
     </div>
     <div id="collapseEightAdmin" class="panel-collapse collapse">
       <div class="panel-body">
-      	The external storage app provides faster, more responsive access to storage locations including FTP, Dropbox, Google Drive, sFTP, 
+      	The external storage app provides access to storage locations including FTP, Dropbox, Google Drive, sFTP,
       	Swift, S3, WebDAV, SMB/CIFS and more. Admins can specify which storage type can be added by end users in their personal tab, 
       	providing more granular control over external storage mounts. 
       	<div class="row">
