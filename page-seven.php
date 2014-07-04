@@ -48,9 +48,9 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 		</ul>
 		<div class="row">
 			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/adminoptions.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
-			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/sharedby.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
-			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/sharedviews.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
 			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/permissions.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+			<div class="col-md-3"><iframe width="420" height="315" src="//www.youtube.com/embed/oy-YwBbHkEE?rel=0" frameborder="0" allowfullscreen></iframe></div>
+			<div class="col-md-3"></div>
 		</div>
       </div>
     </div>
@@ -116,7 +116,8 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 			<li><strong>Storage Location Report</strong> –  An “external storage” filter enables users to filter files based on external storage location, such as ftp, S3, Swift, Dropbox, Google Drive and more.</li>
 		</ul>
 		<div class="row">
-			<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/files/newview.png" alt="..." class="img-thumbnail"></div>
+			<div class="col-md-5"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/files/newview.png" alt="..." class="img-thumbnail"></div>.
+			<div class="col-md-5"><iframe width="560" height="315" src="//www.youtube.com/embed/qXWZs07Y7jU?rel=0" frameborder="0" allowfullscreen></iframe></div>
 		</div>
       </div>
     </div>
@@ -281,7 +282,8 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 			to send automated messages to users – such as the notifications from the Activities app. ownCloud can connect via PHP or using standard 
 			SMTP.
 			<div class="row">
-				<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/settings/mailserversettings.png" alt="..." class="img-thumbnail"></div>
+				<div class="col-md-5"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/settings/mailserversettings.png" alt="..." class="img-thumbnail"></div>
+				<div class="col-md-5"><iframe width="560" height="315" src="//www.youtube.com/embed/atarLEyLtPY?rel=0" frameborder="0" allowfullscreen></iframe></div>
 			</div>
     	</div>
 	  </div>
