@@ -16,7 +16,6 @@
             <li class="menu-contact"><a href="<?php get_bloginfo('url'); ?>/contact/">People</a></li>
             <li class="menu-history"><a href="<?php get_bloginfo('url'); ?>/history/">History</a></li>
             <li class="menu-security"><a href="<?php get_bloginfo('url'); ?>/security/">Security</a></li>
-            <li class="menu-design"><a href="<?php get_bloginfo('url'); ?>/contribute/design/">Design</a></li>
           </ul>
         </div>
      </div>
