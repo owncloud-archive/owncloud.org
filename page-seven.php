@@ -15,7 +15,7 @@ Jump to improvements for: <a href="#user">User</a> | <a href="#admin">Admin</a> 
         </a>
       </h4>
     </div>
-    <div id="collapseSix" class="panel-collapse">
+    <div id="collapseSix" class="panel-collapse in">
       <div class="panel-body">
 		ownCloud 7 introduces server to server sharing, allowing you to mount a share from another ownCloud instance and seamlessly collaborate on and share files from within your own ownCloud. This essentially combines two private clouds into a public cloud. You can even have the folder locally synced through the client. No need to create user accounts on your or the other instance - just, once, add the shared folder into your ownCloud.
 		<div class="row">
@@ -182,7 +182,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	        </a>
 	      </h4>
 	    </div>
-	    <div id="collapseOneAdmin" class="panel-collapse">
+	    <div id="collapseOneAdmin" class="panel-collapse in">
 	      <div class="panel-body">
 	      	Admins can take advantage of the improved capabilities for more easily managing users:</br></br>
 	      	<ul>
@@ -365,7 +365,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
         </a>
       </h4>
     </div>
-    <div id="collapseTwoDev" class="panel-collapse">
+    <div id="collapseTwoDev" class="panel-collapse in">
       <div class="panel-body">
       	Integrate ownCloud into other systems with Webhooks. Apps can publish an event, and other apps can subscribe to 
       	this event using the publication/subscription model (pubsubhub). Developers create an app that registers itself 

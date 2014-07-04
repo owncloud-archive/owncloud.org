@@ -149,3 +149,18 @@ div.blog-social-icons > div img {
 div.blog-social-icons > div a:hover {
 	text-decoration: none;
 }
+
+article.post img {
+	max-width: 100%;
+	height: auto;
+}
+
+article.post figcaption {
+	margin-top: -14px;
+}
+
+@media (max-width: 600px) {
+	article.post figure {
+		float: none;
+	}
+}
