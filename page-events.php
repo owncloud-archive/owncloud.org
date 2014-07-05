@@ -10,31 +10,33 @@
 			ownCloud. Below a list of upcoming events.</p>
 		<script type="text/javascript" src="http://www.meetup.com/embed/largest/owncloud/"></script>
 		<p>See more on <a target="_blank" href="http://owncloud.meetup.com/">owncloud.meetup.com</a></p>
-		<p>If you are interested in joining a meetup but there is none close by, perhaps you should organize one! <a href="/events/meetups">Click here to find out more</a>.</p>
+		<p>If you are interested in joining fellow ownCloud users and contributors at a meetup but there is none close by, perhaps you should organize one! <a href="/events/meetups">Click here to find out more</a>.</p>
 
 		<h2>Conferences</h2>
-		<p>ownCloud community members all around the globe organize ownCloud presence at trade shows and conferences to present our community and technology. 
+		<p>ownCloud community members everywhere organize ownCloud presence at trade shows and conferences to present our community and technology to visitors.
 			Below a list of upcoming tradeshows and conferences where you can find ownCloud represented!</p>
 		<table class="table table-striped">
 			<tr>
+				<th>Event</th>
 				<th>Location</th>
 				<th>Date</th>
 				<th>Organizer</th>
 				<th>Link</th>
 			</tr>
 			<tr>
+				<td>Awesome Event</td>
 				<td>Leamington Spa, UK</td>
 				<td>July 5th 2014</td>
 				<td>Tom Needham</td>
 				<td><a href="https://tomneedham.com">tomneedham.com</a></td>
 			</tr>
 		</table>
-		<p>There is a conference, tradeshow or other event close by and you want ownCloud to be there? Click <a href="/events/conference-program">here</a> to organize your 
-			own attendance.</p>
+		<p>There is a conference, tradeshow or other event close by and you want ownCloud to be there? Click <a href="/events/conference-program">here</a> to find out how
+			to organize event presence for ownCloud.</p>
 
 		<h2>Release parties</h2>
 		<p>After a new ownCloud release, community members around the world organize release parties! Usually that's just a meeting in a cafe or office with a 
-			presentation of what's new in ownCloud 7 and time to chat about it. Release parties don't have to be done in the release week at all – doing it a bit later 
+			presentation of what is new in ownCloud 7 and time to chat about it. Release parties don't have to be done in the release week at all – doing it a bit later
 			gives everybody a chance to play with the release before the meeting!</p>
 		<table class="table table-striped">
 		  <tr>
