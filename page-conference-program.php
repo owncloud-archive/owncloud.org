@@ -42,9 +42,9 @@
 			newbies interested in ownCloud, answer questions of the advanced users and convince the (potential) business users that their company needs 
 			ownCloud! Last but not least, you should convince (potential) contributors to get on board with ownCloud hacking: it is fun and easy.</p>
 
-		<p>To help you talk about ownCloud, we have a <a href="">conference team FAQ</a> and some <a href="">conference talking points</a>. Print these pages, 
+		<p>To help you talk about ownCloud, we have a <a href="<?php echo get_template_directory_uri(); ?>/assets/files/FAQ.pdf">conference team FAQ</a> and some <a href="<?php echo get_template_directory_uri(); ?>/assets/files/TalkingPoints.pdf">conference talking points</a>. Print these pages,
 			read them and bring them for the others on the booth to read in a quiet moment. Of course, use our flyers, posters and other materials. You 
-			can <a href="https://github.com/owncloud/promo">download designs here</a> for modification and printing. To receive an envelop with stickers and flyers from us, <a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request form to fill in. Note that we have limited supply and shipping and handling takes time, so ask us in time! In general, count on two weeks at least and please understand that currently we only ship in (most countries in) Europe and the USA.</p>
+			can <a href="https://github.com/owncloud/promo">download designs here</a> for modification and printing. To receive an envelop with stickers and flyers from us, <a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">click here</a> for a request form to fill in. Note that we have limited supply and shipping and handling takes time, so ask us in time! In general, count on two weeks at least and please understand that currently we only ship in (most countries in) Europe and the USA.</p>
 
 		<h3>Tips</h3>
 		<p>Always approach people with a question: do you know ownCloud, do you use dropbox or Google drive, do you share files with other people... Find out 
@@ -59,8 +59,8 @@
 			to spend some quality time with a few!</p>
 
 		<h2>Getting some goodies</h2>
-		<p>We can send you some materials like stickers and flyers for your booth. We have limited supply and shipping takes time, so ask us in time! Click here for a request 
-			form to fill in.</p>
+		<p>We can send you some materials like stickers and flyers for your booth. We have limited supply and shipping takes time, so ask us in time! <a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request
+			form to fill in. Note that we have limited supply and shipping and handling takes time, so ask us in time! In general, count on two weeks at least and please understand that currently we only ship in (most countries in) Europe and the USA.</p>
 
 		<h2>Telling us about it</h2>
 		<p>It is great if you share what you did at the conference or trade show with the international community!</p>
