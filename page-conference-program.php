@@ -12,7 +12,7 @@
 		<p>As ownCloud appeals to both home users and businesses, we can be found at a wide variety of conferences and trade shows.</p>
 
 		<h3>Giving a presentation or workshop</h3>
-		<p>If you want to give a presentation or workshop on ownCloud, you can get some ideas for subjects and slides <a href="">here</a>. There are also 
+		<p>If you want to give a presentation or workshop on ownCloud, you can get some ideas for subjects and slides <a href="https://github.com/owncloud/promo">here</a>. There are also
 			presentation templates which you can adapt to your needs.</p>
 
 		<h2>Organizing a booth</h2>
@@ -31,20 +31,20 @@
 		<p>Also, don't hack at the booth unless you are giving a workshop. It makes it seem very uninviting.</p>
 
 		<p>On the other hand, having a screen with ownCloud in action is of course good - you can demo it to people! Having something 'interesting' happen 
-			there is good, too. A video of ownCloud in action, for example. Get one <a href="">here</a>.</p>
+			there is good, too. A video of ownCloud in action, for example. You can find some in our <a href="http://www.youtube.com/ownclouders">Youtube channel</a>.</p>
 
 		<h3>Promoting the booth</h3>
 		<p>Get people to the booth! You can put some leaflets or hang up some posters around the venue, and if you give a talk you should certainly 
 			mention that there is an ownCloud booth.</p>
 
-		<h3>Handeling visitors</h3>
+		<h3>Handling visitors</h3>
 		<p>There are four kind of visitors you get at the booth: newbies, advanced users, business users and (potential) contributors. You're there to get 
 			newbies interested in ownCloud, answer questions of the advanced users and convince the (potential) business users that their company needs 
 			ownCloud! Last but not least, you should convince (potential) contributors to get on board with ownCloud hacking: it is fun and easy.</p>
 
 		<p>To help you talk about ownCloud, we have a <a href="">conference team FAQ</a> and some <a href="">conference talking points</a>. Print these pages, 
 			read them and bring them for the others on the booth to read in a quiet moment. Of course, use our flyers, posters and other materials. You 
-			can <a href="https://github.com/owncloud/promo">download things here</a> and <a href="">request some materials here</a>.</p>
+			can <a href="https://github.com/owncloud/promo">download designs here</a> for modification and printing. To receive an envelop with stickers and flyers from us, <a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request form to fill in. Note that we have limited supply and shipping and handling takes time, so ask us in time! In general, count on two weeks at least and please understand that currently we only ship in (most countries in) Europe and the USA.</p>
 
 		<h3>Tips</h3>
 		<p>Always approach people with a question: do you know ownCloud, do you use dropbox or Google drive, do you share files with other people... Find out 

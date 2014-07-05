@@ -26,10 +26,9 @@
 		<p>We use <a href="http://meetup.com">meetup.com</a> for most of our events. We have an account where we can set up meetups, so if you're up for 
 			organizing one, let us know and</p>
 
-		<p>Register, set up a page and you have a good start! Here is an <a href="http://www.meetup.com/owncloud-berlin/">example page</a>. Let us know 
-			and we add your page to <a href="http://owncloud.meetup.com/">our overview</a>. (works perhaps by choosing topic?)</p>
+		<p>Register, **find out process here** set up a page and you have a good start! Here is an <a href="http://www.meetup.com/owncloud-berlin/">example page</a>.</p>
 
-		<p>Now share it over social media - set up an event page on Facebook and Google plus, ask people to share the news. Don't feel bad if your first 
+		<p>Next up is to share it over social media - set up an event page on Facebook and Google plus, ask people to share the news. Don't feel bad if your first
 			meeting attracts just 5 visitors and don't freak out if 30 RSVP. A small group means you each have time to really work together; and a big group 
 			means everybody will talk to everybody so you don't have to worry about keeping everybody busy!</p>
 
@@ -37,14 +36,15 @@
 		<p>Now you have a place and some participants, but what to do? It is easiest to separate two kinds of meetups: the one where (potential) ownCloud 
 			contributors come together; and one where users meet up.</p>
 
-		<strong>Development Meetups</strong> need very little: room, wifi, people with laptops. Keep it simple: ownClouders will get along just fine. Open by doing 
-		a round of introductions, ask everybody to share what they would like to do. You can use one or more of our <a href="">ready-made workshop presentations 
+		<p><strong>Development Meetups</strong> need very little: room, wifi, people with laptops. Keep it simple: ownClouders will get along just fine. Open by doing
+		a round of introductions, ask everybody to share what they would like to do. You can use one or more of our <a href="http://github.com/owncloud/promo">ready-made workshop presentations
 		to get started</a> but if everybody just wants to get hacking: that's great!</p>
 
-		<p>Of course, every now and then you could get an interesting speaker to discuss some Cloudy subject.
+		<p>Of course, every now and then you could get an interesting speaker to discuss some Cloudy subject.</p>
 
-		<strong>User Meetups</strong> require a little more work. It is usually best to, after introductions, have a presentation or demonstration - use the 
-		<a href="">ready-made workshops and  presentations to get started</a>. After that, have room for questions and discussions. Be sure to announce the subject 
+		<p><strong>User Meetups</strong> require a little more work. It is usually best to, after introductions, have a presentation or demonstration - use a
+		<a href="http://github.com/owncloud/promo">ready-made workshop or  presentation to get started</a>. After that, have room for questions and discussions.
+		Be sure to announce the subject
 		beforehand so people know what to expect, and solicit input: ideas, requests or offers for help. We offer content for a number of meetings but it is also 
 		nice to encourage members of the meetup group to contribute their own knowledge and experience!</p>
 
@@ -57,7 +57,7 @@
 		    <li>Remind people of the ownCloud code of conduct if they aren't nice to each other: you have every right to tell them to stay away if they can't behave...</li>
 		</ul>
 		<h3>ownCloud swag?</h3>
-		<p>If you organize a meetup, we'd be happy to send you an envelope with some ownCloud stickers & stuff to make your laptops look cloudy! 
-			Note that we have limited supply and shipping takes time, so ask us in time! Click here for a request form to fill in.</p>
+		<p>If you organize a meetup, we'd be happy to send you an envelope with some ownCloud stickers and other stuff to make your laptops look cloudy!
+			Note that we have limited supply and shipping and handling takes time, so ask us in time! In general, count on two weeks at least and please understand that currently we only ship in (most countries in) Europe and the USA.. <a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request form to fill in.</p>
 	</div>
 </div>
