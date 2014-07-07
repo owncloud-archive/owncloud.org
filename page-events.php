@@ -24,14 +24,14 @@
 				<th>Link</th>
 			</tr>
 			<tr>
-				<td>Awesome Event</td>
-				<td>Leamington Spa, UK</td>
-				<td>July 5th 2014</td>
-				<td>Tom Needham</td>
-				<td><a href="https://tomneedham.com">tomneedham.com</a></td>
+				<td>ownCloud Contributor Conference</td>
+				<td>Berlin, Germany</td>
+				<td>August 26-31 2014</td>
+				<td>ownCloud Community</td>
+				<td><a href="https://owncloud.org/conf">owncloud.org/conf</a></td>
 			</tr>
 		</table>
-		<p>There is a conference, tradeshow or other event close by and you want ownCloud to be there? Click <a href="/events/conference-program">here</a> to find out how
+		<p>There is a conference, trade show or other event close by and you want ownCloud to be there? Click <a href="/events/conference-program">here</a> to find out how
 			to organize event presence for ownCloud.</p>
 
 		<h2>Release parties</h2>
