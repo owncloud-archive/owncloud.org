@@ -7,7 +7,7 @@
 
 		<h2>Meetups</h2>
 		<p>ownCloud community members all around the globe <a target="_blank" href="http://owncloud.meetup.com/">get together in meetups</a> to learn, share ideas and work on 
-			ownCloud. Below a list of upcoming events.</p>
+			ownCloud. Below a list of local meetup groups.</p>
 		<script type="text/javascript" src="http://www.meetup.com/embed/largest/owncloud/"></script>
 		<p>See more on <a target="_blank" href="http://owncloud.meetup.com/">owncloud.meetup.com</a></p>
 		<p>If you are interested in joining fellow ownCloud users and contributors at a meetup but there is none close by, perhaps you should organize one! <a href="/events/meetups">Click here to find out more</a>.</p>
@@ -31,13 +31,12 @@
 				<td><a href="https://owncloud.org/conf">owncloud.org/conf</a></td>
 			</tr>
 		</table>
-		<p>There is a conference, trade show or other event close by and you want ownCloud to be there? Click <a href="/events/conference-program">here</a> to find out how
-			to organize event presence for ownCloud.</p>
+		<p>There is a conference, trade show or other event close by and you want ownCloud to be there? <a href="/events/conference-program">Help make it happen!</a></p>
 
 		<h2>Release parties</h2>
-		<p>After a new ownCloud release, community members around the world organize release parties! Usually that's just a meeting in a cafe or office with a 
+		<p>After a new ownCloud release, community members organize release parties! A release party can be a meeting in a cafe or office with a
 			presentation of what is new in ownCloud 7 and time to chat about it. Release parties don't have to be done in the release week at all – doing it a bit later
-			gives everybody a chance to play with the release before the meeting!</p>
+			gives everybody a chance to play with the release before the meeting.</p>
 		<table class="table table-striped">
 		  <tr>
 		  	<th>Location</th>
@@ -52,6 +51,7 @@
 		  	<td><a href="https://tomneedham.com">tomneedham.com</a></td>
 		  </tr>
 		</table>
-		<p>You want to organize your ownCloud Release Party? See <a href="https://owncloud.org/blog/plan-your-owncloud-7-release-party"/>this blog post</a> for some tips and ideas!</p>
+		<p>You want to organize your ownCloud Release Party? See <a href="https://owncloud.org/blog/plan-your-owncloud-7-release-party"/>this blog post</a>
+			for some tips and ideas and contact us to get it added to the list!!</p>
 	</div>
 </div>
