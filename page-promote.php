@@ -15,7 +15,7 @@
 	</div>
 	<div class="col-md-4">
 		<h2>Organise an event</h2>
-		<p>Talks, meetups, or even tradeshow booths.
+		<p>Talks, meetups, or even tradeshow booths. See <a href="/events/">this page</a> for more info on ownCloud events.</p>
 	</div>
 	<div class="col-md-4">
 		<h2>Recommend ownCloud</h2>
