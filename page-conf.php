@@ -32,12 +32,12 @@
 <div class="row conf-info">
 	<div class="col-sm-6">
 		<h2>Location</h2>
-		<p>Our conference takes place in hipster Berlin at the <em>Technische Universität Berlin</em>, in the "Elektrotechnische Institute" building at Einsteinufer 17, Charlottenburg, 10587 Berlin.</p>
+		<p>Our conference takes place in Berlin at the <em>Technische Universität Berlin</em>, in the "Elektrotechnische Institute" building at Einsteinufer 17, Charlottenburg, 10587 Berlin.</p>
 		<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=13.32318127155304%2C52.51362881752727%2C13.330262303352356%2C52.5165081342206&amp;layer=mapnik&amp;marker=52.5150684994582%2C13.326721787452698"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51507&amp;mlon=13.32672#map=18/52.51507/13.32672">View Larger Map</a></small>
 	</div>
 	<div class="col-sm-6">
 		<h2>Register</h2>
-		<p>The ownCloud Contributor Conference is entirely open. We do ask you to register to help us plan better for the event. Please register <a href="https://conference.owncloud.org/conference/OCC14/register">here</a>. Note that you have to register for the site, <em>then</em> for the event!</p>
+		<p>The ownCloud Contributor Conference is entirely open. We do ask you to register to help us plan better for the event. Please register <a href="http://conference.owncloud.org/conference/OCC14/register">here</a>. Note that you have to register for the site, <em>then</em> for the event!</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We recommend you pick one of the following hotels:
 		<ul>
