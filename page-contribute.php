@@ -151,7 +151,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div id="collapseDesign" class="panel-collapse collapse">
       <div class="panel-body">
       	Help out with ownCloud user interaction design or graphic design! Get involved on 
-      	<a href="contribute/design/">the design page</a>!
+      	<a href="design/">the design page</a>!
       </div>
     </div>
   </div>
