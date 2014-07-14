@@ -48,6 +48,14 @@
 		</p>
 	</div>
 </div>
+<div class="row conf-partners">
+	<div class="col-sm-6">
+		<a href="http://lwn.net"><img class="partner-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="lwn.net covers core Linux news" /></a>
+	</div>
+	<div class="col-sm-6">
+		<a href="http://www.themukt.com/"><img class="partner-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="The Mukt is a web magazin around Free Software " /></a>
+	</div>
+</div>
 <div class="row conf-about">
 	<div class="col-sm-6 col-sm-offset-3">
 		<h2>About</h2>
