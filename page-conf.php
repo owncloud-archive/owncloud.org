@@ -50,10 +50,10 @@
 </div>
 <div class="row conf-partners">
 	<div class="col-sm-6">
-		<a href="http://lwn.net"><img class="partner-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="lwn.net covers core Linux news" /></a>
+		<img class="partner-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="lwn.net covers core Linux news" /><br ><a href="http://lwn.net">Visit lwn.net!</a>
 	</div>
 	<div class="col-sm-6">
-		<a href="http://www.themukt.com/"><img class="partner-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="The Mukt is a web magazin around Free Software " /></a>
+		<img class="partner-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="The Mukt is a web magazin around Free Software " /><br /><a href="http://www.themukt.com/">Visit the Mukt!</a>
 	</div>
 </div>
 <div class="row conf-about">
