@@ -41,7 +41,7 @@
 
 				<li><em>Tell everybody about the booth!</em><br />
 				Once you've secured a spot, share the ownCloud attendance to the event over social media -
-				perhaps even set up an event page on Facebook and Google plus, ask people to share the news. And <a href="mailto:jos@owncloud.com">tell us about it</a>!</li>
+				perhaps even set up an event page on Facebook and Google plus, ask people to share the news. And <a href="https://www.google.com/+JosPoortvliet">tell us about it</a>!</li>
 
 				<li><em>Set up the booth</em><br />
 				A crucial thing when setting up a booth is to create open space. This is very hard, as many events put a row of tables in front of the visitors 
@@ -88,7 +88,7 @@
 	<h2>Contact/questions/support</h2>
 	<ul>
 		<li>For setting up the meetup page, sharing the news on the upcoming event or a report from the previous one or any other questions, contact our community manager, <a target="_blank"  href="https://www.google.com/+JosPoortvliet">Jos Poortvliet</a>.</li>
-		<li><strong>Share what you are did</strong>! It is great if you share what you did at the conference or trade show with the international community! <a href="mailto:jos@owncloud.com">Contact us here</a>.</li>
+		<li><strong>Share what you are did</strong>! It is great if you share what you did at the conference or trade show with the international community! <a href="https://www.google.com/+JosPoortvliet">Contact us here</a>.</li>
 	</ul>
 	</div>
 </div>
