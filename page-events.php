@@ -71,6 +71,7 @@
 		  </tr>
 		</table>
 		<p> Want to organize an ownCloud Release Party? See <a target="_blank"  href="https://owncloud.org/blog/plan-your-owncloud-7-release-party"/>this blog post</a>
-			for some tips and ideas and <a href="mailto:jos@owncloud.org">contact us</a> to get it added to the list!!</p>
+			and this <a href="http://en.opensuse.org/openSUSE:Launch_party_HOWTO">how-to</a> for some tips and ideas
+			and <a href="mailto:jos@owncloud.org">contact us</a> to get your party added to the list!!</p>
 	</div>
 </div>
