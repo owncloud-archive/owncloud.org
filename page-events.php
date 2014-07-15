@@ -6,12 +6,16 @@
 			event that happens close to you or organize one!</p>
 
 		<h2>Meetups</h2>
-		<p>ownCloud community members all around the globe <a target="_blank" href="http://owncloud.meetup.com/">get together in meetups</a> to learn, share ideas and work on 
-			ownCloud. Below a list of local meetup groups.</p>
+		<p>ownCloud community members all around the globe get together in meetups to learn, share ideas and work on 
+			ownCloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below a list of local meetup groups.</p>
 		<script type="text/javascript" src="http://www.meetup.com/embed/largest/owncloud/"></script>
-		<p>See more on <a target="_blank" href="http://owncloud.meetup.com/">owncloud.meetup.com</a></p>
-		<p>If you are interested in joining fellow ownCloud users and contributors at a meetup but there is none close by, perhaps you should organize one! <a href="/events/meetups">Click here to find out more</a>.</p>
-
+		<p>Find the next Meetup dates and more on <a target="_blank" href="http://owncloud.meetup.com/">owncloud.meetup.com</a></p>
+		<div class="row" style="text-align: center">
+			<a href="http://owncloud.meetup.com/" class="btn btn-lg btn-default">
+			<i class="icon-group"></i> Join a Meetup!</a>
+			<a target="_blank" href="/events/meetups" class="btn btn-lg btn-default">
+			<i class="icon-lightbulb-o"></i> Organize a Meetup!</a>
+		</div>
 		<h2>Conferences</h2>
 		<p>ownCloud community members everywhere organize ownCloud presence at trade shows and conferences to present our community and technology to visitors.
 			Below a list of upcoming tradeshows and conferences where you can find ownCloud represented!</p>
@@ -24,34 +28,49 @@
 				<th>Link</th>
 			</tr>
 			<tr>
+				<td>LinuxCon North America</td>
+				<td>Chicago, IL, USA</td>
+				<td>August 20-22 2014</td>
+				<td>ownCloud Inc</td>
+				<td><a target="_blank" href="https://events.linuxfoundation.org/events/linuxcon-north-america">Linuxcon North America</a></td>
+			</tr>
+			<tr>
 				<td>ownCloud Contributor Conference</td>
 				<td>Berlin, Germany</td>
 				<td>August 26-31 2014</td>
 				<td>ownCloud Community</td>
-				<td><a href="https://owncloud.org/conf">owncloud.org/conf</a></td>
+				<td><a target="_blank" href="https://owncloud.org/conf">owncloud.org/conf</a></td>
+			</tr>
+			<tr>
+				<td>LinuxCon Europe</td>
+				<td>Düsseldorf, Germany</td>
+				<td>October 13-15 2014</td>
+				<td>ownCloud Inc</td>
+				<td><a target="_blank" href="https://events.linuxfoundation.org/events/linuxcon-europe">Linuxcon Europe</a></td>
 			</tr>
 		</table>
-		<p>There is a conference, trade show or other event close by and you want ownCloud to be there? <a href="/events/conference-program">Help make it happen!</a></p>
+		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> Are you presenting about ownCloud at an upcoming event that should be listed here? <a href="mailto:jos@owncloud.org">Let us know!</a></p>
 
 		<h2>Release parties</h2>
-		<p>After a new ownCloud release, community members organize release parties! A release party can be a meeting in a cafe or office with a
-			presentation of what is new in ownCloud 7 and time to chat about it. Release parties don't have to be done in the release week at all – doing it a bit later
+		<p>One of the best parts of an ownCloud release, are the community release parties! A release party can be a meeting in a cafe or office with a
+			presentation of what is new in the latest ownCloud release and time to chat about it. Release parties don't have to be done in the release week at all – doing it a bit later
 			gives everybody a chance to play with the release before the meeting.</p>
+			<p>We hope you will come celebrate with us at a location listed below.</p>
 		<table class="table table-striped">
 		  <tr>
 		  	<th>Location</th>
 		  	<th>Date</th>
 		  	<th>Organizer</th>
-		  	<th>Link</th>
+		  	<th>More information</th>
 		  </tr>
 		  <tr>
 		  	<td>Leamington Spa, UK</td>
 		  	<td>July 5th 2014</td>
 		  	<td>Tom Needham</td>
-		  	<td><a href="https://tomneedham.com">tomneedham.com</a></td>
+		  	<td><a target="_blank" ref="https://tomneedham.com">tomneedham.com</a></td>
 		  </tr>
 		</table>
-		<p>You want to organize your ownCloud Release Party? See <a href="https://owncloud.org/blog/plan-your-owncloud-7-release-party"/>this blog post</a>
-			for some tips and ideas and contact us to get it added to the list!!</p>
+		<p> Want to organize an ownCloud Release Party? See <a target="_blank"  href="https://owncloud.org/blog/plan-your-owncloud-7-release-party"/>this blog post</a>
+			for some tips and ideas and <a href="mailto:jos@owncloud.org">contact us</a> to get it added to the list!!</p>
 	</div>
 </div>

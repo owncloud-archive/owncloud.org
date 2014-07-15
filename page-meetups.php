@@ -4,23 +4,25 @@
 <div class="sub-nav">Meetups&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a></div>
 <div class="row">
 	<div class="col-md-12">
-	<p>ownCloud community members all around the globe organize meetups to get together, learn, share ideas and work on ownCloud.
-		Meetups come in all shapes and sizes, but have one thing in common: they are organized by ownCloud enthusiasts just like you.</p>
+	<p>ownCloud community members all around the globe organize Meetups to get together, learn, share ideas and work on ownCloud.
+		Meetups come in all shapes and sizes, but have one thing in common: they are organized and attended by ownCloud enthusiasts just like you.</p>
+		<script type="text/javascript" src="http://www.meetup.com/embed/largest/owncloud/"></script>
+		<p>Find the next Meetup dates and more on <a target="_blank" href="http://owncloud.meetup.com/">owncloud.meetup.com</a></p>
 
-	<p>Want to organize such a meetup? Below you will find some practical tips on how to organize a great meetup
-		as well as information on how to tell us about your meetup and how to get some ownCloud goodies!</p>
+	<p>Want to organize a meetup? Below you will find some practical tips on how to organize a great meetup
+	as well as information on how to tell us about your meetup and how to get some ownCloud goodies!</p>
 
-	<h2>Organizing</h2>
+	<h2>Organize</h2>
 		<p>All you really need for a meetup are a room with power and wifi, some content and interested visitors!</p>
 
 		<h3>Where and when?</h3>
 		<p>You can often get a room at work, university, community center, local hacker space, hacker café or a public library.</p>
 
-		<p>We do many ownCloud meetups around 19:00 on week days, but if that does not work for you, try a weekend! And of course: just ask the participants 
+		<p>We do many ownCloud Meetups around 19:00 on week days, but if that does not work for you, try a weekend! And of course: just ask the participants 
 			if another time would work better.</p>
 
 		<h3>Tell everybody!</h3>
-		<p>We use <a href="http://meetup.com">meetup.com</a> to track and promote most of our events. We have an account where we can set up meetups, so if you're up for
+		<p>We use <a href="http://meetup.com">meetup.com</a> to track and promote most of our events. We have an account where we can set up Meetups, so if you're up for
 			organizing one, let us know and we get you going. Here is an <a href="http://www.meetup.com/owncloud-berlin/">example page</a>.</p>
 
 		<p>Next up is to share it over social media - set up an event page on Facebook and Google plus, ask people to share the news. Don't feel bad if your first
@@ -28,7 +30,7 @@
 			means everybody will talk to everybody so you don't have to worry about keeping everybody busy!</p>
 
 		<h3>What to do at the event?</h3>
-		<p>Now you have a place and some participants, but what to do? It is easiest to separate two kinds of meetups: the one where (potential) ownCloud 
+		<p>Now you have a place and some participants, but what to do? It is easiest to separate two kinds of Meetups: the one where (potential) ownCloud 
 			contributors come together; and one where users meet up.</p>
 		<p><strong>Development Meetups</strong> need very little: room, wifi, people with laptops. Keep it simple: ownClouders will get along just fine. Open by doing
 			a round of introductions, ask everybody to share what they would like to do. You can use one or more of our <a href="http://github.com/owncloud/promo">ready-made workshop presentations to get started</a> but if everybody just wants to get hacking: that's great!</p>
