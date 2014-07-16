@@ -1,8 +1,7 @@
 <h1>ownCloud 7 Features</h1>
-<p>ownCloud 7 Community Edition, currently available in Beta, has significant feature improvements for users, administrators and developers.  
-With a scheduled release in mid-July, we invite you to check out the great features highlighted below.  Want to ensure we are putting 
-out the best ownCloud yet?  Join the Beta program <link> and lend your skills to bug fixes, translation and more.</p>
-<a href="https://owncloud.org/blog/owncloud-7-beta-is-out-help-us-test-it" class="btn btn-lg btn-default">Join the Beta Program</a></br></br>
+<p>ownCloud 7 Community Edition has significant feature improvements for users, administrators and developers.
+We invite you to check out the great features highlighted below. ownCloud 7 is scheduled to release on the 23rd of July. Want to celebrate the release once it is out?  Meet us at a release party!</p>
+<a href="https://owncloud.org/blog/plan-your-owncloud-7-release-party/" class="btn btn-lg btn-default">Join a release party</a></br></br>
 Jump to improvements for: <a href="#user">User</a> | <a href="#admin">Admin</a> | <a href="#developer">Developer</a></br>
 <a name="user"></a>
 <h2>Improvements for Users</h2>
