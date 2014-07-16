@@ -97,3 +97,24 @@ div.conference {
     margin-top: -128px;
     padding-top: 128px;
 }
+
+div.conf-content h2 {
+	font-weight: 100;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+div.conf-content h2>small {
+	color: white;
+	display: block;
+	margin-top: 0px;
+	font-size: 15px;
+}
+
+div.conf-content i {
+	font-size: 37px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: -30px;
+	text-align: center;
+}
