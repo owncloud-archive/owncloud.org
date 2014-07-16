@@ -55,21 +55,7 @@
 		<p>One of the best parts of an ownCloud release, are the community release parties! A release party can be a meeting in a cafe or office with a
 			presentation of what is new in the latest ownCloud release and time to chat about it. Release parties don't have to be done in the release week at all – doing it a bit later
 			gives everybody a chance to play with the release before the meeting.</p>
-			<p>We hope you will come celebrate with us at a location listed below.</p>
-		<table class="table table-striped">
-		  <tr>
-		  	<th>Location</th>
-		  	<th>Date</th>
-		  	<th>Organizer</th>
-		  	<th>More information</th>
-		  </tr>
-		  <tr>
-		  	<td>Leamington Spa, UK</td>
-		  	<td>July 5th 2014</td>
-		  	<td>Tom Needham</td>
-		  	<td><a target="_blank" ref="https://tomneedham.com">tomneedham.com</a></td>
-		  </tr>
-		</table>
+			<p>List of events to follow.</p>
 		<p> Want to organize an ownCloud Release Party? See <a target="_blank"  href="https://owncloud.org/blog/plan-your-owncloud-7-release-party"/>this blog post</a>
 			and this <a href="http://en.opensuse.org/openSUSE:Launch_party_HOWTO">how-to</a> for some tips and ideas
 			and <a href="https://www.google.com/+JosPoortvliet">contact us</a> to get your party added to the list!!</p>
