@@ -54,11 +54,14 @@
 	</div>
 </div>
 <div class="row conf-partners">
-	<div class="col-sm-6">
-		<img class="partner-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="lwn.net covers core Linux news" /><br ><a href="http://lwn.net">Visit lwn.net!</a>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="thumbnail"><div class="bannerhead text-primary">linux Weekly News</div><a href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="visit lwn.net" /></a><div class="bannerfoot text-primary">Covering core Linux development</div></div>
 	</div>
-	<div class="col-sm-6">
-		<img class="partner-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="The Mukt is a web magazin around Free Software " /><br /><a href="http://www.themukt.com/">Visit the Mukt!</a>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="thumbnail"><div class="bannerhead text-primary">The Mukt</div><a href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="visit the Mukt" /></a><div class="bannerfoot text-primary">Web magazine around open culture</div></div>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="thumbnail"><div class="bannerhead text-primary">Linux Magazine</div><a href="http://linux-magazin.de"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="Visit Linux Magazin" /></a><div class="bannerfoot text-primary">Open Source in professional use</div>
 	</div>
 </div>
 <div class="row conf-about">
