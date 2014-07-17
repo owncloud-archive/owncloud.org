@@ -4,8 +4,8 @@
 </div>
 <div class="row conf-info">
 	<div class="col-sm-6">
-		<h1>Hackathon</h1>
-		<h3>August 26-31</h3>
+		<i class="icon-code"></i>
+		<h2>Hackathon</br><small>August 26-31</small></h2>
 		<p>For the second time, the awesome community behind ownCloud will get together at the TU Berlin for 5 days of writing code and sharing beer, knowledge and inspiration. We will get work done:</p>
 		<ul>
 			<li>Coding (PHP, JS, C++)</li>
@@ -16,8 +16,8 @@
 		</ul>
 	</div>
 	<div class="col-sm-6">
-		<h1>Techtalks &amp; Workshops</h1>
-		<h3>August 30</h3>
+		<i class="icon-comments-o"></i>
+		<h2>Techtalks &amp; Workshops</br><small>August 30</small></h2>
 		<p>The Conference Day on Saturday the 30th provides a chance to learn and improve your coding skills on and around ownCloud.<br/>
 		Join us for keynotes, lightning talks and workshops:</p>
 		<ul>
@@ -46,6 +46,22 @@
 		<li><a href="http://www.accorhotels.com/gb/hotel-3649-novotel-berlin-am-tiergarten/index.shtml">four-star Novotel am tiergarten</a>, costs about €75/night</li>
 		</ul>
 		</p>
+	</div>
+</div>
+<div class="row conf-partners-title">
+	<div class="col-md-12">
+		<h2>Conference Partners</h2>
+	</div>
+</div>
+<div class="row conf-partners">
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="thumbnail"><div class="bannerhead text-primary">linux Weekly News</div><a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="visit lwn.net" /></a><div class="bannerfoot text-primary">Covering core Linux development</div></div>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="thumbnail"><div class="bannerhead text-primary">The Mukt</div><a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="visit the Mukt" /></a><div class="bannerfoot text-primary">Web magazine around open culture</div></div>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<div class="thumbnail"><div class="bannerhead text-primary">Linux Magazine</div><a target="_blank" href="http://linux-magazin.de"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="Visit Linux Magazin" /></a><div class="bannerfoot text-primary">Open Source in professional use</div>
 	</div>
 </div>
 <div class="row conf-about">
