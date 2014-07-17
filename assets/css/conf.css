@@ -5,7 +5,6 @@ div.conference {
 	background: -moz-linear-gradient(top , #35537A, #1D2D44); 
 	background: -o-linear-gradient(top , #35537A, #1D2D44); 
 	background: linear-gradient( #35537A, #1D2D44);
-	margin-bottom: -40px; 
 	margin-top: -20px;
 }
 
@@ -122,4 +121,8 @@ div.conf-content i {
 div.conf-partners img.banner {
 	display: block;
 	margin: 0 auto;
+}
+
+div.footer-social-icons {
+	margin-top: 2em !important;
 }
