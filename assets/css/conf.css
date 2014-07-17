@@ -118,3 +118,8 @@ div.conf-content i {
 	margin-bottom: -30px;
 	text-align: center;
 }
+
+div.conf-partners img.banner {
+	display: block;
+	margin: 0 auto;
+}
