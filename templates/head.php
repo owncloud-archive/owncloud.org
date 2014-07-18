@@ -23,9 +23,18 @@
 			$('.digits').countdown({
 				image: "<?php echo get_template_directory_uri(); ?>/assets/img/digits-min.png",
 				format: "dd:hh:mm:ss",
-				endTime: new Date('07/23/14 15:00:00'),
+				endTime: new Date('07/18/14 18:38:40'),
 				digitWidth: 45,
 				digitHeight: 60.447,
+				timerEnd: function() { 
+					$('h2.countdown-title').text('Loading...');
+					setTimeout(
+						function() {
+							window.location.reload();
+						},
+						Math.round(Math.random()*5000)
+					);
+				}
 			});
 		});
 	</script>
