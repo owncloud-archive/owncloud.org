@@ -176,3 +176,30 @@ article.post figcaption {
 div.box-head {
 	display: none;
 }
+
+/* Countdown Timer */
+
+.cntSeparator { 
+	margin-top: 17px;
+}
+
+.digits {
+	width: 372px;
+	margin: -10px auto 0 auto;
+}
+
+.countdown h2 {
+	font-weight: 100;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.countdown {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 403px) and (max-width: 991px) {
+	.countdown {
+		margin-bottom: 75px;
+	}
+}
