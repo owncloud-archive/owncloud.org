@@ -189,3 +189,32 @@ div.box-head {
     background-size:
         21.4% auto;
 }
+
+h3.ft-title {
+	text-align: center;
+	font-weight: 100;
+	font-size: 28px;
+}
+
+h2.featuretitle {
+	font-weight: 400;
+	font-size: 25px;
+}
+
+div.feature-wide-row-wrap {
+	background-color: #1D2D44;
+	color: white;
+}
+
+div.feature-wide-row-wrap div.featureblock{
+	text-align: center;
+	padding-top: 15px;
+}
+
+div.feature-wide-row-wrap div.featureblock i {
+	font-size: 20px;
+}
+
+div.feature-wide-row-wrap div.featureblock h3.ft-title {
+	margin-top: 0;
+}

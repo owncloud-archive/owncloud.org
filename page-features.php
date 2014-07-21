@@ -1,72 +1,58 @@
 <div class="row featurerow topfeature">
-<div class="col-md-6"><iframe src="//www.youtube.com/embed/xsqSLeppxm0" height="310" width="95%" style="margin-top:10px;" allowfullscreen="" frameborder="0"></iframe></div>
-<div class="col-md-6">
-<h2 class="featuretitle" style="margin-top: 0;">Access, Sync and Share your data, under your control</h2>
-<p style="text-align: justify; margin-top: 10px;">ownCloud provides access to your data through a web interface or WebDAV while providing a platform to easily view, 
-	sync and share across devices—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and works with any storage.</p>
-<p>Watch a feature overview video here: <a href="https://www.youtube.com/watch?v=70pCBnNPdew">YouTube</a><br /><br /><a href="/install" class="btn btn-lg btn-primary">Install and try ownCloud 7</a></p>
+	<div class="col-md-5">
+		<iframe src="//www.youtube.com/embed/xsqSLeppxm0" height="310" width="95%" style="margin-top:10px;" allowfullscreen="" frameborder="0"></iframe>
+	</div>
+	<div class="col-md-7">
+		<h2 class="featuretitle" style="margin-top: 0;">Access, Sync and Share your data, under your control!</h2>
+		<p style="text-align: justify; margin-top: 10px;">ownCloud provides access to your data through a web interface or WebDAV while providing a platform to easily view, 
+		sync and share across devices—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and works with any storage.
+		</p>
+		<p>
+			Watch a feature overview video here: <a href="https://www.youtube.com/watch?v=70pCBnNPdew">YouTube</a><br /><br />
+			<div class="btn-group">
+				<a href="/install" class="btn btn-lg btn-primary">Install and try ownCloud 7</a>
+				<a href="/install" class="btn btn-lg btn-default">Learn more</a>
+			</div>
+		</p>
+	</div>
+</div>
+</div></div><!-- end main -->
 
+<div class="feature-wide-row-wrap">
+	<div class="wrap container">
+		<div class="row featurerow featuresheader">
+			<div class="col-md-4 featureblock">
+				<i class="icon-globe"></i>
+				<h3 class="ft-title">Access Your Data</h3>
+				<p class="featuredesc">Store your files, folders, contacts, photo galleries, calendars and more on a server of your choosing. Access that folder from your mobile device, 
+				your desktop, or a web browser. Access your data wherever you are, when you need it.</p>
+			</div>
+			<div class="col-md-4 featureblock">
+				<i class="icon-refresh"></i>
+				<h3 class="ft-title">Sync Your Data</h3>
+				<p class="featuredesc">Keep your files, contacts, photo galleries, calendars and more synchronized amongst your devices. One folder, two folders and more – get the most 
+				recent version of your files with the desktop and web client or mobile app of your choosing, at any time.</p>
+			</div>
+			<div class="col-md-4 featureblock">
+				<i class="icon-share-alt"></i>
+				<h3 class="ft-title">Share Your Data</h3>
+				<p class="featuredesc">Share your data with others, and give them access to your latest photo galleries, your calendar, your music, or anything else you want them to see. 
+				Share it publicly, or privately. It is your data, do what you want with it.</p>
+			</div>
+		</div>
+	</div>
 </div>
-</div>
-<div class="row featurerow featuresheader">
-<div class="col-md-4 featureblock">
-<h3 class="ft-title">Access Your Data</h3>
-<p class="featuredesc">Store your files, folders, contacts, photo galleries, calendars and more on a server of your choosing. Access that folder from your mobile device, your desktop, or a web browser. Access your data wherever you are, when you need it.</p>
 
-</div>
-<div class="col-md-4 featureblock">
-<h3 class="ft-title">Sync Your Data</h3>
-<p class="featuredesc">Keep your files, contacts, photo galleries, calendars and more synchronized amongst your devices. One folder, two folders and more – get the most recent version of your files with the desktop and web client or mobile app of your choosing, at any time.</p>
+<div class="wrap container">
+	<div class="content row">
 
-</div>
-<div class="col-md-4 featureblock">
-<h3 class="ft-title">Share Your Data</h3>
-<p class="featuredesc">Share your data with others, and give them access to your latest photo galleries, your calendar, your music, or anything else you want them to see. Share it publicly, or privately. It is your data, do what you want with it.</p>
-</div>
-</div>
-
-<div class="featurewrapper"><h2>New in ownCloud 6</h2></div>
-
+<div class="featurewrapper"><h2>New in ownCloud 7</h2></div>
 <div class="row featurerow">
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
-<h3 class="featuretitle">User Avatars</h3></br>
-<p class="featuredesc">User can upload avatar pictures so that they are easier to recognize by others. This is especially useful for bigger organizations and enterprises.</p>
-</div>
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/previews.png" />
-<h3 class="featuretitle">File Previews</h3></br>
-<p class="featuredesc">We now show thumbnails of documents in the web-interface in all the relevant places. This helps the users to recognize their files easier.</p>
-</div>
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/conflict.png" />
-<h3 class="featuretitle">Conflict Handling</h3></br>
-<p class="featuredesc">A new web conflict dialog if a file is uploaded that already exists. Users have the option to replace or rename a file and compare them with thumbnails.</p>
-</div>
-</div>
-
-<div class="row featurerow">
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/themeing.png" />
-<h3 class="featuretitle">Activity Feed</h3></br>
-<p class="featuredesc">See what is going on in your ownCloud. You can see the latest files and folders that you have created changed or deleted. You can see when someone shared something with you or you shared something with someone and if the shared files are changed. This feed can also be accessed with an RSS feed and can be ready via an REST api by Desktop and Mobile client.</p>
-</div>
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
-<h3 class="featuretitle">New Design</h3></br>
-<p class="featuredesc">Improved design. Less visual clutter and more space for a better focus on your content.</p>
-</div>
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/undelete.png" />
-<h3 class="featuretitle">Undelete</h3></br>
-<p class="featuredesc">Finally, now users can undelete a file that was accidentally deleted through the web interface. Simply select the files in the trash bin and they are returned to where they were deleted from, with versions maintained.</p>
-</div>
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
+		<h3 class="featuretitle">New Design</h3></br>
+		<p class="featuredesc">Improved design. Less visual clutter and more space for a better focus on your content.</p>
+	</div>
 </div>
 
 <div class="featurewrapper"><h2>Other Features</h2></div>
@@ -91,6 +77,23 @@
 <p class="featuredesc">Want better control over your shared photo gallery? Now you can specify the ownCloud photo directories, sort order, share your galleries with any email address you choose, and control whether they can share those photos with anyone else.</p>
 </div>
 </div>
+
+
+
+<div class="row featurerow">
+
+	<div class="col-md-4 featureblock">
+	<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/themeing.png" />
+	<h3 class="featuretitle">Activity Feed</h3></br>
+	<p class="featuredesc">See what is going on in your ownCloud. You can see the latest files and folders that you have created changed or deleted. You can see when someone shared something with you or you shared something with someone and if the shared files are changed. This feed can also be accessed with an RSS feed and can be ready via an REST api by Desktop and Mobile client.</p>
+	</div>
+	<div class="col-md-4 featureblock">
+	<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/undelete.png" />
+	<h3 class="featuretitle">Undelete</h3></br>
+	<p class="featuredesc">Finally, now users can undelete a file that was accidentally deleted through the web interface. Simply select the files in the trash bin and they are returned to where they were deleted from, with versions maintained.</p>
+	</div>
+</div>
+
 
 <div class="row featurerow">
 
