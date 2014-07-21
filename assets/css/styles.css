@@ -176,3 +176,14 @@ article.post figcaption {
 div.box-head {
 	display: none;
 }
+
+.home main div.image {
+    background-image:
+        url("../img/OC7_lblue.png");
+    background-position:
+        15px top;
+    background-repeat:
+        no-repeat;
+    background-size:
+        21.4% auto;
+}
