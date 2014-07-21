@@ -124,6 +124,23 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
       </div>
     </div>
   </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseAnswer">
+          <i class="icon-book"></i>&nbsp;&nbsp;Help answer questions about ownCloud use and development
+        </a>
+      </h4>
+    </div>
+    <div id="collapseAnswer" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>Help answer questions users and developer have about ownCloud!</p>
+        <ul><li>Join the <a href="https://forum.owncloud.org">ownCloud forums</a> and look for <a href="http://forum.owncloud.org/search.php?search_id=unanswered">unanswered questions</a></li>
+        <li>Answer ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="http://community.spiceworks.com/">Spiceworks</a></li>
+        <li>Answer ownCloud user questions on <a href="http://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li></ul>
+      </div>
+    </div>
+  </div>
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
