@@ -1,29 +1,26 @@
 <div class="row featurerow topfeature">
 <div class="col-md-6"><iframe src="//www.youtube.com/embed/xsqSLeppxm0" height="310" width="95%" style="margin-top:10px;" allowfullscreen="" frameborder="0"></iframe></div>
 <div class="col-md-6">
-<h2 class="featuretitle" style="margin-top: 0;">ownCloud Documents <span class="label label-success label-free">New!</span></h2>
-<p style="text-align: justify; margin-top: 10px;">ownCloud Documents is <strong>collaborative editing</strong> of rich-text documents. The documents can be created from within the
-web-interface or existing documents can be uploaded. Sharing and editing can be done securely in the browser and be shared inside ownCloud or via a public link. User that have an account on the same server can be invited or public invitations can also be sent be email. The editing works on top of normal ODF files that are stored in ownCloud. ownCloud Documents is built in cooperation with <a href="http://kogmbh.com/">KO GmbH</a></p>
-<p>Watch a feature overview video here: <a href="https://www.youtube.com/watch?v=70pCBnNPdew">YouTube</a><br />Install and try ownCloud 6 <a href="/install">now</a>.</p>
+<h2 class="featuretitle" style="margin-top: 0;">Access, Sync and Share your data, under your control</h2>
+<p style="text-align: justify; margin-top: 10px;">ownCloud provides access to your data through a web interface or WebDAV while providing a platform to easily view, 
+	sync and share across devices—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and works with any storage.</p>
+<p>Watch a feature overview video here: <a href="https://www.youtube.com/watch?v=70pCBnNPdew">YouTube</a><br /><br /><a href="/install" class="btn btn-lg btn-primary">Install and try ownCloud 7</a></p>
 
 </div>
 </div>
 <div class="row featurerow featuresheader">
 <div class="col-md-4 featureblock">
 <h3 class="ft-title">Access Your Data</h3>
-<img class="thumbnail-ft" alt="" src="<?php bloginfo('template_directory'); ?>/assets/img/features/login-wide.png" />
 <p class="featuredesc">Store your files, folders, contacts, photo galleries, calendars and more on a server of your choosing. Access that folder from your mobile device, your desktop, or a web browser. Access your data wherever you are, when you need it.</p>
 
 </div>
 <div class="col-md-4 featureblock">
 <h3 class="ft-title">Sync Your Data</h3>
-<img class="thumbnail-ft" alt="" src="<?php bloginfo('template_directory'); ?>/assets/img/features/versioning-wide.png" />
 <p class="featuredesc">Keep your files, contacts, photo galleries, calendars and more synchronized amongst your devices. One folder, two folders and more – get the most recent version of your files with the desktop and web client or mobile app of your choosing, at any time.</p>
 
 </div>
 <div class="col-md-4 featureblock">
 <h3 class="ft-title">Share Your Data</h3>
-<img class="thumbnail-ft" alt="" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing-wide.png" />
 <p class="featuredesc">Share your data with others, and give them access to your latest photo galleries, your calendar, your music, or anything else you want them to see. Share it publicly, or privately. It is your data, do what you want with it.</p>
 </div>
 </div>
