@@ -213,3 +213,14 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 	background-repeat: no-repeat;
 	background-size: 21.4% auto;
 }
+
+.home h2.slogan {
+	font-weight: 200;
+	font-size: 40px;
+}
+
+.home p.explain-short {
+	text-align: center;
+	font-weight: 200;
+	font-size: 20px;
+}
