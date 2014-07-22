@@ -18,3 +18,5 @@
 </div>
 <h2>Branding Guidelines</h2>
 <p>Find up to date guidelines and other graphical resources in our <a href="https://github.com/owncloud/promo">promo github account</a>.</p>
+<h2>Enquiries</h2>
+<p>For press inquiries, please contact <a href="https://www.google.com/+JosPoortvliet" target="_blank">Jos Poortvliet</a>.<p>
