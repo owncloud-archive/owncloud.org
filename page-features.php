@@ -44,7 +44,7 @@
 <div class="row featurerow">
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="Sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
-		<h3 class="featuretitle">Improved sharing</h3></br>
+		<h3 class="featuretitle">Improved Sharing</h3></br>
 		<p class="featuredesc">Server to server sharing: seamlessly share files with users on a different ownCloud installation. Don't be limited by a <em>shared</em> folder but put 
 			files where you want without loosing sight on who owns what.</p>
 	</div>
