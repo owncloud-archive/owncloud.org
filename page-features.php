@@ -55,7 +55,7 @@
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="Access" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
 		<h3 class="featuretitle">Store, Access and Control</h3></br>
-		<p class="featuredesc">Use Object Store as primary storage. Connect applications with ownCloud through the new, easy to use webhooks. Control how users share data and be notified when yours is accessed.</p>
+		<p class="featuredesc">Use an Object Store as primary storage. Connect applications with ownCloud through the new, easy to use webhooks. Control how users share data and be notified when yours is accessed.</p>
 	</div>
 </div>
 
