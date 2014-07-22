@@ -1,6 +1,6 @@
 <?php get_template_part('templates/parts/title'); ?>
 <h2>Current Release Information <small>Version 7.0</small></h2>
-<a href="/blog/owncloud-7-released-with-more-sharing-and-control" class="btn btn-lg btn-default">Annoucement</a>
+<a href="/blog/owncloud-7-released-with-more-sharing-and-control" class="btn btn-lg btn-default">Announcement</a>
 <a href="/features" class="btn btn-lg btn-default">Key Features</a>
 <button class="btn btn-lg btn-default disabled">Download coming soon</button>
 <h2>Latest News and Annoucements</h2>
@@ -18,5 +18,5 @@
 </div>
 <h2>Branding Guidelines</h2>
 <p>Find up to date guidelines and other graphical resources in our <a href="https://github.com/owncloud/promo">promo github account</a>.</p>
-<h2>Enquiries</h2>
+<h2>Inquiries</h2>
 <p>For press inquiries, please contact <a href="https://www.google.com/+JosPoortvliet" target="_blank">Jos Poortvliet</a>.<p>
