@@ -177,6 +177,7 @@ div.box-head {
 	display: none;
 }
 
+<<<<<<< HEAD
 h3.ft-title {
 	text-align: center;
 	font-weight: 100;
@@ -204,4 +205,31 @@ div.feature-wide-row-wrap div.featureblock i {
 
 div.feature-wide-row-wrap div.featureblock h3.ft-title {
 	margin-top: 0;
+}
+
+/* Countdown Timer */
+
+.cntSeparator { 
+	margin-top: 17px;
+}
+
+.digits {
+	margin: -10px auto 0 auto;
+	display: inline-block;
+}
+
+.countdown h2 {
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+
+.countdown {
+	margin-bottom: -50px;
+	text-align: center;
+}
+
+@media (max-width: 991px) {
+	.countdown {
+		margin-bottom: 0 !important;
+	}
 }
