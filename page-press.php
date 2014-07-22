@@ -1,10 +1,10 @@
 <?php get_template_part('templates/parts/title'); ?>
-<h2>Latest News and Annoucements</h2>
-<?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
 <h2>Current Release Information <small>Version 7.0</small></h2>
 <a href="/blog/owncloud-7-released-with-more-sharing-and-control" class="btn btn-lg btn-default">Annoucement</a>
 <a href="/features" class="btn btn-lg btn-default">Key Features</a>
 <a href="/install" class="btn btn-lg btn-default">Download</a>
+<h2>Latest News and Annoucements</h2>
+<?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
 <h2>ownCloud Resources</h2>
 <div class="row">
 	<div class="col-md-3"><a href="https://github.com/owncloud/screenshots/archive/stable7.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" style="width: 100%" alt="Download a zip file with screenshots" class="img-thumbnail"></a></div>
