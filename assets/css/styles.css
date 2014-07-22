@@ -224,3 +224,10 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 	font-weight: 200;
 	font-size: 20px;
 }
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	.banner ul#menu-header.nav {
+		width: 80%;
+		padding-top: 20px;
+	}
+}
