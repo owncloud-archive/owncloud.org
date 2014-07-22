@@ -49,7 +49,7 @@
 	</div>
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="Design" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
-		<h3 class="featuretitle">Responsive design</h3></br>
+		<h3 class="featuretitle">Responsive Design</h3></br>
 		<p class="featuredesc">Faster and more efficient design, suitable for mobile devices. No more waiting for the next page to load thanks to infinite scrolling. Find your files by sorting by name or modified date.</p>
 	</div>
 	<div class="col-md-4 featureblock">
