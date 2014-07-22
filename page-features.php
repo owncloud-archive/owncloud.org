@@ -72,13 +72,13 @@
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
 		<h3 class="featuretitle">External Storage and Encryption</h3>
-		<p class="featuredesc">Add external storage to your ownCloud with DropBox, Swift, FTPs, GoogleDocs, S3, external WebDAV servers and more. Enable the encryption app to encrypt data on external storage for improved security and privacy.</p>
+		<p class="featuredesc">Add external storage to your ownCloud with Dropbox, SWIFT, FTPs, Google Docs, S3, external WebDAV servers and more. Enable the encryption app to encrypt data on external storage for improved security and privacy.</p>
 	</div>
 
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png" />
 		<h3 class="featuretitle">Activity Feed</h3></br>
-		<p class="featuredesc">See what is going on in your ownCloud. See who shared a file with you or when you created, changed or deleted files. Access the feed via RSS, a API for Desktop or Mobile clients or receive email notifications.</p>
+		<p class="featuredesc">See what is going on in your ownCloud. See who shared a file with you or when you created, changed or deleted files. Access the feed via RSS, an API for Desktop or Mobile clients or receive email notifications.</p>
 	</div>
 </div>
 
