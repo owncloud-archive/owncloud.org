@@ -207,33 +207,6 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 	margin-top: 0;
 }
 
-/* Countdown Timer */
-
-.cntSeparator { 
-	margin-top: 17px;
-}
-
-.digits {
-	margin: -10px auto 0 auto;
-	display: inline-block;
-}
-
-.countdown h2 {
-	font-weight: 100;
-	margin-bottom: 20px;
-}
-
-.countdown {
-	margin-bottom: -50px;
-	text-align: center;
-}
-
-@media (max-width: 991px) {
-	.countdown {
-		margin-bottom: 0 !important;
-	}
-}
-
 .home main div.image {
 	background-image: url("/wp-content/themes/owncloudorgnew/assets/img/OC7_lblue.png");
 	background-position: 15px top;
