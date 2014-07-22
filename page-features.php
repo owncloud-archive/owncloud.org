@@ -66,7 +66,7 @@
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
 		<h3 class="featuretitle">Mobile and desktop syncing</h3></br>
-		<p class="featuredesc">Access your data on any platform. Use the Android or iOS clients to work with your files on the go or have your favorite folders synchronized seamlessly between your desktop and laptop devices.</p>
+		<p class="featuredesc">Access your data on any platform. Use the Android or iOS clients to work with your files on the go or synchronize your favorite folders seamlessly between your desktop and laptop devices.</p>
 	</div>
 
 	<div class="col-md-4 featureblock">
