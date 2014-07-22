@@ -7,13 +7,7 @@
 		<p style="text-align: justify; margin-top: 10px;">ownCloud provides access to your data through a web interface or WebDAV while providing a platform to easily view, 
 		sync and share across devices—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and works with any storage.
 		</p>
-		<p>
-			Watch a feature overview video here: <a href="https://www.youtube.com/watch?v=70pCBnNPdew">YouTube</a><br /><br />
-			<div class="btn-group">
-				<a href="/install" class="btn btn-lg btn-primary">Install and try ownCloud 7</a>
-				<a href="/install" class="btn btn-lg btn-default">Learn more</a>
-			</div>
-		</p>
+		<p><strong>Download available soon...</strong></p>
 	</div>
 </div>
 </div></div><!-- end main -->
