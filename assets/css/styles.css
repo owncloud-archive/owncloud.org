@@ -233,3 +233,10 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 		margin-bottom: 0 !important;
 	}
 }
+
+.home main div.image {
+	background-image: url("/wp-content/themes/owncloudorgnew/assets/img/OC7_lblue.png");
+	background-position: 15px top;
+	background-repeat: no-repeat;
+	background-size: 21.4% auto;
+}
