@@ -130,7 +130,7 @@
 <div class="row">
 <ul class="featureslist">
 	<li>Smooth performance and easy user interface.</li>
-	<li>File editing and preview support for PDF, images, text files, Open Document and Word files and more.</li>
+	<li>File editing and preview support for PDF, images, text files, Open Document, Word files and more.</li>
 	<li>Integration of anti-virus scanning functionality with the anti-virus app.</li>
 	<li>LDAP / Active directory integration</li>
 	<li>Example files for new users. Load new user's with files, such as a tutorial on how to use ownCloud, which appears when they first log in.</li>
