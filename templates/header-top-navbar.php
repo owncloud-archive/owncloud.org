@@ -23,3 +23,10 @@
     </nav>
   </div>
 </header>
+<?php if(is_page('homepage')) { ?>
+  <!-- Countdown Timer !-->
+  <div class="countdown">
+    <h2 class="countdown-title">ownCloud 7 is coming...</h2>
+    <div class="digits"></div>
+  </div>
+<?php } ?>
