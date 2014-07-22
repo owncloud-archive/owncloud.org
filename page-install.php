@@ -3,7 +3,7 @@
   <div class="col-md-6">
     <h3><strong>Install ownCloud Server</strong></h3>
     <p>Latest stable version: <?php echo $VERSIONS_SERVER_FULL_STABLE; ?>&nbsp;&nbsp;(<a href="/changelog"><small>Changelog</small></a>)</br>
-      Latest beta version: 7.0 RC 2&nbsp;&nbsp;(<a href="http://download.owncloud.org/community/testing/owncloud-7.0.0RC2.tar.bz2"><small>Download</small></a>)</p>
+      Latest beta version: 7.0 RC 3&nbsp;&nbsp;(<a href="http://download.owncloud.org/community/testing/owncloud-7.0.0RC3.tar.bz2"><small>Download</small></a>)</p>
     <p>ownCloud can be installed on Windows and Linux operating systems, and is available via packages, sources, or a one file php installer.</p>
     <div class="btn-group">
       <a class="btn btn-primary btn-lg" href="#instructions-server" role="button" rel="tooltip" title="For server owners"><i class="icon-archive"></i> Archive File</br><small>For server owners</small></a>
