@@ -15,4 +15,20 @@
 	<?php wp_head(); ?>
 	<?php if(is_page('conf')) { ?><link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/conf.css"><?php } ?>
 	<link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
+	<?php if(is_page('install')) { ?>
+	<script type="text/javascript">
+		$(function() {
+			if (navigator.appVersion.indexOf("Win")!=-1) {
+				var e = document.getElementById("client-download-win");
+				e.className += ' btn-primary';
+			} else if(navigator.appVersion.indexOf("Mac")!=-1) {
+				var e = document.getElementById("client-download-mac");
+				e.className += " btn-primary";
+			} else if (navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1) {
+				var e = document.getElementById("client-download-linux");
+				e.className += ' btn-primary';
+			}
+		});
+	</script>
+	<?php } ?>
 </head>
