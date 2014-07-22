@@ -22,7 +22,7 @@
 		$(function() {
 			$('.digits').countdown({
 				image: "<?php echo get_template_directory_uri(); ?>/assets/img/digits-min.png",
-				format: "dd:hh:mm:ss",
+				format: "hh:mm:ss",
 				endTime: new Date(Date.UTC(2014, 7, 23, 13, 00, 00)),
 				digitWidth: 45,
 				digitHeight: 60.447,
