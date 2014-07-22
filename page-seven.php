@@ -1,6 +1,6 @@
 <h1>ownCloud 7 Features</h1>
 <p>ownCloud 7 Community Edition has significant feature improvements for users, administrators and developers.
-We invite you to check out the great features highlighted below. Want to celebrate the release?  Meet us at a release party!</p>
+We invite you to check out the great features highlighted below. Want to celebrate the release?  Meet us at a release party! <strong>The ownCloud 7 release is coming soon!</strong></p>
 <a href="https://owncloud.org/blog/plan-your-owncloud-7-release-party/" class="btn btn-lg btn-default">Join a release party</a></br></br>
 Jump to improvements for: <a href="#user">User</a> | <a href="#admin">Admin</a> | <a href="#developer">Developer</a></br>
 <a name="user"></a>
