@@ -177,19 +177,6 @@ div.box-head {
 	display: none;
 }
 
-/* OC7 is here banner */
-
-.home main div.image {
-    background-image:
-        url("../img/OC7_lblue.png");
-    background-position:
-        15px top;
-    background-repeat:
-        no-repeat;
-    background-size:
-        21.4% auto;
-}
-
 h3.ft-title {
 	text-align: center;
 	font-weight: 100;
