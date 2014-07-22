@@ -81,17 +81,19 @@
 	</div>
 
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png" />
-		<h3 class="featuretitle">Activity Feed</h3></br>
-		<p class="featuredesc">See what is going on in your ownCloud. See who shared a file with you or when you created, changed or deleted files. Access the feed via RSS, an API 
-			for Desktop or Mobile clients or receive email notifications.</p>
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
+		<h3 class="featuretitle">Collaborative Documents</h3>
+		<p class="featuredesc">ownCloud Documents is collaborative editing of rich-text documents that lets up to 5 individuals collaborate to edit .odt or .doc files securely 
+			within the browser.  Documents may then be shared inside ownCloud or via a public link. See it in action on <a href="https://www.youtube.com/watch?v=xsqSLeppxm0" target="_blank">YouTube</a></p>
 	</div>
+
+
 </div>
 
 
 
 <div class="row featurerow">
-		<div class="col-md-4 featureblock">
+	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/undelete.png" />
 		<h3 class="featuretitle">Versioning and Undelete</h3></br>
 		<p class="featuredesc">ownCloud stores your data and lets you bring back data that was deleted accidentally. Find previous versions of files you modified  and bring them 
@@ -106,19 +108,18 @@
 	</div>
 
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" />
-		<h3 class="featuretitle">Calendars</h3></br>
-		<p class="featuredesc">Share your calendar with other ownCloud users or groups on your ownCloud server, easy and quick.</p>
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png" />
+		<h3 class="featuretitle">Activity Feed</h3></br>
+		<p class="featuredesc">See what is going on in your ownCloud. See who shared a file with you or when you created, changed or deleted files. Access the feed via RSS, an API 
+			for Desktop or Mobile clients or receive email notifications.</p>
 	</div>
 </div>
 
 <div class="row featurerow">
-
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/backup.png" />
-		<h3 class="featuretitle">Migration and Backup</h3></br>
-		<p class="featuredesc">Do you have multiple ownCloud instances, perhaps a primary and a backup installation? Easily move your ownCloud user accounts between ownCloud 
-			instances, and have a backup ready when you need it.</p>
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" />
+		<h3 class="featuretitle">Calendars</h3></br>
+		<p class="featuredesc">Share your calendar with other ownCloud users or groups on your ownCloud server, easy and quick.</p>
 	</div>
 
 	<div class="col-md-4 featureblock">
