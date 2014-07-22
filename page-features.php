@@ -24,7 +24,7 @@
 			<div class="col-md-4 featureblock">
 				<i class="icon-globe"></i>
 				<h3 class="ft-title">Access Your Data</h3>
-				<p class="featuredesc">Store your files, folders, contacts, photo galleries, calendars and more on a server of your choosing. Access that folder from your mobile device, 
+				<p class="featuredesc">Store your files, folders, contacts, photo galleries, calendars and more on a server of your choosing. Access that folder from your mobile device,
 				your desktop, or a web browser. Access your data wherever you are, when you need it.</p>
 			</div>
 			<div class="col-md-4 featureblock">
@@ -49,105 +49,101 @@
 <div class="featurewrapper"><h2>New in ownCloud 7</h2></div>
 <div class="row featurerow">
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
-		<h3 class="featuretitle">New Design</h3></br>
-		<p class="featuredesc">Improved design. Less visual clutter and more space for a better focus on your content.</p>
+		<img class="thumbnail" alt="Sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
+		<h3 class="featuretitle">Improved sharing</h3></br>
+		<p class="featuredesc">Server to server sharing: seamlessly share files with users on a different ownCloud installation. Don't be limited by a <em>shared</em> folder but put files where you want without loosing sight on who owns what.</p>
+	</div>
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="Design" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
+		<h3 class="featuretitle">Responsive design</h3></br>
+		<p class="featuredesc">Faster and more efficient design, suitable for mobile devices. No more waiting for the next page to load thanks to infinite scrolling. Find your files by sorting by name or modified date.</p>
+	</div>
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="Access" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
+		<h3 class="featuretitle">Store, Access and Control</h3></br>
+		<p class="featuredesc">Use Object Store as primary storage. Connect applications with ownCloud through the new, easy to use webhooks. Control how users share data and be notified when yours is accessed.</p>
 	</div>
 </div>
 
-<div class="featurewrapper"><h2>Other Features</h2></div>
-
-<div class="row featurerow">
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" />
-<h3 class="featuretitle">Calendars</h3></br>
-<p class="featuredesc">Want to share your calendar with other users of ownCloud? Enable the Calendar Application, open your calendar, select share, and choose the users or groups you want. You can be sharing your important calendar and important events in no time.</p>
-</div>
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
-<h3 class="featuretitle">External Storage</h3></br>
-<p class="featuredesc">Mounting DropBox, Swift, FTPs, GoogleDocs, S3 and external WebDAV servers now works, and is significantly more performant than it used to be.</p>
-</div>
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/gallery.png" />
-<h3 class="featuretitle">Galleries</h3></br>
-<p class="featuredesc">Want better control over your shared photo gallery? Now you can specify the ownCloud photo directories, sort order, share your galleries with any email address you choose, and control whether they can share those photos with anyone else.</p>
-</div>
-</div>
-
-
+<div class="featurewrapper"><h2>ownCloud Features</h2></div>
 
 <div class="row featurerow">
 
 	<div class="col-md-4 featureblock">
-	<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/themeing.png" />
-	<h3 class="featuretitle">Activity Feed</h3></br>
-	<p class="featuredesc">See what is going on in your ownCloud. You can see the latest files and folders that you have created changed or deleted. You can see when someone shared something with you or you shared something with someone and if the shared files are changed. This feed can also be accessed with an RSS feed and can be ready via an REST api by Desktop and Mobile client.</p>
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
+		<h3 class="featuretitle">Mobile and desktop syncing</h3></br>
+		<p class="featuredesc">Access your data on any platform. Use the Android or iOS clients to work with your files on the go or have your favorite folders synchronized seamlessly between your desktop and laptop devices.</p>
 	</div>
+
 	<div class="col-md-4 featureblock">
-	<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/undelete.png" />
-	<h3 class="featuretitle">Undelete</h3></br>
-	<p class="featuredesc">Finally, now users can undelete a file that was accidentally deleted through the web interface. Simply select the files in the trash bin and they are returned to where they were deleted from, with versions maintained.</p>
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
+		<h3 class="featuretitle">External Storage and Encryption</h3>
+		<p class="featuredesc">Add external storage to your ownCloud with DropBox, Swift, FTPs, GoogleDocs, S3, external WebDAV servers and more. Enable the encryption app to encrypt data on external storage for improved security and privacy.</p>
+	</div>
+
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png" />
+		<h3 class="featuretitle">Activity Feed</h3></br>
+		<p class="featuredesc">See what is going on in your ownCloud. See who shared a file with you or when you created, changed or deleted files. Access the feed via RSS, a API for Desktop or Mobile clients or receive email notifications.</p>
 	</div>
 </div>
 
 
-<div class="row featurerow">
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/themeing.png" />
-<h3 class="featuretitle">Themeing</h3></br>
-<p class="featuredesc">Want to make ownCloud look and feel like the rest of your site? Use the new theming directory functionality. Any style or image that you place in this directory will be used in place of standard ownCloud fonts, colors and icons.</p>
-</div>
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
-<h3 class="featuretitle">PDF Viewer</h3></br>
-<p class="featuredesc">Want to read PDF files without downloading them? Enable this Application and you can click on any PDF document and read it in your web browser with no download required.</p>
-</div>
-
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
-<h3 class="featuretitle">Public API's</h3></br>
-<p class="featuredesc">Want to add features and functions to ownCloud? New publicly defined APIs make creating applications for ownCloud much simpler, enabling add on functions a stable integration point for future versions.</p>
-</div>
-</div>
 
 <div class="row featurerow">
+		<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/undelete.png" />
+		<h3 class="featuretitle">Versioning and Undelete</h3></br>
+		<p class="featuredesc">ownCloud stores your data and lets you bring back data that was deleted accidentally. Find previous versions of files you modified  and bring them back.</p>
+	</div>
 
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/backup.png" />
-<h3 class="featuretitle">Migration and Backup</h3></br>
-<p class="featuredesc">Do you have multiple ownCloud instances, perhaps a primary and a backup installation? Now you can easily move your ownCloud user accounts between ownCloud instances, and have a backup ready when you need it.</p>
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/gallery.png" />
+		<h3 class="featuretitle">Galleries</h3></br>
+		<p class="featuredesc">Share photo galleries with friends and family. Give them access to upload pictures, view and download them. Send a link to anybody you choose, and control whether they can share those photos with anyone else.</p>
+	</div>
+
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" />
+		<h3 class="featuretitle">Calendars</h3></br>
+		<p class="featuredesc">Share your calendar with other ownCloud users or groups on your ownCloud server, easy and quick.</p>
+	</div>
 </div>
 
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/tasks.png" />
-<h3 class="featuretitle">Tasks</h3></br>
-<p class="featuredesc">Want to keep track of that all-important to do list? With the Tasks Application, you can easily sync your to do lists with your ownCloud instance.</p>
-</div>
+<div class="row featurerow">
 
-<div class="col-md-4 featureblock">
-<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/apps.png" />
-<h3 class="featuretitle">Application Store</h3></br>
-<p class="featuredesc">Want to add one of the existing applications to ownCloud? Simply enable a new application in settings, and it will be automatically downloaded and installed in your ownCloud instance.</p>
-</div>
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/backup.png" />
+		<h3 class="featuretitle">Migration and Backup</h3></br>
+		<p class="featuredesc">Do you have multiple ownCloud instances, perhaps a primary and a backup installation? Easily move your ownCloud user accounts between ownCloud instances, and have a backup ready when you need it.</p>
+	</div>
+
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
+		<h3 class="featuretitle">Contacts</h3></br>
+		<p class="featuredesc">Store your contacts in ownCloud and share them among your devices so you always have access to your friends, family and colleagues.</p>
+	</div>
+
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/apps.png" />
+		<h3 class="featuretitle">Application Store</h3></br>
+		<p class="featuredesc">Want to add one of the existing applications to ownCloud? Simply enable a new application in settings, and it will be automatically downloaded and installed in your ownCloud instance.</p>
+	</div>
 </div>
 
 <div class="featurewrapper"><h2>Other Features</h2></div>
 
 <div class="row">
 <ul class="featureslist">
-	<li>Improved performance across the board.</li>
-	<li>Easier development of 3rd party apps, easier access to core functions for app development with the updated ownCloud App API.</li>
-	<li>Share file notification. Send an email if sharing a file or folder.</li>
-	<li>Example files for new users. Load new user's with files, such as a tutorial on how to use ownCloud, which appears when they first log in.</li>
-	<li>Sharing REST API. Control sharing from mobile apps and desktop clients</li>
-	<li>App management. Improved management of 3rd party apps.</li>
-	<li>Logging</li>
+	<li>Smooth performance and easy user interface.</li>
+	<li>File editing and preview support for PDF, images, text files, Open Document and Word files and more.</li>
+	<li>Integration of anti-virus scanning functionality with the anti-virus app.</li>
 	<li>LDAP / Active directory integration</li>
+	<li>Example files for new users. Load new user's with files, such as a tutorial on how to use ownCloud, which appears when they first log in.</li>
+	<li>Powerful integrated logging</li>
+	<li>Finegrained control over user access and share abilities for data per group or user.</li>
+	<li>Advanced quota management with configurable accounting of external storage.</li>
+	<li>Sharing REST API. Control sharing from mobile apps and desktop clients</li>
+	<li>Easy development of 3rd party apps with the share REST API. Quick access to core functions for app development with the powerful ownCloud App API and webhooks following the publication / subscription model.</li>
 </ul>
 </div>
