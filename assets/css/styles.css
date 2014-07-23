@@ -206,27 +206,29 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 	margin-top: 0;
 }
 
-.home main div.image {
-	background-image: url("/wp-content/themes/owncloudorgnew/assets/img/OC7_lblue.png");
-	background-position: 15px top;
-	background-repeat: no-repeat;
-	background-size: 21.4% auto;
+/* Countdown Timer */
+
+.cntSeparator { 
+	margin-top: 17px;
 }
 
-.home h2.slogan {
-	font-weight: 200;
-	font-size: 40px;
+.digits {
+	margin: -10px auto 0 auto;
+	display: inline-block;
 }
 
-.home p.explain-short {
+.countdown h2 {
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+
+.countdown {
+	margin-bottom: -50px;
 	text-align: center;
-	font-weight: 200;
-	font-size: 20px;
 }
 
-@media (max-width: 1199px) and (min-width: 992px) {
-	.banner ul#menu-header.nav {
-		width: 80%;
-		padding-top: 20px;
+@media (max-width: 991px) {
+	.countdown {
+		margin-bottom: 0 !important;
 	}
 }

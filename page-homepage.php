@@ -11,7 +11,7 @@
 </div>
 <div class="row">
 	<div class="col-md-10 col-md-offset-1">
-		<p class="explain-short"><strong>With ownCloud you can sync & share your files, calendar, contacts and more.</strong><br/> 
+		<p style="text-align: center"><strong>With ownCloud you can sync & share your files, calendar, contacts and more.</strong><br/> 
 			Access your data from all your devices, on an open platform you can extend and modify.</p>
 	</div>
 </div>
