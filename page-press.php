@@ -1,6 +1,6 @@
 <?php get_template_part('templates/parts/title'); ?>
 <h2>Current Release Information <small>Version 7.0</small></h2>
-<a href="https://owncloud.com/get-public-cloud-flexibility-files-self-hosted-owncloud-7-community-edition-2-2/" class="btn btn-lg btn-default">Announcement</a>
+<a target="_blank" href="https://owncloud.com/get-public-cloud-flexibility-files-self-hosted-owncloud-7-community-edition-2-2/" class="btn btn-lg btn-default">Announcement</a>
 <a href="/features" class="btn btn-lg btn-default">Key Features</a>
 <a href="/install" class="btn btn-lg btn-default">Download onwCloud 7</a>
 <h2>Latest News and Annoucements</h2>
