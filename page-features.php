@@ -1,13 +1,13 @@
 <div class="row featurerow topfeature">
 	<div class="col-md-5">
-		<iframe src="//www.youtube.com/embed/xA3tfBTvH0c" height="310" width="95%" style="margin-top:10px;" allowfullscreen="" frameborder="0"></iframe>
+		<iframe width="95%" height="310" src="//www.youtube.com/embed/dcow7olmoRU" frameborder="0" allowfullscreen></iframe> 
 	</div>
 	<div class="col-md-7">
 		<h2 class="featuretitle" style="margin-top: 0;">Access, Sync and Share your data, under your control!</h2>
 		<p style="text-align: justify; margin-top: 10px;">ownCloud provides access to your data through a web interface or WebDAV while providing a platform to easily view, 
 		sync and share across devices—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and works with any storage.
 		</p>
-		<p><a href="/install" class="btn btn-lg btn-primary">Install ownCloud 7 now</a></p>
+		<p><strong>Download available soon...</strong></p>
 	</div>
 </div>
 </div></div><!-- end main -->
@@ -36,6 +36,7 @@
 		</div>
 	</div>
 </div>
+
 <div class="wrap container">
 	<div class="content row">
 
@@ -59,7 +60,6 @@
 		<p class="featuredesc">Use an Object Store as primary storage. Connect applications with ownCloud through the new, easy to use webhooks. Control how users share data and be 
 			notified when yours is accessed.</p>
 	</div>
-	<a href="/seven" class="btn btn-lg btn-default" style="float:right">Details on ownCloud 7</a>
 </div>
 
 <div class="featurewrapper"><h2>ownCloud Features</h2></div>
@@ -82,7 +82,7 @@
 
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
-		<h3 class="featuretitle">Collaborative Editing</h3>
+		<h3 class="featuretitle">Collaborative Documents</h3>
 		<p class="featuredesc">ownCloud Documents is collaborative editing of rich-text documents that lets up to 5 individuals collaborate to edit .odt or .doc files securely 
 			within the browser.  Documents may then be shared inside ownCloud or via a public link. See it in action on <a href="https://www.youtube.com/watch?v=xsqSLeppxm0" target="_blank">YouTube</a></p>
 	</div>
@@ -129,7 +129,7 @@
 	</div>
 
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/store.png" />
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/apps.png" />
 		<h3 class="featuretitle">Application Store</h3></br>
 		<p class="featuredesc">Want to add one of the <a href="https://apps.owncloud.com" target="_blank">existing applications</a> to ownCloud? Simply enable a new application in settings, and it will be automatically downloaded 
 			and installed in your ownCloud instance.</p>
