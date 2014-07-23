@@ -15,30 +15,6 @@
 	<?php wp_head(); ?>
 	<?php if(is_page('conf')) { ?><link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/conf.css"><?php } ?>
 	<link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
-	<?php if(is_page('homepage')) { ?>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins/countdown.min.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		$(function() {
-			$('.digits').countdown({
-				image: "<?php echo get_template_directory_uri(); ?>/assets/img/digits-min.png",
-				format: "hh:mm:ss",
-				endTime: new Date(Date.UTC(2014, 7, 23, 13, 00, 00)),
-				digitWidth: 45,
-				digitHeight: 60.447,
-				timerEnd: function() { 
-					$('h2.countdown-title').text('Loading...');
-					setTimeout(
-						function() {
-							window.location.reload();
-						},
-						Math.round(Math.random()*5000)
-					);
-				}
-			});
-		});
-	</script>
-	<?php } ?>
 	<?php if(is_page('install')) { ?>
 	<script type="text/javascript">
 		$(function() {
