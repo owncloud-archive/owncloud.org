@@ -1,8 +1,8 @@
 <?php get_template_part('templates/parts/title'); ?>
 <h2>Current Release Information <small>Version 7.0</small></h2>
-<a href="https://owncloud.com/get-public-cloud-flexibility-files-self-hosted-owncloud-7-community-edition-2-2/" class="btn btn-lg btn-default">Announcement</a>
+<a href="#" disabled class="btn btn-lg btn-default">Announcement</a>
 <a href="/features" class="btn btn-lg btn-default">Key Features</a>
-<a href="/install" class="btn btn-lg btn-default">Download onwCloud 7</a>
+<button class="btn btn-lg btn-default disabled">Download coming soon</button>
 <h2>Latest News and Annoucements</h2>
 <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
 <h2>ownCloud Resources</h2>
@@ -19,4 +19,4 @@
 <h2>Branding Guidelines</h2>
 <p>Find up to date guidelines and other graphical resources in our <a href="https://github.com/owncloud/promo">promo github account</a>.</p>
 <h2>Inquiries</h2>
-<p>For press inquiries, please contact <a href="mailto:pr@owncloud.com" target="_blank">Joseph Eckert</a>.<p>
+<p>For press inquiries, please contact <a href="https://www.google.com/+JosPoortvliet" target="_blank">Jos Poortvliet</a>.<p>
