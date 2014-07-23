@@ -9,11 +9,11 @@
 <div class="row">
 	<div class="col-md-3"><a href="https://github.com/owncloud/screenshots/archive/stable7.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" 
 		style="width: 100%" alt="Download a zip file with screenshots" class="img-thumbnail"></a></div>
-	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/files/logo_files.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/logofiles.png" 
+	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Logo_files.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/logofiles.png" 
 		style="width: 100%" alt="Download a zip file with logo files" class="img-thumbnail"></a></div>
 	<div class="col-md-3"><a href="http://www.youtube.com/ownclouders"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/youtube.png" style="width: 100%" 
 		alt="View the ownCloud community youtube channel" class="img-thumbnail"></a></div>
-	<div class="col-md-3"><a href="/7"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/newfeatures.png" style="width: 100%" alt="See what is new in ownCloud 7" 
+	<div class="col-md-3"><a href="/seven"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/newfeatures.png" style="width: 100%" alt="See what is new in ownCloud 7" 
 		class="img-thumbnail"></a></div>
 </div>
 <h2>Branding Guidelines</h2>
