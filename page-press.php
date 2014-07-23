@@ -1,6 +1,6 @@
 <?php get_template_part('templates/parts/title'); ?>
 <h2>Current Release Information <small>Version 7.0</small></h2>
-<a href="/blog/owncloud-7-released-with-more-sharing-and-control" class="btn btn-lg btn-default">Announcement</a>
+<a href="#" disabled class="btn btn-lg btn-default">Announcement</a>
 <a href="/features" class="btn btn-lg btn-default">Key Features</a>
 <button class="btn btn-lg btn-default disabled">Download coming soon</button>
 <h2>Latest News and Annoucements</h2>
