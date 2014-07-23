@@ -1,6 +1,6 @@
 <div class="row footer-social-icons">
     <div class="col-lg-12">
-      <a target="_blank" href="https://plus.google.com/102805591550379137055/about"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img></a>
+      <a target="_blank" href="https://plus.google.com/107072838776436530705/about"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img></a>
       <a target="_blank" style="margin: 0 7px 0 14px;" href="https://www.facebook.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img></a>
       <a target="_blank" style="margin: 0 14px 0 7px;"href="https://twitter.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img></a>
       <a target="_blank" href="https://owncloud.org/blogfeed"><img class="img-circle" width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png"></img></a>
