@@ -53,11 +53,28 @@
 
 		<h2>Release parties</h2>
 		<p>One of the best parts of an ownCloud release, are the community release parties! A release party can be a meeting in a cafe or office with a
-			presentation of what is new in the latest ownCloud release and time to chat about it. Release parties don't have to be done in the release week at all – doing it a bit later
-			gives everybody a chance to play with the release before the meeting.</p>
-			<p>List of events to follow.</p>
-		<p> Want to organize an ownCloud Release Party? See <a target="_blank"  href="https://owncloud.org/blog/plan-your-owncloud-7-release-party"/>this blog post</a>
-			and this <a href="http://en.opensuse.org/openSUSE:Launch_party_HOWTO">how-to</a> for some tips and ideas
-			and <a href="https://www.google.com/+JosPoortvliet">contact us</a> to get your party added to the list!!</p>
+		presentation of what is new in the latest ownCloud release and time to chat about it.
+		Release parties don't have to be done in the release week at all – doing it a bit later
+		gives everybody a chance to play with the release before the meeting.</p>
+		<table class="table table-striped">
+			<tr>
+				<th>City, Country</th>
+				<th>Location</th>
+				<th>Date and time</th>
+				<th>Organizer</th>
+				<th>Link</th>
+			</tr>
+			<tr>
+				<td>Nuremberg, Germany</td>
+				<td><a target="_blank" href="http://www.coworking-nuernberg.de/">Coworkingspace</a> Nürnberg</td>
+				<td>Tuesday, August 15 2014</td>
+				<td>Tobias, Klaas, Holger</td>
+				<td>Blog: <a target="_blank" href="https://dragotin.wordpress.com/2014/07/24/lets-party/">Let's party!</a></td>
+			</tr>
+			</tr>
+		</table>
+		<p> Want to organize an ownCloud Release Party? See <a target="_blank" href="https://owncloud.org/blog/plan-your-owncloud-7-release-party"/>this blog post</a>
+		and this <a href="http://en.opensuse.org/openSUSE:Launch_party_HOWTO">how-to</a> for some tips and ideas
+		and <a href="https://www.google.com/+JosPoortvliet">contact us</a> to get your party added to the list!!</p>
 	</div>
 </div>
