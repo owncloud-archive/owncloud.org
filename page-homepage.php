@@ -1,15 +1,17 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
+<a href="/features">
 <div class="header"><div class="row image">
 	<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 		<img class="home-header-image" alt="image about owncloud sync" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/ocsplash.png" />
 	</div>
 </div>
+</a>
 <div class="row">
 	<h2 class="slogan">Your data - under your control</h2>
 </div>
 <div class="row">
 	<div class="col-md-10 col-md-offset-1">
-		<p style="text-align: center"><strong>With ownCloud you can sync & share your files, calendar, contacts and more.</strong><br/> 
+		<p class="explain-short"><strong>With ownCloud you can sync & share your files, calendar, contacts and more.</strong><br/> 
 			Access your data from all your devices, on an open platform you can extend and modify.</p>
 	</div>
 </div>
