@@ -1,3 +1,6 @@
+<p>Version 6.0.4</p>
+<a href="/security/advisory?id=oc-sa-2014-018">Local file inclusion in core</a><br>
+<br>
 <p>Version 6.0.3</p>
 <a href="/security/advisory?id=oc-sa-2014-015">Enumeration of shared files in documents</a><br>
 <a href="/security/advisory?id=oc-sa-2014-016">Improper authorization checks in core</a><br>
@@ -11,13 +14,17 @@
 <p>Version 6.0.2</p>
 <a href="/security/advisory?id=oc-sa-2014-007">Multiple XSS</a><br>
 <a href="/security/advisory?id=oc-sa-2014-008">Users can mount the local filesystem</a><br>
+<a href="/security/advisory?id=oc-sa-2014-006">XXE in multiple third party components</a><br>
 <a href="/security/advisory?id=oc-sa-2014-005">LDAP injection</a><br>
-<a href="/security/advisory?id=oc-sa-2014-004">Host Header Poisoning</a><br>
 <a href="/security/advisory?id=oc-sa-2014-003">Insecure Flash Cross Domain policies</a><br>
+<a href="/security/advisory?id=oc-sa-2014-004">Host Header Poisoning</a><br>
 <a href="/security/advisory?id=oc-sa-2014-001">Session Fixation</a><br>
 <br>
 <p>Version 6.0.1</p>
 <a href="/security/advisory?id=oc-sa-2014-009">Users can mount the local filesystem</a><br>
+<br>
+<p>Version 5.0.17</p>
+<a href="/security/advisory?id=oc-sa-2014-018">Local file inclusion in core</a><br>
 <br>
 <p>Version 5.0.16</p>
 <a href="/security/advisory?id=oc-sa-2014-016">Improper authorization checks in core</a><br>
@@ -25,6 +32,7 @@
 <a href="/security/advisory?id=oc-sa-2014-010">Multiple XSS</a><br>
 <br>
 <p>Version 5.0.15</p>
+<a href="/security/advisory?id=oc-sa-2014-006">XXE in multiple third party components</a><br>
 <a href="/security/advisory?id=oc-sa-2014-008">Users can mount the local filesystem</a><br>
 <a href="/security/advisory?id=oc-sa-2014-005">LDAP injection</a><br>
 <a href="/security/advisory?id=oc-sa-2014-004">Host Header Poisoning</a><br>
@@ -57,6 +65,7 @@
 <br>
 <p>Version 5.0.1</p>
 <a href="/security/advisory?id=oc-sa-2013-012">contacts: SQL Injection</a><br>
+<a href="/security/advisory?id=oc-sa-2013-011">Multiple XSS vulnerabilities</a><br>
 <br>
 <p>Version 4.5.13</p>
 <a href="/security/advisory?id=oc-sa-2013-030">Auth bypass in "user_webdavauth"</a><br>
@@ -79,12 +88,16 @@
 <p>Version 4.5.8</p>
 <a href="/security/advisory?id=oc-sa-2013-010">user_migrate: Local file disclosure</a><br>
 <a href="/security/advisory?id=oc-sa-2013-009">Incomplete blacklist vulnerability</a><br>
+<a href="/security/advisory?id=oc-sa-2013-008">Multiple XSS vulnerabilities</a><br>
 <br>
 <p>Version 4.5.7</p>
+<a href="/security/advisory?id=oc-sa-2013-006">Multiple code executions</a><br>
 <a href="/security/advisory?id=oc-sa-2013-007">Privilege escalation in the calendar application</a><br>
+<a href="/security/advisory?id=oc-sa-2013-004">Multiple CSRF vulnerabilities</a><br>
 <br>
 <p>Version 4.5.6</p>
 <a href="/security/advisory?id=oc-sa-2013-002">Code execution in external storage</a><br>
+<a href="/security/advisory?id=oc-sa-2013-001">Multiple XSS vulnerabilities</a><br>
 <br>
 <p>Version 4.5.5</p>
 <a href="/security/advisory?id=oc-sa-2012-007">XSS vulnerability in bookmarks</a><br>
@@ -97,6 +110,7 @@
 <br>
 <p>Version 4.5.1</p>
 <a href="/security/advisory?id=oc-sa-2012-002">Timing attack on the password reset</a><br>
+<a href="/security/advisory?id=oc-sa-2012-001">Multiple XSS vulnerabilities</a><br>
 <br>
 <p>Version 4.0.15</p>
 <a href="/security/advisory?id=oc-sa-2013-021">Multiple XSS vulnerabilities</a><br>
@@ -111,6 +125,14 @@
 <a href="/security/advisory?id=oc-sa-2013-010">user_migrate: Local file disclosure</a><br>
 <a href="/security/advisory?id=oc-sa-2013-009">Incomplete blacklist vulnerability</a><br>
 <br>
+<p>Version 4.0.12</p>
+<a href="/security/advisory?id=oc-sa-2013-006">Multiple code executions</a><br>
+<a href="/security/advisory?id=oc-sa-2013-005">Information disclosure</a><br>
+<a href="/security/advisory?id=oc-sa-2013-004">Multiple CSRF vulnerabilities</a><br>
+<br>
+<p>Version 4.0.11</p>
+<a href="/security/advisory?id=oc-sa-2013-001">Multiple XSS vulnerabilities</a><br>
+<br>
 <p>Version 4.0.10</p>
 <a href="/security/advisory?id=oc-sa-2012-007">XSS vulnerability in bookmarks</a><br>
 <a href="/security/advisory?id=oc-sa-2012-006">Auth bypass in user_webdavauth and user_ldap</a><br>
@@ -119,10 +141,12 @@
 <br>
 <p>Version 4.0.9</p>
 <a href="/security/advisory?id=oc-sa-2012-002">Timing attack on the password reset</a><br>
+<a href="/security/advisory?id=oc-sa-2012-001">Multiple XSS vulnerabilities</a><br>
 <br>
 <p>Version 4.0.8</p>
 <a href="/security/advisory?id=oc-sa-2012-011">Auth bypass in /lib/base.php</a><br>
 <a href="/security/advisory?id=oc-sa-2012-010">HTTP header injection</a><br>
+<a href="/security/advisory?id=oc-sa-2012-009">Multiple XSS vulnerabilities</a><br>
 <a href="/security/advisory?id=oc-sa-2012-008">Insufficiently random values</a><br>
 <br>
 <p>Version 4.0.7</p>
@@ -132,6 +156,7 @@
 <a href="/security/advisory?id=oc-sa-2012-012">Code execution in /lib/migrate.php</a><br>
 <br>
 <p>Version 4.0.6</p>
+<a href="/security/advisory?id=oc-sa-2012-017">Several CSRF security fixes</a><br>
 <a href="/security/advisory?id=oc-sa-2012-016">Auth bypass in index.php</a><br>
 <br>
 <p>Version 4.0.5</p>
@@ -139,4 +164,10 @@
 <br>
 <p>Version 4.0.3</p>
 <a href="/security/advisory?id=oc-sa-2012-019">Reflected XSS</a><br>
+<br>
+<p>Version 4.0.2</p>
+<a href="/security/advisory?id=oc-sa-2012-020">Multiple reflected XSS</a><br>
+<br>
+<p>Version 4.0.1</p>
+<a href="/security/advisory?id=oc-sa-2012-021">Multiple stored XSS</a><br>
 <br>
