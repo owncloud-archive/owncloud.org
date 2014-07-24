@@ -9,7 +9,7 @@
 		<?php get_template_part('advisories/advisory-side'); ?>
 	</div>
 	<div class="col-md-8">
-		<h2>XSS Vulnerability in jPlayer (oc-sa-2013-014)</h2>
+		<h2>XSS Vulnerability in jPlayer (oC-SA-2013-014)</h2>
 		<p>11th April 2013</p>
 		<p>Risk level: <strong>Medium</strong></p>
 		<h3>Description</h3>

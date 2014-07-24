@@ -9,7 +9,7 @@
 		<?php get_template_part('advisories/advisory-side'); ?>
 	</div>
 	<div class="col-md-8">
-		<h2>CSRF in documents (oc-sa-2014-014)</h2>
+		<h2>CSRF in documents (oC-SA-2014-014)</h2>
 		<p>24th May 2014</p>
 		<p>Risk level: <strong>Low</strong></p>
 		<h3>Description</h3>

@@ -9,7 +9,7 @@
 		<?php get_template_part('advisories/advisory-side'); ?>
 	</div>
 	<div class="col-md-8">
-		<h2>Open redirector (oc-sa-2013-022)</h2>
+		<h2>Open redirector (oC-SA-2013-022)</h2>
 		<p>14th May 2013</p>
 		<p>Risk level: <strong>Low</strong></p>
 		<h3>Description</h3>

@@ -9,7 +9,7 @@
 		<?php get_template_part('advisories/advisory-side'); ?>
 	</div>
 	<div class="col-md-8">
-		<h2>XSS vulnerability in user_webdavauth (oc-sa-2012-003)</h2>
+		<h2>XSS vulnerability in user_webdavauth (oC-SA-2012-003)</h2>
 		<p>14th November 2012</p>
 		<p>Risk level: <strong>Medium</strong></p>
 		<h3>Description</h3>

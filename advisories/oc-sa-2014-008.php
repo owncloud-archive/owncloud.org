@@ -9,7 +9,7 @@
 		<?php get_template_part('advisories/advisory-side'); ?>
 	</div>
 	<div class="col-md-8">
-		<h2>Users can mount the local filesystem (oc-sa-2014-008)</h2>
+		<h2>Users can mount the local filesystem (oC-SA-2014-008)</h2>
 		<p>3rd July 2014</p>
 		<p>Risk level: <strong>High</strong></p>
 		<h3>Description</h3>

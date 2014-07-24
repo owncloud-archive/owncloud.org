@@ -9,7 +9,7 @@
 		<?php get_template_part('advisories/advisory-side'); ?>
 	</div>
 	<div class="col-md-8">
-		<h2>Multiple XSS vulnerabilities (oc-sa-2013-001)</h2>
+		<h2>Multiple XSS vulnerabilities (oC-SA-2013-001)</h2>
 		<p>22nd January 2013</p>
 		<p>Risk level: <strong>High</strong></p>
 		<h3>Description</h3>

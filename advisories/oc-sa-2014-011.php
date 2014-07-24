@@ -9,7 +9,7 @@
 		<?php get_template_part('advisories/advisory-side'); ?>
 	</div>
 	<div class="col-md-8">
-		<h2>Improper authorization checks in contacts (oc-sa-2014-011)</h2>
+		<h2>Improper authorization checks in contacts (oC-SA-2014-011)</h2>
 		<p>24th May 2014</p>
 		<p>Risk level: <strong>Medium</strong></p>
 		<h3>Description</h3>

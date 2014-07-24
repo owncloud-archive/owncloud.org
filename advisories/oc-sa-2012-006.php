@@ -9,7 +9,7 @@
 		<?php get_template_part('advisories/advisory-side'); ?>
 	</div>
 	<div class="col-md-8">
-		<h2>Auth bypass in user_webdavauth and user_ldap (oc-sa-2012-006)</h2>
+		<h2>Auth bypass in user_webdavauth and user_ldap (oC-SA-2012-006)</h2>
 		<p>20th December 2012</p>
 		<p>Risk level: <strong>High</strong></p>
 		<h3>Description</h3>
