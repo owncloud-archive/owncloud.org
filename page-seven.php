@@ -16,7 +16,7 @@ Jump to improvements for: <a href="#user">User</a> | <a href="#admin">Admin</a> 
     </div>
     <div id="collapseSix" class="panel-collapse in">
       <div class="panel-body">
-		ownCloud 7 introduces server to server sharing, allowing you to mount a share from another ownCloud instance and seamlessly collaborate on and share files from within your own ownCloud. This essentially combines two private clouds into a public cloud. You can even have the folder locally synced through the client. No need to create user accounts on your or the other instance - just, once, add the shared folder into your ownCloud.
+		ownCloud 7 introduces server to server sharing, allowing you to mount a share from another ownCloud instance and seamlessly collaborate on and share files from within your own ownCloud. This essentially combines two private clouds into a public cloud. You can even have the folder locally synced through the client. No need to create user accounts on your or the other instance - just, once, add the shared folder into your ownCloud. Read more in this <a title="Improved sharing" href="https://owncloud.org/blog/owncloud-7-sneak-peek-improved-sharing/" target="_blank">sneak peek article about Improved Sharing</a>.
 		<div class="row">
 			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/s2s0.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
 			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/s2s1.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
@@ -45,6 +45,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 			<li><strong>Share Link Default and Max Expiration</strong> – Admins can require users to set a password or an expiration date for the link.
 			<li><strong>No more Shared Folder</strong> – The “Shared” folder has been removed; instead, shared files are identified with the overlay icon representing “shared with me”. (If users are upgrading, they can continue to use the Shared folder they already have.)
 		</ul>
+		Read more in this <a title="More sharing!" href="https://owncloud.org/blog/owncloud-7-sneak-peek-more-sharing/" target="_blank">sneak peek 'More Sharing'</a>.
 		<div class="row">
 			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/adminoptions.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
 			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/sharing/permissions.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
@@ -66,7 +67,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       <div class="panel-body">
       	In addition to the existing ability to collaboratively edit .odt files within the web browser, ownCloud can now convert Microsoft Word documents 
       	on the fly for online editing. You can open a Word doc online, edit it live with other users in the browser, and close it again – 
-      	it will convert back to Word. And, it will be saved back to your desktop with the changes embedded.
+      	it will convert back to Word. And, it will be saved back to your desktop with the changes embedded. Read more in this <a title="online collaboration with Documents" href="https://owncloud.org/blog/owncloud-7-sneak-peek-online-collaboration-with-documents/" target="_blank">online collaboration with Documents</a> sneak peek article.
 		<div class="row">
 			<div class="col-md-5"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/documents/documents.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
 		</div>
@@ -114,6 +115,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 			<li><strong>File Sorting</strong> – Files can be sorted in the web browser by name, size and last modified time.</li>
 			<li><strong>Storage Location Report</strong> –  An “external storage” filter enables users to filter files based on external storage location, such as ftp, S3, Swift, Dropbox, Google Drive and more.</li>
 		</ul>
+		Read more in this <a title="Performance and Ease of use" href="https://owncloud.org/blog/owncloud-7-sneak-peek/" target="_blank">sneak peek article 'Performance and Ease of use'</a>.
 		<div class="row">
 			<div class="col-md-5"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/files/newview.png" alt="..." class="img-thumbnail"></div>.
 			<div class="col-md-5"><iframe width="560" height="315" src="//www.youtube.com/embed/qXWZs07Y7jU?rel=0" frameborder="0" allowfullscreen></iframe></div>
@@ -165,7 +167,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       <div class="panel-body">
       	ownCloud web pages render and load faster with new static CSS and JavaScript files. And, ownCloud clients sync faster with 
       	the new parallel upload and download mechanism. There have also been many improvements to database access of ownCloud, improving
-      	responsiveness and decreasing server resource consumption.
+      	responsiveness and decreasing server resource consumption. Read more in this <a title="Performance and Ease of use" href="https://owncloud.org/blog/owncloud-7-sneak-peek/" target="_blank">sneak peek article 'Performance and Ease of use'</a>.
       </div>
     </div>
   </div>
@@ -195,6 +197,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
 	      			with improved ease and speed</li>
 	      		<li>Enable apps by group</li>
 	      	</ul>
+	      	Read more in this <a title="ownCloud 7 for system administrators" href="https://owncloud.org/blog/owncloud-7-sneak-peek-owncloud-7-for-admins/" target="_blank">ownCloud 7 for system administrators</a> sneak peek article.
 	      	<div class="row">
 				<div class="col-md-12"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/seven/settings/usermanagement.png" alt="..." class="img-thumbnail"></div>
 			</div>
@@ -354,7 +357,7 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       </div>
     </div>
   </div>
-	</div>
+</div>
 <a name="developer"></a>
 <h2>Improvements for Developers</h2>
 <div class="panel-group" id="accordionDeveloper">
@@ -441,4 +444,5 @@ The sharing code has been dramatically enhanced, streamlined and improved, makin
       </div>
     </div>
   </div>
+    Read more in the <a title="ownCloud 7 for developers" href="https://owncloud.org/blog/owncloud-7-sneak-peek-owncloud-7-for-developers/" target="_blank">ownCloud 7 for developers</a> sneak preview.
 </div>
