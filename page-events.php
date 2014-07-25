@@ -28,6 +28,13 @@
 				<th>Link</th>
 			</tr>
 			<tr>
+				<td>ownCloud talk</td>
+				<td>Universitetskaya 22, of. 114 420111 Kazan, Russia</td>
+				<td>Monday, July 28th, 18:00</td>
+				<td>FOSS labs</td>
+				<td><a target="_blank" href="http://arthur-schiwon.de/kazan-me-too-join-my-owncloud-talk">Blog by Arthur Schiwon</a></td>
+			</tr>
+			<tr>
 				<td>LinuxCon North America</td>
 				<td>Chicago, IL, USA</td>
 				<td>August 20-22 2014</td>
