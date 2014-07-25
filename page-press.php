@@ -2,7 +2,7 @@
 <h2>Current Release Information <small>Version 7.0</small></h2>
 <a target="_blank" href="https://owncloud.com/get-public-cloud-flexibility-files-self-hosted-owncloud-7-community-edition-2-2/" class="btn btn-lg btn-default">Announcement</a>
 <a href="/features" class="btn btn-lg btn-default">Key Features</a>
-<a href="/install" class="btn btn-lg btn-default">Download onwCloud 7</a>
+<a href="/install" class="btn btn-lg btn-default">Download ownCloud 7</a>
 <h2>Latest News and Annoucements</h2>
 <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
 <h2>ownCloud Resources</h2>
