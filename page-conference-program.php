@@ -1,7 +1,11 @@
 <div class="page-header">
 	<h1><a href="/events">Events</a> > Conference Program</h1>
 </div>
-<div class="sub-nav"><a href="/events/meetups">Meetups</a>&nbsp;&nbsp;|&nbsp;&nbspConference Program</div>
+<div class="sub-nav">
+	<a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
+	|&nbsp;&nbspConference Program&nbsp;&nbsp;
+	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
+</div>
 <div class="row">
 	<div class="col-md-12">
 	<p>ownCloud community members can organize ownCloud presence at trade shows and conferences to present our community and technology.</p>

@@ -1,7 +1,11 @@
 <div class="page-header">
 	<h1><a href="/events">Events</a> > Meetups</h1>
 </div>
-<div class="sub-nav">Meetups&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a></div>
+<div class="sub-nav">
+	Meetups&nbsp;&nbsp;
+	|&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a>&nbsp;&nbsp;
+	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
+</div>
 <div class="row">
 	<div class="col-md-12">
 	<p>ownCloud community members all around the globe organize Meetups to get together, learn, share ideas and work on ownCloud.

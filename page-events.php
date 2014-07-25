@@ -1,5 +1,9 @@
 <?php get_template_part('templates/parts/title'); ?>
-<div class="sub-nav"><a href="/events/meetups">Meetups</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a></div>
+<div class="sub-nav">
+	<a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
+	|&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a>
+	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
+</div>
 <div class="row">
 	<div class="col-md-12">
 		<p>The ownCloud community organizes and participates in many events around the globe. Interested in meeting fellow ownCloud users and contributors? Look for an 
