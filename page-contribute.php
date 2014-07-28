@@ -24,39 +24,16 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div id="collapseCoding" class="panel-collapse collapse">
       <div class="panel-body">
       	<ul>
-          <li>Develop your own ownCloud app</li>
-      	  <li>Get a bug fixed</li>
-      	  <li>Improve the ownCloud Core</li>
-      	  <li>Learn to write ownCloud code.</li>
+          <li>Develop your own ownCloud app (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app">app development documentation</a>)</li>
+      	  <li>Get a bug fixed (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/bugtracker">bugtracker documentation</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/general">general guidelines and setup</a>)</li>
+      	  <li>Improve the ownCloud Core (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/core">core development documentation</a>)</li>
+      	  <li>Learn to write ownCloud code. (Try your hands on a a <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open/">Junior Job</a>
+        and see the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding">project ideas page</a>)
         </ul>
-      	<h2>Contribution guidelines</h2>
-      	<p>To find out how to write ownCloud code, check out our <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">developer documentation here</a>.
+      	<p>For more details, check out our <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">developer documentation here</a>.
       	Talk to us <a href="irc://#owncloud-dev@freenode.net">on IRC</a> and on our 
-      	<a href="http://mailman.owncloud.org/mailman/listinfo/devel">mailing list</a>!</p>
-      	<ul>
-          <li>We use <a href="https://github.com/owncloud">Github</a>, please get an account there and clone the repositories you want to work on</li>
-		      <li>Ideally, discuss your plans on the <a href="http://mailman.owncloud.org/mailman/listinfo/devel">mailing list</a>
-		      to see if others want to work with you on it</li>
-		      <li><strong>Fixes</strong> go directly to master, nevertheless they need to be tested thoroughly</li>
-		      <li><strong>New features</strong> are always developed in a branch and only merged to master once they are fully done</li>
-		      <li>When you are finished, use the merge request function on Github. The other developers will look at
-		      it and give you feedback. Ideally also post your merge request to the mailing list to let people know.</li>
-		      <li>Decisions are <a href="http://blog.jospoortvliet.com/2013/05/consensus-decision-making.html">made by consensus</a>.
-      		We strive for making the best technical decisions and as nobody can know everything, we collaborate.
-      		That means a first negative comment might not be the final word, neither is positive feedback an immediate <em>GO</em>.
-      		ownCloud is built out of modular pieces (apps) and maintainers have a strong influence. In case of
-      		disagreement we consult other seasoned contributors.</li>
-        </ul>
-
-        <p><em>TIP</em>: If you are new to git, do the <a href="http://git-scm.com/course/svn.html">git crash course</a>.
-        We use <a href="http://github.com/owncloud">github</a> for our collaborative development, and they have an excellent
-        series of tutorials on <a href="https://help.github.com/">help.github.com</a>. Try the <em>'Set Up git'</em>,
-        <em>'Fork a Repo'</em> and <em>'Be Social'</em> tutorials!</p>
-
-        <p><em>TIP</em>: For an easy way to get involved, try to implement one of our
-        <strong><a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open/">Junior Jobs</a></strong>
-        and see the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding">project ideas page</a>
-        (and don't hesitate to contact the mentor of the project you're interested in!)</p>
+      	<a href="http://mailman.owncloud.org/mailman/listinfo/devel">mailing list</a>! We look forward to your code and htoughts.</p>
+        <p><em>Please</em> be considerate of our <a href="/community/code-of-conduct/">code of conduct</a>! We like to provide a positive and enjoyable environment for everybody.</p>
      </div>
     </div>
   </div>
@@ -73,39 +50,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
       	<p>Testing upcoming ownCloud releases is the best way of making sure the new release can do what you need it 
       	to do. And of course, only if you report a problem to us we know about it and can fix it!</p>
       	<p>Find the <a href="https://github.com/owncloud/core/blob/master/CONTRIBUTING.md">issue guidelines here</a>. 
-      	They explain where to look for existing issues and how to submit a new one.</p>
-      	<h2>How to test</h2>
-      	Testing follows these steps:
-	      <ol>
-		      <li>Set up your testing environment</li>
-		      <li>Pick something to test</li>
-		      <li>Test it</li>
-		      <li>Back to 2 until something unexpected/bad happens</li>
-		      <li>Check if what you found is really a bug</li>
-		      <li>File the bug</li>
-	      </ol>
-	      <h3>Installing ownCloud</h3>
-	      <p>Testing starts with setting up a testing environment. We urge you to not put your production data on testing
-	      releases unless you have a backup somewhere!</p>
-
-	      <p>Start by installing ownCloud, either on real hardware or in a VM.</p>
-
-	      <p>You can find <a href="<?php echo $DOCUMENTATION_ADMIN; ?>#installation">instructions for installation in the documentation</a>.
-	      Please note that we are still working on the documentation and if you bump into a problem, you can 
-	      <a href="https://github.com/owncloud/documentation">help us fix it</a>. You can edit straight on github,
-	      no need to install anything!</p>
-	      <h3>The Real Testing</h3>
-	      <p>Testing is a matter of trying out some scenarios you decide to test, for example, sharing a folder
-	      and mounting it on another ownCloud instance. If it works – awesome, move on. If it doesn't, find out
-	      as much as you can about why it doesn't and use that for a bug report.</p>
-
-	      <p>This is the stage where you should see if your issue is already reported by checking the issue
-	      tracker. It might even be fixed, sometimes! It can also be fruitful to contact the 
-	      <a href="irc://freenode/#owncloud-dev">developers on irc</a>. Tell them you're testing ownCloud 7
-	      and share what problem you bumped into. Depending on many factors including time of day (even 
-	      ownCloud developers need sleep!) and the stars, you'll get an answer sooner or later.</p>
-
-	      <p>Finally, if the issue you bump into is a clear bug and the developers are not aware of it, file it as a new issue.</p>
+      	They explain where to look for existing issues and how to submit a new one. See the <?php echo $DOCUMENTATION_DEVELOPER; ?>/test-pilots">bugtracker documentation</a> for tips and info about testing.</p>
       </div>
     </div>
   </div>
