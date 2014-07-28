@@ -45,7 +45,7 @@
 		<img class="thumbnail" alt="Sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
 		<h3 class="featuretitle">Improved Sharing</h3></br>
 		<p class="featuredesc">Server to server sharing: seamlessly share files with users on a different ownCloud installation. Don't be limited by a <em>shared</em> folder but put 
-			files where you want without loosing sight on who owns what.</p>
+			files where you want without losing sight on who owns what.</p>
 	</div>
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="Design" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
@@ -144,9 +144,9 @@
 	<li>File editing and preview support for PDF, images, text files, Open Document, Word files and more.</li>
 	<li>Integration of anti-virus scanning functionality with the anti-virus app.</li>
 	<li>LDAP / Active directory integration</li>
-	<li>Example files for new users. Load new user's with files, such as a tutorial on how to use ownCloud, which appears when they first log in.</li>
+	<li>Example files for new users. Preload a new user's Files area with, for example, a tutorial file, which appears when they first log in.</li>
 	<li>Powerful integrated logging</li>
-	<li>Finegrained control over user access and share abilities for data per group or user.</li>
+	<li>Fine-grained control over access to data and sharing capabilities by user and by group.</li>
 	<li>Advanced quota management with configurable accounting of external storage.</li>
 	<li>Sharing REST API. Control sharing from mobile apps and desktop clients</li>
 	<li>Easy development of 3rd party apps with the share REST API. Quick access to core functions for app development with the powerful ownCloud App API and webhooks following 
