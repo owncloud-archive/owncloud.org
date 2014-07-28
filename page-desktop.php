@@ -1,6 +1,22 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3>Release 1.6.2 <small>Jul 28th 2014</small></h3>
+<ul>
+<li>Limit the HTTP buffer size when downloading to limit memory consumption.</li>
+<li>Another small mem leak fixed in HTTP Credentials.</li>
+<li>Fix local file name clash detection for MacOSX.</li>
+<li>Limit maximum wait time to ten seconds in network limiting.</li>
+<li>Fix data corruption while trying to resume and the server does not support it.</li>
+<li>HTTP Credentials: Read password from legacy place if not found.</li>
+<li>Shibboleth: Fix the waiting curser that would not disapear (#1915)</li>
+<li>Limit memory usage to avoid mem wasting and crashes</li>
+<li>Propagator: Fix crash when logging out during upload (#1957)</li>
+<li>Propagator_qnam: Fix signal slot connection (#1963)</li>
+<li>Use more elaborated way to detect that the server was reconfigured (#1948)</li>
+<li>Setup Wizard: Reconfigure Server also if local path was changed (#1948)</li>
+</ul>
+
 <h3>Release 1.6.1 <small>Jun 26th 2014</small></h3>
 
 <ul>
