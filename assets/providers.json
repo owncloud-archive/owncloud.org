@@ -730,7 +730,9 @@
          "title":"nwavehosting.com",
          "url":"http:\/\/nwavehosting.com\/cloud-services\/owncloud.html",
          "flags":[
-            "us"
+            "il",
+            "gb",
+            "ru"
          ],
          "freeplans":false,
          "supports":[
