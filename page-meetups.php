@@ -55,10 +55,10 @@
 		    <li>Remind people of the ownCloud code of conduct if they aren't nice to each other: you have every right to tell them to stay away if they can't behave... It is your meetup!</li>
 		</ul>
 	<h2>Contact/questions/support</h2>
-		For setting up the meetup page, sharing the news on the upcoming event or a report from the previous one or any other questions, contact our community manager, <a href="https://www.google.com/+JosPoortvliet">Jos Poortvliet</a>.
+		For setting up the meetup page, sharing the news on the upcoming event or a report from the previous one or any other questions, <a href="/events/contactform">just ask</a>.
 		<h3>ownCloud swag?</h3>
-		<p>If you organize a meetup, we'd be happy to send you an envelope with some informative ownCloud flyers, ownCloud stickers and other things.
-			Note that we have limited supply and shipping and handling takes time, so don't be late! In general, count on two weeks at least and please understand that currently we only ship in (most countries in) Europe and the USA. <a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request form to fill in.</p>
+		<p>If you organize a meetup, we'd be happy to send you an envelope with some informative ownCloud flyers, ownCloud stickers and other things.</p>
+		<p><strong>Note</strong> that we have limited supply and shipping and handling takes time, so don't be late! In general, count on two weeks at least and please understand that currently we only ship in (most countries in) Europe and the USA. <a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request form to fill.</p>
 
 	</div>
 </div>

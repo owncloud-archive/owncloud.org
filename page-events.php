@@ -53,7 +53,7 @@
 				<td><a target="_blank" href="https://events.linuxfoundation.org/events/linuxcon-europe">Linuxcon Europe</a></td>
 			</tr>
 		</table>
-		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> Are you presenting about ownCloud at an upcoming event that should be listed here? <a href="https://www.google.com/+JosPoortvliet">Let us know!</a></p>
+		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> Are you presenting about ownCloud at an upcoming event that should be listed here? <a href="/events/contactform">Let us know</a>!</p>
 
 		<h2>Release parties</h2>
 		<p>One of the best parts of an ownCloud release, are the community release parties! A release party can be a meeting in a cafe or office with a
@@ -79,6 +79,6 @@
 		</table>
 		<p> Want to organize an ownCloud Release Party? See <a target="_blank" href="https://owncloud.org/blog/plan-your-owncloud-7-release-party"/>this blog post</a>
 		and this <a href="http://en.opensuse.org/openSUSE:Launch_party_HOWTO">how-to</a> for some tips and ideas
-		and <a href="https://www.google.com/+JosPoortvliet">contact us</a> to get your party added to the list!!</p>
+		and <a href="/events/contactform">contact us</a> to get your party added to the list!!</p>
 	</div>
 </div>

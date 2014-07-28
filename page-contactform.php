@@ -6,7 +6,8 @@
   |&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a>
   |&nbsp;&nbsp;Contact
 </div></br>
-<p>Get in touch for more information on hosting an ownCloud event.</p>
+<p>Inform us about your release party, conference or meetup, request materials or ask for help.</p>
+<p><strong>Note:</strong> if you request materials, use the <a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">request form</a> and make sure you fill in as many details as possible!</p>
 <form action="#" method="post" id="messageform">
   <div class="form-group">
     <label for="author">Name</label>
