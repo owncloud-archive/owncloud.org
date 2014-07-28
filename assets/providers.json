@@ -699,6 +699,45 @@
 
          ],
          "imagename":"lazymedia.png"
+      },
+      {
+         "title":"hostiso.com",
+         "url":"https:\/\/www.hostiso.com/owncloud-hosting/",
+         "flags":[
+            "nz"
+         ],
+         "freeplans":false,
+         "supports":[
+
+         ],
+         "imagename":"hostiso.png"
+      },
+      {
+         "title":"centurymedia.co.uk",
+         "url":"https:\/\/www.centurymedia.co.uk",
+         "flags":[
+            "gb"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers"
+         ],
+         "imagename":"centurymedia.png"
+      }
+      ,
+      {
+         "title":"nwavehosting.com",
+         "url":"http:\/\/nwavehosting.com\/cloud-services\/owncloud.html",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers"
+         ],
+         "imagename":"nwavehosting.jpg"
       }
    ]
 }
