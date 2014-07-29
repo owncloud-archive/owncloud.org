@@ -126,3 +126,32 @@ div.conf-partners img.banner {
 div.footer-social-icons {
 	margin-top: 2em !important;
 }
+
+/* Reigstration page */
+div.conference .hs-form .hs-form-required {
+	color: white !important;
+}
+
+div.conference div.hbspt-form label {
+	color: white;
+	font-size: 18px;
+}
+
+div.conference div.hbspt-form {
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 48px;
+}
+
+div.conference .hs-input {
+	height: 30px;
+	font-size: 21px;	
+}
+
+div.conference .hs-form.stacked label {
+	font-weight: 400;
+}
+
+div.conference div.actions {
+	text-align: center;
+}
