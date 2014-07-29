@@ -1,7 +1,11 @@
 <div class="page-header">
 	<h1><a href="/events">Events</a> > Conference Program</h1>
 </div>
-<div class="sub-nav"><a href="/events/meetups">Meetups</a>&nbsp;&nbsp;|&nbsp;&nbspConference Program</div>
+<div class="sub-nav">
+	<a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
+	|&nbsp;&nbspConference Program&nbsp;&nbsp;
+	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
+</div>
 <div class="row">
 	<div class="col-md-12">
 	<p>ownCloud community members can organize ownCloud presence at trade shows and conferences to present our community and technology.</p>
@@ -41,7 +45,7 @@
 
 				<li><em>Tell everybody about the booth!</em><br />
 				Once you've secured a spot, share the ownCloud attendance to the event over social media -
-				perhaps even set up an event page on Facebook and Google plus, ask people to share the news. And <a href="https://www.google.com/+JosPoortvliet">tell us about it</a>!</li>
+				perhaps even set up an event page on Facebook and Google plus, ask people to share the news. And <a href="/events/contactform">tell us about it</a>!</li>
 
 				<li><em>Set up the booth</em><br />
 				A crucial thing when setting up a booth is to create open space. This is very hard, as many events put a row of tables in front of the visitors 
@@ -87,8 +91,8 @@
 		</ul>
 	<h2>Contact/questions/support</h2>
 	<ul>
-		<li>For setting up the meetup page, sharing the news on the upcoming event or a report from the previous one or any other questions, contact our community manager, <a target="_blank"  href="https://www.google.com/+JosPoortvliet">Jos Poortvliet</a>.</li>
-		<li><strong>Share what you are did</strong>! It is great if you share what you did at the conference or trade show with the international community! <a href="https://www.google.com/+JosPoortvliet">Contact us here</a>.</li>
+		<li>For setting up the meetup page, sharing the news on the upcoming event or a report from the previous one or any other questions, <a href="/events/contactform">contact us</a>.</li>
+		<li><strong>Share what you are did</strong>! It is great if you share what you did at the conference or trade show with the international community. Blog about it, put some pictures on line and <a href="/events/contactform">let us know</a> what you have been up to!</li>
 	</ul>
 	</div>
 </div>
