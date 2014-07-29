@@ -25,8 +25,8 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
       <div class="panel-body">
       	<ul>
           <li>Develop your own ownCloud app (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app">app development documentation</a>)</li>
-      	  <li>Get a bug fixed (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/bugtracker">bugtracker documentation</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/general">general guidelines and setup</a>)</li>
-      	  <li>Improve the ownCloud Core (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/core">core development documentation</a>)</li>
+      	  <li>Get a bug fixed (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker">bugtracker documentation</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>general">general guidelines and setup</a>)</li>
+      	  <li>Improve the ownCloud Core (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core">core development documentation</a>)</li>
       	  <li>Learn to write ownCloud code. (Try your hands on a a <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open/">Junior Job</a>
         and see the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding">project ideas page</a>)
         </ul>
@@ -46,9 +46,10 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div id="collapseIssues" class="panel-collapse collapse">
       <div class="panel-body">
       	<p>Testing upcoming ownCloud releases is the best way of making sure the new release can do what you need it 
-      	to do. And of course, only if you report a problem to us we know about it and can fix it!</p>
-      	<p>Find the <a href="https://github.com/owncloud/core/blob/master/CONTRIBUTING.md">issue guidelines here</a>. 
-      	They explain where to look for existing issues and how to submit a new one. See the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/test-pilots">bugtracker documentation</a> for tips and info about testing.</p>
+      	to do. And of course, only if you report a problem to us we know about it and can fix it! If you have a bug to report,
+      	find the <a href="https://github.com/owncloud/core/blob/master/CONTRIBUTING.md">issue submission guidelines here</a>.</p>
+      	<p>Anybody interested in helping out with ownCloud testing is invited to join the ownCloud Test Pilot team.
+      	See <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>test-pilots">the Test Pilot documentation</a> for information!.</p>
       </div>
     </div>
   </div>
