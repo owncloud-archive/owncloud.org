@@ -26,7 +26,7 @@ div.conf-content h3 {
 	margin-left: 0;
 }
 
-div.conf-content a {
+div.conf-content a:not(.btn) {
 	color: #FFFFFF;
 	padding: 2px;
 	border-bottom: 1px solid #FFFFFF;
