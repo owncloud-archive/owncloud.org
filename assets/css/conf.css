@@ -155,3 +155,7 @@ div.conference .hs-form.stacked label {
 div.conference div.actions {
 	text-align: center;
 }
+
+div.conference a:hover {
+	color: white;
+}
