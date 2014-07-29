@@ -30,11 +30,9 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
       	  <li>Learn to write ownCloud code. (Try your hands on a a <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open/">Junior Job</a>
         and see the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding">project ideas page</a>)
         </ul>
-      	<p>For more details, check out our <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">developer documentation here</a>.
-      	Talk to us <a href="irc://#owncloud-dev@freenode.net">on IRC</a> and on our 
-      	<a href="http://mailman.owncloud.org/mailman/listinfo/devel">mailing list</a>! We look forward to your code and htoughts.</p>
-        <p><em>Please</em> be considerate of our <a href="/community/code-of-conduct/">code of conduct</a>! We like to provide a positive and enjoyable environment for everybody.</p>
-     </div>
+      	<p>Talk to us <a href="irc://#owncloud-dev@freenode.net">on IRC</a> and on our
+      	<a href="http://mailman.owncloud.org/mailman/listinfo/devel">mailing list</a>! We look forward to your code and thoughts.</p>
+        </div>
     </div>
   </div>
   <div class="panel panel-default">
@@ -50,7 +48,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
       	<p>Testing upcoming ownCloud releases is the best way of making sure the new release can do what you need it 
       	to do. And of course, only if you report a problem to us we know about it and can fix it!</p>
       	<p>Find the <a href="https://github.com/owncloud/core/blob/master/CONTRIBUTING.md">issue guidelines here</a>. 
-      	They explain where to look for existing issues and how to submit a new one. See the <?php echo $DOCUMENTATION_DEVELOPER; ?>/test-pilots">bugtracker documentation</a> for tips and info about testing.</p>
+      	They explain where to look for existing issues and how to submit a new one. See the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/test-pilots">bugtracker documentation</a> for tips and info about testing.</p>
       </div>
     </div>
   </div>
@@ -133,6 +131,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     </div>
   </div>
 </div>
-
+<br />
+<p>Please be considerate of our <a href="/community/code-of-conduct/">code of conduct</a>! We like to provide a positive and enjoyable environment for everybody.</p>
 <h1>Let's make ownCloud Rock!</h1>  
 <p>If you have any questions, <a href="/contact/">we are happy to help you</a>.</p>
