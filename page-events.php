@@ -76,6 +76,13 @@
 				<th>Link</th>
 			</tr>
 			<tr>
+				<td>Berlin, Germany</td>
+				<td><a target="_blank" href="https://wikimedia.de/">Wikimedia office Berlin</a> at Tempelhofer Ufer 23/24</td>
+				<td>Friday, August 8 2014</td>
+				<td>Danimo, Blizz, jospoortvliet</td>
+				<td><a target="_blank" href="http://blog.jospoortvliet.com/2014/07/owncloud-7-release-party-august-8-berlin.html">blogpost</a></td>
+			</tr>
+			<tr>
 				<td>Nuremberg, Germany</td>
 				<td><a target="_blank" href="http://www.coworking-nuernberg.de/">Coworkingspace</a> Nürnberg</td>
 				<td>Tuesday, August 15 2014</td>
