@@ -21,8 +21,7 @@ if(is_page('oc-news') || is_page('blogfeed')) { include roots_template_path(); }
       get_template_part('templates/header-top-navbar');
     ?>
 
-    <?php if(is_page('conf')) { // Handle conference layout ?>
-
+    <?php if(is_page('conf') || is_page('register')|| is_page('thankyou')) { // Handle conference layout ?>
       <div class="conference">
         <div class="wrap container conf-content" role="document">
           <div class="content row">

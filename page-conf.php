@@ -37,7 +37,8 @@
 	</div>
 	<div class="col-sm-6">
 		<h2>Register</h2>
-		<p>The ownCloud Contributor Conference is entirely open. We do ask you to register to help us plan better for the event. Please register <a href="http://conference.owncloud.org/conference/OCC14/register">here</a>. Note that you have to register for the site, <em>then</em> for the event!</p>
+		<p>The ownCloud Contributor Conference is entirely open. We do ask you to register to help us plan better for the event.</p>
+		<p style="text-align: center"><a style="width: 130px" class="btn btn-lg btn-primary" href="/conf/register">Register</a></p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We recommend you pick one of the following hotels:
 		<ul>
