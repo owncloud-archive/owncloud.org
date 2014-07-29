@@ -5,7 +5,7 @@ require get_template_directory().'/config.php';
 require get_template_directory().'/strings.php';
 
 // If oc-new rss page, only show page content...
-if(is_page('oc-news')) { include roots_template_path(); } else {
+if(is_page('oc-news') || is_page('blogfeed')) { include roots_template_path(); } else {
   get_template_part('templates/head'); 
   ?>
   <body <?php body_class(); ?>>
