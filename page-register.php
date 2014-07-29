@@ -3,7 +3,7 @@
 	<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 	<h2 class="conf-location">August 2014, Berlin</h2>
 </div>
-<h1>Register for Attendance</h1>
+<h1>Register for ownCloud Contributor Conference</h1>
 <script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
 <script>
   hbspt.forms.create({ 
