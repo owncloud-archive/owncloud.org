@@ -1,6 +1,7 @@
 <div class="row conf-header">
 	<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 	<h2 class="conf-location">August 2014, Berlin</h2>
+	<a href="/conf/register" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
 </div>
 <div class="row conf-info">
 	<div class="col-sm-6">
@@ -37,8 +38,7 @@
 	</div>
 	<div class="col-sm-6">
 		<h2>Register</h2>
-		<p>The ownCloud Contributor Conference is entirely open. We do ask you to register to help us plan better for the event.</p>
-		<p style="text-align: center"><a style="width: 130px" class="btn btn-lg btn-primary" href="/conf/register">Register</a></p>
+		<p>The ownCloud Contributor Conference is entirely open. We do ask you to <a href="/conf/register">register</a> to help us plan better for the event.</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We recommend you pick one of the following hotels:
 		<ul>
