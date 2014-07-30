@@ -57,13 +57,13 @@
 </div>
 <div class="row conf-partners">
 	<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="thumbnail"><div class="bannerhead text-primary">linux Weekly News</div><a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="visit lwn.net" /></a><div class="bannerfoot text-primary">Covering core Linux development</div></div>
+		<a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="visit lwn.net" /></a>
 	</div>
 	<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="thumbnail"><div class="bannerhead text-primary">The Mukt</div><a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="visit the Mukt" /></a><div class="bannerfoot text-primary">Web magazine around open culture</div></div>
+		<a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="visit the Mukt" /></a>
 	</div>
 	<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="thumbnail"><div class="bannerhead text-primary">Linux Magazine</div><a target="_blank" href="http://linux-magazin.de"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="Visit Linux Magazin" /></a><div class="bannerfoot text-primary">Open Source in professional use</div>
+		<a target="_blank" href="http://linux-magazin.de"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="Visit Linux Magazin" /></a>
 	</div>
 </div>
 <div class="row conf-about">

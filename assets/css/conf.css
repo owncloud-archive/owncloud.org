@@ -121,6 +121,8 @@ div.conf-info i {
 div.conf-partners img.banner {
 	display: block;
 	margin: 0 auto;
+	height: auto;
+	width: 200px;
 }
 
 div.footer-social-icons {
@@ -158,4 +160,8 @@ div.conference div.actions {
 
 div.conference a:hover {
 	color: white;
+}
+
+div.conf-partners a {
+	border: none !important;
 }
