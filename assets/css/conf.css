@@ -167,6 +167,9 @@ div.conference a:hover {
 	color: white;
 }
 
+body {
+	background-color: #1D2D44;
+}
 div.conf-partners a {
 	border: none !important;
 }
