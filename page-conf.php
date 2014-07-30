@@ -28,6 +28,7 @@
 			<li>Connect your JS app to ownCloud</li>
 			<li>Add the ownCloud Share API to your application</li>
 		</ul>
+		<p>Agenda coming soon!</p>
 	</div>
 </div>
 <div class="row conf-info">
