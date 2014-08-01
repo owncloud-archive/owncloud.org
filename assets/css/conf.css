@@ -170,3 +170,7 @@ div.conference a:hover {
 div.conf-partners a {
 	border: none !important;
 }
+
+.row.conf-partners {
+	margin: -20px 0;
+}
