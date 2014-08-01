@@ -1,6 +1,7 @@
 <div class="row conf-header">
 	<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 	<h2 class="conf-location">August 2014, Berlin</h2>
+	<a href="/conf/register" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
 </div>
 <div class="row conf-info">
 	<div class="col-sm-6">
@@ -27,6 +28,7 @@
 			<li>Connect your JS app to ownCloud</li>
 			<li>Add the ownCloud Share API to your application</li>
 		</ul>
+		<p>Agenda coming soon!</p>
 	</div>
 </div>
 <div class="row conf-info">
@@ -37,8 +39,7 @@
 	</div>
 	<div class="col-sm-6">
 		<h2>Register</h2>
-		<p>The ownCloud Contributor Conference is entirely open. We do ask you to register to help us plan better for the event.</p>
-		<p style="text-align: center"><a style="width: 130px" class="btn btn-lg btn-primary" href="/conf/register">Register</a></p>
+		<p>The ownCloud Contributor Conference is entirely open. We do ask you to <a href="/conf/register">register</a> to help us plan better for the event.</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We had a series of recommendations but all are now booked. You can use <a href="http://findhotelsnearanaddress.com/">this site to find something close by</a>. At this time, <a href="http://www.aletto.de/en/kudamm">hotel aletto kudamm</a> is still available and affordable.</p>
 	</div>
@@ -50,22 +51,20 @@
 </div>
 <div class="row conf-partners">
 	<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="thumbnail"><div class="bannerhead text-primary">linux Weekly News</div><a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="visit lwn.net" /></a><div class="bannerfoot text-primary">Covering core Linux development</div></div>
+		<a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="visit lwn.net" /></a>
 	</div>
 	<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="thumbnail"><div class="bannerhead text-primary">The Mukt</div><a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="visit the Mukt" /></a><div class="bannerfoot text-primary">Web magazine around open culture</div></div>
+		<a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="visit the Mukt" /></a>
 	</div>
 	<div class="col-xs-12 col-sm-6 col-md-4">
-		<div class="thumbnail"><div class="bannerhead text-primary">Linux Magazine</div><a target="_blank" href="http://linux-magazin.de"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="Visit Linux Magazin" /></a><div class="bannerfoot text-primary">Open Source in professional use</div>
+		<a target="_blank" href="http://linux-magazin.de"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="Visit Linux Magazin" /></a>
 	</div>
 </div>
 <div class="row conf-about">
 	<div class="col-sm-6 col-sm-offset-3">
-		<h2>About</h2>
-		<p>With 1.3 million users, ownCloud is THE open source file sync and sharing solution. Interested in getting involved? Check out <a href="http://owncloud.org/contribute">owncloud.org/contribute</a>!</p>
-		<strong>Thanks!</strong>
-		<p>The event is made possible thanks to the generous donation of the location by the <a>Technische Universität Berlin</a> and the financial and practical support of <a href="http://owncloud.com">ownCloud Inc</a>.</p>
-		<strong>Spread the word!</strong>
-		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="http://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/owncloud">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/102805591550379137055/posts">Google+</a>.</p>
+		<h2>Thanks!</h2>
+		<p>The event is made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="http://owncloud.com">ownCloud Inc</a>.</p>
+		<h2>Spread the word!</h2>
+		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="http://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts">Google+</a>.</p>
 	</div>
 </div>
