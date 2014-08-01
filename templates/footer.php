@@ -1,5 +1,5 @@
-<div class="row footer-social-icons">
-    <div class="col-lg-12">
+<div class="container footer-social-icons">
+    <div>
       <a target="_blank" href="https://plus.google.com/107072838776436530705/about"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img></a>
       <a target="_blank" style="margin: 0 7px 0 14px;" href="https://www.facebook.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img></a>
       <a target="_blank" style="margin: 0 14px 0 7px;"href="https://twitter.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img></a>
@@ -9,7 +9,7 @@
 <footer class="content-info" role="contentinfo">
 <div class="container">   
    <div class="row">
-     <div class="col-sm-4">
+     <div class="col-sm-2 col-sm-offset-1">
         <div class="footer-nav">
           <h4>About ownCloud</h4>
           <ul id="menu-about" class="menu">
@@ -20,7 +20,7 @@
           </ul>
         </div>
      </div>
-     <div class="col-sm-4">
+     <div class="col-sm-2 col-sm-offset-2">
         <div class="footer-nav">
           <h4>Resources</h4>
           <ul id="menu-support-and-documentation" class="menu">
@@ -31,7 +31,7 @@
           </ul>
         </div>
      </div> 
-     <div class="col-sm-4">
+     <div class="col-sm-2 col-sm-offset-2">
         <div class="footer-nav">
           <h4>Interact</h4>
           <ul id="menu-interact" class="menu">
