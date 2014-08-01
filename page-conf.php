@@ -40,13 +40,7 @@
 		<p>The ownCloud Contributor Conference is entirely open. We do ask you to register to help us plan better for the event.</p>
 		<p style="text-align: center"><a style="width: 130px" class="btn btn-lg btn-primary" href="/conf/register">Register</a></p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
-		<p>We recommend you pick one of the following hotels:
-		<ul>
-		<li><a href="https://www.novum-hotels.de/hotel-gates-berlin/hotel-gates-information-berlin.php">three-star Novum Gates</a>, costs about €34/night</li>
-		<li><a href="https://www.novum-hotels.de/hotel-centrum-berlin/hotel-centrum-information-berlin.php">three-star Novum DAS</a>, costs about €43/night</li>
-		<li><a href="http://www.accorhotels.com/gb/hotel-3649-novotel-berlin-am-tiergarten/index.shtml">four-star Novotel am tiergarten</a>, costs about €75/night</li>
-		</ul>
-		</p>
+		<p>We had a series of recommendations but all are now booked. You can use <a href="http://findhotelsnearanaddress.com/">this site to find something close by</a>. At this time, <a href="http://www.aletto.de/en/kudamm">hotel aletto kudamm</a> is still available and affordable.</p>
 	</div>
 </div>
 <div class="row conf-partners-title">
