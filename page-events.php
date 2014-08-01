@@ -85,9 +85,9 @@
 			<tr>
 				<td>Nuremberg, Germany</td>
 				<td><a target="_blank" href="http://www.coworking-nuernberg.de/">Coworkingspace</a> Nürnberg</td>
-				<td>Tuesday, August 15 2014</td>
+				<td>Tuesday, August 5 2014</td>
 				<td>Tobias, Klaas, Holger</td>
-				<td>Blog: <a target="_blank" href="https://dragotin.wordpress.com/2014/07/24/lets-party/">Let's party!</a></td>
+				<td><a target="_blank" href="https://dragotin.wordpress.com/2014/07/24/lets-party/">Blog</a> and <a href="https://www.facebook.com/events/769781489711151/">facebook</a></td>
 			</tr>
 			</tr>
 		</table>
