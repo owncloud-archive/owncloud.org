@@ -63,8 +63,8 @@
 <div class="row conf-about">
 	<div class="col-sm-6 col-sm-offset-3">
 		<h2>Thanks!</h2>
-		<p>The event is made possible thanks to the generous donation of the location by the <a>Technische Universität Berlin</a> and the financial and practical support of <a href="http://owncloud.com">ownCloud Inc</a>.</p>
+		<p>The event is made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="http://owncloud.com">ownCloud Inc</a>.</p>
 		<h2>Spread the word!</h2>
-		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="http://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/owncloud">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/102805591550379137055/posts">Google+</a>.</p>
+		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="http://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts">Google+</a>.</p>
 	</div>
 </div>
