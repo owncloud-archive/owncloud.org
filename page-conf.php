@@ -62,11 +62,9 @@
 </div>
 <div class="row conf-about">
 	<div class="col-sm-6 col-sm-offset-3">
-		<h2>About</h2>
-		<p>With 1.3 million users, ownCloud is THE open source file sync and sharing solution. Interested in getting involved? Check out <a href="http://owncloud.org/contribute">owncloud.org/contribute</a>!</p>
-		<strong>Thanks!</strong>
+		<h2>Thanks!</h2>
 		<p>The event is made possible thanks to the generous donation of the location by the <a>Technische Universität Berlin</a> and the financial and practical support of <a href="http://owncloud.com">ownCloud Inc</a>.</p>
-		<strong>Spread the word!</strong>
+		<h2>Spread the word!</h2>
 		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="http://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/owncloud">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/102805591550379137055/posts">Google+</a>.</p>
 	</div>
 </div>
