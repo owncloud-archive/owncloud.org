@@ -48,6 +48,11 @@ div.conf-header {
 
 .not-front .conf-img {
   	margin: 0;
+  	width: 215px;
+}
+
+.conf-header > h2 {
+	font-size: 20px !important;
 }
 
 h2.conf-location {
