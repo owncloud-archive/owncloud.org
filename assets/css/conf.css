@@ -48,6 +48,11 @@ div.conf-header {
 
 .not-front .conf-img {
   	margin: 0;
+  	width: 215px;
+}
+
+.conf-header > h2 {
+	font-size: 20px !important;
 }
 
 h2.conf-location {
@@ -110,7 +115,7 @@ div.conf-content h2>small {
 	font-size: 15px;
 }
 
-div.conf-content i {
+div.conf-info i {
 	font-size: 37px;
 	margin: 0 auto;
 	display: block;
@@ -121,6 +126,8 @@ div.conf-content i {
 div.conf-partners img.banner {
 	display: block;
 	margin: 0 auto;
+	height: auto;
+	width: 200px;
 }
 
 div.footer-social-icons {
@@ -158,6 +165,22 @@ div.conference div.actions {
 
 div.conference a:hover {
 	color: white;
+}
+
+div.conf-partners a {
+	border: none !important;
+}
+
+.row.conf-partners {
+	margin: -20px 0;
+}
+
+div.conf-partners a {
+	border: none !important;
+}
+
+.row.conf-partners {
+	margin: -20px 0;
 }
 
 body {
