@@ -49,7 +49,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
       	to do. And of course, only if you report a problem to us we know about it and can fix it! If you have a bug to report,
       	find the <a href="https://github.com/owncloud/core/blob/master/CONTRIBUTING.md">issue submission guidelines here</a>.</p>
       	<p>Anybody interested in helping out with ownCloud testing is invited to join the ownCloud Test Pilot team.
-      	See <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>test-pilots">the Test Pilot documentation</a> for information!.</p>
+      	See <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing">the Test Pilot documentation</a> for information!.</p>
       </div>
     </div>
   </div>
