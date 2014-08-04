@@ -1,6 +1,35 @@
 <div class="page-header">
 	<h1>ownCloud Server Changelog</h1>
 </div>
+<h3>Version 7.0.1 <small>August 4th 2014</small></h3> 
+<li>Set maximum width for notification so they don't overlap the whole header</li>
+<li>Don't preload videos on public sharing</li>
+<li>Fix preview size calculation under certain conditions</li>
+<li>Fix to always show all available versions in the versions dropdown</li>
+<li>Support WebDAV copy operation and make encryption aware of it</li>
+<li>Make sure to set the expire date if a date is set as default</li>
+<li>Improved link icon for better UX</li>
+<li>Fix rendering of blank template</li>
+<li>Only call exec if is is enabled by PHP</li>
+<li>Limit app menu icon size</li>
+<li>Show a warning in the personal settings and admin settins if the encyption keys are not yet initialized</li>
+<li>Always remove share permission if user is excluded from sharing</li>
+<li>Add OCS api call to set expire date for link shares</li>
+<li>Improved db schema migration for sqlite</li>
+<li>Don't try to execute background jobs that no longer exist</li>
+<li>Improve look of search on mobile, save space in top bar</li>
+<li>Set core version after a successful update to make upgrade more robust of app upgrades fail</li>
+<li>Verify whether download URLs are valid</li>
+<li>Fix preview animation on uploading</li>
+<li>Prevent cron.php to trigger apps updating</li>
+<li>Fix remote share when remote server is installed at the root</li>
+<li>Fix files sorting</li>
+<li>Fix calendar import</li>
+<li>Fix gallery pause icon</li>
+<li>Several contacts fixes specifically for PHP 5.3</li>
+<li>Make updater more robust</li>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.1.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.1.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.1.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.1.tar.bz2.md5</a></br>
 <h3>Version 7.0.0 <small>June 23rd 2014</small></h3> 
 <li>New files view including sorting and endless scrolling</li>
 <li>Server to Server sharing</li>
