@@ -1,6 +1,24 @@
 <div class="page-header">
 	<h1>ownCloud Server Changelog</h1>
 </div>
+<h3>Version 7.0.0 <small>June 23rd 2014</small></h3> 
+<li>New files view including sorting and endless scrolling</li>
+<li>Server to Server sharing</li>
+<li>Sharing overview</li>
+<li>Improved sharing admin control</li>
+<li>No more mandatory Shared folder</li>
+<li>Improved ownCloud Documents features</li>
+<li>Hugely improved Activity app including email notifications</li>
+<li>Mobile optimized webinterface</li>
+<li>Password strength indicator</li>
+<li>Significant speed improvements</li>
+<li>New user-management</li>
+<li>Support for Swift object stores</li>
+<li>Email configuration wizard</li>
+<li>Email template editor</li>
+<li>Improved upgrade process</li>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.0.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.0.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.0.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.0.tar.bz2.md5</a></br>
 <h3>Version 6.0.4 <small>June 23rd 2014</small></h3>
 <ul>
 <li>Fixed a security issue (Will be disclosed two weeks after this release)
