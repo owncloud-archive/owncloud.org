@@ -34,7 +34,7 @@
 		</div>
 
 		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-			<h2><i class="icon-unlock">&nbsp;</i> Open Source</h2>
+			<h2><i class="icon-lock">&nbsp;</i> Open Source</h2>
 			<p>All of the code running ownCloud is open source, allowing the public to openly review its security and anyone can contribute towards the development of ownCloud.</p>
 		</div>
 	</div>
