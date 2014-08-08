@@ -57,18 +57,17 @@ function displayProviders($providers) {
 			if(!empty($providers[$provider]->supports)) {
 				echo '<span>Ideal for: </span>';
 				echo '<ul class="list-unstyled list-inline">';
-			foreach($providers[$provider]->supports as $supporting) {
-				echo '<li class="text-primary">' . $supporting . '</li>';
-			}
+				foreach($providers[$provider]->supports as $supporting) {
+					echo '<li class="text-primary">' . $supporting . '</li>';
+				}
 				echo '</ul>';
-
-}
+			}
 			echo '</div>';
-
 			echo '</div>';
 			echo '</div>';
 		}
 		echo '</div>';
+
 }
 
 ?>
