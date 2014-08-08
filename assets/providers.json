@@ -726,8 +726,7 @@
             "consumers"
          ],
          "imagename":"centurymedia.png"
-      }
-      ,
+      },
       {
          "title":"nwavehosting.com",
          "url":"http:\/\/nwavehosting.com\/cloud-services\/owncloud.html",
@@ -742,6 +741,21 @@
             "consumers"
          ],
          "imagename":"nwavehosting.jpg"
+      },
+      {
+         "title":"tifo.com",
+         "url":"http:\/\/www.tifo.com.ar\/index.php\/productos\/20-cloud",
+         "flags":[
+            "ar",
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers",
+            "resellers"
+         ],
+         "imagename":"tifo.png"
       }
    ]
 }
