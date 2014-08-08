@@ -230,3 +230,7 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 		padding-top: 20px;
 	}
 }
+
+div.alert-info > a {
+	text-decoration: underline;
+}
