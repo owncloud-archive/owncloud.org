@@ -608,7 +608,9 @@
          "title":"hummingbirdstorage.com",
          "url":"http:\/\/hummingbirdstorage.com",
          "flags":[
-            "de"
+            "de",
+            "us",
+            "gb"
          ],
          "freeplans":false,
          "supports":[
