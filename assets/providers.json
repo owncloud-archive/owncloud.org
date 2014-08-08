@@ -756,6 +756,18 @@
             "resellers"
          ],
          "imagename":"tifo.png"
+      },
+      {
+         "title":"infradms.com",
+         "url":"http:\/\/www.infradms.com\/infrafile",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations"
+         ],
+         "imagename":"infradms.jpeg"
       }
    ]
 }
