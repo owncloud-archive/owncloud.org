@@ -34,7 +34,7 @@
 		</div>
 
 		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-			<h2><i class="icon-opensource">&nbsp;</i> Open Source</h2>
+			<h2><i class="icon-unlock">&nbsp;</i> Open Source</h2>
 			<p>All of the code running ownCloud is open source, allowing the public to openly review its security and anyone can contribute towards the development of ownCloud.</p>
 		</div>
 	</div>
@@ -89,8 +89,8 @@
 		</div>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-	<h2><i class="icon-briefcase">&nbsp;</i> Company support</h2>
-	<p>ownCloud is perfect for use inside your company. Your data on your servers, under your control. <a href="https://owncloud.com">ownCloud Inc</a> offers Enterprise editions with extensive support.</p>
+	<h2><i class="icon-briefcase">&nbsp;</i> ownCloud for the Enterprise</h2>
+	<p>ownCloud Enterprise Edition was created with additional features and support to ensure your sensitive corporate data remains in your control. See what is a href="https://owncloud.com/products/enterprise/">best for you</a>.</p>
 	</div>
 </div>
 <div class="row 3-column-lg-md-sm">
