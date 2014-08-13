@@ -68,6 +68,7 @@
 							<img id="sync-button" alt="googleplay" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png" />
 						</a>
 					  </li>
+						Find <a href="https://github.com/owncloud/core/wiki/Apps">third party apps integrating in ownCloud here</a>.
 					</ul>
 			</div>
 		</div>
