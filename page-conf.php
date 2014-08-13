@@ -28,7 +28,7 @@
 			<li>Connect your JS app to ownCloud</li>
 			<li>Add the ownCloud Share API to your application</li>
 		</ul>
-		<p>Agenda coming soon!</p>
+		<p>Agenda coming soon! Click <a href="http://conference.owncloud.org">here</a> to submit a talk or workshop proposal.</p>
 	</div>
 </div>
 <div class="row conf-info">
