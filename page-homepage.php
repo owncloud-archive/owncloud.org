@@ -27,18 +27,18 @@
 	<div class="row 3-column-lg-md-sm">
 
 		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-			<h2><i class="icon-filter">&nbsp;</i> Integration</h2>
-			<p>ownCloud uses open standards to allow easy integration with your existing services. Use CalDAV, CardDAV, and WebDAV to sync your data along with many more.</p>
+			<h2><i class="icon-globe">&nbsp;</i> Access</h2>
+			<p>Access your data from your web browser, Android or iOS devices and your laptop and desktop. ownCloud integrates with your existing services thanks to open standards. <a href="https://owncloud.org/features" class="btn btn-lg btn-standard alignright">More features</a></p>
 		</div>
 
 		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 			<h2><i class="icon-exclamation-circle">&nbsp;</i> Privacy</h2>
-			<p>ownCloud protects your privacy by allowing you to maintain control over your data. Server-side encryption can secure data hosted in external sources.</p>
+			<p>ownCloud gives you control over your data. You decide what is shared with who and for how long. Server-side encryption can secure data hosted on external services.<a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" class="btn btn-lg btn-standard alignright">More about security</a></p>
 		</div>
 
 		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-			<h2><i class="icon-unlock">&nbsp;</i> Open Source</h2>
-			<p>All of the code running ownCloud is open source, allowing the public to openly review its security and anyone can contribute towards the development of ownCloud.</p>
+			<h2><i class="icon-unlock">&nbsp;</i> Extensible</h2>
+			<p>Extend ownCloud with apps, external storage and your own code. ownCloud is <a href="http://github.com/ownCloud">developed on github</a>, features easy to use API's and has a friendly and open community. <a href="https://owncloud.org/contribute" class="btn btn-lg btn-standard alignright">Get involved</a></p>
 		</div>
 	</div>
 	<div class="row" id="getapps">
