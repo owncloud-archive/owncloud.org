@@ -67,4 +67,4 @@ Please let us know if you want to contribute to the design and would like to be 
 
 <p>Learn more about design &amp; usability, read <a href="http://jancborchardt.net/usability-in-free-software ">Usability in Free Software</a>.</p>
 
-<p>If you just want to read about what’s new in ownCloud design, check out the <a href="https://owncloud.com/blog/category/design">ownCloud blog Design category</a>.</p>
+<p>If you just want to read about what’s new in ownCloud design, check out the <a href="https://owncloud.com/category/design/">ownCloud blog Design category</a>.</p>

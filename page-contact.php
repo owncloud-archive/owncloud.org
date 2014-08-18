@@ -7,8 +7,8 @@ For the latest news, subscribe to our <a href="http://owncloud.org/feed/">RSS fe
 
 <p>For reporting vulnerabilities, read <a href="http://owncloud.org/security">Security</a>.</p>
 
-<p class="socialicons">Also find us on <a href="https://www.facebook.com/owncloud">Facebook</a>, <a href="https://plus.google.com/102805591550379137055">Google+</a> and <a href="http://twitter.com/ownclouders"><img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitter.png" width="16px" height="16px" /> Twitter</a>.</p>
-<h2>Active core contributors:</h2>
+<p class="socialicons">Also find us on <a href="https://www.facebook.com/ownClouders">Facebook</a>, <a href="https://plus.google.com/107072838776436530705/about">Google+</a> and <a href="http://twitter.com/ownclouders"><img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitter.png" width="16px" height="16px" /> Twitter</a>.</p>
+<h2>Active contributors on the <a href="../news">ownCloud blog roll</a>:</h2>
 
 <?php
 if(CONTRIBOOK) {
@@ -35,3 +35,5 @@ if(CONTRIBOOK) {
 	echo('</table>');
 
 }
+?>
+Ping the community manager  on IRC (nick: jospoortvliet) or <a href="https://plus.google.com/117563705675081959469">G+, mail etc</a> to be added.
