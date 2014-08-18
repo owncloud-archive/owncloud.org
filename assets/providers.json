@@ -608,7 +608,9 @@
          "title":"hummingbirdstorage.com",
          "url":"http:\/\/hummingbirdstorage.com",
          "flags":[
-            "de"
+            "de",
+            "us",
+            "gb"
          ],
          "freeplans":false,
          "supports":[
@@ -666,7 +668,7 @@
       },
       {
          "title":"woelkli.com",
-         "url":"http:\/\/woelkli.com",
+         "url":"https:\/\/woelkli.com",
          "flags":[
             "ch"
          ],
@@ -724,8 +726,7 @@
             "consumers"
          ],
          "imagename":"centurymedia.png"
-      }
-      ,
+      },
       {
          "title":"nwavehosting.com",
          "url":"http:\/\/nwavehosting.com\/cloud-services\/owncloud.html",
@@ -740,6 +741,33 @@
             "consumers"
          ],
          "imagename":"nwavehosting.jpg"
+      },
+      {
+         "title":"tifo.com",
+         "url":"http:\/\/www.tifo.com.ar\/index.php\/productos\/20-cloud",
+         "flags":[
+            "ar",
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers",
+            "resellers"
+         ],
+         "imagename":"tifo.png"
+      },
+      {
+         "title":"infradms.com",
+         "url":"http:\/\/www.infradms.com\/infrafile",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations"
+         ],
+         "imagename":"infradms.jpeg"
       }
    ]
 }

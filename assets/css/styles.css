@@ -231,6 +231,10 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 	}
 }
 
+div.alert-info > a {
+	text-decoration: underline;
+}
+
 i.icon-opensource {
 	background: url("../img/opensource.png") no-repeat;
 	display: inline-block;
