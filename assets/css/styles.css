@@ -142,6 +142,10 @@ div.sub-nav {
  	.home-header-image {
  		margin-top: 2em !important;
  	}
+ 	.home h2.slogan {
+ 		font-size: 20px !important;
+ 		margin-bottom: 20px !important;
+ 	}
  }
 
 li.top-nav-active > a {
@@ -251,6 +255,7 @@ i.icon-opensource {
 
 div.row.home-row > div{
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 div.row.home-row p {
@@ -272,6 +277,7 @@ div.row.home-row h2 {
 	background-color: #FFFFFF;
 	border: 1px solid #428BCA;
 	font-weight: 700;
+	margin-top: 25px;
 }
 
 .content.row, .row.row-slogan {
@@ -289,4 +295,39 @@ a.join-button {
 
 .home .row {
 	padding-bottom: 0 !important;
+}
+
+@media (max-width: 1199px) {
+	.home div.install-buttons {
+		text-align: center;
+	}
+	.home #getapps h2 {
+		margin-top: 45px;
+	}
+	.home #getapps .btn-group {
+		margin-top: -10px;
+	}
+
+	.home #getapps .client-install {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.home #getapps .client-install, .home #getapps .btn-group, .home #getapps h2 {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 562px) {
+	.home #getapps .client-install {
+		margin-top: 10px;
+	}
+}
+
+.home .home-row a.feature-link {
+	position: absolute;
+	right: 0;
+	margin-right: 18px;
+	margin-bottom: 30px;
 }

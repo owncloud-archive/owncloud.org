@@ -28,27 +28,27 @@ width: 100%;">
 			<i class="icon-globe">&nbsp;</i>
 			<h2>Access</h2>
 			<p>Access your data from your web browser, Android or iOS devices and your laptop and desktop.</p>
-			<a href="https://owncloud.org/features" class="btn btn-lg alignright">More features...</a>
+			<a href="https://owncloud.org/features" class="btn btn-lg feature-link alignright">More features...</a>
 		</div>
 
 		<div class="col-xs-12 col-sm-6 col-md-3">
 			<i class="icon-exclamation-circle">&nbsp;</i>
 			<h2>Privacy</h2>
 			<p>ownCloud gives you control over your data. You decide what is shared with who and for how long.</p>
-			<a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" class="btn btn-lg alignright">More about security...</a>
+			<a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" class="btn feature-link btn-lg alignright">More about security...</a>
 		</div>
 
 		<div class="col-xs-12 col-sm-6 col-md-3">
 			<i class="icon-unlock">&nbsp;</i>
 			<h2>Extensible</h2>
-			<p>Add apps, external storage, or your own code! Join the friendly and open community.</p>
-			<a href="https://owncloud.org/contribute" class="btn btn-lg alignright">Get involved...</a>
+			<p>Add apps, external storage, or your own code! Join the friendly and open community and get started!</p>
+			<a href="https://owncloud.org/contribute" class="btn feature-link btn-lg alignright">Get involved...</a>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-3">
 			<i class="icon-briefcase">&nbsp;</i>
 			<h2>For Enterprise</h2>
 			<p>Additional features and support to ensure your sensitive corporate data remains in your control.</p>
-			<a href="https://owncloud.com" style="color: #e8733b" class="btn btn-lg alignright">Enterprise Edition...</a>
+			<a href="https://owncloud.com" style="color: #e8733b" class="btn feature-link btn-lg alignright">Enterprise Edition...</a>
 		</div>
 	</div>
 	<div class="row pad-bottom" id="getapps">
@@ -62,13 +62,13 @@ width: 100%;">
 						<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Host ownCloud</br><small>For server owners</small></a>
 						<a class="btn btn-default btn-lg hostingbtn" href="/providers/"><i class="icon-search" ></i> Find hosting</br><small>with a third party</small></a>
 					</div>
-					<a class="btn btn-default btn-lg hostingbtn" href="/providers/"><i class="icon-mobile" ></i> Install Clients</br><small>for desktop and mobile</small></a>
+					<a class="btn btn-default btn-lg client-install" href="/install/#desktop"><i class="icon-mobile" ></i> Install Clients</br><small>for desktop and mobile</small></a>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="row pad-bottom 2-column-lg-md-sm" style="margin-top: -0.5em">
+<div class="row pad-bottom	 2-column-lg-md-sm" style="margin-top: -0.5em">
 	<div class="col-xs-12 col-sm-6">
 		<h2><i class="icon-rocket">&nbsp;</i> Get involved</h2>
 		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="http://forum.owncloud.org/">Forum</a>, post bugs in the <a href="https://github.com/owncloud/core/issues">tracker</a>, test ownCloud using the <a href="http://doc.owncloud.org/server/7.0/developer_manual/testing/index.html">test plan</a>, hang out in the <a href="http://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>
