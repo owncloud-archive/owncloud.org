@@ -13,7 +13,12 @@ div#getapps h2{
 }
 
 div#getapps .row {
-	padding-top: 7px;
+	margin-top: 40px;
+	margin-bottom: 47px;
+}
+
+div#getapps {
+	margin-bottom: 40px !important;
 }
 
 div#getapps .install-buttons {
@@ -72,10 +77,6 @@ footer div.footer-nav>h4 {
 
 i[class*='icon-'] {
 	font-style: normal;
-}
-
-.home .row {
-	padding-bottom: 20px;
 }
 
 p.socialicons > a > img {
@@ -228,6 +229,8 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 	text-align: center;
 	font-weight: 200;
 	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
@@ -252,7 +255,6 @@ i.icon-opensource {
 
 div.row.home-row > div{
 	text-align: center;
-	margin-top: 20px;
 }
 
 div.row.home-row p {
@@ -274,4 +276,21 @@ div.row.home-row h2 {
 	background-color: #FFFFFF;
 	border: 1px solid #428BCA;
 	font-weight: 700;
+}
+
+.content.row, .row.row-slogan {
+	margin-top: 0;
+}
+
+a.join-button {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.home div.row.pad-bottom {
+	margin-bottom: 45px;
+}
+
+.home .row {
+	padding-bottom: 0 !important;
 }

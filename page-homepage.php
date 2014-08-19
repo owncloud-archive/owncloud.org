@@ -1,5 +1,5 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
-<div class="row" style="float: left;
+<div class="row row-slogan" style="float: left;
 text-align: center;
 width: 100%;">
 	<h2 class="slogan">Your data - under your control</h2>
@@ -17,13 +17,13 @@ width: 100%;">
 			Access your data from all your devices, on an open platform you can extend and modify.</p>
 	</div>
 </div>
-<div class="row highlight">
+<div class="row pad-bottom highlight">
 	<h3 class="conference hidden-xs"><a href="/conf">ownCloud Contributor Conference - August 2014, Berlin</a></h3>
 	<h3 class="conference visible-xs"><a href="/conf">ownCloud Contributor Conference <br/>
 	August 2014, Berlin</a></h3>
 </div>
 </div>
-	<div class="row home-row 	3-column-lg-md-sm">
+	<div class="row home-row pad-bottom 3-column-lg-md-sm">
 		<div class="col-xs-12 col-sm-6 col-md-3">
 			<i class="icon-globe">&nbsp;</i>
 			<h2>Access</h2>
@@ -51,7 +51,7 @@ width: 100%;">
 			<a href="https://owncloud.com" style="color: #e8733b" class="btn btn-lg alignright">Enterprise Edition...</a>
 		</div>
 	</div>
-	<div class="row" id="getapps">
+	<div class="row pad-bottom" id="getapps">
 		<div class="col-sm-12">
 			<div class="row">
 				<div class="col-sm-6 col-xs-12">
@@ -68,7 +68,7 @@ width: 100%;">
 		</div>
 	</div>
 </div>
-<div class="row 2-column-lg-md-sm" style="margin-top: -0.5em">
+<div class="row pad-bottom 2-column-lg-md-sm" style="margin-top: -0.5em">
 	<div class="col-xs-12 col-sm-6">
 		<h2><i class="icon-rocket">&nbsp;</i> Get involved</h2>
 		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="http://forum.owncloud.org/">Forum</a>, post bugs in the <a href="https://github.com/owncloud/core/issues">tracker</a>, test ownCloud using the <a href="http://doc.owncloud.org/server/7.0/developer_manual/testing/index.html">test plan</a>, hang out in the <a href="http://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>
