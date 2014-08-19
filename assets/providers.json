@@ -752,8 +752,7 @@
          "freeplans":false,
          "supports":[
             "organisations",
-            "consumers",
-            "resellers"
+            "consumers"
          ],
          "imagename":"tifo.png"
       },
@@ -781,6 +780,19 @@
             "consumers"
          ],
          "imagename":"webmeisterei.png"
+      },
+      {
+         "title":"opticempire.com.au",
+         "url":"http:\/\/www.opticempire.com.au",
+         "flags":[
+            "au"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers"
+         ],
+         "imagename":"opticempire.png"
       }
 
    ]
