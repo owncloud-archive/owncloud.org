@@ -243,3 +243,7 @@ i.icon-opensource {
 	background-position: center;
 	margin-right: 6px;
 }
+
+div.alert-info > a {
+	text-decoration: underline;
+}

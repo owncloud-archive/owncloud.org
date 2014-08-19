@@ -768,6 +768,19 @@
             "organisations"
          ],
          "imagename":"infradms.jpeg"
+      },
+      {
+         "title":"webmeisterei.com",
+         "url":"http:\/\/webmeisterei.com\/saas\/personalcloud",
+         "flags":[
+            "at"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers"
+         ],
+         "imagename":"webmeisterei.png"
       }
    ]
 }
