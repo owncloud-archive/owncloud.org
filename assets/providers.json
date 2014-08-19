@@ -752,8 +752,7 @@
          "freeplans":false,
          "supports":[
             "organisations",
-            "consumers",
-            "resellers"
+            "consumers"
          ],
          "imagename":"tifo.png"
       },
