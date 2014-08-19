@@ -3,11 +3,9 @@
 <div class="header"><div class="row image">
 	<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 		<img class="home-header-image" alt="image about owncloud sync" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/ocsplash.png" />
-		</div>
+	</div>
 </div>
 </a>
-<a href="https://owncloud.com/" class="btn btn-lg btn-primary alignright">ownCloud for Enterprise</a><br /><br />
-<a href="https://owncloud.org/contribute" class="btn btn-lg btn-primary alignright">ownCloud for Developers</a><br />
 <div class="row">
 	<h2 class="slogan">Your data - under your control</h2>
 </div>
@@ -17,7 +15,6 @@
 			Access your data from all your devices, on an open platform you can extend and modify.</p>
 	</div>
 </div>
-
 <div class="row highlight">
 	<h3 class="conference hidden-xs"><a href="/conf">ownCloud Contributor Conference - August 2014, Berlin</a></h3>
 	<h3 class="conference visible-xs"><a href="/conf">ownCloud Contributor Conference <br/>
