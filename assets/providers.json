@@ -793,6 +793,16 @@
             "consumers"
          ],
          "imagename":"opticempire.png"
+      },
+      {
+         "title":"rw-consult.com",
+         "url":"http:\/\/www.rw-consult.com",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[],
+         "imagename":"rwconsult.png"
       }
 
    ]
