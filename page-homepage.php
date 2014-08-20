@@ -1,5 +1,5 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
-<h2 class="slogan-mobile">Your data - under your control</h2>
+<h2 class="slogan-mobile">Your Data - Under Uour Control</h2>
 <a href="/features">
 <div class="header"><div class="row image">
 	<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
