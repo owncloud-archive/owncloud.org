@@ -293,6 +293,10 @@ a.join-button {
 	margin: 0 auto;
 }
 
+.home div.join a.join-button {
+	margin-bottom: 23px;
+}
+
 .home div.row.pad-bottom {
 	margin-bottom: 45px;
 }
@@ -334,4 +338,8 @@ a.join-button {
 	right: 0;
 	margin-right: 18px;
 	margin-bottom: 30px;
+}
+
+.home h2 {
+	margin-bottom: 20px;
 }
