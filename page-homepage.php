@@ -1,12 +1,9 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
-<div class="row row-slogan" style="float: left;
-text-align: center;
-width: 100%;">
-	<h2 class="slogan">Your data - under your control</h2>
-</div>
+<h2 class="slogan-mobile">Your data - under your control</h2>
 <a href="/features">
 <div class="header"><div class="row image">
 	<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+		<h2 class="slogan">Your data - under your control</h2>
 		<img class="home-header-image" alt="image about owncloud sync" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/ocsplash.png" />
 	</div>
 </div>

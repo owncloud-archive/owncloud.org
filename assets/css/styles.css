@@ -125,12 +125,6 @@ div.sub-nav {
 	margin-top: -30px;
 }
 
-@media (max-width: 992px) {
-	a.facebook-button {
-		margin: 10px 0 !important;
-	}
-}
-
 .home-header-image {
 	display: block; 
 	width: 80%; 
@@ -138,15 +132,7 @@ div.sub-nav {
 	margin: 5em auto 10px;
 }
 
-@media (max-width: 991px) {
- 	.home-header-image {
- 		margin-top: 2em !important;
- 	}
- 	.home h2.slogan {
- 		font-size: 20px !important;
- 		margin-bottom: 20px !important;
- 	}
- }
+
 
 li.top-nav-active > a {
 	border-bottom: 2px solid white;
@@ -224,9 +210,23 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 	background-size: 21.4% auto;
 }
 
-.home h2.slogan {
+.home h2.slogan, .home h2.slogan-mobile {
 	font-weight: 200;
 	font-size: 40px;
+	text-decoration: none;
+	color: #333;
+}
+
+.home h2.slogan {
+	position: absolute;
+	top: -68px;
+	left: 300px;
+	margin-top: -10px !important;
+	margin-left: 40px !important;
+}
+
+.home .header:hover {
+	text-decoration: none !important;
 }
 
 .home p.explain-short {
@@ -241,6 +241,11 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 	.banner ul#menu-header.nav {
 		width: 80%;
 		padding-top: 20px;
+	}
+
+	.home h2.slogan {
+		left: 245px;
+		top: -71px;
 	}
 }
 
@@ -288,6 +293,12 @@ div.row.home-row h2 {
 	margin-top: 0;
 }
 
+.row.row-slogan {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
 a.join-button {
 	width: 70%;
 	margin: 0 auto;
@@ -333,10 +344,42 @@ a.join-button {
 	}
 }
 
+@media (max-width: 991px) {
+ 	.home-header-image {
+ 		margin-top: 2em !important;
+ 	}
+
+ 	a.facebook-button {
+		margin: 10px 0 !important;
+	}
+
+	.header .row.image {
+		margin-top: 30px;
+	}
+
+	.home h2.slogan {
+		display: none;
+	}
+
+	.home h2.slogan-mobile {
+		display: block !important;
+	}
+ }
+
 .home .home-row a.feature-link {
 	margin-bottom: 30px;
 }
 
 .home h2 {
 	margin-bottom: 20px;
+}
+
+.home h2.slogan-mobile {
+	display: none;
+	font-size: 20px;
+	text-align: center;
+}
+
+.banner ul#menu-header.nav>li.menu-commercial>a:hover{
+	border-bottom: 2px solid #e8733b;
 }
