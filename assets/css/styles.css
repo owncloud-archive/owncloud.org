@@ -259,10 +259,10 @@ i.icon-opensource {
 
 div.row.home-row > div{
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
-div.row.home-row p {
+div.home-ft-content {
 	text-align: left;
 }
 
@@ -334,9 +334,6 @@ a.join-button {
 }
 
 .home .home-row a.feature-link {
-	position: absolute;
-	right: 0;
-	margin-right: 18px;
 	margin-bottom: 30px;
 }
 
