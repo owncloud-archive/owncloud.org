@@ -41,7 +41,7 @@
 		<p>The ownCloud Contributor Conference is entirely open. We do ask you to <a href="/conf/register">register</a> to help us plan better for the event.</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We had a series of recommendations but all are now booked. You can use <a href="http://findhotelsnearanaddress.com/">this site to find something close by</a>. At this time, <a href="http://www.aletto.de/en/kudamm">hotel aletto kudamm</a> is still available and affordable.</p>
-		<p>We want everybody to feel welcome at the event. Please be mindful of our <a href="https://owncloud.org/community/code-of-conduct/">code of conduct</a>.
+		<p>We want everybody to feel welcome at the event. Please be mindful of our <a href="https://owncloud.org/community/code-of-conduct/">code of conduct</a>. Also, pleae note that there will be some video recording. It is an open space, please be sure that you are comfortable with that. Of course, you can always ask people not to take pictures or video of you.</p>
 	</div>
 </div>
 <div class="row conf-partners-title">
