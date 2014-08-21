@@ -39,7 +39,7 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-3">
-			<i class="icon-unlock">&nbsp;</i>
+			<i class="icon-opensource">&nbsp;</i>
 			<h2>Extend</h2>
 			<div class="home-ft-content">
 				<p>Add apps, external storage, or your own code! Join the friendly open source community and get started!</p>
