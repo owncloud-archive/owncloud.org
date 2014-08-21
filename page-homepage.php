@@ -21,6 +21,15 @@
 </div>
 </div>
 	<div class="row home-row pad-bottom 3-column-lg-md-sm">
+
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<i class="icon-exclamation-circle">&nbsp;</i>
+			<h2>Protect</h2>
+			<div class="home-ft-content">
+				<p>ownCloud gives you control over your data. You decide what is shared with who and for how long.</p>
+				<a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" class="feature-link">More about security...</a>
+			</div>
+		</div>
 		<div class="col-xs-12 col-sm-6 col-md-3">
 			<i class="icon-globe">&nbsp;</i>
 			<h2>Access</h2>
@@ -29,21 +38,11 @@
 				<a href="https://owncloud.org/features" class="feature-link">More features...</a>
 			</div>
 		</div>
-
-		<div class="col-xs-12 col-sm-6 col-md-3">
-			<i class="icon-exclamation-circle">&nbsp;</i>
-			<h2>Privacy</h2>
-			<div class="home-ft-content">
-				<p>ownCloud gives you control over your data. You decide what is shared with who and for how long.</p>
-				<a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" class="feature-link">More about security...</a>
-			</div>
-		</div>
-
 		<div class="col-xs-12 col-sm-6 col-md-3">
 			<i class="icon-unlock">&nbsp;</i>
-			<h2>Extensible</h2>
+			<h2>Extend</h2>
 			<div class="home-ft-content">
-				<p>Add apps, external storage, or your own code! Join the friendly and open community and get started!</p>
+				<p>Add apps, external storage, or your own code! Join the friendly open source community and get started!</p>
 				<a href="https://owncloud.org/contribute" class="feature-link">Get involved...</a>
 			</div>
 		</div>
