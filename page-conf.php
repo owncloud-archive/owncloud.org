@@ -23,10 +23,9 @@
 		Join us for keynotes, lightning talks and workshops:</p>
 		<ul>
 			<li>Learn to write your first ownCloud App</li>
+			<li>Find out about the state of the Music, Files or Calendar app</li>
 			<li>Secure your PHP application</li>
-			<li>Learn how to write code tests</li>
 			<li>Connect your JS app to ownCloud</li>
-			<li>Add the ownCloud Share API to your application</li>
 		</ul>
 		<p>Find <a href="https://owncloud.org/blog/owncloud-contributor-conference-featuring-hackathon-and-conference-with-over-30-sessions">here an overview of the program</a>.</p>
 	</div>
