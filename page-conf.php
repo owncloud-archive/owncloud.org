@@ -28,7 +28,7 @@
 			<li>Connect your JS app to ownCloud</li>
 			<li>Add the ownCloud Share API to your application</li>
 		</ul>
-		<p>Agenda coming soon! Click <a href="http://conference.owncloud.org">here</a> to submit a talk or workshop proposal.</p>
+		<p>Find <a href="https://owncloud.org/blog/owncloud-contributor-conference-featuring-hackathon-and-conference-with-over-30-sessions">here an overview of the program</a>.</p>
 	</div>
 </div>
 <div class="row conf-info">
@@ -42,6 +42,7 @@
 		<p>The ownCloud Contributor Conference is entirely open. We do ask you to <a href="/conf/register">register</a> to help us plan better for the event.</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We had a series of recommendations but all are now booked. You can use <a href="http://findhotelsnearanaddress.com/">this site to find something close by</a>. At this time, <a href="http://www.aletto.de/en/kudamm">hotel aletto kudamm</a> is still available and affordable.</p>
+		<p>We want everybody to feel welcome at the event. Please be mindful of our <a href="https://owncloud.org/community/code-of-conduct/">code of conduct</a>.
 	</div>
 </div>
 <div class="row conf-partners-title">
