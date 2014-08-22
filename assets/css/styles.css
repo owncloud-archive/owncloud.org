@@ -6,9 +6,24 @@
 	padding: 15px 0;
 }
 
-div#getapps li{
-	padding-left: 0;
+div#getapps h2{
+	text-align: center;
+	font-weight:200;
+	font-size:30px;
 }
+
+div#getapps .row {
+	margin-top: 40px;
+	margin-bottom: 47px;
+	text-align: center;
+}
+
+div#getapps p {
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+
+
 #appstore, #googleplay, #desktopclient {
 	opacity: 0.9;
 }
@@ -63,10 +78,6 @@ i[class*='icon-'] {
 	font-style: normal;
 }
 
-.home .row {
-	padding-bottom: 20px;
-}
-
 p.socialicons > a > img {
 	margin: 0 4px;
 }
@@ -100,11 +111,6 @@ div.thumbnail > img {
 	width: 78%;
 }
 
-.banner ul#menu-header.nav>li.menu-commercial>a{
-	color: #e8733b;
-	
-}
-
 .banner ul#menu-header.nav>li:not(.menu-install) >a:hover {
 	border-bottom: 2px solid white;
 }
@@ -118,12 +124,6 @@ div.sub-nav {
 	margin-top: -30px;
 }
 
-@media (max-width: 992px) {
-	a.facebook-button {
-		margin: 10px 0 !important;
-	}
-}
-
 .home-header-image {
 	display: block; 
 	width: 80%; 
@@ -131,11 +131,7 @@ div.sub-nav {
 	margin: 5em auto 10px;
 }
 
-@media (max-width: 991px) {
- 	.home-header-image {
- 		margin-top: 2em !important;
- 	}
- }
+
 
 li.top-nav-active > a {
 	border-bottom: 2px solid white;
@@ -213,21 +209,42 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 	background-size: 21.4% auto;
 }
 
-.home h2.slogan {
+.home h2.slogan, .home h2.slogan-mobile {
 	font-weight: 200;
 	font-size: 40px;
+	text-decoration: none;
+	color: #333;
+}
+
+.home h2.slogan {
+	position: absolute;
+	top: -68px;
+	left: 300px;
+	margin-top: -10px !important;
+	margin-left: 40px !important;
+}
+
+.home .header:hover {
+	text-decoration: none !important;
 }
 
 .home p.explain-short {
 	text-align: center;
 	font-weight: 200;
 	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
 	.banner ul#menu-header.nav {
 		width: 80%;
 		padding-top: 20px;
+	}
+
+	.home h2.slogan {
+		left: 245px;
+		top: -71px;
 	}
 }
 
@@ -238,8 +255,138 @@ div.alert-info > a {
 i.icon-opensource {
 	background: url("../img/opensource.png") no-repeat;
 	display: inline-block;
-	width: 20px;
-	background-size: 20px;
+	width: 27px;
+	background-size: 27px;
 	background-position: center;
 	margin-right: 6px;
+}
+
+div.row.home-row > div{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+div.home-ft-content {
+	text-align: center;
+}
+
+div.row.home-row h2 {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.home div.col-xs-12 > i {
+	font-size: 28px;
+}
+
+.home a.conf-button {
+	color: #428BCA;
+	background-color: #FFFFFF;
+	border: 1px solid #428BCA;
+	font-weight: 700;
+	margin-top: 25px;
+}
+
+.content.row, .row.row-slogan {
+	margin-top: 0;
+}
+
+.row.row-slogan {
+	float: left;
+	width: 100%;
+}
+
+a.join-button {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.home div.join a.join-button {
+	margin-bottom: 23px;
+}
+
+.home div.row.pad-bottom {
+	margin-bottom: 45px;
+}
+
+.home .row {
+	padding-bottom: 0 !important;
+}
+
+@media (max-width: 1199px) {
+	.home #getapps .client-install {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.home #getapps .client-install, .home #getapps .btn-group, .home #getapps h2 {
+		margin-top: 0;
+	}
+
+	a.home-ent-button {
+		display: block;
+		width: 290px;
+		margin: 10px auto 0 auto !important;
+	}
+
+	div#getapps div.install-buttons {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 562px) {
+	.home #getapps .client-install {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 991px) {
+ 	.home-header-image {
+ 		margin-top: 2em !important;
+ 	}
+
+ 	a.facebook-button {
+		margin: 10px 0 !important;
+	}
+
+	.header .row.image {
+		margin-top: 30px;
+	}
+
+	.home h2.slogan {
+		display: none;
+	}
+
+	.home h2.slogan-mobile {
+		display: block !important;
+	}
+ }
+
+.home .home-row a.feature-link {
+	margin-bottom: 30px;
+}
+
+.home h2 {
+	margin-bottom: 20px;
+}
+
+.home h2.slogan-mobile {
+	display: none;
+	font-size: 20px;
+	text-align: center;
+}
+
+.banner ul#menu-header.nav>li.menu-commercial>a:hover{
+	border-bottom: 2px solid #e8733b;
+}
+
+.btn.btn-orange {
+	background-color: #e8733b;
+	color: white;
+}
+
+.home-ent-button {
+	font-weight: 100;
 }
