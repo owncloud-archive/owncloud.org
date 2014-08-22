@@ -15,15 +15,14 @@ div#getapps h2{
 div#getapps .row {
 	margin-top: 40px;
 	margin-bottom: 47px;
+	text-align: center;
 }
 
-div#getapps {
-	margin-bottom: 40px !important;
+div#getapps p {
+	margin-bottom: 20px;
+	margin-top: -20px;
 }
 
-div#getapps .install-buttons {
-	padding-top: 12px;
-}
 
 #appstore, #googleplay, #desktopclient {
 	opacity: 0.9;
@@ -316,16 +315,6 @@ a.join-button {
 }
 
 @media (max-width: 1199px) {
-	.home div.install-buttons {
-		text-align: center;
-	}
-	.home #getapps h2 {
-		margin-top: 45px;
-	}
-	.home #getapps .btn-group {
-		margin-top: -10px;
-	}
-
 	.home #getapps .client-install {
 		margin-top: 10px;
 	}
@@ -340,6 +329,10 @@ a.join-button {
 		display: block;
 		width: 290px;
 		margin: 10px auto 0 auto !important;
+	}
+
+	div#getapps div.install-buttons {
+		margin-bottom: 40px;
 	}
 }
 

@@ -49,20 +49,24 @@
 	</div>
 	<div class="row pad-bottom" id="getapps">
 		<div class="col-sm-12">
-			<div class="row">
-				<div class="col-sm-6 col-xs-12">
+			<div class="row" style="margin-bottom: -7px !important;">
+				<div class="col-md-12">
 					<h2><i class="icon-cloud-download">&nbsp;</i> Get your ownCloud</h2>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col-sm-6 col-xs-12 install-buttons">
+					<p>Free, Open Source, Community Edition</p>
 					<div class="btn-group">
 						<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Host ownCloud</br><small>For server owners</small></a>
 						<a class="btn btn-default btn-lg hostingbtn" href="/providers/"><i class="icon-search" ></i> Find hosting</br><small>with a third party</small></a>
 					</div>
 					<a class="btn btn-default btn-lg client-install" href="/install/#desktop"><i class="icon-mobile" ></i> Install Clients</br><small>for desktop and mobile</small></a>
 				</div>
-			</div>
-			<div class="row" style="text-align: center;">
-				<p style="display: inline;">Looking to use ownCloud in your company?</p><a href="https://owncloud.com/products/enterprise/" target="_blank" style="margin-left: 20px;" class="home-ent-button btn btn-lg btn-orange">See Enterprise Edition</a>
+				<div class="col-xs-12">
+					<p>Looking to use ownCloud in your company?</p>
+					<a href="" target="_blank" class="btn btn-lg btn-orange"><i class="icon-briefcase"></i> Enterprise Edition<br/><small>Coorporate data under your control</small></a>
+				</div>
 			</div>
 		</div>
 	</div>
