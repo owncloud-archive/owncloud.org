@@ -22,7 +22,7 @@
 </div>
 	<div class="row home-row pad-bottom 3-column-lg-md-sm">
 
-		<div class="col-xs-12 col-sm-6 col-md-3">
+		<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="icon-exclamation-circle">&nbsp;</i>
 			<h2>Protect</h2>
 			<div class="home-ft-content">
@@ -30,7 +30,7 @@
 				<a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" class="feature-link">More about security...</a>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3">
+		<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="icon-globe">&nbsp;</i>
 			<h2>Access</h2>
 			<div class="home-ft-content">
@@ -38,7 +38,7 @@
 				<a href="https://owncloud.org/features" class="feature-link">More features...</a>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3">
+		<div class="col-xs-12 col-sm-6 col-md-4">
 			<i class="icon-opensource">&nbsp;</i>
 			<h2>Extend</h2>
 			<div class="home-ft-content">
@@ -46,22 +46,18 @@
 				<a href="https://owncloud.org/contribute" class="feature-link">Get involved...</a>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3">
-			<i class="icon-briefcase">&nbsp;</i>
-			<h2>For Enterprise</h2>
-			<div class="home-ft-content">
-				<p>Additional features and support to ensure your sensitive corporate data remains in your control.</p>
-				<a href="https://owncloud.com" style="color: #e8733b" class="feature-link">Enterprise Edition...</a>
-			</div>
-		</div>
 	</div>
 	<div class="row pad-bottom" id="getapps">
 		<div class="col-sm-12">
 			<div class="row">
 				<div class="col-sm-6 col-xs-12">
-					<h2><i class="icon-cloud-download">&nbsp;</i> Get your ownCloud</h2>
+					<div class="home-enterprise">
+					<p>Looking to use ownCloud in your company?</p>
+					<a class="btn btn-primary btn-lg installbtn"  href="http://owncloud.com"><i class="icon-briefcase" ></i> Enterprise Edition</br><small>Corporate data under your control</small></a>
+					</div>
 				</div>
 				<div class="col-sm-6 col-xs-12 install-buttons">
+				<h2><i class="icon-cloud-download">&nbsp;</i> Get your ownCloud</h2>
 					<div class="btn-group">
 						<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Host ownCloud</br><small>For server owners</small></a>
 						<a class="btn btn-default btn-lg hostingbtn" href="/providers/"><i class="icon-search" ></i> Find hosting</br><small>with a third party</small></a>
