@@ -27,7 +27,7 @@
 			<h2>Protect</h2>
 			<div class="home-ft-content">
 				<p>ownCloud gives you control over your data. You decide what is shared with who and for how long.</p>
-				<a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" class="feature-link">More about security...</a>
+				<a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" class="feature-link">More about security</a>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
@@ -35,7 +35,7 @@
 			<h2>Access</h2>
 			<div class="home-ft-content">
 				<p>Access your data from your web browser, Android or iOS devices and your laptop and desktop.</p>
-				<a href="https://owncloud.org/features" class="feature-link">More features...</a>
+				<a href="https://owncloud.org/features" class="feature-link">More features</a>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
@@ -43,7 +43,7 @@
 			<h2>Extend</h2>
 			<div class="home-ft-content">
 				<p>Add apps, external storage, or your own code! Join the friendly open source community and get started!</p>
-				<a href="https://owncloud.org/contribute" class="feature-link">Get involved...</a>
+				<a href="https://owncloud.org/contribute" class="feature-link">Get involved</a>
 			</div>
 		</div>
 	</div>
@@ -51,19 +51,18 @@
 		<div class="col-sm-12">
 			<div class="row">
 				<div class="col-sm-6 col-xs-12">
-					<div class="home-enterprise">
-					<p>Looking to use ownCloud in your company?</p>
-					<a class="btn btn-primary btn-lg installbtn"  href="http://owncloud.com"><i class="icon-briefcase" ></i> Enterprise Edition</br><small>Corporate data under your control</small></a>
-					</div>
+					<h2><i class="icon-cloud-download">&nbsp;</i> Get your ownCloud</h2>
 				</div>
 				<div class="col-sm-6 col-xs-12 install-buttons">
-				<h2><i class="icon-cloud-download">&nbsp;</i> Get your ownCloud</h2>
 					<div class="btn-group">
 						<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Host ownCloud</br><small>For server owners</small></a>
 						<a class="btn btn-default btn-lg hostingbtn" href="/providers/"><i class="icon-search" ></i> Find hosting</br><small>with a third party</small></a>
 					</div>
 					<a class="btn btn-default btn-lg client-install" href="/install/#desktop"><i class="icon-mobile" ></i> Install Clients</br><small>for desktop and mobile</small></a>
 				</div>
+			</div>
+			<div class="row" style="text-align: center;">
+				<p style="display: inline;">Looking to use ownCloud in your company?</p><a href="https://owncloud.com/products/enterprise/" target="_blank" style="margin-left: 20px;" class="home-ent-button btn btn-lg btn-orange">See Enterprise Edition</a>
 			</div>
 		</div>
 	</div>

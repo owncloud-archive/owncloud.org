@@ -256,8 +256,8 @@ div.alert-info > a {
 i.icon-opensource {
 	background: url("../img/opensource.png") no-repeat;
 	display: inline-block;
-	width: 20px;
-	background-size: 20px;
+	width: 27px;
+	background-size: 27px;
 	background-position: center;
 	margin-right: 6px;
 }
@@ -268,7 +268,7 @@ div.row.home-row > div{
 }
 
 div.home-ft-content {
-	text-align: left;
+	text-align: center;
 }
 
 div.row.home-row h2 {
@@ -295,7 +295,6 @@ div.row.home-row h2 {
 
 .row.row-slogan {
 	float: left;
-	text-align: center;
 	width: 100%;
 }
 
@@ -335,6 +334,12 @@ a.join-button {
 @media (max-width: 767px) {
 	.home #getapps .client-install, .home #getapps .btn-group, .home #getapps h2 {
 		margin-top: 0;
+	}
+
+	a.home-ent-button {
+		display: block;
+		width: 290px;
+		margin: 10px auto 0 auto !important;
 	}
 }
 
@@ -382,4 +387,13 @@ a.join-button {
 
 .banner ul#menu-header.nav>li.menu-commercial>a:hover{
 	border-bottom: 2px solid #e8733b;
+}
+
+.btn.btn-orange {
+	background-color: #e8733b;
+	color: white;
+}
+
+.home-ent-button {
+	font-weight: 100;
 }
