@@ -1,9 +1,9 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
-<h2 class="slogan-mobile">Your Data - Under Uour Control</h2>
+<h2 class="slogan-mobile">Your Data - Under Your Control</h2>
 <a href="/features">
 <div class="header"><div class="row image">
 	<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-		<h2 class="slogan">Your data - under your control</h2>
+		<h2 class="slogan">Your Data - Under Your Control</h2>
 		<img class="home-header-image" alt="image about owncloud sync" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/ocsplash.png" />
 	</div>
 </div>
@@ -65,7 +65,7 @@
 				</div>
 				<div class="col-xs-12">
 					<p>Looking to use ownCloud in your company?</p>
-					<a href="https://owncloud.com/products/enterprise/" target="_blank" class="btn btn-lg btn-orange"><i class="icon-briefcase"></i> Enterprise Edition<br/><small>Coorporate data under your control</small></a>
+					<a href="https://owncloud.com/products/enterprise/" target="_blank" class="btn btn-lg btn-orange"><i class="icon-briefcase"></i> Enterprise Edition<br/><small>Corporate data under your control</small></a>
 				</div>
 			</div>
 		</div>
