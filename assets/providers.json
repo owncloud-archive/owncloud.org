@@ -2,7 +2,7 @@
    "providers":[
       {
          "title":"arvixe.com",
-         "url":"http:\/\/www.arvixe.com\/preloaded_owncloud_hosting?utm_campaign=Providers&utm_medium=showcase&utm_source=owncloud.com",
+         "url":"http:\/\/www.arvixe.com\/owncloud-trial?utm_campaign=Free&utm_medium=showcase&utm_source=owncloud.com",
          "flags":[
             "gb"
          ],
@@ -752,8 +752,7 @@
          "freeplans":false,
          "supports":[
             "organisations",
-            "consumers",
-            "resellers"
+            "consumers"
          ],
          "imagename":"tifo.png"
       },
@@ -781,6 +780,29 @@
             "consumers"
          ],
          "imagename":"webmeisterei.png"
+      },
+      {
+         "title":"opticempire.com.au",
+         "url":"http:\/\/www.opticempire.com.au",
+         "flags":[
+            "au"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers"
+         ],
+         "imagename":"opticempire.png"
+      },
+      {
+         "title":"rw-consult.com",
+         "url":"http:\/\/www.rw-consult.com",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[],
+         "imagename":"rwconsult.png"
       }
 
    ]
