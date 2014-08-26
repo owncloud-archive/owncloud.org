@@ -3,7 +3,7 @@
 <a href="/features">
 <div class="header"><div class="row image">
 	<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-		<h2 class="slogan">Your data - Under Your Control</h2>
+		<h2 class="slogan">Your Data - Under Your Control</h2>
 		<img class="home-header-image" alt="image about owncloud sync" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/ocsplash.png" />
 	</div>
 </div>
