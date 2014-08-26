@@ -65,7 +65,7 @@
 				</div>
 				<div class="col-xs-12">
 					<p>Looking to use ownCloud in your company?</p>
-					<a href="https://owncloud.com/products/enterprise/" target="_blank" class="btn btn-lg btn-orange"><i class="icon-briefcase"></i> Enterprise Edition<br/><small>Corporate data under your control</small></a>
+					<a href="https://owncloud.com/products/enterprise/" target="_blank" class="btn btn-lg btn-primary"><i class="icon-briefcase"></i> Enterprise Edition<br/><small>Corporate data under your control</small></a>
 				</div>
 			</div>
 		</div>
