@@ -63,7 +63,7 @@
 					</div>
 					<a class="btn btn-default btn-lg client-install" href="/install/#desktop"><i class="icon-mobile" ></i> Install Clients</br><small>for desktop and mobile</small></a>
 				</div>
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-sm-6">
 					<p>Looking to use ownCloud in your company?</p>
 					<a href="https://owncloud.com/products/enterprise/" target="_blank" class="btn btn-lg btn-primary"><i class="icon-briefcase"></i> Enterprise Edition<br/><small>Corporate data under your control</small></a>
 				</div>
