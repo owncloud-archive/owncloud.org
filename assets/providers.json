@@ -212,16 +212,13 @@
       {
          "title":"portknox.net",
          "url":"https:\/\/portknox.net\/?pk_campaign=opp",
-         "supports":[
-            "organisations",
-            "consumers"
-         ],
-          "flags":[
+         "flags":[
             "gb",
             "de"
          ],
          "freeplans":false,
          "supports":[
+            "organisations",
             "consumers"
          ],
          "imagename":"portknox.png"
