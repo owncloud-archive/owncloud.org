@@ -211,8 +211,12 @@
       },
       {
          "title":"portknox.net",
-         "url":"https:\/\/portknox.net\/",
-         "flags":[
+         "url":"https:\/\/portknox.net\/?pk_campaign=opp",
+         "supports":[
+            "organisations",
+            "consumers"
+         ],
+          "flags":[
             "gb",
             "de"
          ],
