@@ -1,6 +1,57 @@
 <div class="page-header">
 	<h1>ownCloud Server Changelog</h1>
 </div>
+<h3>Version 7.0.2 <small>August 28th 2014</small></h3> 
+<li>App upgrading stability improvements</li>
+<li>Make default share folder configurable</li>
+<li>Improve readability of error messages</li>
+<li>Log failed authentication</li>
+<li>S3 key fixes</li>
+<li>Fix range requests with encryption</li>
+<li>Several LDAP fixes</li>
+<li>Remove obsolete 'Download preparing' message for zip downloads</li>
+<li>Remove not working checks from code checker</li>
+<li>No error if we try to delete a file which no longer exists</li>
+<li>Fix detection of system wide mount points</li>
+<li>Simplify App navigation</li>
+<li>Add group management to public api</li>
+<li>Remove confusing 'automatic logon rejected' message</li>
+<li>Implement a txt preview fallback for the case that ttf is not support</li>
+<li>Fix tiny thumbnail bug</li>
+<li>Don't display share permission if resharing was disabled by the admin</li>
+<li>Close session right before the download starts</li>
+<li>Fix date display in filepicker</li>
+<li>Don't touch non-oc tables when doing the InnoDB repair step</li>
+<li>Several Documents fixes</li>
+<li>Correctly handle public uploads activities</li>
+<li>Add better 4 image previews to gallery</li>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.2.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.2.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.2.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.2.tar.bz2.md5</a></br>
+
+<h3>Version 6.0.5 <small>August 28th 2014</small></h3> 
+<li>Documentation improvements</li>
+<li>fix anonymous upload if logged-in </li>
+<li>Fix handling of special characters in group names</li>
+<li>Fix downloading of big files in special situations</li>
+<li>More consistent handling of debug mode</li>
+<li>Fix sharing email notifications</li>
+<li>Disabling upload button if upload is not possible</li>
+<li>Fix detection of system wide mount points</li>
+<li>Handle video viewer in sharing links correctly</li>
+<li>Update encryption keys recursively if a folder was moved</li>
+<li>Enable download button for public folders</li>
+<li>Handle exceptions if file to too big for trash-bin correctly</li>
+<li>Quota fixes</li>
+<li>Avoid unnecessary writing to the DB when preferences are not changed</li>
+<li>Disable download button if zip download is disabled</li>
+<li>Fix searching for users in special situations</li>
+<li>Mount-point handling fixes</li>
+<li>Correctly handle storage stats for trash bin</li>
+<li>Remove etag warning for trash bin</li>
+<li>Hardened SFTP host verification</li>
+Download: <a href="https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2.md5</a></br>
+
 <h3>Version 7.0.1 <small>August 4th 2014</small></h3> 
 <li>Set maximum width for notification so they don't overlap the whole header</li>
 <li>Don't preload videos on public sharing</li>
