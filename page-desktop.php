@@ -1,6 +1,15 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3>Release 1.6.3 <small>Sep 3rd 2014</small></h3>
+<ul>
+<li>Fixed updater on OS X</li>
+<li>Fixed memory leak in SSL button that could lead to quick memory draining</li>
+<li>Fixed upload problem with files &gt;4 GB</li>
+<li>MacOSX, Linux: Bring Settings window to front properly</li>
+<li>Branded clients: If no configuration is detected, try to import the data from a previously configured community edition.</li>
+</ul>
+
 <h3>Release 1.6.2 <small>Jul 28th 2014</small></h3>
 <ul>
 <li>Limit the HTTP buffer size when downloading to limit memory consumption.</li>
