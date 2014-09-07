@@ -45,12 +45,15 @@
   <div class="col-md-6">
     <a name="mobile"></a>
     <h3><strong>Install Mobile Apps</strong></h3>
-    <p>Mobile apps are available in both the Apple App Store and the Google Play Store, allowing you to access, sync and upload your data on the go.</p>
+    <p>Mobile apps are available in different app stores, allowing you to access, sync and upload your data on the go.</p>
     <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
     </a>
-    <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
+    <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_GPLAY; ?>">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
+    </a><br>
+    <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
+      <img src="<?php echo get_template_directory_uri(); ?>https://camo.githubusercontent.com/dfb89bdb446cbcae26361854ea51e9f090f0593a/68747470733a2f2f662d64726f69642e6f72672f77702d636f6e74656e742f75706c6f6164732f323031342f30342f63726f707065642d6865616465725f72657370312e706e67">
     </a>
     <br />
     <p>Looking for the <a href="https://github.com/owncloud/android">Android Sources</a>?</p>
