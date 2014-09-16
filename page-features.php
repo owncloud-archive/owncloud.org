@@ -30,7 +30,7 @@
 			<div class="col-md-4 featureblock">
 				<i class="icon-share-alt"></i>
 				<h3 class="ft-title">Share Your Data</h3>
-				<p class="featuredesc">Share your data with others, and give them access to your latest photo galleries, your calendar, your music, or anything else you want them to see. 
+				<p class="featuredesc">Share your data with others, and give them access to your latest photo galleries, your calendar, your music, or anything else you want them to see. With or without password or time limit.
 				Share it publicly, or privately. It is your data, do what you want with it.</p>
 			</div>
 		</div>
