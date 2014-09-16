@@ -4,10 +4,10 @@
 Do you want to <strong>help</strong> translate, promote or document ownCloud?</p>
 <h2>Become part of the ownCloud Community and help us liberate data accross the globe!</h2>
 <div class="row" style="text-align: center">
-  <a href="https://owncloud.org/blog/owncloud-7-beta-is-out-help-us-test-it" class="btn btn-lg btn-default">
-  <i class="icon-lightbulb-o"></i> Join the Beta Program</a>
-  <a href="http://owncloud.org/blog/hold-the-date-announcing-the-owncloud-contributor-conference-and-hackathon/" class="btn btn-lg btn-default">
-  <i class="icon-group"></i> Be at the ownCloud Contributor Conference!</a>
+  <a href="http://doc.owncloud.org/server/7.0/developer_manual/testing/index.html" class="btn btn-lg btn-default">
+  <i class="icon-lightbulb-o"></i> Join the Test Pilots!</a>
+<!--  <a href="http://owncloud.org/blog/hold-the-date-announcing-the-owncloud-contributor-conference-and-hackathon/" class="btn btn-lg btn-default">
+  <i class="icon-group"></i> Be at the ownCloud Contributor Conference!</a>-->
   <a href="/promote" class="btn btn-default btn-lg"><i class="icon-bullhorn"></i> Promote ownCloud</a>
 </div>
 <h2>How to participate:</h2>
@@ -17,7 +17,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseCoding">
-          <i class="icon-thumbs-up"></i>&nbsp;&nbsp;Help improve ownCloud
+          <i class="icon-thumbs-up"></i>&nbsp;&nbsp;Improve ownCloud
         </a>
       </h4>
     </div>
@@ -39,7 +39,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseIssues">
-          <i class="icon-refresh"></i>&nbsp;&nbsp;Help test ownCloud
+          <i class="icon-refresh"></i>&nbsp;&nbsp;Test ownCloud
         </a>
       </h4>
     </div>
@@ -57,7 +57,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseTranslate">
-          <i class="icon-book"></i>&nbsp;&nbsp;Help translate and document ownCloud
+          <i class="icon-book"></i>&nbsp;&nbsp;Translate and document ownCloud
         </a>
       </h4>
     </div>
@@ -72,7 +72,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseAnswer">
-          <i class="icon-book"></i>&nbsp;&nbsp;Help answer questions about ownCloud use and development
+          <i class="icon-book"></i>&nbsp;&nbsp;Answer questions about ownCloud use and development
         </a>
       </h4>
     </div>
@@ -89,7 +89,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseWebsite">
-          <i class="icon-desktop"></i>&nbsp;&nbsp;Help with the ownCloud website
+          <i class="icon-desktop"></i>&nbsp;&nbsp;Improve the ownCloud website
         </a>
       </h4>
     </div>
@@ -105,7 +105,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseDesign">
-          <i class="icon-pencil"></i>&nbsp;&nbsp;Help with designing ownCloud
+          <i class="icon-pencil"></i>&nbsp;&nbsp;Design ownCloud
         </a>
       </h4>
     </div>
@@ -120,7 +120,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordionContribute" href="#collapseMoney">
-          <i class="icon-money"></i>&nbsp;&nbsp;Help support ownCloud development with bounties
+          <i class="icon-money"></i>&nbsp;&nbsp;Support ownCloud development with bounties
         </a>
       </h4>
     </div>
