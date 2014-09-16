@@ -26,7 +26,7 @@
 			<i class="icon-exclamation-circle">&nbsp;</i>
 			<h2>Protect</h2>
 			<div class="home-ft-content">
-				<p>ownCloud gives you control over your data. You decide what is shared with who and for how long.</p>
+				<p>ownCloud gives you control over your data. You decide where your data is, what is shared with who and for how long.</p>
 				<a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" class="feature-link">More about security</a>
 			</div>
 		</div>
