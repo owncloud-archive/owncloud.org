@@ -18,8 +18,7 @@
 			<div class="col-md-4 featureblock">
 				<i class="icon-globe"></i>
 				<h3 class="ft-title">Access Your Data</h3>
-				<p class="featuredesc">Store your files, folders, contacts, photo galleries, calendars and more on a server of your choosing. Access that folder from your mobile device,
-				your desktop, or a web browser. Access your data wherever you are, when you need it.</p>
+				<p class="featuredesc">Store your files, folders, contacts, photo galleries, calendars and more on a server of your choosing. Access them from your mobile device, your desktop, or a web browser. Access your data wherever you are, when you need it.</p>
 			</div>
 			<div class="col-md-4 featureblock">
 				<i class="icon-refresh"></i>
