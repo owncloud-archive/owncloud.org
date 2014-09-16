@@ -32,25 +32,11 @@
 				<th>Link</th>
 			</tr>
 			<tr>
-				<td>ownCloud talk</td>
-				<td>Universitetskaya 22, of. 114 420111 Kazan, Russia</td>
-				<td>Monday, July 28th, 18:00</td>
-				<td>FOSS labs</td>
-				<td><a target="_blank" href="http://arthur-schiwon.de/kazan-me-too-join-my-owncloud-talk">Blog by Arthur Schiwon</a></td>
-			</tr>
-			<tr>
-				<td>LinuxCon North America</td>
-				<td>Chicago, IL, USA</td>
-				<td>August 20-22 2014</td>
-				<td>ownCloud Inc</td>
-				<td><a target="_blank" href="https://events.linuxfoundation.org/events/linuxcon-north-america">Linuxcon North America</a></td>
-			</tr>
-			<tr>
-				<td>ownCloud Contributor Conference</td>
-				<td>Berlin, Germany</td>
-				<td>August 26-31 2014</td>
-				<td>ownCloud Community</td>
-				<td><a target="_blank" href="https://owncloud.org/conf">owncloud.org/conf</a></td>
+				<th>FOSDEM 2015</th>
+				<th>Brussels, Belgium</th>
+				<th>January 31 and February 1</th>
+				<th><a href="/events/contactform">Jos Poortvliet</a></th>
+				<th><a target="_blank" href="https://fosdem.org/2015/">FOSDEM 2014</a></th>
 			</tr>
 			<tr>
 				<td>LinuxCon Europe</td>
@@ -60,9 +46,9 @@
 				<td><a target="_blank" href="https://events.linuxfoundation.org/events/linuxcon-europe">Linuxcon Europe</a></td>
 			</tr>
 		</table>
-		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> Are you presenting about ownCloud at an upcoming event that should be listed here? <a href="/events/contactform">Let us know</a>!</p>
+		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> Find <a href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a>. Are you presenting about ownCloud at an upcoming event that should be listed here? <a href="/events/contactform">Let us know</a>!</p>
 
-		<h2>Release parties</h2>
+<!--		<h2>Release parties</h2>
 		<p>One of the best parts of an ownCloud release, are the community release parties! A release party can be a meeting in a cafe or office with a
 		presentation of what is new in the latest ownCloud release and time to chat about it.
 		Release parties don't have to be done in the release week at all – doing it a bit later
@@ -93,6 +79,6 @@
 		</table>
 		<p> Want to organize an ownCloud Release Party? See <a target="_blank" href="https://owncloud.org/blog/plan-your-owncloud-7-release-party"/>this blog post</a>
 		and this <a href="http://en.opensuse.org/openSUSE:Launch_party_HOWTO">how-to</a> for some tips and ideas
-		and <a href="/events/contactform">contact us</a> to get your party added to the list!!</p>
+		and <a href="/events/contactform">contact us</a> to get your party added to the list!!</p>-->
 	</div>
 </div>

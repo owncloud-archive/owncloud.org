@@ -14,11 +14,11 @@
 			Access your data from all your devices, on an open platform you can extend and modify.</p>
 	</div>
 </div>
-<div class="row pad-bottom highlight">
+<!--<div class="row pad-bottom highlight">
 	<h3 class="conference hidden-xs"><a href="/conf">ownCloud Contributor Conference - August 2014, Berlin</a></h3>
 	<h3 class="conference visible-xs"><a href="/conf">ownCloud Contributor Conference <br/>
 	August 2014, Berlin</a></h3>
-</div>
+</div>-->
 </div>
 	<div class="row home-row pad-bottom 3-column-lg-md-sm">
 
