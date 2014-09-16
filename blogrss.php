@@ -8,7 +8,7 @@ Template Name: Blog Planet RSS Page
 
 require('/srv/www/owncloud.org/contribook/main/contribook/lib_contribook.php');
 
-CONTRIBOOK_BLOG::showrss('ownCloud Planet','The ownCloud blog planet with posts from all ownCloud contributors','http://owncloud.org/planet/rss-feed',30);
+CONTRIBOOK_BLOG::showrss('ownCloud Planet','The ownCloud blog planet with posts from all ownCloud contributors','http://owncloud.org/news/',30);
 
 
 
