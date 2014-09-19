@@ -1,3 +1,6 @@
+<p>Version 6.0.5</p>
+<a href="/security/advisory?id=oc-sa-2014-019">Insufficient RSA Host Key validation in files_external (SFTP driver)</a><br>
+<br>
 <p>Version 6.0.4</p>
 <a href="/security/advisory?id=oc-sa-2014-018">Local file inclusion in core</a><br>
 <br>
