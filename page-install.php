@@ -45,7 +45,7 @@
   <div class="col-md-6">
     <a name="mobile"></a>
     <h3><strong>Install Mobile Apps</strong></h3>
-    <p>Mobile apps are available in both the Apple App Store and the Google Play Store, allowing you to access, sync and upload your data on the go.</p>
+    <p>Mobile apps are available in different app stores, allowing you to access, sync and upload your data on the go.</p>
     <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
     </a>
@@ -54,6 +54,7 @@
     </a>
     <br />
     <p>Looking for the <a href="https://github.com/owncloud/android">Android Sources</a>?</p>
+    <p>If you don't have a Google account you can get the <a href="http://f-droid.org/app/com.owncloud.android">Android app here</a>.</p>
   </div>
   <div class="col-md-6">
     <div class="thumbnail">
