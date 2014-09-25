@@ -127,7 +127,8 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div id="collapseMoney" class="panel-collapse collapse">
       <div class="panel-body">
         Support ownCloud development by offering some money on features you would like to have!
-        <a href="https://www.bountysource.com/teams/owncloud">Check our bountysource page</a>!
+        <ul><li><a href="https://www.bountysource.com/teams/owncloud">Check our bountysource page</a>!</li>
+        <li>Or donate through <a href="http://flattr.com/profile/owncloud">Flattr.</li></ul>
       </div>
     </div>
   </div>
