@@ -30,19 +30,24 @@ foreach($providers as $provider) {
 <div class="row col-xs-12">
 	<h2>Free Plans</h2>
 </div>
-<?php displayProviders($freeProviders); ?>
+<?php displayProviders($freeProviders, true); ?>
 <div class="row col-xs-12">
 	<h2>Other Providers</h2>
 </div>
 <?php displayProviders($otherProviders); ?>
 <?php
 
-function displayProviders($providers) {
+function displayProviders($providers, $free=false) {
 	$numProviders = count($providers);
 		echo '<div class="row">';
 		for($provider=0; $provider<$numProviders; $provider++) {
 			echo '<div class="col-xs-12 col-sm-6 col-md-4 ">';
-			echo '<a href="' . $providers[$provider]->url . '" target="_blank" title="' . $providers[$provider]->title . '"><div class="thumbnail">';
+			if($free && isset($providers[$provider]->freeurl)) {
+				$url = $providers[$provider]->freeurl;
+			} else {
+				$url = $providers[$provider]->url;
+			}
+			echo '<a href="' . $url . '" target="_blank" title="' . $providers[$provider]->title . '"><div class="thumbnail">';
 			echo '<div class="bannerhead">';
 			foreach($providers[$provider]->flags as $flag) {
 				echo '<img class="flag" src="' . get_template_directory_uri() . '/assets/img/flags/' . $flag . '.gif"/>';
