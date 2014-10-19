@@ -75,7 +75,7 @@
 	<div class="col-xs-12 col-sm-6">
 		<h2><i class="icon-rocket">&nbsp;</i> Get involved</h2>
 		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="http://forum.owncloud.org/">Forum</a>, post bugs in the <a href="https://github.com/owncloud/core/issues">tracker</a>, test ownCloud using the <a href="http://doc.owncloud.org/server/7.0/developer_manual/testing/index.html">test plan</a>, hang out in the <a href="http://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>
-		<a class="btn btn-block btn-lg join-button conf-button" href="/conf" role="button">Hackathon, Berlin</a>
+		<a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
 	</div>
 	<div class="col-xs-12 col-sm-6">
 		<h2><i class="icon-users">&nbsp;</i> Join and help</h2>
