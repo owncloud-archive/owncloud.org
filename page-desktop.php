@@ -1,8 +1,19 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
-<h3>Release 1.6.3 <small>Sep 3rd 2014</small></h3>
+<h3>Release 1.6.4 <small>Oct 23th 2014</small></h3>
 <ul>
+<li>Fix startup logic, fixes bug #1989</li>
+<li>Fix raise dialog on X11</li>
+<li>Win32: fix overflow when computing the size of file &gt; 4GiB</li>
+<li>Use a fixed function to get files modification time, the original one was broken for certain timezone issues, see core bug #9781 for details</li>
+<li>Added some missing copyright headers</li>
+<li>Avoid data corruption due to wrong error handling, bug #2280</li>
+<li>Do improved request timeout handling to reduce the number of timed out jobs, bug #2155</li>
+</ul>
+
+<h3>Release 1.6.3 <small>Sep 3rd 2014</small></h3>
+<u>
 <li>Fixed updater on OS X</li>
 <li>Fixed memory leak in SSL button that could lead to quick memory draining</li>
 <li>Fixed upload problem with files &gt;4 GB</li>
