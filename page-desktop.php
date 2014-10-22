@@ -13,7 +13,7 @@
 </ul>
 
 <h3>Release 1.6.3 <small>Sep 3rd 2014</small></h3>
-<u>
+<ul>
 <li>Fixed updater on OS X</li>
 <li>Fixed memory leak in SSL button that could lead to quick memory draining</li>
 <li>Fixed upload problem with files &gt;4 GB</li>
