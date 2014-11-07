@@ -1,6 +1,30 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3>Release 1.7.0 <small>Nov 7th 2014</small></h3>
+<ul>
+<li>oC7 Sharing: Handle new sharing options of ownCloud 7 correctly.</li>
+<li>Added Selective sync: Ability to unselect server folders which are</li>
+<li>excluded from syncing, plus GUI and setup GUI</li>
+<li>Improved local change detection: consider file size, detect files</li>
+<li>with ongoing changes and do not upload immediately</li>
+<li>Improved HTTP request timeout handler: all successful requests reset the timeout counter</li>
+<li>Improvements for syncing command line tool: netrc support, improved SSL support, non interactive mode</li>
+<li>Added a socket based API to provide file management shells with status
+    information about the sync status of files. That is a prerequisite for the overlay icons in the file managers.</li>
+<li>Permission system: ownCloud 7 delivers file and folder permissions, added ability to deal with it for shared folders and more.</li>
+<li>Ignore handling: Do not recurse into ignored or excluded directories</li>
+<li>Major sync journal database improvements for more stability and performance</li>
+<li>New library interface to sqlite3</li>
+<li>Improve "resync handling" if errors occur</li>
+<li>Blacklist improvements</li>
+<li>Improved logging: more useful meta info, removed noise</li>
+<li>Updated to latest Qt5 versions on Windows and OS X</li>
+<li>OS X: Sparkle update to provide pkg format properly</li>
+<li>OS X: Change distribution format from dmg to pkg with new installer.</li>
+<li>Win: Fix handling of filenames with trailing dot or space</li>
+</ul>
+
 <h3>Release 1.6.4 <small>Oct 23th 2014</small></h3>
 <ul>
 <li>Fix startup logic, fixes bug #1989</li>
@@ -263,7 +287,7 @@ csync 0.90.4 required
 <li>Do not reset csync internal error state in helper funcs
     and do not overwrite error messages.<br/>
     That fixes error reporting to the client.</li>
-<li>Disable check on inodes on all platforms as inodes are not 
+<li>Disable check on inodes on all platforms as inodes are not
     reliable.</li>
 <li>Fix resuming after user aborting the sync process.</li>
 <li>Enabled HBF debugging permanently.</li>
@@ -438,7 +462,7 @@ csync 0.70.7 required.
 </ul>
 <h3>Known Problems</h3>
 <ul>
-<li>The about dialog displays ocsync version 0.70.6.<br/> 
+<li>The about dialog displays ocsync version 0.70.6.<br/>
 That is <b>wrong</b>, actually the version is 0.70.7 as required, only the display is wrong.</li>
 </ul>
 <hr/>
@@ -743,8 +767,8 @@ csync 0.50.8 required.
 <li>[GUI] Removed Log Window Button, log available through command line.</li>
 <li>[GUI] Proxy configuration dialog added.</li>
 <li>[GUI] Added Translations to languages Slovenian, Polish, Catalan,
-          Portuguese (Brazil), German, Greek, Spanish, Czech, Italian, Slovak, 
-          French, Russian, Japanese, Swedish, Portuguese (Portugal) 
+          Portuguese (Brazil), German, Greek, Spanish, Czech, Italian, Slovak,
+          French, Russian, Japanese, Swedish, Portuguese (Portugal)
           all with translation rate >90%.</lI>
 <li>[Fixes] Loading of self signed certs into Networkmanager (#oc-843)</li>
 <li>[Fixes] Win32: Handle SSL dll loading correctly.</li>
@@ -816,7 +840,7 @@ This version comes with the first iteration of a new icon set for the ownCloud d
 <li>[Fixes] Dialogs comes to front on click.</li>
 <li>[Fixes] Open local sync folder from tray and status for win32.</li>
 <li>[Fixes] Load exclude.lst correctly on MacOSX.</li>
-</ul> 
+</ul>
 
 <h3>Known Problems</h3>
 none so far.
@@ -827,7 +851,7 @@ none so far.
 
 This release reflects our efforts to further improve the platform support of csync and oCC - this release brings us a big step nearer to a MacOSX release in addition to Linux and Windows.
 
-Moreover, in the csync library we improved the error detection and reporting to be able to give the user correct error messages through oCC and avoid unpleasant wrong error message situations. 
+Moreover, in the csync library we improved the error detection and reporting to be able to give the user correct error messages through oCC and avoid unpleasant wrong error message situations.
 
 <ul>
 <li>removed arpg lib dependency</li>
@@ -880,4 +904,4 @@ Detailed list:
 
 <h3>Release 1.0.0 <small>April 3rd 2012</small></h3>
 
-First release working on Linux and Windows platforms. 
+First release working on Linux and Windows platforms.
