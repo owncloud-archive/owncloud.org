@@ -149,7 +149,7 @@
 		<div class="feature-block">
 		<div class="hoverarea">
 			<div class="hovercontent">
-				<p>Put it on a Rasberry Pi at home, on a old desktop or you NAS. Pick a ownCloud provider you trust, or rent a server somewhere.</p>
+				<p>Put it on a Rasberry Pi at home, on a old desktop or you NAS. Pick an ownCloud provider you trust, or rent a server somewhere.</p>
 				<div class="button-group text-center">
 				<h2>Own Your Data</h2>
 				<a href="https://www.youtube.com/watch?v=xA3tfBTvH0c" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
@@ -170,7 +170,7 @@
 		<div class="feature-block">
 		<div class="hoverarea">
 			<div class="hovercontent">
-				<p>Looking for a ownCloud for your business? Enterprise-ready file sync and share!</p>
+				<p>Looking for ownCloud for your business? Enterprise-ready file sync and share!</p>
 				<div class="button-group text-center">
 				<h2>Own Your Business</h2>
 				<a href="http://vimeo.com/91033287" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
@@ -182,7 +182,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business-small.png" class="img-responsive hidden-md hidden-lg" alt="...">
 		</div>
-		<h2 class="text-center hoverfade">Own Your business</h2>
+		<h2 class="text-center hoverfade">Own Your Business</h2>
 		<p class="text-center hoverfade">Run ownCloud in your Enterprise</p>
 		</div>
 	</div>
