@@ -40,7 +40,7 @@
 					  	<p>The News app is a an<br /> RSS/Atom feed aggregator.</p>
 					  	<div class="button-group text-center">
 						  	<h2>News</h2>
-						  	<button type="button" class="btn btn-lg"><a href="http://apps.owncloud.com/content/show.php/News?content=158434" target="_blank">Get the news app</a></button>
+						  	<a href="http://apps.owncloud.com/content/show.php/News?content=158434" target="_blank"><button type="button" class="btn btn-lg">Get the news app</button></a>
 						 </div>
 					</div>
 				</div>
@@ -60,7 +60,7 @@
 					  	<p>Become part of the ownCloud Community and help us liberate data accross the globe!</p>
 					  	<div class="button-group text-center">
 						  	<h2>Contribute</h2>
-						  	<button type="button" class="btn btn-lg"><a href="/contribute/" target="_blank">Develop an ownCloud App</a></button>
+						  	<a href="/contribute/" target="_blank"><button type="button" class="btn btn-lg">Develop an ownCloud App</button></a>
 						 </div>
 					</div>
 				</div>
@@ -81,7 +81,7 @@
 					  	<p>Widgets shows you quick and easy the most important information</p>
 					  	<div class="button-group text-center">
 						  	<h2>ocDashboard</h2>
-						  	<button type="button" class="btn btn-lg"><a href="http://apps.owncloud.com/content/show.php/ocDashboard?content=160265" target="_blank">Get ocDashboard</a></button>
+						  	<a href="http://apps.owncloud.com/content/show.php/ocDashboard?content=160265" target="_blank"><button type="button" class="btn btn-lg">Get ocDashboard</button></a>
 						 </div>
 					</div>
 				</div>
@@ -101,7 +101,7 @@
 					  	<p>Music player and server for ownCloud</p>
 					  	<div class="button-group text-center">
 						  	<h2>Music</h2>
-						  	<button type="button" class="btn btn-lg"><a href="http://apps.owncloud.com/content/show.php/Music?content=164319" target="_blank">Get the music app</a></button>
+						  	<a href="http://apps.owncloud.com/content/show.php/Music?content=164319" target="_blank"><button type="button" class="btn btn-lg">Get the music app</button></a>
 						 </div>
 					</div>
 				</div>
@@ -121,7 +121,7 @@
 					  	<p>Tasks management for ownCloud.</p>
 					  	<div class="button-group text-center">
 						  	<h2>Tasks Enhanced</h2>
-						  	<button type="button" class="btn btn-lg"><a href="http://apps.owncloud.com/content/show.php/Tasks+Enhanced?content=164356" target="_blank">Get Tasks Enhanced</a></button>
+						  	<a href="http://apps.owncloud.com/content/show.php/Tasks+Enhanced?content=164356" target="_blank"><button type="button" class="btn btn-lg">Get Tasks Enhanced</button></a>
 						 </div>
 					</div>
 				</div>
@@ -152,8 +152,8 @@
                   <p>Put it on a Rasberry Pi at home, on a old desktop or you NAS. Pick a ownCloud provider you trust, or rent a server somehwhere.</p>
                   <div class="button-group text-center">
                     <h2>Own Your Data</h2>
-                    <button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> <a href="https://www.youtube.com/watch?v=xA3tfBTvH0c" target="_blank">Demo Video</a></button>
-                    <button type="button" class="btn btn-lg"><a href="/features/" target="_blank">More Features</a></button>
+                    <a href="https://www.youtube.com/watch?v=xA3tfBTvH0c" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
+                    <a href="/features/" target="_blank"><button type="button" class="btn btn-lg">More Features</button></a>
                   </div>
               </div>
             </div>
@@ -173,8 +173,8 @@
                   <p>Looking for a ownCloud for your business? Enterprise-ready file sync and share!</p>
                   <div class="button-group text-center">
                     <h2>Own Your Business</h2>
-                    <button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> <a href="http://vimeo.com/91033287" target="_blank">Demo Video</a></button>
-                    <button type="button" class="btn btn-lg"><a href="https://owncloud.com/" target="_blank">Learn More</a></button>
+                    <a href="http://vimeo.com/91033287" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
+                    <a href="https://owncloud.com/" target="_blank"><button type="button" class="btn btn-lg">Learn More</button></a>
                   </div>
               </div>
             </div>
