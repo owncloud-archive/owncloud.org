@@ -60,7 +60,7 @@
 					  	<p>Become part of the ownCloud Community and help us liberate data accross the globe!</p>
 					  	<div class="button-group text-center">
 						  	<h2>Contribute</h2>
-						  	<a href="/contribute/" target="_blank"><button type="button" class="btn btn-lg">Develop an ownCloud App</button></a>
+						  	<a href="/contribute/" target="_blank"><button type="button" class="btn btn-lg">Make ownCloud better</button></a>
 						 </div>
 					</div>
 				</div>
