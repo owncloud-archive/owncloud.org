@@ -362,7 +362,7 @@ button a {color: #1d2d44}
 button a:hover {text-decoration: none; }
 
 /*---- Teaser ----*/
-.teaser-area h1 {color: #1d2d44; font-weight: normal; margin-bottom: 20px }
+.teaser-area h1 {color: #1d2d44; font-weight: normal; margin-bottom: 20px; font-size: 36px; }
 .teaser-area {padding-top: 20px; text-align: center;}
 .teaser-area p {font-size: 20px; line-height: 28px; color: #666; padding-left: 30px; padding-right: 30px }
 .teaser-area .btn {margin-top: 10px;}
