@@ -5,7 +5,7 @@
           <div class="col-lg-7 col-md-6">
             <h1>ownCloud 7 is here!</h1>
             <p>Access your data from all your devices, on an open platform you can extend and modify.</p>
-            <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+            <p><a class="btn btn-primary btn-lg" role="button" href="/features">Learn more &raquo;</a></p>
           </div>
           <div id="image-container" class="col-lg-5 col-md-6">
             <div class="image">
@@ -60,7 +60,7 @@
 					  	<p>Become part of the ownCloud Community and help us liberate data accross the globe!</p>
 					  	<div class="button-group text-center">
 						  	<h2>Contribute</h2>
-						  	<button type="button" class="btn btn-lg"><a href="https://owncloud.org/contribute/" target="_blank">Develop an ownCloud App</a></button>
+						  	<button type="button" class="btn btn-lg"><a href="/contribute/" target="_blank">Develop an ownCloud App</a></button>
 						 </div>
 					</div>
 				</div>
@@ -152,7 +152,7 @@
                   <p>Put it on a Rasberry Pi at home, on a old desktop or you NAS. Pick a ownCloud provider you trust, or rent a server somehwhere.</p>
                   <div class="button-group text-center">
                     <h2>Own Your Data</h2>
-                    <button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> <a href="/features/" target="_blank">Demo Video</a></button>
+                    <button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> <a href="https://www.youtube.com/watch?v=xA3tfBTvH0c" target="_blank">Demo Video</a></button>
                     <button type="button" class="btn btn-lg"><a href="/features/" target="_blank">More Features</a></button>
                   </div>
               </div>
