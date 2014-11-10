@@ -1,199 +1,199 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
- <!-- Teaser Area -->
-      <div class="container teaser-area">
-        <div class="row">
-          <div class="col-lg-7 col-md-6">
-            <h1>ownCloud 7 is here!</h1>
-            <p>Access your data from all your devices, on an open platform you can extend and modify.</p>
-            <p><a class="btn btn-primary btn-lg" role="button" href="/features">Learn more &raquo;</a></p>
-          </div>
-          <div id="image-container" class="col-lg-5 col-md-6">
-            <div class="image">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser.jpg" class="img-responsive" alt="ownCloud 7" />
-            </div>
-          </div>
-        </div>
-      <div class="row">
-        <div class="col-md-12">
-            <div class="separator">
-            </div>
-        </div>
-      </div>
-      </div>
+
+<!-- Teaser Area -->
+<div class="container teaser-area">
+	<div class="row">
+		<div class="col-lg-7 col-md-6">
+			<h1>ownCloud 7 is here!</h1>
+			<p>Access your data from all your devices, on an open platform you can extend and modify.</p>
+			<p><a class="btn btn-primary btn-lg" role="button" href="/features">Learn more &raquo;</a></p>
+		</div>
+		<div id="image-container" class="col-lg-5 col-md-6">
+			<div class="image">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser.jpg" class="img-responsive" alt="ownCloud 7" />
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="separator"></div>
+		</div>
+	</div>
+</div>
 
 
 
-    <div class="container feature-cols">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="feature-block slider">
-            
-            
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-              
-              
-               <!-- ITEM #1 -->
-              <div class="item active">
-              	<div class="hoverarea">
-				  	<div class="hovercontent">
-					  	<p>The News app is a an<br /> RSS/Atom feed aggregator.</p>
-					  	<div class="button-group text-center">
-						  	<h2>News</h2>
-						  	<a href="http://apps.owncloud.com/content/show.php/News?content=158434" target="_blank"><button type="button" class="btn btn-lg">Get the news app</button></a>
-						 </div>
-					</div>
+<div class="container feature-cols">
+	<div class="row">
+	<div class="col-md-4">
+		<div class="feature-block slider">
+		
+		
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+			
+			
+			 <!-- ITEM #1 -->
+			<div class="item active">
+				<div class="hoverarea">
+					<div class="hovercontent">
+						<p>The News app is a an<br /> RSS/Atom feed aggregator.</p>
+						<div class="button-group text-center">
+							<h2>News</h2>
+							<a href="http://apps.owncloud.com/content/show.php/News?content=158434" target="_blank"><button type="button" class="btn btn-lg">Get the news app</button></a>
+					 </div>
 				</div>
+			</div>
 
-					<div class="img-con">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-news.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-news-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
-					</div>
-                    <h2 class="text-center hoverfade">Extend your Cloud</h2>
-					<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
-               </div>
-               
-                <!-- ITEM #2 -->
-                <div class="item ">
-              	<div class="hoverarea">
-				  	<div class="hovercontent">
-					  	<p>Become part of the ownCloud Community and help us liberate data accross the globe!</p>
-					  	<div class="button-group text-center">
-						  	<h2>Contribute</h2>
-						  	<a href="/contribute/" target="_blank"><button type="button" class="btn btn-lg">Make ownCloud better</button></a>
-						 </div>
-					</div>
+				<div class="img-con">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-news.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-news-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
 				</div>
-
-					<div class="img-con">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-develop.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-develop-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
-					</div>
-                    <h2 class="text-center hoverfade">Develop an ownCloud App</h2>
-					<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
-               </div>
-          
-               
-                <!-- ITEM #3 -->
-                <div class="item ">
-              	<div class="hoverarea">
-				  	<div class="hovercontent">
-					  	<p>Widgets shows you quick and easy the most important information</p>
-					  	<div class="button-group text-center">
-						  	<h2>ocDashboard</h2>
-						  	<a href="http://apps.owncloud.com/content/show.php/ocDashboard?content=160265" target="_blank"><button type="button" class="btn btn-lg">Get ocDashboard</button></a>
-						 </div>
-					</div>
+				<h2 class="text-center hoverfade">Extend your Cloud</h2>
+				<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
+			 </div>
+			 
+			<!-- ITEM #2 -->
+			<div class="item ">
+				<div class="hoverarea">
+					<div class="hovercontent">
+						<p>Become part of the ownCloud Community and help us liberate data accross the globe!</p>
+						<div class="button-group text-center">
+							<h2>Contribute</h2>
+							<a href="/contribute/" target="_blank"><button type="button" class="btn btn-lg">Make ownCloud better</button></a>
+					 </div>
 				</div>
+			</div>
 
-					<div class="img-con">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-dashboard.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-dashboard-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
-					</div>
-                    <h2 class="text-center hoverfade">Extend your Cloud</h2>
-					<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
-               </div>
-               
-               <!-- ITEM #4 -->
-                <div class="item ">
-              	<div class="hoverarea">
-				  	<div class="hovercontent">
-					  	<p>Music player and server for ownCloud</p>
-					  	<div class="button-group text-center">
-						  	<h2>Music</h2>
-						  	<a href="http://apps.owncloud.com/content/show.php/Music?content=164319" target="_blank"><button type="button" class="btn btn-lg">Get the music app</button></a>
-						 </div>
-					</div>
+				<div class="img-con">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-develop.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-develop-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
 				</div>
-
-					<div class="img-con">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-music.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-music-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
-					</div>
-                    <h2 class="text-center hoverfade">Extend your Cloud</h2>
-					<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
-               </div>
-               
-                <!-- ITEM #5 -->
-                <div class="item ">
-              	<div class="hoverarea">
-				  	<div class="hovercontent">
-					  	<p>Tasks management for ownCloud.</p>
-					  	<div class="button-group text-center">
-						  	<h2>Tasks Enhanced</h2>
-						  	<a href="http://apps.owncloud.com/content/show.php/Tasks+Enhanced?content=164356" target="_blank"><button type="button" class="btn btn-lg">Get Tasks Enhanced</button></a>
-						 </div>
-					</div>
+				<h2 class="text-center hoverfade">Develop an ownCloud App</h2>
+				<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
+			 </div>
+		
+			 
+			<!-- ITEM #3 -->
+			<div class="item ">
+				<div class="hoverarea">
+					<div class="hovercontent">
+						<p>Widgets shows you quick and easy the most important information</p>
+						<div class="button-group text-center">
+							<h2>ocDashboard</h2>
+							<a href="http://apps.owncloud.com/content/show.php/ocDashboard?content=160265" target="_blank"><button type="button" class="btn btn-lg">Get ocDashboard</button></a>
+					 </div>
 				</div>
+			</div>
 
-					<div class="img-con">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-tasks.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-tasks-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
-					</div>
-                    <h2 class="text-center hoverfade">Extend your Cloud</h2>
-					<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
-               </div>
-                  
-                  
-                  
-                  
-              </div>
-            </div>
+				<div class="img-con">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-dashboard.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-dashboard-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
+				</div>
+				<h2 class="text-center hoverfade">Extend your Cloud</h2>
+				<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
+			 </div>
+			 
+			 <!-- ITEM #4 -->
+			<div class="item ">
+				<div class="hoverarea">
+					<div class="hovercontent">
+						<p>Music player and server for ownCloud</p>
+						<div class="button-group text-center">
+							<h2>Music</h2>
+							<a href="http://apps.owncloud.com/content/show.php/Music?content=164319" target="_blank"><button type="button" class="btn btn-lg">Get the music app</button></a>
+					 </div>
+				</div>
+			</div>
 
+				<div class="img-con">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-music.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-music-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
+				</div>
+				<h2 class="text-center hoverfade">Extend your Cloud</h2>
+				<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
+			 </div>
+			 
+			<!-- ITEM #5 -->
+			<div class="item ">
+				<div class="hoverarea">
+					<div class="hovercontent">
+						<p>Tasks management for ownCloud.</p>
+						<div class="button-group text-center">
+							<h2>Tasks Enhanced</h2>
+							<a href="http://apps.owncloud.com/content/show.php/Tasks+Enhanced?content=164356" target="_blank"><button type="button" class="btn btn-lg">Get Tasks Enhanced</button></a>
+					 </div>
+				</div>
+			</div>
 
-           
-        </div>
-      </div>
-        
-        <div class="col-md-4">
-          <div class="feature-block">
-            <div class="hoverarea">
-              <div class="hovercontent">
-                  <p>Put it on a Rasberry Pi at home, on a old desktop or you NAS. Pick a ownCloud provider you trust, or rent a server somewhere.</p>
-                  <div class="button-group text-center">
-                    <h2>Own Your Data</h2>
-                    <a href="https://www.youtube.com/watch?v=xA3tfBTvH0c" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
-                    <a href="/features/" target="_blank"><button type="button" class="btn btn-lg">More Features</button></a>
-                  </div>
-              </div>
-            </div>
-            <div class="img-container primary">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-owncloud.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-owncloud-small.png" class="img-responsive hidden-md hidden-lg" alt="...">
-            </div>
-            <h2 class="text-center hoverfade">Own Your Data</h2>
-            <p class="text-center hoverfade">Host your data where you want</p>
-          </div>
-       </div>
-
-        <div class="col-md-4">
-          <div class="feature-block">
-            <div class="hoverarea">
-              <div class="hovercontent">
-                  <p>Looking for a ownCloud for your business? Enterprise-ready file sync and share!</p>
-                  <div class="button-group text-center">
-                    <h2>Own Your Business</h2>
-                    <a href="http://vimeo.com/91033287" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
-                    <a href="https://owncloud.com/" target="_blank"><button type="button" class="btn btn-lg">Learn More</button></a>
-                  </div>
-              </div>
-            </div>
-            <div class="img-container enterprise">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business-small.png" class="img-responsive hidden-md hidden-lg" alt="...">
-            </div>
-            <h2 class="text-center hoverfade">Own Your business</h2>
-            <p class="text-center hoverfade">Run ownCloud in your Enterprise</p>
-          </div>
-        </div>
+				<div class="img-con">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-tasks.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-tasks-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
+				</div>
+				<h2 class="text-center hoverfade">Extend your Cloud</h2>
+				<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
+			 </div>
+				
+				
+				
+				
+			</div>
+		</div>
 
 
-      <hr>
+		 
+	</div>
+	</div>
+	
+	<div class="col-md-4">
+		<div class="feature-block">
+		<div class="hoverarea">
+			<div class="hovercontent">
+				<p>Put it on a Rasberry Pi at home, on a old desktop or you NAS. Pick a ownCloud provider you trust, or rent a server somewhere.</p>
+				<div class="button-group text-center">
+				<h2>Own Your Data</h2>
+				<a href="https://www.youtube.com/watch?v=xA3tfBTvH0c" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
+				<a href="/features/" target="_blank"><button type="button" class="btn btn-lg">More Features</button></a>
+				</div>
+			</div>
+		</div>
+		<div class="img-container primary">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-owncloud.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-owncloud-small.png" class="img-responsive hidden-md hidden-lg" alt="...">
+		</div>
+		<h2 class="text-center hoverfade">Own Your Data</h2>
+		<p class="text-center hoverfade">Host your data where you want</p>
+		</div>
+	 </div>
 
-    
-    </div> <!-- /container -->
+	<div class="col-md-4">
+		<div class="feature-block">
+		<div class="hoverarea">
+			<div class="hovercontent">
+				<p>Looking for a ownCloud for your business? Enterprise-ready file sync and share!</p>
+				<div class="button-group text-center">
+				<h2>Own Your Business</h2>
+				<a href="http://vimeo.com/91033287" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
+				<a href="https://owncloud.com/" target="_blank"><button type="button" class="btn btn-lg">Learn More</button></a>
+				</div>
+			</div>
+		</div>
+		<div class="img-container enterprise">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business-small.png" class="img-responsive hidden-md hidden-lg" alt="...">
+		</div>
+		<h2 class="text-center hoverfade">Own Your business</h2>
+		<p class="text-center hoverfade">Run ownCloud in your Enterprise</p>
+		</div>
+	</div>
 
-  <script>
+
+	<hr>
+
+
+</div> <!-- /container -->
+
+<script>
 $( document ).ready(function() {
 	//Pause Slider on hover
 	$(".slider").hover(
@@ -211,7 +211,6 @@ $( document ).ready(function() {
 	});
 });
 </script>
-
 
 <div class="row pad-bottom" id="getapps">
 	<div class="col-sm-12">
