@@ -48,6 +48,10 @@
 <p>The ownCloud community would like to acknowledge the following people for their contributions to the security of our websites 
 	*.owncloud.org and *.owncloud.com</p>
 <br/>
+<strong>2014</strong>
+<ul>
+	<li>Ali BenCafu (<a href="https://twitter.com/Th3Septimus">@Th3Septimus</a>)</li>
+</ul>
 <strong>2013</strong>
 <ul>
 	<li><a href="http://www.yujikosuga.com">Yuji Kosuga</a></li>
