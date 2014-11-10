@@ -149,7 +149,7 @@
           <div class="feature-block">
             <div class="hoverarea">
               <div class="hovercontent">
-                  <p>Put it on a Rasberry Pi at home, on a old desktop or you NAS. Pick a ownCloud provider you trust, or rent a server somehwhere.</p>
+                  <p>Put it on a Rasberry Pi at home, on a old desktop or you NAS. Pick a ownCloud provider you trust, or rent a server somewhere.</p>
                   <div class="button-group text-center">
                     <h2>Own Your Data</h2>
                     <a href="https://www.youtube.com/watch?v=xA3tfBTvH0c" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
