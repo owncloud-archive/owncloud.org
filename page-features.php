@@ -18,8 +18,7 @@
 			<div class="col-md-4 featureblock">
 				<i class="icon-globe"></i>
 				<h3 class="ft-title">Access Your Data</h3>
-				<p class="featuredesc">Store your files, folders, contacts, photo galleries, calendars and more on a server of your choosing. Access that folder from your mobile device,
-				your desktop, or a web browser. Access your data wherever you are, when you need it.</p>
+				<p class="featuredesc">Store your files, folders, contacts, photo galleries, calendars and more on a server of your choosing. Access them from your mobile device, your desktop, or a web browser. Access your data wherever you are, when you need it.</p>
 			</div>
 			<div class="col-md-4 featureblock">
 				<i class="icon-refresh"></i>
@@ -30,7 +29,7 @@
 			<div class="col-md-4 featureblock">
 				<i class="icon-share-alt"></i>
 				<h3 class="ft-title">Share Your Data</h3>
-				<p class="featuredesc">Share your data with others, and give them access to your latest photo galleries, your calendar, your music, or anything else you want them to see. 
+				<p class="featuredesc">Share your data with others, and give them access to your latest photo galleries, your calendar, your music, or anything else you want them to see. With or without password or time limit.
 				Share it publicly, or privately. It is your data, do what you want with it.</p>
 			</div>
 		</div>
