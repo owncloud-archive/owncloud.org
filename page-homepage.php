@@ -174,7 +174,7 @@
 				<div class="button-group text-center">
 				<h2>Own Your Business</h2>
 				<a href="http://vimeo.com/91033287" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
-				<a href="https://owncloud.com/" target="_blank"><button type="button" class="btn btn-lg">Learn More</button></a>
+				<a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank"><button type="button" class="btn btn-lg">Learn More</button></a>
 				</div>
 			</div>
 		</div>
@@ -230,7 +230,7 @@ $( document ).ready(function() {
 			</div>
 			<div class="col-xs-12 col-sm-6">
 				<p>Looking to use ownCloud in your company?</p>
-				<a href="https://owncloud.com/products/enterprise/" target="_blank" class="btn btn-lg btn-primary"><i class="icon-briefcase"></i> Enterprise Edition<br/><small>Corporate data under your control</small></a>
+				<a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank" class="btn btn-lg btn-primary"><i class="icon-briefcase"></i> Enterprise Edition<br/><small>Corporate data under your control</small></a>
 			</div>
 		</div>
 	</div>
