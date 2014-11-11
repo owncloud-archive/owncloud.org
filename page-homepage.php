@@ -4,7 +4,7 @@
 <div class="container teaser-area">
 	<div class="row">
 		<div class="col-lg-7 col-md-6">
-			<h1>ownCloud 7 is here!</h1>
+			<h1>ownCloud 7 Community Edition is here!</h1>
 			<p>Access your data from all your devices, on an open platform you can extend and modify.</p>
 			<p><a class="btn btn-primary btn-lg" role="button" href="/features">Learn more &raquo;</a></p>
 		</div>
