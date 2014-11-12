@@ -30,7 +30,7 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <ul>
 	<li>ownCloud supports HTTPS and offers server-side encryption. ownCloud automatically generates a 4096-bit strong private/public key-pair for each user. Private keys are encrypted with the user’s login password.</li>
 	<li>ownCloud is an open source project so all code is visible. We are committed to building secure code. We employ a full-time security expert and do regular security audits on the code. We always welcome fixes to security issues, see <a href="https://owncloud.org/security" target="_blank">owncloud.org/security</a>.</li>
-	<li>To learn a bit more about ownCloud security, watch <a href="https://www.youtube.com/watch?v=iLJbMrLgowk&index=25&list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">this technical talk at the ownCloud Contributor Conference</a> and <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">this article about encryption</a>.</li>
+	<li>To learn a bit more about ownCloud security, watch <a href="https://www.youtube.com/watch?v=iLJbMrLgowk&index=25&list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">this technical talk at the ownCloud Contributor Conference</a> and read <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">this article about encryption</a>.</li>
 </ul>
 <h3>Are files encrypted during sync?</h3>
 <ul>
@@ -39,7 +39,7 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <h3>Does ownCloud support encrypting files on the server?</h3>
 <ul>
 	<li>Yes, but the Encryption app is designed to protect your data on external storage, rather than on the server ownCloud runs on. In the current design, the server always has the keys to the data. They are encrypted by your password, but you can't trust that it is as secure as client-side encryption. ownCloud does not do client-side encryption because you can not have a web interface if the server can't read the files and the web interface (and sharing abilities!) are very central to ownCloud. So you will always need to be able to trust the server if you want to 'own' your data. Read more <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">in this article</a>.</li>
-	<li>If you really want client-side encryption, we recommend you look for other solutions. Of course, if you are sufficiently knowledgeable and skilled, you would be more than welcome to improve on the file encryption technology. If you are interested in supporting or working on this feature, check out <a href="https://www.bountysource.com/issues/905005-feature-client-side-file-encryption" target="_blank">this page</a> for the latest state on the discussion about it and go to <a href="http://owncloud.org/contribute">owncloud.org/contribute</a> to get going.</li>
+	<li>If you really want client-side encryption, we recommend you look for other solutions. Of course, if you are sufficiently knowledgeable and skilled, you would be more than welcome to improve on the file encryption technology. If you are interested in supporting or working on this feature, check out <a href="https://github.com/owncloud/mirall/issues/275" target="_blank">github</a> for the latest state on the discussion about it and check out <a href="http://owncloud.org/contribute">owncloud.org/contribute</a> to get started.</li>
 </ul>
 <h3>Why do I sometimes get conflict files and messages while syncing?</h3>
 <ul>
@@ -53,18 +53,18 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <ul>
 	<li>No, we think that that is the job of the file system. We do maintain versions of files as they are replaced and you may revert to older versions at any time.</li>
 </ul>
-<h3>Why is ownCloud not faster?</h3>
+<h3>Why is ownCloud syncing not faster?</h3>
 <ul>
 	<li>The design of ownCloud is constrained by two important features: scalability and reliability.
 	<ul>
-		<li>ownCloud is designed to be very scalable, and be independent of the used storage system. We want it to work with terabytes of data and tens of thousands of users - and it does, organizations like CERN in Switzerland and German universities run ownCloud with such amounts of data and users. The downside of this is that you can't use tricks like creating 'checksums' to see if files are changed: imagine doing that on terabytes of data on an external storage! What is fast for a few gigabyte or a few thousand files is would break entirely once you add a large movie- or music database, or start pumping scientific data through the system.</li>
+		<li>ownCloud is designed to be very scalable, and be independent of the used storage system. We want it to work with terabytes of data and tens of thousands of users - and it does, organizations like CERN in Switzerland and German universities run ownCloud with such amounts of data and users. The downside of this is that it is hard use 'checksums' to see if files are changed: imagine doing that on terabytes of data on an external storage! What is fast for a few gigabyte or a few thousand files is would break entirely once you add a large movie- or music database, or start pumping scientific data through the system.</li>
 		<li>A second design goal of ownCloud is reliability. We would rather be slower, but ensure no files are lost, than risk going fast-and-loose with user data. For example, the file-change-notifications on Linux and Windows are not 100% reliable in all cases, so just-to-be-sure we run a full file system scan every few minutes. Yes, that eats battery life, but it does ensure you do not lose any of your files!</li>
 	</ul>
-	This does not mean there is no room for improvement, we work very hard to make ownCloud faster and help is always welcome. Check out the <a href="https://github.com/owncloud/mirall/" target="_blank">client code on github</a> if you are interested in the challenges of fast, scalable and reliable file syncing! See <a href="https://owncloud.org/contribute" target="_blank">the contribute pages</a> for more information about getting involved.</li>
+	This does not mean there is no room for improvement, we work very hard to make ownCloud faster and every release introduces many performance improvements. Also, help is always welcome. Check out the <a href="https://github.com/owncloud/mirall/" target="_blank">client code on github</a> if you are interested in the challenges of fast, scalable and reliable file syncing! See <a href="https://owncloud.org/contribute" target="_blank">the contribute pages</a> for more information about getting involved.</li>
 </ul>
-<h3>Can I write proprietary apps for ownCloud?</h3>
+<h3>Can I write closed source apps for ownCloud?</h3>
 <ul>
-	<li>Yes, under the license for ownCloud Enterprise Edition. The deal is simple: either contribute in code (follow the AGPL license) or purchase ownCloud Enterprise Edition which is issued under the ownCloud commercial license.</li>
+	<li>Yes, but only under the ownCloud Enterprise Edition, which supports integration with proprietary technologies.</li>
 </ul>
 <h2>ownCloud Community</h2>
 <h3>Where is the ownCloud community hosted?</h3>
