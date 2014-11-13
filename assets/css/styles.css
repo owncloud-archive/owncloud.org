@@ -245,14 +245,13 @@ div.row.home-row h2 {
 	font-size: 28px;
 }
 
-.home a.conf-button {
+.home a.events-button {
 	color: #428BCA;
 	background-color: #FFFFFF;
 	border: 1px solid #428BCA;
 	font-weight: 700;
 	margin-top: 25px;
 }
-
 .content.row, .row.row-slogan {
 	margin-top: 0;
 }
