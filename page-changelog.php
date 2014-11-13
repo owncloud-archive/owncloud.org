@@ -29,6 +29,28 @@
 Download: <a href="https://download.owncloud.org/community/owncloud-7.0.3.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.3.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.3.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.3.tar.bz2.md5</a></br>
 
+<h3>Version 6.0.6 <small>November 13th 2014</small></h3> 
+<li>Fix finding old versions in special cases</li>
+<li>Make versions and encryption aware of copy operations</li>
+<li>Force loading encryption app in all needed cases</li>
+<li>Better filesystem scanning error messages</li>
+<li>LDAP wizard fixes</li>
+<li>Add configuration switch to enable preview mimetypes</li>
+<li>Create backup of all encryption keys before recovery</li>
+<li>Add displayname for admins</li>
+<li>Several security fixes</li>
+<li>Lots of smaller improvements</li>
+Download: <a href="https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2.md5</a></br>
+
+<h3>Version 5.0.18 <small>November 13th 2014</small></h3> 
+<li>Only allow http and https redirects</li>
+<li>Documentation fixes</li>
+<li>Several security fixes</li>
+<li>Several smaller fixes</li>
+Download: <a href="https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2.md5</a></br>
+
 <h3>Version 7.0.2 <small>August 28th 2014</small></h3> 
 <li>App upgrading stability improvements</li>
 <li>Make default share folder configurable</li>
