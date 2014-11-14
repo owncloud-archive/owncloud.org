@@ -10,17 +10,20 @@
 	<div class="col-md-12">
 	<p>ownCloud community members can organize ownCloud presence at trade shows and conferences to present our community and technology.</p>
 		<p>Want to see ownCloud at an event? Below you will find materials you can use and practical tips on how to make it happen.</p>
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/materials.jpg" style="width: 400px" title="You can order these materials!" alt="You can order these materials!" class="img-thumbnail alignright">
 
 	<h2>Resources</h2>
 		<ul>
 			<li>Presentation templates and slides can be found <a  target="_blank" href="https://github.com/owncloud/promo">here</a>.</li>
-			<li>Flyers, stickers, posters and logos can be found <a  target="_blank" href="https://github.com/owncloud/promo">here</a>. Please do follow the branding guidelines on that page.</li>
+			<li>Our page with tips and tricks on creating and giving a great presentation <a href="speaking/">here</a>.</li>
+			<li>Flyers, stickers, posters and logos can be found <a  target="_blank" href="https://github.com/owncloud/promo">here</a>. Please do follow the branding guidelines on that page!</li>
 			<li>videos can be found on our <a target="_blank" href="http://www.youtube.com/ownclouders">YouTube channel</a>.</li>
 			<li>Here is our <a  target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/files/FAQ.pdf">conference team FAQ</a> and
 			some <a  target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/files/TalkingPoints.pdf">conference talking points</a>.</li>
 
 			<li><em>Get some goodies</em><br />
-				We can send you some materials like stickers and flyers for your booth. 			<a target="_blank"  href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request
+				We can send you some materials like stickers and flyers for your booth. 
+				<a target="_blank"  href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request
 				form to fill in. Note that we have limited supply and shipping and handling takes time, so ask us in time! In general, count on two weeks at
 				least and please understand that currently we only ship in (most countries in) Europe and the USA.</li>
 		</ul>
@@ -29,6 +32,7 @@
 		<p>As ownCloud appeals to both home users and businesses, we can be found at a wide variety of conferences and trade shows.
 			To spread the word, you can either give a talk or workshop, or organize a booth.</p>
 		<ul>
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/talk.jpg" style="width: 800px" title="Jan-C speaking at Guadec" alt="Jan-C speaking at Guadec" class="img-thumbnail alignnone">
 
 			<li><strong>Give a presentation or workshop</strong><br />
 			If you want to give a presentation or workshop on ownCloud, you can get some ideas for subjects and slides <a  target="_blank" href="https://github.com/owncloud/promo">here</a>.
@@ -65,7 +69,8 @@
 				some <a  target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/files/TalkingPoints.pdf">conference talking points</a>. Print these pages,
 				read them and bring them for the others on the booth to read in a quiet moment. Of course, you can use our flyers, posters and other materials. You 
 				can <a  target="_blank" href="https://github.com/owncloud/promo">download designs here</a> for printing. You can also find our logo there. Please do follow the usage guidelines on that page.</li>
-			
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/product_demo.jpg" style="width: 400px" title="Picture by Dragotin from CLT14" alt="Picture by Dragotin from CLT14" class="img-thumbnail alignright">
+
 				<li><strong><em>Tips</em></strong><br />
 				<ul>
 					<li><strong>Approach people with a question</strong>. For example: <ul><li><em>"do you know ownCloud?"</em></li> <li><em>"do you use dropbox or Google drive?"</em></li> <li><em>"do you share files and work on them with other people?"</em></li></ul>

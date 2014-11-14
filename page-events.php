@@ -8,7 +8,7 @@
 	<div class="col-md-12">
 		<p>The ownCloud community organizes and participates in many events around the globe. Interested in meeting fellow ownCloud users and contributors? Look for an 
 			event that happens close to you or organize one!</p>
-
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 		<h2>Meetups</h2>
 		<p>ownCloud community members all around the globe get together in meetups to learn, share ideas and work on 
 			ownCloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below a list of local meetup groups.</p>
@@ -20,6 +20,7 @@
 			<a target="_blank" href="/events/meetups" class="btn btn-lg btn-default">
 			<i class="icon-lightbulb-o"></i> Organize a Meetup!</a>
 		</div>
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/product_demo.jpg" style="width: 400px" title="Picture by Dragotin from CLT14" alt="Picture by Dragotin from CLT14" class="img-thumbnail alignright">
 		<h2>Conferences</h2>
 		<p>ownCloud community members everywhere organize ownCloud presence at trade shows and conferences to present our community and technology to visitors.
 			Below a list of upcoming tradeshows and conferences where you can find ownCloud represented!</p>

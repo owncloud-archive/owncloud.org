@@ -8,6 +8,7 @@
 </div>
 <div class="row">
 	<div class="col-md-12">
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup.jpg" style="width: 400px" title="pic by Raghu Nayar" alt="pic by Raghu Nayar" class="img-thumbnail alignright">
 	<p>ownCloud community members all around the globe organize Meetups to get together, learn, share ideas and work on ownCloud.
 		Meetups come in all shapes and sizes, but have one thing in common: they are organized and attended by ownCloud enthusiasts just like you.</p>
 		<script type="text/javascript" src="http://www.meetup.com/embed/largest/owncloud/"></script>
@@ -40,6 +41,7 @@
 			a round of introductions, ask everybody to share what they would like to do. You can use one or more of our <a href="http://github.com/owncloud/promo">ready-made workshop presentations to get started</a> but if everybody just wants to get hacking: that's great!</p>
 
 		<p>Of course, every now and then you could get an interesting speaker to discuss some Cloudy subject.</p>
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup2.jpg" style="width: 400px" title="pic by Raghu Nayar" alt="pic by Raghu Nayar" class="img-thumbnail alignright">
 
 		<p><strong>User Meetups</strong> require a little more work. It is usually best to, after introductions, have a presentation or demonstration - use a
 			<a href="http://github.com/owncloud/promo">ready-made workshop or  presentation to get started</a>. After that, have room for questions and discussions.
