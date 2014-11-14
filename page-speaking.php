@@ -13,8 +13,7 @@
 
 	<h2>A great talk in 5 steps</h2>
 	<p>Key to a good talk the realization that the story matters most! Let's get from story to speaking in 5 steps.</p>
-	<picture: choose, by wikisid on wikimedia>
-	<a href="http://owncloud.org/wp-content/uploads/2014/11/encryption-documentation.png"><img class="alignright  wp-image-7532" alt="encryption documentation screenshot" src="http://owncloud.org/wp-content/uploads/2014/11/encryption-documentation.png" width="279" height="335" /></a>
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/choose.jpg" style="width: 300px" title="picture from wikisid on wikipedia" alt="picture from wikisid on wikipedia" class="img-thumbnail alignright">
 	<h3>1. Subject</h2>
 	<p>First, pick a subject you care and know about. And, keeping the audience you'll be talking to in mind, think of what you want people to take away from the talk in one sentence. For biggest impact, pick something actionable. Examples:
 	<ul>
@@ -25,41 +24,44 @@
 	<ul>
 		<strong>hint:</strong> If you really want to dive in code or other details, a workshop is a much better format. People remember better what they did than what somebody told them.
 	</ul></p>
-	<p>Let's say, as example, we talk about our web application - ownCloud. We want people to try it out, and we want to tell them three things:
+	<p>Let's say, as example, we talk about our web application - ownCloud. We want people to try it out, and we want to tell them three things about ownCloud:
 	<ul>
-		<li><em>why it matters</em></li>
-		<li><em>how it helps them</em></li>
-		<li><em>how easy it is</em></li>
-	<ul>
+		<li><em>It matters</em></li>
+		<li><em>It helps YOU</em></li>
+		<li><em>It is easy</em></li>
+	</ul>
 	Another example, if you talk about the ownCloud project:
 	<ul>
-		<li><em>Why are we cool</em></li>
-		<li><em>Why should you care</em></li>
-		<li><em>How can you help</em></li>
+		<li><em>We are a cool project</em></li>
+		<li><em>You should care</em></li>
+		<li><em>You can help</em></li>
 	</ul>
-	Of course, there are many other possibilities.
+	These are the main messages in your presentation.
 	</p>
-	<picture: slides, by Geo087 on wikimedia>
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/slides.jpg" style="width: 400px" title="picture by Geo087 on wikipedia" alt="picture by Geo087 on wikipedia" class="img-thumbnail alignright">
 	<h3>2. Slides</h3>
-	<p>Once you have a subject and a few main points, you have a structure. So it's time to grab a presentation tool and get on it. Create an agenda with these three points. With this slide, you introduce to the audience that these are the things you want to talk about:
-	<ul>
-		<li><em>why you want ownCloud</em></li>
-		<li><em>what ownCloud does</em></li>
-		<li><em>how easy it is</em></li>
-	</ul></p>
+	<p>Once you have a subject and the messages, you have a structure. So it's time to grab a presentation tool and get on it. Create an agenda with these three messages. With this slide, you introduce to the audience that these are the things you want to talk about as defined in step 1.</p>
 	<p>You can now also create a title slide. For the title, go back to your 'single sentence goal' and think how to put that into a few actionable words!
 	<ul>
 		<em>Try out ownCloud!</em>
 	</ul>
-	would work well for this talk. Add a slide about yourself and the start is there.</p>
+	would work well for this talk. Add a slide about yourself and the basics are done.</p>
 
 	<h4>Filling in the details</h4>
-	<p>Then go through the three subjects and add details. Why does it matter? For ownCloud, privacy is a reason to want to host your data. Or the large amounts of data it can hold without a monthly payment, perhaps. Depending on the subject and audience, you might want to talk about history, with a time line or pictures. Remember to keep things simple, as people won't remember details anyway!</p>
-	<p><strong>Content tips</strong> - focus is key:
+	<p>The key for the slides is this: YOU give the presentation, not the projector. The presentation should be fine without slides, but the slides should be useless without you.</p>
+	<p>Now we're going to create the slides, building roughly the following structure:
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/structure.png" style="width: 800px" title="picture from wikisid on wikipedia" alt="picture from wikisid on wikipedia" class="img-thumbnail">
+	</p>
+	<p>To do so, follow these steps for each of the messages:
 	<ul>
-		<li>Think for each slide what the main point is, and build around that, rather than trying to shove in everything you would be able to say.</li>
-		<li>It is important to talk about things from the point of view of users and listeners. Look for situations many people recognize, build on that and talk from use cases, rather than technical abilities. Add examples!</li>
-	</ul></p>
+		<ol><strong>1.</strong> Write everything you (might) want to say on the message in a document</ol>
+		<ol><strong>2.</strong> Read over it and pick out 2-4 common themes, the most important arguments</ol>
+		<ol><strong>3.</strong> Restructure everything to be grouped around the main arguments, discard what is left</ol>
+		<ol><strong>4.</strong> Create a slide with an overview of the 2-4 main arguments around the message</ol>
+		<ol><strong>5.</strong> For each argument, think of the best way to convey the general idea behind it  (screenshot, graph, quote, picture...). Don't dump your notes in the slide, instead - let the viewer see a hint towards the big picture, you will tell them the rest!</ol>
+		<ol><strong>6.</strong> Then create the slides for each argument. Sometimes they need two or three slides, but ideally, keep it to one.</ol>
+		<ol><strong>7.</strong> The document with text will be the base for notes during the talk. The content is there - the slides are just to support you!</ol>
+	</ul>It is important to talk about the message from the perspective of the audience. Think from use cases, rather than technical abilities, and add examples!</p>
 	<p><strong>Style tips</strong> - simplicity is key:
 	<ul>
 		<li><strong>Limit</strong> the number of elements on a slide. Ideally, just one - be it a list, a image, a graph. Don't have more than two, really!</li>
@@ -67,21 +69,13 @@
 		<li><strong>Quotes</strong> are awesome. Put a single quote on a slide and cut them to at most 20 words. If they're longer, speak the rest during the talk!</li>
 		<li><strong>Pictures</strong> rock, too. You can discuss what is on the picture during the talk but don't describe it on the slide. Keep it full-screen, ideally!</li>
 		<li><strong>Graphs</strong> should be simple. No labels, no grid lines - focus on the message of the graph, rather than the data behind it. You'll introduce the most important details in your talk: "<em>this graph shows the number of users over time</em>".</li>
-		<li><strong>Variation</strong> keeps people awake. Keep words on a leash. Less of them is better. Usually, just the keywords are enough! Try making a slide with just one to three words on them, have a graph instead of statistics, a picture of a calendar rather than a list of events, a photo of somebody instead of the quote.</li>
+		<li><strong>Variation</strong> keeps people awake. Keep words on a leash. Less of them is better. Usually, just the keywords are enough! Try making a slide with just one word on it, have a graph instead of statistics, a picture of a calendar rather than a list of events, a photo of somebody instead of the quote. Be creative!</li>
 	</ul></p>
-	<p>A good approach keeping all of the above in mind is this:
-	<ul>
-		<ol>1. throw everything you (might) want to say on the slide in a document</ol>
-		<ol>2. Pick out the common theme, the most important point</ol>
-		<ol>3. Restructure everything to support the main point. Content which doesn't you move to another page or slide</ol>
-		<ol>4. Now you have the 'message' of the slide. Think of the best format to convey it and create the slide. Done!</ol>
-	</ul>
-	The details in the document can be useful as notes while talking. And the content which didn't fit the main subject of the slide is either not needed at all or useful for another slide.</p>
 	<h4>Final steps</h4>
-	<p>While making slides, keep in mind what your key messages are. Summarize frequently, repetition is what makes sure your audience remembers the key points! After each main section, be sure to summarize, reminding people of where they are in the agenda, what you discussed and what comes next.</p>
-	<p>Finally tell people where to find more information/get it/how to contact you, and answer their questions. Done!</p>
-	<p>You can find many more tips on the web. These are a few good ones: <a href="http://blog.hubspot.com/blog/tabid/6307/bid/5975/10-Rules-to-Instantly-Improve-Your-Presentations.aspx">10 rules to instantly improve your presentations</a></p>
-	<picture: practice by woodleywonderworks on flickr>
+	<p>While making slides, keep in mind what your key messages are. Summarize frequently, repetition makes your audience remember! Summarize after each message section, mention what you discussed and what comes next.</p>
+	<p>Finally tell people where to find more information/get it/how to contact you, and add a slide where they can ask questions. Done!</p>
+	<picture: practice.jpg by woodleywonderworks on flickr>
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/practice.jpg" style="width: 400px" title="picture from woodleywonderworks on flickr" alt="picture from woodleywonderworks on flickr" class="img-thumbnail alignright">
 	<h3>3. Study</h3>
 	<p>Now the slides are done, but you're not.</p>
 	<p>Author Malcolm Gladwell concluded that it <a href="http://www.wisdomgroup.com/blog/10000-hours-of-practice/">takes 10,000 hours of practice to master a skill</a>, and this is true for public speaking as well. You don't have to practice your talk 10.000 hours - but realize that every time you practice, you get that much closer to perfection! And, also noted by Malcolm, <em>everything is practice</em>. If you sit in the bus and go over your main topic in your head or talk to yourself on the streets, during a shower or in bed - it all helps.</p>
@@ -91,12 +85,13 @@
 	<h4>Timing</h4>
 	<p>Once the story is stable, do one or two more runs through and time them. You can now adjust how fast you speak. Cut the presentation in sections (perhaps each of the major points?) so you can check during the presentation if you're going too fast or too slow!</p>
 	<p><ul>
-		<strong>A tip</strong> is to put a series of screen shots or a little product demo at the end of your presentation. Depending on how you went, time-wise, you can slowly through them, go faster or skip them completely. It creates a nice buffer, ensuring you're always ending on time!
+		<strong>A tip</strong> is to put a series of screen shots or a little product demo at the end of your presentation. Depending on how you did time-wise you can go slowly through them, go faster or skip them completely. It creates a nice buffer, ensuring you're always ending on time!
 	</ul></p>
 	<h4>Final preparation</h4>
-	<p>If you wrote it out (and adjusted with every test run) your presentation, try to condense it down to very few words or use strategic bolding on the text to create a backup for yourself. In any case, put the end result, be it short or full text, on paper (printed) or in the notes section of the slides. If, at any point during the presentation, you get stuck, you can resort to reading for a few seconds!</p>
+	<p>Take your improved and adjusted notes and try to condense them down to very few words; or use strategic bolding on the text to create a backup for yourself. In any case, put the end result, be it short or full text, on paper (printed) or in the notes section of the slides. If, at any point during the presentation, you get stuck, you can resort to reading for a few seconds!</p>
 	<p>Your practice will ensure it is unlikely you will get really stuck. Yes, you might go off track, but the notes will pull you back, no worries. Don't rely too much on them - they are a backup plan!</p>
-	<picture: presentation by tomwsulcer on wikimedia>
+	<picture: presentation.jpg by tomwsulcer on wikimedia>
+	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/presentation.jpg" style="width: 400px" title="picture from tomwsulcer on wikipedia" alt="picture from tomwsulcer on wikipedia" class="img-thumbnail alignright">
 	<h3>4. Speak</h3>
 	<p>Now it is time for the actual talk. Now first of all: <em>you will be nervous</em>. And that is a good thing: some healthy nerves will keep your performance top-notch! So do not worry about it, nobody will notice.</p>
 	<h4>Tools and setup</h4>
@@ -105,6 +100,8 @@
 	<h4>Go, get them, tiger!</h4>
 	<p>If you followed the guide, you will notice that while speaking, you will barely need your notes. You have a good, consistent story and you practiced many times, so while you won't say <em>exactly</em> what it says in your notes, you'll do fine. Better than you expected yourself! But keep an eye on the time, buddy, you might lose yourself in details and talk too much, or talk to fast. No worries, the screenshots at the end will save you!</p>
 	<h3>5. sustain</h3>
-	<p>Once you're done, be sure to not let your skills and experience slip. Watch the video or recording, if they were made, improve the slides, submit them to other events - get better and enjoy!</p>
+	<p>Once you're done, be sure to not let your skills and experience slip. Watch the video or audio recording if there is one, improve the slides, submit them to other events - get better and enjoy sharing what you know!</p>
+	<p>Over time, you can diverge from the structure mentioned here, be creative with it - and still create easy to understand and effective presentations.</p>
+	<p><em>You can find many more tips on the web. These are a few good ones: <a href="http://blog.hubspot.com/blog/tabid/6307/bid/5975/10-Rules-to-Instantly-Improve-Your-Presentations.aspx">10 rules to instantly improve your presentations</a></em></p>
 	</div>
 </div>
