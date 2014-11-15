@@ -3,7 +3,7 @@
 </div>
 <div class="sub-nav">
 	<a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
-	|&nbsp;&nbspConference Program&nbsp;&nbsp;
+	|&nbsp;&nbsp;Conference Program&nbsp;&nbsp;
 	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
 </div>
 <div class="row">
@@ -35,8 +35,9 @@
 			alt="Jan-C speaking at Guadec" class="img-thumbnail alignnone">
 			<li><strong>Give a presentation or workshop</strong><br />
 				If you want to give a presentation or workshop on ownCloud, you can get some ideas for subjects and slides
-				 <a target="_blank" href="https://github.com/owncloud/promo">here</a>.
-				There is also a presentation templates which you can adapt to your needs.</li>
+				<a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">here</a>
+				and more extensive speaking tips and information <a href="speaking/">here</a>.
+				There is also a presentation template which you can adapt to your needs.</li>
 
 			<li><strong>Organize a booth</strong><br />
 				Going to a trade show or conference for ownCloud is not hard. All you need are a few volunteers and some positive energy! Read the steps below to learn how to organize a booth.
@@ -63,40 +64,41 @@
 					<li><em>Handle visitors</em><br />
 						There are four kind of visitors you get at the booth: newbies, advanced users, business users and (potential) contributors. You're there to get 
 						newbies interested in ownCloud, answer questions of the advanced users and convince the (potential) business users that their company needs 
-						ownCloud! Last but not least, you should convince (potential) contributors to get on board with ownCloud hacking: it is fun and easy.<br />
-						To help you talk about ownCloud, we have a <a target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/files/FAQ.pdf">conference team FAQ</a> and
-						some <a target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/files/TalkingPoints.pdf">conference talking points</a>. Print these pages,
-						read them and bring them for the others on the booth to read in a quiet moment. Of course, you can use our flyers, posters and other materials. You 
-						can <a target="_blank" href="https://github.com/owncloud/promo">download designs here</a> for printing. You can also find our logo there. Please do follow the usage guidelines on that page.</li>
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/product_demo.jpg" style="width: 400px" title="Picture by Dragotin from CLT14" 
-						alt="Picture by Dragotin from CLT14" class="img-thumbnail alignright">
+						ownCloud! Last but not least, you should convince (potential) contributors to get on board with ownCloud hacking: it is fun and easy.</li>
+					</ul>
+					<p>To help you talk about ownCloud, we have a <a target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/files/FAQ.pdf">conference team FAQ</a> and
+					some <a target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/files/TalkingPoints.pdf">conference talking points</a>. Print these pages,
+					read them and bring them for the others on the booth to read in a quiet moment. Of course, you can use our flyers, posters and other materials. You
+					can <a target="_blank" href="https://github.com/owncloud/promo">download designs here</a> for printing. You can also find our logo there. Please do follow the usage guidelines on that page.</p>
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/product_demo.jpg" style="width: 400px" title="Picture by Dragotin from CLT14"
+					alt="Picture by Dragotin from CLT14" class="img-thumbnail alignright">
+				</ul>
 
-					<li><strong><em>Tips</em></strong><br />
-						<ul>
-							<li><strong>Approach people with a question</strong>. For example: 
-								<ul>
-									<li><em>"do you know ownCloud?"</em></li>
-									<li><em>"do you use dropbox or Google drive?"</em></li>
-									<li><em>"do you share files and work on them with other people?"</em></li>
-								</ul>
-								Your goal is to find out what their problem is and then tell them how ownCloud can help them. If they have no problem or ownCloud can't help, well, that's it. 
-								No reason to make them listen to anything they won't be interested in, while you could be talking to people who DO need ownCloud!</li>
+				<h3>Some practical booth tips</h3>
+					<ul>
+						<li><strong>Approach people with a question</strong>. For example:
+							<ul>
+								<li><em>"do you know ownCloud?"</em></li>
+								<li><em>"do you use dropbox or Google drive?"</em></li>
+								<li><em>"do you share files and work on them with other people?"</em></li>
+							</ul>
+							Your goal is to find out what their problem is and then tell them how ownCloud can help them. If they have no problem or ownCloud can't help, well, that's it.
+							No reason to make them listen to anything they won't be interested in, while you could be talking to people who DO need ownCloud!</li>
 
-							<li><strong>Organize little talks or workshops at the booth</strong>. Like <em>"building your first ownCloud app"</em> or <em>"installing ownCloud on a RaspberryPi"</em>.
-							They might not attract a large audience, but that means you get 
-							to spend some quality time with a few interested ownCloud users or potential contributors!</li>
+						<li><strong>Organize little talks or workshops at the booth</strong>. Like <em>"building your first ownCloud app"</em> or <em>"installing ownCloud on a RaspberryPi"</em>.
+						They might not attract a large audience, but that means you get
+						to spend some quality time with a few interested ownCloud users or potential contributors!</li>
 
-							<li><strong>If you encounter negativity or users with problems</strong>, of course try to help them. But don't spend too much time on it - rather, ask them to ask on the forums 
-							or on the mailing list. You sure won't be able to solve their complicated problem on the spot and there are lots of other people who want to hear about 
-							ownCloud. Nothing is perfect, neither is ownCloud - but we are best at dealing with that online, rather than at events.</li>
+						<li><strong>If you encounter negativity or users with problems</strong>, of course try to help them. But don't spend too much time on it - rather, ask them to ask on the forums
+						or on the mailing list. You sure won't be able to solve their complicated problem on the spot and there are lots of other people who want to hear about
+						ownCloud. Nothing is perfect, neither is ownCloud - but we are best at dealing with that online, rather than at events.</li>
 
-							<li><strong>Don't hack at the booth</strong> unless you are giving a workshop. It makes it seem very uninviting.</li>
-						
-							<li><strong>Have a screen with ownCloud in action</strong> at the booth. You can demo ownCloud easily that way, or let people play with
-							<a target="_blank" href="http://demo.owncloud.com">demo.owncloud.com</a>. And have something 'interesting' happen while you are not doing a demo.
-							A video of ownCloud in action, for example. You can find some in our <a target="_blank" href="http://www.youtube.com/ownclouders">YouTube channel</a>.</li>
-						</ul>
-					</li>
+						<li><strong>Don't hack at the booth</strong> unless you are giving a workshop. It makes it seem very uninviting.</li>
+
+						<li><strong>Have a screen with ownCloud in action</strong> at the booth. You can demo ownCloud easily that way, or let people play with
+						<a target="_blank" href="http://demo.owncloud.com">demo.owncloud.com</a>. And have something 'interesting' happen while you are not doing a demo.
+						A video of ownCloud in action, for example. You can find some in our <a target="_blank" href="http://www.youtube.com/ownclouders">YouTube channel</a>.</li>
+					</ul>
 				</ul>
 			</li>
 		</ul>

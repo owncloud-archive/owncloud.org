@@ -8,8 +8,8 @@
 </div>
 <div class="row">
 	<div class="col-md-12">
-	<p>You <strong>don't</strong> have to be a professional speaker to give a compelling talk. Many great talks are given by un-experienced speakers.</p>
-	<p>On this page, we'll help you with some tips and tricks to become a better speaker.</p>
+	<p>You <strong>don't</strong> have to be a professional speaker to give a compelling talk. Many great talks are given by inexperienced speakers.</p>
+	<p>Let us help you become a better speaker!</p>
 
 	<h2>A great talk in 5 steps</h2>
 	<p>Key to a good talk the realization that the story matters most! Let's get from story to speaking in 5 steps.</p>
