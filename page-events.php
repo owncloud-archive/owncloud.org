@@ -8,7 +8,7 @@
 	<div class="col-md-12">
 		<p>The ownCloud community organizes and participates in many events around the globe. Interested in meeting fellow ownCloud users and contributors? Look for an 
 			event that happens close to you or organize one!</p>
-
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 		<h2>Meetups</h2>
 		<p>ownCloud community members all around the globe get together in meetups to learn, share ideas and work on 
 			ownCloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below a list of local meetup groups.</p>
@@ -20,6 +20,7 @@
 			<a target="_blank" href="/events/meetups" class="btn btn-lg btn-default">
 			<i class="icon-lightbulb-o"></i> Organize a Meetup!</a>
 		</div>
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/product_demo.jpg" style="width: 400px" title="Picture by Dragotin from CLT14" alt="Picture by Dragotin from CLT14" class="img-thumbnail alignright">
 		<h2>Conferences</h2>
 		<p>ownCloud community members everywhere organize ownCloud presence at trade shows and conferences to present our community and technology to visitors.
 			Below a list of upcoming tradeshows and conferences where you can find ownCloud represented!</p>
@@ -46,7 +47,8 @@
 				<td><a target="_blank" href="https://events.linuxfoundation.org/events/linuxcon-europe">Linuxcon Europe</a></td>
 			</tr>
 		</table>
-		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> Find <a href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a>. Are you presenting about ownCloud at an upcoming event that should be listed here? <a href="/events/contactform">Let us know</a>!</p>
+		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
+		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know</a>!</p>
 
 <!--		<h2>Release parties</h2>
 		<p>One of the best parts of an ownCloud release, are the community release parties! A release party can be a meeting in a cafe or office with a
