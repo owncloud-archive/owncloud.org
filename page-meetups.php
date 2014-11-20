@@ -13,6 +13,7 @@
 		Meetups come in all shapes and sizes, but have one thing in common: they are organized and attended by ownCloud enthusiasts just like you.</p>
 		<script type="text/javascript" src="http://www.meetup.com/embed/largest/owncloud/"></script>
 		<p>Find the next Meetup dates and more on <a target="_blank" href="http://owncloud.meetup.com/">owncloud.meetup.com</a></p>
+		<p>Consider joining the <a href="https://mailman.owncloud.org/mailman/listinfo/events">events mailing list</a> to discuss events with other ownClouders.</p>
 
 	<p>Want to organize a meetup? Below you will find some practical tips on how to organize a great meetup
 	as well as information on how to tell us about your meetup and how to get some ownCloud goodies!</p>
@@ -60,7 +61,8 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/materials.jpg" style="width: 400px"
 			title="You can order these materials!" alt="You can order these materials!" class="img-thumbnail alignright">
 	<h2>Contact/questions/support</h2>
-		For setting up the meetup page, sharing the news on the upcoming event or a report from the previous one or any other questions, <a href="/events/contactform">just ask</a>.
+		For setting up the meetup page, sharing the news on the upcoming event or a report from the previous one or any other questions, <a href="/events/contactform">just ask via the contact form</a>.
+		<p>Consider joining the <a href="https://mailman.owncloud.org/mailman/listinfo/events">events mailing list</a> to discuss events with other ownClouders.</p>
 		<h3>ownCloud swag?</h3>
 		<p>If you organize a meetup, we'd be happy to send you an envelope with some informative ownCloud flyers, ownCloud stickers, posters and other things.</p>
 		<p><strong>Note</strong> that we have limited supply and shipping and handling takes time, so don't be late! In general, count on two weeks at least and please understand that currently we only ship in (most countries in) Europe and the USA. <a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request form to fill.</p>

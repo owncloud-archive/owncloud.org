@@ -27,6 +27,7 @@
 				form to fill in. Note that we have limited supply and shipping and handling takes time, so ask us in time! In general, count on two weeks at
 				least and please understand that currently we only ship in (most countries in) Europe and the USA.</li>
 		</ul>
+		<p>Consider joining the <a href="https://mailman.owncloud.org/mailman/listinfo/events">events mailing list</a> to discuss events with other ownClouders.</p>
 		<h2>Bring ownCloud to conferences and trade shows</h2>
 		<p>As ownCloud appeals to both home users and businesses, we can be found at a wide variety of conferences and trade shows.
 			To spread the word, you can either give a talk or workshop, or organize a booth.</p>
