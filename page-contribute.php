@@ -96,7 +96,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div id="collapseWebsite" class="panel-collapse collapse">
       <div class="panel-body">
       	Help out with the <a href="https://github.com/owncloud/www/blob/master/README.md">website</a> and
-      	<a href="https://github.com/owncloud/documentation/blob/stable6/CONTRIBUTING.rst">write
+      	<a href="https://github.com/owncloud/documentation/blob/stable7/CONTRIBUTING.rst">write
       	documentation</a> (contact tpn or deryo in the <a href="irc://#owncloud-dev@freenode.net">irc channel</a>)
       </div>
     </div>

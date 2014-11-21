@@ -2,6 +2,7 @@
 	<h1>Contributor Agreement</h1>
 </div>
 <p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/owncloud-copyright-assignment-common.pdf">Download the agreement (pdf)</a><br /></p>
+<p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Addendum_iOS.pdf">iOS Addendum (pdf)</a><br /></p>
 <p>We release the ownCloud core and the desktop and Android clients under a dual license. Because of that we require a signed 
 contributor agreement from developers who want to commit code to them. This only applies to these repositories, not the apps or other parts.<p>
 <h3>A contributor agreement? Does this mean that ownCloud is no longer free software?</h3>
@@ -22,7 +23,8 @@ Frank Karlitschek<br />
 Alexanderstrasse 80<br />
 70182 Stuttgart<br />
 Germany</p>
-<p>We will give you full commit rights as soon as we have received your agreement.</p>
+<p>We will give you full commit rights as soon as we have received your agreement. If you also want to contribute
+to the ownCloud iOS app please also send the signed "iOS Addendum" document. See the <a href="/contribute/iOS-license-exception/">iOS license exception</a> for testing the ownCloud iOS app on Apple hardware.</p>
 <h3>Is there any risk for me when I sign this agreement?</h3>
 <p>We don&#39;t think so. You have to give us the right to use your software patents if you have any and if they apply to your patch.
 That’s all. Probably not a problem for you because software patents are bad and we all don&#39;t hold any patents anyway.<p>
@@ -31,7 +33,7 @@ That’s all. Probably not a problem for you because software patents are bad an
 We thought a lot about the relationship between the company and community and about a solution that is best for both parties.</p>
 <p>The company needs to have a business model so that it can sell software, support and services to big companies.
 Many customers are willing to pay for a non-AGPL version of ownCloud, some would not even use ownCloud without a proprietary license.
-Aside from the <em>'enterprise edition'</em>, we of course sell support and other services.
+Aside from the <em>'Enterprise Edition'</em>, we of course sell support and other services.
 The revenue is used to fund development of ownCloud, marketing, services, sponsoring and so on.</p>
 <p>The community wants to be sure that all the contributions and all the hard work stays Free Software.
 That is guaranteed by the AGPL license.<p>
