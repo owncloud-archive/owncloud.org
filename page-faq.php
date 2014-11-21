@@ -5,10 +5,10 @@
 <h4>Technology</h4>
 <ul>
 	<li><a href="#rsync">Why don't you just use rsync?</a></li>
-	<li><a href="#language">Why is ownCloud written in PHP and not in $LANGUAGE?</a></li>
-	<li><a href="#protocol">Why do you use HTTP and not $PROTOCOL?</a></li>
+	<li><a href="#language">Why is ownCloud written in PHP and not in my favorite language?</a></li>
+	<li><a href="#protocol">Why do you use HTTP and not my favorite language?</a></li>
 	<li><a href="#android">Why does the calendar/contacts app not work with Android?</a></li>
-	<li><a href="#mobilefeatures">Why does $MOBILEAPP not support $FEATURE?</a></li>
+	<li><a href="#mobilefeatures">Why does the Android/iOS mobile app not support my favorite feature?</a></li>
 	<li><a href="#security">How Secure is ownCloud?</a></li>
 	<li><a href="#encryption">Are files encrypted during sync?</a></li>
 	<li><a href="#encryption2">Does ownCloud support encrypting files on the server?</a></li>
@@ -41,7 +41,7 @@
 	<li>rsync is a one-way syncing protocol. This means that if you have two servers and delete a file on one side, it will pop up again if you use rsync. To ensure old files get removed but new files added, and updated files overwritten, you need a N-to-N sync solution. ownCloud uses csync for syncing, which also deals with conflicts in a smart way.</li>
 </ul>
 <a name="language"></a>
-<h3>Why is ownCloud written in PHP and not in $LANGUAGE?</h3>
+<h3>Why is ownCloud written in PHP and not in my favorite language?</h3>
 ownCloud is for everybody. We picked PHP because:
 <ul>
 	<li>PHP runs anywhere and is supported everywhere. Even the cheapest hosting provider should support ownCloud and PHP makes that possible.</li>
@@ -60,9 +60,9 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 	<li>iOS has native ical/caldav support, Android does not. You have to use an Android app that does but unfortunately almost all apps we're aware of that support caldav/ical are paid. One open source client is <a href="https://github.com/rfc2822/davdroid" target="_blank">DAVdroid</a>. You can find a list of <a href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd-party apps which work with ownCloud here</a>.</li>
 </ul>
 <a name="mobilefeatures"></a>
-<h3>Why does $MOBILEAPP not support $FEATURE?</h3>
+<h3>Why does the Android/iOS mobile app not support my favorite feature?</h3>
 <ul>
-	<li>The Android and Mac OS X apps have automatic picture and video upload and give access to your files, including selective sync for keeping some of your files up to date on the device. Other features are under development or provided by other apps (like calendar and contacts, see previous FAQ item). If you'd like to add features to the Android client, find the <a href="https://github.com/owncloud/android/" target="_blank">sources here</a>.</li>
+	<li>The Android and iOS mobile apps have automatic picture and video upload and give access to your files, including selective sync for keeping some of your files up to date on the device. Other features are under development or provided by other apps (like calendar and contacts, see <a href="#android">previous FAQ item</a>). If you'd like to add features to the Android or iOS client, find the <a href="https://github.com/owncloud/android/" target="_blank">Android sources here</a> and the <a href="https://github.com/owncloud/ios">iOS sources here</a>. Legal notes: the Android app is under the GPLv2, the iOS app under the GPLv3. To contribute to either, you have to <a href="https://owncloud.org/contribute/agreement/">sign a contributor agreement</a> or contribute your code under the <a href="http://opensource.org/licenses/MIT">MIT license</a>. For testing, we provide a <a href="https://owncloud.org/contribute/iOS-license-exception/">iOS license exception</a> so you can run the iOS app on up to 100 devices.</li>
 </ul>
 <a name="security"></a>
 <h3>How Secure is ownCloud?</h3>
