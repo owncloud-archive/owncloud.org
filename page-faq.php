@@ -6,7 +6,7 @@
 <ul>
 	<li>rsync is a one-way syncing protocol. This means that if you have two servers and delete a file on one side, it will pop up again if you use rsync. To ensure old files get removed but new files added, and updated files overwritten, you need a N-to-N sync solution. ownCloud uses csync for syncing, which also deals with conflicts in a smart way.</li>
 </ul>
-<h3>Why is ownCloud written in PHP and not in $LANGUAGE?</h3>
+<h3>Why is ownCloud written in PHP and not in my favorite language?</h3>
 ownCloud is for everybody. We picked PHP because:
 <ul>
 	<li>PHP runs anywhere and is supported everywhere. Even the cheapest hosting provider should support ownCloud and PHP makes that possible.</li>
@@ -14,7 +14,7 @@ ownCloud is for everybody. We picked PHP because:
 </ul>
 In short, PHP lowers the barrier for using, auditing, modifying and contributing to ownCloud. And that is important!<br />
 See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for-php/" target="_blank">this blog by ownCloud founder Frank Karlitschek</a>.
-<h3>Why do you use HTTP and not $PROTOCOL?</h3>
+<h3>Why do you use HTTP and not my favorite protocol?</h3>
 <ul>
 	<li>HTTP goes through every firewall and proxy.</li>
 </ul>
@@ -22,9 +22,9 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <ul>
 	<li>iOS has native ical/caldav support, Android does not. You have to use an Android app that does but unfortunately almost all apps we're aware of that support caldav/ical are paid. One open source client is <a href="https://github.com/rfc2822/davdroid" target="_blank">DAVdroid</a>. You can find a list of <a href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd-party apps which work with ownCloud here</a>.</li>
 </ul>
-<h3>Why does $MOBILEAPP not support $FEATURE?</h3>
+<h3>Why does the Android/iOS mobile app not support my favorite feature?</h3>
 <ul>
-	<li>The Android and Mac OS X apps have automatic picture and video upload and give access to your files, including selective sync for keeping some of your files up to date on the device. Other features are under development or provided by other apps (like calendar and contacts, see previous FAQ item). If you'd like to add features to the Android client, find the <a href="https://github.com/owncloud/android/" target="_blank">sources here</a>.</li>
+	<li>The Android and iOS apps have automatic picture and video upload and give access to your files, including selective sync for keeping some of your files up to date on the device. Other features are under development or provided by other apps (like calendar and contacts, see previous FAQ item). If you'd like to add features to the mobile clients, find the <a href="https://github.com/owncloud/android/" target="_blank">Android sources here</a> and the <a href="https://github.com/owncloud/android/">iOS sources here</a>.</li>
 </ul>
 <h3>How Secure is ownCloud?</h3>
 <ul>
