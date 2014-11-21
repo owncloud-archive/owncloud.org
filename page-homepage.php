@@ -40,7 +40,7 @@
 						<p>The News app is a an<br /> RSS/Atom feed aggregator.</p>
 						<div class="button-group text-center">
 							<h2>News</h2>
-							<a href="http://apps.owncloud.com/content/show.php/News?content=158434" target="_blank"><button type="button" class="btn btn-lg">Get the news app</button></a>
+							<a href="https://github.com/owncloud/news/blob/master/README.md#before-you-installupdate-the-news-app" target="_blank"><button type="button" class="btn btn-lg">Get the news app</button></a>
 					 </div>
 				</div>
 			</div>
