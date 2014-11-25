@@ -3,11 +3,11 @@
 </div>
 <p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/owncloud-copyright-assignment-common.pdf">Download the agreement (pdf)</a><br /></p>
 <p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Addendum_iOS.pdf">iOS Addendum (pdf)</a><br /></p>
-<p>We release the ownCloud core and the desktop and Android clients under a dual license. Because of that we require a signed 
+<p>We release the ownCloud core and the desktop, iOS and Android clients under a dual license. Because of that we require a signed
 contributor agreement from developers who want to commit code to them. This only applies to these repositories, not the apps or other parts.<p>
 <h3>A contributor agreement? Does this mean that ownCloud is no longer free software?</h3>
 <p>No, the contributor agreement guarantees that every community contribution is always released
-as AGPL (or GPL in the case of the desktop and Android clients). This is not different from the old situation.</p>
+as AGPL (or GPL in the case of the desktop and Android clients and GPLv3 in case of the iOS app). This is not different from the old situation.</p>
 <p>The agreement allows the company to offer customers ownCloud under another license, in exchange for money.
 This thus helps pay the bills for ownCloud contributors.</p>
 <h3>Does this mean that everybody who wants to contribute to ownCloud has to sign this agreement?</h3>
