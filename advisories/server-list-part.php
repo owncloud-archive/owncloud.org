@@ -1,3 +1,22 @@
+<p>Version 7.0.3</p>
+<a href="/security/advisory?id=oc-sa-2014-026">Local file disclosure due to the preview system</a><br>
+<a href="/security/advisory?id=oc-sa-2014-027">CSRF in "bookmarks" application</a><br>
+<a href="/security/advisory?id=oc-sa-2014-028">Stored XSS in "bookmarks" application</a><br>
+<a href="/security/advisory?id=oc-sa-2014-025">ACLs not properly enforced in "documents" application</a><br>
+<a href="/security/advisory?id=oc-sa-2014-024">Bypass of shared files password protection in "documents" application</a><br>
+<a href="/security/advisory?id=oc-sa-2014-021">Local Path Disclosure when using Asset Pipeline</a><br>
+<a href="/security/advisory?id=oc-sa-2014-023">Potential local file disclosure</a><br>
+<a href="/security/advisory?id=oc-sa-2014-020">Login bypass when using user_ldap due to unauthenticated binds</a><br>
+<br>
+<p>Version 6.0.6</p>
+<a href="/security/advisory?id=oc-sa-2014-027">CSRF in "bookmarks" application</a><br>
+<a href="/security/advisory?id=oc-sa-2014-028">Stored XSS in "bookmarks" application</a><br>
+<a href="/security/advisory?id=oc-sa-2014-026">Local file disclosure due to the preview system</a><br>
+<a href="/security/advisory?id=oc-sa-2014-025">ACLs not properly enforced in "documents" application</a><br>
+<a href="/security/advisory?id=oc-sa-2014-022">Login bypass when using the external FTP user backend</a><br>
+<a href="/security/advisory?id=oc-sa-2014-024">Bypass of shared files password protection in "documents" application</a><br>
+<a href="/security/advisory?id=oc-sa-2014-020">Login bypass when using user_ldap due to unauthenticated binds</a><br>
+<br>
 <p>Version 6.0.5</p>
 <a href="/security/advisory?id=oc-sa-2014-019">Insufficient RSA Host Key validation in files_external (SFTP driver)</a><br>
 <br>
@@ -25,6 +44,12 @@
 <br>
 <p>Version 6.0.1</p>
 <a href="/security/advisory?id=oc-sa-2014-009">Users can mount the local filesystem</a><br>
+<br>
+<p>Version 5.0.18</p>
+<a href="/security/advisory?id=oc-sa-2014-028">Stored XSS in "bookmarks" application</a><br>
+<a href="/security/advisory?id=oc-sa-2014-027">CSRF in "bookmarks" application</a><br>
+<a href="/security/advisory?id=oc-sa-2014-022">Login bypass when using the external FTP user backend</a><br>
+<a href="/security/advisory?id=oc-sa-2014-020">Login bypass when using user_ldap due to unauthenticated binds</a><br>
 <br>
 <p>Version 5.0.17</p>
 <a href="/security/advisory?id=oc-sa-2014-018">Local file inclusion in core</a><br>
