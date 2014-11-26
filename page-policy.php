@@ -18,23 +18,24 @@ The ownCloud community asks that you comply with the following guidelines when r
 <h3>Supported Product Versions</h3>
 ownCloud Server:
 <ul>
-	<li>4.0.x</li>
-	<li>4.5.x</li>
 	<li>5.0.x</li>
+	<li>6.0.x</li>
+	<li>7.0.x</li>
 </ul>
 ownCloud Desktop Client:
 <ul>
-	<li>1.1.x</li>
-	<li>1.2.x</li>
+	<li>1.5.x</li>
+	<li>1.6.x</li>
+	<li>1.7.x</li>
 </ul>
 <h3>Unsupported Product Versions</h3>
 ownCloud Server:
 <ul>
-	<li>1.x to 3.x (We strongly suggest to upgrade to the latest release)</li>
+	<li>1.x to 4.x (We strongly suggest to upgrade to the latest release)</li>
 </ul>
 ownCloud Desktop Client:
 <ul>
-	<li>1.0.x</li>
+	<li>1.0.x to 1.4.x (We strongly suggest to upgrade to the latest release)</li>
 </ul>
 <h3>3rd party apps</h3>
 3rd party app security vulnerabilities should also be reported to the security team. The security team is not responsible for the security of these apps, but will attempt to contact the 3rd party app maintainer and then take proper actions.
