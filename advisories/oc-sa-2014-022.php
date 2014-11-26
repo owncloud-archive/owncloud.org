@@ -13,7 +13,7 @@
 		<p>25th November 2014</p>
 		<p>Risk level: <strong>High</strong></p>
 		<h3>Description</h3>
-		<p><p>ownCloud provides multiple user backends that can be used to authenticate users.</p>0x0x<p>One of those backend providers is "user_external", which authenticates users against FTP, IMAP or SMB servers. This is mainly useful when it is not possible to authenticate against an LDAP server.</p>0x0x<p>The FTP backend provided by "user_external" was not properly URL-encoding the password. Thus, an attacker may use a specially crafted password to login to the remote server.</p>0x0x<p>If the ownCloud instance is able to access external FTP servers this effectively allows an adversary to login without providing valid credentials, if the "user_external" FTP backend has been enabled and configured.</p></p>
+		<p><p>ownCloud provides multiple user backends that can be used to authenticate users.</p><p>One of those backend providers is "user_external", which authenticates users against FTP, IMAP or SMB servers. This is mainly useful when it is not possible to authenticate against an LDAP server.</p><p>The FTP backend provided by "user_external" was not properly URL-encoding the password. Thus, an attacker may use a specially crafted password to login to the remote server.</p><p>If the ownCloud instance is able to access external FTP servers this effectively allows an adversary to login without providing valid credentials, if the "user_external" FTP backend has been enabled and configured.</p></p>
 		<h3>Affected Software</h3>
 		<ul>
 			<li>ownCloud Server < <strong>6.0.6</strong> (CVE-2014-9045)</li><li>ownCloud Server < <strong>5.0.18</strong> (CVE-2014-9045)</li>
