@@ -2,6 +2,12 @@
 	<h1>Frequently Asked Questions</h1>
 </div>
 <h2>Index</h2>
+<h4>Help</h4>
+<ul>
+	<li><a href="#install">Where do I find information on how to use/install ownCloud?</a></li>
+	<li><a href="#channels">I have a problem, what do I do?</a></li>
+	<li><a href="#chat">Where can I discuss ideas with other ownCloud users?</a></li>
+</ul>
 <h4>Technology</h4>
 <ul>
 	<li><a href="#rsync">Why don't you just use rsync?</a></li>
@@ -34,6 +40,41 @@
 	<li><a href="#communityandenterprise">How do the Community and Enterprise work together?</a></li>
 	<li><a href="#entcustomers">What customers does ownCloud Inc. have?</a></li>
 </ul>
+
+<h2>Help</h2>
+<a name="install"></a>
+<h3>Where do I find information on how to use/install ownCloud?</h3>
+<ul>
+	<li>You should start with the <a href="http://doc.owncloud.org">ownCloud Documentation</a></li>
+	<li>There are a lot of tutorials and how-to's written for installing and managing ownCloud, to be found all over the internet. <a href="https://www.google.com/search?q=owncloud+installation+tutorial">Google</a> or another search engine can find them easily</li>
+	<li>The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+</ul>
+<a name="channels"></a>
+<h3>I have a problem, what do I do?</h3>
+If the <a href="http://doc.owncloud.org">ownCloud Documentation</a> does not help and <a href="https://www.google.com/search?q=owncloud+installation+problem">Google</a> can't solve your problem either, you can ask for help in our community support channels:
+<ul>
+	<li><a href="http://forum.owncloud.org">the ownCloud Forums</a></li>
+	<ul>
+		 <li>Note: The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+	</ul>
+	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud User mailing list</a></li>
+	<li><a href="irc://#owncloud@freenode.net">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="http://webchat.freenode.net/?channels=owncloud">webchat</a></li>
+	<li>Finally, you could report a issue in the <a href="https://github.com/owncloud/core/issues">bug tracker</a> if you think you found a problem with ownCloud</li>
+
+</ul>
+<p>Please understand that all these channels essentially consist of users like you helping each other out. Consider helping others out where you can, to contribute back for the help you get. This is the only way to keep a community like ownCloud healthy and sustainable!</p>
+<p>If you are using ownCloud in a business or otherwise large scale deployment, note that the <a href="#entcomparison">Enterprise Edition</a> offers support contracts.</p>
+
+<a name="chat"></a>
+<h3>Where can I discuss ideas with other ownCloud users?</h3>
+The best places for conversation are:
+<ul>
+	<li><a href="http://forum.owncloud.org">the ownCloud Forums</a></li>
+	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud User mailing list</a></li>
+</ul>
+<p>If you have a feature request or proposal which you can support with code, <a href="http://owncloud.org/contribute/">check out our contribute page</a>. You can put feature requests in the <a href="https://github.com/owncloud/core/issues">issue tracker</a> but please be aware that in open source projects like ownCloud, the constraint is rarely ideas or awareness of what can be improved but rather time to work on them. <a href="http://owncloud.org/contribute/">Contributing</a> is the best way of making change happen!</p>
+<p>Note that <a href="http://owncloud.org/blog/introducing-bounty-source-for-owncloud/">Bountysource</a> offers a way of backing feature requests with your wallet.</p>
+
 <h2>Technology</h2>
 <a name="rsync"></a>
 <h3>Why don't you just use rsync?</h3>
