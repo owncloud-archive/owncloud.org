@@ -51,6 +51,7 @@
 <strong>2014</strong>
 <ul>
 	<li>Ali BenCafu (<a href="https://twitter.com/Th3Septimus">@Th3Septimus</a>)</li>
+	<li>M.Asim Shahzad (<a href="https://pk.linkedin.com/pub/m-asim-shahzad/a1/995/65a">LinkedIn</a>)</li>
 </ul>
 <strong>2013</strong>
 <ul>
