@@ -33,18 +33,18 @@
 				<th>Link</th>
 			</tr>
 			<tr>
-				<th>FOSDEM 2015</th>
-				<th>Brussels, Belgium</th>
-				<th>January 31 and February 1</th>
-				<th><a href="/events/contactform">Jos Poortvliet</a></th>
-				<th><a target="_blank" href="https://fosdem.org/2015/">FOSDEM 2014</a></th>
+				<td>FOSDEM 2015</td>
+				<td>Brussels, Belgium</td>
+				<td>January 31 and February 1</td>
+				<td><a href="/events/contactform">Jos Poortvliet</a></td>
+				<td><a target="_blank" href="https://fosdem.org/2015/">FOSDEM 2014</a></td>
 			</tr>
 			<tr>
-				<td>LinuxCon Europe</td>
-				<td>Düsseldorf, Germany</td>
-				<td>October 13-15 2014</td>
-				<td>ownCloud Inc</td>
-				<td><a target="_blank" href="https://events.linuxfoundation.org/events/linuxcon-europe">Linuxcon Europe</a></td>
+				<td>SCALE 13x</td>
+				<td>Los Angelos, CA, USA</td>
+				<td>February 19-22 2015</td>
+				<td><a href="/events/contactform">Jos Poortvliet</a></td>
+				<td><a target="_blank" href="http://www.socallinuxexpo.org/scale13x/">SCALE website</a></td>
 			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
