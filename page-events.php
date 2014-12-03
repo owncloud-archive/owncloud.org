@@ -33,11 +33,11 @@
 				<th>Link</th>
 			</tr>
 			<tr>
-				<th>FOSDEM 2015</th>
-				<th>Brussels, Belgium</th>
-				<th>January 31 and February 1</th>
-				<th><a href="/events/contactform">Jos Poortvliet</a></th>
-				<th><a target="_blank" href="https://fosdem.org/2015/">FOSDEM 2014</a></th>
+				<td>FOSDEM 2015</td>
+				<td>Brussels, Belgium</td>
+				<td>January 31 and February 1</td>
+				<td><a href="/events/contactform">Jos Poortvliet</a></td>
+				<td><a target="_blank" href="https://fosdem.org/2015/">FOSDEM 2014</a></td>
 			</tr>
 			<tr>
 				<td>SCALE 13x</td>
