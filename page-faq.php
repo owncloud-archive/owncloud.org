@@ -2,6 +2,12 @@
 	<h1>Frequently Asked Questions</h1>
 </div>
 <h2>Index</h2>
+<h4>Help</h4>
+<ul>
+	<li><a href="#install">Where do I find information on how to use/install ownCloud?</a></li>
+	<li><a href="#channels">I have a problem, what do I do?</a></li>
+	<li><a href="#chat">Where can I discuss ideas with other ownCloud users?</a></li>
+</ul>
 <h4>Technology</h4>
 <ul>
 	<li><a href="#rsync">Why don't you just use rsync?</a></li>
@@ -34,6 +40,41 @@
 	<li><a href="#communityandenterprise">How do the Community and Enterprise work together?</a></li>
 	<li><a href="#entcustomers">What customers does ownCloud Inc. have?</a></li>
 </ul>
+
+<h2>Help</h2>
+<a name="install"></a>
+<h3>Where do I find information on how to use/install ownCloud?</h3>
+<ul>
+	<li>You should start with the <a href="http://doc.owncloud.org">ownCloud Documentation</a></li>
+	<li>There are a lot of tutorials and how-to's written for installing and managing ownCloud, to be found all over the internet. <a href="https://www.google.com/search?q=owncloud+installation+tutorial">Google</a> or another search engine can find them easily</li>
+	<li>The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+</ul>
+<a name="channels"></a>
+<h3>I have a problem, what do I do?</h3>
+If the <a href="http://doc.owncloud.org">ownCloud Documentation</a> does not help and <a href="https://www.google.com/search?q=owncloud+installation+problem">Google</a> can't solve your problem either, you can ask for help in our community support channels:
+<ul>
+	<li><a href="http://forum.owncloud.org">the ownCloud Forums</a></li>
+	<ul>
+		 <li>Note: The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+	</ul>
+	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud User mailing list</a></li>
+	<li><a href="irc://#owncloud@freenode.net">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="http://webchat.freenode.net/?channels=owncloud">webchat</a></li>
+	<li>Finally, you could report a issue in the <a href="https://github.com/owncloud/core/issues">bug tracker</a> if you think you found a problem with ownCloud</li>
+
+</ul>
+<p>Please understand that all these channels essentially consist of users like you helping each other out. Consider helping others out where you can, to contribute back for the help you get. This is the only way to keep a community like ownCloud healthy and sustainable!</p>
+<p>If you are using ownCloud in a business or otherwise large scale deployment, note that the <a href="#entcomparison">Enterprise Edition</a> offers support contracts.</p>
+
+<a name="chat"></a>
+<h3>Where can I discuss ideas with other ownCloud users?</h3>
+The best places for conversation are:
+<ul>
+	<li><a href="http://forum.owncloud.org">the ownCloud Forums</a></li>
+	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud User mailing list</a></li>
+</ul>
+<p>If you have a feature request or proposal which you can support with code, <a href="/contribute/">check out our contribute page</a>. You can put feature requests in the <a href="https://github.com/owncloud/core/issues">issue tracker</a> but please be aware that in open source projects like ownCloud, the constraint is rarely ideas or awareness of what can be improved but rather time to work on them. <a href="/contribute/">Contributing</a> is the best way of making change happen!</p>
+<p>Note that <a href="http://owncloud.org/blog/introducing-bounty-source-for-owncloud/">Bountysource</a> offers a way of backing feature requests with your wallet.</p>
+
 <h2>Technology</h2>
 <a name="rsync"></a>
 <h3>Why don't you just use rsync?</h3>
@@ -80,7 +121,7 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <h3>Does ownCloud support encrypting files on the server?</h3>
 <ul>
 	<li>Yes, but the Encryption app is designed to protect your data on external storage, rather than on the server ownCloud runs on. In the current design, the server always has the keys to the data. They are encrypted by your password, but you can't trust that it is as secure as client-side encryption. ownCloud does not do client-side encryption because you can not have a web interface if the server can't read the files and the web interface (and sharing abilities!) are very central to ownCloud. So you will always need to be able to trust the server if you want to 'own' your data. Read more <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">in this article</a>.</li>
-	<li>If you really want client-side encryption, we recommend you look for other solutions. Of course, if you are sufficiently knowledgeable and skilled, you would be more than welcome to improve on the file encryption technology. If you are interested in supporting or working on this feature, check out <a href="https://github.com/owncloud/mirall/issues/275" target="_blank">github</a> for the latest state on the discussion about it and check out <a href="http://owncloud.org/contribute">owncloud.org/contribute</a> to get started.</li>
+	<li>If you really want client-side encryption, we recommend you look for other solutions. Of course, if you are sufficiently knowledgeable and skilled, you would be more than welcome to improve on the file encryption technology. If you are interested in supporting or working on this feature, check out <a href="https://github.com/owncloud/mirall/issues/275" target="_blank">github</a> for the latest state on the discussion about it and check out <a href="/contribute/">owncloud.org/contribute</a> to get started.</li>
 </ul>
 <a name="conflict"></a>
 <h3>Why do I sometimes get conflict files and messages while syncing?</h3>
@@ -105,7 +146,7 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 		<li>ownCloud is designed to be very scalable, and be independent of the used storage system. We want it to work with terabytes of data and tens of thousands of users - and it does, organizations like CERN in Switzerland and German universities run ownCloud with such amounts of data and users. The downside of this is that it is hard use 'checksums' to see if files are changed: imagine doing that on terabytes of data on an external storage! What is fast for a few gigabyte or a few thousand files is would break entirely once you add a large movie- or music database, or start pumping scientific data through the system.</li>
 		<li>A second design goal of ownCloud is reliability. We would rather be slower, but ensure no files are lost, than risk going fast-and-loose with user data. For example, the file-change-notifications on Linux and Windows are not 100% reliable in all cases, so just-to-be-sure we run a full file system scan every few minutes. Yes, that eats battery life, but it does ensure you do not lose any of your files!</li>
 	</ul>
-	This does not mean there is no room for improvement, we work very hard to make ownCloud faster and every release introduces many performance improvements. Also, help is always welcome. Check out the <a href="https://github.com/owncloud/mirall/" target="_blank">client code on github</a> if you are interested in the challenges of fast, scalable and reliable file syncing! See <a href="https://owncloud.org/contribute" target="_blank">the contribute pages</a> for more information about getting involved.</li>
+	This does not mean there is no room for improvement, we work very hard to make ownCloud faster and every release introduces many performance improvements. Also, help is always welcome. Check out the <a href="https://github.com/owncloud/mirall/" target="_blank">client code on github</a> if you are interested in the challenges of fast, scalable and reliable file syncing! See <a href="/contribute/" target="_blank">the contribute pages</a> for more information about getting involved.</li>
 </ul>
 <a name="closedapps"></a>
 <h3>Can I write closed source apps for ownCloud?</h3>
@@ -126,17 +167,17 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <a name="howitstarted"></a>
 <h3> How did ownCloud get started?</h3>
 <ul>
-	<li>ownCloud started with a keynote by Frank Karlitschek at Camp KDE’10 where he talked about the need of a self-controlled free and open source cloud. Two years later, Frank announced the start of ownCloud Inc. which is headquartered in Lexington, Massachusetts in the United States and Nuremburg, Germany. Find out more on <a href="http://owncloud.org/history" target="_blank">owncloud.org/history</a>.</li>
+	<li>ownCloud started with a keynote by Frank Karlitschek at Camp KDE’10 where he talked about the need of a self-controlled free and open source cloud. Two years later, Frank announced the start of ownCloud Inc. which is headquartered in Lexington, Massachusetts in the United States and Nuremburg, Germany. Find out more on <a href="/contribute/" target="_blank">our history page</a>.</li>
 </ul>
 <a name="getinvolved"></a>
 <h3>How can I get involved in the ownCloud Community?</h3>
 <ul>
-	<li>The best way to get started is to visit <a href="http://owncloud.org/contribute" target="_blank">owncloud.org/contribute</a>.</li>
+	<li>The best way to get started is to visit <a href="/contribute/" target="_blank">owncloud.org/contribute</a>.</li>
 </ul>
 <a name="notechknowledge"></a>
 <h3>But what if I'm not very technical?</h3>
 <ul>
-	<li>There are lots of ways you can contribute to ownCloud. We have a need for developers, designers, event organizers, speakers, QA and more. It is all <a href="http://owncloud.org/contribute" target="_blank">on the 'contribute' page</a>!</li>
+	<li>There are lots of ways you can contribute to ownCloud. We have a need for developers, designers, event organizers, speakers, QA and more. It is all <a href="/contribute/" target="_blank">on the 'contribute' page</a>!</li>
 </ul>
 <a name="appslocation"></a>
 <h3> Where can I find ownCloud apps?</h3>
@@ -144,13 +185,13 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 	<li>There is a large selection of build in and community-approved apps available for download from within the App management screen in your ownCloud installation. Featuring apps like the Music app, the Calendar app and so on you can watch your movies, share your pictures and keep your bookmarks synced. Download is seamless (just 'enable' the app and wait while it is downloaded, installed and enabled) and upgrading is easy from the same screen.</li>
 	<li>If the build in and approved apps are not enough, you can get more than 200 community and enterprise-developed ownCloud apps at <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more. Note that unlike the apps available for download from the App Management screen in ownCloud, the apps on <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> are not extensively checked for safety and compatibility, so you should be careful with them. For this reason, we do not support automatic download and installation for these, but require users to download the apps and install them in their ownCloud by hand.</li>
 	<li>If you are looking for third-party apps that integrate ownCloud in mobile and desktop applications, see our <a href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd-party apps</a> page.</li>
-	<li>Building a new ownCloud app is easy. If you're interested in developing your own ownCloud app, see <a href="http://owncloud.org/contribute/" target="_blank">the contribute page</a>, where you can find a link to the latest App Development documentation.</li>
+	<li>Building a new ownCloud app is easy. If you're interested in developing your own ownCloud app, see <a href="/contribute/" target="_blank">the contribute page</a>, where you can find a link to the latest App Development documentation.</li>
 </ul>
 <h2>ownCloud for the Enterprise</h2>
 <a name="entcomparison"></a>
 <h3>How do the Community and Enterprise compare?</h3>
 <ul>
-	<li>The Community Edition which you can get from <a href="http://owncloud.org/install" target="_blank">owncloud.org</a> is perfect for home users and small businesses. This edition is optimized for stand alone functionality. It comes with a large number of supported apps (see the ownCloud apps question) and offers a fast release cycle and community support.</li>
+	<li>The Community Edition which you can get from <a href="/install" target="_blank">owncloud.org</a> is perfect for home users and small businesses. This edition is optimized for stand alone functionality. It comes with a large number of supported apps (see the ownCloud apps question) and offers a fast release cycle and community support.</li>
 	<li>The Enterprise Edition available for purchase from <a href="http://owncloud.com" target="_blank">owncloud.com</a> is perfect for medium and large enterprises. This edition is optimized for reliability, scalability and integration in an enterprise environment. It comes with enterprise certified applications, as well as integration with enterprise services like Sharepoint, Oracle SQL and SAML/Shibboleth authentication and audit and control tools. ownCloud Inc. offers enterprise support, deployment tools and consulting.</li>
 	<li>You can find a comparison table of Community and Enterprise features on <a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank">this page</a>.</li>
 </ul>
@@ -168,7 +209,7 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 	<li>The business model of ownCloud Inc. is very similar to other successful Open Source companies, offering services and support around ownCloud for the enterprise. The company is dedicated to working entirely in the open, accelerating development in the areas of its customers' needs while enabling a completely open development process where everybody can contribute.</li>
 	<li>The Enterprise Edition is built off the same code as the Community Edition. It adds integration with some proprietary enterprise services like Sharepoint, which are relevant for our big customers. ownCloud does development in the open; this is neither an open-core nor a dump-your-code-over-the-wall model. Read what the Free Software Foundation says about it: <a href="http://www.gnu.org/philosophy/selling-exceptions.html" target="_blank">gnu.org/philosophy/selling-exceptions</a>.</li>
 </ul>
-Check out <a href="http://owncloud.com" target="_blank">owncloud.com</a> and <a href="http://owncloud.org/history" target="_blank">owncloud.org/history</a> for more information.
+Check out <a href="http://owncloud.com" target="_blank">owncloud.com</a> and <a href="/contribute" target="_blank">owncloud.org/history</a> for more information.
 <a name="entcustomers"></a>
 <h3>What customers does ownCloud Inc. have?</h3>
 <ul>
