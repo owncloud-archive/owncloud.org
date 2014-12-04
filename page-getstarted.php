@@ -6,8 +6,8 @@
   <div class="col-md-4">
     <hr class="narrow"></hr>
     <div class="numbadge centre">1</div>
-    <h3>Install</h3>
-    <p>Setup a server, buy one or find a provider.</p>
+    <h3>Download</h3>
+    <p>Set up a server, buy one or find a provider.</p>
     <a class="btn btn-default btn-lg" role="button" href="/features"><i class="icon-download"> </i>Download ownCloud</a></br>
     <a class="btn btn-default btn-lg" style="margin-top: 10px" role="button" href="/features"><i class="icon-cloud"> </i>Find a provider</a>
     <a class="btn btn-default btn-lg" style="margin-top: 10px" role="button" href="/features"><i class="icon-database"> </i>Buy a server</a>
@@ -39,7 +39,7 @@
     <div class="numbadge centre">3</div>
     <h3>Extend</h3>
     Browse hundreds of free ownCloud apps
-    <p><a class="btn btn-primary btn-lg" style="margin-top: 10px" role="button" href="/features">ownCloud Apps</a></p>
+    <p><a class="btn btn-primary btn-lg" style="margin-top: 10px" role="button" href="/features">ownCloud apps</a></p>
     <p>Connect services you already use to ownCloud.</p>
     <a class="btn btn-primary btn-lg" style="margin-top: 10px" role="button" href="/features">3rd party apps</a>
 <!--    <hr></hr>
