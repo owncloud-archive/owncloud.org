@@ -7,6 +7,6 @@
 
 <p>While you can use the ownCloud Mobile App for iOS in the iOS simulator on your Mac System, this is often not sufficient for development and testing purposes.</p>
 
-<p>Therefor we do grant, as sole copyright holder, a license exception to the ownCloud Mobile App for iOS restricted to users of the „Ad Hoc Provisioning“ method provided by Apple to Apple Developer Account holders.<br />
+<p>Therefore we do grant, as sole copyright holder, a license exception to the ownCloud Mobile App for iOS restricted to users of the „Ad Hoc Provisioning“ method provided by Apple to Apple Developer Account holders.<br />
 You are allowed to distribute the ownCloud Mobile App for iOS and any derivaties thereof to up to 100 iOS devices using this method.<br />
 In this case the ownCloud Mobile App for iOS will be governed by the license terms Apple provides to you and such device users.<p>
