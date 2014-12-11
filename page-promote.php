@@ -21,7 +21,7 @@
 	<div class="row">
 		<div class="col-md-6">
 			<h2>What to expect</h2>
-			<p>ownCloud Insiders is a portal where you can connect with other advocates and do challenges we provide that help you, or ownCloud, or are just plain fun.</p>
+			<p>ownCloud Insiders is a hub where you can connect with other advocates and do challenges we provide that help you, or ownCloud, or are just plain fun.</p>
 			<ul>
 				<li><strong>Learn and Grow</strong> – Learn about ownCloud, reading interesting industry blogs and posts and discussing them with others</li>
 				<li><strong>Support and Influence</strong> – From social campaigns to product launches, you choose how and when you would like to show your support and spread your influence.</li>
