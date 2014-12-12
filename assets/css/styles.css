@@ -549,7 +549,7 @@ body.getstarted div#install-clients, body.getstarted div#instructions-server, bo
 body.getstarted div#install-clients div.row, body.getstarted div#instructions-server div.row, body.getstarted div#instructions-web div.row, body.getstarted div#instructions-packages div.row {
     margin: 0;
 }
-body.getstarted div#install-clients, body.getstarted div#instructions-server div.instructions, body.getstarted div#instructions-web div.instructions, body.getstarted div#instructions-packages div.instructions {
+body.getstarted div#install-clients div.instructions, body.getstarted div#instructions-server div.instructions, body.getstarted div#instructions-web div.instructions, body.getstarted div#instructions-packages div.instructions {
     background: #F6F6F6;
     margin-top: 9%;
     padding: 10px;

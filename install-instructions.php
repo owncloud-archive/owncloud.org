@@ -23,7 +23,7 @@
                       <div id="tab-archive" role="tabpanel" class="tab-pane active">
                             <div class="overlay-body row">
                                 <div class="col-md-6">
-                                      <p>The .tar archive is the classic way of installing ownCloud server. It provides the server and all immediate 3rd party PHP libraries.</p>
+                                      <p>The .tar <strong>archive</strong> is the classic way of installing ownCloud server. It provides the server and all immediate 3rd party PHP libraries.</p>
                                       <ol>
                                               <li>Download <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">Unix</a> (<tt>.tar.bz2</tt>) or <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">Windows</a> (<tt>.zip</tt>) archive.</li>
                                               <li>Check package integrity using MD5 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">Unix</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">Windows</a>) or SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">Unix</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">Windows</a>)</li>
@@ -39,7 +39,7 @@
                       <div id="tab-web" role="tabpanel" class="tab-pane">
                             <div class="overlay-body row">
                               <div class="col-md-6">
-                                  <p>The Web Installer is the easiest way for novice users to install ownCloud on their web space. It checks the dependencies, downloads the newest ownCloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the ownCloud installer.</p>
+                                  <p>The <strong>Web Installer</strong> is the easiest way for novice users to install ownCloud on their web space. It checks the dependencies, downloads the newest ownCloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the ownCloud installer.</p>
                                   <ol>
                                           <li>Right-click <a href="https://download.owncloud.com/download/community/setup-owncloud.php">here</a> and save the file to your computer</li>
                                           <li>Upload <tt>setup-owncloud.php</tt> to your web space</li>
@@ -57,7 +57,7 @@
                       <div id="tab-packages" role="tabpanel" class="tab-pane">
                     <div class="overlay-body row">
                         <div class="col-md-6">
-                            <p>ownCloud provides ready-to-deploy packages for popular Linux distributions such as Debian, Ubuntu, Fedora, RedHat Enterprise Linux, CentOS and openSUSE.</p>
+                            <p>ownCloud provides ready-to-deploy <strong>packages</strong> for popular Linux distributions such as Debian, Ubuntu, Fedora, RedHat Enterprise Linux, CentOS and openSUSE.</p>
                             <p>Clicking on “Continue” will forward you to the ownCloud community page at the <a target="_blank" href="http://build.opensuse.org/">openSUSE Build Service</a>, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there. For setup instructions, please follow the ownCloud Admin manual.</p>
                             <p>The repositories allow you to stay on an up-to-date version of ownCloud using your distributions’ update mechanism, with packages maintained by the ownCloud community.</p>
                         </div>
@@ -92,9 +92,8 @@
                       <div id="tab-desktop" role="tabpanel" class="tab-pane">
                             <div class="overlay-body row">
                               <div class="col-md-10">
-                                  <h3><strong>Install Desktop Clients</strong></h3>
                                   <p>Latest stable version: <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;&nbsp;(<a href="/changelog/desktop"><small>Changelog</small></a>)</p>
-                                  <p>Synchronise your ownCloud with your computer using our desktop clients. Select one or more directories on your local machine and always have access to your latest files wherever you are.</p>
+                                  <p>Synchronise your ownCloud with your computer using our <strong>desktop clients</strong>. Select one or more directories on your local machine and always have access to your latest files wherever you are.</p>
                                   <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" id="client-download-win" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows<br /><small>XP, Vista, 7 and 8</small></a>
                                   <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac<br /><small>OSX 10.7+, 64 bit</small></a>
                                   <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Multiple distributions</small></a>
@@ -106,8 +105,7 @@
                       <div id="tab-mobile" role="tabpanel" class="tab-pane">
                   <div class="overlay-body row">
                         <div class="col-md-10">
-                            <h3><strong>Install Mobile Apps</strong></h3>
-                            <p>Mobile apps are available in both the Apple App Store and the Google Play Store, allowing you to access, sync and upload your data on the go.</p>
+                            <p><strong>Mobile apps</strong> are available in both the Apple App Store and the Google Play Store, allowing you to access, sync and upload your data on the go.</p>
                             <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
                               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
                             </a>
