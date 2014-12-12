@@ -11,13 +11,14 @@
 		<i class="icon-asterisk"></i> Share on Diaspora</a>
 	</div>
 </div>
-<div style="display: none;" id="insiders">
-	<p><strong>Thank you</strong> for using and supporting ownCloud.</p>
+<p>If you are serious about diving into ownCloud, learning more about it and advocating its use, join ownCloud Insiders!</p>
+<!-- <div style="display: none;" id="insiders"> -->
+<!--	<p><strong>Thank you</strong> for using and supporting ownCloud.</p>
 
-	<p>We would like to invite you become an ownCloud Insider!</p>
+	<p>We would like to invite you become an ownCloud Insider!</p>-->
 <!--	<h2>Insiders move forward</h2>
 	<p>Think of ownCloud Insiders as that place where connections are made, big ideas take off and magic happens. We reserved a seat at the table just for you!</p>-->
-	<a href="http://insiders.owncloud.com/join/aDb26fKzL22"><img class="insiders-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/events/insiders.jpg" alt="logo" /></a>
+	<a href="http://insiders.owncloud.com/join/aDb26fKzL22"><img class="insiders-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/events/insiders.jpg" alt="logo" width="1100px" height="458px" /></a>
 	<div class="row">
 		<div class="col-md-6">
 			<h2>What to expect</h2>
@@ -34,7 +35,7 @@
 			<p><a style="width: 250px; margin: 0 13px;" target="_blank" href="http://insiders.owncloud.com/join/aDb26fKzL22" class="btn btn-warning btn-lg">sign up here</a></p>
 		</div>
 	</div>
-</div>
+<!-- </div> -->
 <!--<div class="row">
 	<div class="col-md-4">
 		<h2>Write a blog post</h2>
@@ -49,8 +50,8 @@
 		<p>Speak to friends, family, colleagues, or your existing service providers and recommend ownCloud.</p>
 	</div>
 </div>-->
-<script>
+<!--<script>
   $( ".promote" ).click(function() {
       $( "#insiders" ).show();
   });
-</script>
+</script>-->
