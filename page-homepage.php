@@ -37,7 +37,7 @@
 			<div class="item active">
 				<div class="hoverarea">
 					<div class="hovercontent">
-						<p>The News app is a an<br /> RSS/Atom feed aggregator.</p>
+						<p>The News app is an<br /> RSS/Atom feed aggregator.</p>
 						<div class="button-group text-center">
 							<h2>News</h2>
 							<a href="https://github.com/owncloud/news/blob/master/README.md#before-you-installupdate-the-news-app" target="_blank"><button type="button" class="btn btn-lg">Get the news app</button></a>
@@ -78,7 +78,7 @@
 			<div class="item ">
 				<div class="hoverarea">
 					<div class="hovercontent">
-						<p>Widgets shows you quick and easy the most important information</p>
+						<p>Widgets shows you the most important information quick and easy</p>
 						<div class="button-group text-center">
 							<h2>ocDashboard</h2>
 							<a href="http://apps.owncloud.com/content/show.php/ocDashboard?content=160265" target="_blank"><button type="button" class="btn btn-lg">Get ocDashboard</button></a>
@@ -149,7 +149,7 @@
 		<div class="feature-block">
 		<div class="hoverarea">
 			<div class="hovercontent">
-				<p>Put it on a Rasberry Pi at home, on a old desktop or you NAS. Pick an ownCloud provider you trust, or rent a server somewhere.</p>
+				<p>Put it on a Rasberry Pi at home, on an old desktop or on your NAS. Pick an ownCloud provider you trust, or rent a server somewhere.</p>
 				<div class="button-group text-center">
 				<h2>Own Your Data</h2>
 				<a href="https://www.youtube.com/watch?v=xA3tfBTvH0c" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
