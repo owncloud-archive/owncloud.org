@@ -4,8 +4,8 @@
 	</div>
 	<div class="col-md-7">
 		<h2 class="featuretitle" style="margin-top: 0;">Access, Sync and Share your data, under your control!</h2>
-		<p style="text-align: justify; margin-top: 10px;">ownCloud provides access to your data through a web interface or WebDAV while providing a platform to easily view, 
-		sync and share across devices—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and works with any storage.
+		<p style="text-align: justify; margin-top: 10px;">ownCloud provides access to your data through a web interface or WebDAV while providing a platform to view, 
+		sync and share across devices easily—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and works with any storage.
 		</p>
 		<p><a href="/install" class="btn btn-lg btn-primary">Install ownCloud 7 now</a></p>
 	</div>
@@ -18,12 +18,12 @@
 			<div class="col-md-4 featureblock">
 				<i class="icon-globe"></i>
 				<h3 class="ft-title">Access Your Data</h3>
-				<p class="featuredesc">Store your files, folders, contacts, photo galleries, calendars and more on a server of your choosing. Access them from your mobile device, your desktop, or a web browser. Access your data wherever you are, when you need it.</p>
+				<p class="featuredesc">Store your files, folders, contacts, photo galleries, calendars and more on a server of your choosing. Access them from your mobile device, your desktop, or a web browser. Access your data wherever you are, whenever you need it.</p>
 			</div>
 			<div class="col-md-4 featureblock">
 				<i class="icon-refresh"></i>
 				<h3 class="ft-title">Sync Your Data</h3>
-				<p class="featuredesc">Keep your files, contacts, photo galleries, calendars and more synchronized amongst your devices. One folder, two folders and more – get the most 
+				<p class="featuredesc">Keep your files, contacts, photo galleries, calendars and more synchronized amongst your devices. One folder, two folders or more – get the most 
 				recent version of your files with the desktop and web client or mobile app of your choosing, at any time.</p>
 			</div>
 			<div class="col-md-4 featureblock">
