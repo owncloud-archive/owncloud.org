@@ -30,8 +30,8 @@
     <h3><i class="icon-globe"></i> Extend</h3>
     <p>Browse hundreds of free ownCloud apps and connect services you use to ownCloud:</p>
      <div class="btn-group">
-        <a class="btn btn-default btn-lg" role="button" href="https://github.com/owncloud/core/wiki/Apps" target="_blank">Apps</a>
-        <a class="btn btn-default btn-lg" role="button" href="https://github.com/owncloud/core/wiki/Apps#integration-efforts" target="_blank">3rd party apps</a>
+        <a class="btn btn-default btn-lg" role="button" href="https://apps.owncloud.com" target="_blank">ownCloud Apps</a>
+        <a class="btn btn-default btn-lg" role="button" href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd party apps</a>
       </div>
   </div>
 </div>
