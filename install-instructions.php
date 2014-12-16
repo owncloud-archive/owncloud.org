@@ -123,3 +123,50 @@
       <!--  Mask instructions server -->
       <a href="#" class="mask"></a>
 </div>
+
+
+
+<div class="installers">
+      <div id="testing-development" class="container row">
+          <div class="instructions">
+                <div class="row">
+                    <a href="#" class="close">&times;</a>
+                    <h3>Help with testing and development</h3>
+                </div>
+		<div class="overlay-body row">
+		  <div class="col-md-6">
+		    <a name="testing"></a>
+		    <p>Our server is in constant development and help is always needed in testing the latest bugfixes and features. Please report any issues to the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/bugtracker/" target="_blank">tracker</a>.</p>
+		    <h4>ownCloud Server <small>Daily build</small></h4>
+		    <div class="btn-group">
+		      <a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  Archive File</a>
+		      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>
+		    </div>
+		    <?php if(!empty($VERSIONS_CLIENT_DESKTOP_TESTING)) { ?>
+		    <h4>Desktop Clients <small><?php echo $VERSIONS_CLIENT_DESKTOP_TESTING; ?></small></h4>
+		    <div class="btn-group">
+		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN; ?>" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows</a>
+		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC; ?>" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac</a>
+		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux</a>
+		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Sources</a>
+		    </div>
+		    <p>Our desktop team provides regular pre-releases. Please report any issues to the <a href="https://github.com/owncloud/mirall/issues" target="_blank">tracker</a>.</p>
+		    <p>You can check the authenticity of the sources using this <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP; ?>">PGP signature</a>.</p>
+		    <?php } ?>
+		  </div>
+		  <div class="col-md-6">
+		    <div class="thumbnail">
+		      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/codebasephp.png" alt="ownCloud Code" />
+		    </div>
+		  </div>
+		</div>
+		<div class="overlay-body row">
+		  <div class="col-md-12">
+		    <p>Find our GPG key at <a target="_blank" href="<?php echo $OWNCLOUD_GPG; ?>"><?php echo $OWNCLOUD_GPG; ?></a></p>
+		  </div>
+		</div>
+	  </div>
+      </div>
+      <!--  Mask instructions server -->
+      <a href="#" class="mask"></a>
+</div>

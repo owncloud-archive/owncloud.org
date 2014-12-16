@@ -28,7 +28,7 @@
     <hr class="narrow"></hr>
     <div class="numbadge centre">3</div>
     <h3><i class="icon-globe"></i> Extend</h3>
-    <p>Browse hundreds of free ownCloud apps and connect services you already use to ownCloud:</p>
+    <p>Browse hundreds of free ownCloud apps and connect services you use to ownCloud:</p>
      <div class="btn-group">
         <a class="btn btn-default btn-lg" role="button" href="https://github.com/owncloud/core/wiki/Apps" target="_blank">Apps</a>
         <a class="btn btn-default btn-lg" role="button" href="https://github.com/owncloud/core/wiki/Apps#integration-efforts" target="_blank">3rd party apps</a>
@@ -49,38 +49,28 @@
       <li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank">Developers</a></li>
       <li> <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/" target="_blank">Testers</a></li>
     </ul>
+    <p>If you have other questions about ownCloud, read our <a href="/faq" target="_blank">ownCloud FAQ</a>.</p>
   </div>
   <div class="col-md-4">
     <hr class="narrow"></hr>
     <div class="numbadge centre">5</div>
     <h3><i class="icon-comment"></i> Support channels</h3>
-    <p></p>
+    <p>Discuss using, installing or maintaining ownCloud in our community support channels.</p>
     <ul>
-      <li><a href=""http://forums.owncloud.org" target="_blank">Forum</a></li>
-      <li><a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">FAQ</a></li>
+      <li><a href="http://forums.owncloud.org" target="_blank">Forum</a> (<a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">Forum FAQ</a>)</li>
+      <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">User mailing list</a></li>
+      <li><a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
     </ul>
-    <p>By e-mail:</p>  
-    <ul>
-        <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">User mailing list</a></li>
-        <li><a href="https://owncloud.com/contact/" target="_blank">Enterprise support</a></li>
-    </ul>
-    <p>On IRC:</p>
-    <ul>
-        <li><a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a></li>
-        <li><a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a></li>
-    </ul>
+    <p>Contact <a href="https://owncloud.com/contact/" target="_blank">ownCloud, Inc.</a> for Enterprise support.</p>
   </div>
   <div class="col-md-4">
     <hr class="narrow"></hr>
     <div class="numbadge centre">6</div>
     <h3><i class="icon-rocket"></i> Get involved</h3>
-    <p>Consider joining our contributors network: <a href="http://insiders.owncloud.com/welcome/Spicehead">ownCloud Insiders</a>.</p>
-    <p>Our server is in constant development and help is always needed in developing and testing:</p>
-    <ul>
-        <li><a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" target="_blank">Daily build</a></li>
-        <li><a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" target="_blank">Linux Packages</a></li>
-        <li><a href="https://github.com/owncloud/mirall/issues" target="_blank">Bug Traker</a></li>
-    </ul>
+    <p>Consider sharing your <a href="http://owncloud.org/promote" target="_blank">enthusiasm about ownCloud</a>!</p>
+    <p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank">developing</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank">testing</a>, grab a daily build or beta packages.</p>
+    <p><a class="btn btn-default btn-lg" role="button" href="#testing-development" rel="tooltip" title="Contribute" data-toggle="popover">testing packages</a></p>
+    <p>See more <a href="/contribute" target="_blank">ways to get involved</a>!</p>
   </div>
 </div> 
 <hr></hr>
