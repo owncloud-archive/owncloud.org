@@ -11,7 +11,10 @@
 		<i class="icon-asterisk"></i> Share on Diaspora</a>
 	</div>
 </div>
-<p>If you are serious about diving into ownCloud, learning more about it and advocating its use, join ownCloud Insiders!</p>
+<div class="page-header">
+	<h1>Become an Insider</h1>
+</div>
+
 <!-- <div style="display: none;" id="insiders"> -->
 <!--	<p><strong>Thank you</strong> for using and supporting ownCloud.</p>
 
