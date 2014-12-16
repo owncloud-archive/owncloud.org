@@ -32,6 +32,7 @@
 	<li><a href="#getinvolved">How can I get involved in the ownCloud Community?</a></li>
 	<li><a href="#notechknowledge">But what if I'm not very technical?</a></li>
 	<li><a href="#appslocation">Where can I find ownCloud apps?</a></li>
+	<li><a href="#communityswag">Where can I find ownCloud t-shirts, stickers and other swag?</a></li>
 </ul>
 <h4>ownCloud for the Enterprise</h4>
 <ul>
@@ -165,7 +166,7 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 	<li>ownCloud has over 1.8 million users and over 300 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="http://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself.</li>
 </ul>
 <a name="howitstarted"></a>
-<h3> How did ownCloud get started?</h3>
+<h3>How did ownCloud get started?</h3>
 <ul>
 	<li>ownCloud started with a keynote by Frank Karlitschek at Camp KDE’10 where he talked about the need of a self-controlled free and open source cloud. Two years later, Frank announced the start of ownCloud, Inc. which is headquartered in Lexington, Massachusetts in the United States and Nuremburg, Germany. Find out more on <a href="/contribute/" target="_blank">our history page</a>.</li>
 </ul>
@@ -180,13 +181,18 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 	<li>There are lots of ways you can contribute to ownCloud. We have a need for developers, designers, event organizers, speakers, QA and more. It is all <a href="/contribute/" target="_blank">on the 'contribute' page</a>!</li>
 </ul>
 <a name="appslocation"></a>
-<h3> Where can I find ownCloud apps?</h3>
+<h3>Where can I find ownCloud apps?</h3>
 <ul>
 	<li>There is a large selection of build in and community-approved apps available for download from within the App management screen in your ownCloud installation. Featuring apps like the Music app, the Calendar app and so on you can watch your movies, share your pictures and keep your bookmarks synced. Download is seamless (just 'enable' the app and wait while it is downloaded, installed and enabled) and upgrading is easy from the same screen.</li>
 	<li>If the build in and approved apps are not enough, you can get more than 200 community and enterprise-developed ownCloud apps at <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more. Note that unlike the apps available for download from the App Management screen in ownCloud, the apps on <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> are not extensively checked for safety and compatibility, so you should be careful with them. For this reason, we do not support automatic download and installation for these, but require users to download the apps and install them in their ownCloud by hand.</li>
 	<li>If you are looking for third-party apps that integrate ownCloud in mobile and desktop applications, see our <a href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd-party apps</a> page.</li>
 	<li>Building a new ownCloud app is easy. If you're interested in developing your own ownCloud app, see <a href="/contribute/" target="_blank">the contribute page</a>, where you can find a link to the latest App Development documentation.</li>
 </ul>
+<a name="communityswag"></a>
+<h3>Where can I find ownCloud t-shirts, stickers and other swag?</h3>
+<p>ownCloud has a store on <a href="http://www.cafepress.com/owncloudshop" target="_blank">this page</a> where you can find posters, mugs, stickers, magnets, buttons, t-shirts and much more.</p>
+<p>If you are looking for materials for an ownCloud event or to use to promote ownCloud at a conference or trade show, see our <a href="/events" target="_blank">events pages</a> for information on what is available.</p>
+
 <h2>ownCloud for the Enterprise</h2>
 <a name="entcomparison"></a>
 <h3>How do the Community and Enterprise compare?</h3>
@@ -215,9 +221,4 @@ Check out <a href="http://owncloud.com" target="_blank">owncloud.com</a> and <a 
 <ul>
 	<li>ownCloud works with several large enterprises across financial services, energy, government, healthcare, education and more. Some of our marquis customers include TU Berlin, CERN, Joy Global, Wind River, Rush Medical, TERENA, De'Longhi, TTX, Dutch Ministry of Defense as well as other large financial services and telco companies we cannot name. Check out <a href="http://owncloud.com" target="_blank">owncloud.com</a> for more information.</li>
 </ul>
-<!--<h3>What features does Enterprise Edition have that are different from the Community Edition?</h3>
-<ul>
-	<li>ownCloud Enterprise Edition is designed for those organizations that require support and enterprise-only features such as: File Firewall, Home Directory Mounts, Logging/Auditing, Jive Integration, MS SQL support, Oracle DB support, Provisioning APIs and certified ownCloud plugins. You can learn more on <a href="https://owncloud.com/lp/file-sharing-under-your-control/" target="_blank">this page</a>.</li>
-</ul>-->
-
 
