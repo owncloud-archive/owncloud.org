@@ -17,7 +17,7 @@
             <li class="menu-history"><a href="<?php get_bloginfo('url'); ?>/history/">History</a></li>
             <li class="menu-security"><a href="<?php get_bloginfo('url'); ?>/security/">Security</a></li>
             <li class="menu-events"><a href="<?php get_bloginfo('url'); ?>/events/">Events</a></li>
-            <li class="menu-events"><a href="<?php get_bloginfo('url'); ?>/faq/">FAQ</a></li>
+            <li class="menu-faq"><a href="<?php get_bloginfo('url'); ?>/faq/">FAQ</a></li>
           </ul>
         </div>
      </div>
@@ -28,7 +28,7 @@
             <li class="menu-admin-manual"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>">Admin manual</a></li>
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_USER; ?>">User manual</a></li>
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer manual</a></li>
-            <li class="menu-press"><a href="/press">Press</a></li>
+            <li class="menu-store"><a href="http://www.cafepress.com/owncloudshop">ownCloud Store</a></li>
           </ul>
         </div>
      </div> 
@@ -40,6 +40,7 @@
             <li class="menu-mailing-list"><a href="http://mailman.owncloud.org/mailman/listinfo/user">Mailing List</a></li>
             <li class="menu-bug-tracker"><a href="https://github.com/owncloud/core/issues">Bug Tracker</a></li>
             <li class="menu-forums"><a href="http://forum.owncloud.org/">Forums</a></li>
+            <li class="menu-press"><a href="/press">Press</a></li>
           </ul>
         </div>
      </div>
