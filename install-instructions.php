@@ -113,7 +113,7 @@
                               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
                             </a>
                             <br />
-                            <p>Looking for the <a href="https://github.com/owncloud/android">Android Sources</a>? Looking for <a href="http://f-droid.org/app/com.owncloud.android">F-Droid</a>?</p>
+                            <p>Looking for the <a href="https://github.com/owncloud/android">Android</a> or <a href="https://github.com/owncloud/ios">iOS sources</a>? Looking for <a href="http://f-droid.org/app/com.owncloud.android">F-Droid</a>?</p>
                         </div>
                     </div>
                   </div>
