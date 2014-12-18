@@ -1,6 +1,34 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3>Release 1.7.1 <small>Dec 18th 2014</small></h3>
+<ul>
+<li>Documentation fixes and updates</li>
+<li>Nautilus Python plugin fixed for Python 3</li>
+<li>GUI wording fixes plus improved log messages</li>
+<li>Fix hiding of the database files in the sync directories</li>
+<li>Compare http download size with the header value to avoid broken downloads, bug #2528</li>
+<li>Avoid initial ETag fetch job at startup, which is not needed.</li>
+<li>Add chunk size http header to PUT requests</li>
+<li>Fixed deteteCookie method of our CookieJar, fix for Shibboleth</li>
+<li>Added fallback for distros where XDG_RUNTIME_DIR is undefined</li>
+<li>Fix the setup wizard, bug #1989, #2264</li>
+<li>Fix scheduling of ETag check jobs, bug #2553</li>
+<li>Fix to avoid syncing more than one folder at a time, bug #2407</li>
+<li>Use fife minutes timeout for all network jobs</li>
+<li>Cleanup for Folderwizard wording</li>
+<li>Improve journal check: Remove corrupted journal files, bug #2547</li>
+<li>Fix item count in progress dialog for deletes, bug #1132</li>
+<li>Display correct file count on deletion (#1132)</li>
+<li>Fix reinitializing the folder using the wizard in certain cases (#2606)</li>
+<li>Mac OS: Fixed branding of the pkg file</li>
+<li>Mac OS: Fix display of overlay icons in certain situations (#1132)</li>
+<li>Mac OS: Use a bundled version of OpenSSL (#764, #2600, #2510)</li>
+<li>Win32: improved filesystem watcher</li>
+<li>Win32: Improve threading with shell integration</li>
+<li>Win32: Upgraded to OpenSSL 1.0.1j</li>
+<li>Win32: Improve reliability of Installer, fix removal of Shell Extensions</li>
+</ul>
 <h3>Release 1.7.0 <small>Nov 7th 2014</small></h3>
 <ul>
 <li>oC7 Sharing: Handle new sharing options of ownCloud 7 correctly.</li>
