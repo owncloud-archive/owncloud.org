@@ -6,6 +6,7 @@
 <strong>2014</strong>
 <ul>
 	<li><a href="https://www.statuscode.ch">Lukas Reschke</a></li>
+	<li><a href="http://www.andreasfischer.net/">Andreas Fischer</a></li> 
 	<li><a href="http://itq.nl">Dirk van Veen</a> (ITQ)</li>
 	<li><a href="https://www.linkedin.com/in/jsibley1">James Sibley</a></li>
 	<li>Eddy Xu</li>
