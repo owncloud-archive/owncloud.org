@@ -3,6 +3,13 @@
 </div>
 <div class="alert alert-success"><strong>Heads up!</strong> We appreciate every vulnerability report, however, listing on this page is reserved for people who have reported unknown vulnerabilities which we have determined to be of a high or critical severity. People who have reported issues on our websites *.owncloud.org and *.owncloud.com can be found <a href="#issues-with-webservices">below</a>.</div>
 <p>The ownCloud community would like to acknowledge the following people for their contributions to the security of ownCloud:</p>
+<strong>2014</strong>
+<ul>
+	<li><a href="https://www.statuscode.ch">Lukas Reschke</a></li>
+	<li><a href="http://itq.nl">Dirk van Veen</a> (ITQ)</li>
+	<li><a href="https://www.linkedin.com/in/jsibley1">James Sibley</a></li>
+	<li>Eddy Xu</li>
+</ul>
 <strong>2013</strong>
 <ul>
 	<li><a href="https://www.statuscode.ch">Lukas Reschke</a></li>
