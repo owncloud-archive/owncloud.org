@@ -520,18 +520,6 @@
          "imagename":"nimmerland.jpg"
       },
       {
-         "title":"islebee.ca",
-         "url":"http:\/\/islebee.ca\/supported-products",
-         "flags":[
-            "ca"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"islebee.png"
-      },
-      {
          "title":"cloud.zaclys.fr",
          "url":"http:\/\/cloud.zaclys.fr\/",
          "flags":[
