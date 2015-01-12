@@ -14,13 +14,6 @@
 <div class="page-header">
 	<h1>Become an Insider</h1>
 </div>
-
-<!-- <div style="display: none;" id="insiders"> -->
-<!--	<p><strong>Thank you</strong> for using and supporting ownCloud.</p>
-
-	<p>We would like to invite you become an ownCloud Insider!</p>-->
-<!--	<h2>Insiders move forward</h2>
-	<p>Think of ownCloud Insiders as that place where connections are made, big ideas take off and magic happens. We reserved a seat at the table just for you!</p>-->
 	<a href="http://insiders.owncloud.com/join/aDb26fKzL22"><img class="insiders-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/events/insiders.jpg" alt="logo" width="1100px" height="458px" /></a>
 	<div class="row">
 		<div class="col-md-6">
@@ -38,23 +31,3 @@
 			<p><a style="width: 250px; margin: 0 13px;" target="_blank" href="http://insiders.owncloud.com/join/aDb26fKzL22" class="btn btn-warning btn-lg">sign up here</a></p>
 		</div>
 	</div>
-<!-- </div> -->
-<!--<div class="row">
-	<div class="col-md-4">
-		<h2>Write a blog post</h2>
-		<p>Share your experiences with ownCloud in a blog post, and get it included in our <a href="/news/">planet site</a> (contact <a href="/user/?user=tomneedham">Tom Needham</a>).</p>
-	</div>
-	<div class="col-md-4">
-		<h2>Organise an event</h2>
-		<p>Talks, meetups, or even tradeshow booths. See <a href="/events/" class="promote" target="_blank">this page</a> for more info on ownCloud events.</p>
-	</div>
-	<div class="col-md-4">
-		<h2>Recommend ownCloud</h2>
-		<p>Speak to friends, family, colleagues, or your existing service providers and recommend ownCloud.</p>
-	</div>
-</div>-->
-<!--<script>
-  $( ".promote" ).click(function() {
-      $( "#insiders" ).show();
-  });
-</script>-->
