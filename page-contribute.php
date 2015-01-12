@@ -18,7 +18,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
             <li>Develop your own ownCloud app (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app">app development documentation</a>)</li>
             <li>Get a bug fixed (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker">bugtracker documentation</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>general">general guidelines and setup</a>)</li>
             <li>Improve the ownCloud Core (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core">core development documentation</a>)</li>
-            <li>Learn to write ownCloud code. (Try your hands on a a <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open/">Junior Job</a>
+            <li>Learn to write ownCloud code. (Try your hands on a a <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open">Junior Job</a>
           and see the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding">project ideas page</a>)
           </ul>
           <p>Talk to us <a href="irc://#owncloud-dev@freenode.net">on IRC</a> and on our
