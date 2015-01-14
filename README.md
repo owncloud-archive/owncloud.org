@@ -8,8 +8,9 @@ process easy and effective for everyone involved.
 1. Install Wordpress >= 3.8.1
   * Must be in the document root of the webserver (otherwise images won't load :( )
   * Enter what you like for site title, admin user and password, none of this is stored in git
-2. Clone the www repo into your wp-content/themes folder under the name 'owncloudorgnew'
-  * git clone git@github.com:owncloud/www.repo owncloudorgnew
+2. a. Clone the www repo in a folder of your choice
+   * git clone git@github.com:owncloud/www.repo owncloudorgnew
+   b. in the wordpress installation in the wp-content/themes folder, create a link to the folder you just cloned our www repo in under the name 'owncloudorgnew'
 3. Activate the theme in Appearance > Themes
 4. Import the website content.xml file
   * First install the Wordpress Import Plugin (via Tools > Import > Wordpress Import > Install Plugin)
