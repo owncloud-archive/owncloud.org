@@ -14,7 +14,7 @@
 <div class="page-header">
 	<h1>Become an Insider</h1>
 </div>
-	<a href="http://insiders.owncloud.com/join/aDb26fKzL22"><img class="insiders-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/events/insiders.jpg" alt="logo" width="1100px" height="458px" /></a>
+	<a href="http://insiders.owncloud.com/join/aDb26fKzL22"><img class="insiders-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/events/insiders.jpg" alt="logo" style="height: auto; width: 100%" /></a>
 	<div class="row">
 		<div class="col-md-6">
 			<h2>What to expect</h2>
