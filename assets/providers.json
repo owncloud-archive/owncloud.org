@@ -196,21 +196,6 @@
          "imagename":"cloudu.png"
       },
       {
-         "title":"owncube.com",
-         "url":"https:\/\/owncube.com\/",
-         "flags":[
-            "gb",
-            "it",
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations",
-            "consumers"
-         ],
-         "imagename":"owncube.png"
-      },
-      {
          "title":"portknox.net",
          "url":"https:\/\/portknox.net\/?pk_campaign=opp",
          "flags":[
