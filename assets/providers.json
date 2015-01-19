@@ -908,6 +908,19 @@
          "freeplans":false,
          "supports":[],
          "imagename":"green.png"
+      },
+      {
+         "title":"peaknetworks.net",
+         "url":"https:\/\/www.peaknetworks.net\/owncloud-hosting",
+         "flags":[
+            "at"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers"
+            ],
+         "imagename":"peaknetworks.png"
       }
 
    ]
