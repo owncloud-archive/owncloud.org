@@ -311,10 +311,6 @@ a.join-button {
  		margin-top: 2em !important;
  	}
 
- 	a.facebook-button {
-		margin: 10px 0 !important;
-	}
-
 	.header .row.image {
 		margin-top: 30px;
 	}
@@ -353,6 +349,11 @@ a.join-button {
 
 .home-ent-button {
 	font-weight: 100;
+}
+
+.promote-buttons a {
+	margin-bottom: 10px;
+	width: 250px;
 }
 
 

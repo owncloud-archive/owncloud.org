@@ -4,10 +4,10 @@
 <p>If you are happy with ownCloud, consider sharing your enthusiasm with the world!</p>
 <div class="row">
 	<div class="col-md-12 col-sm-4 promote-buttons" style="text-align: center">
-		<a style="width: 250px;" target="_blank" href="https://twitter.com/intent/tweet/?url=https%3A%2F%2Fowncloud.org&text=Check%20out%20ownCloud%20for%20open%20source%20data%20sync%2C%20sharing%20and%20more!&via=owncloud&hashtags=owncloud,opensource" class="btn btn-info btn-lg promote"><i class="icon-twitter"></i> Tweet about ownCloud</a>
-		<a style="width: 250px; margin: 0 13px;" target="_blank" href="https://www.facebook.com/sharer.php?u=owncloud.org" class="btn btn-primary btn-lg facebook-button promote"><i class="icon-facebook"></i> Share on Facebook</a>
-		<a style="width: 250px" target="_blank" href="https://plus.google.com/share?url=https%3A%2F%2Fowncloud.org" class="btn btn-danger btn-lg promote"><i class="icon-google-plus"></i> Post on Google+</a>
-		<a style="width: 250px" target="_blank" href="http://sharetodiaspora.github.io/?title=ownCloud%20rocks!&url=http://owncloud.org" class="btn btn-default btn-lg promote">
+		<a target="_blank" href="https://twitter.com/intent/tweet/?url=https%3A%2F%2Fowncloud.org&text=Check%20out%20ownCloud%20for%20open%20source%20data%20sync%2C%20sharing%20and%20more!&via=owncloud&hashtags=owncloud,opensource" class="btn btn-info btn-lg promote"><i class="icon-twitter"></i> Tweet about ownCloud</a>
+		<a target="_blank" href="https://www.facebook.com/sharer.php?u=owncloud.org" class="btn btn-primary btn-lg facebook-button promote"><i class="icon-facebook"></i> Share on Facebook</a>
+		<a target="_blank" href="https://plus.google.com/share?url=https%3A%2F%2Fowncloud.org" class="btn btn-danger btn-lg promote"><i class="icon-google-plus"></i> Post on Google+</a>
+		<a target="_blank" href="http://sharetodiaspora.github.io/?title=ownCloud%20rocks!&url=http://owncloud.org" class="btn btn-default btn-lg promote">
 		<i class="icon-asterisk"></i> Share on Diaspora</a>
 	</div>
 </div>
