@@ -73,6 +73,7 @@
 	    <div class="col-md-6">
 		<p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
 		<p>Note:</br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+	    <p>The key used to sign our OBS packages can be found here: <a href="<?php echo get_template_directory_uri(); ?>/assets/files/obs-release-signing.gpg">OBS Release Signing key</a></p>
 	    </div>
 	    </div>
 	    <div class="overlay-footer row">
