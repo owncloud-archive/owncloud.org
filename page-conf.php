@@ -1,10 +1,12 @@
 <div class="row conf-header">
-	<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
-	<h2 class="conf-location">August 2014, Berlin</h2>
-<!--	<a href="/conf/register" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
-        <strong>The 2014 conference is over!</strong><br /> Read a <a href="http://owncloud.org/blog/owncloud-contributor-conference-was-awesome/">report on the event</a> and <br />watch this space for the conference in <strong>2015</strong>!
+	<div class="col-sm-6 col-sm-offset-3">
+		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/5years/5years.svg" alt="logo" />
+		<h2 class="conf-location">January, 2015</h2>
+        	<p><strong>ownCloud is 5 years old!</strong><br /> ownCloud was <a href="/history">announced in 2010</a> by Frank Karlitschek.<br />Having started with just a handful of enthusiasts, it has grown to a community with hundreds of developers and millions of users!</p>
+        	We proudly present you some of what makes ownCloud strong:<br /> <strong>the ideas and creativity of its users and contributors!</strong>
+        </div>
 </div>
-<div class="row conf-info">
+<!--<div class="row conf-info">
 	<div class="col-sm-6">
 		<i class="icon-code"></i>
 		<h2>Hackathon</br><small>August 26-31</small></h2>
@@ -30,7 +32,7 @@
 		</ul>
 		<p>You can watch <a href="http://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96">videos of the talks on our youtube channel</a>.</p>
 	</div>
-</div>
+</div>-->
 <!--<div class="row conf-info">
 	<div class="col-sm-6">
 		<h2>Location</h2>
@@ -48,33 +50,59 @@
 </div>-->
 <div class="row conf-partners-title">
 	<div class="col-md-12">
-		<h2>Conference Partners</h2>
+		<h2>Quotes and congratulations</h2>
 	</div>
 </div>
 <div class="row conf-partners">
-	<div class="col-xs-12 col-sm-4">
-		<a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="visit lwn.net" /></a>
+	<div class="col-sm-4 ">
+		<p class="text-center">"Here’s to another five amazing, innovative years of freedom of choice!"</p>
+		<p class="text-right">–ownCloud user <i>Nassos Kourentas</i>, Greece</p>
 	</div>
-	<div class="col-xs-12 col-sm-4 ">
-		<a target="_blank" href="http://www.themukt.com/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="visit the Mukt" /></a>
-	</div>
-	<div class="col-xs-12 col-sm-4">
-		<a target="_blank" href="http://linux-magazin.de"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="Visit Linux Magazin" /></a>
+	<div class="col-sm-8">
+		<p class="text-center">"very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - "</p>
+		<p class="text-right">–ownCloud user <i>bla</i></p>
 	</div>
 </div>
+
 <div class="row conf-partners">
-	<div class="col-xs-12 col-sm-4 col-sm-offset-2">
-		<a target="_blank" href="http://freiheitstattangst.de/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/FSA14.jpg" alt="Visit the Freiheit statt angst site" /></a>
+	<div class="col-sm-8">
+		<p class="text-center">"It is unbelievable that ownCloud is just five year old. Looking at the amazing feature set one could think it has been in development for ten years at least."</p>
+		<p class="text-right">–contributor since 2011 <i>Jakob Sack</i>, Germany</p>
 	</div>
+<div class="row conf-partners">
 	<div class="col-xs-12 col-sm-4">
-		<a target="_blank" href="http://mozilla.org"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/mozilla-foundation-onblack.png" alt="Visit the Mozilla Foundation" /></a>
+		<p class="text-center">"Love, love, love my owncloud. Just recently upgraded from version 5 to version 7."</p>
+		<p class="text-right">–ownCloud user <i>Jody Hoagland</i>, USA</p>
 	</div>
 </div>
-<div class="row conf-about">
-	<div class="col-sm-6 col-sm-offset-3">
-		<h2>Thanks!</h2>
-		<p>The event was made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="http://owncloud.com">ownCloud Inc</a>.</p>
-		<h2>Spread the word!</h2>
-		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="http://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts">Google+</a>.</p>
+
+
+
+
+<div class="row conf-partners">
+	<div class="col-sm-4 ">
+		<p class="text-center">"It works. Thats the most important reason I use it. And it didn´t cause much maintenance overhead so far."</p>
+		<p class="text-right">–ownCloud user <i>Martin 'Helios' Steigerwald</i>, Germany</p>
 	</div>
+	<div class="col-sm-8">
+		<p class="text-center">"very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - "</p>
+		<p class="text-right">–ownCloud user since 2013 <i>Faisal-ur-Rehman</i>, Pakistan</p>
+	</div>
+</div>
+
+
+<div class="row conf-partners">
+	<div class="col-sm-8">
+		<p class="text-center">"very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - very long text - "</p>
+		<p class="text-right">–ownCloud user <i>bla</i></p>
+	</div>
+	<div class="col-sm-4 ">
+		<p class="text-center">"Wish all the best for the next years.<br />
+		Thanks Frank for the idea.<br />
+		Thanks Jos for helping us promote it.<br />
+		Thanks community developing the tool!!!"</p>
+		<p class="text-right">–ownCloud user since 2011 <i>Efstathios (Stathis) Iosifidis</i>, Greece</p>
+	</div>
+
+
 </div>
