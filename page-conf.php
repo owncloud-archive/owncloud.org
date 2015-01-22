@@ -14,50 +14,7 @@
 		</p>
 	</div>
 </div>
-
 <hr>
-<!--<div class="row conf-info">
-	<div class="col-sm-6">
-		<i class="icon-code"></i>
-		<h2>Hackathon</br><small>August 26-31</small></h2>
-		<p>For the second time, the awesome community behind ownCloud got together at the TU Berlin for 5 days of writing code and sharing beer, knowledge and inspiration. Work got done:</p>
-		<ul>
-			<li>Coding (PHP, JS, C++)</li>
-			<li>Design &amp; Front-end</li>
-			<li>Testing</li>
-			<li>Translation &amp; Documentation</li>
-			<li>Marketing &amp; Promo</li>
-		</ul>
-	</div>
-	<div class="col-sm-6">
-		<i class="icon-comments-o"></i>
-		<h2>Techtalks &amp; Workshops</br><small>August 30</small></h2>
-		<p>The Conference Day on Saturday the 30th provided a chance to learn and improve coding skills on and around ownCloud.<br/>
-		There were keynotes, lightning talks and workshops:</p>
-		<ul>
-			<li>Learn to write your first ownCloud App</li>
-			<li>Find out about the state of the Music, Files or Calendar app</li>
-			<li>Secure your PHP application</li>
-			<li>Connect your JS app to ownCloud</li>
-		</ul>
-		<p>You can watch <a href="http://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96">videos of the talks on our youtube channel</a>.</p>
-	</div>
-</div>-->
-<!--<div class="row conf-info">
-	<div class="col-sm-6">
-		<h2>Location</h2>
-		<p>Our conference took place in Berlin at the <em>Technische Universität Berlin</em>, in the "Elektrotechnische Institute" building at Einsteinufer 17, Charlottenburg, 10587 Berlin.</p>
-		<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=13.32318127155304%2C52.51362881752727%2C13.330262303352356%2C52.5165081342206&amp;layer=mapnik&amp;marker=52.5150684994582%2C13.326721787452698"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51507&amp;mlon=13.32672#map=18/52.51507/13.32672">View Larger Map</a></small>
-	</div>
-	<div class="col-sm-6">
-		<h2>Register</h2>
-		<p>The ownCloud Contributor Conference was entirely open. We do ask you to <a href="/conf/register">register</a> to help us plan better for the event.</p>
-		<h2 class="conf-acc">Berlin and accommodation</h2>
-		<p>We had a series of recommendations but all are now booked. You can use <a href="http://findhotelsnearanaddress.com/">this site to find something close by</a>. At this time, <a href="http://www.aletto.de/en/kudamm">hotel aletto kudamm</a> is still available and affordable.</p>
-		<h2>Code of conduct</h2>
-		<p>We want everybody to feel welcome at the event. Please be mindful of our <a href="https://owncloud.org/community/code-of-conduct/">code of conduct</a>. Also, please note that there will be video recording. The conference is an open space, please be sure that you are comfortable with that. Of course, you can always ask people not to take pictures or video of you.</p>
-	</div>
-</div>-->
 <div class="row conf-partners-title">
 	<div class="col-md-12">
 		<h2>Quotes and congratulations</h2>
@@ -70,7 +27,18 @@
 	</div>
 	<div class="col-sm-6">
 		<p>"Here’s to another five amazing, innovative years of freedom of choice!"</p>
-		<p>–ownCloud user <i>Nassos Kourentas</i>, Greece</p>
+		<p>–ownCloud user since 2012 <i>Nassos Kourentas</i>, Greece</p>
+	</div>
+</div>
+<hr>
+<div class="row conf-partners">
+	<div class="col-sm-6">
+		<p>"Love, love, love my owncloud. Just recently upgraded from version 5 to version 7."</p>
+		<p>–ownCloud user since 2013 <i><a href="https://www.facebook.com/ownClouders/posts/1530670780534190">Jody Hoagland</a></i>, USA</p>
+	</div>
+	<div class="col-sm-6">
+		<p>"TBD"</p>
+		<p>–ownCloud business since 2012 <i><a href="https://owncube.com/index-en.php">OwnCube</a></i>, Austria</p>
 	</div>
 </div>
 <hr>
@@ -80,8 +48,19 @@
 		<p>–ownCloud contributor since 2012 <i>Lukas Reschke</i>, Switzerland</p>
 	</div>
 	<div class="col-sm-6">
-		<p>"Love, love, love my owncloud. Just recently upgraded from version 5 to version 7."</p>
-		<p>–ownCloud user <i>Jody Hoagland</i>, USA</p>
+		<p>"ownCloud is a rally good product.Thank you to all the developers."</p>
+		<p>–ownCloud business since 2013 <i>Naukri</i>, India</p>
+	</div>
+</div>
+<hr>
+<div class="row conf-partners">
+	<div class="col-sm-6">
+		<p>"Before OC, I made and used my own bash-script to sync my files online but OC has ajaxed drag and drop feature in browser like a desktop. And it can sync on multiple devices."</p>
+		<p>–ownCloud user since 2013 <i>Faisal-ur-Rehman</i>, Pakistan</p>
+	</div>
+	<div class="col-sm-6">
+		<p>"I have been on ownCloud since March, 2014 as TestPilot and I bumped on it by accident on the internet. I love it because it is easy to use."</p>
+		<p>–ownCloud user since 2014 <i>"mudzimba"</i>, South Africa</p>
 	</div>
 </div>
 <hr>
@@ -99,34 +78,20 @@
 <hr>
 <div class="row conf-partners">
 	<div class="col-sm-6">
-		<p>"Before OC, I made and used my own bash-script to sync my files online but OC has ajaxed drag and drop feature in browser like a desktop. And it can sync on multiple devices."</p>
-		<p>–ownCloud user since 2013 <i>Faisal-ur-Rehman</i>, Pakistan</p>
+		<p>"I've been ownclouding since version 5 and it's getting better and better.<br>
+		Hopefully we'll enjoy ownCloud for years to come"</p>
+		<p>–ownCloud business user since 2013 <i>Philip Lages</i>, Netherlands</p>
 	</div>
 	<div class="col-sm-6">
-		<p>"Wish all the best for the next years.<br />
-		Thanks Frank for the idea.<br />
-		Thanks Jos for helping us promote it.<br />
-		Thanks community developing the tool!!!"</p>
-		<p>–ownCloud user since 2011 <i>Efstathios (Stathis) Iosifidis</i>, Greece</p>
+		<p>"I am using owncloud since version 5.x somewhere around and it get's better from version to version. At university a few students I know, also use OwnCloud. More and more use owncloud. It's simple and it's a very good solution!"</p>
+		<p>–ownCloud user since 2013 <i><a href="https://plus.google.com/u/0/b/107072838776436530705/107072838776436530705/posts/iJPZc7bTFWF">Christoph S</a></i>, Germany</p>
 	</div>
 </div>
 <hr>
 <div class="row conf-partners">
 	<div class="col-sm-6">
 		<p>"It works. Thats the most important reason I use it. And it did not cause much maintenance overhead so far."</p>
-		<p>–ownCloud user <i>Martin 'Helios' Steigerwald</i>, Germany</p>
-	</div>
-	<div class="col-sm-6">
-		<p>"I am using owncloud since version 5.x somewhere around and it get's better from version to version. At university a few students I know, also use OwnCloud. More and more use owncloud. It's simple and it's a very good solution!"</p>
-		<p>–ownCloud user since 2013 <i>Christoph S</i>, Germany</p>
-	</div>
-</div>
-<hr>
-<div class="row conf-partners">
-	<div class="col-sm-6">
-		<p>"I've been ownclouding since version 5 and it's getting better and better.<br>
-		Hopefully we'll enjoy ownCloud for years to come"</p>
-		<p>–ownCloud user since 2013 <i>Philip Lages</i>, Netherlands</p>
+		<p>–ownCloud user since 2012 <i>Martin 'Helios' Steigerwald</i>, Germany</p>
 	</div>
 	<div class="col-sm-6">
 		<p>"Wish all the best for the next years.<br />
