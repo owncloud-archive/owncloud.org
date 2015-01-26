@@ -24,21 +24,21 @@
 		  		  <h3 class="ft-title">Release highlights</h3>
 		  	</div>
 		 </div>
-		<div class="row featurerow featuresheader">
 			<div class="col-md-4 featureblock">
-				<i class="icon-star-half-o"></i>
-				<h3 class="ft-title">Get at your files faster</h3>
-				<p class="featuredesc">ownCloud Server 8 introduces favorites support and much improved search functionality, enabling users to have extremely quick and easy access to important files without having to navigate through all their data.</p>
+				<i class="icon-sitemap"></i>
+				<h3 class="ft-title">Federate your clouds</h3>
+				<p class="featuredesc">ownCloud Server 8 improves Federated Cloud sharing, allowing users to share files by directly referring to users on other ownCloud servers and introducing notifications and user interface improvements to the sharing process.</p>
 			</div>
+<!--		<div class="row featurerow featuresheader">-->
 			<div class="col-md-4 featureblock">
 				<i class="icon-users"></i>
 				<h3 class="ft-title">Be in control</h3>
 				<p class="featuredesc">ownCloud Server 8 delivers better performance and more control for administrators thanks to enhanced user, storage and app management.</p>
 			</div>
 			<div class="col-md-4 featureblock">
-				<i class="icon-sitemap"></i>
-				<h3 class="ft-title">Federate your clouds</h3>
-				<p class="featuredesc">ownCloud Server 8 improves Server-to-Server sharing, bringing users of different ownCloud servers closer together by allowing users to share files by referring to user names on connected ownCloud servers and introducing notifications and interface improvements.</p>
+				<i class="icon-star-half-o"></i>
+				<h3 class="ft-title">Get at your files faster</h3>
+				<p class="featuredesc">ownCloud Server 8 introduces favorites support and much improved search functionality, enabling users to have extremely quick and easy access to important files without having to navigate through all their data.</p>
 			</div>
 		</div>
 	</div>
@@ -55,89 +55,100 @@ Jump to improvements for: <a href="#user">Users</a> | <a href="#admin">Administr
 
 <div class="row featurerow">
 	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="Access" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
+		<h3 class="featuretitle">Federated Cloud</h3></br>
+		<p class="featuredesc">In previous versions of ownCloud, users on separate ownCloud servers could collaborate by sending public links. These links then offered a recipient the option of permanently mounting this public link in ownCloud, something referred to as server to server sharing. In ownCloud 8.0, the process for setting up server to server shared folders is now as easy as sharing a file with another ownCloud user. This makes it easier than ever for federated ownClouds to work together across servers, and even, if desired, organizations to collaborate and get work done.</p>
+	</div>
+	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="Sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/favorites.png" />
-		<h3 class="featuretitle">Introducing Favorites</h3></br>
-		<p class="featuredesc">The Files app introduces the ability to favorite files by clicking the little star in front of files. Favorite files will show up in the side bar under the <em>Favorites</em> section so you can find them very quickly. This feature also includes an API for clients to retrieve and set favorites.</p>
+		<h3 class="featuretitle">Favorites/Metadata support</h3></br>
+		<p class="featuredesc">With ten thousand files or more found on a typical users file sync and share account, files can be very hard to find in a standard file system view. With file and folder favorites, users can now assign a favorite icon to files and folders that are important on the server, and be able to quickly locate, access and edit important content. More importantly, server favorites set a foundation for additional file and folder meta data in future releases of ownCloud.</p>
 	</div>
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="Design" src="<?php bloginfo('template_directory'); ?>/assets/img/features/search.png" />
 		<h3 class="featuretitle">Improved Search</h3></br>
-		<p class="featuredesc">Search has gotten a new user interface, showing results in the main view of apps instead of a small drop-down below the search field. Results are also app-specific (contacts in the Contacts app, files in the Files app, ...) and first filter the content of the current view, appending search results on the bottom, depending on the application.</p>
-	</div>
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="Access" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
-		<h3 class="featuretitle">Next Generation Server-to-server Sharing</h3></br>
-		<p class="featuredesc">Server-to-server Sharing sharing improves on the cross-server sharing experience, letting users share to a specific ownCloud server and accept incoming shares from other servers directly from the web interface. Sharing files can similarly done by adding an user from another server in the share drop-down and an OCS based API makes it possible for third party applications to integrate with Server-to-server Sharing.</p>
+		<p class="featuredesc">When working with files, users typically remember the files they have been working with in the last week or month, but older files tend to be harder to remember. Inevitably, there comes a time when even the best organization of files can't help a user find the content they need quickly. This is why we overhauled the search interface, providing a simpler and easier user experience, including enhanced result set reporting, additional search parameters and general usability improvements to make it easier for users to find the files they need fast.</p>
 	</div>
 </div>
 
+<div class="row featurerow">
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
+		<h3 class="featuretitle">Web interface enhancements</h3></br>
+		<p class="featuredesc">File sync and share has become dominant as a form of ad-hoc collaboration because it is simple to understand, easy to use, and just works. For this reason, the accessibility and usability of the ownCloud interface has been improved to make it easier for all users to access, edit, sync and share their files.</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites2.png" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites2.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+	<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/search.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+	<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/NGserver2server.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+</div>
+
+<div class="featurewrapper"><h2>Performance</h2></div>
 <div class="row featurerow">
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/client.png" />
-		<h3 class="featuretitle">Direct download support</h3></br>
-		<p class="featuredesc">The ownCloud server offers the ability to give a direct download link with S3 and SWIFT to clients, bypassing the server for improved download speeds.</p>
-	</div>
-
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
-		<h3 class="featuretitle">Accessibility improvements</h3></br>
-		<p class="featuredesc">It is now much easier to work with the ownCloud web UI without a mouse.</p>
-	</div>
-
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing2.png" />
-		<h3 class="featuretitle">Shorter sharing links</h3></br>
-		<p class="featuredesc">Shorter sharing links make it easier to paste share links in email or on social media.</p>
+		<h3 class="featuretitle">Download Broker</h3></br>
+		<p class="featuredesc">When ownCloud delivers universal file access to end users, files from many different document sources are aggregated into a single interface and served to end users. In some cases, passing all of the files aggregated in this interface through a single server, ownCloud, can slow down data access. ownCloud now supports direct downloads of files from select storage back-ends, reducing the load on the ownCloud server without sacrificing control over the files that are stored in the various back end systems.</p>
 	</div>
 </div>
 
-<div class="row featurerow">
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
-		<h3 class="featuretitle">Updated PDF viewer</h3></br>
-		<p class="featuredesc">The PDF support in ownCloud has improved compatibility with PDF files.</p>
-	</div>
-</div>
 
-		<div class="row">
-			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites2.png" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites2.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
-			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/search.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
-			<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/NGserver2server.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
-		</div>
 
 <a name="admin"></a>
 
-<div class="featurewrapper"><h2>Improvements for Administrators</h2></div>
+<div class="featurewrapper"><h2>Admin Usability</h2></div>
 <p>System administrators should take note that PHP 5.4 is now required for ownCloud Server 8.0.</p>
 
 <div class="row featurerow">
-
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/conflict.png" />
+		<h3 class="featuretitle">Admin and Settings page UX</h3></br>
+		<p class="featuredesc">As the ownCloud ecosystem grows, more and more apps are available to add to the server. Over time, this can make it more difficult to manage and administer the ownCloud server. To solve this problem, a new user interface has been implemented for the ownCloud Admin and Settings pages to make configuration of the ownCloud server faster and easier for the administrator, including a new sidebar for organization and accessing app configuration options.</p>
+	</div>
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/apps.png" />
-		<h3 class="featuretitle">Improved Apps management</h3></br>
-		<p class="featuredesc">the build in App store in ownCloud got a visual overhaul, putting recommended apps on top and sorting third party apps by rating.</p>
+		<h3 class="featuretitle">Simplified App installation, upgrading and removal</h3></br>
+		<p class="featuredesc">As the number of available ownCloud server apps grow, it can be difficult for administrators to locate, install, upgrade and remove apps. With this feature, ownCloud now makes it easier on the administrator to install, upgrade and remove apps, and provides a new app dependency capability so that configuring and managing ownCloud is easier than ever.</p>
 	</div>
 
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
-		<h3 class="featuretitle">Improved Updater app</h3>
-		<p class="featuredesc">can not find what has been improved.</p>
-	</div>
-
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
-		<h3 class="featuretitle">Improved User management</h3>
-		<p class="featuredesc">Admins can now see what back end users are on and can change the email address as well as send an introduction email to newly added users.</p>
+		<h3 class="featuretitle">New Updater Layout</h3>
+		<p class="featuredesc">While the Updater app has made updating and upgrading ownCloud easier, new improvements now make the ownCloud updater app more intelligent – now an upgrade is faster and easier. More intelligence detects errors in the upgrade process before they happen and rolls back, additional status messages provide better feedback, and error messages provide insight into any errors that may block an upgrade.</p>
 	</div>
 
 </div>
 
 <div class="row featurerow">
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" />
-		<h3 class="featuretitle">Usability improvements</h3></br>
-		<p class="featuredesc">Better structured settings and admin pages make it easy to more quickly find the setting you're looking for.</p>
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
+		<h3 class="featuretitle">More powerful user-management</h3>
+		<p class="featuredesc">In addition to the existing filter and text string searchable user management, an entirely new set of features has been added to ownCloud. Admins can now edit email addresses for system users, sort users, select multiple users at once, rename groups and more - making it easier than ever to manage an ownCloud system in operation.</p>
+	</div>
+
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/backend.png" />
+		<h3 class="featuretitle">LDAP improvements including LDAP user cleanup</h3>
+		<p class="featuredesc">Integrating with LDAP and AD directories for user management is one of the most critical capabilities required for a file sync and share solutions. ownCloud has significantly improved LDAP and AD performance, provided additional configuration options and expert modes, and added a new utility for verifying and removing users from ownCloud that are no longer active in LDAP or AD, making it easier to maintain ownCloud in the enterprise.</p>
+	</div>
+
+
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
+		<h3 class="featuretitle">Improved and open sourced provisioning API</h3>
+		<p class="featuredesc">For many administrators, remotely managing ownCloud users is a core part of managing the overall enterprise file sync and share system. The provisioning API, that has been limited to the Enterprise Edition, is not available to the community as an open source app, providing these same system administration benefits to the overall ownCloud community.</p>
+	</div>
+
+</div>
+
+<div class="row featurerow">
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
+		<h3 class="featuretitle">Other: Improvements in Documents and overall speed and performance and a ton of bugfixes and polish.</h3></br>
+		<p class="featuredesc">As always, ownCloud strives for the best overall user experience for admins and users. This release is not different, and there are a number of performance improvements, bug fixes and general polish all designed to improve the overall user and administrator experience out of the box.</p>
 	</div>
 </div>
 
@@ -157,7 +168,7 @@ Jump to improvements for: <a href="#user">Users</a> | <a href="#admin">Administr
 	<li>the App container can now automatically resolve dependencies.</li>
 	<li>A brand new App tutorial including a demo app.</li>
 </ul>
-For details, see this blog about <a href="">ownCloud 8 for app developers</a>.
+For details, see this blog about <a href="https://owncloud.org/blog/owncloud-8-for-application-developers/">ownCloud 8 for app developers</a>.
 </div>
 
 </div>
