@@ -153,7 +153,8 @@ Jump to improvements for: <a href="#user">Users</a> | <a href="#admin">Administr
 <div class="row">
 <ul class="featureslist">
 	<li>Provisioning API.</li>
-	<li>Apps can now specify their dependencies and an intelligent container saves much work.</li>
+	<li>Apps can now specify their dependencies in info.xml</li>
+	<li>the App container can now automatically resolve dependencies.</li>
 	<li>A brand new App tutorial including a demo app.</li>
 </ul>
 For details, see this blog about <a href="">ownCloud 8 for app developers</a>.
