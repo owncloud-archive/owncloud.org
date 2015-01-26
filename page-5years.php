@@ -37,8 +37,8 @@
 		<p>–ownCloud user since 2013 <i><a href="https://www.facebook.com/ownClouders/posts/1530670780534190">Jody Hoagland</a></i>, USA</p>
 	</div>
 	<div class="col-sm-6">
-		<p>"TBD"</p>
-		<p>–ownCloud business since 2012 <i><a href="https://owncube.com/index-en.php">OwnCube</a></i>, Austria</p>
+		<p>"Was looking for cloud software, without giving my data to the NSA, lucky me i've found ownCloud"</p>
+		<p>–ownCloud user since 2013 <i>Sander Brand</i>, Netherlands</p>
 	</div>
 </div>
 <hr>
