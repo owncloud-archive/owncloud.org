@@ -34,7 +34,7 @@
 <div class="row conf-partners">
 	<div class="col-sm-6">
 		<p>"Love, love, love my owncloud. Just recently upgraded from version 5 to version 7."</p>
-		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2013 <i><a href="https://www.facebook.com/ownClouders/posts/1530670780534190">Jody Hoagland</a></i>, USA</p>
+		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2013 <i>Jody Hoagland</i>, USA</p>
 	</div>
 	<div class="col-sm-6">
 		<p>"Was looking for cloud software, without giving my data to the NSA, lucky me i've found ownCloud"</p>
@@ -95,7 +95,7 @@
 	</div>
 	<div class="col-sm-6">
 		<p>"I am using owncloud since version 5.x somewhere around and it get's better from version to version. At university a few students I know, also use OwnCloud. More and more use owncloud. It's simple and it's a very good solution!"</p>
-		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2013 <i><a href="https://plus.google.com/u/0/b/107072838776436530705/107072838776436530705/posts/iJPZc7bTFWF">Christoph S</a></i>, Germany</p>
+		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2013 <i>Christoph S</i>, Germany</p>
 	</div>
 </div>
 <hr>
