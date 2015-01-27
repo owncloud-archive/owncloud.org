@@ -71,6 +71,8 @@ Jump to improvements for: <a href="#user">Users</a> | <a href="#admin">Administr
 	</div>
 </div>
 
+
+
 <div class="row featurerow">
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
@@ -79,11 +81,14 @@ Jump to improvements for: <a href="#user">Users</a> | <a href="#admin">Administr
 	</div>
 </div>
 
+<!-- <div class="featurewrapper"><h2>Screenshots</h2></div> -->
 <div class="row">
-	<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
-	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites2.png" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites2.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-	<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/search.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
-	<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/NGserver2server.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+        <div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites1.png" alt="Empty favorites folder" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites1-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites2.png" alt="Favoriting files" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites2-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites3.png" alt="Favorites folder with files" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/favorites3-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/search1.png" alt="Empty favorites folder" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/search1-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/FederatedShare1.png" alt="Empty favorites folder" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/FederatedShare1-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/UserSettings.png" alt="Empty favorites folder" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/UserSettings-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 </div>
 
 <div class="featurewrapper"><h2>Performance</h2></div>
@@ -153,9 +158,10 @@ Jump to improvements for: <a href="#user">Users</a> | <a href="#admin">Administr
 </div>
 
 <div class="row">
-	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/UserMmgmtBackend.png" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/UserMmgmtBackend.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-	<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/AdminPage.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
-	<div class="col-md-3"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/AppMgmt.png" style="width: 100%" alt="..." class="img-thumbnail"></div>
+	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/UserMmgmtBackend.png" alt="The backend the user is on shows in the UI" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/UserMmgmtBackend-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/AppManagement1.png" alt="The backend the user is on shows in the UI" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/AppManagement1-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/AppManagement2.png" alt="The backend the user is on shows in the UI" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/AppManagement2-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/AdminSettings.png" alt="The backend the user is on shows in the UI" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/AdminSettings-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 </div>
 
 <a name="developer"></a>
