@@ -7,7 +7,7 @@
 <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
 <h2>ownCloud Resources</h2>
 <div class="row">
-	<div class="col-md-3"><a href="https://github.com/owncloud/screenshots/archive/stable8-0.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png"
+	<div class="col-md-3"><a href="https://github.com/owncloud/screenshots/archive/stable8.0.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png"
 		style="width: 100%" alt="Download a zip file with screenshots" class="img-thumbnail"></a></div>
 	<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Logo_files.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/logofiles.png"
 		style="width: 100%" alt="Download a zip file with logo files" class="img-thumbnail"></a></div>
