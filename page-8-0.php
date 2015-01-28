@@ -144,7 +144,7 @@ Jump to improvements for: <a href="#user">Users</a> | <a href="#admin">Administr
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
 		<h3 class="featuretitle">Improved and open sourced provisioning API</h3>
-		<p class="featuredesc">For many administrators, remotely managing ownCloud users is a core part of managing the overall enterprise file sync and share system. The provisioning API, that has been limited to the Enterprise Edition, is not available to the community as an open source app, providing these same system administration benefits to the overall ownCloud community.</p>
+		<p class="featuredesc">For many administrators, remotely managing ownCloud users is a core part of managing the overall enterprise file sync and share system. The provisioning API, that has been limited to the Enterprise Edition, is now available to the community as an open source app, providing these same system administration benefits to the overall ownCloud community.</p>
 	</div>
 
 </div>
