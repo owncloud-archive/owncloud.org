@@ -70,7 +70,7 @@
 <li>Fixed memory leak in SSL button that could lead to quick memory draining</li>
 <li>Fixed upload problem with files &gt;4 GB</li>
 <li>MacOSX, Linux: Bring Settings window to front properly</li>
-<li>Branded clients: If no configuration is detected, try to import the data from a previously configured community edition.</li>
+<li>Branded clients: If no configuration is detected, try to import the data from a previously configured ownCloud Server installation.</li>
 </ul>
 
 <h3>Release 1.6.2 <small>Jul 28th 2014</small></h3>

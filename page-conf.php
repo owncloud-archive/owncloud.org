@@ -23,7 +23,7 @@
 		<p>The Conference Day on Saturday the 30th provided a chance to learn and improve coding skills on and around ownCloud.<br/>
 		There were keynotes, lightning talks and workshops:</p>
 		<ul>
-			<li>Learn to write your first ownCloud App</li>
+			<li>Learn to write your first ownCloud ServerApp</li>
 			<li>Find out about the state of the Music, Files or Calendar app</li>
 			<li>Secure your PHP application</li>
 			<li>Connect your JS app to ownCloud</li>
