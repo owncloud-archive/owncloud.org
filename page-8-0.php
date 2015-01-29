@@ -2,12 +2,13 @@
 
 
 <div class="row featurerow topfeature">
-	<div class="col-md-5">
+<!--	<div class="col-md-5">
 		<iframe src="//www.youtube.com/embed/xA3tfBTvH0c" height="310" width="95%" style="margin-top:10px;" allowfullscreen="" frameborder="0"></iframe>
-	</div>
+	</div>-->
 	<div class="col-md-7">
 		<h2 class="featuretitle" style="margin-top: 0;">ownCloud Server 8 Features</h2>
-		<p style="text-align: justify; margin-top: 10px;">ownCloud Server 8.0 has significant feature improvements for users, administrators and developers. Want to learn more about ownCloud from somebody in person? Meet us at an event!
+		<p style="text-align: justify; margin-top: 10px;">ownCloud Server 8.0 has significant feature improvements for users, administrators and developers. This page contains an overview of the most important features and improvements.<br>
+		Want to learn more about ownCloud from somebody in person? Meet us at an event!
 		</p>
 		<a href="/events" class="btn btn-lg btn-default">Join an ownCloud event</a> <a href="/promote" class="btn btn-lg btn-default">Promote ownCloud!</a>
 		</br></br>
