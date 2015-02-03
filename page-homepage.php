@@ -4,9 +4,9 @@
 <div class="container teaser-area">
 	<div class="row">
 		<div class="col-lg-7 col-md-6">
-			<h1>ownCloud 7 Community Edition is here!</h1>
+			<h1><small>Introducing</small><br>ownCloud 8.0 Community Edition</h1>
 			<p>Access your data from all your devices, on an open platform you can extend and modify.</p>
-			<p><a class="btn btn-primary btn-lg" role="button" href="/features">Learn more &raquo;</a></p>
+			<p><a class="btn btn-primary btn-lg" role="button" href="/eight">Learn more &raquo;</a></p>
 		</div>
 		<div id="image-container" class="col-lg-5 col-md-6">
 			<div class="image">
