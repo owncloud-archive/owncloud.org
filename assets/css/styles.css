@@ -167,7 +167,7 @@ div.box-head {
 h3.ft-title {
 	text-align: center;
 	font-weight: 100;
-	font-size: 28px;
+	font-size: 23px;
 }
 
 h2.featuretitle {
@@ -178,15 +178,17 @@ h2.featuretitle {
 div.feature-wide-row-wrap {
 	background-color: #1D2D44;
 	color: white;
+	padding-bottom: 20px;
 }
 
 div.feature-wide-row-wrap div.featureblock{
 	text-align: center;
 	padding-top: 15px;
+	font-weight: 200;
 }
 
 div.feature-wide-row-wrap div.featureblock i {
-	font-size: 20px;
+	font-size: 25px;
 }
 
 div.feature-wide-row-wrap div.featureblock h3.ft-title {
@@ -356,6 +358,30 @@ a.join-button {
 	width: 250px;
 }
 
+/*---- Eight Page ---- */
+h3.row-center-title {
+	font-weight: 100;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: -20px;
+}
+
+a.install-8-btn {
+	display: block;
+	width: 300px;
+	margin: 15px auto;
+	line-height: 2;
+}
+
+div.headerrow h2 {
+	font-weight: 100;
+	font-size: 35px;
+	margin-top:5px;
+}
+
+div.evnt-btn-wrap {
+	text-align: center;
+}
 
 /*---- General ----*/
 button a {color: #1d2d44}
