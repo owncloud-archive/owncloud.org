@@ -15,7 +15,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 	<div class="col-md-6">
             <h3><i class="icon-thumbs-up"></i>&nbsp;&nbsp;Improve ownCloud</h3>
             <ul>
-            <li>Develop your own ownCloud app (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app">app development documentation</a>)</li>
+            <li>Develop your own ownCloud Server app (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app">app development documentation</a>)</li>
             <li>Get a bug fixed (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker">bugtracker documentation</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>general">general guidelines and setup</a>)</li>
             <li>Improve the ownCloud Core (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core">core development documentation</a>)</li>
             <li>Learn to write ownCloud code. (Try your hands on a a <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open">Junior Job</a>
@@ -26,10 +26,10 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 	</div>
 	<div class="col-md-6">
             <h3><i class="icon-refresh"></i>&nbsp;&nbsp;Test ownCloud</h3>
-            <p>Testing upcoming ownCloud releases is the best way of making sure the new release can do what you need it 
+            <p>Testing upcoming ownCloud Server releases is the best way of making sure the new release can do what you need it 
             to do. And of course, only if you report a problem to us we know about it and can fix it! If you have a bug to report,
             find the <a href="https://github.com/owncloud/core/blob/master/CONTRIBUTING.md">issue submission guidelines here</a>.</p>
-            <p>Anybody interested in helping out with ownCloud testing is invited to join the ownCloud Test Pilot team.
+            <p>Anybody interested in helping out with ownCloud Server testing is invited to join the ownCloud Test Pilot team.
             See <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing">the Test Pilot documentation</a> for information!.</p>
 	</div>
 </div>

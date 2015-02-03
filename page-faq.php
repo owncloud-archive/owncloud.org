@@ -4,14 +4,14 @@
 <h2>Index</h2>
 <h4>Help</h4>
 <ul>
-	<li><a href="#install">Where do I find information on how to use/install ownCloud?</a></li>
+	<li><a href="#install">Where do I find information on how to use/install ownCloud Server?</a></li>
 	<li><a href="#channels">I have a problem, what do I do?</a></li>
 	<li><a href="#chat">Where can I discuss ideas with other ownCloud users?</a></li>
 </ul>
 <h4>Technology</h4>
 <ul>
 	<li><a href="#rsync">Why don't you just use rsync?</a></li>
-	<li><a href="#language">Why is ownCloud written in PHP and not in my favorite language?</a></li>
+	<li><a href="#language">Why is ownCloud Server written in PHP and not in my favorite language?</a></li>
 	<li><a href="#protocol">Why do you use HTTP and not my favorite language?</a></li>
 	<li><a href="#android">Why does the calendar/contacts app not work with Android?</a></li>
 	<li><a href="#mobilefeatures">Why does the Android/iOS mobile app not support my favorite feature?</a></li>
@@ -31,7 +31,7 @@
 	<li><a href="#howitstarted">How did ownCloud get started?</a></li>
 	<li><a href="#getinvolved">How can I get involved in the ownCloud Community?</a></li>
 	<li><a href="#notechknowledge">But what if I'm not very technical?</a></li>
-	<li><a href="#appslocation">Where can I find ownCloud apps?</a></li>
+	<li><a href="#appslocation">Where can I find ownCloud Server apps?</a></li>
 	<li><a href="#communityswag">Where can I find ownCloud t-shirts, stickers and other swag?</a></li>
 </ul>
 <h4>ownCloud for the Enterprise</h4>
