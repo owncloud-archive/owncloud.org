@@ -1,6 +1,12 @@
 <div class="page-header">
 	<h1>ownCloud Server Changelog</h1>
 </div>
+
+<h3>Version 8.0.0 <small>Feb Xth 2015</small></h3>
+<li></li>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2">https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2.md5">https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2.md5</a></br>
+
 <h3>Version 7.0.4 <small>Dec 9th 2014</small></h3>
 <li>Added XMLWriter check</li>
 <li>Better deleted outdated previews</li>
