@@ -152,7 +152,7 @@
 		</div>
 
 		<div class="row featurerow">
-			<div class="col-md-4 featureblock">
+			<div class="col-md-12 featureblock">
 				<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
 				<h3 class="featuretitle">Other: Improvements in Documents and overall speed and performance and a ton of bugfixes and polish.</h3></br>
 				<p class="featuredesc">As always, ownCloud strives for the best overall user experience for admins and users. This release is not different, and there are a number of performance improvements, bug fixes and general polish all designed to improve the overall user and administrator experience out of the box.</p>
