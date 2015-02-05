@@ -3,7 +3,28 @@
 </div>
 
 <h3>Version 8.0.0 <small>Feb Xth 2015</small></h3>
-<li></li>
+<li>Favorites</li>
+<li>Federated cloud (Server 2 Server Sharing, Version 2)</li>
+<li>Improved apps management page</li>
+<li>Improved updater app</li>
+<li>Improved search</li>
+<li>Direct download support, Broker</li>
+<li>More fine grain storage configuration</li>
+<li>Provisioning API will be released as part of the community edition</li>
+<li>Apps can now specify their dependencies in info.xml</li>
+<li>Accessibility improvements</li>
+<li>Improved Documents</li>
+<li>LDAP/AD: command line functions for creating and deleting LDAP configurations.</li>
+<li>LDAP/AD: subtle configuration wizard improvements, including user name attribute detection.</li>
+<li>PDF viewer has been updated to a new version of PDF.js</li>
+<li>Sharing links are now shorter and "look better"</li>
+<li>Usermanagement improvements</li>
+<li>Better structured settings and admin page</li>
+<li>Performance improvements</li>
+<li>App container can now automatically resolve dependencies</li>
+<li>Various app API deprecations and features</li>
+<li>Improved import for contacts</li>
+<li>App development tutorial for building a notes app</li>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2">https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2.md5">https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2.md5</a></br>
 
