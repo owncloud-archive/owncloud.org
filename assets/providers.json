@@ -936,6 +936,19 @@
             "consumers"
             ],
          "imagename":"peaknetworks.png"
+      },
+      {
+         "title":"greencl0ud.biz",
+         "url":"http:\/\/greencl0ud.biz\/info\/",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers"
+            ],
+         "imagename":"greencl0ud.png"
       }
 
    ]
