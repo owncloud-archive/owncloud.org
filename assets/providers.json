@@ -949,6 +949,19 @@
             "consumers"
             ],
          "imagename":"greencl0ud.png"
+      },
+      {
+         "title":"webcorecloud.com",
+         "url":"https:\/\/www.webcorecloud.com\/secure\/cart\/owncloud\/",
+         "flags":[
+            "ie"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers"
+            ],
+         "imagename":"webcorecloud.png"
       }
 
    ]
