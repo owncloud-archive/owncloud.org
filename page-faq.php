@@ -47,7 +47,7 @@
 <h3>Where do I find information on how to use/install ownCloud?</h3>
 <ul>
 	<li>You should start with the <a href="http://doc.owncloud.org" target="_blank">ownCloud Documentation</a></li>
-	<li>There are a lot of tutorials and how-to's written for installing and managing ownCloud, to be found all over the internet. <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">Google</a> or another search engine can find them easily and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">youtube channel collects video tutorials</a></li>
+	<li>There are a lot of tutorials and how-to's written for installing and managing ownCloud, to be found all over the internet. We collect a list on <a href="https://github.com/owncloud/core/wiki/Reviews-tutorials-and-videos-of-ownCloud"  target="_blank">this page</a> and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">YouTube channel collects video tutorials</a> but if what you are looking for is not there, <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">Google</a> or another search engine can find them easily.</li>
 	<li>The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
 </ul>
 <a name="channels"></a>
@@ -83,7 +83,7 @@ The best places for conversation are:
 	<li>rsync is a one-way syncing protocol. This means that if you have two servers and delete a file on one side, it will pop up again if you use rsync. To ensure old files get removed but new files added, and updated files overwritten, you need a N-to-N sync solution. ownCloud uses csync for syncing, which also deals with conflicts in a smart way.</li>
 </ul>
 <a name="language"></a>
-<h3>Why is ownCloud written in PHP?</h3>
+<h3>Why is ownCloud Server written in PHP?</h3>
 ownCloud is for everybody. We picked PHP because:
 <ul>
 	<li>PHP runs anywhere and is supported everywhere. Even the cheapest hosting provider should support ownCloud and PHP makes that possible.</li>
@@ -109,9 +109,9 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <a name="security"></a>
 <h3>How Secure is ownCloud?</h3>
 <ul>
-	<li>ownCloud supports HTTPS and offers server-side encryption. ownCloud automatically generates a 4096-bit strong private/public key-pair for each user. Private keys are encrypted with the user’s login password.</li>
+	<li>ownCloud supports HTTPS and offers server-side encryption. ownCloud Server automatically generates a 4096-bit strong private/public key-pair for each user. Private keys are encrypted with the user’s login password and thus nobody can get at your data if you are not logged in on your ownCloud server.</li>
 	<li>ownCloud is an open source project so all code is visible. We are committed to building secure code. We employ a full-time security expert and do regular security audits on the code. We always welcome fixes to security issues, see <a href="https://owncloud.org/security" target="_blank">owncloud.org/security</a>.</li>
-	<li>To learn a bit more about ownCloud security, watch <a href="https://www.youtube.com/watch?v=iLJbMrLgowk&index=25&list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">this technical talk at the ownCloud Contributor Conference</a> and read <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">this article about encryption</a>.</li>
+	<li>To learn a bit more about ownCloud security, watch <a href="https://www.youtube.com/watch?v=iLJbMrLgowk&index=25&list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">this technical talk at the ownCloud Contributor Conference</a> and read <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">this article about ownCloud and encryption</a>.</li>
 </ul>
 <a name="encryption"></a>
 <h3>Are files encrypted during sync?</h3>
@@ -163,7 +163,7 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <a name="communitysize"></a>
 <h3>How big is the ownCloud Community?</h3>
 <ul>
-	<li>ownCloud has over 1.8 million users and over 300 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="http://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself.</li>
+	<li>ownCloud has over 2 million users and over 360 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="http://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself.</li>
 </ul>
 <a name="howitstarted"></a>
 <h3>How did ownCloud get started?</h3>
@@ -178,7 +178,7 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <a name="notechknowledge"></a>
 <h3>But what if I'm not very technical?</h3>
 <ul>
-	<li>There are lots of ways you can contribute to ownCloud. We have a need for developers, designers, event organizers, speakers, QA and more. It is all <a href="/contribute/" target="_blank">on the 'contribute' page</a>!</li>
+	<li>There are lots of ways you can contribute to ownCloud. We have a need for developers, designers, event organizers, speakers, QA and more. It is all <a href="/contribute/" target="_blank">on the <em>contribute</em> page</a>!</li>
 </ul>
 <a name="appslocation"></a>
 <h3>Where can I find ownCloud apps?</h3>

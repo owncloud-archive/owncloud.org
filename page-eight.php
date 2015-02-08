@@ -7,7 +7,8 @@
 				<p>ownCloud Server 8.0 has significant feature improvements for users, administrators and developers. 
 					This page contains an overview of the most important features and improvements.
 				</p>
-				<a href="/install" class="btn btn-lg btn-primary install-8-btn">Install ownCloud Server 8 now</a>
+				<a href="/install" style="text-decoration: line-through;" class="btn btn-lg btn-primary install-8-btn">Install ownCloud Server 8 now</br></a>
+				<p style="text-align: center;">(Coming soon)</p>
 				<p>Want to learn more about ownCloud from somebody in person? Meet us at an event!</p>
 				<div class="evnt-btn-wrap">
 					<a href="/events" class="btn btn-lg btn-default">Join an ownCloud event</a> 
