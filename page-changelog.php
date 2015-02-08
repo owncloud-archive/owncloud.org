@@ -2,7 +2,7 @@
 	<h1>ownCloud Server Changelog</h1>
 </div>
 
-<h3>Version 8.0.0 <small>Feb Xth 2015</small></h3>
+<h3>Version 8.0.0 <small>Feb 9th 2015</small></h3>
 <li>Favorites</li>
 <li>Federated cloud (Server 2 Server Sharing, Version 2)</li>
 <li>Improved apps management page</li>
