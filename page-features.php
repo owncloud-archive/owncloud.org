@@ -1,13 +1,14 @@
 <div class="row featurerow topfeature">
 	<div class="col-md-5">
-		<iframe src="//www.youtube.com/embed/xA3tfBTvH0c" height="310" width="95%" style="margin-top:10px;" allowfullscreen="" frameborder="0"></iframe>
+<!-- 		<iframe src="//www.youtube.com/embed/xA3tfBTvH0c" height="310" width="95%" style="margin-top:10px;" allowfullscreen="" frameborder="0"></iframe> -->
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight/oC8.png" style="width: 100%" alt="..." class="img-thumbnail">
 	</div>
 	<div class="col-md-7">
 		<h2 class="featuretitle" style="margin-top: 0;">Access, Sync and Share your data, under your control!</h2>
 		<p style="text-align: justify; margin-top: 10px;">ownCloud provides access to your data through a web interface or WebDAV while providing a platform to view, 
 		sync and share across devices easily—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and works with any storage.
 		</p>
-		<p><a href="/install" class="btn btn-lg btn-primary">Install ownCloud 7 now</a></p>
+		<p><a href="/install" class="btn btn-lg btn-primary">Install ownCloud Server 8 now</a></p>
 	</div>
 </div>
 </div></div><!-- end main -->
@@ -38,27 +39,24 @@
 <div class="wrap container">
 	<div class="content row">
 
-<div class="featurewrapper"><h2>New in ownCloud 7</h2></div>
+<div class="featurewrapper"><h2>New in ownCloud Server 8.0</h2></div>
 <div class="row featurerow">
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="Sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
-		<h3 class="featuretitle">Improved Sharing</h3></br>
-		<p class="featuredesc">Server to server sharing: seamlessly share files with users on a different ownCloud installation. Don't be limited by a <em>shared</em> folder but put 
-			files where you want without losing sight on who owns what.</p>
+		<h3 class="featuretitle">Federate your clouds</h3></br>
+		<p class="featuredesc">ownCloud Server 8 improves Federated Cloud sharing, allowing users to share files by directly referring to users on other ownCloud servers and introducing notifications and user interface improvements to the sharing process.</p>
 	</div>
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="Design" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
 		<h3 class="featuretitle">Responsive Design</h3></br>
-		<p class="featuredesc">Faster and more efficient design, suitable for mobile devices. No more waiting for the next page to load thanks to infinite scrolling. Find your files 
-			by sorting by name or modified date.</p>
+		<p class="featuredesc">ownCloud Server 8 delivers better performance and more control for administrators thanks to enhanced user, storage and app management.</p>
 	</div>
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="Access" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
-		<h3 class="featuretitle">Store, Access and Control</h3></br>
-		<p class="featuredesc">Use an Object Store as primary storage. Connect applications with ownCloud through the new, easy to use webhooks. Control how users share data and be 
-			notified when yours is accessed.</p>
+		<h3 class="featuretitle">Be in control</h3></br>
+		<p class="featuredesc">ownCloud Server 8 introduces favorites support and much improved search functionality, enabling users to have extremely quick and easy access to important files without having to navigate through all their data.</p>
 	</div>
-	<a href="/seven" class="btn btn-lg btn-default" style="float:right">Details on ownCloud 7</a>
+	<a href="/eight" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server 8</a>
 </div>
 
 <div class="featurewrapper"><h2>ownCloud Features</h2></div>
