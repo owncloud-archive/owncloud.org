@@ -10,7 +10,7 @@
 		</div>
 		<div id="image-container" class="col-lg-5 col-md-6">
 			<div class="image">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser.jpg" class="img-responsive" alt="ownCloud 7" />
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" class="teaser-img img-thumbnail img-responsive" alt="ownCloud 7" />
 			</div>
 		</div>
 	</div>

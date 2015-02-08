@@ -358,6 +358,18 @@ a.join-button {
 	width: 250px;
 }
 
+.home img.teaser-img {
+	margin-bottom: -5px;
+	margin-right: 75px;
+	margin-top: 20px;
+}
+
+@media (max-width: 1200px) { 
+	.home img.teaser-img {
+		margin-right: 0;
+	}
+}
+
 /*---- Eight Page ---- */
 h3.row-center-title {
 	font-weight: 100;
