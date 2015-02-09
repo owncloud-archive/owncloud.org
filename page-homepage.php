@@ -4,13 +4,13 @@
 <div class="container teaser-area">
 	<div class="row">
 		<div class="col-lg-7 col-md-6">
-			<h1>ownCloud 7 Community Edition is here!</h1>
+			<h1><small>Introducing</small><br>ownCloud Server 8.0</h1>
 			<p>Access your data from all your devices, on an open platform you can extend and modify.</p>
-			<p><a class="btn btn-primary btn-lg" role="button" href="/features">Learn more &raquo;</a></p>
+			<p><a class="btn btn-primary btn-lg" role="button" href="/eight">Learn more &raquo;</a></p>
 		</div>
 		<div id="image-container" class="col-lg-5 col-md-6">
 			<div class="image">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser.jpg" class="img-responsive" alt="ownCloud 7" />
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" class="teaser-img img-thumbnail img-responsive" alt="ownCloud 7" />
 			</div>
 		</div>
 	</div>
