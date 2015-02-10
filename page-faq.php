@@ -20,7 +20,7 @@
 	<li><a href="#encryption">Are files encrypted during sync?</a></li>
 	<li><a href="#encryption2">Does ownCloud support encrypting files on the server?</a></li>
 	<li><a href="#conflict">Why do I sometimes get conflict files and messages while syncing?</a></li>
-	<li><a href="#partialsyncing">Does ownCloud use partial file syncing (only syncing changes, like only meta data of a movie)?</a></li>
+	<li><a href="#partialsyncing">Does ownCloud use delta-sync (only syncing file changes)?</a></li>
 	<li><a href="#deduplication">Does ownCloud do file de-duplication?</a></li>
 	<li><a href="#syncspeed">Why is ownCloud syncing not faster?</a></li>
 	<li><a href="#closedapps">Can I write closed source apps for ownCloud?</a></li>
@@ -139,9 +139,9 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 	<li>A conflict may be caused by two or more users editing the same files at the same time or while on the road before the files are synced. We do not merge changes to files like version control systems like git do; we don't modify user files, ever. So you will get two files, the one that was synced to the server first and the one you had locally modified in the same time. You can compare the file changes by hand and delete the local file once you're sure you did not lose data.</li>
 </ul>
 <a name="partialsyncing"></a>
-<h3>Does ownCloud use partial file syncing (only syncing changes, like only meta data of a movie)?</h3>
+<h3>Does ownCloud use delta-sync (only syncing file changes)?</h3>
 <ul>
-	<li>We introduced chunked, parallel up- and download with ownCloud 7 and the ownCloud 1.6 client. Syncing only file changes needs much deeper changes. It is on our roadmap, but won't be done soon. If you want to speed it up and work on it, see <a href="https://github.com/owncloud/mirall/issues/179" target="_blank">the github discussion</a>. If you really want this feature and would like to specifically fund work on it, see <a href="https://www.bountysource.com/issues/905030-sync-only-the-file-change-not-entire-file" target="_blank">the Bountysource page</a>.</li>
+	<li>We introduced chunked, parallel up- and download with ownCloud 7 and the ownCloud 1.6 client. Syncing only file changes needs much deeper changes. It is on our roadmap, but won't be done soon. Find some <a href="https://dragotin.wordpress.com/2015/02/09/incremental-sync-in-owncloud/" target="_blank">background on that decision here</a>. If you want to speed up the development of this feature by working on it, see <a href="https://github.com/owncloud/mirall/issues/179" target="_blank">the github discussion</a>. If you really want this feature and would like to specifically fund work on it, see <a href="https://www.bountysource.com/issues/905030-sync-only-the-file-change-not-entire-file" target="_blank">the Bountysource page</a>.</li>
 </ul>
 <a name="deduplication"></a>
 <h3>Does ownCloud do file de-duplication?</h3>
