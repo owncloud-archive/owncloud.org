@@ -47,7 +47,7 @@ function displayProviders($providers, $free=false) {
 			} else {
 				$url = $providers[$provider]->url;
 			}
-			echo '<a href="' . $url . '" target="_blank" title="' . $providers[$provider]->title . '"><div class="thumbnail">';
+			echo '<a href="' . $url . '" target="_blank" rel="noreferrer" title="' . $providers[$provider]->title . '"><div class="thumbnail">';
 			echo '<div class="bannerhead">';
 			foreach($providers[$provider]->flags as $flag) {
 				echo '<img class="flag" src="' . get_template_directory_uri() . '/assets/img/flags/' . $flag . '.gif"/>';
