@@ -37,7 +37,7 @@
 				<p class="featuredesc">ownCloud Server 8 delivers better performance and more control for administrators thanks to enhanced user, storage and app management.</p>
 			</div>
 			<div class="col-md-4 featureblock">
-				<i class="icon-star-half-o"></i>
+				<i class="icon-star"></i>
 				<h3 class="ft-title">Get at your files faster</h3>
 				<p class="featuredesc">ownCloud Server 8 introduces favorites support and much improved search functionality, enabling users to have extremely quick and easy access to important files without having to navigate through all their data.</p>
 			</div>
