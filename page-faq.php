@@ -7,6 +7,7 @@
 	<li><a href="#install">Where do I find information on how to use/install ownCloud Server?</a></li>
 	<li><a href="#channels">I have a problem, what do I do?</a></li>
 	<li><a href="#chat">Where can I discuss ideas with other ownCloud users?</a></li>
+	<li><a href="#upgrade">I want to upgrade my ownCloud installation to the new release, how do I do that?</a></li>
 </ul>
 <h4>Technology</h4>
 <ul>
@@ -75,6 +76,14 @@ The best places for conversation are:
 </ul>
 <p>If you have a feature request or proposal which you can support with code, <a href="/contribute/" target="_blank">check out our contribute page</a>. You can put feature requests in the <a href="https://github.com/owncloud/core/issues" target="_blank">issue tracker</a> but please be aware that in open source projects like ownCloud, the constraint is rarely ideas or awareness of what can be improved but rather time to work on them. <a href="/contribute/" target="_blank">Contributing</a> is the best way of making change happen!</p>
 <p>Note that <a href="http://owncloud.org/blog/introducing-bounty-source-for-owncloud/" target="_blank">Bountysource</a> offers a way of backing feature requests with your wallet.</p>
+
+<a name="upgrade"></a>
+<h3>I want to upgrade my ownCloud installation to the new release, how do I do that?</h3>
+<ul>
+	<li>The manual upgrade process is described in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>/maintenance/upgrade.html" target="_blank">ownCloud Documentation</a>.</li>
+	<li>If you installed ownCloud using Linux distribution packages and added the repository, an update will get them. You can also manually grab the new versions from <a href="/install/" target="_blank">owncloud.org/download</a></li>
+	<li>The build in Update app will usually have new ownCloud releases available for upgrade some time in the week after a major release.</li>
+</ul>
 
 <h2>Technology</h2>
 <a name="rsync"></a>
