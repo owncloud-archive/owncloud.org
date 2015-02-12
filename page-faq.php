@@ -7,6 +7,7 @@
 	<li><a href="#install">Where do I find information on how to use/install ownCloud Server?</a></li>
 	<li><a href="#channels">I have a problem, what do I do?</a></li>
 	<li><a href="#chat">Where can I discuss ideas with other ownCloud users?</a></li>
+	<li><a href="#upgrade">I want to upgrade my ownCloud installation to the new release, how do I do that?</a></li>
 </ul>
 <h4>Technology</h4>
 <ul>
@@ -19,7 +20,7 @@
 	<li><a href="#encryption">Are files encrypted during sync?</a></li>
 	<li><a href="#encryption2">Does ownCloud support encrypting files on the server?</a></li>
 	<li><a href="#conflict">Why do I sometimes get conflict files and messages while syncing?</a></li>
-	<li><a href="#partialsyncing">Does ownCloud use partial file syncing (only syncing changes, like only meta data of a movie)?</a></li>
+	<li><a href="#partialsyncing">Does ownCloud use delta-sync (only syncing file changes)?</a></li>
 	<li><a href="#deduplication">Does ownCloud do file de-duplication?</a></li>
 	<li><a href="#syncspeed">Why is ownCloud syncing not faster?</a></li>
 	<li><a href="#closedapps">Can I write closed source apps for ownCloud?</a></li>
@@ -76,6 +77,14 @@ The best places for conversation are:
 <p>If you have a feature request or proposal which you can support with code, <a href="/contribute/" target="_blank">check out our contribute page</a>. You can put feature requests in the <a href="https://github.com/owncloud/core/issues" target="_blank">issue tracker</a> but please be aware that in open source projects like ownCloud, the constraint is rarely ideas or awareness of what can be improved but rather time to work on them. <a href="/contribute/" target="_blank">Contributing</a> is the best way of making change happen!</p>
 <p>Note that <a href="http://owncloud.org/blog/introducing-bounty-source-for-owncloud/" target="_blank">Bountysource</a> offers a way of backing feature requests with your wallet.</p>
 
+<a name="upgrade"></a>
+<h3>I want to upgrade my ownCloud installation to the new release, how do I do that?</h3>
+<ul>
+	<li>The manual upgrade process is described in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>/maintenance/upgrade.html" target="_blank">ownCloud Documentation</a>.</li>
+	<li>If you installed ownCloud using Linux distribution packages and added the repository, an update will get them. You can also manually grab the new versions from <a href="/install/" target="_blank">owncloud.org/download</a></li>
+	<li>The built in Update app will usually have new ownCloud releases available for upgrade some time in the week after a major release.</li>
+</ul>
+
 <h2>Technology</h2>
 <a name="rsync"></a>
 <h3>Why does ownCloud use csync rather than rsync?</h3>
@@ -130,9 +139,9 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 	<li>A conflict may be caused by two or more users editing the same files at the same time or while on the road before the files are synced. We do not merge changes to files like version control systems like git do; we don't modify user files, ever. So you will get two files, the one that was synced to the server first and the one you had locally modified in the same time. You can compare the file changes by hand and delete the local file once you're sure you did not lose data.</li>
 </ul>
 <a name="partialsyncing"></a>
-<h3>Does ownCloud use partial file syncing (only syncing changes, like only meta data of a movie)?</h3>
+<h3>Does ownCloud use delta-sync (only syncing file changes)?</h3>
 <ul>
-	<li>We introduced chunked, parallel up- and download with ownCloud 7 and the ownCloud 1.6 client. Syncing only file changes needs much deeper changes. It is on our roadmap, but won't be done soon. If you want to speed it up and work on it, see <a href="https://github.com/owncloud/mirall/issues/179" target="_blank">the github discussion</a>. If you really want this feature and would like to specifically fund work on it, see <a href="https://www.bountysource.com/issues/905030-sync-only-the-file-change-not-entire-file" target="_blank">the Bountysource page</a>.</li>
+	<li>We introduced chunked, parallel up- and download with ownCloud 7 and the ownCloud 1.6 client. Syncing only file changes needs much deeper changes. It is on our roadmap, but won't be done soon. Find some <a href="https://dragotin.wordpress.com/2015/02/09/incremental-sync-in-owncloud/" target="_blank">background on that decision here</a>. If you want to speed up the development of this feature by working on it, see <a href="https://github.com/owncloud/mirall/issues/179" target="_blank">the github discussion</a>. If you really want this feature and would like to specifically fund work on it, see <a href="https://www.bountysource.com/issues/905030-sync-only-the-file-change-not-entire-file" target="_blank">the Bountysource page</a>.</li>
 </ul>
 <a name="deduplication"></a>
 <h3>Does ownCloud do file de-duplication?</h3>
@@ -183,8 +192,8 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <a name="appslocation"></a>
 <h3>Where can I find ownCloud apps?</h3>
 <ul>
-	<li>There is a large selection of build in and community-approved apps available for download from within the App management screen in your ownCloud installation. Featuring apps like the Music app, the Calendar app and so on you can watch your movies, share your pictures and keep your bookmarks synced. Download is seamless (just 'enable' the app and wait while it is downloaded, installed and enabled) and upgrading is easy from the same screen.</li>
-	<li>If the build in and approved apps are not enough, you can get more than 200 community and enterprise-developed ownCloud apps at <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more. Note that unlike the apps available for download from the App Management screen in ownCloud, the apps on <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> are not extensively checked for safety and compatibility, so you should be careful with them. For this reason, we do not support automatic download and installation for these, but require users to download the apps and install them in their ownCloud by hand.</li>
+	<li>There is a large selection of built in and community-approved apps available for download from within the App management screen in your ownCloud installation. Featuring apps like the Music app, the Calendar app and so on you can watch your movies, share your pictures and keep your bookmarks synced. Download is seamless (just 'enable' the app and wait while it is downloaded, installed and enabled) and upgrading is easy from the same screen.</li>
+	<li>If the built in and approved apps are not enough, you can get more than 200 community and enterprise-developed ownCloud apps at <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more. Note that unlike the apps available for download from the App Management screen in ownCloud, the apps on <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> are not extensively checked for safety and compatibility, so you should be careful with them. For this reason, we do not support automatic download and installation for these, but require users to download the apps and install them in their ownCloud by hand.</li>
 	<li>If you are looking for third-party apps that integrate ownCloud in mobile and desktop applications, see our <a href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd-party apps</a> page.</li>
 	<li>Building a new ownCloud app is easy. If you're interested in developing your own ownCloud app, see <a href="/contribute/" target="_blank">the contribute page</a>, where you can find a link to the latest App Development documentation.</li>
 </ul>
