@@ -82,7 +82,7 @@ The best places for conversation are:
 <ul>
 	<li>The manual upgrade process is described in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>/maintenance/upgrade.html" target="_blank">ownCloud Documentation</a>.</li>
 	<li>If you installed ownCloud using Linux distribution packages and added the repository, an update will get them. You can also manually grab the new versions from <a href="/install/" target="_blank">owncloud.org/download</a></li>
-	<li>The build in Update app will usually have new ownCloud releases available for upgrade some time in the week after a major release.</li>
+	<li>The built in Update app will usually have new ownCloud releases available for upgrade some time in the week after a major release.</li>
 </ul>
 
 <h2>Technology</h2>
@@ -192,8 +192,8 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <a name="appslocation"></a>
 <h3>Where can I find ownCloud apps?</h3>
 <ul>
-	<li>There is a large selection of build in and community-approved apps available for download from within the App management screen in your ownCloud installation. Featuring apps like the Music app, the Calendar app and so on you can watch your movies, share your pictures and keep your bookmarks synced. Download is seamless (just 'enable' the app and wait while it is downloaded, installed and enabled) and upgrading is easy from the same screen.</li>
-	<li>If the build in and approved apps are not enough, you can get more than 200 community and enterprise-developed ownCloud apps at <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more. Note that unlike the apps available for download from the App Management screen in ownCloud, the apps on <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> are not extensively checked for safety and compatibility, so you should be careful with them. For this reason, we do not support automatic download and installation for these, but require users to download the apps and install them in their ownCloud by hand.</li>
+	<li>There is a large selection of built in and community-approved apps available for download from within the App management screen in your ownCloud installation. Featuring apps like the Music app, the Calendar app and so on you can watch your movies, share your pictures and keep your bookmarks synced. Download is seamless (just 'enable' the app and wait while it is downloaded, installed and enabled) and upgrading is easy from the same screen.</li>
+	<li>If the built in and approved apps are not enough, you can get more than 200 community and enterprise-developed ownCloud apps at <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more. Note that unlike the apps available for download from the App Management screen in ownCloud, the apps on <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> are not extensively checked for safety and compatibility, so you should be careful with them. For this reason, we do not support automatic download and installation for these, but require users to download the apps and install them in their ownCloud by hand.</li>
 	<li>If you are looking for third-party apps that integrate ownCloud in mobile and desktop applications, see our <a href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd-party apps</a> page.</li>
 	<li>Building a new ownCloud app is easy. If you're interested in developing your own ownCloud app, see <a href="/contribute/" target="_blank">the contribute page</a>, where you can find a link to the latest App Development documentation.</li>
 </ul>
