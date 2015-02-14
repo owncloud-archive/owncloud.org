@@ -33,18 +33,24 @@
 				<th>Link</th>
 			</tr>
 			<tr>
-				<td>FOSDEM 2015</td>
-				<td>Brussels, Belgium</td>
-				<td>January 31 and February 1</td>
-				<td><a href="/events/contactform">Jos Poortvliet</a></td>
-				<td><a target="_blank" href="https://fosdem.org/2015/">FOSDEM 2014</a></td>
-			</tr>
-			<tr>
+				<td>GNUify.in</td>
+				<td>Pune, India</td>
+				<td>14 February 2015</td>
+				<td><a href="mailto:rajuvindane@cryptolab.(removethispart).net">Raju Vindane</a></td>
+				<td>ownCloud session: <a target="_blank" href="http://gnunify.in/event/79/51">Creating your own cloud server using Owncloud</a></td>
+			</tr>			<tr>
 				<td>SCALE 13x</td>
 				<td>Los Angelos, CA, USA</td>
 				<td>February 19-22 2015</td>
 				<td><a href="/events/contactform">Jos Poortvliet</a></td>
 				<td><a target="_blank" href="http://www.socallinuxexpo.org/scale13x/">SCALE website</a></td>
+			</tr>
+			<tr>
+				<td>Chemnitzer Linux Tage</td>
+				<td>Chemnitz, Germany</td>
+				<td>March 21-22 2015</td>
+				<td><a href="/events/contactform">Jos Poortvliet</a></td>
+				<td><a target="_blank" href="https://chemnitzer.linux-tage.de/">CLT website</a></td>
 			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
