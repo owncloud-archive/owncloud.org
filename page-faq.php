@@ -8,6 +8,7 @@
 	<li><a href="#channels">I have a problem, what do I do?</a></li>
 	<li><a href="#chat">Where can I discuss ideas with other ownCloud users?</a></li>
 	<li><a href="#upgrade">I want to upgrade my ownCloud installation to the new release, how do I do that?</a></li>
+	<li><a href="#upgradeyet">Is it safe to upgrade to the new release?</a></li>
 </ul>
 <h4>Technology</h4>
 <ul>
@@ -65,7 +66,7 @@ If the <a href="http://doc.owncloud.org" target="_blank">ownCloud Documentation<
 
 </ul>
 <p>Please understand that all these channels essentially consist of users like you helping each other out. Consider helping others out where you can, to contribute back for the help you get. This is the only way to keep a community like ownCloud healthy and sustainable!</p>
-<p>If you are using ownCloud in a business or otherwise large scale deployment, note that the <a href="#entcomparison">Enterprise Edition</a> offers support contracts.</p>
+<p>If you are using ownCloud in a business, educational setting or other professional or large scale deployments, note that the <a href="#entcomparison">ownCloud, Inc.</a> offers support contracts.</p>
 
 <a name="chat"></a>
 <h3>Where can I discuss ideas with other ownCloud users?</h3>
@@ -84,6 +85,13 @@ The best places for conversation are:
 	<li>If you installed ownCloud using Linux distribution packages and added the repository, an update will get them. You can also manually grab the new versions from <a href="/install/" target="_blank">owncloud.org/download</a></li>
 	<li>The built in Update app will usually have new ownCloud releases available for upgrade some time in the week after a major release.</li>
 </ul>
+
+<a name="upgradeyet"></a>
+<h3>Is it safe to upgrade to the new release?</h3>
+<p>All code entering ownCloud has been reviewed twice as well as tested by both automated means and through the efforts of volunteers. Releases are done only when all issues we are aware off are fixed or can be mitigated easily. In short, ownCloud releases are always as stable as we could make it without <em>your</em> help. If you want the guarantee that it will work in your specific situation, <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing">make sure you help test before a release is made</a> so your issue can be fixed in time.</p>
+<p><strong>Why do we need your testing?</strong></p>
+<p>In short: because ownCloud is <em>yours</em>. ownCloud is an <a href="http://en.wikipedia.org/wiki/Open_source">Open Source</a> product, following an open development model. That means that many different stakeholders, both commercial and private, contribute to its development and share responsibility for the final release. ownCloud is thus neither owned nor controlled by any single entity.</p>
+<p>By using ownCloud, <em>you become part of the ownCloud community</em>, sharing both ownership and responsibility for the product we collectively develop. Compare it to your responsibility for the functioning of your car: you regularly have to test it, or hire a garage for a checkup. It is yours, isn't it?</p>
 
 <h2>Technology</h2>
 <a name="rsync"></a>
