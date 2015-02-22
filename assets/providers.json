@@ -266,7 +266,7 @@
       },
       {
          "title":"aixpro.de",
-         "url":"http:\/\/www.aixpro.de\/office-365-sharepoint\/owncloud-hosting.html",
+         "url":"https:\/\/www.aix-cloud.de",
          "flags":[
             "gb",
             "de"
@@ -962,6 +962,84 @@
             "consumers"
             ],
          "imagename":"webcorecloud.png"
+      },
+      {
+         "title":"digitalocean.com",
+         "url":"https:\/\/www.digitalocean.com\/features\/one-click-apps\/owncloud\/",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers"
+            ],
+         "imagename":"digitalocean.png"
+      },
+      {
+         "title":"alpha-host.de",
+         "url":"http:\/\/alpha-host.de\/cloud-hosting\/",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers"
+            ],
+         "imagename":"alpha-host.png"
+      },
+      {
+         "title":"wolkesicher.de",
+         "url":"https:\/\/www.wolkesicher.de\/products\/allgemein\/kostenloser-zugang-inkl-2-gb-speicher\/",
+         "flags":[
+            "de"
+         ],
+         "freeplans":true,
+         "supports":[
+            "organisations",
+            "consumers"
+            ],
+         "imagename":"wolkesicher.png"
+      },
+      {
+         "title":"CloudDiskSpace.nl",
+         "url":"http:\/\/clouddiskspace.nl\/owncloud.php",
+         "flags":[
+            "nl"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"clouddiskspace.png"
+      },
+      {
+         "title":"nexucom.com",
+         "url":"http:\/\/www.nexucom.com\/",
+         "flags":[
+            "ca"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"nexucom.png"
+      },
+      {
+         "title":"myitbrain.net",
+         "url":"http:\/\/www.myitbrain.net\/",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"myitbrain.jpg"
       }
 
    ]

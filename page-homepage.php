@@ -4,7 +4,7 @@
 <div class="container teaser-area">
 	<div class="row">
 		<div class="col-lg-7 col-md-6">
-			<h1><small>Introducing</small><br>ownCloud Server 8.0</h1>
+			<h1><small>Introducing</small><br>ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>.0</h1>
 			<p>Access your data from all your devices, on an open platform you can extend and modify.</p>
 			<p><a class="btn btn-primary btn-lg" role="button" href="/eight">Learn more &raquo;</a></p>
 		</div>
@@ -238,14 +238,14 @@ $( document ).ready(function() {
 <div class="row pad-bottom	 2-column-lg-md-sm" style="margin-top: -0.5em">
 	<div class="col-xs-12 col-sm-6">
 		<h2><i class="icon-rocket">&nbsp;</i> Get involved</h2>
-		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="https://forum.owncloud.org/">Forum</a>, post bugs in the <a href="https://github.com/owncloud/core/issues">tracker</a>, test ownCloud using the <a href="https://doc.owncloud.org/server/7.0/developer_manual/testing/index.html">test plan</a>, hang out in the <a href="https://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>
+		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="https://forum.owncloud.org/">Forum</a>, post bugs in the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html">tracker</a>, test ownCloud using the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html">test plan</a>, hang out in the <a href="https://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>
 		<a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
 	</div>
 	<div class="col-xs-12 col-sm-6">
 		<h2><i class="icon-users">&nbsp;</i> Join and help</h2>
 		<div class="join">
 			<a class="btn btn-block btn-primary btn-lg join-button" href="/contribute" role="button">Join development</a>
-			<a class="btn btn-block btn-primary btn-lg join-button" href="https://github.com/owncloud/core/issues" role="button">Report an issue</a>
+			<a class="btn btn-block btn-primary btn-lg join-button" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html" role="button">Report an issue</a>
 			<a class="btn btn-block btn-primary btn-lg join-button" href="https://www.transifex.com/projects/p/owncloud/" role="button">Help translating</a>
 		</div>
 	</div>

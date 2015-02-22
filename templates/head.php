@@ -9,7 +9,7 @@
 	<meta itemprop="description" content="ownCloud provides universal access to your files via the web, your computer or your mobile devices — wherever you are.
 	It also provides a platform to easily view &amp; sync your contacts, calendars and bookmarks across all your devices and enables basic editing right on the web.
 	Through apps, you can extend ownCloud Server and make it your own!">
-	<meta itemprop="image" content="http://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/home/ocsplash.png">
+	<meta itemprop="image" content="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/home/ocsplash.png">
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.png" />
 	<link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.png" />
 	<?php wp_head(); ?>

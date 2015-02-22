@@ -8,5 +8,5 @@ var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
 piwikTracker.trackPageView();
 piwikTracker.enableLinkTracking();
 } catch( err ) {}
-</script><noscript><p><img src="http://stats.owncloud.org/piwik.php?idsite=2" style="border:0" alt="" /></p></noscript>
+</script><noscript><p><img src="//stats.owncloud.org/piwik.php?idsite=2" style="border:0" alt="" /></p></noscript>
 <!-- End Piwik Tracking Code -->
