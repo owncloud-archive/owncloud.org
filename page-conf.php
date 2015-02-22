@@ -2,7 +2,7 @@
 	<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 	<h2 class="conf-location">August 2014, Berlin</h2>
 <!--	<a href="/conf/register" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
-        <strong>The 2014 conference is over!</strong><br /> Read a <a href="http://owncloud.org/blog/owncloud-contributor-conference-was-awesome/">report on the event</a> and <br />watch this space for the conference in <strong>2015</strong>!
+        <strong>The 2014 conference is over!</strong><br /> Read a <a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/">report on the event</a> and <br />watch this space for the conference in <strong>2015</strong>!
 </div>
 <div class="row conf-info">
 	<div class="col-sm-6">
@@ -28,7 +28,7 @@
 			<li>Secure your PHP application</li>
 			<li>Connect your JS app to ownCloud</li>
 		</ul>
-		<p>You can watch <a href="http://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96">videos of the talks on our youtube channel</a>.</p>
+		<p>You can watch <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96">videos of the talks on our youtube channel</a>.</p>
 	</div>
 </div>
 <!--<div class="row conf-info">
@@ -73,8 +73,8 @@
 <div class="row conf-about">
 	<div class="col-sm-6 col-sm-offset-3">
 		<h2>Thanks!</h2>
-		<p>The event was made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="http://owncloud.com">ownCloud Inc</a>.</p>
+		<p>The event was made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="httsp://owncloud.com">ownCloud Inc</a>.</p>
 		<h2>Spread the word!</h2>
-		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="http://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts">Google+</a>.</p>
+		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="https://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts">Google+</a>.</p>
 	</div>
 </div>

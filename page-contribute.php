@@ -4,7 +4,7 @@
 Do you want to <strong>help</strong> translate, promote or document ownCloud?</p>
 <h2>Become part of the ownCloud Community and help us liberate data accross the globe!</h2>
 <div class="row" style="text-align: center">
-  <a href="http://doc.owncloud.org/server/7.0/developer_manual/testing/index.html" class="btn btn-lg btn-default">
+  <a href="https://doc.owncloud.org/server/7.0/developer_manual/testing/index.html" class="btn btn-lg btn-default">
   <i class="icon-lightbulb-o"></i> Join the Test Pilots!</a>
 <!--  <a href="http://owncloud.org/blog/hold-the-date-announcing-the-owncloud-contributor-conference-and-hackathon/" class="btn btn-lg btn-default">
   <i class="icon-group"></i> Be at the ownCloud Contributor Conference!</a>-->
@@ -22,7 +22,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
           and see the <a href="https://github.com/owncloud/core/wiki/Project-ideas#coding">project ideas page</a>)
           </ul>
           <p>Talk to us <a href="irc://#owncloud-dev@freenode.net">on IRC</a> and on our
-          <a href="http://mailman.owncloud.org/mailman/listinfo/devel">mailing list</a>! We look forward to your code and thoughts.</p>
+          <a href="https://mailman.owncloud.org/mailman/listinfo/devel">mailing list</a>! We look forward to your code and thoughts.</p>
 	</div>
 	<div class="col-md-6">
             <h3><i class="icon-refresh"></i>&nbsp;&nbsp;Test ownCloud</h3>
@@ -46,9 +46,9 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="col-md-6">
         <h3><i class="icon-book"></i>&nbsp;&nbsp;Answer questions about ownCloud use and development</h3>
         <p>Help answer questions users and developer have about ownCloud!</p>
-        <ul><li>Join the <a href="https://forum.owncloud.org">ownCloud forums</a> and look for <a href="http://forum.owncloud.org/search.php?search_id=unanswered">unanswered questions</a></li>
-        <li>Answer ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="http://community.spiceworks.com/">Spiceworks</a></li>
-        <li>Answer ownCloud user questions on <a href="http://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li></ul>
+        <ul><li>Join the <a href="https://forum.owncloud.org">ownCloud forums</a> and look for <a href="https://forum.owncloud.org/search.php?search_id=unanswered">unanswered questions</a></li>
+        <li>Answer ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
+        <li>Answer ownCloud user questions on <a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li></ul>
     </div>
 </div>
 <div class="row">
