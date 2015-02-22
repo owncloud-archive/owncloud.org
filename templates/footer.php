@@ -36,10 +36,10 @@
         <div class="footer-nav">
           <h4>Interact</h4>
           <ul id="menu-interact" class="menu">
-            <li class="menu-irc-channel"><a href="http://webchat.freenode.net/?channels=owncloud">IRC Channel</a></li>
-            <li class="menu-mailing-list"><a href="http://mailman.owncloud.org/mailman/listinfo/">Mailing List</a></li>
+            <li class="menu-irc-channel"><a href="https://webchat.freenode.net/?channels=owncloud">IRC Channel</a></li>
+            <li class="menu-mailing-list"><a href="https://mailman.owncloud.org/mailman/listinfo/">Mailing List</a></li>
             <li class="menu-bug-tracker"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html">Bug Tracker</a></li>
-            <li class="menu-forums"><a href="http://forum.owncloud.org/">Forums</a></li>
+            <li class="menu-forums"><a href="https://forum.owncloud.org/">Forums</a></li>
             <li class="menu-press"><a href="/press">Press</a></li>
           </ul>
         </div>

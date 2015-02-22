@@ -81,7 +81,7 @@
 						<p>Widgets shows you the most important information quick and easy</p>
 						<div class="button-group text-center">
 							<h2>ocDashboard</h2>
-							<a href="http://apps.owncloud.com/content/show.php/ocDashboard?content=160265" target="_blank"><button type="button" class="btn btn-lg">Get ocDashboard</button></a>
+							<a href="https://apps.owncloud.com/content/show.php/ocDashboard?content=160265" target="_blank"><button type="button" class="btn btn-lg">Get ocDashboard</button></a>
 					 </div>
 				</div>
 			</div>
@@ -101,7 +101,7 @@
 						<p>Music player and server for ownCloud</p>
 						<div class="button-group text-center">
 							<h2>Music</h2>
-							<a href="http://apps.owncloud.com/content/show.php/Music?content=164319" target="_blank"><button type="button" class="btn btn-lg">Get the music app</button></a>
+							<a href="https://apps.owncloud.com/content/show.php/Music?content=164319" target="_blank"><button type="button" class="btn btn-lg">Get the music app</button></a>
 					 </div>
 				</div>
 			</div>
@@ -121,7 +121,7 @@
 						<p>Tasks management for ownCloud.</p>
 						<div class="button-group text-center">
 							<h2>Tasks Enhanced</h2>
-							<a href="http://apps.owncloud.com/content/show.php/Tasks+Enhanced?content=164356" target="_blank"><button type="button" class="btn btn-lg">Get Tasks Enhanced</button></a>
+							<a href="https://apps.owncloud.com/content/show.php/Tasks+Enhanced?content=164356" target="_blank"><button type="button" class="btn btn-lg">Get Tasks Enhanced</button></a>
 					 </div>
 				</div>
 			</div>
@@ -173,7 +173,7 @@
 				<p>Looking for ownCloud for your business? Enterprise-ready file sync and share!</p>
 				<div class="button-group text-center">
 				<h2>Own Your Business</h2>
-				<a href="http://vimeo.com/91033287" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
+				<a href="https://vimeo.com/91033287" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
 				<a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank"><button type="button" class="btn btn-lg">Learn More</button></a>
 				</div>
 			</div>
@@ -238,7 +238,7 @@ $( document ).ready(function() {
 <div class="row pad-bottom	 2-column-lg-md-sm" style="margin-top: -0.5em">
 	<div class="col-xs-12 col-sm-6">
 		<h2><i class="icon-rocket">&nbsp;</i> Get involved</h2>
-		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="http://forum.owncloud.org/">Forum</a>, post bugs in the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html">tracker</a>, test ownCloud using the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html">test plan</a>, hang out in the <a href="http://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>
+		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="https://forum.owncloud.org/">Forum</a>, post bugs in the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html">tracker</a>, test ownCloud using the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html">test plan</a>, hang out in the <a href="https://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>
 		<a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
 	</div>
 	<div class="col-xs-12 col-sm-6">

@@ -48,20 +48,20 @@
 <a name="install"></a>
 <h3>Where do I find information on how to use/install ownCloud?</h3>
 <ul>
-	<li>You should start with the <a href="http://doc.owncloud.org" target="_blank">ownCloud Documentation</a></li>
+	<li>You should start with the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a></li>
 	<li>There are a lot of tutorials and how-to's written for installing and managing ownCloud, to be found all over the internet. We collect a list on <a href="https://github.com/owncloud/core/wiki/Reviews-tutorials-and-videos-of-ownCloud"  target="_blank">this page</a> and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">YouTube channel collects video tutorials</a> but if what you are looking for is not there, <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">Google</a> or another search engine can find them easily.</li>
 	<li>The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
 </ul>
 <a name="channels"></a>
 <h3>I have a problem, what do I do?</h3>
-If the <a href="http://doc.owncloud.org" target="_blank">ownCloud Documentation</a> does not help and <a href="https://www.google.com/search?q=owncloud+installation+problem" target="_blank">Google</a> can't solve your problem either, you can ask for help in our community support channels:
+If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a> does not help and <a href="https://www.google.com/search?q=owncloud+installation+problem" target="_blank">Google</a> can't solve your problem either, you can ask for help in our community support channels:
 <ul>
-	<li><a href="http://forum.owncloud.org" target="_blank">the ownCloud Forums</a></li>
+	<li><a href="https://forum.owncloud.org" target="_blank">the ownCloud Forums</a></li>
 	<ul>
 		 <li>Note: The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
 	</ul>
 	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud User mailing list</a></li>
-	<li><a href="irc://#owncloud@freenode.net" target="_blank">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">webchat</a></li>
+	<li><a href="irc://#owncloud@freenode.net" target="_blank">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=owncloud" target="_blank">webchat</a></li>
 	<li>Finally, you could report a issue in the <a href="https://github.com/owncloud/core/issues" target="_blank">bug tracker</a> if you think you found a problem with ownCloud</li>
 
 </ul>
@@ -72,11 +72,11 @@ If the <a href="http://doc.owncloud.org" target="_blank">ownCloud Documentation<
 <h3>Where can I discuss ideas with other ownCloud users?</h3>
 The best places for conversation are:
 <ul>
-	<li><a href="http://forum.owncloud.org" target="_blank">the ownCloud Forums</a></li>
+	<li><a href="https://forum.owncloud.org" target="_blank">the ownCloud Forums</a></li>
 	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud User mailing list</a></li>
 </ul>
 <p>If you have a feature request or proposal which you can support with code, <a href="/contribute/" target="_blank">check out our contribute page</a>. You can put feature requests in the <a href="https://github.com/owncloud/core/issues" target="_blank">issue tracker</a> but please be aware that in open source projects like ownCloud, the constraint is rarely ideas or awareness of what can be improved but rather time to work on them. <a href="/contribute/" target="_blank">Contributing</a> is the best way of making change happen!</p>
-<p>Note that <a href="http://owncloud.org/blog/introducing-bounty-source-for-owncloud/" target="_blank">Bountysource</a> offers a way of backing feature requests with your wallet.</p>
+<p>Note that <a href="https://owncloud.org/blog/introducing-bounty-source-for-owncloud/" target="_blank">Bountysource</a> offers a way of backing feature requests with your wallet.</p>
 
 <a name="upgrade"></a>
 <h3>I want to upgrade my ownCloud installation to the new release, how do I do that?</h3>
@@ -169,18 +169,18 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <a name="closedapps"></a>
 <h3>Can I write closed source apps for ownCloud?</h3>
 <ul>
-	<li>Yes, but only under the <a href="http://www.owncloud.com" target="_blank">ownCloud Enterprise Edition</a>, which supports integration with proprietary technologies.</li>
+	<li>Yes, but only under the <a href="https://www.owncloud.com" target="_blank">ownCloud Enterprise Edition</a>, which supports integration with proprietary technologies.</li>
 </ul>
 <h2>ownCloud Community</h2>
 <a name="communitylocation"></a>
 <h3>Where is the ownCloud community hosted?</h3>
 <ul>
-	<li>The ownCloud code can be found at <a href="http://github.com/owncloud" target="_blank">github.com/ownCloud</a> and our website is on <a href="http://owncloud.org" target="_blank">owncloud.org</a></li>
+	<li>The ownCloud code can be found at <a href="https://github.com/owncloud" target="_blank">github.com/ownCloud</a> and our website is on <a href="https://owncloud.org" target="_blank">owncloud.org</a></li>
 </ul>
 <a name="communitysize"></a>
 <h3>How big is the ownCloud Community?</h3>
 <ul>
-	<li>ownCloud has over 2 million users and over 360 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="http://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself.</li>
+	<li>ownCloud has over 2 million users and over 360 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="https://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself.</li>
 </ul>
 <a name="howitstarted"></a>
 <h3>How did ownCloud get started?</h3>
@@ -201,7 +201,7 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <h3>Where can I find ownCloud apps?</h3>
 <ul>
 	<li>There is a large selection of built in and community-approved apps available for download from within the App management screen in your ownCloud installation. Featuring apps like the Music app, the Calendar app and so on you can watch your movies, share your pictures and keep your bookmarks synced. Download is seamless (just 'enable' the app and wait while it is downloaded, installed and enabled) and upgrading is easy from the same screen.</li>
-	<li>If the built in and approved apps are not enough, you can get more than 200 community and enterprise-developed ownCloud apps at <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more. Note that unlike the apps available for download from the App Management screen in ownCloud, the apps on <a href="http://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> are not extensively checked for safety and compatibility, so you should be careful with them. For this reason, we do not support automatic download and installation for these, but require users to download the apps and install them in their ownCloud by hand.</li>
+	<li>If the built in and approved apps are not enough, you can get more than 200 community and enterprise-developed ownCloud apps at <a href="https://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more. Note that unlike the apps available for download from the App Management screen in ownCloud, the apps on <a href="https://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> are not extensively checked for safety and compatibility, so you should be careful with them. For this reason, we do not support automatic download and installation for these, but require users to download the apps and install them in their ownCloud by hand.</li>
 	<li>If you are looking for third-party apps that integrate ownCloud in mobile and desktop applications, see our <a href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd-party apps</a> page.</li>
 	<li>Building a new ownCloud app is easy. If you're interested in developing your own ownCloud app, see <a href="/contribute/" target="_blank">the contribute page</a>, where you can find a link to the latest App Development documentation.</li>
 </ul>
@@ -215,7 +215,7 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <h3>How do the Community and Enterprise compare?</h3>
 <ul>
 	<li>The Community Edition which you can get from <a href="/install" target="_blank">owncloud.org</a> is perfect for home users and small businesses. This edition is optimized for stand alone functionality. It comes with a large number of supported apps (see the ownCloud apps question) and offers a fast release cycle and community support.</li>
-	<li>The Enterprise Edition available for purchase from <a href="http://owncloud.com/"  target="_blank"> owncloud.com</a> is perfect for medium and large enterprises. This edition is optimized for reliability, scalability and integration in an enterprise environment. It comes with enterprise certified applications, as well as integration with enterprise services like SharePoint, Windows network drives, Amazon S3,Oracle SQL and SAML/Shibboleth authentication as well as audit and control tools. ownCloud, Inc. offers enterprise support, deployment tools and consulting.</li>
+	<li>The Enterprise Edition available for purchase from <a href="https://owncloud.com/"  target="_blank"> owncloud.com</a> is perfect for medium and large enterprises. This edition is optimized for reliability, scalability and integration in an enterprise environment. It comes with enterprise certified applications, as well as integration with enterprise services like SharePoint, Windows network drives, Amazon S3,Oracle SQL and SAML/Shibboleth authentication as well as audit and control tools. ownCloud, Inc. offers enterprise support, deployment tools and consulting.</li>
 	<li>You can find a comparison table of Community and Enterprise features on <a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank">this page</a>.</li>
 </ul>
 <a name="bestedition"></a>
@@ -232,10 +232,10 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 	<li>The business model of ownCloud, Inc. is very similar to other successful Open Source companies, offering services and support around ownCloud for the enterprise. The company is dedicated to working entirely in the open, accelerating development in the areas of its customers' needs while enabling a completely open development process where everybody can contribute.</li>
 	<li>The Enterprise Edition is built on the same code as the Community Edition. It undergoes additional testing and the addition of <a href="https://owncloud.com/features/" target="_blank">enterprise features</a>. ownCloud develops in the open; this is neither an open-core nor a dump-your-code-over-the-wall model. Read what the Free Software Foundation says about it: <a href="http://www.gnu.org/philosophy/selling-exceptions.html" target="_blank">gnu.org/philosophy/selling-exceptions</a>.</li>
 </ul>
-Check out <a href="http://owncloud.com" target="_blank">owncloud.com</a> and <a href="/contribute" target="_blank">owncloud.org/history</a> for more information.
+Check out <a href="https://owncloud.com" target="_blank">owncloud.com</a> and <a href="/contribute" target="_blank">owncloud.org/history</a> for more information.
 <a name="entcustomers"></a>
 <h3>What customers does ownCloud, Inc. have?</h3>
 <ul>
-	<li>ownCloud works with several large enterprises across financial services, energy, government, healthcare, education and more. Some of our marquis customers include TU Berlin, CERN, Joy Global, Wind River, Rush Medical, TERENA, De'Longhi, TTX, Dutch Ministry of Defense as well as other large financial services and telco companies we cannot name. Check out <a href="http://owncloud.com" target="_blank">owncloud.com</a> for more information.</li>
+	<li>ownCloud works with several large enterprises across financial services, energy, government, healthcare, education and more. Some of our marquis customers include TU Berlin, CERN, Joy Global, Wind River, Rush Medical, TERENA, De'Longhi, TTX, Dutch Ministry of Defense as well as other large financial services and telco companies we cannot name. Check out <a href="https://owncloud.com" target="_blank">owncloud.com</a> for more information.</li>
 </ul>
 

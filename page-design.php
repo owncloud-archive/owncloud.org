@@ -25,7 +25,7 @@
 </ul>
 Please let us know if you want to contribute to the design and would like to be in this group. You will be notified every time someone mentions this team in an issue, which would be every design issue or pull request.</p>
 
-<p>You should also join the <strong><a href="http://webchat.freenode.net/?channels=owncloud-design">#owncloud-design channel on IRC</a></strong>. We use this to communicate on smaller issues, talk about what to work on next, and just general chatter. It’s good to get to know the other people and for organization in general.</p>
+<p>You should also join the <strong><a href="https://webchat.freenode.net/?channels=owncloud-design">#owncloud-design channel on IRC</a></strong>. We use this to communicate on smaller issues, talk about what to work on next, and just general chatter. It’s good to get to know the other people and for organization in general.</p>
 
 
 
@@ -55,7 +55,7 @@ Please let us know if you want to contribute to the design and would like to be 
 			<li>Sorting of declarations should be sensically grouped instead of alphabetized. First positioning and sizes, then typography, then colors, then additional rules.</li>
 		</ul>
 	</li>
-	<li>HTML and CSS building blocks are in <a href="http://doc.owncloud.org/server/7.0/developer_manual/app/css.html">the documentation</a>.</li>
+	<li>HTML and CSS building blocks are in <a href="https://doc.owncloud.org/server/8.0/developer_manual/app/css.html">the documentation</a>.</li>
 	<li>Clickable elements should be a minimum of 44*44px to be easily tappable on mobile devices and well visible on desktop. See the <a href="https://developer.apple.com/library/iOS/documentation/UserExperience/Conceptual/MobileHIG/LayoutandAppearance.html">Apple Human Interface Guidelines</a> for reference.</li>
 	<li>We don’t use SASS or another preprocessor because of the barrier to entry.</li>
 	<li>We don’t use Bootstrap because there’s lots of parts we don’t need and we would need to customize a lot anyway. We do use pieces of Bootstrap though, like Tipsy for tooltips.</li>
