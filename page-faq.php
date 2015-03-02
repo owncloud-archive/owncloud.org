@@ -24,6 +24,7 @@
 	<li><a href="#partialsyncing">Does ownCloud use delta-sync (only syncing file changes)?</a></li>
 	<li><a href="#deduplication">Does ownCloud do file de-duplication?</a></li>
 	<li><a href="#syncspeed">Why is ownCloud syncing not faster?</a></li>
+	<li><a href="#scaling">Does ownCloud scale to large deployments?</a></li>
 	<li><a href="#closedapps">Can I write closed source apps for ownCloud?</a></li>
 </ul>
 <h4>ownCloud Community</h4>
@@ -166,6 +167,15 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 	</ul>
 	This does not mean there is no room for improvement, we work very hard to make ownCloud faster and every release introduces many performance improvements. Also, help is always welcome. Check out the <a href="https://github.com/owncloud/mirall/" target="_blank">client code on github</a> if you are interested in the challenges of fast, scalable and reliable file syncing! See <a href="/contribute/" target="_blank">the contribute pages</a> for more information about getting involved.</li>
 </ul>
+
+<a name="scaling"></a>
+<h3>Does ownCloud scale to large deployments?</h3>
+<ul>
+	<li>ownCloud can run on Raspberry Pi like devices. This does not mean it does not scale. As a matter of fact, the worlds' largest on-premise cloud deployment services <a href="https://owncloud.com/sciebo-germanys-largest-cloud-project-500000-users-launches-today/">500,000 students on ownCloud</a> and terabytes of data are shared through ownCloud at organizations like the  <a href="http://cernbox.web.cern.ch/">atom smashers at CERN</a>.</li>
+	<li>Of course, it does require some tuning to adopt ownCloud for large deployments. You can find excellent resources online, like <a href="http://www.severalnines.com/blog/high-availability-file-sync-and-share-deploying-owncloud-galera-cluster-mysql-and-glusterfs">this blog about a High Availability cluster with Galera for MySQL and glusterFS</a>, and this <a href="http://zdevops.tumblr.com/post/53590343974/glustercloud-running-owncloud-with-a-glusterfs">glusterFS and ownCloud blog</a>. You can also find resources on <a href="https://owncloud.com/whitepapers/">owncloud.com/whitepapers</a>.</li>
+	<li>Check out the <a href="https://github.com/owncloud/core/" target="_blank">core code on github</a> if you are interested in the challenges of fast, scalable and reliable file syncing! See <a href="/contribute/" target="_blank">the contribute pages</a> for more information about getting involved.</li>
+</ul>
+
 <a name="closedapps"></a>
 <h3>Can I write closed source apps for ownCloud?</h3>
 <ul>
