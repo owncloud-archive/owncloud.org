@@ -3,14 +3,14 @@
 <!-- Teaser Area -->
 <div class="container teaser-area">
 	<div class="row">
-		<div class="col-lg-7 col-md-6">
+		<div class="col-lg-7 col-md-6 col-sm-5">
 			<h1><small>Introducing</small><br>ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>.0</h1>
 			<p>Access your data from all your devices, on an open platform you can extend and modify.</p>
 			<p><a class="btn btn-primary btn-lg" role="button" href="/eight">Learn more &raquo;</a></p>
 		</div>
-		<div id="image-container" class="col-lg-5 col-md-6">
+		<div id="image-container" class="col-lg-5 col-md-6 col-sm-7">
 			<div class="image">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" class="teaser-img img-thumbnail img-responsive" alt="ownCloud 7" />
+				<a href="/eight"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser.png" class="teaser-img img-responsive" alt="ownCloud <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>" /></a>
 			</div>
 		</div>
 	</div>
@@ -57,7 +57,7 @@
 			<div class="item ">
 				<div class="hoverarea">
 					<div class="hovercontent">
-						<p>Become part of the ownCloud Community and help us liberate data accross the globe!</p>
+						<p>Become part of the ownCloud Community and help us liberate data across the globe!</p>
 						<div class="button-group text-center">
 							<h2>Contribute</h2>
 							<a href="/contribute/" target="_blank"><button type="button" class="btn btn-lg">Make ownCloud better</button></a>
@@ -78,7 +78,7 @@
 			<div class="item ">
 				<div class="hoverarea">
 					<div class="hovercontent">
-						<p>Widgets shows you the most important information quick and easy</p>
+						<p>Widgets shows you quick and easy the most important information</p>
 						<div class="button-group text-center">
 							<h2>ocDashboard</h2>
 							<a href="https://apps.owncloud.com/content/show.php/ocDashboard?content=160265" target="_blank"><button type="button" class="btn btn-lg">Get ocDashboard</button></a>
@@ -149,9 +149,9 @@
 		<div class="feature-block">
 		<div class="hoverarea">
 			<div class="hovercontent">
-				<p>Put it on a Rasberry Pi at home, on an old desktop or on your NAS. Pick an ownCloud provider you trust, or rent a server somewhere.</p>
+				<p>Music • Calendar • Contacts • Files • Video • More</p>
 				<div class="button-group text-center">
-				<h2>Own Your Data</h2>
+				<h2>Host your own data</h2>
 				<a href="https://www.youtube.com/watch?v=Dn_YJYFVrms" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
 				<a href="/features/" target="_blank"><button type="button" class="btn btn-lg">More Features</button></a>
 				</div>
@@ -161,8 +161,8 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-owncloud.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-owncloud-small.png" class="img-responsive hidden-md hidden-lg" alt="...">
 		</div>
-		<h2 class="text-center hoverfade">Own Your Data</h2>
-		<p class="text-center hoverfade">Host your data where you want</p>
+		<h2 class="text-center hoverfade">Host your own data</h2>
+		<p class="text-center hoverfade">Share files, music and contacts on your terms.</p>
 		</div>
 	 </div>
 
@@ -170,9 +170,9 @@
 		<div class="feature-block">
 		<div class="hoverarea">
 			<div class="hovercontent">
-				<p>Looking for ownCloud for your business? Enterprise-ready file sync and share!</p>
+				<p>Windows network drives • SharePoint • SAML • S3• More</p>
 				<div class="button-group text-center">
-				<h2>Own Your Business</h2>
+				<h2>Relying on ownCloud<br /> in your business?</h2>
 				<a href="https://vimeo.com/91033287" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
 				<a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank"><button type="button" class="btn btn-lg">Learn More</button></a>
 				</div>
@@ -182,8 +182,8 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business-small.png" class="img-responsive hidden-md hidden-lg" alt="...">
 		</div>
-		<h2 class="text-center hoverfade">Own Your Business</h2>
-		<p class="text-center hoverfade">Run ownCloud in your Enterprise</p>
+		<h2 class="text-center hoverfade">Relying on ownCloud<br /> in your business?</h2>
+		<p class="text-center hoverfade">Learn about support options and enterprise features.</p>
 		</div>
 	</div>
 
