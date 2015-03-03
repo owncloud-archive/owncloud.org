@@ -1,5 +1,5 @@
 <div class="page-header">
-	<h1>Promote ownCloud</h1>
+	<h1>Join the conversation</h1>
 </div>
 <p>If you are happy with ownCloud, consider sharing your enthusiasm with the world!</p>
 <div class="row">
@@ -11,6 +11,14 @@
 		<i class="icon-asterisk"></i> Share on Diaspora</a>
 	</div>
 </div>
+<div class="page-header">
+	<h1>Discuss ownCloud</h1>
+</div>
+<p>ownCloud users and enthusiasts can discuss and share ownCloud experiences on our Forums, IRC and mailing lists.</p>
+        <ul><li>Join the <a href="https://forum.owncloud.org">ownCloud forums</a> and our <a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
+        <li>See ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
+        <li>Discuss ownCloud on on <a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li></ul>
+<br />
 <div class="page-header">
 	<h1>Become an Insider</h1>
 </div>

@@ -221,32 +221,35 @@ $( document ).ready(function() {
 		</div>
 		<div class="row">
 			<div class="col-sm-6 col-xs-12 install-buttons">
-				<p>Free, Open Source, Community Edition</p>
+				<p>ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>.0</p>
 				<div class="btn-group">
 					<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Host ownCloud</br><small>For server owners</small></a>
 					<a class="btn btn-default btn-lg hostingbtn" href="/providers/"><i class="icon-search" ></i> Find hosting</br><small>with a third party</small></a>
 				</div>
-				<a class="btn btn-default btn-lg client-install" href="/install/#desktop"><i class="icon-mobile" ></i> Install Clients</br><small>for desktop and mobile</small></a>
+				<br /><br /><a class="btn btn-default btn-lg client-install" href="/install/#desktop"><i class="icon-mobile" ></i> Install Clients</br><small>for desktop and mobile</small></a>
 			</div>
 			<div class="col-xs-12 col-sm-6">
-				<p>Looking to use ownCloud in your company?</p>
-				<a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank" class="btn btn-lg btn-primary"><i class="icon-briefcase"></i> Enterprise Edition<br/><small>Corporate data under your control</small></a>
+				<p>Looking to use ownCloud in a professional setting?</p>
+				<a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank" class="btn btn-lg btn-primary"><i class="icon-briefcase"></i> Support options<br/><small>Sensitive data under your control</small></a>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="row pad-bottom	 2-column-lg-md-sm" style="margin-top: -0.5em">
 	<div class="col-xs-12 col-sm-6">
-		<h2><i class="icon-rocket">&nbsp;</i> Get involved</h2>
-		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="https://forum.owncloud.org/">Forum</a>, post bugs in the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html">tracker</a>, test ownCloud using the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html">test plan</a>, hang out in the <a href="https://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>
-		<a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
+		<h2><i class="icon-rocket">&nbsp;</i> Join the ownCloud community</h2>
+		<p>Join a large and growing community discussing ownCloud and sharing their experiences. Meet other enthusiasts at events and online!</p>
+		<div class="join">
+			 <a class="btn btn-block btn-lg join-button events-button" href="/promote" role="button">Connect with others</a>
+			 <a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
+		</div>
 	</div>
 	<div class="col-xs-12 col-sm-6">
-		<h2><i class="icon-users">&nbsp;</i> Join and help</h2>
+		<h2><i class="icon-users">&nbsp;</i> Make a difference</h2>
+		<p>Become part of the force that pushes ownCloud development further. Test, code, translate, support development with bounties and more!</p>
 		<div class="join">
-			<a class="btn btn-block btn-primary btn-lg join-button" href="/contribute" role="button">Join development</a>
+			<a class="btn btn-block btn-primary btn-lg join-button" href="/contribute" role="button">Help change the world!</a>
 			<a class="btn btn-block btn-primary btn-lg join-button" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html" role="button">Report an issue</a>
-			<a class="btn btn-block btn-primary btn-lg join-button" href="https://www.transifex.com/projects/p/owncloud/" role="button">Help translating</a>
 		</div>
 	</div>
 </div>
