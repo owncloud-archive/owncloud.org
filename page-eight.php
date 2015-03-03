@@ -8,10 +8,10 @@
 					This page contains an overview of the most important features and improvements.
 				</p>
 				<a href="/install" class="btn btn-lg btn-primary install-8-btn">Install ownCloud Server 8 now</br></a>
-				<p>Want to learn more about ownCloud from somebody in person? Meet us at an event!</p>
+				<p>Want to learn more about ownCloud from somebody in person? Meet us at an event or join the conversation online!</p>
 				<div class="evnt-btn-wrap">
 					<a href="/events" class="btn btn-lg btn-default">Join an ownCloud event</a> 
-					<a href="/promote" class="btn btn-lg btn-default">Promote ownCloud!</a>
+					<a href="/promote" class="btn btn-lg btn-default">Discuss ownCloud with others</a>
 				</div>
 			</div>
 		</div>
