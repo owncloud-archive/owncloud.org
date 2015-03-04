@@ -4,11 +4,11 @@
 Do you want to <strong>help</strong> translate, promote or document ownCloud?</p>
 <h2>Become part of the ownCloud Community and help us liberate data across the globe!</h2>
 <div class="row" style="text-align: center">
-  <a href="https://doc.owncloud.org/server/7.0/developer_manual/testing/index.html" class="btn btn-lg btn-default">
+  <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/testing/index.html" class="btn btn-lg btn-default">
   <i class="icon-lightbulb-o"></i> Join the Test Pilots!</a>
 <!--  <a href="http://owncloud.org/blog/hold-the-date-announcing-the-owncloud-contributor-conference-and-hackathon/" class="btn btn-lg btn-default">
   <i class="icon-group"></i> Be at the ownCloud Contributor Conference!</a>-->
-  <a href="/promote" class="btn btn-default btn-lg"><i class="icon-bullhorn"></i> Promote ownCloud</a>
+  <a href="/promote" class="btn btn-default btn-lg"><i class="icon-bullhorn"></i> Discuss ownCloud with others</a>
 </div>
 <h2>How to participate:</h2>
 <div class="row">
