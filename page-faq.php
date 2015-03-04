@@ -64,6 +64,7 @@ If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation
 	</ul>
 	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud User mailing list</a></li>
 	<li><a href="irc://#owncloud@freenode.net" target="_blank">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=owncloud" target="_blank">webchat</a></li>
+	<li>You can ask over our social media, including in the <a href="https://plus.google.com/communities/101550101068949663712" target="_blank">ownCloud Google+ community</a>,
 	<li>Finally, you could report a issue in the <a href="https://github.com/owncloud/core/issues" target="_blank">bug tracker</a> if you think you found a problem with ownCloud</li>
 
 </ul>
@@ -79,6 +80,7 @@ The best places for conversation are:
 </ul>
 <p>If you have a feature request or proposal which you can support with code, <a href="/contribute/" target="_blank">check out our contribute page</a>. You can put feature requests in the <a href="https://github.com/owncloud/core/issues" target="_blank">issue tracker</a> but please be aware that in open source projects like ownCloud, the constraint is rarely ideas or awareness of what can be improved but rather time to work on them. <a href="/contribute/" target="_blank">Contributing</a> is the best way of making change happen!</p>
 <p>Note that <a href="https://owncloud.org/blog/introducing-bounty-source-for-owncloud/" target="_blank">Bountysource</a> offers a way of backing feature requests with your wallet.</p>
+<p>If you want to connect with other ownCloud users and enthusiasts, check out our <a href="/promote" target="_blank">social media channels</a>.
 
 <a name="upgrade"></a>
 <h3>I want to upgrade my ownCloud installation to the new release, how do I do that?</h3>
