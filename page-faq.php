@@ -18,6 +18,7 @@
 	<li><a href="#android">Why does the calendar/contacts app not work with Android?</a></li>
 	<li><a href="#mobilefeatures">Why does the Android/iOS mobile app not support my favorite feature?</a></li>
 	<li><a href="#security">How Secure is ownCloud?</a></li>
+	<li><a href="#security2">Does the long list of security advisories mean ownCloud is less secure than other solutions?</a></li>
 	<li><a href="#encryption">Are files encrypted during sync?</a></li>
 	<li><a href="#encryption2">Does ownCloud support encrypting files on the server?</a></li>
 	<li><a href="#conflict">Why do I sometimes get conflict files and messages while syncing?</a></li>
@@ -131,6 +132,15 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 	<li>ownCloud is an open source project so all code is visible. We are committed to building secure code. We employ a full-time security expert and do regular security audits on the code. We always welcome fixes to security issues, see <a href="https://owncloud.org/security" target="_blank">owncloud.org/security</a>.</li>
 	<li>To learn a bit more about ownCloud security, watch <a href="https://www.youtube.com/watch?v=iLJbMrLgowk&index=25&list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">this technical talk at the ownCloud Contributor Conference</a> and read <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">this article about ownCloud and encryption</a>.</li>
 </ul>
+<a name="security2"></a>
+<h3>Does the long list of security advisories mean ownCloud is less secure than other solutions?</h3>
+Rather the opposite. It signals that ownCloud is a mature project taking responsibility for its security.
+<ul>
+	<li>ownCloud is being used by many large corporations in security sensitive situations (including banks and defense agencies), see <a href="#entcustomers">ownCloud, Inc. customers</a> and has undergoes independent security audits. As an open source project, it benefits from a <a href="#communitysize">large number of eyes</a> looking at its code.</li>
+	<li>We are highly committed to full, yet responsible disclosure of security issues, which is why we <a href="https://owncloud.org/security/advisories/">publish all potential security relevant issues</a> with a CVE. A <a href="http://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures">CVE</a> is an international standard in security and availability of ownCloud CVE's means system administrators can easily see whether their infrastructure is vulnerable or not.</li>
+	<li>No other open source file sync and share receives the scrutiny and security attention ownCloud has. While a lower or higher number of CVE's does not directly say anything about security by itself, issuing CVE's is part of widely accepted responsible vendor security practice.</li>
+</ul>
+
 <a name="encryption"></a>
 <h3>Are files encrypted during sync?</h3>
 <ul>
@@ -221,8 +231,8 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <a name="entcomparison"></a>
 <h3>What are the Standard Subscription and Enterprise Edition?</h3>
 <ul>
-	<li>Professional deployments of ownCloud Server can benefit from the enterprise service and support offered by <a href="https://owncloud.com/" target="_blank">ownCloud, Inc.</a> through the Standard Subscription.</li>
-	<li>The Enterprise Edition builds on the support offered by the Standard Subscription. It comes with enterprise certified applications, delivers integration with enterprise services like SharePoint, Windows network drives, Amazon S3,Oracle SQL and SAML/Shibboleth authentication as well as audit and control tools, comes under a proprietary license and offers a wider range of support options.</li>
+	<li>Professional deployments of ownCloud Server only interested in enterprise file sync and share can benefit from the enterprise service and support offered by <a href="https://owncloud.com/" target="_blank">ownCloud, Inc.</a> through the Standard Subscription.</li>
+	<li>The Enterprise Edition builds on the support offered by the Standard Subscription. It adds enterprise certified applications to the ownCloud Server, delivering integration with enterprise services like a File Firewall, SharePoint, Windows network drives, Oracle SQL support and SAML/Shibboleth authentication as well as audit and control tools. It comes under the ownCloud Commercial License, includes access to branding and deployment tools and offers a wider range of support options including up to 24x7 support.</li>
 	<li>You can find a comparison table detailing support options and enterprise features on <a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank">this page</a>.</li>
 </ul>
 <a name="bestedition"></a>
