@@ -2,7 +2,7 @@
 <p>ownCloud is an <strong>open source project</strong>. That means it is <em>yours</em>. You can study, improve and share it however you like.</p>
 <p>Do you want to get a certain <strong>improvement</strong> in ownCloud? Did you find a <strong>problem</strong>?
 Do you want to <strong>help</strong> translate, promote or document ownCloud?</p>
-<h2>Become part of the ownCloud Community and help us liberate data accross the globe!</h2>
+<h2>Become part of the ownCloud Community and help us liberate data across the globe!</h2>
 <div class="row" style="text-align: center">
   <a href="https://doc.owncloud.org/server/7.0/developer_manual/testing/index.html" class="btn btn-lg btn-default">
   <i class="icon-lightbulb-o"></i> Join the Test Pilots!</a>
