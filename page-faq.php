@@ -5,7 +5,7 @@
 <h4>Help</h4>
 <ul>
 	<li><a href="#install">Where do I find information on how to use/install ownCloud Server?</a></li>
-	<li><a href="#channels">I have a problem, what do I do?</a></li>
+	<li><a href="#channels">I have a problem with my ownCloud, what do I do?</a></li>
 	<li><a href="#chat">Where can I discuss ideas with other ownCloud users?</a></li>
 	<li><a href="#upgrade">I want to upgrade my ownCloud installation to the new release, how do I do that?</a></li>
 	<li><a href="#upgradeyet">Is it safe to upgrade to the new release?</a></li>
@@ -36,11 +36,12 @@
 	<li><a href="#appslocation">Where can I find ownCloud Server apps?</a></li>
 	<li><a href="#communityswag">Where can I find ownCloud t-shirts, stickers and other swag?</a></li>
 </ul>
-<h4>ownCloud for the Enterprise</h4>
+<h4>ownCloud for professional use</h4>
 <ul>
-	<li><a href="#entcomparison">How do the Community and Enterprise compare?</a></li>
-	<li><a href="#bestedition">Which Edition is best for me?</a></li>
-	<li><a href="#communityandenterprise">How do the Community and Enterprise work together?</a></li>
+	<li><a href="#professionaluse">Should I use ownCloud in professional, large scale deployments?</a></li>
+	<li><a href="#entcomparison">What are the Standard Subscription and Enterprise Edition?</a></li>
+	<li><a href="#bestedition">Which solution is best for me?</a></li>
+	<li><a href="#communityandenterprise">How do the community and company work together?</a></li>
 	<li><a href="#entcustomers">What customers does ownCloud, Inc. have?</a></li>
 </ul>
 
@@ -210,32 +211,38 @@ See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for
 <p>ownCloud has a store on <a href="http://www.cafepress.com/owncloudshop" target="_blank">this page</a> where you can find posters, mugs, stickers, magnets, buttons, t-shirts and much more.</p>
 <p>If you are looking for materials for an ownCloud event or to use to promote ownCloud at a conference or trade show, see our <a href="/events" target="_blank">events pages</a> for information on what is available.</p>
 
-<h2>ownCloud for the Enterprise</h2>
-<a name="entcomparison"></a>
-<h3>How do the Community and Enterprise compare?</h3>
+<h2>ownCloud for professional use</h2>
+<a name="professionaluse"></a>
+<h3>Should I use ownCloud in professional, large scale deployments?</h3>
 <ul>
-	<li>The Community Edition which you can get from <a href="/install" target="_blank">owncloud.org</a> is perfect for home users and small businesses. This edition is optimized for stand alone functionality. It comes with a large number of supported apps (see the ownCloud apps question) and offers a fast release cycle and community support.</li>
-	<li>The Enterprise Edition available for purchase from <a href="https://owncloud.com/"  target="_blank"> owncloud.com</a> is perfect for medium and large enterprises. This edition is optimized for reliability, scalability and integration in an enterprise environment. It comes with enterprise certified applications, as well as integration with enterprise services like SharePoint, Windows network drives, Amazon S3,Oracle SQL and SAML/Shibboleth authentication as well as audit and control tools. ownCloud, Inc. offers enterprise support, deployment tools and consulting.</li>
-	<li>You can find a comparison table of Community and Enterprise features on <a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank">this page</a>.</li>
+	<li>ownCloud Server is build for and used by both private and large scale, professional deployments in enterprises, education, research institutions and government agencies. Where home users can find <a href="#channels">the support resources they need</a> in the community, professional users can find <a href="http://owncloud.com/resources" target="_blank">resources developed by ownCloud, Inc.</a> as well as support options including the Standard Subscription and the Enterprise Edition which offers additional functionality for integrating ownCloud in an enterprise infrastructure.
+	<li>You can find out where to look for relevant resources on <a href="/comparison" target="_blank">this page</a>.</li>
+</ul>
+<a name="entcomparison"></a>
+<h3>What are the Standard Subscription and Enterprise Edition?</h3>
+<ul>
+	<li>Professional deployments of ownCloud Server can benefit from the enterprise service and support offered by <a href="https://owncloud.com/" target="_blank">ownCloud, Inc.</a> through the Standard Subscription.</li>
+	<li>The Enterprise Edition builds on the support offered by the Standard Subscription. It comes with enterprise certified applications, delivers integration with enterprise services like SharePoint, Windows network drives, Amazon S3,Oracle SQL and SAML/Shibboleth authentication as well as audit and control tools, comes under a proprietary license and offers a wider range of support options.</li>
+	<li>You can find a comparison table detailing support options and enterprise features on <a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank">this page</a>.</li>
 </ul>
 <a name="bestedition"></a>
-<h3>Which Edition is best for me?</h3>
+<h3>Which solution is best for me?</h3>
 <ul>
-	<li>As home or small business user, you benefit from the rich functionality of the Community Edition. Many apps you'd want in a home or small office situation like the Music player, Calendar, Contacts, Mail, Password Manager and so on are available for this edition.</li>
-	<li>As a general rule, with more than 50 users and large amounts of data, Enterprise Edition becomes a better choice. ownCloud Enterprise Edition is designed to scale for larger deployments, offers Enterprise-only integrations (see above) and is offered with 12x5 or 24x7 global support, a dedicated Deployment Manager and more.</li>
+	<li>As home or small business user, you benefit from the rich functionality of the ownCloud Server. The documentation as well as <a href="#channels">community support</a> or support through IT service providers are best suited for your use case.</li>
+	<li>For larger and more complex deployments of ownCloud, servicing 50 or more users, handling many terabytes of data, requiring high availability and multi-server scaling, or having specific needs around compliance in regulated industries, support offerings from ownCloud, Inc. are available with 12x5 up to 24x7 global support, additional enterprise functionality, deployment and branding tools and more.</li>
 	<li><a href="http://vimeo.com/107631039" target="_blank">Watch the Community and Enterprise Edition Webinar</a> to find out what edition is best for you.</li>
 </ul>
 <a name="communityandenterprise"></a>
-<h3>How do the Community and Enterprise work together?</h3>
+<h3>How do the community and company work together?</h3>
 <ul>
 	<li>The company makes it possible for developers to work full time on ownCloud, organizing ownCloud events, marketing ownCloud to a wider audience and supporting companies, governments and schools in their ownCloud deployments.</li>
 	<li>The business model of ownCloud, Inc. is very similar to other successful Open Source companies, offering services and support around ownCloud for the enterprise. The company is dedicated to working entirely in the open, accelerating development in the areas of its customers' needs while enabling a completely open development process where everybody can contribute.</li>
-	<li>The Enterprise Edition is built on the same code as the Community Edition. It undergoes additional testing and the addition of <a href="https://owncloud.com/features/" target="_blank">enterprise features</a>. ownCloud develops in the open; this is neither an open-core nor a dump-your-code-over-the-wall model. Read what the Free Software Foundation says about it: <a href="http://www.gnu.org/philosophy/selling-exceptions.html" target="_blank">gnu.org/philosophy/selling-exceptions</a>.</li>
+	<li>The Enterprise Edition offers additional enterprise applications bundled with support for ownCloud Server. The Standard Subscription and the Enterprise apps become available after a period of additional testing and the addition of <a href="https://owncloud.com/features/" target="_blank">enterprise features</a> but are available for the same ownCloud Server. ownCloud develops in the open; this is neither an open-core nor a dump-your-code-over-the-wall model. Read what the Free Software Foundation says about it: <a href="http://www.gnu.org/philosophy/selling-exceptions.html" target="_blank">gnu.org/philosophy/selling-exceptions</a>.</li>
 </ul>
 Check out <a href="https://owncloud.com" target="_blank">owncloud.com</a> and <a href="/contribute" target="_blank">owncloud.org/history</a> for more information.
 <a name="entcustomers"></a>
 <h3>What customers does ownCloud, Inc. have?</h3>
 <ul>
-	<li>ownCloud works with several large enterprises across financial services, energy, government, healthcare, education and more. Some of our marquis customers include TU Berlin, CERN, Joy Global, Wind River, Rush Medical, TERENA, De'Longhi, TTX, Dutch Ministry of Defense as well as other large financial services and telco companies we cannot name. Check out <a href="https://owncloud.com" target="_blank">owncloud.com</a> for more information.</li>
+	<li>ownCloud works with several large enterprises across financial services, energy, government, healthcare, education and more. Some of our marquis customers include TU Berlin, CERN, Joy Global, Wind River, Rush Medical, TERENA, De'Longhi, TTX, Dutch Ministry of Defense as well as other large financial services and telco companies we cannot name. Check out the <a href="https://owncloud.com/customer-stories/" target="_blank">owncloud customer stories</a> for more customers and their testimonials.</li>
 </ul>
 
