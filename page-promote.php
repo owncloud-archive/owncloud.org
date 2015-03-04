@@ -11,13 +11,23 @@
 		<i class="icon-asterisk"></i> Share on Diaspora</a>
 	</div>
 </div>
+
 <div class="page-header">
 	<h1>Discuss ownCloud</h1>
 </div>
 <p>ownCloud users and enthusiasts can discuss and share ownCloud experiences on our Forums, IRC and mailing lists.</p>
-        <ul><li>Join the <a href="https://forum.owncloud.org">ownCloud forums</a> and our <a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
+      <ul>
+        <li>Join the <a href="https://forum.owncloud.org">ownCloud forums</a> and our <a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
         <li>See ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
-        <li>Discuss ownCloud on on <a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li></ul>
+        <li>Discuss ownCloud on on <a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li>
+        <li>Follow us on social media:
+        <ul>
+	    <li><a target="_blank" href="https://plus.google.com/107072838776436530705/about"><img width=25 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img> Google Plus</a></li>
+	    <li><a target="_blank" href="https://www.facebook.com/ownClouders"><img width=25 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img> Facebook</a></li>
+	    <li><a target="_blank" href="https://twitter.com/ownClouders"><img width=25 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img> Twitter</a></li>
+	    <li><a target="_blank" href="https://owncloud.org/blogfeed"><img class="img-circle" width=25 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png"></img> Blog feed</a></li>
+      </ul>
+
 <br />
 <div class="page-header">
 	<h1>Become an Insider</h1>
