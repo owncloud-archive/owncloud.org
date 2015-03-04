@@ -64,7 +64,7 @@ If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation
 	</ul>
 	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud User mailing list</a></li>
 	<li><a href="irc://#owncloud@freenode.net" target="_blank">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=owncloud" target="_blank">webchat</a></li>
-	<li>You can ask over our social media, including in the <a href="https://plus.google.com/communities/101550101068949663712" target="_blank">ownCloud Google+ community</a>,
+	<li>You can ask over our social media, including in the <a href="https://plus.google.com/communities/101550101068949663712" target="_blank">ownCloud Google Plus community</a>, the <a href="https://www.facebook.com/ownClouders" target="_blank">facebook page</a> or on <a href="https://twitter.com/search?q=%23owncloud&src=typd" target="_blank">twitter</a>
 	<li>Finally, you could report a issue in the <a href="https://github.com/owncloud/core/issues" target="_blank">bug tracker</a> if you think you found a problem with ownCloud</li>
 
 </ul>
@@ -228,7 +228,7 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h3>Should I use ownCloud in professional, large scale deployments?</h3>
 <ul>
 	<li>ownCloud Server is build for and used by both private and large scale, professional deployments in enterprises, education, research institutions and government agencies. Where home users can find <a href="#channels">the support resources they need</a> in the community, professional users can find <a href="http://owncloud.com/resources" target="_blank">resources developed by ownCloud, Inc.</a> as well as support options including the Standard Subscription and the Enterprise Edition which offers additional functionality for integrating ownCloud in an enterprise infrastructure.
-	<li>You can find out where to look for relevant resources on <a href="/comparison" target="_blank">this page</a>.</li>
+	<li>You can find out where to look for relevant resources on <a href="/support" target="_blank">this page</a>.</li>
 </ul>
 <a name="entcomparison"></a>
 <h3>What are the Standard Subscription and Enterprise Edition?</h3>
