@@ -246,8 +246,8 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h3>Which solution is best for me?</h3>
 <ul>
 	<li>As home or small business user, you benefit from the rich functionality of the ownCloud Server. The documentation as well as <a href="#channels">community support</a> or support through IT service providers are best suited for your use case.</li>
-	<li>For those who seek file sync and share as provided by ownCloud Server, but want the confidence of know that their ownCloud deployment is backed by technical expertise with 8x5 mail support, the Standard Subscription is a cost-effective solution which may meet your requirements.</li>
-	<li>For larger and more complex deployments of ownCloud, servicing hundreds to hundreds of thousands of users, handling terabytes to Petabytes of data, requiring high availability and multi-server scaling, needing integration in Enterprise infrastucture and/or having specific needs around compliance in regulated industries, support offerings from ownCloud, Inc. are available with 12x5 up to 24x7 global support, additional enterprise functionality, deployment and branding tools and more.</li>
+	<li>For those who seek file sync and share as provided by ownCloud Server, but want the confidence of knowing that their ownCloud deployment is backed by technical expertise with 8x5 mail support, the Standard Subscription is a cost-effective solution which may meet your requirements.</li>
+	<li>For larger and more complex deployments of ownCloud, servicing hundreds to hundreds of thousands of users, handling terabytes to Petabytes of data, requiring high availability and multi-server scaling, needing integration in Enterprise infrastructure and/or having specific needs around compliance in regulated industries, support offerings from ownCloud, Inc. are available with 12x5 up to 24x7 global support, additional enterprise functionality, deployment and branding tools and more.</li>
 	<li><a href="http://vimeo.com/107631039" target="_blank">Watch the Community and Enterprise Edition Webinar</a> to find out what is best for you.</li>
 </ul>
 <a name="communityandenterprise"></a>
