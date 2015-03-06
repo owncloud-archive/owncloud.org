@@ -180,7 +180,7 @@
 		</div>
 		<div class="img-container enterprise">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business-small.png" class="img-responsive hidden-md hidden-lg" alt="...">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
 		</div>
 		<h2 class="text-center hoverfade">Relying on ownCloud<br /> in your business?</h2>
 		<p class="text-center hoverfade">Learn about support options and enterprise features.</p>
