@@ -227,12 +227,12 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h2>ownCloud for professional use</h2>
 <a name="professionaluse"></a>
 <h3>Can I use ownCloud in professional, large scale deployments?</h3>
-<p>ownCloud Server is build for and used by both private and large scale, professional deployments in enterprises, education, research institutions and government agencies.</p>
+<p>ownCloud Server is build for and used by both private and large scale, professional deployments in enterprises, education, research institutions and government agencies. Find some of the bigger deployments among the <a href="https://owncloud.com/customer-stories/" target="_blank">ownCloud.com customer stories</a>.</p>
 
 <a name="professionaluse"></a>
 <h3>What resources exist to support my deployment?</h3>
 <ul>
-	<li>Where home users can find <a href="#channels">the support resources they need</a> in the community, professional users can find <a href="http://owncloud.com/resources" target="_blank">resources developed by ownCloud, Inc.</a> as well as support options including the Standard Subscription and the Enterprise Subscription which offers additional functionality for integrating ownCloud in an enterprise infrastructure.
+	<li>Where home users can find <a href="#channels">the support resources they need</a> in the community, professional users can find <a href="http://owncloud.com/resources" target="_blank">resources developed by ownCloud, Inc.</a> as well as the <a href="https://owncloud.com/how-to-buy-owncloud/" target="_blank">Standard Subscription</a> support option for ownCloud Server and the <a href="https://owncloud.com/features/" target="_blank">Enterprise Subscription</a> which adds functionality for integrating ownCloud in an enterprise infrastructure.
 	<li>You can find out where to look for relevant resources on <a href="/support" target="_blank">this page</a>.</li>
 </ul>
 <a name="entcomparison"></a>
@@ -246,8 +246,8 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h3>Which solution is best for me?</h3>
 <ul>
 	<li>As home or small business user, you benefit from the rich functionality of the ownCloud Server. The documentation as well as <a href="#channels">community support</a> or support through IT service providers are best suited for your use case.</li>
-	<li>For those who seek file sync and share as provided by ownCloud Server, but want the confidence of knowing that their ownCloud deployment is backed by technical expertise with 8x5 mail support, the Standard Subscription is a cost-effective solution which may meet your requirements.</li>
-	<li>For larger and more complex deployments of ownCloud, servicing hundreds to hundreds of thousands of users, handling terabytes to Petabytes of data, requiring high availability and multi-server scaling, needing integration in Enterprise infrastructure and/or having specific needs around compliance in regulated industries, support offerings from ownCloud, Inc. are available with 12x5 up to 24x7 global support, additional enterprise functionality, deployment and branding tools and more.</li>
+	<li>For those who seek file sync and share as provided by ownCloud Server, but want the confidence of knowing that their ownCloud deployment is backed by technical expertise with 8x5 mail support, the <a href="https://owncloud.com/how-to-buy-owncloud/" target="_blank">Standard Subscription</a> is a cost-effective solution which may meet your requirements.</li>
+	<li>For larger and more complex deployments of ownCloud, servicing hundreds to hundreds of thousands of users, handling terabytes to Petabytes of data, requiring high availability and multi-server scaling, needing integration in Enterprise infrastructure and/or having specific needs around compliance in regulated industries, <a href="https://owncloud.com/how-to-buy-owncloud/" target="_blank">Enterprise Subscription</a> from ownCloud, Inc. is available with 12x5 email and phone support, additional enterprise functionality, deployment and branding tools and more. ownCloud,. Inc. can also work with you to develop custom support that can include up to 24x7 coverage.</li>
 	<li><a href="http://vimeo.com/107631039" target="_blank">Watch the Community and Enterprise Edition Webinar</a> to find out what is best for you.</li>
 </ul>
 <a name="communityandenterprise"></a>
