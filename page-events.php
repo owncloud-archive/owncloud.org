@@ -29,24 +29,18 @@
 				<th>Event</th>
 				<th>Location</th>
 				<th>Date</th>
-				<th>Organizer</th>
+				<th>Organizer/contact</th>
 				<th>Link</th>
 			</tr>
 			<tr>
-				<td>GNUify.in</td>
-				<td>Pune, India</td>
-				<td>14 February 2015</td>
-				<td><a href="mailto:rajuvindane@cryptolab.(removethispart).net">Raju Vindane</a></td>
-				<td>ownCloud session: <a target="_blank" href="http://gnunify.in/event/79/51">Creating your own cloud server using Owncloud</a></td>
-			</tr>			<tr>
-				<td>SCALE 13x</td>
-				<td>Los Angelos, CA, USA</td>
-				<td>February 19-22 2015</td>
+				<td>ownCloud talk at LinuxFest Northwest</td>
+				<td>Bellingham, WA, USA</td>
+				<td>April 25-26 2015</td>
 				<td><a href="/events/contactform">Jos Poortvliet</a></td>
-				<td><a target="_blank" href="http://www.socallinuxexpo.org/scale13x/">SCALE website</a></td>
+				<td><a target="_blank" href="http://linuxfestnorthwest.org/2015">LinuxFest Northwest website</a></td>
 			</tr>
 			<tr>
-				<td>Chemnitzer Linux Tage</td>
+				<td>ownCloud talk and Booth at Chemnitzer Linux Tage</td>
 				<td>Chemnitz, Germany</td>
 				<td>March 21-22 2015</td>
 				<td><a href="/events/contactform">Jos Poortvliet</a></td>
