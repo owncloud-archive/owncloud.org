@@ -3,14 +3,14 @@
 <!-- Teaser Area -->
 <div class="container teaser-area">
 	<div class="row">
-		<div class="col-lg-7 col-md-6">
+		<div class="col-lg-7 col-md-6 col-sm-5">
 			<h1><small>Introducing</small><br>ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>.0</h1>
 			<p>Access your data from all your devices, on an open platform you can extend and modify.</p>
 			<p><a class="btn btn-primary btn-lg" role="button" href="/eight">Learn more &raquo;</a></p>
 		</div>
-		<div id="image-container" class="col-lg-5 col-md-6">
+		<div id="image-container" class="col-lg-5 col-md-6 col-sm-7">
 			<div class="image">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" class="teaser-img img-thumbnail img-responsive" alt="ownCloud 7" />
+				<a href="/eight"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser.png" class="teaser-img img-responsive" alt="ownCloud <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>" /></a>
 			</div>
 		</div>
 	</div>
@@ -57,7 +57,7 @@
 			<div class="item ">
 				<div class="hoverarea">
 					<div class="hovercontent">
-						<p>Become part of the ownCloud Community and help us liberate data accross the globe!</p>
+						<p>Become part of the ownCloud Community and help us liberate data across the globe!</p>
 						<div class="button-group text-center">
 							<h2>Contribute</h2>
 							<a href="/contribute/" target="_blank"><button type="button" class="btn btn-lg">Make ownCloud better</button></a>
@@ -78,7 +78,7 @@
 			<div class="item ">
 				<div class="hoverarea">
 					<div class="hovercontent">
-						<p>Widgets shows you the most important information quick and easy</p>
+						<p>Widgets shows you quick and easy the most important information</p>
 						<div class="button-group text-center">
 							<h2>ocDashboard</h2>
 							<a href="https://apps.owncloud.com/content/show.php/ocDashboard?content=160265" target="_blank"><button type="button" class="btn btn-lg">Get ocDashboard</button></a>
@@ -149,9 +149,9 @@
 		<div class="feature-block">
 		<div class="hoverarea">
 			<div class="hovercontent">
-				<p>Put it on a Rasberry Pi at home, on an old desktop or on your NAS. Pick an ownCloud provider you trust, or rent a server somewhere.</p>
+				<p>Music • Calendar • Contacts • Files • Video • More</p>
 				<div class="button-group text-center">
-				<h2>Own Your Data</h2>
+				<h2>Host your own data</h2>
 				<a href="https://www.youtube.com/watch?v=Dn_YJYFVrms" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
 				<a href="/features/" target="_blank"><button type="button" class="btn btn-lg">More Features</button></a>
 				</div>
@@ -161,8 +161,8 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-owncloud.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-owncloud-small.png" class="img-responsive hidden-md hidden-lg" alt="...">
 		</div>
-		<h2 class="text-center hoverfade">Own Your Data</h2>
-		<p class="text-center hoverfade">Host your data where you want</p>
+		<h2 class="text-center hoverfade">Host your own data</h2>
+		<p class="text-center hoverfade">Share files, music and contacts on your terms.</p>
 		</div>
 	 </div>
 
@@ -170,9 +170,9 @@
 		<div class="feature-block">
 		<div class="hoverarea">
 			<div class="hovercontent">
-				<p>Looking for ownCloud for your business? Enterprise-ready file sync and share!</p>
+				<p>Windows network drives • SharePoint • SAML • S3• More</p>
 				<div class="button-group text-center">
-				<h2>Own Your Business</h2>
+				<h2>Relying on ownCloud<br /> in your business?</h2>
 				<a href="https://vimeo.com/91033287" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
 				<a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank"><button type="button" class="btn btn-lg">Learn More</button></a>
 				</div>
@@ -180,10 +180,10 @@
 		</div>
 		<div class="img-container enterprise">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business-small.png" class="img-responsive hidden-md hidden-lg" alt="...">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
 		</div>
-		<h2 class="text-center hoverfade">Own Your Business</h2>
-		<p class="text-center hoverfade">Run ownCloud in your Enterprise</p>
+		<h2 class="text-center hoverfade">Relying on ownCloud<br /> in your business?</h2>
+		<p class="text-center hoverfade">Learn about support options and enterprise features.</p>
 		</div>
 	</div>
 
@@ -221,32 +221,35 @@ $( document ).ready(function() {
 		</div>
 		<div class="row">
 			<div class="col-sm-6 col-xs-12 install-buttons">
-				<p>Free, Open Source, Community Edition</p>
+				<p>ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>.0</p>
 				<div class="btn-group">
 					<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Host ownCloud</br><small>For server owners</small></a>
 					<a class="btn btn-default btn-lg hostingbtn" href="/providers/"><i class="icon-search" ></i> Find hosting</br><small>with a third party</small></a>
 				</div>
-				<a class="btn btn-default btn-lg client-install" href="/install/#desktop"><i class="icon-mobile" ></i> Install Clients</br><small>for desktop and mobile</small></a>
+				<br /><br /><a class="btn btn-default btn-lg client-install" href="/install/#desktop"><i class="icon-mobile" ></i> Install Clients</br><small>for desktop and mobile</small></a>
 			</div>
 			<div class="col-xs-12 col-sm-6">
-				<p>Looking to use ownCloud in your company?</p>
-				<a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank" class="btn btn-lg btn-primary"><i class="icon-briefcase"></i> Enterprise Edition<br/><small>Corporate data under your control</small></a>
+				<p>Looking to use ownCloud in a professional setting?</p>
+				<a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank" class="btn btn-lg btn-primary"><i class="icon-briefcase"></i> Support options<br/><small>Sensitive data under your control</small></a>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="row pad-bottom	 2-column-lg-md-sm" style="margin-top: -0.5em">
 	<div class="col-xs-12 col-sm-6">
-		<h2><i class="icon-rocket">&nbsp;</i> Get involved</h2>
-		<p>Join a large and growing community supporting the development and testing of ownCloud to help make it better for everyone. Help answer posts in the <a href="https://forum.owncloud.org/">Forum</a>, post bugs in the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html">tracker</a>, test ownCloud using the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html">test plan</a>, hang out in the <a href="https://webchat.freenode.net/?channels=owncloud">IRC channel</a> or help <a href="https://www.transifex.com/projects/p/owncloud/">translate</a> ownCloud.</p>
-		<a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
+		<h2><i class="icon-rocket">&nbsp;</i> Join the ownCloud community</h2>
+		<p>Join a large and growing community discussing ownCloud and sharing their experiences. Meet other enthusiasts at events and online!</p>
+		<div class="join">
+			 <a class="btn btn-block btn-lg join-button events-button" href="/promote" role="button">Connect with others</a>
+			 <a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
+		</div>
 	</div>
 	<div class="col-xs-12 col-sm-6">
-		<h2><i class="icon-users">&nbsp;</i> Join and help</h2>
+		<h2><i class="icon-users">&nbsp;</i> Make a difference</h2>
+		<p>Become part of the force that pushes ownCloud development further. Test, code, translate, support development with bounties and more!</p>
 		<div class="join">
-			<a class="btn btn-block btn-primary btn-lg join-button" href="/contribute" role="button">Join development</a>
+			<a class="btn btn-block btn-primary btn-lg join-button" href="/contribute" role="button">Help change the world!</a>
 			<a class="btn btn-block btn-primary btn-lg join-button" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html" role="button">Report an issue</a>
-			<a class="btn btn-block btn-primary btn-lg join-button" href="https://www.transifex.com/projects/p/owncloud/" role="button">Help translating</a>
 		</div>
 	</div>
 </div>
