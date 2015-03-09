@@ -10,7 +10,6 @@
       <a class="btn btn-default btn-lg"  href="#instructions-packages" role="button" data-toggle="popover" rel="tooltip" title="Provides automated updates"><i class="icon-linux"></i> Packages</br><small>For auto updates</small></a>
     </div>
     <p>Looking for <a href="/changelog">older versions</a>?
-<!--     <br /> Want to use <a target="_blank" href="https://owncloud.org/support">ownCloud professionally?</a> -->
     </p>
   </div>
   <div class="col-md-6">
