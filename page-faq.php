@@ -227,7 +227,7 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h2>ownCloud for professional use</h2>
 <a name="professionaluse"></a>
 <h3>Can I use ownCloud in professional, large scale deployments?</h3>
-<p>ownCloud Server is build for and used by both private and large scale, professional deployments in enterprises, education, research institutions and government agencies. Find some of the bigger deployments among the <a href="https://owncloud.com/customer-stories" target="_blank">ownCloud.com customer stories</a>.</p>
+<p>ownCloud Server is built for and used by both private and large scale, professional deployments in enterprises, education, research institutions and government agencies. Find some of the bigger deployments among the <a href="https://owncloud.com/customer-stories" target="_blank">ownCloud.com customer stories</a>.</p>
 
 <a name="professionaluse"></a>
 <h3>What resources exist to support my deployment?</h3>
@@ -239,7 +239,7 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h3>What is the Standard Subscription and Enterprise Subscription?</h3>
 <ul>
 	<li>Professional deployments of ownCloud Server only interested in enterprise file sync and share can benefit from the enterprise service and support offered by ownCloud, Inc. through the <a href="https://owncloud.com/get-started-standard-subscription" target="_blank">Standard Subscription.</a></li>
-	<li>The Enterprise Subscription builds on the support offered by the Standard Subscription. It adds enterprise certified applications to the ownCloud Server, including integration with enterprise services like a File Firewall, SharePoint, Windows network drives, Oracle SQL support and SAML/Shibboleth authentication as well as audit and control tools. The Enterprise Subscription comes with a Commercial License and may be modified to include custom services and support to meet the unique needs of the enterprise. It includes access to branding and deployment tools and offers a wider range of support options including up to 24x7 support.</li>
+	<li>The Enterprise Subscription builds on the support offered by the Standard Subscription. It adds enterprise certified applications to the ownCloud Server, including integration with enterprise services like a File Firewall, SharePoint, Windows network drives, Oracle SQL support and SAML/Shibboleth authentication as well as audit and control tools. The Enterprise Subscription comes with the ownCloud Commercial License and may be modified to include custom services and support to meet the unique needs of the enterprise. It includes access to branding and deployment tools and offers a wider range of support options including up to 24x7 support.</li>
 	<li>You can find a comparison table <a href="https://owncloud.com/subscriptions/" target="_blank">detailing support options here</a> and enterprise features on <a href="https://owncloud.com/lp/owncloud-server-or-enterprise-edition/" target="_blank">this page</a>.</li>
 </ul>
 <a name="bestedition"></a>
