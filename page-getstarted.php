@@ -7,7 +7,7 @@
     <hr class="narrow"></hr>
     <div class="numbadge centre">1</div>
     <h3><i class="icon-download"></i> Download ownCloud</h3>
-    <p>Set up a server yourself or find a provider:</p>
+    <p>Set up a server yourself, deploy to the cloud or find a provider:</p>
     <div class="btn-group">
       <a class="btn btn-default btn-lg" role="button" href="#instructions-server" rel="tooltip" title="Install instructions" data-toggle="popover">Download</a>
 <!--       <a class="btn btn-default btn-lg" role="button" href="/hardware-TBD">Servers</a> - disabled for now, until we have a page like that... -->

@@ -12,12 +12,13 @@
                           <li><a href="#tab-archive" class="btn btn-primary btn-lg" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> Archive File<br><small>For server owners</small></a></li>
                           <li><a href="#tab-web" class="btn btn-default btn-lg" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li>
                           <li><a href="#tab-packages" class="btn btn-default btn-lg" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-linux"></i> Packages<br><small>For auto updates</small></a></li>
+                          <li><a href="#tab-cloud" class="btn btn-default btn-lg" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> Images<br><small>For cloud deployment</small></a></li>
                       </ul>
                   </div>
                   <br>
                   <div class="overlay-header row">
                     <p>Latest stable version:  <span class="label label-success"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a href="/changelog"><small>Changelog</small></a>)</br>
-                    <p>ownCloud can be installed on Windows and Linux operating systems, and is available via packages, sources, or a one file php installer.</p>
+                    <p>ownCloud can be installed on Windows and Linux operating systems, and is available via packages, sources, images or a one file php installer.</p>
                   </div>
                   <div  class="tab-content">
                       <div id="tab-archive" role="tabpanel" class="tab-pane active">
@@ -30,7 +31,7 @@
                                               <li>Verify the authenticity via PGP (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">Unix </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">Windows</a>). The ownCloud GPG key <a target="_blank" href="<?php echo $OWNCLOUD_GPG ; ?>">is here</a>.
                                               </li><li>Follow the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>#installation">ownCloud Admin Manuals’</a> installation chapter</li>
                                       </ol>
-                                      <p><strong>Note:</strong></br>To receive information about updates and security issues, we recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
+                                      <p><strong>Note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
                                 </div>
                                 <div class="col-md-6">
 				      <div class="thumbnail">
@@ -56,7 +57,7 @@
 				      <div class="thumbnail">
 					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 				      </div>
-                                    <p><strong>Note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+                                    <p><strong>Note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
                               </div>
                           </div>
                       </div>
@@ -67,13 +68,50 @@
                             <p>Clicking on “Continue” will forward you to the ownCloud community page at the <a target="_blank" href="http://build.opensuse.org/">openSUSE Build Service</a>, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there. For setup instructions, please follow the ownCloud Admin manual.</p>
                             <p>The repositories allow you to stay on an up-to-date version of ownCloud using your distributions’ update mechanism, with packages maintained by the ownCloud community.</p>
                             <p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
-                        <a class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br>
+                            <a class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br>
                         </div>
                         <div class="col-md-6">
 				      <div class="thumbnail">
 					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 				      </div>
-                            <p><strong>Note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+                            <p><strong>Note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div id="tab-cloud" role="tabpanel" class="tab-pane">
+                    <div class="overlay-body row">
+                        <div class="col-md-8">
+                            <p>Several third parties offer <strong>cloud images</strong> for ownCloud. These are not maintained by the ownCloud community itself.</p>
+                            <div class="row">
+                              <div class="col-md-3">
+			        <a target="_blank" style="margin: 0 14px 0 7px;" href="https://susestudio.com/a/TadMax/owncloud-in-a-box"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/susestudio.png"></img></a>
+			      </div>
+			      <div class="col-md-9">
+			        Offers live USB stick, liveCD and preload ISO images, vmdk, ovf, img, vhd and qcow2 images. Logged in users can testdrive ownCloud.
+			      </div>
+			    </div>
+			    <div class="row">
+                              <div class="col-md-3">
+                                <a target="_blank" style="margin: 0 14px 0 7px;" href="https://bitnami.com/stack/owncloud"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/bitnami.png"></img></a>
+                              </div>
+			      <div class="col-md-9">
+			    Offers direct deployment to Google Cloud, Amazon AWS and Microsoft Azure, local install, Docker images, VMware images and installers for Windows, Linux and Mac.
+			      </div>
+			    </div>
+			    <div class="row">
+                              <div class="col-md-3">
+			        <a target="_blank" style="margin: 0 14px 0 7px;" href="https://jujucharms.com/owncloud/"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/juju.png"></img></a>
+			      </div>
+			      <div class="col-md-9">
+			        This charm installs Apache2, Apache-Mod-PHP5, and configures ownCloud with sqlite as a standalone server.
+			      </div>
+			    </div>
+                        </div>
+                        <div class="col-md-4">
+				      <div class="thumbnail">
+					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
+				      </div>
+                            <p><strong>Note:</strong></br> These images usually do not offer automatic update technology. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
                         </div>
                       </div>
                   </div>
