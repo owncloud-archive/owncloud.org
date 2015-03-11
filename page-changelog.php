@@ -33,6 +33,7 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.md5
 <li>Fix links to app store</li>
 <li>Return real mime type in PROPFIND</li>
 <li>Check if files are deletable before trying to delete them</li>
+<li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
 <li>Several smaller fixes</li>
 Download: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5</a></br>
@@ -41,12 +42,15 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5
 <li>Remove some not needed error log messages</li>
 <li>Removes the bogus leading slash in some sharing situations</li>
 <li>Better cleanup temporary files</li>
+<li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
 <li>Several smaller fixes</li>
 Download: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.md5</a></br>
 
 <h3>Release  "5.0.19" <small>March 11. 2015</small></h3>
+<li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
 <li>Several smaller fixes</li>
+<strong>Notice</strong>: this is the last 5.0.x release. Upgrading to a supported major release is highly recommended.</br>
 Download: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.md5</a></br>
 
