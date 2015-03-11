@@ -25,7 +25,7 @@
 	    <a target="_blank" href="https://www.facebook.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img></a>
 	    <a target="_blank" href="https://twitter.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img></a>
 	    <a target="_blank" href="https://owncloud.org/blogfeed"><img class="img-circle" width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png"></img></a>
-	    <a target="_blank" href="https://joindiaspora.com/u/owncloud"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/diasporaround.png"></img></a>
+	    <a target="_blank" href="https://joindiaspora.com/u/owncloud"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/diasporaround.png"></img></a></li>
       </ul>
 <div class="page-header">
 	<h1>Become an Insider</h1>
