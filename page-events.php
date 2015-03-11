@@ -33,6 +33,13 @@
 				<th>Link</th>
 			</tr>
 			<tr>
+				<td>ownCloud talk openSUSE Conference</td>
+				<td>Den Hague, Netherlands</td>
+				<td>May 1-4 2015</td>
+				<td><a href="/events/contactform">Jos Poortvliet</a></td>
+				<td><a target="_blank" href="https://conference.opensuse.org/">oSC website</a></td>
+			</tr>
+			<tr>
 				<td>ownCloud talk at LinuxFest Northwest</td>
 				<td>Bellingham, WA, USA</td>
 				<td>April 25-26 2015</td>
