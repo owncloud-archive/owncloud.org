@@ -2,9 +2,52 @@
 	<h1>ownCloud Server Changelog</h1>
 </div>
 
+<h3>Version 8.0.2 <small>March 11th 2015</small></h3>
+<li>Prevent DB errors in certain high load situations</li>
+<li>Fix installation and updating of apps from the app store</li>
+<li>Fix documentation links</li>
+<li>Fix file move/copy when out of storage space</li>
+<li>Disable 3rd party apps during upgrade to prevent breaking ownCloud if incompatible apps are used</li>
+<li>Fix compatibility with certain MariaDB versions</li>
+<li>Print app upgrade information to console</li>
+<li>Detect broken APC versions</li>
+<li>Fix certain incompatibilities with older PHP 5.4 versions</li>
+<li>Several smaller fixes</li>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2">https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.md5">https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.md5</a></br>
+
+<h3>Release  "7.0.5" <small>Feb 16th 2015</small></h3>
+<li>LDAP user cleanup</li>
+<li>Add note about external user app to config.sample.php</li>
+<li>Fix creation of ghost directories in certain situations</li>
+<li>Fixes for password protected links</li>
+<li>Fix upgrade with LDAP in certain situations</li>
+<li>Fix Server2Server sharing if trailing slashes are missing</li>
+<li>add config-option for an image's maximum file size when generating previews</li>
+<li>Increase initial user count in user management to 50</li>
+<li>Note in config.sample.php that certain previews are not available on Windows</li>
+<li>Drop useless "No reuse of etag" log output</li>
+<li>Fix retrieval of LDAP user group in certain situations</li>
+<li>Better cleanup temporary files</li>
+<li>Show spinner on file upload in IE8 and IE9</li>
+<li>Fix links to app store</li>
+<li>Return real mime type in PROPFIND</li>
+<li>Check if files are deletable before trying to delete them</li>
+<li>Several smaller fixes</li>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5</a></br>
+
+<h3>Release  "6.0.7" <small>Feb 16th 2015</small></h3>
+<li>Remove some not needed error log messages</li>
+<li>Removes the bogus leading slash in some sharing situations</li>
+<li>Better cleanup temporary files</li>
+<li>Several smaller fixes</li>
+Download: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.md5</a></br>
+
 <h3>Version 8.0.0 <small>Feb 9th 2015</small></h3>
 <li>Favorites</li>
-<li>Federated cloud (Server 2 Server Sharing, Version 2)</li>
+<li>Federated Cloud sharing (Server 2 Server Sharing Version 2)</li>
 <li>Improved apps management page</li>
 <li>Improved updater app</li>
 <li>Improved search</li>
@@ -18,7 +61,7 @@
 <li>LDAP/AD: subtle configuration wizard improvements, including user name attribute detection.</li>
 <li>PDF viewer has been updated to a new version of PDF.js</li>
 <li>Sharing links are now shorter and "look better"</li>
-<li>Usermanagement improvements</li>
+<li>User management improvements</li>
 <li>Better structured settings and admin page</li>
 <li>Performance improvements</li>
 <li>App container can now automatically resolve dependencies</li>
