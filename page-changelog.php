@@ -45,6 +45,11 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5
 Download: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.md5</a></br>
 
+<h3>Release  "5.0.19" <small>March 11. 2015</small></h3>
+<li>Several smaller fixes</li>
+Download: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.md5</a></br>
+
 <h3>Version 8.0.0 <small>Feb 9th 2015</small></h3>
 <li>Favorites</li>
 <li>Federated Cloud sharing (Server 2 Server Sharing Version 2)</li>
