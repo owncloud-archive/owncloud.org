@@ -4,15 +4,15 @@
       .overlay-header, .overlay-footer { padding: 8px; }
 </style>
 <div class="installers">
-	<div id="instructions-server" class="container row">
+	<div id="instructions-server" class="container row PopupGetStarted">
             <div class="instructions">
                   <div class="row">
                       <a href="#" class="close">&times;</a>
                       <ul class="nav nav-tabs" role="tablist">
-                          <li><a href="#tab-archive" class="btn btn-primary btn-lg" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> Archive File<br><small>For server owners</small></a></li>
-                          <li><a href="#tab-web" class="btn btn-default btn-lg" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li>
-                          <li><a href="#tab-packages" class="btn btn-default btn-lg" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-linux"></i> Packages<br><small>For auto updates</small></a></li>
-                          <li><a href="#tab-cloud" class="btn btn-default btn-lg" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> Images<br><small>For cloud deployment</small></a></li>
+                          <li class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> Archive File<br><small>For server owners</small></a></li>
+                          <li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li>
+                          <li><a href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-linux"></i> Packages<br><small>For auto updates</small></a></li>
+                          <li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> Images<br><small>For cloud deployment</small></a></li>
                       </ul>
                   </div>
                   <br>
@@ -122,22 +122,22 @@
 		 </div>
 	    </div>
           </div>
-        </div>
+<!--         </div> -->
         <!--  Mask instructions server -->
         <a href="#" class="mask"></a>
 </div>
 <div class="installers">
-      <div id="install-clients" class="container row">
+      <div id="install-clients" class="container row PopupGetStarted">
           <div class="instructions">
                 <div class="row">
                     <a href="#" class="close">&times;</a>
                     <ul class="nav nav-tabs" role="tablist">
-                        <li><a href="#tab-desktop" class="btn btn-primary btn-lg" title="Install Desktop Clients" role="tab" data-toggle="tab"><i class="icon-archive"></i> Install Desktop Clients</a></li>
-                        <li><a href="#tab-mobile" class="btn btn-default btn-lg" title="Install Mobile Apps" role="tab" data-toggle="tab"><i class="icon-code"></i> Install Mobile Apps</a></li>
+                        <li class="active"><a href="#tab-desktop" class="btn btn-lg" title="Install Desktop Clients" role="tab" data-toggle="tab"><i class="icon-archive"></i> Install Desktop Clients</a></li>
+                        <li><a href="#tab-mobile" class="btn btn-lg" title="Install Mobile Apps" role="tab" data-toggle="tab"><i class="icon-code"></i> Install Mobile Apps</a></li>
                     </ul>
                 </div>
                 <div  class="tab-content">
-                      <div id="tab-desktop" role="tabpanel" class="tab-pane">
+                      <div id="tab-desktop" role="tabpanel" class="tab-pane active">
                             <div class="overlay-body row">
                               <div class="col-md-6">
                                   <p>Latest stable version: <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;&nbsp;(<a href="/changelog/desktop"><small>Changelog</small></a>)</p>
@@ -179,17 +179,18 @@
                 </div>
             </div>
       </div>
+        <!--  Mask instructions server -->
       <a href="#" class="mask"></a>
 </div>
 
 <div class="installers">
-      <div id="testing-development" class="container row">
+      <div id="testing-development" class="container row PopupGetStarted">
           <div class="instructions">
                 <div class="row">
                     <a href="#" class="close">&times;</a>
                     <h3>Help with testing and development</h3>
                 </div>
-		<div class="overlay-body row">
+		<div class="row">
 		  <div class="col-md-6">
 		    <a name="testing"></a>
 		    <p>Our server is in constant development and help is always needed in testing the latest bugfixes and features. Please report any issues to the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/bugtracker/" target="_blank">tracker</a>.</p>
@@ -223,5 +224,6 @@
 		</div>
 	  </div>
       </div>
+        <!--  Mask instructions server -->
    <a href="#" class="mask"></a>
 </div>
