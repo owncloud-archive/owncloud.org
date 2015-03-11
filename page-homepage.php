@@ -174,7 +174,7 @@
 				<div class="button-group text-center">
 				<h2>Relying on ownCloud<br /> in your business?</h2>
 				<a href="https://owncloud.com/webinars/playback/?videourl=91033287&webinartitle=ownCloud%20for%20Enterprise%20File%20Sync%20and%20Share&webinarhost=ownCloud.Inc" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
-				<a href="https://owncloud.com/lp/community-or-enterprise/" target="_blank"><button type="button" class="btn btn-lg">Learn More</button></a>
+				<a href="https://owncloud.com/subscriptions" target="_blank"><button type="button" class="btn btn-lg">Learn More</button></a>
 				</div>
 			</div>
 		</div>
