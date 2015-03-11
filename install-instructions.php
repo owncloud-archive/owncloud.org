@@ -30,9 +30,12 @@
                                               <li>Verify the authenticity via PGP (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">Unix </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">Windows</a>). The ownCloud GPG key <a target="_blank" href="<?php echo $OWNCLOUD_GPG ; ?>">is here</a>.
                                               </li><li>Follow the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>#installation">ownCloud Admin Manuals’</a> installation chapter</li>
                                       </ol>
+                                      <p><strong>Note:</strong></br>To receive information about updates and security issues, we recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
                                 </div>
                                 <div class="col-md-6">
-                                      <p>Note:</br>To receive information about updates and security issues, we recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
+				      <div class="thumbnail">
+					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
+				      </div>
                                 </div>
                             </div>
                       </div>
@@ -47,10 +50,13 @@
                                           <li>Follow the instructions and configure ownCloud</li>
                                           <li>Login to your newly created ownCloud instance!</li>
                                   </ol>
+                                    <p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
                               </div>
                               <div class="col-md-6">
-                                    <p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
-                                    <p>Note:</br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+				      <div class="thumbnail">
+					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
+				      </div>
+                                    <p><strong>Note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
                               </div>
                           </div>
                       </div>
@@ -60,19 +66,23 @@
                             <p>ownCloud provides ready-to-deploy <strong>packages</strong> for popular Linux distributions such as Debian, Ubuntu, Fedora, RedHat Enterprise Linux, CentOS and openSUSE.</p>
                             <p>Clicking on “Continue” will forward you to the ownCloud community page at the <a target="_blank" href="http://build.opensuse.org/">openSUSE Build Service</a>, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there. For setup instructions, please follow the ownCloud Admin manual.</p>
                             <p>The repositories allow you to stay on an up-to-date version of ownCloud using your distributions’ update mechanism, with packages maintained by the ownCloud community.</p>
+                            <p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
+                        <a class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br>
                         </div>
                         <div class="col-md-6">
-                            <p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
-                            <p>Note:</br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+				      <div class="thumbnail">
+					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
+				      </div>
+                            <p><strong>Note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription on our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
                         </div>
-                        <a class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a>
                       </div>
                   </div>
                   </div>
                   <div class="overlay-footer row">
-                <p>Looking for <a href="/changelog">older versions</a>?<br />
-                Want to use <a target="_blank" href="https://owncloud.com/products/enterprise/">ownCloud for the Enterprise?</a></p>
-              </div>
+
+                    <p>Looking for <a href="/changelog">older versions</a>?</p>
+		 </div>
+	    </div>
           </div>
         </div>
         <!--  Mask instructions server -->
@@ -91,7 +101,7 @@
                 <div  class="tab-content">
                       <div id="tab-desktop" role="tabpanel" class="tab-pane">
                             <div class="overlay-body row">
-                              <div class="col-md-10">
+                              <div class="col-md-6">
                                   <p>Latest stable version: <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;&nbsp;(<a href="/changelog/desktop"><small>Changelog</small></a>)</p>
                                   <p>Synchronise your ownCloud with your computer using our <strong>desktop clients</strong>. Select one or more directories on your local machine and always have access to your latest files wherever you are.</p>
                                   <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" id="client-download-win" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows<br /><small>XP, Vista, 7 and 8</small></a>
@@ -100,11 +110,17 @@
                                   <br><br>
                                   <p>Looking for the <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>">Sources</a> (<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP; ?>">PGP signature</a>)? For more information on the sync client, check out the <a target="_blank" href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>/">documentation</a>.</p>
                               </div>
+                              <div class="col-md-6">
+				<div class="thumbnail">
+				  <img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/macsettings.png" alt="ownCloud Desktop Client" />
+				</div>
+                              </div>
+
                           </div>
                       </div>
                       <div id="tab-mobile" role="tabpanel" class="tab-pane">
                   <div class="overlay-body row">
-                        <div class="col-md-10">
+                        <div class="col-md-6">
                             <p><strong>Mobile apps</strong> are available in both the Apple App Store and the Google Play Store, allowing you to access, sync and upload your data on the go.</p>
                             <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
                               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
@@ -115,16 +131,18 @@
                             <br />
                             <p>Looking for the <a href="https://github.com/owncloud/android">Android</a> or <a href="https://github.com/owncloud/ios">iOS sources</a>? Looking for <a href="http://f-droid.org/app/com.owncloud.android">F-Droid</a>?</p>
                         </div>
+                        <div class="col-md-6">
+			  <div class="thumbnail">
+			      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/androidmodel.png" alt="ownCloud Mobile Client" />
+			  </div>
+                        </div>
                     </div>
                   </div>
                 </div>
             </div>
       </div>
-      <!--  Mask instructions server -->
       <a href="#" class="mask"></a>
 </div>
-
-
 
 <div class="installers">
       <div id="testing-development" class="container row">
@@ -167,6 +185,5 @@
 		</div>
 	  </div>
       </div>
-      <!--  Mask instructions server -->
-      <a href="#" class="mask"></a>
+   <a href="#" class="mask"></a>
 </div>
