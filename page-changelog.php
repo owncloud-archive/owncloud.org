@@ -16,7 +16,7 @@
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2">https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.md5">https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.md5</a></br>
 
-<h3>Release  "7.0.5" <small>Feb 16th 2015</small></h3>
+<h3>Release  "7.0.5" <small>March 11th 2015</small></h3>
 <li>LDAP user cleanup</li>
 <li>Add note about external user app to config.sample.php</li>
 <li>Fix creation of ghost directories in certain situations</li>
@@ -37,7 +37,7 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.md5
 Download: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5</a></br>
 
-<h3>Release  "6.0.7" <small>Feb 16th 2015</small></h3>
+<h3>Release  "6.0.7" <small>March 11th 2015</small></h3>
 <li>Remove some not needed error log messages</li>
 <li>Removes the bogus leading slash in some sharing situations</li>
 <li>Better cleanup temporary files</li>
