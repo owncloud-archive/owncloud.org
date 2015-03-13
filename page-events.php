@@ -53,6 +53,13 @@
 				<td><a href="/events/contactform">Jos Poortvliet</a></td>
 				<td><a target="_blank" href="https://chemnitzer.linux-tage.de/">CLT website</a></td>
 			</tr>
+			<tr>
+				<td>University of the Aegean ownCloud workshop</td>
+				<td>Néon Karlóvasi, Samos, Greece</td>
+				<td>March 14, 2015</td>
+				<td><a target="_blank" href="https://www.facebook.com/events/295437027246832/">Zacharias Mitzelos</a></td>
+				<td><a target="_blank" href="https://www.facebook.com/events/295437027246832/">Facebook info page</a></td>
+			</tr>
 		</table>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
