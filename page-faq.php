@@ -36,6 +36,7 @@
 	<li><a href="#notechknowledge">But what if I'm not very technical?</a></li>
 	<li><a href="#appslocation">Where can I find ownCloud Server apps?</a></li>
 	<li><a href="#communityswag">Where can I find ownCloud t-shirts, stickers and other swag?</a></li>
+	<li><a href="copyrightviolation">I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</a></li>
 </ul>
 <h4>ownCloud for professional use</h4>
 <ul>
@@ -223,6 +224,10 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h3>Where can I find ownCloud t-shirts, stickers and other swag?</h3>
 <p>ownCloud has a store on <a href="http://www.cafepress.com/owncloudshop" target="_blank">this page</a> where you can find posters, mugs, stickers, magnets, buttons, t-shirts and much more.</p>
 <p>If you are looking for materials for an ownCloud event or to use to promote ownCloud at a conference or trade show, see our <a href="/events" target="_blank">events pages</a> for information on what is available.</p>
+
+<a name="copyrightviolation"></a>
+<h3>I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</h3>
+<p>ownCloud is an open-source project that can be easily hosted by any person allowing anybody to securely exchange files. Neither the ownCloud open source project nor ownCloud Inc exert any legal or technical control over those domains. If you found a copyright infringement on domain other than owncloud.org or owncloud.com, please try to contact the domain owner. ownCloud has no insight or control over ownCloud instances.</p>
 
 <h2>ownCloud for professional use</h2>
 <a name="professionaluse"></a>
