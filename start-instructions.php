@@ -58,7 +58,7 @@
 				      <div class="thumbnail">
 					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 				      </div>
-                                    <p><strong>Note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+                                    <p><strong>Note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
                               </div>
                           </div>
                       </div>
@@ -76,7 +76,7 @@
 				      <div class="thumbnail">
 					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 				      </div>
-                            <p><strong>Note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+                            <p><strong>Note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
                         </div>
                       </div>
                   </div>
@@ -113,7 +113,7 @@
 				      <div class="thumbnail">
 					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 				      </div>
-                            <p><strong>Note:</strong></br> These images usually do not offer automatic update technology. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. The public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+                            <p><strong>Note:</strong></br> These images usually do not offer automatic update technology. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
                         </div>
                       </div>
                   </div>
