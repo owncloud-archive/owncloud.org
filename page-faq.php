@@ -36,7 +36,7 @@
 	<li><a href="#notechknowledge">But what if I'm not very technical?</a></li>
 	<li><a href="#appslocation">Where can I find ownCloud Server apps?</a></li>
 	<li><a href="#communityswag">Where can I find ownCloud t-shirts, stickers and other swag?</a></li>
-	<li><a href="copyrightviolation">I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</a></li>
+	<li><a href="#copyrightviolation">I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</a></li>
 </ul>
 <h4>ownCloud for professional use</h4>
 <ul>
