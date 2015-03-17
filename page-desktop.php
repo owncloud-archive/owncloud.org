@@ -5,8 +5,8 @@
 <ul>
 <li>Mac OS: HIDPI support</li>
 <li>Support Sharing from desktop: Added a share dialog that can be
-<li>opened by context menu in the file managers (Win, Mac, Nautilus)
-    Supports public links with password enforcement</li>
+opened by context menu in the file managers (Win, Mac, Nautilus).
+It supports public links with password enforcement</li>
 <li>Enhanced usage of parallel HTTP requests for ownCloud 8 servers</li>
 <li>Renamed github repository from mirall to client.</li>
 <li>Mac OS: Use native notification support</li>
