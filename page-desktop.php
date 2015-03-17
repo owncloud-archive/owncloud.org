@@ -26,7 +26,7 @@ It supports public links with password enforcement</li>
 <li>Prepared direct download</li>
 <li>Added Crashreporter feature to be switched on on demand</li>
 <li>A huge amount of bug fixes in all areas of the client.</li>
-<li>almost 700 commits since 1.7.1</li
+<li>almost 700 commits since 1.7.1</li>
 </ul>
 
 <h3>Release 1.7.1 <small>Dec 18th 2014</small></h3>
