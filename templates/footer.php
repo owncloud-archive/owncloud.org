@@ -23,8 +23,8 @@
      <div class="col-sm-2 col-sm-offset-2">
         <div class="footer-nav">
           <h4>Resources</h4>
-            <li class="menu-faq"><a href="<?php get_bloginfo('url'); ?>/faq/">FAQ</a></li>
           <ul id="menu-support-and-documentation" class="menu">
+            <li class="menu-faq"><a href="<?php get_bloginfo('url'); ?>/faq/">FAQ</a></li>
             <li class="menu-admin-manual"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>">Admin manual</a></li>
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_USER; ?>">User manual</a></li>
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer manual</a></li>
