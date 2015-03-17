@@ -1,6 +1,34 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3>Release 1.8.0 <small>Mar 17th 2015</small></h3>
+<ul>
+<li>Mac OS: HIDPI support</li>
+<li>Support Sharing from desktop: Added a share dialog that can be
+opened by context menu in the file managers (Win, Mac, Nautilus).
+It supports public links with password enforcement</li>
+<li>Enhanced usage of parallel HTTP requests for ownCloud 8 servers</li>
+<li>Renamed github repository from mirall to client.</li>
+<li>Mac OS: Use native notification support</li>
+<li>Selective Sync: allow to enforce selective sync in brandings.</li>
+<li>Added ability to build on Windows utilizing MingGW</li>
+<li>SQLite database fixes if running on FAT filesystems</li>
+<li>Improved detection of changing files to upload from local</li>
+<li>Preparations for the multi-account feature</li>
+<li>Fixed experience for Window manager without system tray</li>
+<li>Build with Qt 5.4</li>
+<li>Dropped libneon dependency if Qt 5.4 is available</li>
+<li>Keep files open very short, that avoid lock problems on Windows
+    especially with office software but also others.</li>
+<li>Merged some NetBSD patches</li>
+<li>Selective sync support for owncloudcmd</li>
+<li>Reorganize the source repository</li>
+<li>Prepared direct download</li>
+<li>Added Crashreporter feature to be switched on on demand</li>
+<li>A huge amount of bug fixes in all areas of the client.</li>
+<li>almost 700 commits since 1.7.1</li>
+</ul>
+
 <h3>Release 1.7.1 <small>Dec 18th 2014</small></h3>
 <ul>
 <li>Documentation fixes and updates</li>
