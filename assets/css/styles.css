@@ -663,5 +663,7 @@ body.getstarted a.btn-lg {
 @media(max-width: 996px) {
 	body.getstarted hr.narrow {
 		display: block;
+		margin-top: 50px;
 	}
+
 }
