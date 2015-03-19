@@ -607,7 +607,7 @@ body.getstarted div.PopupGetStarted div.row{
 }
 body.getstarted div.PopupGetStarted div.instructions{
     background: #F6F6F6;
-    margin-top: 9%;
+    margin-top: 150px;
     padding: 10px;
     border-radius: 4px;
 }
