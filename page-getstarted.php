@@ -57,17 +57,17 @@
     <h3><i class="icon-comment"></i> Support channels</h3>
     <p>Discuss using, installing or maintaining ownCloud in our community support channels.</p>
     <ul>
-      <li><a href="http://forums.owncloud.org" target="_blank">Forum</a> (<a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">Forum FAQ</a>)</li>
+      <li><a href="http://forum.owncloud.org" target="_blank">Forum</a> (<a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">Forum FAQ</a>)</li>
       <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">User mailing list</a></li>
       <li><a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
     </ul>
-    <p>Find <a href="https://owncloud.com/contact/" target="_blank">more support resources here</a>.</p>
+    <p>Find <a href="/support" target="_blank">more support resources here</a>.</p>
   </div>
   <div class="col-md-4">
     <hr class="narrow"></hr>
     <div class="numbadge centre">6</div>
     <h3><i class="icon-rocket"></i> Get involved</h3>
-    <p><a href="http://owncloud.org/promote" target="_blank">Join the conversation</a> around ownCloud!</p>
+    <p><a href="/promote" target="_blank">Join the conversation</a> around ownCloud!</p>
     <p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank">developing</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank">testing</a>, grab a daily build or beta packages.</p>
     <p><a class="btn btn-default btn-lg" role="button" href="#testing-development" rel="tooltip" title="Contribute" id="testing" data-toggle="popover">testing packages</a></p>
     <p>See more <a href="/contribute" target="_blank">ways to get involved</a>!</p>
