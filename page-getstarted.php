@@ -78,9 +78,12 @@
     $('#mobile').click(function () {
         $("#tab-desktop").removeClass("active");
         $("#tab-mobile").addClass("active");
-    });
+        $("#li-tab-desktop").removeClass("active");
+        $("#li-tab-mobile").addClass("active");    });
     $('#desktop').click(function () {
         $("#tab-mobile").removeClass("active");
         $("#tab-desktop").addClass("active");
+        $("#li-tab-mobile").removeClass("active");
+        $("#li-tab-desktop").addClass("active");
     });
 </script>
