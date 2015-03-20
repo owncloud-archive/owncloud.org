@@ -604,7 +604,7 @@ body.install div.PopupGetStarted div.row{
 }
 body.install div.PopupGetStarted div.instructions{
     background: #F6F6F6;
-    margin-top: 150px;
+    margin-top: 150px !important;
     padding: 10px;
     border-radius: 4px;
 }
