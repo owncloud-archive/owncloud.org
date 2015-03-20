@@ -9,6 +9,7 @@
 	<li><a href="#chat">Where can I discuss ideas with other ownCloud users?</a></li>
 	<li><a href="#upgrade">I want to upgrade my ownCloud installation to the new release, how do I do that?</a></li>
 	<li><a href="#upgradeyet">Is it safe to upgrade to the new release?</a></li>
+	<li><a href="#notcrippled">Is ownCloud Server limited to a certain number of users or files and do I have to purchase something to get a 'full' version?</a></li>
 </ul>
 <h4>Technology</h4>
 <ul>
@@ -98,6 +99,10 @@ The best places for conversation are:
 <p><strong>Why do we need your testing?</strong></p>
 <p>In short: because ownCloud is <em>yours</em>. ownCloud is an <a href="http://en.wikipedia.org/wiki/Open_source">Open Source</a> product, following an open development model. That means that many different stakeholders, both commercial and private, contribute to its development and share responsibility for the final release. ownCloud is thus neither owned nor controlled by any single entity.</p>
 <p>By using ownCloud, <em>you become part of the ownCloud community</em>, sharing both ownership and responsibility for the product we collectively develop. Compare it to your responsibility for the functioning of your car: you regularly have to test it, or hire a garage for a checkup. It is yours, isn't it?</p>
+
+<a name="notcrippled"></a>
+<h3>Is ownCloud Server limited to a certain number of users or files and do I have to purchase something to get a 'full' version?</h3>
+<p>ownCloud is open source, so artificial limitations have no place in it. It can sustain the same number of users, downloads or data as a version equipped with enterprise apps and a support contract.</p>
 
 <h2>Technology</h2>
 <a name="rsync"></a>

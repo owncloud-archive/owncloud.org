@@ -2,7 +2,7 @@
 <div class="page-header">
 	<h1>ownCloud Support options</h1>
 </div>
-<p>ownCloud is deployed in a wide variety of situations. Home users run it on a NAS or Raspberry Pi, using Calendar and Contact synchronization and many more of the <a href="https://apps.owncloud.com" target="_blank">more than 200 community apps</a>. Enterprises, research institutions and government agencies deploy it on large server parks, requiring integration in existing enterprise infrastructure like SAML, SharePoint, Windows network drives, S3 and more.</p>
+<p>ownCloud is deployed in a wide variety of situations. Home users run it on a NAS or Raspberry Pi, using Calendar and Contact synchronization and many more of the <a href="https://apps.owncloud.com" target="_blank">more than 200 community apps</a>. Enterprises, research institutions and government agencies deploy it on large server parks, requiring integration in existing enterprise infrastructure like SAML, SharePoint, Windows network drives, S3 and more. In every case, <a href="/faq/#install" target="_blank">ownCloud Server is the same</a>.</p>
 <p>We provide information on how to install and maintain ownCloud for everybody <a href="htts://doc.owncloud.org" target="_blank">in our documentation</a>. When more resources are needed, private user can find help in our <a href="/faq/#install" target="_blank">community help channels</a> while professional users benefit from <a href="http://owncloud.com/whitepapers" target="_blank">self help resources</a>, <a href="https://owncloud.com/features" target="_blank">enterprise functionality</a> and different <a href="http://owncloud.com/subscriptions" target="_blank">support options</a> from ownCloud, Inc.</p>
 
 <hr>
