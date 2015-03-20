@@ -119,7 +119,6 @@
                   </div>
                   </div>
                   <div class="overlay-footer row">
-
                     <p>Looking for <a href="/changelog">older versions</a>?</p>
 		 </div>
 	    </div>

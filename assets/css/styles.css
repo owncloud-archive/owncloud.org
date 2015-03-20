@@ -640,6 +640,9 @@ body.getstarted .overlay-footer a.btn {
     float: right;
     margin-right: 15px;
 }
+body.getstarted .overlay-footer p {
+    margin-bottom: 0px;
+}
 body.getstarted div.PopupGetStarted:target, body.getstarted div.PopupGetStarted:target+a.mask{
     display: block;
     opacity: 1;
