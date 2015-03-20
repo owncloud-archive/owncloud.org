@@ -18,7 +18,7 @@
                   <br>
                   <div class="overlay-header row">
                     <p>Latest stable version:  <span class="label label-success"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a href="/changelog"><small>Changelog</small></a>)</br>
-                    <p>ownCloud can be installed on Windows and Linux operating systems, and is available via packages, sources, images or a one file php installer.</p>
+                    <p>ownCloud can be installed on Linux operating systems, and is available via packages, sources, images or a one file php installer.</p>
                   </div>
                   <div  class="tab-content">
                       <div id="tab-archive" role="tabpanel" class="tab-pane active">
@@ -26,9 +26,9 @@
                                 <div class="col-md-6">
                                       <p>The .tar <strong>archive</strong> is the classic way of installing ownCloud server. It provides the server and all immediate 3rd party PHP libraries.</p>
                                       <ol>
-                                              <li>Download <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">Unix</a> (<tt>.tar.bz2</tt>) or <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">Windows</a> (<tt>.zip</tt>) archive.</li>
-                                              <li>Check package integrity using MD5 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">Unix</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">Windows</a>) or SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">Unix</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">Windows</a>)</li>
-                                              <li>Verify the authenticity via PGP (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">Unix </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">Windows</a>). The ownCloud GPG key <a target="_blank" href="<?php echo $OWNCLOUD_GPG ; ?>">is here</a>.</li>
+                                              <li>Download <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> or <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> archive.</li>
+                                              <li>Check package integrity using MD5 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">.zip</a>) or SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">.zip</a>)</li>
+                                              <li>Verify the authenticity via PGP (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). The ownCloud GPG key <a target="_blank" href="<?php echo $OWNCLOUD_GPG ; ?>">is here</a>.</li>
                                               <li>Follow the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>#installation">ownCloud Admin Manuals’</a> installation chapter.</br>
                                               If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/update.html">update documentation</a> for minor releases and the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a> for moving to major new ownCloud releases</li>
                                       </ol>
