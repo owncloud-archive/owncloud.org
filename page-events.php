@@ -34,7 +34,7 @@
 			</tr>
 			<tr>
 				<td>Keynote at DORSLUC</td>
-				<td>, Zagreb, Croatia</td>
+				<td>Zagreb, Croatia</td>
 				<td>May 18-20 2015</td>
 				<td><a href="/events/contactform">Jos Poortvliet</a></td>
 				<td><a target="_blank" href="http://2015.dorscluc.org/en/">DORSLUC website</a></td>
