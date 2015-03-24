@@ -86,9 +86,6 @@ div.thumbnail > img {
 	margin-bottom: 0;
 }
 
-.page.install h3 {
-	margin-top: 0;
-}
 
 .home div.wrap > .content {
 	background-size: 85% auto;
@@ -568,30 +565,30 @@ div.numbadge.centre {
 	margin-left: auto;
 	margin-right: auto;
 }
-body.getstarted h3 {
+body.install h3 {
 	font-weight: 600;
 }
 
-body.getstarted h4 {
+body.install h4 {
 	margin-top: 30px;
 }
-body.getstarted hr {
+body.install hr {
 	border-bottom: 1px dotted #1D2D44;
 }
 
-body.getstarted hr.narrow, body.getstarted hr.wide {
+body.install hr.narrow, body.install hr.wide {
 	display: none;
 	margin-bottom: -43px;
 }
 
-body.getstarted hr.narrow {
+body.install hr.narrow {
 	margin-bottom: -27px;
 }
 
-body.getstarted div.col-md-3 {
+body.install div.col-md-3 {
 	margin-bottom: 45px;
 }
-body.getstarted div.PopupGetStarted {
+body.install div.PopupGetStarted {
     height: auto%;
     margin: 0 auto;
     color: #1D2D44;
@@ -602,16 +599,16 @@ body.getstarted div.PopupGetStarted {
     z-index: 1000;
     display: none;
 }
-body.getstarted div.PopupGetStarted div.row{
+body.install div.PopupGetStarted div.row{
     margin: 0;
 }
-body.getstarted div.PopupGetStarted div.instructions{
+body.install div.PopupGetStarted div.instructions{
     background: #F6F6F6;
-    margin-top: 150px;
+    margin-top: 150px !important;
     padding: 10px;
     border-radius: 4px;
 }
-body.getstarted a.mask {
+body.install a.mask {
     position: fixed;
     top: 0;
     right: 0;
@@ -621,47 +618,52 @@ body.getstarted a.mask {
     z-index: 500;
     display: none;
 }
-body.getstarted .overlay-header {
+body.install .overlay-header {
     background-color: #EFEFEF;
 }
-body.getstarted .overlay-header h3 {
+body.install .overlay-header h3 {
     margin-left: 15px;
 }
-body.getstarted .overlay-header a.close {
+body.install .overlay-header a.close {
     margin-right: 15px;
 }
-body.getstarted .overlay-body {
+body.install .overlay-body {
     padding-top: 10px;
 }
-body.getstarted .overlay-footer {
+body.install .overlay-footer {
     background-color: #EFEFEF;
 }
-body.getstarted .overlay-footer a.btn {
+body.install .overlay-footer a.btn {
     float: right;
     margin-right: 15px;
 }
-body.getstarted div.PopupGetStarted:target, body.getstarted div.PopupGetStarted:target+a.mask{
+body.install .overlay-footer p {
+    margin-bottom: 0px;
+}
+body.install div.PopupGetStarted:target, body.install div.PopupGetStarted:target+a.mask{
     display: block;
     opacity: 1;
 }
-body.getstarted .close {
+body.install .close {
     color: #CE5B00;
     font-size: 1.75em;
     opacity: 0.8;
 }
-body.getstarted .close:hover, body.getstarted .close:focus {
+body.install .close:hover, body.install .close:focus {
     opacity: 1;
 }
-body.getstarted a.btn-lg {
+body.install a.btn-lg {
     font-size: 16px;
 }
 @media(min-width: 996px) {
-	body.getstarted hr.wide {
+	body.install hr.wide {
 		display: block;
 	}
 }
 @media(max-width: 996px) {
-	body.getstarted hr.narrow {
+	body.install hr.narrow {
 		display: block;
+		margin-top: 50px;
 	}
+
 }
