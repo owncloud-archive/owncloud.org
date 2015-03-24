@@ -33,7 +33,21 @@
 				<th>Link</th>
 			</tr>
 			<tr>
-				<td>ownCloud talk openSUSE Conference</td>
+				<td>Keynote at DORSLUC</td>
+				<td>, Zagreb, Croatia</td>
+				<td>May 18-20 2015</td>
+				<td><a href="/events/contactform">Jos Poortvliet</a></td>
+				<td><a target="_blank" href="http://2015.dorscluc.org/en/">DORSLUC website</a></td>
+			</tr>
+			<tr>
+				<td>ownCloud workshop at Happy Hacking Day 2015</td>
+				<td>Helsinki, Finland</td>
+				<td>May 7-9 2015</td>
+				<td><a href="/events/contactform">Jos Poortvliet</a></td>
+				<td><a target="_blank" href="http://happyhackingday.org/">Happy Hacking Day website</a></td>
+			</tr>
+			<tr>
+				<td>ownCloud workshop openSUSE Conference</td>
 				<td>Den Hague, Netherlands</td>
 				<td>May 1-4 2015</td>
 				<td><a href="/events/contactform">Jos Poortvliet</a></td>
@@ -45,13 +59,6 @@
 				<td>April 25-26 2015</td>
 				<td><a href="/events/contactform">Jos Poortvliet</a></td>
 				<td><a target="_blank" href="http://linuxfestnorthwest.org/2015">LinuxFest Northwest website</a></td>
-			</tr>
-			<tr>
-				<td>ownCloud talk and Booth at Chemnitzer Linux Tage</td>
-				<td>Chemnitz, Germany</td>
-				<td>March 21-22 2015</td>
-				<td><a href="/events/contactform">Jos Poortvliet</a></td>
-				<td><a target="_blank" href="https://chemnitzer.linux-tage.de/">CLT website</a></td>
 			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
@@ -65,6 +72,18 @@
 				<th>Location</th>
 				<th>Date</th>
 				<th>Link (report)</th>
+			</tr>
+			<tr>
+				<td>ownCloud talk and Booth at Chemnitzer Linux Tage</td>
+				<td>Chemnitz, Germany</td>
+				<td>March 21-22 2015</td>
+				<td><a target="_blank" href="https://chemnitzer.linux-tage.de/">CLT website</a></td>
+			</tr>
+			<tr>
+				<td>ownCloud talk at LiberPlanet</td>
+				<td>MIT, Cambridge, USA</td>
+				<td>March 21-22 12015</td>
+				<td><a target="_blank" href="https://libreplanet.org/2015/">LibrePlanet website</a></td>
 			</tr>
 			<tr>
 				<td>University of the Aegean ownCloud workshop</td>
@@ -90,7 +109,7 @@
 				<td>January 31 and February 1</td>
 				<td><a target="_blank" href="https://fosdem.org/2015/">FOSDEM 2014</a> (<a href="https://owncloud.org/blog/owncloud-at-fosdem-2015-and-scale13x/" target="_blank">report</a>)</td>
 			</tr>
-		</table>
+			</table>
 
 <!--		<h2>Release parties</h2>
 		<p>One of the best parts of an ownCloud release, are the community release parties! A release party can be a meeting in a cafe or office with a
