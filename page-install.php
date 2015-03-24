@@ -1,116 +1,89 @@
+<div class="page-header">
+  <h1>Get Started!</h1>
+</div>
+<hr class="wide"></hr>
 <div class="row">
-<!--  Server  -->
-  <div class="col-md-6">
-    <h3><strong>Install ownCloud Server</strong> <span class="label label-success">Version 8</span> <span class="label label-success">New!</span></h3>
-    <p>Latest stable version: <?php echo $VERSIONS_SERVER_FULL_STABLE; ?> (<a href="/changelog"><small>Changelog</small></a>)</br>
-    <p>ownCloud can be installed on Windows and Linux operating systems, and is available via packages, sources, or a one file php installer.</p>
+  <div class="col-md-4">
+    <hr class="narrow"></hr>
+    <div class="numbadge centre">1</div>
+    <h3><i class="icon-download"></i> Download ownCloud</h3>
+    <p>Set up a server yourself, deploy to the cloud or find a provider:</p>
     <div class="btn-group">
-      <a class="btn btn-primary btn-lg" href="#instructions-server" role="button" rel="tooltip" title="For server owners"><i class="icon-archive"></i> Archive File</br><small>For server owners</small></a>
-      <a class="btn btn-default btn-lg" href="#instructions-web" role="button" data-toggle="popover" rel="tooltip" title="Best for shared hosts"><i class="icon-code"></i> Web Installer</br><small>For shared hosts</small></a>
-      <a class="btn btn-default btn-lg"  href="#instructions-packages" role="button" data-toggle="popover" rel="tooltip" title="Provides automated updates"><i class="icon-linux"></i> Packages</br><small>For auto updates</small></a>
-    </div>
-    <p>Looking for <a href="/changelog">older versions</a>?
-    </p>
-  </div>
-  <div class="col-md-6">
-    <div class="thumbnail">
-      <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
+      <a class="btn btn-default btn-lg" role="button" href="#instructions-server" rel="tooltip" title="Install instructions" id="server" data-toggle="popover">Download</a>
+<!--       <a class="btn btn-default btn-lg" role="button" href="/hardware-TBD">Servers</a> - disabled for now, until we have a page like that... -->
+      <a class="btn btn-default btn-lg" role="button" href="/providers">Providers</a>
     </div>
   </div>
-</div ><!-- end of div class="row installers" -->
-
-<!--  Desktop  -->
-<div class="row">
-  <div class="col-md-6">
-    <a name="desktop"></a>
-    <h3><strong>Install Desktop Clients</strong></h3>
-    <p>Latest stable version: <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;&nbsp;(<a href="/changelog/desktop"><small>Changelog</small></a>)</p>
-    <p>Synchronise your ownCloud with your computer using our desktop clients. Select one or more directories on your local machine and always have access to your latest files wherever you are.</p>
+  <div class="col-md-4">
+    <hr class="narrow"></hr>
+    <div class="numbadge centre">2</div>
+    <h3><i class="icon-refresh"></i> Sync</h3>
+    <p>Connect to your ownCloud with our clients:</p>
     <div class="btn-group">
-      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" id="client-download-win" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows<br /><small>XP, Vista, 7 and 8</small></a>
-      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac<br /><small>OSX 10.7+, 64 bit</small></a>
-      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Multiple distributions</small></a>
+      <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop clients</a>
+      <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">Mobile clients</a>
     </div>
-    <p>Looking for the <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>">Sources</a> (<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP; ?>">PGP signature</a>)? For more information on the sync client, check out the <a target="_blank" href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>/">documentation</a>.</p>
   </div>
-  <div class="col-md-6">
-    <div class="thumbnail">
-      <img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/macsettings.png" alt="ownCloud Desktop Client" />
-    </div>
+  <div class="col-md-4">
+    <hr class="narrow"></hr>
+    <div class="numbadge centre">3</div>
+    <h3><i class="icon-globe"></i> Extend</h3>
+    <p>Browse hundreds of free ownCloud apps and connect services you use to ownCloud:</p>
+     <div class="btn-group">
+        <a class="btn btn-default btn-lg" role="button" href="https://apps.owncloud.com" target="_blank">ownCloud Apps</a>
+        <a class="btn btn-default btn-lg" role="button" href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd party apps</a>
+      </div>
   </div>
 </div>
-
-<!--  Mobile  -->
+<h1>Get more out of ownCloud!</h1>
+<hr class="wide"></hr>
 <div class="row">
-  <div class="col-md-6">
-    <a name="mobile"></a>
-    <h3><strong>Install Mobile Apps</strong></h3>
-    <p>Mobile apps are available in both the Apple App Store and the Google Play Store, allowing you to access, sync and upload your data on the go.</p>
-    <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
-    </a>
-    <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
-    </a>
-    <br />
-    <p>Looking for the <a href="https://github.com/owncloud/android">Android Sources</a> or <a href="https://github.com/owncloud/ios">Apple iOS Sources</a>? Looking for <a href="http://f-droid.org/app/com.owncloud.android">F-Droid</a>?</p>
+  <div class="col-md-4">
+    <hr class="narrow"></hr>
+    <div class="numbadge centre">4</div>
+    <h3><i class="icon-book"></i> Documentation</h3>
+    <p>Manuals are provided in HTML and PDF form:</p>
+    <ul>
+      <li><a href="<?php echo $DOCUMENTATION_USER; ?>" target="_blank">Users</a></li>
+      <li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>" target="_blank">Admins</a></li>
+      <li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank">Developers</a></li>
+      <li> <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/" target="_blank">Testers</a></li>
+    </ul>
+    <p>If you have other questions about ownCloud, read our <a href="/faq" target="_blank">ownCloud FAQ</a>.</p>
   </div>
-  <div class="col-md-6">
-    <div class="thumbnail">
-      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/androidmodel.png" alt="ownCloud Mobile Client" />
-    </div>
+  <div class="col-md-4">
+    <hr class="narrow"></hr>
+    <div class="numbadge centre">5</div>
+    <h3><i class="icon-comment"></i> Support channels</h3>
+    <p>Discuss using, installing or maintaining ownCloud in our community support channels.</p>
+    <ul>
+      <li><a href="http://forum.owncloud.org" target="_blank">Forum</a> (<a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">Forum FAQ</a>)</li>
+      <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">User mailing list</a></li>
+      <li><a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
+    </ul>
+    <p>Find <a href="/support" target="_blank">more support resources here</a>.</p>
   </div>
-</div>
-
-<!-- Integrate -->
-<div class="row">
-  <div class="col-md-6">
-    <a name="integrate"></a>
-    <h3><strong>Integrate with your ownCloud</strong></h3>
-    <p>ownCloud is compatible with a large range of 3rd party applications and services. Use ownCloud to store your data and better integrate with your web services.</p>   
-    <div class="btn-group">
-      <a href="https://github.com/owncloud/core/wiki/Apps" class="btn btn-lg btn-primary btn-default" target="_blank"><i class="icon-compass"></i>  Explore applications</a>
-      <a href="https://github.com/owncloud/core/wiki/Apps#integration-efforts" class="btn btn-lg btn-default" target="_blank"><i class="icon-filter"></i> Integrate ownCloud in your app</a>
-    </div>
+  <div class="col-md-4">
+    <hr class="narrow"></hr>
+    <div class="numbadge centre">6</div>
+    <h3><i class="icon-rocket"></i> Get involved</h3>
+    <p><a href="/promote" target="_blank">Join the conversation</a> around ownCloud!</p>
+    <p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank">developing</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank">testing</a>, grab a daily build or beta packages.</p>
+    <p><a class="btn btn-default btn-lg" role="button" href="#testing-development" rel="tooltip" title="Contribute" id="testing" data-toggle="popover">testing packages</a></p>
+    <p>See more <a href="/contribute" target="_blank">ways to get involved</a>!</p>
   </div>
-  <div class="col-md-6">
-    <div class="thumbnail">
-      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/logocloud.png" alt="ownCloud Compatible locations" />
-    </div>
-  </div>
-</div>
-
-<!--  Testing  -->
-<div class="row">
-  <div class="col-md-6">
-    <a name="testing"></a>
-    <h3><strong>Help with testing and development</strong></h3>
-    <p>Our server is in constant development and help is always needed in testing the latest bugfixes and features. Please report any issues to the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/bugtracker/" target="_blank">tracker</a>.</p>
-    <h4>ownCloud Server <small>Daily build</small></h4>
-    <div class="btn-group">
-      <a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  Archive File</a>
-      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>
-    </div>
-    <?php if(!empty($VERSIONS_CLIENT_DESKTOP_TESTING)) { ?>
-    <h4>Desktop Clients <small><?php echo $VERSIONS_CLIENT_DESKTOP_TESTING; ?></small></h4>
-    <div class="btn-group">
-      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN; ?>" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows</a>
-      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC; ?>" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac</a>
-      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux</a>
-      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Sources</a>
-    </div>
-    <p>Our desktop team provides regular pre-releases. Please report any issues to the <a href="https://github.com/owncloud/mirall/issues" target="_blank">tracker</a>.</p>
-    <p>You can check the authenticity of the sources using this <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP; ?>">PGP signature</a>.</p>
-    <?php } ?>
-  </div>
-  <div class="col-md-6">
-    <div class="thumbnail">
-      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/codebasephp.png" alt="ownCloud Code" />
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12">
-    <p>Find our GPG key at <a target="_blank" href="<?php echo $OWNCLOUD_GPG; ?>"><?php echo $OWNCLOUD_GPG; ?></a></p>
-  </div>
-</div>
+</div> 
+<hr></hr>
+<script>
+    $('#mobile').click(function () {
+        $("#tab-desktop").removeClass("active");
+        $("#tab-mobile").addClass("active");
+        $("#li-tab-desktop").removeClass("active");
+        $("#li-tab-mobile").addClass("active");    });
+    $('#desktop').click(function () {
+        $("#tab-mobile").removeClass("active");
+        $("#tab-desktop").addClass("active");
+        $("#li-tab-mobile").removeClass("active");
+        $("#li-tab-desktop").addClass("active");
+    });
+</script>
