@@ -63,7 +63,8 @@ If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation
 <ul>
 	<li><a href="https://forum.owncloud.org" target="_blank">the ownCloud Forums</a></li>
 	<ul>
-		 <li>Note: The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+		 <li>The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+		 <li>There is often also a thread about common upgrade issues with new releases, see the <a href="https://forum.owncloud.org/viewtopic.php?f=31&t=26310" target="_blank">thread for ownCloud 8 here</a>.</li>
 	</ul>
 	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud User mailing list</a></li>
 	<li><a href="irc://#owncloud@freenode.net" target="_blank">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=owncloud" target="_blank">webchat</a></li>
