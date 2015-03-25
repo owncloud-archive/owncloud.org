@@ -6,7 +6,7 @@
   <div class="col-md-4">
     <hr class="narrow"></hr>
     <div class="numbadge centre">1</div>
-    <h3><i class="icon-download"></i> Download ownCloud</h3>
+    <h3><i class="icon-download"></i> Download ownCloud <span class="label label-success"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span></h3>
     <p>Set up a server yourself, deploy to the cloud or find a provider:</p>
     <div class="btn-group">
       <a class="btn btn-default btn-lg" role="button" href="#instructions-server" rel="tooltip" title="Install instructions" id="server" data-toggle="popover">Download</a>
