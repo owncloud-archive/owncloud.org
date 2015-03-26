@@ -19,7 +19,7 @@
 			<li>ownCloud Server < <strong>7.0.5</strong> (TBD)</li><li>ownCloud Server < <strong>6.0.7</strong> (TBD)</li><li>ownCloud Server < <strong>5.0.19</strong> (TBD)</li>
 		</ul>
 		<h3>Action Taken</h3>
-		<p></p>
+		<p><p>The blacklist bypass has been fixed and unit tests has been added to prevent future regressions.</p></p>
 		<h3>Acknowledgements</h3>
 		<p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
 		<ul>
