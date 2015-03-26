@@ -118,7 +118,8 @@ ownCloud is for everybody. We picked PHP because:
 	<li>PHP is easy to learn which makes it easy for people to contribute. The ease of PHP also allows you to check the code that runs your ownCloud and make changes that you need.</li>
 </ul>
 In short, PHP lowers the barrier for using, auditing, modifying and contributing to ownCloud. And that is important!<br />
-See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for-php/" target="_blank">this blog by ownCloud founder Frank Karlitschek</a>.
+See more details in <a href="https://owncloud.org/blog/owncloud-and-php/" target="_blank">this blog about ownCloud and PHP</a>.
+
 <a name="protocol"></a>
 <h3>Why do you use HTTP and not $PROTOCOL?</h3>
 <ul>
