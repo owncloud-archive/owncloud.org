@@ -1,3 +1,9 @@
+<p>Version 7.0.5</p>
+<a href="/security/advisory?id=oc-sa-2015-004">Bypass of file blacklist</a><br>
+<a href="/security/advisory?id=oc-sa-2015-003">Bypass of file blacklist on Microsoft Windows Platform</a><br>
+<a href="/security/advisory?id=oc-sa-2015-002">Multiple stored XSS in "documents" application</a><br>
+<a href="/security/advisory?id=oc-sa-2015-001">Multiple stored XSS in "contacts" application</a><br>
+<br>
 <p>Version 7.0.3</p>
 <a href="/security/advisory?id=oc-sa-2014-026">Local file disclosure due to the preview system</a><br>
 <a href="/security/advisory?id=oc-sa-2014-027">CSRF in "bookmarks" application</a><br>
@@ -7,6 +13,12 @@
 <a href="/security/advisory?id=oc-sa-2014-021">Local Path Disclosure when using Asset Pipeline</a><br>
 <a href="/security/advisory?id=oc-sa-2014-023">Potential local file disclosure</a><br>
 <a href="/security/advisory?id=oc-sa-2014-020">Login bypass when using user_ldap due to unauthenticated binds</a><br>
+<br>
+<p>Version 6.0.7</p>
+<a href="/security/advisory?id=oc-sa-2015-004">Bypass of file blacklist</a><br>
+<a href="/security/advisory?id=oc-sa-2015-003">Bypass of file blacklist on Microsoft Windows Platform</a><br>
+<a href="/security/advisory?id=oc-sa-2015-002">Multiple stored XSS in "documents" application</a><br>
+<a href="/security/advisory?id=oc-sa-2015-001">Multiple stored XSS in "contacts" application</a><br>
 <br>
 <p>Version 6.0.6</p>
 <a href="/security/advisory?id=oc-sa-2014-027">CSRF in "bookmarks" application</a><br>
@@ -45,6 +57,12 @@
 <p>Version 6.0.1</p>
 <a href="/security/advisory?id=oc-sa-2014-009">Users can mount the local filesystem</a><br>
 <br>
+<p>Version 5.0.19</p>
+<a href="/security/advisory?id=oc-sa-2015-004">Bypass of file blacklist</a><br>
+<a href="/security/advisory?id=oc-sa-2015-003">Bypass of file blacklist on Microsoft Windows Platform</a><br>
+<a href="/security/advisory?id=oc-sa-2015-002">Multiple stored XSS in "documents" application</a><br>
+<a href="/security/advisory?id=oc-sa-2015-001">Multiple stored XSS in "contacts" application</a><br>
+<br>
 <p>Version 5.0.18</p>
 <a href="/security/advisory?id=oc-sa-2014-028">Stored XSS in "bookmarks" application</a><br>
 <a href="/security/advisory?id=oc-sa-2014-027">CSRF in "bookmarks" application</a><br>
@@ -70,6 +88,9 @@
 <p>Version 5.0.8</p>
 <a href="/security/advisory?id=oc-sa-2013-030">Auth bypass in "user_webdavauth"</a><br>
 <a href="/security/advisory?id=oc-sa-2013-029">XSS in "Share Interface"</a><br>
+<br>
+<p>Version 5.0.7</p>
+<a href="/security/advisory?id=oc-sa-2013-028">Multiple XSS vulnerabilities</a><br>
 <br>
 <p>Version 5.0.6</p>
 <a href="/security/advisory?id=oc-sa-2013-019">Multiple SQL injection</a><br>
@@ -98,6 +119,9 @@
 <p>Version 4.5.13</p>
 <a href="/security/advisory?id=oc-sa-2013-030">Auth bypass in "user_webdavauth"</a><br>
 <br>
+<p>Version 4.5.12</p>
+<a href="/security/advisory?id=oc-sa-2013-028">Multiple XSS vulnerabilities</a><br>
+<br>
 <p>Version 4.5.11</p>
 <a href="/security/advisory?id=oc-sa-2013-019">Multiple SQL injection</a><br>
 <a href="/security/advisory?id=oc-sa-2013-024">Privilege escalation in the calendar application</a><br>
@@ -119,9 +143,10 @@
 <a href="/security/advisory?id=oc-sa-2013-008">Multiple XSS vulnerabilities</a><br>
 <br>
 <p>Version 4.5.7</p>
-<a href="/security/advisory?id=oc-sa-2013-006">Multiple code executions</a><br>
 <a href="/security/advisory?id=oc-sa-2013-007">Privilege escalation in the calendar application</a><br>
+<a href="/security/advisory?id=oc-sa-2013-006">Multiple code executions</a><br>
 <a href="/security/advisory?id=oc-sa-2013-004">Multiple CSRF vulnerabilities</a><br>
+<a href="/security/advisory?id=oc-sa-2013-003">Multiple XSS vulnerabilities</a><br>
 <br>
 <p>Version 4.5.6</p>
 <a href="/security/advisory?id=oc-sa-2013-002">Code execution in external storage</a><br>
@@ -140,6 +165,9 @@
 <a href="/security/advisory?id=oc-sa-2012-002">Timing attack on the password reset</a><br>
 <a href="/security/advisory?id=oc-sa-2012-001">Multiple XSS vulnerabilities</a><br>
 <br>
+<p>Version 4.0.16</p>
+<a href="/security/advisory?id=oc-sa-2013-028">Multiple XSS vulnerabilities</a><br>
+<br>
 <p>Version 4.0.15</p>
 <a href="/security/advisory?id=oc-sa-2013-021">Multiple XSS vulnerabilities</a><br>
 <a href="/security/advisory?id=oc-sa-2013-020">Multiple directory traversals</a><br>
@@ -157,6 +185,7 @@
 <a href="/security/advisory?id=oc-sa-2013-006">Multiple code executions</a><br>
 <a href="/security/advisory?id=oc-sa-2013-005">Information disclosure</a><br>
 <a href="/security/advisory?id=oc-sa-2013-004">Multiple CSRF vulnerabilities</a><br>
+<a href="/security/advisory?id=oc-sa-2013-003">Multiple XSS vulnerabilities</a><br>
 <br>
 <p>Version 4.0.11</p>
 <a href="/security/advisory?id=oc-sa-2013-001">Multiple XSS vulnerabilities</a><br>

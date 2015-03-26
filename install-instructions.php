@@ -9,9 +9,9 @@
                   <div class="row">
                       <a href="#" class="close">&times;</a>
                       <ul class="nav nav-tabs" role="tablist">
-                          <li class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> Archive File<br><small>For server owners</small></a></li>
+                          <li id="li-tab-archive" class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> Archive File<br><small>For server owners</small></a></li>
                           <li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li>
-                          <li><a href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-linux"></i> Packages<br><small>For auto updates</small></a></li>
+                          <li id="li-tab-packages"><a href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-linux"></i> Packages<br><small>For auto updates</small></a></li>
                           <li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> Images<br><small>For cloud deployment</small></a></li>
                       </ul>
                   </div>
@@ -38,6 +38,7 @@
 				      <div class="thumbnail">
 					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 				      </div>
+                                      <p><strong>Note:</strong></br> if you run ownCloud on Linux, <a id="packages" href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab">using packages</a> is recommended.</p>
                                 </div>
                             </div>
                       </div>
@@ -228,3 +229,11 @@
         <!--  Mask instructions server -->
    <a href="#" class="mask"></a>
 </div>
+<script>
+    $('#packages').click(function () {
+        $("#tab-archive").removeClass("active");
+        $("#tab-packages").addClass("active");
+        $("#li-tab-archive").removeClass("active");
+        $("#li-tab-packages").addClass("active");
+    });
+</script>

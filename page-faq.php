@@ -26,6 +26,7 @@
 	<li><a href="#partialsyncing">Does ownCloud use delta-sync (only syncing file changes)?</a></li>
 	<li><a href="#deduplication">Does ownCloud do file de-duplication?</a></li>
 	<li><a href="#syncspeed">Why is ownCloud syncing not faster?</a></li>
+	<li><a href="#scaling">Does ownCloud scale to large deployments?</a></li>
 	<li><a href="#closedapps">Can I write closed source apps for ownCloud?</a></li>
 </ul>
 <h4>ownCloud Community</h4>
@@ -63,7 +64,8 @@ If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation
 <ul>
 	<li><a href="https://forum.owncloud.org" target="_blank">the ownCloud Forums</a></li>
 	<ul>
-		 <li>Note: The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+		 <li>The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+		 <li>There is often also a thread about common upgrade issues with new releases, see the <a href="https://forum.owncloud.org/viewtopic.php?f=31&t=26310" target="_blank">thread for ownCloud 8 here</a>.</li>
 	</ul>
 	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud User mailing list</a></li>
 	<li><a href="irc://#owncloud@freenode.net" target="_blank">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=owncloud" target="_blank">webchat</a></li>
@@ -118,7 +120,8 @@ ownCloud is for everybody. We picked PHP because:
 	<li>PHP is easy to learn which makes it easy for people to contribute. The ease of PHP also allows you to check the code that runs your ownCloud and make changes that you need.</li>
 </ul>
 In short, PHP lowers the barrier for using, auditing, modifying and contributing to ownCloud. And that is important!<br />
-See more details in <a href="http://karlitschek.de/2014/10/a-possible-future-for-php/" target="_blank">this blog by ownCloud founder Frank Karlitschek</a>.
+See more details in <a href="https://owncloud.org/blog/owncloud-and-php/" target="_blank">this blog about ownCloud and PHP</a>.
+
 <a name="protocol"></a>
 <h3>Why do you use HTTP and not $PROTOCOL?</h3>
 <ul>
@@ -186,6 +189,15 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 	</ul>
 	This does not mean there is no room for improvement, we work very hard to make ownCloud faster and every release introduces many performance improvements. Also, help is always welcome. Check out the <a href="https://github.com/owncloud/mirall/" target="_blank">client code on github</a> if you are interested in the challenges of fast, scalable and reliable file syncing! See <a href="/contribute/" target="_blank">the contribute pages</a> for more information about getting involved.</li>
 </ul>
+
+<a name="scaling"></a>
+<h3>Does ownCloud scale to large deployments?</h3>
+<ul>
+	<li>ownCloud can run on Raspberry Pi like development boards but is certainly not limited to low-end hardware. Worlds' largest on-premise cloud deployment services <a href="https://owncloud.com/sciebo-germanys-largest-cloud-project-500000-users-launches-today/" target="_blank">500,000 students on ownCloud</a> and terabytes of data are shared through ownCloud at organizations like the  <a href="http://cernbox.web.cern.ch/" target="_blank">atom smashers at CERN</a>. ownCloud founder Frank Karlitschek wrote a <a href="http://karlitschek.de/2015/03/scaling/" target="_blank">post about the scalability of ownCloud</a>.</li>
+	<li>Of course, it does require some tuning to adopt ownCloud for large deployments. See our on documentation on <a href="<?php echo $DOCUMENTATION_ADMIN; ?>/configuration_server/performance_tuning.html">performance tuning</a> and the pages on <a href="<?php echo $DOCUMENTATION_ADMIN; ?>/operations/scaling_multiple_machines.html">scaling across multiple machines</a>. See also <a href="https://owncloud.com/whitepapers/">owncloud.com/whitepapers</a> and you can find excellent resources online, like <a href="http://www.severalnines.com/blog/high-availability-file-sync-and-share-deploying-owncloud-galera-cluster-mysql-and-glusterfs" target="_blank">this blog about a High Availability cluster with Galera for MySQL and glusterFS</a>, and this <a href="http://zdevops.tumblr.com/post/53590343974/glustercloud-running-owncloud-with-a-glusterfs" target="_blank">glusterFS and ownCloud blog</a>.</li>
+	<li>Check out the <a href="https://github.com/owncloud/core/" target="_blank">core code on github</a> if you are interested in the challenges of fast, scalable and reliable file syncing! See <a href="/contribute/" target="_blank">the contribute pages</a> for more information about getting involved.</li>
+</ul>
+
 <a name="closedapps"></a>
 <h3>Can I write closed source apps for ownCloud?</h3>
 <ul>
