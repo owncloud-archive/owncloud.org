@@ -3,7 +3,7 @@
 </div>
 <p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/owncloud-copyright-assignment-common.pdf">Download the agreement (pdf)</a><br /></p>
 <p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Addendum_iOS.pdf">iOS Addendum (pdf)</a><br /></p>
-<p>We release the ownCloud core and the desktop, iOS and Android clients under a dual license. Because of that we require a signed
+<p>We release the ownCloud <a href="https://github.com/owncloud/core">core</a> and the <a href="https://github.com/owncloud/client">desktop</a>, <a href="https://github.com/owncloud/ios">iOS</a> and <a href="https://github.com/owncloud/android">Android</a> clients under a dual license. Because of that we require a signed
 contributor agreement from developers who want to commit code to them. This only applies to these repositories, not the apps or other parts.<p>
 <h3>A contributor agreement? Does this mean that ownCloud is no longer free software?</h3>
 <p>No, the contributor agreement guarantees that every community contribution is always released
@@ -11,7 +11,7 @@ as AGPL (or GPL in the case of the desktop and Android clients and GPLv3 in case
 <p>The agreement allows the company to offer customers ownCloud under another license, in exchange for money.
 This thus helps pay the bills for ownCloud contributors.</p>
 <h3>Does this mean that everybody who wants to contribute to ownCloud has to sign this agreement?</h3>
-<p>No. Only the ownCloud core is covered by this contributor agreement. ownCloud is build out of a lot of small modules
+<p>No. Only the <a href="https://github.com/owncloud/core">ownCloud core repository</a> is covered by this contributor agreement. ownCloud is build out of a lot of small modules
 called apps. We don't require a contributor agreement for the apps, only for the core, the desktop clients and android.<p>
 <h3>But I want to contribute to ownCloud and can&#39;t or don&#39;t want to sign a contributor agreement. What can I do?</h3>
 <p>We can accept your core contribution if you release your code under the MIT license. Of course we 
@@ -33,7 +33,7 @@ That’s all. Probably not a problem for you because software patents are bad an
 We thought a lot about the relationship between the company and community and about a solution that is best for both parties.</p>
 <p>The company needs to have a business model so that it can sell software, support and services to big companies.
 Many customers are willing to pay for a non-AGPL version of ownCloud, some would not even use ownCloud without a proprietary license.
-Aside from the <em>'Enterprise Edition'</em>, we of course sell support and other services.
+Aside from the <em>'Enterprise Edition'</em> under a closed license, we of course sell support and other services.
 The revenue is used to fund development of ownCloud, marketing, services, sponsoring and so on.</p>
 <p>The community wants to be sure that all the contributions and all the hard work stays Free Software.
 That is guaranteed by the AGPL license.<p>
