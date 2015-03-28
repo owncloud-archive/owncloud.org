@@ -3,7 +3,7 @@
 		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 		<h2 class="conf-location">August 28 - Sept 3 2015, Berlin</h2>
 	<!--	<a href="/conf/register" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
-		<strong>Bringing ownCloud Contributors from around the world together for a week of coding, discussion, talks and fun.</strong><br />
+		<h3>Bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 	</div>
 </div>
 <div class="row conf-info">
