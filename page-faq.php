@@ -254,7 +254,7 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <a name="professionaluse"></a>
 <h3>What resources exist to support my deployment?</h3>
 <ul>
-	<li>Where home users can find <a href="#channels">the support resources they need</a> in the community, professional users can find <a href="http://owncloud.com/whitepapers" target="_blank">resources developed by ownCloud, Inc.</a> as well as the <a href="https://owncloud.com/get-started-standard-subscription" target="_blank">Standard Subscription</a> support option for ownCloud Server and the <a href="https://owncloud.com/products/enterprise" target="_blank">Enterprise Subscription</a> which adds functionality for integrating ownCloud in an enterprise infrastructure.
+	<li>Where home users can find <a href="#channels">the support resources they need</a> in the community, professional users can find <a href="http://owncloud.com/resources" target="_blank">resources developed by ownCloud, Inc.</a> as well as the <a href="https://owncloud.com/get-started-standard-subscription" target="_blank">Standard Subscription</a> support option for ownCloud Server and the <a href="https://owncloud.com/products/enterprise" target="_blank">Enterprise Subscription</a> which adds functionality for integrating ownCloud in an enterprise infrastructure.
 	<li>You can find out where to look for relevant resources on <a href="/support" target="_blank">this page</a>.</li>
 </ul>
 <a name="entcomparison"></a>
