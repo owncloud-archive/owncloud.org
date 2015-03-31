@@ -221,16 +221,12 @@ $( document ).ready(function() {
 		</div>
 		<div class="row">
 			<div class="col-sm-6 col-xs-12 install-buttons">
-				<p>ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>.0</p>
-				<div class="btn-group">
-					<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Host ownCloud</br><small>For server owners</small></a>
-					<a class="btn btn-default btn-lg hostingbtn" href="/providers/"><i class="icon-search" ></i> Find hosting</br><small>with a third party</small></a>
-				</div>
-				<br /><br /><a class="btn btn-default btn-lg client-install" href="/install/#desktop"><i class="icon-mobile" ></i> Install Clients</br><small>for desktop and mobile</small></a>
+				<p>ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>.0 at home</p>
+					<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Download ownCloud</br><small>Host yourself or find a provider</small></a>
 			</div>
 			<div class="col-xs-12 col-sm-6">
 				<p>Looking to use ownCloud in a professional setting?</p>
-				<a href="/support" class="btn btn-lg btn-primary"><i class="icon-briefcase"></i> Support options<br/><small>Sensitive data under your control</small></a>
+				<a href="https://owncloud.com/owncloud-overview/" class="btn btn-lg btn-primary"><i class="icon-briefcase"></i> ownCloud in the Enterprise<br/><small>Sensitive data under your control</small></a>
 			</div>
 		</div>
 	</div>
