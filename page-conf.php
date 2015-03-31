@@ -2,7 +2,7 @@
 	<div class="col-sm-6 col-sm-offset-3">
 		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 		<h2 class="conf-location">August 28 - Sept 3 2015, Berlin</h2>
-	<!--	<a href="/conf/register" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
+		<a href="http://conference.owncloud.org" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
 		<h3>Bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 	</div>
 </div>
@@ -18,7 +18,7 @@
 			<li>Translation &amp; Documentation</li>
 			<li>Marketing &amp; Promo</li>
 		</ul>
-		<p>To get an idea of the event, read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/">report on the ownCloud Contributor Conference 2014</a>.</p>
+		<p>To get an idea of the event, read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/" target="_blank">report on the ownCloud Contributor Conference 2014</a>.</p>
 	</div>
 	<div class="col-sm-6">
 		<i class="icon-comments-o"></i>
@@ -31,7 +31,7 @@
 			<li>Secure your PHP application</li>
 			<li>Connect your JS app to ownCloud</li>
 		</ul>
-		<p>Watch <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96">the 2014 talks</a> on our youtube channel.</p>
+		<p>Watch <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">the 2014 talks</a> on our youtube channel.</p>
 		<p>A call for papers will open in April.</p>
 	</div>
 </div>
@@ -44,7 +44,7 @@
 	<div class="col-sm-6">
 		<h2>Register</h2>
 		<p>The ownCloud Contributor Conference will be entirely open and free. Registration will open in April, stay tuned!
-<!-- 		We do ask you to <a href="/conf/register">register</a> to help us plan better for the event. -->
+		We do ask you to <a href="http://conference.owncloud.org" target="_blank">register</a> to help us plan better for the event.
 		</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We'll come with recommended and discounted hotel options here soon!</p>
@@ -84,6 +84,6 @@
 		<h2>Thanks!</h2>
 		<p>The event is made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="httsp://owncloud.com">ownCloud Inc</a>.</p>
 		<h2>Spread the word!</h2>
-		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="https://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts">Google+</a>.</p>
+		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="https://twitter.com/ownclouders" target="_blank">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders" target="_blank">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts" target="_blank">Google+</a>. Find some <a href="https://github.com/owncloud/promo/tree/master/Contributor%20Conference" target="_blank">promo materials here</a>.</p>
 	</div>
 </div>
