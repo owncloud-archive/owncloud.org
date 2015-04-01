@@ -2,14 +2,13 @@
 	<h1>Frequently Asked Questions</h1>
 </div>
 <h2>Index</h2>
-<h4>Help</h4>
+<h4>Running ownCloud</h4>
 <ul>
 	<li><a href="#install">Where do I find information on how to use/install ownCloud Server?</a></li>
 	<li><a href="#channels">I have a problem with my ownCloud, what do I do?</a></li>
 	<li><a href="#chat">Where can I discuss ideas with other ownCloud users?</a></li>
 	<li><a href="#upgrade">I want to upgrade my ownCloud installation to the new release, how do I do that?</a></li>
 	<li><a href="#upgradeyet">Is it safe to upgrade to the new release?</a></li>
-	<li><a href="#notcrippled">Is ownCloud Server limited to a certain number of users or files and do I have to purchase something to get a 'full' version?</a></li>
 </ul>
 <h4>Technology</h4>
 <ul>
@@ -28,6 +27,9 @@
 	<li><a href="#syncspeed">Why is ownCloud syncing not faster?</a></li>
 	<li><a href="#scaling">Does ownCloud scale to large deployments?</a></li>
 	<li><a href="#closedapps">Can I write closed source apps for ownCloud?</a></li>
+	<li><a href="#notcrippled">Is ownCloud Server limited to a certain number of users or files and do I have to purchase something to get a 'full' version?</a></li>
+	<li><a href="#copyrightviolation">I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</a></li>
+	<li><a href="#modifyowncloud">Can I modify ownCloud and run it on my website for others to use/access?</a></li>
 </ul>
 <h4>ownCloud Community</h4>
 <ul>
@@ -38,7 +40,6 @@
 	<li><a href="#notechknowledge">But what if I'm not very technical?</a></li>
 	<li><a href="#appslocation">Where can I find ownCloud Server apps?</a></li>
 	<li><a href="#communityswag">Where can I find ownCloud t-shirts, stickers and other swag?</a></li>
-	<li><a href="#copyrightviolation">I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</a></li>
 </ul>
 <h4>ownCloud for professional use</h4>
 <ul>
@@ -50,7 +51,7 @@
 	<li><a href="#entcustomers">What customers does ownCloud, Inc. have?</a></li>
 </ul>
 
-<h2>Help</h2>
+<h2>Running ownCloud</h2>
 <a name="install"></a>
 <h3>Where do I find information on how to use/install ownCloud?</h3>
 <ul>
@@ -88,10 +89,6 @@ The best places for conversation are:
 <p><strong>Why do we need your testing?</strong></p>
 <p>In short: because ownCloud is <em>yours</em>. ownCloud is an <a href="http://en.wikipedia.org/wiki/Open_source">Open Source</a> product, following an open development model. That means that many different stakeholders, both commercial and private, contribute to its development and share responsibility for the final release. ownCloud is thus neither owned nor controlled by any single entity.</p>
 <p>By using ownCloud, <em>you become part of the ownCloud community</em>, sharing both ownership and responsibility for the product we collectively develop. Compare it to your responsibility for the functioning of your car: you regularly have to test it, or hire a garage for a checkup. It is yours, isn't it?</p>
-
-<a name="notcrippled"></a>
-<h3>Is ownCloud Server limited to a certain number of users or files and do I have to purchase something to get a 'full' version?</h3>
-<p>ownCloud is open source, so artificial limitations have no place in it. It can sustain the same number of users, downloads or data as a version equipped with enterprise apps and a support contract.</p>
 
 <h2>Technology</h2>
 <a name="rsync"></a>
@@ -190,6 +187,22 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <ul>
 	<li>Yes, but only under the <a href="https://www.owncloud.com" target="_blank">ownCloud Enterprise Edition</a>, which supports integration with proprietary technologies.</li>
 </ul>
+
+<a name="notcrippled"></a>
+<h3>Is ownCloud Server limited to a certain number of users or files and do I have to purchase something to get a 'full' version?</h3>
+<p>ownCloud is open source, so artificial limitations have no place in it. It can sustain the same number of users, downloads or data as a version equipped with enterprise apps and a support contract.</p>
+
+<a name="copyrightviolation"></a>
+<h3>I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</h3>
+<p>ownCloud is an open-source project that can be easily hosted by any person allowing anybody to securely exchange files. Neither the ownCloud open source project nor ownCloud Inc exert any legal or technical control over those domains. If you found a copyright infringement on domain other than owncloud.org or owncloud.com, please try to contact the domain owner. ownCloud has no insight or control over ownCloud instances.</p>
+
+<a name="modifyowncloud"></a>
+<h3>Can I modify ownCloud and run it on my website for others to use/access?</h3>
+<p>ownCloud Server is available <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">under the AGPLv3</a>. In laymen terms (this is NOT legal advice!) the AGPL license grants you the right to run the ownCloud code wherever and however you want, make modifications and additions and share these with anybody you like. The only limitation is that if you give others access to your ownCloud (by giving them a user account or sharing files with them), you must also give them access to the source code; and the whole source (including your modifications) has to be under the AGPLv3 license.</p>
+<p><strong>How to comply</strong></p>
+<p>If you have made no modifications to the ownCloud code, the easiest way to comply with the AGPL is to have a small link to owncloud.org and note that users can find the code there. If you have made modifications, contributing these to ownCloud is sufficient from our point of view. If you don't want or can't do that, you have to provide a way for users to download the modifications you made to ownCloud, including any apps you wrote or integrated. A link to a tarball, zip file or github repository is enough. Make sure they contain the copyright notice; the code has to be under the AGPLv3 or a compatible license like the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.</p>
+<p>Artwork is exempt from these restrictions: you can have a branded ownCloud installation which links to owncloud.org in a subtle (but visible!) way. You do NOT have to release your artwork under the AGPLv3.</p>
+<p>Contact a lawyer if you are unsure about any of this - the above is not legal advice and we can not provide such.</p>
 <h2>ownCloud Community</h2>
 <a name="communitylocation"></a>
 <h3>Where is the ownCloud community hosted?</h3>
@@ -228,10 +241,6 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h3>Where can I find ownCloud t-shirts, stickers and other swag?</h3>
 <p>ownCloud has a store on <a href="http://www.cafepress.com/owncloudshop" target="_blank">this page</a> where you can find posters, mugs, stickers, magnets, buttons, t-shirts and much more.</p>
 <p>If you are looking for materials for an ownCloud event or to use to promote ownCloud at a conference or trade show, see our <a href="/events" target="_blank">events pages</a> for information on what is available.</p>
-
-<a name="copyrightviolation"></a>
-<h3>I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</h3>
-<p>ownCloud is an open-source project that can be easily hosted by any person allowing anybody to securely exchange files. Neither the ownCloud open source project nor ownCloud Inc exert any legal or technical control over those domains. If you found a copyright infringement on domain other than owncloud.org or owncloud.com, please try to contact the domain owner. ownCloud has no insight or control over ownCloud instances.</p>
 
 <h2>ownCloud for professional use</h2>
 <a name="professionaluse"></a>
