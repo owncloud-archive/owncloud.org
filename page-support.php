@@ -21,22 +21,22 @@
     </tr>
     <tr>
       <td class="warning">Tutorials or how-to's</td>
-      <td class="warning">There is much content online about installing ownCloud. We collect a list on <a href="https://github.com/owncloud/core/wiki/Reviews-tutorials-and-videos-of-ownCloud"  target="_blank">this page</a> and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">YouTube channel collects video tutorials</a> but if what you are looking for is not there, <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">Google</a> or another search engine can find them easily.
+      <td class="warning">There is a lot of content online about installing ownCloud. We collect a list on <a href="https://github.com/owncloud/core/wiki/Reviews-tutorials-and-videos-of-ownCloud"  target="_blank">this page</a> and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">YouTube channel collects video tutorials</a> but if what you are looking for is not there, <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">Google</a> or another search engine can find them easily.
       </td>
-      <td class="warning">ownCloud.com has a section with <a href="http://owncloud.com/whitepapers" target="_blank">whitepapers</a> and <a href="https://owncloud.com/webinars" target="_blank">webinars</a>. If you want to evaluate if ownCloud offers what you need in your enterprise environment, check out the <a href="https://owncloud.com/datasheets/" target="_blank">Data sheets</a>.
+      <td class="warning">ownCloud.com has a <a href="https://owncloud.com/resources/" target="_blank">Resources section</a> with <a href="http://owncloud.com/whitepapers" target="_blank">whitepapers</a>, <a href="https://owncloud.com/webinars" target="_blank">webinars</a> and more. If you want to evaluate if ownCloud offers what you need in your enterprise environment, check out the <a href="https://owncloud.com/datasheets/" target="_blank">Data sheets</a>.
       </td>
     </tr>
     <tr>
       <td class="warning">Where to ask questions</td>
-      <td class="warning">you can ask for help in our community support channels:
+      <td class="warning">You can ask for help in our community support channels:
 	<ul>
 	    <li><a href="https://forum.owncloud.org" target="_blank">the ownCloud Forums</a></li>
 	    <ul>
 		<li>Note: The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
 	    </ul>
-	    <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud User mailing list</a></li>
+	    <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud user mailing list</a></li>
 	    <li><a href="irc://#owncloud@freenode.net" target="_blank">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=owncloud" target="_blank">webchat</a></li>
-	    <li>You can ask over our social media, including in the <a href="https://plus.google.com/communities/101550101068949663712" target="_blank">ownCloud Google Plus community</a>, the <a href="https://www.facebook.com/ownClouders" target="_blank">facebook page</a> or on <a href="https://twitter.com/search?q=%23owncloud&src=typd" target="_blank">twitter</a>
+	    <li>You can ask over our social media, including in the <a href="https://plus.google.com/communities/101550101068949663712" target="_blank">ownCloud Google Plus community</a>, the <a href="https://www.facebook.com/ownClouders" target="_blank">Facebook page</a> or on <a href="https://twitter.com/search?q=%23owncloud&src=typd" target="_blank">Twitter</a>
 	    <li>Finally, you could report a issue in the <a href="https://github.com/owncloud/core/issues" target="_blank">bug tracker</a> if you think you found a problem with ownCloud</li>
 	</ul>
 	<p>Please understand that all these channels essentially consist of users like you helping each other out. Consider helping others out where you can, to contribute back for the help you get. This is the only way to keep a community like ownCloud healthy and sustainable!</p>
@@ -44,7 +44,7 @@
       <td class="warning"><p>Find what you need to tune ownCloud performance and meet business requirements in our <a href="http://doc.owncloud.org" target="_blank">documentation</a> as well as the <a href="https://owncloud.com/resources/" target="_blank">other self-help resources</a> provided by ownCloud, Inc.</a>
 		<ul>
 		      <li>If you need file sync and share as provided by ownCloud Server and want the confidence of knowing that your ownCloud deployment is backed by technical expertise with 8x5 mail support, the <a href="https://owncloud.com/get-started-standard-subscription" target="_blank">Standard Subscription by ownCloud, Inc.</a> is a cost-effective solution which may meet your requirements.</li>
-		      <li>If you administer more complex deployments of ownCloud, servicing hundreds to hundreds of thousands of users, handling terabytes to Petabytes of data, require high availability and multi-server scaling, need integration in Enterprise infrastructure and/or have specific needs around compliance in regulated industries, <a href="https://owncloud.com/products/enterprise/" target="_blank">Enterprise Subscription from ownCloud, Inc.</a> is available with 12x5 email and phone support, additional <a href="https://owncloud.com/features" target="_blank">enterprise functionality</a> and deployment and branding tools and more. ownCloud, Inc. can also work with you to develop <a href="https://owncloud.com/subscriptions" target="_blank">custom support</a> that can include up to 24x7 coverage.</li>
+		      <li>If you administer more complex deployments of ownCloud, servicing hundreds to hundreds of thousands of users, handling terabytes to Petabytes of data, require high availability and multi-server scaling, need integration in enterprise infrastructure and/or have specific needs around compliance in regulated industries, <a href="https://owncloud.com/products/enterprise/" target="_blank">Enterprise Subscription from ownCloud, Inc.</a> is available with 12x5 email and phone support, additional <a href="https://owncloud.com/features" target="_blank">enterprise functionality</a> and deployment and branding tools and more. ownCloud, Inc. can also work with you to develop <a href="https://owncloud.com/subscriptions" target="_blank">custom support</a> that can include up to 24x7 coverage.</li>
 		      </ul>
 		</p>
       </td>
