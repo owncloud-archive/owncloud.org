@@ -40,11 +40,11 @@
 				<td><a target="_blank" href="http://2015.dorscluc.org/en/">DORSLUC website</a></td>
 			</tr>
 			<tr>
-				<th>Linuxwochen 2015 Wien</th>
-				<th>Viena, Austria</th>
-				<th>May 7-9 2015</th>
-				<th><a target="_blank" href="http://mailman.owncloud.org/mailman/listinfo/events">Bernhard Fröhler</a></th>
-				<th><a target="_blank" href="http://www.linuxwochen.at/Wien/">website</a></th>
+				<td>Linuxwochen 2015 Wien</td>
+				<td>Viena, Austria</td>
+				<td>May 7-9 2015</td>
+				<td><a target="_blank" href="http://mailman.owncloud.org/mailman/listinfo/events">Bernhard Fröhler</a></td>
+				<td><a target="_blank" href="http://www.linuxwochen.at/Wien/">website</a></td>
 			</tr>
 			<tr>
 				<td>ownCloud workshop at Happy Hacking Day 2015</td>
@@ -68,11 +68,11 @@
 				<td><a target="_blank" href="http://linuxfestnorthwest.org/2015">LinuxFest Northwest website</a></td>
 			</tr>
 			<tr>
-				<th>Cloud and ownCloud presentation at GreekLUG</th>
-				<th>Thessaloniki, Greece</th>
-				<th>April 5th</th>
-				<th>contact Efstathios Iosifidis via <a href="https://plus.google.com/events/clde2a4kdlbfedngqlof4feds5o">Google+ event page</a> or <a href="https://www.facebook.com/events/601862629958000/">Facebook event page</a></th>
-				<th><a target="_blank" href="http://www.greeklug.gr/">GreekLUG site</a></th>
+				<td>Cloud and ownCloud presentation at GreekLUG</td>
+				<td>Thessaloniki, Greece</td>
+				<td>April 5th</td>
+				<td>contact Efstathios Iosifidis via <a href="https://plus.google.com/events/clde2a4kdlbfedngqlof4feds5o">Google+ event page</a> or <a href="https://www.facebook.com/events/601862629958000/">Facebook event page</a></td>
+				<td><a target="_blank" href="http://www.greeklug.gr/">GreekLUG site</a></td>
 			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
