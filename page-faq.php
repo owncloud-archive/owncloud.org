@@ -60,20 +60,7 @@
 </ul>
 <a name="channels"></a>
 <h3>I have a problem, what do I do?</h3>
-If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a> does not help and <a href="https://www.google.com/search?q=owncloud+installation+problem" target="_blank">Google</a> can't solve your problem either, you can ask for help in our community support channels:
-<ul>
-	<li><a href="https://forum.owncloud.org" target="_blank">the ownCloud Forums</a></li>
-	<ul>
-		 <li>The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
-		 <li>There is often also a thread about common upgrade issues with new releases, see the <a href="https://forum.owncloud.org/viewtopic.php?f=31&t=26310" target="_blank">thread for ownCloud 8 here</a>.</li>
-	</ul>
-	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud User mailing list</a></li>
-	<li><a href="irc://#owncloud@freenode.net" target="_blank">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=owncloud" target="_blank">webchat</a></li>
-	<li>You can ask over our social media, including in the <a href="https://plus.google.com/communities/101550101068949663712" target="_blank">ownCloud Google Plus community</a>, the <a href="https://www.facebook.com/ownClouders" target="_blank">facebook page</a> or on <a href="https://twitter.com/search?q=%23owncloud&src=typd" target="_blank">twitter</a>
-	<li>Finally, you could report a issue in the <a href="https://github.com/owncloud/core/issues" target="_blank">bug tracker</a> if you think you found a problem with ownCloud</li>
-
-</ul>
-<p>Please understand that all these channels essentially consist of users like you helping each other out. Consider helping others out where you can, to contribute back for the help you get. This is the only way to keep a community like ownCloud healthy and sustainable!</p>
+<p>If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a> does not help and <a href="https://www.google.com/search?q=owncloud+installation+problem" target="_blank">Google</a> can't solve your problem either you should check out <a href="/support/">our support page</a>.</p>
 <p>If you are using ownCloud in a business, educational setting or other professional or large scale deployments, note that the <a href="#entcomparison">ownCloud, Inc.</a> offers support contracts.</p>
 
 <a name="chat"></a>
@@ -83,9 +70,9 @@ The best places for conversation are:
 	<li><a href="https://forum.owncloud.org" target="_blank">the ownCloud Forums</a></li>
 	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud User mailing list</a></li>
 </ul>
-<p>If you have a feature request or proposal which you can support with code, <a href="/contribute/" target="_blank">check out our contribute page</a>. You can put feature requests in the <a href="https://github.com/owncloud/core/issues" target="_blank">issue tracker</a> but please be aware that in open source projects like ownCloud, the constraint is rarely ideas or awareness of what can be improved but rather time to work on them. <a href="/contribute/" target="_blank">Contributing</a> is the best way of making change happen!</p>
-<p>Note that <a href="https://owncloud.org/blog/introducing-bounty-source-for-owncloud/" target="_blank">Bountysource</a> offers a way of backing feature requests with your wallet.</p>
-<p>If you want to connect with other ownCloud users and enthusiasts, check out our <a href="/promote" target="_blank">social media channels</a>.
+<p>If you have a feature request or proposal which you can support with code, <a href="/contribute/">check out our contribute page</a>. You can put feature requests in the <a href="https://github.com/owncloud/core/issues">issue tracker</a> but please be aware that in open source projects like ownCloud, the constraint is rarely ideas or awareness of what can be improved but rather time to work on them. <a href="/contribute/">Contributing</a> is the best way of making change happen!</p>
+<p>Note that <a href="https://owncloud.org/blog/introducing-bounty-source-for-owncloud/">Bountysource</a> offers a way of backing feature requests with your wallet.</p>
+<p>If you want to connect with other ownCloud users and enthusiasts, check out our <a href="/promote">social media channels</a>.
 
 <a name="upgrade"></a>
 <h3>I want to upgrade my ownCloud installation to the new release, how do I do that?</h3>
