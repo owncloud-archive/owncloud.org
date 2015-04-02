@@ -109,7 +109,7 @@
 				<td>SCALE 13x</td>
 				<td>Los Angelos, CA, USA</td>
 				<td>February 19-22 2015</td>
-				<td><a target="_blank" href="http://www.socallinuxexpo.org/scale13x/">SCALE website</a> (<a href="https://owncloud.org/blog/owncloud-at-fosdem-2015-and-scale13x/">report</a>)</td>
+				<td><a target="_blank" href="http://www.socallinuxexpo.org/scale13x/">SCALE website</a> (<a target="_blank" href="https://owncloud.org/blog/owncloud-at-fosdem-2015-and-scale13x/">report</a>)</td>
 			</tr>
 			<tr>
 				<td>GNUify.in</td>
@@ -121,7 +121,7 @@
 				<td>FOSDEM 2015</td>
 				<td>Brussels, Belgium</td>
 				<td>January 31 and February 1</td>
-				<td><a target="_blank" href="https://fosdem.org/2015/">FOSDEM 2014</a> (<a target="_blank" href="https://owncloud.org/blog/owncloud-at-fosdem-2015-and-scale13x/" target="_blank">report</a>)</td>
+				<td><a target="_blank" href="https://fosdem.org/2015/">FOSDEM 2014</a> (<a target="_blank" href="https://owncloud.org/blog/owncloud-at-fosdem-2015-and-scale13x/">report</a>)</td>
 			</tr>
 			</table>
 
