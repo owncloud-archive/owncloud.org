@@ -194,7 +194,7 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 
 <a name="copyrightviolation"></a>
 <h3>I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</h3>
-<p>ownCloud is an open-source project that can be easily hosted by any person allowing anybody to securely exchange files. Neither the ownCloud open source project nor ownCloud Inc exert any legal or technical control over those domains. If you found a copyright infringement on domain other than owncloud.org or owncloud.com, please try to contact the domain owner. ownCloud has no insight or control over ownCloud instances.</p>
+<p>ownCloud is an open-source project that can be easily hosted by any person allowing anybody to securely exchange files. Neither the ownCloud open source project nor ownCloud, Inc. exert any legal or technical control over those domains. If you found a copyright infringement on a domain other than <a href="http://owncloud.org" target="_blank">owncloud.org</a> or <a href="http://owncloud.com" target="_blank">owncloud.com</a>, please try to contact the domain owner. ownCloud has no insight or control over ownCloud instances.</p>
 
 <a name="modifyowncloud"></a>
 <h3>Can I modify ownCloud and run it on my website for others to use/access?</h3>
