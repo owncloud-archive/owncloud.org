@@ -2,7 +2,7 @@
 <div class="page-header">
 	<h1>Where to find help</h1>
 </div>
-<p>If you can not find the answers you are looking for <a href="htts://doc.owncloud.org" target="_blank">in our documentation</a> or our <a href="/faq" target="_blank">Frequently Asked Questions</a>, you can find help in our support channels.</p>
+<p>If you can not find the answers you are looking for <a href="https://doc.owncloud.org" target="_blank">in our documentation</a> or our <a href="/faq" target="_blank">Frequently Asked Questions</a>, you can find help in our support channels.</p>
   <table class="table table-striped">
     <tr>
       <td class="active" style="min-width:150px"></td>
