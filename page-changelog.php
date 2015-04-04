@@ -13,8 +13,10 @@
 <li>Detect broken APC versions</li>
 <li>Fix certain incompatibilities with older PHP 5.4 versions</li>
 <li>Several smaller fixes</li>
-Download: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2">https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.md5">https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.md5</a></br>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2">owncloud-8.0.2.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.2.zip">owncloud-8.0.2.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.md5">owncloud-8.0.2.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.2.zip.md5">owncloud-8.0.2.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.sha256">owncloud-8.0.2.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.2.zip.sha256">owncloud-8.0.2.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.asc">owncloud-8.0.2.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.2.zip.asc">owncloud-8.0.2.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Release 7.0.5 <small>March 11th 2015</small></h3>
@@ -36,8 +38,10 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Check if files are deletable before trying to delete them</li>
 <li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
 <li>Several smaller fixes</li>
-Download: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5</a></br>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2">owncloud-7.0.5.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.5.zip">owncloud-7.0.5.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5">owncloud-7.0.5.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.5.zip.md5">owncloud-7.0.5.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.sha256">owncloud-7.0.5.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.5.zip.sha256">owncloud-7.0.5.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.asc">owncloud-7.0.5.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.5.zip.asc">owncloud-7.0.5.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Release 6.0.7 <small>March 11th 2015</small></h3>
@@ -46,16 +50,20 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Better cleanup temporary files</li>
 <li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
 <li>Several smaller fixes</li>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.md5</a></br>
+Download: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2">owncloud-6.0.7.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.7.zip">owncloud-6.0.7.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.md5">owncloud-6.0.7.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.7.zip.md5">owncloud-6.0.7.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.sha256">owncloud-6.0.7.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.7.zip.sha256">owncloud-6.0.7.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.asc">owncloud-6.0.7.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.7.zip.asc">owncloud-6.0.7.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Release 5.0.19 <small>March 11th 2015</small></h3>
 <li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
 <li>Several smaller fixes</li>
 <strong>Notice</strong>: this is the last 5.0.x release. Upgrading to a supported major release is highly recommended.</br>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.md5</a></br>
+Download: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2">owncloud-5.0.19.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip">owncloud-5.0.19.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.md5">owncloud-5.0.19.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip.md5">owncloud-5.0.19.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.sha256">owncloud-5.0.19.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip.sha256">owncloud-5.0.19.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.asc">owncloud-5.0.19.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip.asc">owncloud-5.0.19.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:5.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 8.0.0 <small>Feb 9th 2015</small></h3>
