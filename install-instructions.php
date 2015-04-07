@@ -109,6 +109,14 @@
 			        This charm installs Apache2, Apache-Mod-PHP5, and configures ownCloud with SQLite as a standalone server on an Ubuntu system.
 			      </div>
 			    </div>
+			    <div class="row">
+                              <div class="col-md-3">
+			        <a target="_blank" style="margin: 0 14px 0 7px;" href="https://www.en0ch.se/owncloud_/pre-configured-owncloud-installaton/"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/en0ch.png"></img></a>
+			      </div>
+			      <div class="col-md-9">
+			        Tech and Me provides a pre-configured ownCloud install with SSL (self-signed) enabled as a start-up script. The VM runs on Ubuntu 14.04 with Apache and MySQL, and is fully configured from start.
+			      </div>
+			    </div>
                         </div>
                         <div class="col-md-4">
 				      <div class="thumbnail">
