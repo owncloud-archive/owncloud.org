@@ -1,14 +1,16 @@
 <div class="row conf-header">
-	<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
-	<h2 class="conf-location">August 2014, Berlin</h2>
-<!--	<a href="/conf/register" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
-        <strong>The 2014 conference is over!</strong><br /> Read a <a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/">report on the event</a> and <br />watch this space for the conference in <strong>2015</strong>!
+	<div class="col-sm-6 col-sm-offset-3">
+		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
+		<h2 class="conf-location">August 28 - Sept 3 2015, Berlin</h2>
+		<a href="http://conference.owncloud.org" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
+		<h3>Bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
+	</div>
 </div>
 <div class="row conf-info">
 	<div class="col-sm-6">
 		<i class="icon-code"></i>
-		<h2>Hackathon</br><small>August 26-31</small></h2>
-		<p>For the second time, the awesome community behind ownCloud got together at the TU Berlin for 5 days of writing code and sharing beer, knowledge and inspiration. Work got done:</p>
+		<h2>Hackathon</br><small>August 28 - Sept 3</small></h2>
+		<p>For the third time, the awesominals behind ownCloud get together at the TU Berlin for a week of writing code and sharing beer, knowledge and inspiration. Work will get done:</p>
 		<ul>
 			<li>Coding (PHP, JS, C++)</li>
 			<li>Design &amp; Front-end</li>
@@ -16,37 +18,44 @@
 			<li>Translation &amp; Documentation</li>
 			<li>Marketing &amp; Promo</li>
 		</ul>
+		<p>To get an idea of the event, read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/" target="_blank">report on the ownCloud Contributor Conference 2014</a>.</p>
 	</div>
 	<div class="col-sm-6">
 		<i class="icon-comments-o"></i>
-		<h2>Techtalks &amp; Workshops</br><small>August 30</small></h2>
-		<p>The Conference Day on Saturday the 30th provided a chance to learn and improve coding skills on and around ownCloud.<br/>
-		There were keynotes, lightning talks and workshops:</p>
+		<h2>Techtalks &amp; Workshops</br><small>August 29</small></h2>
+		<p>The Conference Day on Saturday the 29th provides a chance to learn and improve coding skills on and around ownCloud.<br/>
+		There will be keynotes, lightning talks and workshops:</p>
 		<ul>
 			<li>Learn to write your first ownCloud Server App</li>
 			<li>Find out about the state of the Music, Files or Calendar app</li>
 			<li>Secure your PHP application</li>
 			<li>Connect your JS app to ownCloud</li>
 		</ul>
-		<p>You can watch <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96">videos of the talks on our youtube channel</a>.</p>
+		<p>Watch <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">the 2014 talks</a> on our youtube channel.</p>
+		<p>A call for papers will open in April.</p>
 	</div>
 </div>
-<!--<div class="row conf-info">
+<div class="row conf-info">
 	<div class="col-sm-6">
 		<h2>Location</h2>
-		<p>Our conference took place in Berlin at the <em>Technische Universität Berlin</em>, in the "Elektrotechnische Institute" building at Einsteinufer 17, Charlottenburg, 10587 Berlin.</p>
+		<p>Our conference will take place in Berlin at the <em>Technische Universität Berlin</em>, in the "Elektrotechnische Institute" building at Einsteinufer 17, Charlottenburg, 10587 Berlin.</p>
 		<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=13.32318127155304%2C52.51362881752727%2C13.330262303352356%2C52.5165081342206&amp;layer=mapnik&amp;marker=52.5150684994582%2C13.326721787452698"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51507&amp;mlon=13.32672#map=18/52.51507/13.32672">View Larger Map</a></small>
 	</div>
 	<div class="col-sm-6">
 		<h2>Register</h2>
-		<p>The ownCloud Contributor Conference was entirely open. We do ask you to <a href="/conf/register">register</a> to help us plan better for the event.</p>
+		<p>The ownCloud Contributor Conference will be entirely open and free. Registration will open in April, stay tuned!
+		We do ask you to <a href="http://conference.owncloud.org" target="_blank">register</a> to help us plan better for the event.
+		</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
-		<p>We had a series of recommendations but all are now booked. You can use <a href="http://findhotelsnearanaddress.com/">this site to find something close by</a>. At this time, <a href="http://www.aletto.de/en/kudamm">hotel aletto kudamm</a> is still available and affordable.</p>
+		<p>We'll come with recommended and discounted hotel options here soon!</p>
+
+
+<!-- 		We had a series of recommendations but all are now booked. You can use <a href="http://findhotelsnearanaddress.com/">this site to find something close by</a>. At this time, <a href="http://www.aletto.de/en/kudamm">hotel aletto kudamm</a> is still available and affordable.</p> -->
 		<h2>Code of conduct</h2>
 		<p>We want everybody to feel welcome at the event. Please be mindful of our <a href="https://owncloud.org/community/code-of-conduct/">code of conduct</a>. Also, please note that there will be video recording. The conference is an open space, please be sure that you are comfortable with that. Of course, you can always ask people not to take pictures or video of you.</p>
 	</div>
-</div>-->
-<div class="row conf-partners-title">
+</div>
+<!--<div class="row conf-partners-title">
 	<div class="col-md-12">
 		<h2>Conference Partners</h2>
 	</div>
@@ -69,12 +78,12 @@
 	<div class="col-xs-12 col-sm-4">
 		<a target="_blank" href="http://mozilla.org"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/mozilla-foundation-onblack.png" alt="Visit the Mozilla Foundation" /></a>
 	</div>
-</div>
+</div>-->
 <div class="row conf-about">
 	<div class="col-sm-6 col-sm-offset-3">
 		<h2>Thanks!</h2>
-		<p>The event was made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="httsp://owncloud.com">ownCloud Inc</a>.</p>
+		<p>The event is made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="httsp://owncloud.com">ownCloud Inc</a>.</p>
 		<h2>Spread the word!</h2>
-		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="https://twitter.com/ownclouders">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts">Google+</a>.</p>
+		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="https://twitter.com/ownclouders" target="_blank">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders" target="_blank">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts" target="_blank">Google+</a>. Find some <a href="https://github.com/owncloud/promo/tree/master/Contributor%20Conference" target="_blank">promo materials here</a>.</p>
 	</div>
 </div>
