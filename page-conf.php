@@ -2,7 +2,7 @@
 	<div class="col-sm-6 col-sm-offset-3">
 		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 		<h2 class="conf-location">August 28 - Sept 3 2015, Berlin</h2>
-		<a href="http://conference.owncloud.org" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
+		<a href="https://conference.owncloud.org/conference/oCC2015/register" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
 		<h3>Bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 	</div>
 </div>
@@ -44,7 +44,7 @@
 	<div class="col-sm-6">
 		<h2>Register</h2>
 		<p>The ownCloud Contributor Conference will be entirely open and free. Registration will open in April, stay tuned!
-		We do ask you to <a href="http://conference.owncloud.org" target="_blank">register</a> to help us plan better for the event.
+		We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register" target="_blank">register</a> to help us plan better for the event.
 		</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We'll come with recommended and discounted hotel options here soon!</p>

@@ -238,6 +238,7 @@ $( document ).ready(function() {
 		<div class="join">
 			 <a class="btn btn-block btn-lg join-button events-button" href="/promote" role="button">Connect with others</a>
 			 <a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
+			 <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">ownCloud Contributor Conference</a>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-6">
