@@ -28,6 +28,11 @@ It supports public links with password enforcement</li>
 <li>A huge amount of bug fixes in all areas of the client.</li>
 <li>almost 700 commits since 1.7.1</li>
 </ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.0.4893-setup.exe">Windows</a></br>
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.0.2139.pkg">Mac</a></br>
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a></br>
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.0.tar.bz2">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.0.tar.bz2.asc">PGP signature</a>)</br>
 
 <h3>Release 1.7.1 <small>Dec 18th 2014</small></h3>
 <ul>
@@ -57,6 +62,11 @@ It supports public links with password enforcement</li>
 <li>Win32: Upgraded to OpenSSL 1.0.1j</li>
 <li>Win32: Improve reliability of Installer, fix removal of Shell Extensions</li>
 </ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.1.4382-setup.exe">Windows</a></br>
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.1.1655.pkg">Mac</a></br>
+<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.1.tar.bz2">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.1.tar.bz2.asc">PGP signature</a>)</br>
+
 <h3>Release 1.7.0 <small>Nov 7th 2014</small></h3>
 <ul>
 <li>oC7 Sharing: Handle new sharing options of ownCloud 7 correctly.</li>
@@ -80,6 +90,10 @@ It supports public links with password enforcement</li>
 <li>OS X: Change distribution format from dmg to pkg with new installer.</li>
 <li>Win: Fix handling of filenames with trailing dot or space</li>
 </ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.0.4162-setup.exe">Windows</a></br>
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.0.1339.pkg">Mac</a></br>
+<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.0.tar.bz2">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.0.tar.bz2">PGP signature</a>)</br>
 
 <h3>Release 1.6.4 <small>Oct 23th 2014</small></h3>
 <ul>
