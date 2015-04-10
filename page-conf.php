@@ -81,9 +81,9 @@
 </div>-->
 <div class="row conf-about">
 	<div class="col-sm-6">
-		<h2>2014</h2>
-		<p>Last year the ownCloud Contributor Conference brought together 100 ownClouders to Berlin. Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/" target="_blank">report</a> to learn more and watch <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">the 2014 talks</a> on our youtube channel.</p>
-		<p><!--<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014.jpg" target="_blank">--><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014.jpg" style="width: 100%" alt="group photo" class="img-thumbnail aligncenter" /><!--</a>--></p>
+		<h2>Last year</h2>
+		<p>The ownCloud Contributor Conference 2014 brought together 100 ownClouders to Berlin. Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/" target="_blank">report</a> to learn more and watch <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">the 2014 talks</a> on our youtube channel.</p>
+		<p><!--<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014.jpg" target="_blank">--><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014.jpg" style="width: 95%" alt="group photo" class="aligncenter" /><!--</a>--></p>
 <!--		<iframe src="//www.youtube-nocookie.com/embed/srGYbsugEPc?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>-->
 	</div>
 	<div class="col-sm-6">
