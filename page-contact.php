@@ -1,13 +1,10 @@
 <?php get_template_part('templates/parts/title'); ?>
-<p>Join our <a href="https://webchat.freenode.net?channels=owncloud" target="_blank">#owncloud chat room</a>.
-
-For general questions and discussions, subscribe to our <a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">mailing list</a> or use our <a href="https://forum.owncloud.org" target="_blank">community forums</a>!
+If you want to talk to ownCloud users, contributors and fans, join the <a href="/promote" target="_blank">community conversation</a> over social media, the forums and other places. If you are looking for answers to questions, see <a href="/faq" target="_blank">the ownCloud FAQ</a> and our <a href="/support" target="_blank">support page</a>.
 
 For the latest news, subscribe to our <a href="https://owncloud.org/feed/">RSS feed</a>.</p>
 
 <p>For reporting vulnerabilities, read <a href="https://owncloud.org/security">Security</a>.</p>
 
-<p class="socialicons">Also find us on <a href="https://www.facebook.com/ownClouders">Facebook</a>, <a href="https://plus.google.com/107072838776436530705/about">Google+</a> and <a href="http://twitter.com/ownclouders"><img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitter.png" width="16px" height="16px" /> Twitter</a>.</p>
 <h2>Active contributors on the <a href="../news">ownCloud blog roll</a>:</h2>
 
 <?php
@@ -36,4 +33,4 @@ if(CONTRIBOOK) {
 
 }
 ?>
-Ping the community manager  on IRC (nick: jospoortvliet) or <a href="https://plus.google.com/117563705675081959469">G+, mail etc</a> to be added.
+Ping the community manager  on IRC (nick: jospoortvliet) or <a href="https://plus.google.com/117563705675081959469">G+</a>.
