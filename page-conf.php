@@ -3,7 +3,7 @@
 		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 		<h2 class="conf-location">August 28 - Sept 3 2015, Berlin</h2>
 		<a href="https://conference.owncloud.org/conference/oCC2015/register" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
-		<h3>Bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
+		<h3>The annual ownCloud Contributor Conference brings ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 	</div>
 </div>
 <div class="row conf-info">
@@ -22,8 +22,8 @@
 	</div>
 	<div class="col-sm-6">
 		<i class="icon-comments-o"></i>
-		<h2>Techtalks &amp; Workshops</br><small>August 29</small></h2>
-		<p>The Conference Day on Saturday the 29th provides a chance to learn and improve coding skills on and around ownCloud.<br/>
+		<h2>Techtalks &amp; Workshops</br><small>August 29-30</small></h2>
+		<p>The Conference Days on Saturday and Sunday provide a chance to learn and improve coding skills on and around ownCloud.<br/>
 		There will be keynotes, lightning talks and workshops:</p>
 		<ul>
 			<li>Learn to write your first ownCloud Server App</li>
@@ -80,7 +80,13 @@
 	</div>
 </div>-->
 <div class="row conf-about">
-	<div class="col-sm-6 col-sm-offset-3">
+	<div class="col-sm-6">
+		<h2>2014</h2>
+		<p>Last year the ownCloud Contributor Conference brought together 100 ownClouders to Berlin. Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/" target="_blank">report</a> to learn more and watch <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">the 2014 talks</a> on our youtube channel.</p>
+		<p><!--<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014.jpg" target="_blank">--><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014.jpg" style="width: 100%" alt="group photo" class="img-thumbnail aligncenter" /><!--</a>--></p>
+<!--		<iframe src="//www.youtube-nocookie.com/embed/srGYbsugEPc?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>-->
+	</div>
+	<div class="col-sm-6">
 		<h2>Thanks!</h2>
 		<p>The event is made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="httsp://owncloud.com">ownCloud Inc</a>.</p>
 		<h2>Spread the word!</h2>
