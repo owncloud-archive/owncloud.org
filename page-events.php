@@ -71,6 +71,13 @@
 				<td><a target="_blank" href="https://conference.opensuse.org/">oSC website</a></td>
 			</tr>
 			<tr>
+				<td>ownCloud talk, booth at FLISOL 2015, Paraguay</td>
+				<td>UPE University City Pdtes. Franco, Alto Paraná - Paraguay</td>
+				<td>April 25 2015</td>
+				<td><a target="_blank" href="mailto:stbnruiz001REMOVETHISPLEASE@AGAINSTSPAMgmail.com">Esteban Ruiz Diaz</a></td>
+				<td><a target="_blank" href="http://flisol.info/FLISOL2015/Paraguay/AltoParana">AltoParana website</a></td>
+			</tr>
+			<tr>
 				<td>ownCloud talk at LinuxFest Northwest</td>
 				<td>Bellingham, WA, USA</td>
 				<td>April 25-26 2015</td>
