@@ -15,17 +15,18 @@
 		<script type="text/javascript" src="http://www.meetup.com/embed/largest/owncloud/"></script>
 		<p>Find the next Meetup dates and more on <a target="_blank" href="http://owncloud.meetup.com/">owncloud.meetup.com</a></p>
 		<div class="row" style="text-align: center">
-			<a target="_blank" href="http://owncloud.meetup.com/" class="btn btn-lg btn-default">
+			<p><a target="_blank" href="http://owncloud.meetup.com/" class="btn btn-lg btn-default">
 			<i class="icon-group"></i> Join a Meetup!</a>
 			<a target="_blank" href="/events/meetups" class="btn btn-lg btn-default">
-			<i class="icon-lightbulb-o"></i> Organize a Meetup!</a>
-			<a target="_blank" href="/conf/" class="btn btn-lg btn-primary">
-			<i class="icon-code"></i> ownCloud Contributor Conference!</a>
+			<i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>
+			<p><a target="_blank" href="/conf/" class="btn btn-lg btn-primary">
+			<i class="icon-code"></i> ownCloud Contributor Conference!</a></p>
 		</div>
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/product_demo.jpg" style="width: 400px" title="Picture by Dragotin from CLT14" alt="Picture by Dragotin from CLT14" class="img-thumbnail alignright">
 		<h2>Conferences</h2>
 		<p>ownCloud community members everywhere organize ownCloud presence at trade shows and conferences to present our community and technology to visitors.
 			Below a list of upcoming tradeshows and conferences where you can find ownCloud represented!</p>
+			<p>If have business questions and would like to meet ownCloud, Inc. at an event, check out the <a href="https://owncloud.com/events/event/">events page on owncloud.com</a>.
 		<table class="table table-striped">
 			<tr>
 				<th>Event</th>
@@ -68,6 +69,13 @@
 				<td>May 1-4 2015</td>
 				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
 				<td><a target="_blank" href="https://conference.opensuse.org/">oSC website</a></td>
+			</tr>
+			<tr>
+				<td>ownCloud talk, booth at FLISOL 2015, Paraguay</td>
+				<td>UPE University City Pdtes. Franco, Alto Paraná - Paraguay</td>
+				<td>April 25 2015</td>
+				<td><a target="_blank" href="mailto:stbnruiz001REMOVETHISPLEASE@AGAINSTSPAMgmail.com">Esteban Ruiz Diaz</a></td>
+				<td><a target="_blank" href="http://flisol.info/FLISOL2015/Paraguay/AltoParana">AltoParana website</a></td>
 			</tr>
 			<tr>
 				<td>ownCloud talk at LinuxFest Northwest</td>
