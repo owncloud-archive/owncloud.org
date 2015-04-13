@@ -9,7 +9,7 @@
 <div class="row">
 	<div class="col-md-12">
 		<p>ownCloud community members can organize ownCloud presence at trade shows and conferences to present our community and technology.</p>
-			<p>Want to see ownCloud at an event? Below you will find materials you can use and practical tips on how to make it happen.</p>
+			<p>Want to show ownCloud to visitors at an event? Below you will find materials you can use and practical tips on how to make it happen.</p>
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/materials.jpg" style="width: 400px" 
 						title="You can order these materials!" alt="You can order these materials!" class="img-thumbnail alignright">
 
@@ -19,8 +19,9 @@
 			<li>Our page with tips and tricks on creating and giving a great presentation <a href="speaking/">here</a>.</li>
 			<li>Flyers, stickers, posters and logos can be found <a  target="_blank" href="https://github.com/owncloud/promo">here</a>. Please do follow the branding guidelines on that page!</li>
 			<li>videos can be found on our <a target="_blank" href="http://www.youtube.com/ownclouders">YouTube channel</a>.</li>
-			<li>Here is our <a  target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/files/FAQ.pdf">conference team FAQ</a> and
-			some <a  target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/files/TalkingPoints.pdf">conference talking points</a>.</li>
+			<li>Here is our <a href="/faq">FAQ</a>, which should help you answer the vast majority of questions visitors might have.
+			<!--and some <a  target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/files/TalkingPoints.pdf">conference talking points</a>.-->
+			</li>
 			<li><em>Get some goodies</em><br />
 				We can send you some materials like stickers and flyers for your booth. 
 				<a target="_blank"  href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request
@@ -107,7 +108,7 @@
 		<ul>
 			<li>For setting up the meetup page, sharing the news on the upcoming event or a report from the previous one or any other questions, <a href="/events/contactform">contact us</a>.</li>
 			<li><strong>Share what you are did</strong>! It is great if you share what you did at the conference or trade show with the international community. Blog about it, put some pictures on line and 
-				<a href="/events/contactform">let us know</a> what you have been up to!</li>
+			<a href="/events/contactform">let us know</a> what you have been up to!</li>
 		</ul>
 	</div>
 </div>

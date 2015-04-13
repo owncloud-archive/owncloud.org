@@ -9,6 +9,8 @@
 		sync and share across devices easily—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and works with any storage.
 		</p>
 		<p><a href="/install" class="btn btn-lg btn-primary">Install ownCloud Server 8 now</a></p>
+		<br/>
+		<p>Looking for <a href="https://owncloud.com/features/" target="_blank">enterprise features</a>?</p>
 	</div>
 </div>
 </div></div><!-- end main -->
