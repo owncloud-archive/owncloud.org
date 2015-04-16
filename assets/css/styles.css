@@ -250,6 +250,7 @@ div.row.home-row h2 {
 	border: 1px solid #428BCA;
 	font-weight: 700;
 }
+
 .content.row, .row.row-slogan {
 	margin-top: 0;
 }
@@ -276,31 +277,30 @@ a.join-button {
 	padding-bottom: 0 !important;
 }
 
+@media (min-width: 1600px) {
+/* trust row with 6 items */
+	body.home div.trustrow {
+	  width: 980px;
+	  margin-left: 30px;
+	}
+}
+
+@media (max-width: 1599px) and (min-width: 1200px) {
+/* trust row with 4 items */
+  body.home div.trustrow {
+    width: 980px;
+    margin-left: 30px;
+  }
+}
+
 @media (max-width: 1199px) {
 	.home #getapps .client-install {
 		margin-top: 10px;
 	}
-}
-
-@media (max-width: 767px) {
-	.home #getapps .client-install, .home #getapps .btn-group, .home #getapps h2 {
-		margin-top: 0;
-	}
-
-	a.home-ent-button {
-		display: block;
-		width: 290px;
-		margin: 10px auto 0 auto !important;
-	}
-
-	div#getapps div.install-buttons {
-		margin-bottom: 40px;
-	}
-}
-
-@media (max-width: 562px) {
-	.home #getapps .client-install {
-		margin-top: 10px;
+	/* trust row with 3 items */
+	body.home div.trustrow {
+	  width: 780px;
+	  margin-left: 30px;
 	}
 }
 
@@ -320,7 +320,46 @@ a.join-button {
 	.home h2.slogan-mobile {
 		display: block !important;
 	}
+
+	/* trust row with 3 items */
+	body.home div.trustrow {
+	  width: 580px;
+/* 	  margin-left: 30px; */
+
+	}
  }
+
+@media (max-width: 767px) {
+	.home #getapps .client-install, .home #getapps .btn-group, .home #getapps h2 {
+		margin-top: 0;
+	}
+
+	a.home-ent-button {
+		display: block;
+		width: 290px;
+		margin: 10px auto 0 auto !important;
+	}
+
+	div#getapps div.install-buttons {
+		margin-bottom: 40px;
+	}
+
+	/* trust row with 2 items */
+	body.home div.trustrow {
+	  width: 380px;
+	  margin-left: 80px;
+	}
+}
+
+@media (max-width: 562px) {
+	.home #getapps .client-install {
+		margin-top: 10px;
+	}
+	/* trust row with 1 item */
+	body.home div.trustrow {
+	  width: 180px
+	}
+}
 
 .home .home-row a.feature-link {
 	margin-bottom: 30px;
