@@ -22,19 +22,44 @@ foreach($providers as $provider) {
 
 ?>
 
+<p>You can <a href="/install/">run your own ownCloud server</a> but also opt for a hosted solution. The ability to pick a provider and jurisdiction gives you the option to balance cost, convenience, privacy and security. Select below one of the most popular ownCloud providers or <a href="#all" rel="tooltip" title="All providers" id="alltogether1" data-toggle="popover">see them all</a>.</p>
 
 <div class="row col-xs-12">
-	<h2>Supported Providers</h2>
+	<h2>Most popular Providers</h2>
 </div>
-<?php displayProviders($supportedProviders); ?>
-<div class="row col-xs-12">
-	<h2>Free Plans</h2>
+<p>Here go the most popular providers.</p>
+<p><a class="btn btn-default btn-lg" role="button" href="#all" rel="tooltip" title="All providers" id="alltogether2" data-toggle="popover">See all</a> </p>
+
+<hr></hr>
+<div class="alert alert-info">If you offer ownCloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. To find out more about becoming an enterprise provider with a support contract from <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> please see <a target="_blank" href="https://owncloud.com/products/service-provider">their website</a>.</div>
+
+
+
+<div class="installers">
+  <div id="all" class="container row PopupProviders">
+    <div class="instructions">
+      <a href="#" class="close">&times;</a>
+      <h2>All providers</h2>
+      <div class="row col-xs-12 ">
+	  <h3>Supported Providers</h3>
+      </div>
+      <?php displayProviders($supportedProviders); ?>
+      <div class="row col-xs-12">
+	  <h3>Free Plans</h3>
+      </div>
+      <?php displayProviders($freeProviders, true); ?>
+      <div class="row col-xs-12">
+	  <h3>Other Providers</h3>
+      </div>
+      <?php displayProviders($otherProviders); ?>
+    </div>
+  </div>
+  <a href="#" class="mask"></a>
 </div>
-<?php displayProviders($freeProviders, true); ?>
-<div class="row col-xs-12">
-	<h2>Other Providers</h2>
-</div>
-<?php displayProviders($otherProviders); ?>
+<!-- </div> -->
+
+
+
 <?php
 
 function displayProviders($providers, $free=false) {
@@ -76,5 +101,3 @@ function displayProviders($providers, $free=false) {
 }
 
 ?>
-<div class="alert alert-info">If you offer ownCloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. To find out more about becoming an enterprise provider with a support contract from <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> please see <a target="_blank" href="https://owncloud.com/products/service-provider">their website</a>.</div>
-

@@ -667,3 +667,73 @@ body.install a.btn-lg {
 	}
 
 }
+
+/* providers page popup */
+
+body.providers div.PopupProviders {
+  height: auto%;
+  margin: 0 auto;
+  color: #1D2D44;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+body.providers div.PopupProviders div.row{
+  margin: 0;
+}
+body.providers div.PopupProviders div.instructions{
+  background: #F6F6F6;
+  margin-top: 150px !important;
+  padding: 10px;
+  border-radius: 4px;
+}
+body.providers a.mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(29, 45, 68, 0.5);
+  z-index: 500;
+  display: none;
+}
+body.providers .overlay-header {
+  background-color: #EFEFEF;
+}
+body.providers .overlay-header h3 {
+  margin-left: 15px;
+}
+body.providers .overlay-header a.close {
+  margin-right: 15px;
+}
+body.providers .overlay-body {
+  padding-top: 10px;
+}
+body.providers .overlay-footer {
+  background-color: #EFEFEF;
+}
+body.providers .overlay-footer a.btn {
+  float: right;
+  margin-right: 15px;
+}
+body.providers .overlay-footer p {
+  margin-bottom: 0px;
+}
+body.providers div.PopupProviders:target, body.providers div.PopupProviders:target+a.mask{
+  display: block;
+  opacity: 1;
+}
+body.providers .close {
+  color: #CE5B00;
+  font-size: 1.75em;
+  opacity: 0.8;
+}
+body.providers .close:hover, body.providers .close:focus {
+  opacity: 1;
+}
+body.providers a.btn-lg {
+  font-size: 16px;
+}
