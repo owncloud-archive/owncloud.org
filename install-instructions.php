@@ -12,13 +12,13 @@
                           <li id="li-tab-archive" class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> Archive File<br><small>For server owners</small></a></li>
                           <li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li>
                           <li id="li-tab-packages"><a href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-linux"></i> Packages<br><small>For auto updates</small></a></li>
-                          <li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> Images<br><small>For cloud deployment</small></a></li>
+                          <li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> VM Images<br><small>For cloud deployment</small></a></li>
                       </ul>
                   </div>
                   <br>
                   <div class="overlay-header row">
                     <p>Latest stable version:  <span class="label label-success"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a href="/changelog"><small>Changelog</small></a>)</br>
-                    <p>ownCloud can be installed on Linux operating systems, and is available via packages, sources, images or a one file php installer.</p>
+                    <p>ownCloud can be installed on Linux operating systems, and is available via packages, sources, virtual images or a one file php installer.</p>
                   </div>
                   <div  class="tab-content">
                       <div id="tab-archive" role="tabpanel" class="tab-pane active">
@@ -71,7 +71,7 @@
                             <p>The repositories allow you to stay on an up-to-date version of ownCloud using your distributions’ update mechanism, with packages maintained by the ownCloud community.</p>
                             <p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</br>
                             If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a> for moving to new ownCloud releases.</p>
-                            <br/><a class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br>
+                            <br/><a class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br></br>
                         </div>
                         <div class="col-md-6">
 				      <div class="thumbnail">
@@ -90,7 +90,7 @@
 			        <a target="_blank" style="margin: 0 14px 0 7px;" href="https://susestudio.com/a/TadMax/owncloud-in-a-box"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/susestudio.png"></img></a>
 			      </div>
 			      <div class="col-md-9">
-			        Offers live USB stick, liveCD and preload ISO images, vmdk, ovf, img, vhd and qcow2 images. Logged in users can testdrive ownCloud.
+			        Offers live USB stick, liveCD and preload ISO images as well as images for VMware (ESX<em>i</em>), VirtualBox, IBM SmartCloud, XEN, Oracle VM and KVM-based hypervisors, Microsoft Hyper-V servers and OpenStack clouds.
 			      </div>
 			    </div>
 			    <div class="row">
@@ -98,7 +98,7 @@
                                 <a target="_blank" style="margin: 0 14px 0 7px;" href="https://bitnami.com/stack/owncloud"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/bitnami.png"></img></a>
                               </div>
 			      <div class="col-md-9">
-			    Offers direct deployment to Google Cloud, Amazon AWS and Microsoft Azure, local install, Docker images, VMware images and installers for Windows, Linux and Mac.
+			    Offers direct deployment to Google Cloud, Amazon AWS and Microsoft Azure, local install, Docker images, VMware images and installers for Linux and Mac.
 			      </div>
 			    </div>
 			    <div class="row">
