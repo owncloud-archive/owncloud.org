@@ -1,5 +1,5 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
-
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/tinycarousel.css" type="text/css" media="screen"/>
 <!-- Teaser Area -->
 <div class="container teaser-area">
 	<div class="row">
@@ -231,14 +231,16 @@ $( document ).ready(function() {
 		</div>
 	</div>
 </div>
-<div class="row pad-bottom	 2-column-lg-md-sm" style="margin-top: -0.5em">
+
+
+<div class="row pad-bottom 2-column-lg-md-sm" style="margin-top: -0.5em">
 	<div class="col-xs-12 col-sm-6">
 		<h2><i class="icon-rocket">&nbsp;</i> Join the ownCloud community</h2>
 		<p>Join a large and growing community discussing ownCloud and sharing their experiences. Meet other enthusiasts at events and online!</p>
 		<div class="join">
 			 <a class="btn btn-block btn-lg join-button events-button" href="/promote" role="button">Connect with others</a>
 			 <a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
-			 <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">ownCloud Contributor Conference</a>
+			 <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Contributor Conference</a>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-6">
@@ -250,6 +252,41 @@ $( document ).ready(function() {
 		</div>
 	</div>
 </div>
+
+</div></div></div><!-- end main -->
+<div class="feature-wide-row-wrap">
+    <div class="wrap container pad-bottom">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2><i class="icon-heart">&nbsp;</i> we trust ownCloud</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
+			  <a href="http://home.web.cern.ch/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/cern.png" alt="The Atom Smashers in Switzerland" /></a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
+			<a href="http://www.tu-berlin.de/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/TUB.png" alt="Technische Universität Berlin and home of the ownCloud Contributor Conference" /></a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
+			<a href="https://www.surf.nl/en/about-surf" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/surf.png" alt="SURF - Dutch ICT Research collaboration" /></a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
+			  <img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/test.png" alt="cern is awesome" />
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
+			  <img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/test.png" alt="cern is awesome" />
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
+			  <img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/test.png" alt="cern is awesome" />
+			</div>
+		</div>
+    </div>
+</div>
+<hr>
+<div class="wrap container content">
+<!--	<div class="content row">-->
+
 <div class="row 3-column-lg-md-sm">
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-twitter"></i> The latest twitter posts</h2>
@@ -264,3 +301,14 @@ $( document ).ready(function() {
 		<?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,7); } ?>
 	</div>
 </div>
+
+
+<!-- Tiny caroussel -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.tinycarousel.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('#slider1').tinycarousel();
+		});
+	</script>
