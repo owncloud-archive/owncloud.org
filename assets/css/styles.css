@@ -56,9 +56,7 @@ div.footer-social-icons img {
 	width: 250px;
 }
 
-@media (min-width: 1600px) {
-/* trust row with 6 items */
-}
+
 
 .banner ul#menu-header.nav>li.menu-get-owncloud {
 	padding: 0 0 0 15px;
@@ -94,7 +92,6 @@ p.socialicons > a > img {
 div.thumbnail > img {
 	margin-bottom: 0;
 }
-
 
 .home div.wrap > .content {
 	background-size: 85% auto;

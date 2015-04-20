@@ -256,7 +256,7 @@ $( document ).ready(function() {
 <div class="wrap container pad-bottom">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<h2>TRUSTED by hundreds of organizations worldwide</h2>
+				<h2>Trusted by hundreds of organizations worldwide</h2>
 			</div>
 		</div>
 		<div class="row">
@@ -279,7 +279,7 @@ $( document ).ready(function() {
 			  <a href="https://www.hawaii.edu/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni" /></a>
 			</div>
 		</div>
-		<div><p>Learn about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p></div>
+		<div class="text-center"><p>Learn about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p></div>
     </div>
 <hr>
 
