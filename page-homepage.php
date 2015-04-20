@@ -273,7 +273,7 @@ $( document ).ready(function() {
 			  <a href="http://www.delonghi.com/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/delongi.png" alt="DeLongi is a major Italian appliance manufacturer" /></a>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
-			  <a href="" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/amnesty.png" alt="Amnesty Germany" /></a>
+			  <a href="https://www.amnesty.de/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/amnesty.png" alt="Amnesty Germany" /></a>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
 			  <a href="https://www.hawaii.edu/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni" /></a>
