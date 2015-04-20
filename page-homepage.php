@@ -267,7 +267,7 @@ $( document ).ready(function() {
 			<a href="http://www.tu-berlin.de/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/TUB.png" alt="Technische Universität Berlin and home of the ownCloud Contributor Conference" /></a>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
-			<a href="http://www.ard.de/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/ard.png" alt="Germany's regional public-service broadcasters" /></a>
+			<a href="www.bauhaus.info/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/bauhaus.png" alt="Swiss retail chain offering products for home improvement, gardening and workshop" /></a>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
 			  <a href="http://www.delonghi.com/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/delongi.png" alt="DeLongi is a major Italian appliance manufacturer" /></a>
