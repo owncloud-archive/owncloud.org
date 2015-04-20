@@ -52,5 +52,5 @@ $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/communi
 // Mobile clients
 $DOWNLOAD_CLIENT_MOBILE_IOS = 'https://itunes.apple.com/us/app/owncloud/id543672169?ls=1&mt=8';
 $DOWNLOAD_CLIENT_MOBILE_ANDROID = 'https://play.google.com/store/apps/details?id=com.owncloud.android';
-
+$DOWNLOAD_CLIENT_MOBILE_BLACKBERRY = 'https://appworld.blackberry.com/webstore/content/59955931/';
 ?>

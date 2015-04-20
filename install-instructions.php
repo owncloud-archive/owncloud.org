@@ -176,6 +176,9 @@
                             <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
                               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
                             </a>
+                            <a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_BLACKBERRY; ?>">
+                              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/blackberry.png">
+                            </a>
                             <br />
                             <p>Looking for the <a href="https://github.com/owncloud/android">Android</a> or <a href="https://github.com/owncloud/ios">iOS sources</a>? Looking for <a href="http://f-droid.org/app/com.owncloud.android">F-Droid</a>?</p>
                         </div>
