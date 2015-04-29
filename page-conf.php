@@ -5,6 +5,9 @@
 		<a href="https://conference.owncloud.org/conference/oCC2015/register" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 	</div>
+	<div class="text-center">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/QwgBVhU60IM?theme=light" frameborder="0" allowfullscreen></iframe>
+	</div>
 </div>
 <div class="row conf-info">
 	<div class="col-sm-6">
@@ -32,8 +35,9 @@
 			<li>Connect your JS app to ownCloud</li>
 		</ul>
 		<p>Watch <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">the 2014 talks</a> on our youtube channel.</p>
-		<p>A call for papers will open in April.</p>
+		<p>A call for papers will open in May.</p>
 	</div>
+
 </div>
 <div class="row conf-info">
 	<div class="col-sm-6">

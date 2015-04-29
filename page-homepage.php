@@ -252,7 +252,9 @@ $( document ).ready(function() {
 		</div>
 	</div>
 </div>
-
+	<div class="text-center">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/QwgBVhU60IM?theme=light" frameborder="0" allowfullscreen></iframe>
+	</div>
 <div class="wrap container pad-bottom">
 		<div class="row">
 			<div class="col-md-12 text-center">
