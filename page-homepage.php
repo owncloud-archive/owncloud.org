@@ -231,15 +231,13 @@ $( document ).ready(function() {
 		</div>
 	</div>
 </div>
-
-
-<div class="row pad-bottom 2-column-lg-md-sm" style="margin-top: -0.5em">
+<div class="row 2-column-lg-md-sm pad-bottom">
 	<div class="col-xs-12 col-sm-6">
 		<h2><i class="icon-rocket">&nbsp;</i> Join the ownCloud community</h2>
 		<p>Join a large and growing community discussing ownCloud and sharing their experiences. Meet other enthusiasts at events and online!</p>
 		<div class="join">
-			 <a class="btn btn-block btn-lg join-button events-button" href="/promote" role="button">Connect with others</a>
-			 <a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
+			<a class="btn btn-block btn-lg join-button events-button" href="/promote" role="button">Connect with others</a>
+			<a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-6">
@@ -251,6 +249,7 @@ $( document ).ready(function() {
 		</div>
 	</div>
 </div>
+
 <div class="wrap container pad-bottom">
 	<div class="row">
 		<div class="col-md-12 text-center">
@@ -262,7 +261,13 @@ $( document ).ready(function() {
 			  <iframe width="560" height="315" src="https://www.youtube.com/embed/TbHcJ_isvk0?theme=light" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
+	<div class="row pad-bottom">
+		<div class="col-md-12 text-center">
+			  <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Learn more and register!</a>
+		</div>
+	</div>
 </div>
+
 <div class="wrap container pad-bottom">
 		<div class="row">
 			<div class="col-md-12 text-center">
@@ -289,8 +294,9 @@ $( document ).ready(function() {
 			  <a href="https://www.hawaii.edu/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni" /></a>
 			</div>
 		</div>
-		<div class="text-center"><p>Learn about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p></div>
-    </div>
+	<div class="text-center"><p>Learn about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p>
+	</div>
+</div>
 <hr>
 
 <div class="row 3-column-lg-md-sm">

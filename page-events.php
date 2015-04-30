@@ -33,6 +33,11 @@
 			  <iframe width="560" height="315" src="https://www.youtube.com/embed/TbHcJ_isvk0?theme=light" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
+	<div class="row pad-bottom">
+		<div class="col-md-12 text-center">
+			  <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Learn more and register!</a>
+		</div>
+	</div>
 </div>
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/product_demo.jpg" style="width: 400px" title="Picture by Dragotin from CLT14" alt="Picture by Dragotin from CLT14" class="img-thumbnail alignright">
 		<h2>Conferences</h2>
