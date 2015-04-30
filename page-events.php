@@ -67,18 +67,18 @@
 				<td><a target="_blank" href="http://2015.dorscluc.org/en/">DORSLUC website</a></td>
 			</tr>
 			<tr>
+				<td>ownCloud workshop at TechMinistry</td>
+				<td>Thessaloniki, Greece</td>
+				<td>May 10 2015</td>
+				<td>Stathis</td>
+				<td><a target="_blank" href="http://wiki.techministry.gr/index.php/OwnCloud_Workshop">wiki</a>, <a target="_blank" href="hhttps://plus.google.com/events/c78ap075bb4falrnmg3v0knmtao">G+</a> and <a target="_blank" href="https://www.facebook.com/events/1462326250725901/">Facebook</a></td>
+			</tr>
+			<tr>
 				<td>Linuxwochen 2015 Wien</td>
 				<td>Viena, Austria</td>
 				<td>May 7-9 2015</td>
 				<td><a target="_blank" href="http://mailman.owncloud.org/mailman/listinfo/events">Bernhard Fröhler</a></td>
 				<td><a target="_blank" href="http://www.linuxwochen.at/Wien/">website</a></td>
-			</tr>
-			<tr>
-				<td>ownCloud workshop at TechMinistry</td>
-				<td>Thessaloniki, Greece</td>
-				<td>May 10 2015, 19:00</td>
-				<td>Stathis</td>
-				<td><a target="_blank" href="http://wiki.techministry.gr/index.php/OwnCloud_Workshop">wiki</a>, <a target="_blank" href="hhttps://plus.google.com/events/c78ap075bb4falrnmg3v0knmtao">G+</a> and <a target="_blank" href="https://www.facebook.com/events/1462326250725901/">Facebook</a></td>
 			</tr>
 			<tr>
 				<td>ownCloud workshop at Happy Hacking Day 2015</td>
