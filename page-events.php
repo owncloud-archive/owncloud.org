@@ -19,9 +19,21 @@
 			<i class="icon-group"></i> Join a Meetup!</a>
 			<a target="_blank" href="/events/meetups" class="btn btn-lg btn-default">
 			<i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>
-			<p><a target="_blank" href="/conf/" class="btn btn-lg btn-primary">
-			<i class="icon-code"></i> ownCloud Contributor Conference!</a></p>
+<!-- 			<p><a target="_blank" href="/conf/" class="btn btn-lg btn-primary"> -->
+<!-- 			<i class="icon-code"></i> ownCloud Contributor Conference!</a></p> -->
 		</div>
+<div class="wrap container pad-bottom">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h2>Join the ownCloud Contributor Conference!</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			  <iframe width="560" height="315" src="https://www.youtube.com/embed/TbHcJ_isvk0?theme=light" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/product_demo.jpg" style="width: 400px" title="Picture by Dragotin from CLT14" alt="Picture by Dragotin from CLT14" class="img-thumbnail alignright">
 		<h2>Conferences</h2>
 		<p>ownCloud community members everywhere organize ownCloud presence at trade shows and conferences to present our community and technology to visitors.

@@ -6,7 +6,7 @@
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 	</div>
 	<div class="text-center">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/TbHcJ_isvk0?theme=light" frameborder="0" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/TbHcJ_isvk0" frameborder="0" allowfullscreen></iframe>
 	</div>
 </div>
 <div class="row conf-info">
