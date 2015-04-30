@@ -37,7 +37,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="col-md-6">
         <h3><i class="icon-book"></i>&nbsp;&nbsp;Translate and document ownCloud</h3>
          <p>Translate ownCloud to your language. Go to <a href="https://www.transifex.com/projects/p/owncloud/">Transifex</a> and get going!</p>
-        <p>Help us improve the ownCloud documentation! Find it in our <a href="https://github.com/owncloud/documentation">github repository</a>. Scroll down for instructions!</p>
+        <p>Help us improve the ownCloud documentation! Find out how to make a difference <a href="https://doc.owncloud.org/howto_contribute.html">in this contribution guide</a>!</p>
         <h3> <i class="icon-desktop"></i>&nbsp;&nbsp;Improve the ownCloud website</h3>
       	Help out with the <a href="https://github.com/owncloud/www/blob/master/README.md">website</a> and
       	<a href="https://github.com/owncloud/documentation/blob/stable7/CONTRIBUTING.rst">write
