@@ -57,11 +57,25 @@
 				<td><a target="_blank" href="http://www.linuxwochen.at/Wien/">website</a></td>
 			</tr>
 			<tr>
+				<td>ownCloud workshop at TechMinistry</td>
+				<td>Thessaloniki, Greece</td>
+				<td>May 10 2015, 19:00</td>
+				<td>Stathis</td>
+				<td>><a target="_blank" href="http://wiki.techministry.gr/index.php/OwnCloud_Workshop">wiki</a>, <a target="_blank" href="hhttps://plus.google.com/events/c78ap075bb4falrnmg3v0knmtao">G+</a> and <a target="_blank" href="https://www.facebook.com/events/1462326250725901/">Facebook</a></td>
+			</tr>
+			<tr>
 				<td>ownCloud workshop at Happy Hacking Day 2015</td>
 				<td>Helsinki, Finland</td>
 				<td>May 7-9 2015</td>
 				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
 				<td><a target="_blank" href="http://happyhackingday.org/">Happy Hacking Day website</a></td>
+			</tr>
+			<tr>
+				<td>ownCloud talk at "Monades Aristias"</td>
+				<td>Aristotele University of Thessaloniki, Greece</td>
+				<td>May 6 2015, 19:00</td>
+				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td>ownCloud workshop openSUSE Conference</td>
@@ -70,23 +84,9 @@
 				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
 				<td><a target="_blank" href="https://conference.opensuse.org/">oSC website</a></td>
 			</tr>
-			<tr>
-				<td>ownCloud talk, booth at FLISOL 2015, Paraguay</td>
-				<td>UPE University City Pdtes. Franco, Alto Paraná - Paraguay</td>
-				<td>April 25 2015</td>
-				<td><a target="_blank" href="mailto:stbnruiz001REMOVETHISPLEASE@AGAINSTSPAMgmail.com">Esteban Ruiz Diaz</a></td>
-				<td><a target="_blank" href="http://flisol.info/FLISOL2015/Paraguay/AltoParana">AltoParana website</a></td>
-			</tr>
-			<tr>
-				<td>ownCloud talk at LinuxFest Northwest</td>
-				<td>Bellingham, WA, USA</td>
-				<td>April 25-26 2015</td>
-				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
-				<td><a target="_blank" href="http://linuxfestnorthwest.org/2015">LinuxFest Northwest website</a></td>
-			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
-		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know</a>!</p>
+		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know via the contact form</a> or email the events mailing list.!</p>
 		<p>Consider joining the <a target="_blank" href="https://mailman.owncloud.org/mailman/listinfo/events">events mailing list</a> to discuss events with other ownClouders.</p>
 
 		<h3>Events we've been at in 2015</h3>
@@ -96,6 +96,18 @@
 				<th>Location</th>
 				<th>Date</th>
 				<th>Link (report)</th>
+			</tr>
+			<tr>
+				<td>ownCloud talk, booth at FLISOL 2015, Paraguay</td>
+				<td>UPE University City Pdtes. Franco, Alto Paraná - Paraguay</td>
+				<td>April 25 2015</td>
+				<td><a target="_blank" href="http://flisol.info/FLISOL2015/Paraguay/AltoParana">AltoParana website</a></td>
+			</tr>
+			<tr>
+				<td>ownCloud talk at LinuxFest Northwest</td>
+				<td>Bellingham, WA, USA</td>
+				<td>April 25-26 2015</td>
+				<td><a target="_blank" href="http://linuxfestnorthwest.org/2015">LinuxFest Northwest website</a></td>
 			</tr>
 			<tr>
 				<td>Cloud and ownCloud presentation at GreekLUG</td>
