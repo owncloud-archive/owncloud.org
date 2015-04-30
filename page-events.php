@@ -61,7 +61,7 @@
 				<td>Thessaloniki, Greece</td>
 				<td>May 10 2015, 19:00</td>
 				<td>Stathis</td>
-				<td>><a target="_blank" href="http://wiki.techministry.gr/index.php/OwnCloud_Workshop">wiki</a>, <a target="_blank" href="hhttps://plus.google.com/events/c78ap075bb4falrnmg3v0knmtao">G+</a> and <a target="_blank" href="https://www.facebook.com/events/1462326250725901/">Facebook</a></td>
+				<td><a target="_blank" href="http://wiki.techministry.gr/index.php/OwnCloud_Workshop">wiki</a>, <a target="_blank" href="hhttps://plus.google.com/events/c78ap075bb4falrnmg3v0knmtao">G+</a> and <a target="_blank" href="https://www.facebook.com/events/1462326250725901/">Facebook</a></td>
 			</tr>
 			<tr>
 				<td>ownCloud workshop at Happy Hacking Day 2015</td>
@@ -82,7 +82,7 @@
 				<td>Den Hague, Netherlands</td>
 				<td>May 1-4 2015</td>
 				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
-				<td><a target="_blank" href="https://conference.opensuse.org/">oSC website</a></td>
+				<td><a target="_blank" href="https://conference.opensuse.org/">oSC website</a>, <a target="_blank" href="https://events.opensuse.org/conference/osc15/proposal/510">the workshop</a></td>
 			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
