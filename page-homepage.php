@@ -240,7 +240,6 @@ $( document ).ready(function() {
 		<div class="join">
 			 <a class="btn btn-block btn-lg join-button events-button" href="/promote" role="button">Connect with others</a>
 			 <a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
-			 <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Contributor Conference</a>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-6">
@@ -252,7 +251,18 @@ $( document ).ready(function() {
 		</div>
 	</div>
 </div>
-
+<div class="wrap container pad-bottom">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h2>Join the ownCloud Contributor Conference!</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			  <iframe width="560" height="315" src="https://www.youtube.com/embed/TbHcJ_isvk0?theme=light" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
 <div class="wrap container pad-bottom">
 		<div class="row">
 			<div class="col-md-12 text-center">
