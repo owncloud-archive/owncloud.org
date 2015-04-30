@@ -51,10 +51,12 @@
 		We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register" target="_blank">register</a> to help us plan better for the event.
 		</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
-		<p>We'll come with recommended and discounted hotel options here soon!</p>
-
-
-<!-- 		We had a series of recommendations but all are now booked. You can use <a href="http://findhotelsnearanaddress.com/">this site to find something close by</a>. At this time, <a href="http://www.aletto.de/en/kudamm">hotel aletto kudamm</a> is still available and affordable.</p> -->
+		<p>If you need a hotel room, we recommend to book at one of these hotels:
+		<ul>
+		<li><a href="https://www.novum-hotels.de/hotel-gates-berlin/hotel-gates-information-berlin.php" target="_blank">Novum Hotel Gates Berlin</a>. Book by XXX  - not ready yet</li>
+		<li><a href="http://www.aletto.de/kudamm" target="_blank">Aletto Kudamm</a>. Book by emailing <a href="mailto:gr@aletto.de">gr@aletto.de</a> with your name,  address, dates and the booking code "owncloudconf2015". Prices: Eur 65 for a single room, 75 for a double and only available for Friday/Saturday/Sunday.</li>
+		</ul>
+		We recommend you book sooner rather than later. We have reserved rooms at these hotels, however, these reservations run out on <strong>June 28</strong> and are <em>first come, first serve</em>. If these hotels are full or not to your liking, you can use <a href="http://findhotelsnearanaddress.com/">this site</a> to find something close by the University.</p>
 		<h2>Code of conduct</h2>
 		<p>We want everybody to feel welcome at the event. Please be mindful of our <a href="https://owncloud.org/community/code-of-conduct/">code of conduct</a>. Also, please note that there will be video recording. The conference is an open space, please be sure that you are comfortable with that. Of course, you can always ask people not to take pictures or video of you.</p>
 	</div>
