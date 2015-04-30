@@ -6,9 +6,24 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 <div class="row" style="text-align: center">
   <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/testing/index.html" class="btn btn-lg btn-default">
   <i class="icon-lightbulb-o"></i> Join the Test Pilots!</a>
-  <a href="https://owncloud.org/blog/owncloud-contributor-conference-2015-dates-announced-registration-open/" class="btn btn-lg btn-primary">
-  <i class="icon-group"></i> Be at the ownCloud Contributor Conference!</a>
   <a href="/promote" class="btn btn-default btn-lg"><i class="icon-bullhorn"></i> Discuss ownCloud with others</a>
+</div>
+<div class="wrap container pad-bottom">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h2>Join the ownCloud Contributor Conference!</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			  <iframe width="560" height="315" src="https://www.youtube.com/embed/TbHcJ_isvk0?theme=light" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="row pad-bottom">
+		<div class="col-md-12 text-center">
+			  <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Learn more and register!</a>
+		</div>
+	</div>
 </div>
 <h2>How to participate:</h2>
 <div class="row">
@@ -37,7 +52,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="col-md-6">
         <h3><i class="icon-book"></i>&nbsp;&nbsp;Translate and document ownCloud</h3>
          <p>Translate ownCloud to your language. Go to <a href="https://www.transifex.com/projects/p/owncloud/">Transifex</a> and get going!</p>
-        <p>Help us improve the ownCloud documentation! Find it in our <a href="https://github.com/owncloud/documentation">github repository</a>. Scroll down for instructions!</p>
+        <p>Help us improve the ownCloud documentation! Find out how to make a difference <a href="https://doc.owncloud.org/howto_contribute.html">in this contribution guide</a>!</p>
         <h3> <i class="icon-desktop"></i>&nbsp;&nbsp;Improve the ownCloud website</h3>
       	Help out with the <a href="https://github.com/owncloud/www/blob/master/README.md">website</a> and
       	<a href="https://github.com/owncloud/documentation/blob/stable7/CONTRIBUTING.rst">write
