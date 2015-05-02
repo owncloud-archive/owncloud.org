@@ -2,6 +2,29 @@
 	<h1>ownCloud Server Changelog</h1>
 </div>
 
+<h3>Version 8.0.3 <small>May 1st 2015</small></h3>
+<li>Fix several Constrain Violation Exceptions</li>
+<li>Fix misleading Maintenance mode message</li>
+<li>Timezone fixes for countries with 0.5 and 0.75 offsets</li>
+<li>Fix usage of default share folder location</li>
+<li>Improved MSSQL compatibility</li>
+<li>Reenable trashbin after failed rename</li>
+<li>Fix disabling of APCu</li>
+<li>Do not show update notification on mobile</li>
+<li>Fix "Only variables should be passed by reference" error log spam</li>
+<li>Add timeout to curl</li>
+<li>Makes repair errors and warnings visible for the user when upgrading on the command line or in the web UI</li>
+<li>Cron shall not operate in case we are in maintenance mode</li>
+<li>Disable the cache updater when doing the encryption migration</li>
+<li>Fix "Error while updating app" error</li>
+<li>Internal Server Error after attempting to do "occ files:scan" </li>
+<li>Several smaller fixes</li>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2">owncloud-8.0.3.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.3.zip">owncloud-8.0.3.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2.md5">owncloud-8.0.3.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.3.zip.md5">owncloud-8.0.3.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2.sha256">owncloud-8.0.3.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.3.zip.sha256">owncloud-8.0.3.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2.asc">owncloud-8.0.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.3.zip.asc">owncloud-8.0.3.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
+
 <h3>Version 8.0.2 <small>March 11th 2015</small></h3>
 <li>Prevent DB errors in certain high load situations</li>
 <li>Fix installation and updating of apps from the app store</li>
