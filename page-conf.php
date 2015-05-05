@@ -50,6 +50,7 @@
 		<p>The ownCloud Contributor Conference will be entirely open and free. Registration will open in April, stay tuned!
 		We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register/new" target="_blank">register</a> to help us plan better for the event.
 		</p>
+		<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We'll come with recommended and discounted hotel options here soon!</p>
 
