@@ -139,9 +139,9 @@ Download:
 <li>Win: Fix handling of filenames with trailing dot or space</li>
 </ul>
 Download:
-<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.0.4162-setup.exe">Windows</a></br>
-<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.0.1339.pkg">Mac</a></br>
-<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.0.tar.bz2">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.0.tar.bz2">PGP signature</a>)</br>
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.0.4162-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.0.1339.pkg">Mac</a> |
+<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.0.tar.bz2">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.0.tar.bz2">PGP signature</a>)
 
 <h3>Release 1.6.4 <small>Oct 23th 2014</small></h3>
 <ul>
