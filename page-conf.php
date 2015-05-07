@@ -53,7 +53,9 @@
 		<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We'll come with more recommended and discounted hotel options here soon!</p>
-		<p>You can book for Eur 65/night single or Eur 75/night double at <a href="http://www.aletto.de/en/kudamm" target="_blank">hotel Aletto Kudamm</a> by <a href="mailto:kudamm@aletto.de">sending them a mail</a> with your reservation data and mentioning "owncloudconf2015". Note that we have reserved only 20 rooms and the reservation ends on June 28!</p>
+		<ul>
+                            <li>You can book for Eur 65/night single or Eur 75/night double at <a href="http://www.aletto.de/en/kudamm" target="_blank">hotel Aletto Kudamm</a> by <a href="mailto:kudamm@aletto.de">sending them a mail</a> with your reservation data and mentioning "owncloudconf2015". Note that we have reserved only 20 rooms and the reservation ends on June 28!</li>
+		</ul>
 
 
 <!-- 		We had a series of recommendations but all are now booked. You can use <a href="http://findhotelsnearanaddress.com/">this site to find something close by</a>. At this time, <a href="http://www.aletto.de/en/kudamm">hotel aletto kudamm</a> is still available and affordable.</p> -->
