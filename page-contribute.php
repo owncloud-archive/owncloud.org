@@ -16,7 +16,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 	</div>
 	<div class="row">
 		<div class="col-md-12 text-center">
-			  <iframe width="560" height="315" src="https://www.youtube.com/embed/TbHcJ_isvk0?theme=light" frameborder="0" allowfullscreen></iframe>
+			  <iframe width="560" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y?theme=light" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 	<div class="row pad-bottom">
