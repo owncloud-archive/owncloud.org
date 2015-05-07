@@ -2,11 +2,11 @@
 	<div class="col-sm-6 col-sm-offset-3">
 		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 		<h2 class="conf-location">August 28 - Sept 3 2015, Berlin</h2>
-		<a href="https://conference.owncloud.org/conference/oCC2015/register" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
+		<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 	</div>
 	<div class="text-center">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/TbHcJ_isvk0" frameborder="0" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y" frameborder="0" allowfullscreen></iframe>
 	</div>
 </div>
 <div class="row conf-info">
@@ -43,15 +43,19 @@
 	<div class="col-sm-6">
 		<h2>Location</h2>
 		<p>Our conference will take place in Berlin at the <em>Technische Universität Berlin</em>, in the "Elektrotechnische Institute" building at Einsteinufer 17, Charlottenburg, 10587 Berlin.</p>
-		<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=13.32318127155304%2C52.51362881752727%2C13.330262303352356%2C52.5165081342206&amp;layer=mapnik&amp;marker=52.5150684994582%2C13.326721787452698"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51507&amp;mlon=13.32672#map=18/52.51507/13.32672">View Larger Map</a></small>
+		<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=13.32318127155304%2C52.51362881752727%2C13.330262303352356%2C52.5165081342206&amp;layer=mapnik&amp;marker=52.5150684994582%2C13.326721787452698"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51507&amp;mlon=13.32672#map=18/52.51507/13.32672" target="_blank">View Larger Map</a></small>
 	</div>
 	<div class="col-sm-6">
 		<h2>Register</h2>
 		<p>The ownCloud Contributor Conference will be entirely open and free. Registration will open in April, stay tuned!
-		We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register" target="_blank">register</a> to help us plan better for the event.
+		We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register/new" target="_blank">register</a> to help us plan better for the event.
 		</p>
+		<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>
 		<h2 class="conf-acc">Berlin and accommodation</h2>
-		<p>We'll come with recommended and discounted hotel options here soon!</p>
+		<p>We'll come with more recommended and discounted hotel options here soon!</p>
+		<ul>
+                            <li>You can book for Eur 65/night single or Eur 75/night double at <a href="http://www.aletto.de/en/kudamm" target="_blank">hotel Aletto Kudamm</a> by <a href="mailto:kudamm@aletto.de">sending them a mail</a> with your reservation data and mentioning "owncloudconf2015". Note that we have reserved only 20 rooms and the reservation ends on June 28!</li>
+		</ul>
 
 
 <!-- 		We had a series of recommendations but all are now booked. You can use <a href="http://findhotelsnearanaddress.com/">this site to find something close by</a>. At this time, <a href="http://www.aletto.de/en/kudamm">hotel aletto kudamm</a> is still available and affordable.</p> -->

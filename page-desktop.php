@@ -1,6 +1,54 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3>Release 1.8.1 <small>May 7th 2015</small></h3>
+<ul>
+<li>Make "operation canceled" error a soft error</li>
+<li>Do not throw an error for files that are scheduled to be removed, but can not be found on the server. (<a href="http://github.com/owncloud/client/issues/2919">#2919</a>)</li>
+<li>Windows: Reset QNAM to proper function after hibernation. (<a href="http://github.com/owncloud/client/issues/2899">#2899</a>, <a href="http://github.com/owncloud/client/issues/2895">#2895</a>, <a href="http://github.com/owncloud/client/issues/2973">#2973</a>)</li>
+<li>Fix argument verification of --confdir (<a href="http://github.com/owncloud/client/issues/2453">#2453</a>)</li>
+<li>Fix a crash when accessing a dangling UploadDevice pointer (<a href="http://github.com/owncloud/client/issues/2984">#2984</a>)</li>
+<li>Add-folder wizard: Make sure there is a scrollbar if folder names are too long (<a href="http://github.com/owncloud/client/issues/2962">#2962</a>)</li>
+<li>Add-folder Wizard: Select the newly created folder</li>
+<li>Activity: Correctly restore column sizes (<a href="http://github.com/owncloud/client/issues/3005">#3005</a>)</li>
+<li>SSL Button: do not crash on empty certificate chain</li>
+<li>SSL Button: Make menu creation lazy (<a href="http://github.com/owncloud/client/issues/3007">#3007</a>, <a href="http://github.com/owncloud/client/issues/2990">#2990</a>)</li>
+<li>Lookup system proxy async to avoid hangs (<a href="http://github.com/owncloud/client/issues/2993">#2993</a>, <a href="http://github.com/owncloud/client/issues/2802">#2802</a>)</li>
+<li>ShareDialog: Some GUI refinements</li>
+<li>ShareDialog: On creation of a share always retrieve the share. This makes sure that if a default expiration date is set this is reflected in the dialog. (<a href="http://github.com/owncloud/client/issues/2889">#2889</a>)</li>
+<li>ShareDialog: Only show share dialog if we are connected.</li>
+<li>HttpCreds: Fill pw dialog with previous password. (<a href="http://github.com/owncloud/client/issues/2848">#2848</a>, <a href="http://github.com/owncloud/client/issues/2879">#2879</a>)</li>
+<li>HttpCreds: Delete password from old location. (<a href="http://github.com/owncloud/client/issues/2186">#2186</a>)</li>
+<li>Do not store Session Cookies in the client cookie storage</li>
+<li>CookieJar: Don't accidentally overwrite cookies. (<a href="http://github.com/owncloud/client/issues/2808">#2808</a>)</li>
+<li>ProtocolWidget: Always add seconds to the DateTime locale. (<a href="http://github.com/owncloud/client/issues/2535">#2535</a>)</li>
+<li>Updater: Give context as to which app is about to be updated (<a href="http://github.com/owncloud/client/issues/3040">#3040</a>)</li>
+<li>Windows: Add version information for owncloud.exe. This should help us know what version or build number a crash report was generated with.</li>
+<li>Fix a crash on shutdown in ~SocketApi (<a href="http://github.com/owncloud/client/issues/3057">#3057</a>)</li>
+<li>SyncEngine: Show more timing measurements (<a href="http://github.com/owncloud/client/issues/3064">#3064</a>)</li>
+<li>Discovery: Add warning if returned etag is 0</li>
+<li>Fix a crash caused by an invalid DiscoveryDirectoryResult::iterator (<a href="http://github.com/owncloud/client/issues/3051">#3051</a>)</li>
+<li>Sync: Fix sync of deletions during 503. (<a href="http://github.com/owncloud/client/issues/2894">#2894</a>)</li>
+<li>Handle redirect of auth request. (<a href="http://github.com/owncloud/client/issues/3082">#3082</a>)</li>
+<li>Discovery: Fix parsing of broken XML replies, which fixes local file disappearing (<a href="http://github.com/owncloud/client/issues/3102">#3102</a>)</li>
+<li>Migration: Silently restore files that were deleted locally by bug (<a href="http://github.com/owncloud/client/issues/3102">#3102</a>)</li>
+<li>Sort folder sizes SelectiveSyncTreeView numerically (<a href="http://github.com/owncloud/client/issues/3112">#3112</a>)</li>
+<li>Sync: PropagateDownload: Read the mtime from the file system after writing it (<a href="http://github.com/owncloud/client/issues/3103">#3103</a>)</li>
+<li>Sync: Propagate download: Fix restoring files for which the conflict file exists (<a href="http://github.com/owncloud/client/issues/3106">#3106</a>)</li>
+<li>Use identical User Agents and version for csync and the Qt parts</li>
+<li>Prevent another crash in ~SocketApi (<a href="http://github.com/owncloud/client/issues/3118">#3118</a>)</li>
+<li>Windows: Fix rename of finished file (<a href="http://github.com/owncloud/client/issues/3073">#3073</a>)</li>
+<li>AccountWizard: Fix auth error handling (<a href="http://github.com/owncloud/client/issues/3155">#3155</a>)</li>
+<li>Documentation fixes</li>
+<li>Infrastructure/build fixes</li>
+<li>Win32/OS X: Apply patch from OpenSSL to handle oudated intermediates gracefully (<a href="http://github.com/owncloud/client/issues/3087">#3087</a>)</li>
+</ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.1.5050-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.1.2336.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.0.tar.xz.asc">PGP signature</a>)
+
 <h3>Release 1.8.0 <small>Mar 17th 2015</small></h3>
 <ul>
 <li>Mac OS: HIDPI support</li>
@@ -91,9 +139,9 @@ Download:
 <li>Win: Fix handling of filenames with trailing dot or space</li>
 </ul>
 Download:
-<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.0.4162-setup.exe">Windows</a></br>
-<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.0.1339.pkg">Mac</a></br>
-<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.0.tar.bz2">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.0.tar.bz2">PGP signature</a>)</br>
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.0.4162-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.7.0.1339.pkg">Mac</a> |
+<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.0.tar.bz2">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/mirall-1.7.0.tar.bz2">PGP signature</a>)
 
 <h3>Release 1.6.4 <small>Oct 23th 2014</small></h3>
 <ul>
