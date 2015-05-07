@@ -47,7 +47,7 @@ Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.1.5050-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.1.2336.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.1.tar.bz2">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.0.tar.bz2.asc">PGP signature</a>)
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.0.tar.xz.asc">PGP signature</a>)
 
 <h3>Release 1.8.0 <small>Mar 17th 2015</small></h3>
 <ul>
