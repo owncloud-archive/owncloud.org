@@ -25,7 +25,6 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 
 <h3>Version 8.0.2 <small>March 11th 2015</small></h3>
 <li>Prevent DB errors in certain high load situations</li>
-<li>Improved MSSQL compatibility</li>
 <li>Fix installation and updating of apps from the app store</li>
 <li>Fix documentation links</li>
 <li>Fix file move/copy when out of storage space</li>
@@ -43,6 +42,7 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 
 <h3>Release 7.0.5 <small>March 11th 2015</small></h3>
 <li>LDAP user cleanup</li>
+<li>Improved MSSQL compatibility</li>
 <li>Add note about external user app to config.sample.php</li>
 <li>Fix creation of ghost directories in certain situations</li>
 <li>Fixes for password protected links</li>
