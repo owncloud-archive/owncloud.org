@@ -6,7 +6,6 @@
 <li>Fix misleading Maintenance mode message</li>
 <li>Timezone fixes for countries with 0.5 and 0.75 offsets</li>
 <li>Fix usage of default share folder location</li>
-<li>Improved MSSQL compatibility</li>
 <li>Reenable trashbin after failed rename</li>
 <li>Fix disabling of APCu</li>
 <li>Do not show update notification on mobile</li>
@@ -43,6 +42,7 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 
 <h3>Release 7.0.5 <small>March 11th 2015</small></h3>
 <li>LDAP user cleanup</li>
+<li>Improved MSSQL compatibility</li>
 <li>Add note about external user app to config.sample.php</li>
 <li>Fix creation of ghost directories in certain situations</li>
 <li>Fixes for password protected links</li>
