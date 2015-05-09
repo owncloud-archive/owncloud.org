@@ -6,7 +6,6 @@
 <li>Fix misleading Maintenance mode message</li>
 <li>Timezone fixes for countries with 0.5 and 0.75 offsets</li>
 <li>Fix usage of default share folder location</li>
-<li>Improved MSSQL compatibility</li>
 <li>Reenable trashbin after failed rename</li>
 <li>Fix disabling of APCu</li>
 <li>Do not show update notification on mobile</li>
@@ -26,6 +25,7 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 
 <h3>Version 8.0.2 <small>March 11th 2015</small></h3>
 <li>Prevent DB errors in certain high load situations</li>
+<li>Improved MSSQL compatibility</li>
 <li>Fix installation and updating of apps from the app store</li>
 <li>Fix documentation links</li>
 <li>Fix file move/copy when out of storage space</li>
