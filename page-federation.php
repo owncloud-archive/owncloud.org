@@ -6,13 +6,11 @@
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/federation/federation.gif" alt="in action" />
 	</div>
 	<div class="col-lg-8 col-md-7">
-		<strong>How do I share to another ownCloud user?</strong>
 		<p>Sharing files accross ownCloud servers is as easy as sending an email from a GMail address to a Yahoo account! Instead of an email address, you use a Federation ID. And just like email, it looks like <strong>username@server</strong>, although there often is a string like 'ownCloud' attached at the end, like <strong>guy@fawkes.org/myowncloud</strong></p>
 		<p>To share a file with somebody, just enter their Federation ID in the 'share' dialog and when they log into their own cloud, they will get a notification to accept your share.</p>
 		<p>You can find your Federation ID in your user settings. Give it to your friends so they can share files with you!</p>
 	</div>
 </div>
-<hr>
 <div class="row conf-partners-title">
 	<div class="col-md-12">
 		<h2>More details</h2>
