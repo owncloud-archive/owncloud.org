@@ -54,11 +54,9 @@
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We'll come with more recommended and discounted hotel options here soon!</p>
 		<ul>
-                            <li>You can book for Eur 65/night single or Eur 75/night double at <a href="http://www.aletto.de/en/kudamm" target="_blank">hotel Aletto Kudamm</a> by <a href="mailto:kudamm@aletto.de">sending them a mail</a> with your reservation data and mentioning "owncloudconf2015". Note that we have reserved only 20 rooms and the reservation ends on June 28!</li>
+                            <li>You can book for Eur 65/night single or Eur 75/night double at <a href="http://www.aletto.de/en/kudamm" target="_blank">hotel Aletto Kudamm</a> by <a href="mailto:gr@aletto.de">sending a mail to gr@aletto.de</a> with your reservation data and mentioning "owncloudconf2015". Note that we could reserve only 20 rooms and the reservation ends on June 28!</li>
 		</ul>
-
-
-<!-- 		We had a series of recommendations but all are now booked. You can use <a href="http://findhotelsnearanaddress.com/">this site to find something close by</a>. At this time, <a href="http://www.aletto.de/en/kudamm">hotel aletto kudamm</a> is still available and affordable.</p> -->
+		<p>If these hotels are full or not to your liking, you can use <a href="http://findhotelsnearanaddress.com/">this site</a> to find something close by the University.</p>
 		<h2>Code of conduct</h2>
 		<p>We want everybody to feel welcome at the event. Please be mindful of our <a href="https://owncloud.org/community/code-of-conduct/">code of conduct</a>. Also, please note that there will be video recording. The conference is an open space, please be sure that you are comfortable with that. Of course, you can always ask people not to take pictures or video of you.</p>
 	</div>
