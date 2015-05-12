@@ -1,5 +1,5 @@
 <div class="page-header">
-	<h1>Join the conversation</h1>
+	<h1>Join the conversation around ownCloud</h1>
 </div>
 <p>If you are happy with ownCloud, consider sharing your enthusiasm with the world!</p>
 <div class="row">
@@ -11,8 +11,8 @@
 		<i class="icon-asterisk"></i> Share on Diaspora</a>
 	</div>
 </div>
-<div class="page-header">
-	<h1>Discuss ownCloud</h1>
+<div>
+	<h2>Discuss ownCloud with others</h2>
 </div>
 <p>ownCloud users and enthusiasts can discuss and share ownCloud experiences on our Forums, IRC and mailing lists.</p>
       <ul>
@@ -20,7 +20,7 @@
         <li>See ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
         <li>Discuss ownCloud on on <a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li>
       </ul>
-      <p>Talk to the ownCloud community on social media: <br />
+      <p>Join our community online and talk to us on social media: <br /><br />
 	    <a target="_blank" href="https://plus.google.com/107072838776436530705/about"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img></a>
 	    <a target="_blank" href="https://www.facebook.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img></a>
 	    <a target="_blank" href="https://twitter.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img></a>
@@ -33,23 +33,41 @@
 	    <a target="_blank" href="https://twitter.com/owncloud"><img width=25 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img></a>
 	    <a target="_blank" href="https://owncloud.com/rss-feed"><img class="img-circle" width=25 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png"></img></a>
       </p>
-<div class="page-header">
+<div>
 	<h1>Become an Insider</h1>
 </div>
-	<a href="http://insiders.owncloud.com/join/aDb26fKzL22"><img class="insiders-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/events/insiders.jpg" alt="logo" style="height: auto; width: 100%" /></a>
-	<div class="row">
-		<div class="col-md-6">
-			<h2>What to expect</h2>
-			<p>ownCloud Insiders is a hub where you can connect with other advocates and do challenges we provide that help you, or ownCloud, or are just plain fun.</p>
-			<ul>
-				<li><strong>Learn and Grow</strong> – Learn about ownCloud, reading interesting industry blogs and posts and discussing them with others</li>
-				<li><strong>Support and Influence</strong> – From social campaigns to product launches, you choose how and when you would like to show your support and spread your influence.</li>
-				<li><strong>Fun Opportunities</strong> – Compete with peers for points, badges and rewards as you take on new challenges and opportunities</li>
-			</ul>
-		</div>
-		<div class="col-md-6">
-			<h2>What it is about</h2>
-			<p><iframe width="480" height="240" src="//www.youtube.com/embed/p_OxfRsmmfs" frameborder="0" allowfullscreen></iframe></p>
-			<p><a style="width: 250px; margin: 0 13px;" target="_blank" href="http://insiders.owncloud.com/join/aDb26fKzL22" class="btn btn-warning btn-lg">sign up here</a></p>
-		</div>
+<p><a href="http://insiders.owncloud.com/join/aDb26fKzL22"><img class="insiders-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/events/insiders.jpg" alt="logo" style="height: auto; width: 100%" /></a></p>
+<div class="row">
+	<div class="col-md-6">
+		<h2>What to expect</h2>
+		<p>ownCloud Insiders is a hub where you can connect with other advocates and do challenges we provide that help you, or ownCloud, or are just plain fun.</p>
+		<ul>
+			<li><strong>Learn and Grow</strong> – Learn about ownCloud, reading interesting industry blogs and posts and discussing them with others</li>
+			<li><strong>Support and Influence</strong> – From social campaigns to product launches, you choose how and when you would like to show your support and spread your influence.</li>
+			<li><strong>Fun Opportunities</strong> – Compete with peers for points, badges and rewards as you take on new challenges and opportunities</li>
+		</ul>
 	</div>
+	<div class="col-md-6">
+		<h2>What it is about</h2>
+		<p><iframe width="480" height="240" src="//www.youtube.com/embed/p_OxfRsmmfs" frameborder="0" allowfullscreen></iframe></p>
+		<p><a style="width: 250px; margin: 0 13px;" target="_blank" href="http://insiders.owncloud.com/join/aDb26fKzL22" class="btn btn-warning btn-lg">sign up here</a></p>
+	</div>
+</div>
+<hr>
+<h2>ownCloud promo banners</h2>
+<p>We have ownCloud banners available for your blog or website! These are the sizes available:
+
+<ul>
+<li><a href="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-160x600.png">160x600</a></li>
+<li><a href="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-728x90.png">728x90</a></li>
+<li><a href="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-460x70.png">460x70</a></li>
+<li><a href="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-300x300.png">300x300</a></li>
+<li><a href="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-300x250.png">300x250</a></li>
+</ul>
+
+Example code:</p>
+
+
+<p><code>&lt;a href="http://owncloud.org/features"&gt;&lt;img src="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-460x70.png" alt="ownCloud release" width="460" height="70" /&gt;&lt;/a&gt;</code></p>
+Will look like this:</br>
+<p><a href="http://owncloud.org/conf"><img class="alignnone size-full wp-image-8049" src="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-460x70.png" alt="ownCloud release 460x70" width="460" height="70" /></a>
