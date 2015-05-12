@@ -60,6 +60,13 @@
 				<td><a target="_blank" href="/conf/">ownCloud Contributor Conference site</a>, <a target="_blank" href="https://conference.owncloud.org/conference/oCC2015/register">registration</a></td>
 			</tr>
 			<tr>
+				<td>Talk at South East Linux Fest</td>
+				<td>Charlotte, NC, USA</td>
+				<td>June 12-14 2015</td>
+				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
+				<td><a target="_blank" href="http://www.southeastlinuxfest.org/">SELF website</a></td>
+			</tr>
+			<tr>
 				<td>Keynote at DORSLUC</td>
 				<td>Zagreb, Croatia</td>
 				<td>May 18-20 2015</td>
@@ -72,27 +79,6 @@
 				<td>May 14 2015</td>
 				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
 				<td><a target="_blank" href="http://opentechsummit.net/">Open Tech Summit site</a>, <a target="_blank" href="http://opentechsummit.net/#schedule">Schedule</a></td>
-			</tr>
-			<tr>
-				<td>ownCloud workshop at TechMinistry</td>
-				<td>Thessaloniki, Greece</td>
-				<td>May 10 2015</td>
-				<td>Stathis</td>
-				<td><a target="_blank" href="http://wiki.techministry.gr/index.php/OwnCloud_Workshop">wiki</a>, <a target="_blank" href="hhttps://plus.google.com/events/c78ap075bb4falrnmg3v0knmtao">G+</a> and <a target="_blank" href="https://www.facebook.com/events/1462326250725901/">Facebook</a></td>
-			</tr>
-			<tr>
-				<td>Linuxwochen 2015 Wien</td>
-				<td>Viena, Austria</td>
-				<td>May 7-9 2015</td>
-				<td><a target="_blank" href="http://mailman.owncloud.org/mailman/listinfo/events">Bernhard Fröhler</a></td>
-				<td><a target="_blank" href="http://www.linuxwochen.at/Wien/">website</a></td>
-			</tr>
-			<tr>
-				<td>ownCloud workshop at Happy Hacking Day 2015</td>
-				<td>Helsinki, Finland</td>
-				<td>May 7-9 2015</td>
-				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
-				<td><a target="_blank" href="http://happyhackingday.org/">Happy Hacking Day website</a></td>
 			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
@@ -108,6 +94,24 @@
 				<th>Link (report)</th>
 			</tr>
 			<tr>
+				<td>ownCloud workshop at TechMinistry</td>
+				<td>Thessaloniki, Greece</td>
+				<td>May 10 2015</td>
+				<td><a target="_blank" href="http://wiki.techministry.gr/index.php/OwnCloud_Workshop">wiki</a>, <a target="_blank" href="hhttps://plus.google.com/events/c78ap075bb4falrnmg3v0knmtao">G+</a> and <a target="_blank" href="https://www.facebook.com/events/1462326250725901/">Facebook</a></td>
+			</tr>
+			<tr>
+				<td>Linuxwochen 2015 Wien</td>
+				<td>Viena, Austria</td>
+				<td>May 7-9 2015</td>
+				<td><a target="_blank" href="http://www.linuxwochen.at/Wien/">website</a></td>
+			</tr>
+			<tr>
+				<td>ownCloud workshop at Happy Hacking Day 2015</td>
+				<td>Helsinki, Finland</td>
+				<td>May 7-9 2015</td>
+				<td><a target="_blank" href="http://happyhackingday.org/">Happy Hacking Day website</a> (<a target="_blank" href="http://blog.jospoortvliet.com/2015/05/owncloud-workshops-two-down-two-to-go.html">report blog</a>)</td>
+			</tr>
+			<tr>
 				<td>ownCloud talk at "Monades Aristias"</td>
 				<td>Aristotele University of Thessaloniki, Greece</td>
 				<td>May 6 2015, 19:00</td>
@@ -117,7 +121,7 @@
 				<td>ownCloud workshop openSUSE Conference</td>
 				<td>Den Hague, Netherlands</td>
 				<td>May 1-4 2015</td>
-				<td><a target="_blank" href="https://conference.opensuse.org/">oSC website</a>, <a target="_blank" href="https://events.opensuse.org/conference/osc15/proposal/510">the workshop</a></td>
+				<td><a target="_blank" href="https://conference.opensuse.org/">oSC website</a>, <a target="_blank" href="https://events.opensuse.org/conference/osc15/proposal/510">the workshop</a>, <a target="_blank" href="http://blog.jospoortvliet.com/2015/05/open-tech-summit-berlin-opensuse.html">report blog</a></td>
 			</tr>
 			<tr>
 				<td>ownCloud talk, booth at FLISOL 2015, Paraguay</td>
