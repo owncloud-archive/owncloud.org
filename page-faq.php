@@ -40,6 +40,7 @@
 	<li><a href="#notechknowledge">But what if I'm not very technical?</a></li>
 	<li><a href="#appslocation">Where can I find ownCloud Server apps?</a></li>
 	<li><a href="#communityswag">Where can I find ownCloud t-shirts, stickers and other swag?</a></li>
+	<li><a href="#trademark">Can I use the ownCloud logo on my website, for my ownCloud app or client, or promotional materials?</a></li>
 </ul>
 <h4>ownCloud for professional use</h4>
 <ul>
@@ -248,6 +249,10 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h3>Where can I find ownCloud t-shirts, stickers and other swag?</h3>
 <p>ownCloud has a store on <a href="http://www.cafepress.com/owncloudshop" target="_blank">this page</a> where you can find posters, mugs, stickers, magnets, buttons, t-shirts and much more.</p>
 <p>If you are looking for materials for an ownCloud event or to use to promote ownCloud at a conference or trade show, see our <a href="/events" target="_blank">events pages</a> for information on what is available.</p>
+
+<a name="trademark"></a>
+<h3>Can I use the ownCloud logo on my website, for my ownCloud app or client, or promotional materials?</h3>
+<p>The use of the ownCloud trademark is governed by <a href="/trademarks">our trademark policy</a>. In short, we want to support you in promoting, using and building on ownCloud but we also want to prevent confusion about the meaning of our logo and trademark and your use of it. Carefully read <a href="/trademarks">our trademark policy</a> before you use ownCloud marks (like our logo or our name) on a website, app, flyer or anywhere else.</p>
 
 <h2>ownCloud for professional use</h2>
 <a name="professionaluse"></a>
