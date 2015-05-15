@@ -2,7 +2,7 @@
 <div class="page-header">
 	<h1>Where to find help</h1>
 </div>
-<p>If you can not find the answers you are looking for <a href="https://doc.owncloud.org" target="_blank">in our documentation</a> or our <a href="/faq" target="_blank">Frequently Asked Questions</a>, you can find help in our support channels.</p>
+<p>If you can not find the answers you are looking for <a href="https://doc.owncloud.org" target="_blank">in our documentation</a> or our <a href="/faq" target="_blank">Frequently Asked Questions</a>, you can find help in our support channels. Depending on what you use ownCloud for and how you use it, you can find resources in different places.</p>
   <table class="table table-striped">
     <tr>
       <td class="active" style="min-width:150px"></td>
@@ -21,7 +21,7 @@
     </tr>
     <tr>
       <td class="warning">Tutorials or how-to's</td>
-      <td class="warning">There is a lot of content online about installing ownCloud. We collect a list on <a href="https://github.com/owncloud/core/wiki/Reviews-tutorials-and-videos-of-ownCloud"  target="_blank">this page</a> and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">YouTube channel collects video tutorials</a> but if what you are looking for is not there, <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">Google</a> or another search engine can find them easily.
+      <td class="warning">There is a lot of content online about installing ownCloud. We collect a list on <a href="https://github.com/owncloud/core/wiki/Reviews-tutorials-and-videos-of-ownCloud"  target="_blank">this page</a> and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">YouTube channel collects video tutorials</a> but if what you are looking for is not there, a <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">search engine</a> can find them easily.
       </td>
       <td class="warning">ownCloud.com has a <a href="https://owncloud.com/resources/" target="_blank">Resources section</a> with <a href="http://owncloud.com/whitepapers" target="_blank">whitepapers</a>, <a href="https://owncloud.com/webinars" target="_blank">webinars</a> and more. If you want to evaluate if ownCloud offers what you need in your enterprise environment, check out the <a href="https://owncloud.com/datasheets/" target="_blank">Data sheets</a>.
       </td>

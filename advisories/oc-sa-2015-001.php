@@ -16,7 +16,7 @@
 		<p><p>Due to not sanitising all user provided input, the "contacts" application shipped with the mentioned ownCloud versions is vulnerable to multiple stored cross-site scripting attacks.<br/>The "contacts" application is enabled by default in the ownCloud Community Edition but not shipped with the ownCloud Enterprise Edition.</p><p>Successful exploitation requires that the adversary is able to access the contact group and share contacts with the victim. The victim then has to access the contacts application and edit the maliciously drafted contact.</p><p>While ownCloud advises browsers to disable inline JavaScript execution this vulnerability is caused by a <code>eval</code> like construct which is currently allowed in our default Content-Security-Policy, thus this is effectively exploitable in any browser.</p></p>
 		<h3>Affected Software</h3>
 		<ul>
-			<li>ownCloud Server < <strong>7.0.5</strong> (TBD)</li><li>ownCloud Server < <strong>6.0.7</strong> (TBD)</li><li>ownCloud Server < <strong>5.0.19</strong> (TBD)</li>
+			<li>ownCloud Server < <strong>7.0.5</strong> (CVE-2015-3011)</li><li>ownCloud Server < <strong>6.0.7</strong> (CVE-2015-3011)</li><li>ownCloud Server < <strong>5.0.19</strong> (CVE-2015-3011)</li>
 		</ul>
 		<h3>Action Taken</h3>
 		<p><p>The user input is now properly sanitised before provided back to the user. Furthermore, with ownCloud 8.2 the default Content-Security-Policy will forbid any <code>eval</code> like constructs by default as an additional layer of defense.</p></p>
