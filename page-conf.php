@@ -41,20 +41,22 @@
 </div>
 <div class="row conf-info">
 	<div class="col-sm-6">
-		<h2>Location</h2>
-		<p>Our conference will take place in Berlin at the <em>Technische Universität Berlin</em>, in the "Elektrotechnische Institute" building at Einsteinufer 17, Charlottenburg, 10587 Berlin.</p>
-		<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=13.32318127155304%2C52.51362881752727%2C13.330262303352356%2C52.5165081342206&amp;layer=mapnik&amp;marker=52.5150684994582%2C13.326721787452698"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51507&amp;mlon=13.32672#map=18/52.51507/13.32672" target="_blank">View Larger Map</a></small>
-	</div>
-	<div class="col-sm-6">
 		<h2>Register</h2>
 		<p>The ownCloud Contributor Conference will be entirely open and free. Registration will open in April, stay tuned!
 		We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register/new" target="_blank">register</a> to help us plan better for the event.
 		</p>
 		<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>
+		<h2>Location</h2>
+		<p>Our conference will take place in Berlin at the <em>Technische Universität Berlin</em>, in the "Elektrotechnische Institute" building at Einsteinufer 17, Charlottenburg, 10587 Berlin.</p>
+		<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=13.32318127155304%2C52.51362881752727%2C13.330262303352356%2C52.5165081342206&amp;layer=mapnik&amp;marker=52.5150684994582%2C13.326721787452698"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51507&amp;mlon=13.32672#map=18/52.51507/13.32672" target="_blank">View Larger Map</a></small>
+	</div>
+	<div class="col-sm-6">
 		<h2 class="conf-acc">Berlin and accommodation</h2>
-		<p>We'll come with more recommended and discounted hotel options here soon!</p>
+		<p>We gathered some hotel options for you! Be quick, many hotels already had no space left in May...</p>
 		<ul>
                             <li>You can book for Eur 65/night single or Eur 75/night double at <a href="http://www.aletto.de/en/kudamm" target="_blank">hotel Aletto Kudamm</a> by <a href="mailto:gr@aletto.de">sending a mail to gr@aletto.de</a> with your reservation data and mentioning "owncloudconf2015". Note that we could reserve only 20 rooms and the reservation ends on June 28!</li>
+                            <li>Another option is the <a href="http://www.nh-hotels.de/hotel/nh-berlin-city-ost" target="_blank">NH Berlin City Ost</a>, about Eur 75 per night. It is situated in Berlin East so a S-bahn ride away but close to where we have booked more people. We have no reserved rooms so you'll have to be quick!</li>
+                            <li><a href="http://www.allhotels-inn.com/show.php?hotel=876&ref=0" target="_blank">Hotel Amelie</a> is just a quick U-bahn stop away, is affordable and still has room.</li>
 		</ul>
 		<p>If these hotels are full or not to your liking, you can use <a href="http://findhotelsnearanaddress.com/">this site</a> to find something close by the University.</p>
 		<h2>Code of conduct</h2>
