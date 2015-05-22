@@ -74,6 +74,12 @@
 		<h3>Events we've been at in 2015</h3>
 		<table class="table table-striped">
 			<tr>
+				<th>Event</th>
+				<th>Location</th>
+				<th>Date</th>
+				<th>Link (report)</th>
+			</tr>
+			<tr>
 				<td>Keynote at DORSLUC</td>
 				<td>Zagreb, Croatia</td>
 				<td>May 18-20 2015</td>
@@ -84,12 +90,6 @@
 				<td>Berlin, Germany</td>
 				<td>May 14 2015</td>
 				<td><a target="_blank" href="http://opentechsummit.net/">Open Tech Summit site</a>, <a target="_blank" href="http://opentechsummit.net/#schedule">Schedule</a></td>
-			</tr>
-			<tr>
-				<th>Event</th>
-				<th>Location</th>
-				<th>Date</th>
-				<th>Link (report)</th>
 			</tr>
 			<tr>
 				<td>ownCloud workshop at TechMinistry</td>
