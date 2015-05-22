@@ -5,7 +5,9 @@
 		<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 	</div>
-	<div class="text-center">
+</div>
+<div class="row">
+	<div class="text-center videoWrapper">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y" frameborder="0" allowfullscreen></iframe>
 	</div>
 </div>
