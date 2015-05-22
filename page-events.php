@@ -66,20 +66,6 @@
 				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
 				<td><a target="_blank" href="http://www.southeastlinuxfest.org/">SELF website</a></td>
 			</tr>
-			<tr>
-				<td>Keynote at DORSLUC</td>
-				<td>Zagreb, Croatia</td>
-				<td>May 18-20 2015</td>
-				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
-				<td><a target="_blank" href="http://2015.dorscluc.org/en/">DORSLUC website</a></td>
-			</tr>
-			<tr>
-				<td>ownCloud workshop at OpenTechSummit</td>
-				<td>Berlin, Germany</td>
-				<td>May 14 2015</td>
-				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
-				<td><a target="_blank" href="http://opentechsummit.net/">Open Tech Summit site</a>, <a target="_blank" href="http://opentechsummit.net/#schedule">Schedule</a></td>
-			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
 		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know via the contact form</a> or email the events mailing list!</p>
@@ -87,6 +73,18 @@
 
 		<h3>Events we've been at in 2015</h3>
 		<table class="table table-striped">
+			<tr>
+				<td>Keynote at DORSLUC</td>
+				<td>Zagreb, Croatia</td>
+				<td>May 18-20 2015</td>
+				<td><a target="_blank" href="http://2015.dorscluc.org/en/">DORSLUC website</a></td>
+			</tr>
+			<tr>
+				<td>ownCloud workshop at OpenTechSummit</td>
+				<td>Berlin, Germany</td>
+				<td>May 14 2015</td>
+				<td><a target="_blank" href="http://opentechsummit.net/">Open Tech Summit site</a>, <a target="_blank" href="http://opentechsummit.net/#schedule">Schedule</a></td>
+			</tr>
 			<tr>
 				<th>Event</th>
 				<th>Location</th>
