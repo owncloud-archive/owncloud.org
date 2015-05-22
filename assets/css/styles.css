@@ -56,19 +56,42 @@ div.footer-social-icons img {
 	width: 250px;
 }
 
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-        width: 100%
-	height: 0;
+/*  Make YouTube videos responsive */
+@media(min-width: 995px) {
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 28.12%; /* 16:9 - lets them be quarter screen size.  56.25% for full */
+		padding-top: 25px;
+		width: 50%; /* 100%  for full screen size */
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		margin-left: 50%;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 }
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+
+@media(max-width: 996px) {
+	  .videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		width: 100%;
+		padding-left: -50%;
+	  }
+
+	  .videoWrapper iframe, .videoWrapper object, .videoWrapper embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	  }
 }
 
 .banner ul#menu-header.nav>li.menu-get-owncloud {
