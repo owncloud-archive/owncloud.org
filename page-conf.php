@@ -5,7 +5,9 @@
 		<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 	</div>
-	<div class="text-center">
+</div>
+<div class="row">
+	<div class="text-center videoWrapper">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y" frameborder="0" allowfullscreen></iframe>
 	</div>
 </div>
@@ -63,30 +65,27 @@
 		<p>We want everybody to feel welcome at the event. Please be mindful of our <a href="https://owncloud.org/community/code-of-conduct/">code of conduct</a>. Also, please note that there will be video recording. The conference is an open space, please be sure that you are comfortable with that. Of course, you can always ask people not to take pictures or video of you.</p>
 	</div>
 </div>
-<!--<div class="row conf-partners-title">
+<div class="row conf-partners-title">
 	<div class="col-md-12">
-		<h2>Conference Partners</h2>
+		<h2>Media Partners</h2>
 	</div>
 </div>
 <div class="row conf-partners">
 	<div class="col-xs-12 col-sm-4">
-		<a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="visit lwn.net" /></a>
+		<a target="_blank" href="http://www.linuxvoice.com/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxVoice.png" alt="Visit the Linux Voice site" /></a>
 	</div>
-	<div class="col-xs-12 col-sm-4 ">
-		<a target="_blank" href="http://www.themukt.com/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="visit the Mukt" /></a>
+	<div class="col-xs-12 col-sm-4">
+		<a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="visit lwn.net" /></a>
 	</div>
 	<div class="col-xs-12 col-sm-4">
 		<a target="_blank" href="http://linux-magazin.de"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="Visit Linux Magazin" /></a>
 	</div>
+	<div class="col-xs-12 col-sm-4 ">
+		<a target="_blank" href="http://www.themukt.com/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/themukt.png" alt="visit the Mukt" /></a>
+	</div>
 </div>
-<div class="row conf-partners">
-	<div class="col-xs-12 col-sm-4 col-sm-offset-2">
-		<a target="_blank" href="http://freiheitstattangst.de/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/FSA14.jpg" alt="Visit the Freiheit statt angst site" /></a>
-	</div>
-	<div class="col-xs-12 col-sm-4">
-		<a target="_blank" href="http://mozilla.org"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/mozilla-foundation-onblack.png" alt="Visit the Mozilla Foundation" /></a>
-	</div>
-</div>-->
+
+
 <div class="row conf-about">
 	<div class="col-sm-6">
 		<h2>Last year</h2>
