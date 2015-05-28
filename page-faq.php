@@ -2,6 +2,7 @@
 	<h1>Frequently Asked Questions</h1>
 </div>
 <h2>Index</h2>
+<a href="#whatis">Explain to me in simple terms what ownCloud is, please?</a>
 <h4>Running ownCloud</h4>
 <ul>
 	<li><a href="#install">Where do I find information on how to use/install ownCloud Server?</a></li>
@@ -51,6 +52,17 @@
 	<li><a href="#communityandenterprise">How do the community and company work together?</a></li>
 	<li><a href="#entcustomers">What customers does ownCloud, Inc. have?</a></li>
 </ul>
+
+<a name="whatis"></a>
+<h2>What is this ownCloud thing? Why would I care?</h2>
+<p>Today, most people have their digital life stored on online servers from various companies. Think Google, Apple, Facebook, Twitter, Dropbox, Instagram and many others. You uploaded your pictures, your music, your daily ramblings, happy and sad thoughts. You use these services to share with others, to send and receive emails, store address books, play music and video, have your files available on any device you want. All great features, no doubt! When your phone breaks, just having to log in to the new one to find all your pictures, contacts and other settings is an amazing and reassuring capability brought by these services, often (perhaps incorrectly) called 'the cloud'.</p>
+<p>But you might wonder: "<em>Where is this data? Who has access to it?</em>"</p>
+<p>These questions have become more pressing since the <a href="http://arstechnica.com/series/nsa-leaks/">revelations by Edward Snowden</a>. We know that foreign and our own governments have access. Criminals and large corporations, too. This knowledge about us can be used and abused in many ways, for financial gain, for control, for harmless and harmful fun.</p>
+<p>Many people prefer to have more control over who gets to see the photo's they send to their spouse or friends, who gets to read their bank account statements or determine their political allegiance. Or know where they are - as mobile phones track your location pretty much continuously...</p>
+<p>This is where ownCloud and similar technologies come in. ownCloud offers you the option to take back your data. Once you install it on a server (or let somebody do that for you!) you can access your private data in a easy to use web interface or synchronize it with your devices like Android and iPhones. You can store your contacts and calendar as well as files on ownCloud and, through the many ownCloud apps, use it to store passwords, play music and movies and so on. It also allows you to securely share with other people and collaborate on documents. Learn more <a href="/features">about ownCloud features here</a>.</p>
+<p>All this is free, as ownCloud is available under an '<em>open source license</em>', which gives you the right to examine, share <strong>and</strong> modify it. ownCloud is developed by an <a href="/contact">international community</a> of both paid and volunteer contributors and <a href="/contribute">you can get involved, too</a>.</p>
+
+<!-- TODO: create and add videos here, explaining all this... -->
 
 <h2>Running ownCloud</h2>
 <a name="install"></a>
