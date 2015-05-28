@@ -301,16 +301,16 @@ $( document ).ready(function() {
 
 <div class="row 3-column-lg-md-sm">
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<h2><i class="icon-twitter"></i> The latest twitter posts</h2>
+		<h2><i class="icon-twitter"></i> The latest <a href="https://twitter.com/ownclouders">twitter posts</a></h2>
 		<?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,3); } ?>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<h2><i class="icon-comment"></i> The latest from the forum</h2>
+		<h2><i class="icon-comment"></i> The latest <a href="https://forum.owncloud.org">from the forum</a></h2>
 		<?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,7); }?>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<h2><i class="icon-cloud"></i> ownCloud News</h2>
-		<?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,7); } ?>
+		<h2><i class="icon-cloud"></i> <a href="/news">ownCloud News</a></h2>
+		<?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,9); } ?>
 	</div>
 </div>
 

@@ -1,97 +1,95 @@
-.navbar-header .logo {
-	width: 121px;
-}
+
+/*---- General ----*/
+button a {color: #1d2d44}
+button a:hover {text-decoration: none; }
 
 .banner img {
 	padding: 15px 0;
 }
 
-div#getapps h2{
-	text-align: center;
-	font-weight:200;
-	font-size:30px;
+div.box-head {
+  display: none;
 }
 
-div#getapps .row {
-	margin-top: 30px;
-	margin-bottom: 47px;
-	text-align: center;
+h3.ft-title {
+  text-align: center;
+  font-weight: 100;
+  font-size: 23px;
 }
 
-div#getapps p {
-	margin-bottom: 20px;
-	margin-top: -20px;
+h2.featuretitle {
+  font-weight: 400;
+  font-size: 25px;
 }
 
 
-#appstore, #googleplay, #desktopclient {
-	opacity: 0.9;
-}
-img#sync-button {
-	vertical-align: text-bottom;
+.page-content-header > div > h1 {
+  display: inline;
+  margin-top: 0;
 }
 
-div.footer-text {
-	color: #AAAAAA;
-	text-align: center;
-	margin-bottom: 40px;
+.page-content-header > div > a.rss-button {
+  vertical-align: baseline;
+  margin-left: 20px;
+  color: rgb(206, 91, 0);
 }
 
-div.footer-social-icons > div {
-	text-align: center;
-	margin-bottom: -14px;
-	margin-top: 7px;
+.page-content-header > div > form > input[type=text] {
+  display: inline;
+  width: 78%;
 }
 
-div.footer-social-icons> div > a:hover {
-	opacity: 0.8;
+.banner ul#menu-header.nav>li:not(.menu-install) >a:hover {
+  border-bottom: 2px solid white;
 }
 
-div.footer-social-icons img {
-	margin: 0 1em 1em 0;
+.banner ul#menu-header.nav>li>a {
+  padding-bottom: 6px;
+  font-size: 1em;
 }
 
-.promote-buttons a {
-	margin-bottom: 10px;
-	width: 250px;
+.banner ul#menu-header.nav>li.menu-commercial>a:hover{
+  border-bottom: 2px solid #e8733b;
 }
 
-/*  Make YouTube videos responsive */
-@media(min-width: 995px) {
-	.videoWrapper {
-		position: relative;
-		padding-bottom: 28.12%; /* 16:9 - lets them be quarter screen size.  56.25% for full */
-		padding-top: 25px;
-		width: 50%; /* 100%  for full screen size */
-		height: 0;
-	}
-	.videoWrapper iframe {
-		position: absolute;
-		margin-left: 50%;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
+.btn.btn-orange {
+  background-color: #e8733b;
+  color: white;
 }
 
-@media(max-width: 996px) {
-	  .videoWrapper {
-		position: relative;
-		padding-bottom: 56.25%;
-		padding-top: 30px;
-		height: 0;
-		width: 100%;
-		padding-left: -50%;
-	  }
 
-	  .videoWrapper iframe, .videoWrapper object, .videoWrapper embed {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	  }
+div.sub-nav {
+  margin-top: -30px;
+}
+
+li.top-nav-active > a {
+  border-bottom: 2px solid white;
+}
+
+div.feature-wide-row-wrap {
+  background-color: #1D2D44;
+  color: white;
+  padding-bottom: 20px;
+}
+
+div.feature-wide-row-wrap div.featureblock{
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 200;
+}
+
+div.feature-wide-row-wrap div.featureblock i {
+  font-size: 25px;
+}
+
+div.feature-wide-row-wrap div.featureblock h3.ft-title {
+  margin-top: 0;
+}
+
+/*  the header */
+
+.navbar-header .logo {
+  width: 121px;
 }
 
 .banner ul#menu-header.nav>li.menu-get-owncloud {
@@ -112,13 +110,35 @@ div.footer-social-icons img {
 	margin-right: 0;
 }
 
+i[class*='icon-'] {
+	font-style: normal;
+}
+
+/*  the footer */
+
+div.footer-text {
+  color: #AAAAAA;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+div.footer-social-icons > div {
+  text-align: center;
+  margin-bottom: -14px;
+  margin-top: 7px;
+}
+
+div.footer-social-icons> div > a:hover {
+  opacity: 0.8;
+}
+
+div.footer-social-icons img {
+  margin: 0 1em 1em 0;
+}
+
 footer div.footer-nav>h4 {
 	font-size: 1.125em;
 	color: #FFFFFF;
-}
-
-i[class*='icon-'] {
-	font-style: normal;
 }
 
 p.socialicons > a > img {
@@ -129,43 +149,45 @@ div.thumbnail > img {
 	margin-bottom: 0;
 }
 
-.home div.wrap > .content {
-	background-size: 85% auto;
-	background-position: top center;
+/*  Make YouTube videos responsive */
+@media(min-width: 995px) {
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 28.12%; /* 16:9 - lets them be quarter screen size.  56.25% for full */
+    padding-top: 25px;
+    width: 50%; /* 100%  for full screen size */
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    margin-left: 50%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.page-content-header > div > h1 {
-	display: inline;
-	margin-top: 0;
+@media(max-width: 996px) {
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    width: 100%;
+    padding-left: -50%;
+  }
+
+  .videoWrapper iframe, .videoWrapper object, .videoWrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.page-content-header > div > a.rss-button {
-	vertical-align: baseline;
-	margin-left: 20px;
-	color: rgb(206, 91, 0);
-}
-
-.page-content-header > div > form > input[type=text] {
-	display: inline;
-	width: 78%;
-}
-
-.banner ul#menu-header.nav>li:not(.menu-install) >a:hover {
-	border-bottom: 2px solid white;
-}
-
-.banner ul#menu-header.nav>li>a {
-	padding-bottom: 6px;
-	font-size: 1em;
-}
-
-div.sub-nav {
-	margin-top: -30px;
-}
-
-li.top-nav-active > a {
-	border-bottom: 2px solid white;
-}
+/* the blog roll owncloud.org/news */
 
 .news .contribook_bloguser {
 	margin-right: -50px;
@@ -185,6 +207,10 @@ div.blog-social-icons > div a:hover {
 	height: auto;
 }
 
+.masonry-brick {
+  max-width: 100%;
+}
+
 article.post figcaption {
 	margin-top: -14px;
 }
@@ -199,39 +225,11 @@ article.post figcaption {
 	max-width: 400px;
 }
 
-div.box-head {
-	display: none;
-}
+/* home */
 
-h3.ft-title {
-	text-align: center;
-	font-weight: 100;
-	font-size: 23px;
-}
-
-h2.featuretitle {
-	font-weight: 400;
-	font-size: 25px;
-}
-
-div.feature-wide-row-wrap {
-	background-color: #1D2D44;
-	color: white;
-	padding-bottom: 20px;
-}
-
-div.feature-wide-row-wrap div.featureblock{
-	text-align: center;
-	padding-top: 15px;
-	font-weight: 200;
-}
-
-div.feature-wide-row-wrap div.featureblock i {
-	font-size: 25px;
-}
-
-div.feature-wide-row-wrap div.featureblock h3.ft-title {
-	margin-top: 0;
+.home div.wrap > .content {
+  background-size: 85% auto;
+  background-position: top center;
 }
 
 .content.row, .row.row-slogan {
@@ -260,8 +258,6 @@ i.icon-opensource {
 	background-position: center;
 	margin-right: 6px;
 }
-
-/* home */
 
 .home p.explain-short {
 	text-align: center;
@@ -381,15 +377,6 @@ div.row.home-row h2 {
 	text-align: center;
 }
 
-.banner ul#menu-header.nav>li.menu-commercial>a:hover{
-	border-bottom: 2px solid #e8733b;
-}
-
-.btn.btn-orange {
-	background-color: #e8733b;
-	color: white;
-}
-
 .home-ent-button {
 	font-weight: 100;
 }
@@ -438,9 +425,6 @@ div.evnt-btn-wrap {
 	text-align: center;
 }
 
-/*---- General ----*/
-button a {color: #1d2d44}
-button a:hover {text-decoration: none; }
 
 /*---- Teaser ----*/
 .teaser-area h1 {color: #1d2d44; font-weight: normal; margin-bottom: 20px; font-size: 32px; }
@@ -595,7 +579,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#838ca1', end
 
 }
 
+
+/** promote page **/
+
+.promote-buttons a {
+  margin-bottom: 10px;
+  width: 250px;
+}
+
 /** Get Started Page **/
+
+div#getapps h2{
+  text-align: center;
+  font-weight:200;
+  font-size:30px;
+}
+
+div#getapps .row {
+  margin-top: 30px;
+  margin-bottom: 47px;
+  text-align: center;
+}
+
+div#getapps p {
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+#appstore, #googleplay, #desktopclient {
+opacity: 0.9;
+}
+
+img#sync-button {
+  vertical-align: text-bottom;
+}
+
 div.numbadge {
 	border-radius: 50%;
 	width: 53px;
