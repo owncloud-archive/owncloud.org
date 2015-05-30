@@ -4,8 +4,8 @@
 <div class="container teaser-area">
 	<div class="row">
 		<div class="col-lg-7 col-md-6 col-sm-5">
-			<h1><small>Take back your data with</small><br>ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>.0</h1>
-			<p>Access your data from all your devices, on an open platform you can extend and modify.</p>
+			<h1>Access your data from all your devices, on an open platform you can extend and modify.</h1>
+			<p>Take back your data with ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></p>
 			<p><a class="btn btn-primary btn-lg" role="button" href="/features">Learn more &raquo;</a></p>
 		</div>
 		<div id="image-container" class="col-lg-5 col-md-6 col-sm-7">
