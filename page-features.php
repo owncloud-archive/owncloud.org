@@ -156,6 +156,7 @@
 	<li>Easy development of 3rd party apps with the share REST API. Quick access to core functions for app development with the powerful ownCloud App API and webhooks following 
 		the publication / subscription model.</li>
 </ul>
+<p>Find answers to your questions on our <a href="/faq">Frequently Asked Questions page</a>.</p>
 </div>
 <h2>Get involved!</h2>
 <p><a target="_blank" href="/promote/" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss ownCloud with others</a></p>
