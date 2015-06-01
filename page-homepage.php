@@ -4,13 +4,13 @@
 <div class="container teaser-area">
 	<div class="row">
 		<div class="col-lg-7 col-md-6 col-sm-5">
-			<h1><small>Introducing</small><br>ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>.0</h1>
-			<p>Access your data from all your devices, on an open platform you can extend and modify.</p>
-			<p><a class="btn btn-primary btn-lg" role="button" href="/eight">Learn more &raquo;</a></p>
+			<h1>Access your data from all your devices, on an open platform you can extend and modify.</h1>
+			<p>Take back your data with ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></p>
+			<p><a class="btn btn-primary btn-lg" role="button" href="/features">Learn more &raquo;</a></p>
 		</div>
 		<div id="image-container" class="col-lg-5 col-md-6 col-sm-7">
 			<div class="image">
-				<a href="/eight"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser.png" class="teaser-img img-responsive" alt="ownCloud <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>" /></a>
+				<a href="/features"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser.png" class="teaser-img img-responsive" alt="ownCloud <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>" /></a>
 			</div>
 		</div>
 	</div>
@@ -301,16 +301,16 @@ $( document ).ready(function() {
 
 <div class="row 3-column-lg-md-sm">
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<h2><i class="icon-twitter"></i> The latest twitter posts</h2>
+		<h2><i class="icon-twitter"></i> The latest <a href="https://twitter.com/ownclouders">twitter posts</a></h2>
 		<?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,3); } ?>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<h2><i class="icon-comment"></i> The latest from the forum</h2>
+		<h2><i class="icon-comment"></i> The latest <a href="https://forum.owncloud.org">from the forum</a></h2>
 		<?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,7); }?>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<h2><i class="icon-cloud"></i> ownCloud News</h2>
-		<?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,7); } ?>
+		<h2><i class="icon-cloud"></i> <a href="/news">ownCloud News</a></h2>
+		<?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,9); } ?>
 	</div>
 </div>
 

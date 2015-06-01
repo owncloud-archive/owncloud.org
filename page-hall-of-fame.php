@@ -61,6 +61,10 @@
 <p>The ownCloud community would like to acknowledge the following people for their contributions to the security of our websites 
 	*.owncloud.org and *.owncloud.com</p>
 <br/>
+<strong>2015</strong>
+<ul>
+	<li>Ilca Lucian (<a href="http://www.pwnthecode.org/">pwnthecode.org</a>)</li>
+</ul>
 <strong>2014</strong>
 <ul>
 	<li>Ali BenCafu (<a href="https://twitter.com/Th3Septimus">@Th3Septimus</a>)</li>
