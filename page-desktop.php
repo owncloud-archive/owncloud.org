@@ -1,47 +1,85 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3>Release 1.8.2 <small>June 8th 2015</small></h3>
+<ul>
+<li>Improve reporting of server error messages (<a href="https://github.com/owncloud/client/issues/3220">#3220</a>)</li>
+<li>Discovery: Ignore folders with any 503 (<a href="https://github.com/owncloud/client/issues/3113">#3113</a>)</li>
+<li>Wizard: Show server error message if possible (<a href="https://github.com/owncloud/client/issues/3220">#3220</a>)</li>
+<li>QNAM: Fix handling of mitm cert changes (<a href="https://github.com/owncloud/client/issues/3283">#3283</a>)</li>
+<li>Win32: Installer translations added (<a href="https://github.com/owncloud/client/issues/3277">#3277</a>)</li>
+<li>Win32: Allow concurrent OEM (un-)installers (<a href="https://github.com/owncloud/client/issues/3272">#3272</a>)</li>
+<li>Win32: Make Setup/Update Mutex theme-unique (<a href="https://github.com/owncloud/client/issues/3272">#3272</a>)</li>
+<li>HTTP: Add the branding name to the UserAgent string</li>
+<li>ConnectonValidator: Always run with new credentials (<a href="https://github.com/owncloud/client/issues/3266">#3266</a>)</li>
+<li>Recall Feature: Admins can trigger an upload of a file from client to server again (<a href="https://github.com/owncloud/client/issues/3246">#3246</a>)</li>
+<li>Propagator: Add 'Content-Length: 0' header to MKCOL request (<a href="https://github.com/owncloud/client/issues/3256">#3256</a>)</li>
+<li>Switch on checksum verification through branding or config</li>
+<li>Add ability for checksum verification of up and download</li>
+<li>Fix opening external links for some labels (<a href="https://github.com/owncloud/client/issues/3135">#3135</a>)</li>
+<li>AccountState: Run only a single validator, allow error message overriding (<a href="https://github.com/owncloud/client/issues/3236">#3236</a>, <a href="https://github.com/owncloud/client/issues/3153">#3153</a>)</li>
+<li>SyncJournalDB: Minor fixes and simplificatons</li>
+<li>SyncEngine: Force re-read of folder Etags for upgrades from 1.8.0 and 1.8.1</li>
+<li>Propagator: Limit length of temporary file name (<a href="https://github.com/owncloud/client/issues/2789">#2789</a>)</li>
+<li>ShareDialog: Password ui fixes (<a href="https://github.com/owncloud/client/issues/3189">#3189</a>)</li>
+<li>Fix startup hang by removing QSettings lock file (<a href="https://github.com/owncloud/client/issues/3175">#3175</a>)</li>
+<li>Wizard: Allow SSL cert dialog to show twice (<a href="https://github.com/owncloud/client/issues/3168">#3168</a>)</li>
+<li>ProtocolWidget: Fix rename message (<a href="https://github.com/owncloud/client/issues/3210">#3210</a>)</li>
+<li>Discovery: Test better, treat invalid hrefs as error (<a href="https://github.com/owncloud/client/issues/3176">#3176</a>)</li>
+<li>Propagator: Overwrite local data only if unchanged (<a href="https://github.com/owncloud/client/issues/3156">#3156</a>)</li>
+<li>ShareDialog: Improve error reporting for share API fails</li>
+<li>OSX Updater: Only allow updates only if in /Applications (<a href="https://github.com/owncloud/client/issues/2931">#2931</a>)</li>
+<li>Wizard: Fix lock icon (<a href="https://github.com/owncloud/client/issues/1447">#1447</a>)</li>
+<li>Fix compilation with GCC 5</li>
+<li>Treat any 503 error as temporary (<a href="https://github.com/owncloud/client/issues/3113">#3113</a>)</li>
+<li>Work around for the Qt PUT corruption bug (<a href="https://github.com/owncloud/client/issues/2425">#2425</a>)</li>
+<li>OSX Shell integration: Optimizations</li>
+<li>Windows Shell integration: Optimizations</li>
+</ul>
+<div class="page-header">
+  <h1>ownCloud Desktop Client Changelog</h1>
+</div>
 <h3>Release 1.8.1 <small>May 7th 2015</small></h3>
 <ul>
 <li>Make "operation canceled" error a soft error</li>
-<li>Do not throw an error for files that are scheduled to be removed, but can not be found on the server. (<a href="http://github.com/owncloud/client/issues/2919">#2919</a>)</li>
-<li>Windows: Reset QNAM to proper function after hibernation. (<a href="http://github.com/owncloud/client/issues/2899">#2899</a>, <a href="http://github.com/owncloud/client/issues/2895">#2895</a>, <a href="http://github.com/owncloud/client/issues/2973">#2973</a>)</li>
-<li>Fix argument verification of --confdir (<a href="http://github.com/owncloud/client/issues/2453">#2453</a>)</li>
-<li>Fix a crash when accessing a dangling UploadDevice pointer (<a href="http://github.com/owncloud/client/issues/2984">#2984</a>)</li>
-<li>Add-folder wizard: Make sure there is a scrollbar if folder names are too long (<a href="http://github.com/owncloud/client/issues/2962">#2962</a>)</li>
+<li>Do not throw an error for files that are scheduled to be removed, but can not be found on the server. (<a href="https://github.com/owncloud/client/issues/2919">#2919</a>)</li>
+<li>Windows: Reset QNAM to proper function after hibernation. (<a href="https://github.com/owncloud/client/issues/2899">#2899</a>, <a href="https://github.com/owncloud/client/issues/2895">#2895</a>, <a href="https://github.com/owncloud/client/issues/2973">#2973</a>)</li>
+<li>Fix argument verification of --confdir (<a href="https://github.com/owncloud/client/issues/2453">#2453</a>)</li>
+<li>Fix a crash when accessing a dangling UploadDevice pointer (<a href="https://github.com/owncloud/client/issues/2984">#2984</a>)</li>
+<li>Add-folder wizard: Make sure there is a scrollbar if folder names are too long (<a href="https://github.com/owncloud/client/issues/2962">#2962</a>)</li>
 <li>Add-folder Wizard: Select the newly created folder</li>
-<li>Activity: Correctly restore column sizes (<a href="http://github.com/owncloud/client/issues/3005">#3005</a>)</li>
+<li>Activity: Correctly restore column sizes (<a href="https://github.com/owncloud/client/issues/3005">#3005</a>)</li>
 <li>SSL Button: do not crash on empty certificate chain</li>
-<li>SSL Button: Make menu creation lazy (<a href="http://github.com/owncloud/client/issues/3007">#3007</a>, <a href="http://github.com/owncloud/client/issues/2990">#2990</a>)</li>
-<li>Lookup system proxy async to avoid hangs (<a href="http://github.com/owncloud/client/issues/2993">#2993</a>, <a href="http://github.com/owncloud/client/issues/2802">#2802</a>)</li>
+<li>SSL Button: Make menu creation lazy (<a href="https://github.com/owncloud/client/issues/3007">#3007</a>, <a href="https://github.com/owncloud/client/issues/2990">#2990</a>)</li>
+<li>Lookup system proxy async to avoid hangs (<a href="https://github.com/owncloud/client/issues/2993">#2993</a>, <a href="https://github.com/owncloud/client/issues/2802">#2802</a>)</li>
 <li>ShareDialog: Some GUI refinements</li>
-<li>ShareDialog: On creation of a share always retrieve the share. This makes sure that if a default expiration date is set this is reflected in the dialog. (<a href="http://github.com/owncloud/client/issues/2889">#2889</a>)</li>
+<li>ShareDialog: On creation of a share always retrieve the share. This makes sure that if a default expiration date is set this is reflected in the dialog. (<a href="https://github.com/owncloud/client/issues/2889">#2889</a>)</li>
 <li>ShareDialog: Only show share dialog if we are connected.</li>
-<li>HttpCreds: Fill pw dialog with previous password. (<a href="http://github.com/owncloud/client/issues/2848">#2848</a>, <a href="http://github.com/owncloud/client/issues/2879">#2879</a>)</li>
-<li>HttpCreds: Delete password from old location. (<a href="http://github.com/owncloud/client/issues/2186">#2186</a>)</li>
+<li>HttpCreds: Fill pw dialog with previous password. (<a href="https://github.com/owncloud/client/issues/2848">#2848</a>, <a href="https://github.com/owncloud/client/issues/2879">#2879</a>)</li>
+<li>HttpCreds: Delete password from old location. (<a href="https://github.com/owncloud/client/issues/2186">#2186</a>)</li>
 <li>Do not store Session Cookies in the client cookie storage</li>
-<li>CookieJar: Don't accidentally overwrite cookies. (<a href="http://github.com/owncloud/client/issues/2808">#2808</a>)</li>
-<li>ProtocolWidget: Always add seconds to the DateTime locale. (<a href="http://github.com/owncloud/client/issues/2535">#2535</a>)</li>
-<li>Updater: Give context as to which app is about to be updated (<a href="http://github.com/owncloud/client/issues/3040">#3040</a>)</li>
+<li>CookieJar: Don't accidentally overwrite cookies. (<a href="https://github.com/owncloud/client/issues/2808">#2808</a>)</li>
+<li>ProtocolWidget: Always add seconds to the DateTime locale. (<a href="https://github.com/owncloud/client/issues/2535">#2535</a>)</li>
+<li>Updater: Give context as to which app is about to be updated (<a href="https://github.com/owncloud/client/issues/3040">#3040</a>)</li>
 <li>Windows: Add version information for owncloud.exe. This should help us know what version or build number a crash report was generated with.</li>
-<li>Fix a crash on shutdown in ~SocketApi (<a href="http://github.com/owncloud/client/issues/3057">#3057</a>)</li>
-<li>SyncEngine: Show more timing measurements (<a href="http://github.com/owncloud/client/issues/3064">#3064</a>)</li>
+<li>Fix a crash on shutdown in ~SocketApi (<a href="https://github.com/owncloud/client/issues/3057">#3057</a>)</li>
+<li>SyncEngine: Show more timing measurements (<a href="https://github.com/owncloud/client/issues/3064">#3064</a>)</li>
 <li>Discovery: Add warning if returned etag is 0</li>
-<li>Fix a crash caused by an invalid DiscoveryDirectoryResult::iterator (<a href="http://github.com/owncloud/client/issues/3051">#3051</a>)</li>
-<li>Sync: Fix sync of deletions during 503. (<a href="http://github.com/owncloud/client/issues/2894">#2894</a>)</li>
-<li>Handle redirect of auth request. (<a href="http://github.com/owncloud/client/issues/3082">#3082</a>)</li>
-<li>Discovery: Fix parsing of broken XML replies, which fixes local file disappearing (<a href="http://github.com/owncloud/client/issues/3102">#3102</a>)</li>
-<li>Migration: Silently restore files that were deleted locally by bug (<a href="http://github.com/owncloud/client/issues/3102">#3102</a>)</li>
-<li>Sort folder sizes SelectiveSyncTreeView numerically (<a href="http://github.com/owncloud/client/issues/3112">#3112</a>)</li>
-<li>Sync: PropagateDownload: Read the mtime from the file system after writing it (<a href="http://github.com/owncloud/client/issues/3103">#3103</a>)</li>
-<li>Sync: Propagate download: Fix restoring files for which the conflict file exists (<a href="http://github.com/owncloud/client/issues/3106">#3106</a>)</li>
+<li>Fix a crash caused by an invalid DiscoveryDirectoryResult::iterator (<a href="https://github.com/owncloud/client/issues/3051">#3051</a>)</li>
+<li>Sync: Fix sync of deletions during 503. (<a href="https://github.com/owncloud/client/issues/2894">#2894</a>)</li>
+<li>Handle redirect of auth request. (<a href="https://github.com/owncloud/client/issues/3082">#3082</a>)</li>
+<li>Discovery: Fix parsing of broken XML replies, which fixes local file disappearing (<a href="https://github.com/owncloud/client/issues/3102">#3102</a>)</li>
+<li>Migration: Silently restore files that were deleted locally by bug (<a href="https://github.com/owncloud/client/issues/3102">#3102</a>)</li>
+<li>Sort folder sizes SelectiveSyncTreeView numerically (<a href="https://github.com/owncloud/client/issues/3112">#3112</a>)</li>
+<li>Sync: PropagateDownload: Read the mtime from the file system after writing it (<a href="https://github.com/owncloud/client/issues/3103">#3103</a>)</li>
+<li>Sync: Propagate download: Fix restoring files for which the conflict file exists (<a href="https://github.com/owncloud/client/issues/3106">#3106</a>)</li>
 <li>Use identical User Agents and version for csync and the Qt parts</li>
-<li>Prevent another crash in ~SocketApi (<a href="http://github.com/owncloud/client/issues/3118">#3118</a>)</li>
-<li>Windows: Fix rename of finished file (<a href="http://github.com/owncloud/client/issues/3073">#3073</a>)</li>
-<li>AccountWizard: Fix auth error handling (<a href="http://github.com/owncloud/client/issues/3155">#3155</a>)</li>
+<li>Prevent another crash in ~SocketApi (<a href="https://github.com/owncloud/client/issues/3118">#3118</a>)</li>
+<li>Windows: Fix rename of finished file (<a href="https://github.com/owncloud/client/issues/3073">#3073</a>)</li>
+<li>AccountWizard: Fix auth error handling (<a href="https://github.com/owncloud/client/issues/3155">#3155</a>)</li>
 <li>Documentation fixes</li>
 <li>Infrastructure/build fixes</li>
-<li>Win32/OS X: Apply patch from OpenSSL to handle oudated intermediates gracefully (<a href="http://github.com/owncloud/client/issues/3087">#3087</a>)</li>
+<li>Win32/OS X: Apply patch from OpenSSL to handle oudated intermediates gracefully (<a href="https://github.com/owncloud/client/issues/3087">#3087</a>)</li>
 </ul>
 Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.1.5050-setup.exe">Windows</a> |
