@@ -2,18 +2,63 @@
 	<h1>ownCloud Server Changelog</h1>
 </div>
 <h3>Version 8.0.4 <small>June 5th 2015</small></h3>
-<li></li>
-
-
-
+<ul>
+<li>occ can now optionally update all third party apps without disabling</li>
+<li>Database handling changes which should improve performance on big systems</li>
+<li>better support for very old cURL versions (for QNAP users)</li>
+<li>Extended X-Accel-Redirect functionality in nginx</li>
+<li>Added work-around for file transfers on 32bit systems</li>
+<li>Improved quota calculation</li>
+<li>Many fixes and improvements to sharing</li>
+<li>Several fixes to upgrade process</li>
+<li>Fix deleted folders on client not showing up in trash</li>
+<li>fix inability to delete files when quota is 0</li>
+<li>Change WebDAV error to 500 instead of 403 on denying overwrite of read-only file</li>
+<li>Fixed enforcing expiration date</li>
+<li>Fix to Provisioning API</li>
+<li>Fixing shared document editing by shared LDAP users</li>
+<li>IE 8/9 fixes</li>
 <li>Several smaller fixes</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.4.tar.bz2">owncloud-8.0.4.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.4.zip">owncloud-8.0.4.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.4.tar.bz2.md5">owncloud-8.0.4.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.4.zip.md5">owncloud-8.0.4.zip.md5</a></br>
 SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.4.tar.bz2.sha256">owncloud-8.0.4.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.4.zip.sha256">owncloud-8.0.4.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.4.tar.bz2.asc">owncloud-8.0.4.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.4.zip.asc">owncloud-8.0.4.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
 
+<h3>Release 7.0.6 <small>June 5th 2015</small></h3>
+<ul>
+<li>Improve upgrade process</li>
+<li>Improved quota calculation</li>
+<li>Added work-around for file transfers on 32bit systems</li>
+<li>Some fixes to sharing</li>
+<li>Fix issue with broken encryption key when deleting file shared by other user</li>
+<li>Fix incompatibility bugwith PHP 5.3</li>
+<li>Fixed several LDAP and AD issues</li>
+<li>Fix movie indexing</li>
+<li>Several smaller fixes</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.6.tar.bz2">owncloud-7.0.6.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.6.zip">owncloud-7.0.6.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.6.tar.bz2.md5">owncloud-7.0.6.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.6.zip.md5">owncloud-7.0.6.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.6.tar.bz2.sha256">owncloud-7.0.6.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.6.zip.sha256">owncloud-7.0.6.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.6.tar.bz2.asc">owncloud-7.0.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.6.zip.asc">owncloud-7.0.6.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
+
+<h3>Release 6.0.8 <small>June 5th 2015</small></h3>
+<ul>
+<li>versioning and deletion fix that solves "unable to rename, file is not writeable" bug</li>
+<li>fixed the long execution time of the key migration</li>
+<li>Remove hacky Substring support for MSSQL</li>
+<li>Several smaller fixes</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-6.0.8.tar.bz2">owncloud-6.0.8.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.8.zip">owncloud-6.0.8.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.8.tar.bz2.md5">owncloud-6.0.8.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.8.zip.md5">owncloud-6.0.8.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-6.0.8.tar.bz2.sha256">owncloud-6.0.8.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.8.zip.sha256">owncloud-6.0.8.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-6.0.8.tar.bz2.asc">owncloud-6.0.8.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.8.zip.asc">owncloud-6.0.8.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
+
 <h3>Version 8.0.3 <small>May 1st 2015</small></h3>
+<ul>
 <li>Fix several Constrain Violation Exceptions</li>
 <li>Fix misleading Maintenance mode message</li>
 <li>Timezone fixes for countries with 0.5 and 0.75 offsets</li>
@@ -29,6 +74,7 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Fix "Error while updating app" error</li>
 <li>Internal Server Error after attempting to do "occ files:scan" </li>
 <li>Several smaller fixes</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2">owncloud-8.0.3.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.3.zip">owncloud-8.0.3.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2.md5">owncloud-8.0.3.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.3.zip.md5">owncloud-8.0.3.zip.md5</a></br>
 SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.3.tar.bz2.sha256">owncloud-8.0.3.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.3.zip.sha256">owncloud-8.0.3.zip.sha256</a></br>
@@ -36,6 +82,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 8.0.2 <small>March 11th 2015</small></h3>
+<ul>
 <li>Prevent DB errors in certain high load situations</li>
 <li>Fix installation and updating of apps from the app store</li>
 <li>Fix documentation links</li>
@@ -46,6 +93,7 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Detect broken APC versions</li>
 <li>Fix certain incompatibilities with older PHP 5.4 versions</li>
 <li>Several smaller fixes</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2">owncloud-8.0.2.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.2.zip">owncloud-8.0.2.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.md5">owncloud-8.0.2.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.2.zip.md5">owncloud-8.0.2.zip.md5</a></br>
 SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.2.tar.bz2.sha256">owncloud-8.0.2.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.2.zip.sha256">owncloud-8.0.2.zip.sha256</a></br>
@@ -53,6 +101,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Release 7.0.5 <small>March 11th 2015</small></h3>
+<ul>
 <li>LDAP user cleanup</li>
 <li>Improved MSSQL compatibility</li>
 <li>Add note about external user app to config.sample.php</li>
@@ -72,6 +121,7 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Check if files are deletable before trying to delete them</li>
 <li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
 <li>Several smaller fixes</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2">owncloud-7.0.5.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.5.zip">owncloud-7.0.5.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.md5">owncloud-7.0.5.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.5.zip.md5">owncloud-7.0.5.zip.md5</a></br>
 SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.5.tar.bz2.sha256">owncloud-7.0.5.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.5.zip.sha256">owncloud-7.0.5.zip.sha256</a></br>
@@ -79,11 +129,13 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Release 6.0.7 <small>March 11th 2015</small></h3>
+<ul>
 <li>Remove some not needed error log messages</li>
 <li>Removes the bogus leading slash in some sharing situations</li>
 <li>Better cleanup temporary files</li>
 <li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
 <li>Several smaller fixes</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2">owncloud-6.0.7.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.7.zip">owncloud-6.0.7.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.md5">owncloud-6.0.7.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.7.zip.md5">owncloud-6.0.7.zip.md5</a></br>
 SHA256: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.sha256">owncloud-6.0.7.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.7.zip.sha256">owncloud-6.0.7.zip.sha256</a></br>
@@ -91,8 +143,10 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Release 5.0.19 <small>March 11th 2015</small></h3>
+<ul>
 <li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
 <li>Several smaller fixes</li>
+</ul>
 <strong>Notice</strong>: this is the last 5.0.x release. Upgrading to a supported major release is highly recommended.</br>
 Download: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2">owncloud-5.0.19.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip">owncloud-5.0.19.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.md5">owncloud-5.0.19.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip.md5">owncloud-5.0.19.zip.md5</a></br>
@@ -101,6 +155,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:5.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 8.0.0 <small>Feb 9th 2015</small></h3>
+<ul>
 <li>Favorites</li>
 <li>Federated Cloud sharing (Server 2 Server Sharing Version 2)</li>
 <li>Improved apps management page</li>
@@ -123,11 +178,13 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Various app API deprecations and features</li>
 <li>Improved import for contacts</li>
 <li>App development tutorial for building a notes app</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2">https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2.md5">https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 7.0.4 <small>Dec 9th 2014</small></h3>
+<ul>
 <li>Added XMLWriter check</li>
 <li>Better deleted outdated previews</li>
 <li>Store storage credential in session only if needed</li>
@@ -141,11 +198,13 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>ldap performance improvements</li>
 <li>config.php can now be read only</li>
 <li>Several smaller fixes</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-7.0.4.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.4.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.4.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.4.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 7.0.3 <small>November 13th 2014</small></h3> 
+<ul>
 <li>Some OS X server fixes</li>
 <li>Several external storage fixes and improvements</li>
 <li>Close session early to speedup apps page loading</li>
@@ -170,11 +229,13 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Prevent upgrades between more than one major versions</li>
 <li>Several security fixes</li>
 <li>Lots of smaller improvements</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-7.0.3.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.3.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.3.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.3.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 6.0.6 <small>November 13th 2014</small></h3> 
+<ul>
 <li>Fix finding old versions in special cases</li>
 <li>Make versions and encryption aware of copy operations</li>
 <li>Force loading encryption app in all needed cases</li>
@@ -185,20 +246,24 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Add displayname for admins</li>
 <li>Several security fixes</li>
 <li>Lots of smaller improvements</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 5.0.18 <small>November 13th 2014</small></h3> 
+<ul>
 <li>Only allow http and https redirects</li>
 <li>Documentation fixes</li>
 <li>Several security fixes</li>
 <li>Several smaller fixes</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:5.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 7.0.2 <small>August 28th 2014</small></h3> 
+<ul>
 <li>App upgrading stability improvements</li>
 <li>Make default share folder configurable</li>
 <li>Improve readability of error messages</li>
@@ -222,11 +287,13 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Several Documents fixes</li>
 <li>Correctly handle public uploads activities</li>
 <li>Add better 4 image previews to gallery</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-7.0.2.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.2.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.2.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.2.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
 
-<h3>Version 6.0.5 <small>August 28th 2014</small></h3> 
+<h3>Version 6.0.5 <small>August 28th 2014</small></h3>
+<ul>
 <li>Documentation improvements</li>
 <li>fix anonymous upload if logged-in </li>
 <li>Fix handling of special characters in group names</li>
@@ -247,11 +314,13 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Correctly handle storage stats for trash bin</li>
 <li>Remove etag warning for trash bin</li>
 <li>Hardened SFTP host verification</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
 
-<h3>Version 7.0.1 <small>August 4th 2014</small></h3> 
+<h3>Version 7.0.1 <small>August 4th 2014</small></h3>
+<ul>
 <li>Set maximum width for notification so they don't overlap the whole header</li>
 <li>Don't preload videos on public sharing</li>
 <li>Fix preview size calculation under certain conditions</li>
@@ -278,11 +347,13 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Fix gallery pause icon</li>
 <li>Several contacts fixes specifically for PHP 5.3</li>
 <li>Make updater more robust</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-7.0.1.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.1.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.1.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.1.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 7.0.0 <small>June 23rd 2014</small></h3>
+<ul>
 <li>New files view including sorting and endless scrolling</li>
 <li>Server to Server sharing</li>
 <li>Sharing overview</li>
@@ -298,6 +369,7 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Email configuration wizard</li>
 <li>Email template editor</li>
 <li>Improved upgrade process</li>
+</ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-7.0.0.tar.bz2">https://download.owncloud.org/community/owncloud-7.0.0.tar.bz2</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.0.tar.bz2.md5">https://download.owncloud.org/community/owncloud-7.0.0.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
@@ -356,7 +428,6 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.17.tar.bz2.md
 <li>Fix sharing oc addressbooks</li>
 <li>Several ownCloud Documents improvements and fixes</li>
 <li>Several smaller bugfixes</li>
-
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-6.0.3.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.3.tar.bz2</a><br />
 MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.3.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.3.tar.bz2.md5</a><br />
