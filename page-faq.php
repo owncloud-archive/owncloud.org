@@ -27,10 +27,7 @@
 	<li><a href="#deduplication">Does ownCloud do file de-duplication?</a></li>
 	<li><a href="#syncspeed">Why is ownCloud syncing not faster?</a></li>
 	<li><a href="#scaling">Does ownCloud scale to large deployments?</a></li>
-	<li><a href="#closedapps">Can I write closed source apps for ownCloud?</a></li>
 	<li><a href="#notcrippled">Is ownCloud Server limited to a certain number of users or files and do I have to purchase something to get a 'full' version?</a></li>
-	<li><a href="#copyrightviolation">I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</a></li>
-	<li><a href="#modifyowncloud">Can I modify ownCloud and run it on my website for others to use/access?</a></li>
 </ul>
 <h4>ownCloud Community</h4>
 <ul>
@@ -41,7 +38,13 @@
 	<li><a href="#notechknowledge">But what if I'm not very technical?</a></li>
 	<li><a href="#appslocation">Where can I find ownCloud Server apps?</a></li>
 	<li><a href="#communityswag">Where can I find ownCloud t-shirts, stickers and other swag?</a></li>
+</ul>
+<h4>Legal</h4>
+<ul>
+	<li><a href="#modifyowncloud">Can I modify ownCloud and run it on my website for others to use/access?</a></li>
+	<li><a href="#closedapps">Can I write closed source apps for ownCloud?</a></li>
 	<li><a href="#trademark">Can I use the ownCloud logo on my website, for my ownCloud app or client, or promotional materials?</a></li>
+	<li><a href="#copyrightviolation">I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</a></li>
 </ul>
 <h4>ownCloud for professional use</h4>
 <ul>
@@ -196,34 +199,10 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 	<li>Check out the <a href="https://github.com/owncloud/core/" target="_blank">core code on github</a> if you are interested in the challenges of fast, scalable and reliable file syncing! See <a href="/contribute/" target="_blank">the contribute pages</a> for more information about getting involved.</li>
 </ul>
 
-<a name="closedapps"></a>
-<h3>Can I write closed source apps for ownCloud?</h3>
-<ul>
-	<li>Yes, but only under the <a href="https://www.owncloud.com" target="_blank">ownCloud Enterprise Edition</a>, which supports integration with proprietary technologies.</li>
-</ul>
-
 <a name="notcrippled"></a>
 <h3>Is ownCloud Server limited to a certain number of users or files and do I have to purchase something to get a 'full' version?</h3>
 <p>ownCloud is open source, so artificial limitations have no place in it. It can sustain the same number of users, downloads or data as a version equipped with enterprise apps and a support contract.</p>
 
-<a name="copyrightviolation"></a>
-<h3>I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</h3>
-<p>ownCloud is an open-source project that can be easily hosted by any person allowing anybody to securely exchange files. Neither the ownCloud open source project nor ownCloud, Inc. exert any legal or technical control over those domains. If you found a copyright infringement on a domain other than <a href="http://owncloud.org" target="_blank">owncloud.org</a> or <a href="http://owncloud.com" target="_blank">owncloud.com</a>, please try to contact the domain owner. ownCloud has no insight or control over ownCloud instances.</p>
-
-<a name="modifyowncloud"></a>
-<h3>Can I modify ownCloud and run it on my website for others to use/access?</h3>
-<p>ownCloud Server is available <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">under the AGPLv3</a>. In laymen terms (this is NOT legal advice!) the AGPL license grants you the right to run the ownCloud code wherever and however you want, make modifications and additions and share these with anybody you like. The only limitation is that if you give others access to your ownCloud (by giving them a user account or sharing files with them), you must also give them access to the source code; and the whole source (including your modifications) has to be under the AGPLv3 license.</p>
-<p><strong>How to comply</strong></p>
-<p>If you have made no modifications to the ownCloud code, the easiest way to comply with the AGPL is to have a small link to owncloud.org and note that users can find the code there.</p>
-<p>If you have made modifications, contributing these to ownCloud is sufficient from our point of view. If you don't want or can't do that, you have to provide a way for users to download the modifications you made to ownCloud, including the modifications. Providing, upon request, a tarball, zip file or github repository is enough. Make sure they contain the copyright notice; the code has to be under the AGPLv3 or a compatible license like the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.</p>
-<p>Some examples:</p>
-<ul>
-<li>ownCloud apps (ownCloud apps like the calendar or music app from <a href="http://apps.owncloud.com" target="_blank">apps.owncloud.com</a>, as you would write following <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/" target="_blank">the App Developer documentation</a>, using the public but internal API) are considered an integral part of ownCloud; writing an ownCloud app is thus considered modifying ownCloud and your ownCloud apps are subject to the requirements of the AGPLv3. The ownCloud <a href="#entcomparison">Enterprise Edition</a> provides <a href="#closedapps">an exception</a> as it is available under a proprietary license.</li>
-<li>External apps like mobile or desktop clients, or apps running on another server and otherwise not part of ownCloud but using the external ownCloud OCS API as <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/core/externalapi.html" target="_blank">you would find here</a> are NOT subject to the AGPLv3 and can be under any license you like.</li>
-<li>Artwork is not subject to the AGPLv3: you can have a branded ownCloud installation, with modified logo, colors etcetera. You do NOT have to release your logo or other artwork under the AGPLv3.</li>
-<li>If you use ownCloud yourself (as private user or company!) and do not give third parties access to its user interface or API's (like webDAV), the AGPLv3 sharing clause does not come into effect. In general, note that you are only ever obliged to share the original source <em>upon request</em> with a third party who has been given <em>access to your ownCloud instance</em>. You must merely make sure that users are aware of this right.</li>
-</ul>
-<p>Contact a lawyer if you are unsure about any of this - the above is not legal advice and we can not provide such.</p>
 <h2>ownCloud Community</h2>
 <a name="communitylocation"></a>
 <h3>Where is the ownCloud community hosted?</h3>
@@ -263,9 +242,36 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <p>ownCloud has a store on <a href="http://www.cafepress.com/owncloudshop" target="_blank">this page</a> where you can find posters, mugs, stickers, magnets, buttons, t-shirts and much more.</p>
 <p>If you are looking for materials for an ownCloud event or to use to promote ownCloud at a conference or trade show, see our <a href="/events" target="_blank">events pages</a> for information on what is available.</p>
 
+<h2>Legal</h2>
+<p>DISCLAIMER: The answers below are general directions, <em>not</em> legal advice and we can not provide such. Contact a lawyer if you are unsure about any of this.</p>
+<a name="modifyowncloud"></a>
+<h3>Can I modify ownCloud and run it on my website for others to use/access?</h3>
+<p>ownCloud Server is available <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">under the AGPLv3</a>. In laymen terms (this is NOT legal advice!) the AGPL license grants you the right to run the ownCloud code wherever and however you want, make modifications and additions and share these with anybody you like. The only limitation is that if you give others access to your ownCloud (by giving them a user account or sharing files with them), you must also give them access to the source code; and the whole source (including your modifications) has to be under the AGPLv3 license.</p>
+<p><strong>How to comply</strong></p>
+<p>If you have made no modifications to the ownCloud code, the easiest way to comply with the AGPL is to have a small link to owncloud.org and note that users can find the code there.</p>
+<p>If you have made modifications, contributing these to ownCloud is sufficient from our point of view. If you don't want or can't do that, you have to provide a way for users to download the modifications you made to ownCloud, including the modifications. Providing, upon request, a tarball, zip file or github repository is enough. Make sure they contain the copyright notice; the code has to be under the AGPLv3 or a compatible license like the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.</p>
+<p>Some examples:</p>
+<ul>
+<li>ownCloud apps (ownCloud apps like the calendar or music app from <a href="http://apps.owncloud.com" target="_blank">apps.owncloud.com</a>, as you would write following <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/" target="_blank">the App Developer documentation</a>, using the public but internal API) are considered an integral part of ownCloud; writing an ownCloud app is thus considered modifying ownCloud and your ownCloud apps are subject to the requirements of the AGPLv3. The ownCloud <a href="#entcomparison">Enterprise Edition</a> provides <a href="#closedapps">an exception</a> as it is available under a proprietary license.</li>
+<li>External apps like mobile or desktop clients, or apps running on another server and otherwise not part of ownCloud but using the external ownCloud OCS API as <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/core/externalapi.html" target="_blank">you would find here</a> are NOT subject to the AGPLv3 and can be under any license you like.</li>
+<li>Artwork is not subject to the AGPLv3: you can have a branded ownCloud installation, with modified logo, colors etcetera. You do NOT have to release your logo or other artwork under the AGPLv3.</li>
+<li>If you use ownCloud yourself (as private user or company!) and do not give third parties access to its user interface or API's (like webDAV), the AGPLv3 sharing clause does not come into effect. In general, note that you are only ever obliged to share the original source <em>upon request</em> with a third party who has been given <em>access to your ownCloud instance</em>. You must merely make sure that users are aware of this right.</li>
+</ul>
+
+<a name="closedapps"></a>
+<h3>Can I write closed source or proprietary apps for ownCloud?</h3>
+<ul>
+	<li>Yes, but following the requirements of the <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">under the AGPLv3</a>, these can be distributed or made available to users outside of your household or organization only under the <a href="https://www.owncloud.com" target="_blank">ownCloud Enterprise Edition</a>, which supports integration with proprietary technologies. Contact <a href="https://owncloud.com/contact/"target="_blank">ownCloud, Inc.</a> for details.</li>
+</ul>
+
+<a name="copyrightviolation"></a>
+<h3>I want to report a copyright infringement or other legal matter on a site that mentions to use ownCloud.</h3>
+<p>ownCloud is an open-source project that can be easily hosted by any person allowing anybody to securely exchange files. Neither the ownCloud open source project nor ownCloud, Inc. exert any legal or technical control over those domains. If you found a copyright infringement on a domain other than <a href="http://owncloud.org" target="_blank">owncloud.org</a> or <a href="http://owncloud.com" target="_blank">owncloud.com</a>, please try to contact the domain owner. ownCloud has no insight or control over ownCloud instances.</p>
+
 <a name="trademark"></a>
 <h3>Can I use the ownCloud logo on my website, for my ownCloud app or client, or promotional materials?</h3>
 <p>The use of the ownCloud trademark is governed by <a href="/trademarks">our trademark policy</a>. In short, we want to support you in promoting, using and building on ownCloud but we also want to prevent confusion about the meaning of our logo and trademark and your use of it. Carefully read <a href="/trademarks">our trademark policy</a> before you use ownCloud marks (like our logo or our name) on a website, app, flyer or anywhere else.</p>
+
 
 <h2>ownCloud for professional use</h2>
 <a name="professionaluse"></a>
