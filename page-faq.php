@@ -22,7 +22,7 @@
 	<li><a href="#security2">Does the long list of security advisories mean ownCloud is less secure than other solutions?</a></li>
 	<li><a href="#encryption">Are files encrypted during sync?</a></li>
 	<li><a href="#encryption2">Does ownCloud support encrypting files on the server?</a></li>
-	<li><a href="#backup">can I use ownCloud as a backup solution?</a></li>
+	<li><a href="#backup">Can I use ownCloud as a backup solution?</a></li>
 	<li><a href="#conflict">Why do I sometimes get conflict files and messages while syncing?</a></li>
 	<li><a href="#partialsyncing">Does ownCloud use delta-sync (only syncing file changes)?</a></li>
 	<li><a href="#deduplication">Does ownCloud do file de-duplication?</a></li>
@@ -167,8 +167,8 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 	<li>If you really want client-side encryption, we recommend you look for other solutions. Of course, if you are sufficiently knowledgeable and skilled, you would be more than welcome to improve on the file encryption technology. If you are interested in supporting or working on this feature, check out <a href="https://github.com/owncloud/mirall/issues/275" target="_blank">github</a> for the latest state on the discussion about it and check out <a href="/contribute/" target="_blank">owncloud.org/contribute</a> to get started.</li>
 </ul>
 
-<a name="backup "></a>
-<h3>can I use ownCloud as a backup solution?</h3>
+<a name="backup"></a>
+<h3>Can I use ownCloud as a backup solution?</h3>
 <p>No, ownCloud is absolutely not a backup solution:
 <ul>
 <li>Changes you make in one place are synchronized to other places which means that if you accidentally remove or overwrite a file on your local system, ownCloud will remove it from the server.</li>
