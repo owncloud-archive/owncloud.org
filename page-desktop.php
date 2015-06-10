@@ -37,9 +37,6 @@
 <li>OSX Shell integration: Optimizations</li>
 <li>Windows Shell integration: Optimizations</li>
 </ul>
-<div class="page-header">
-  <h1>ownCloud Desktop Client Changelog</h1>
-</div>
 -->
 <h3>Release 1.8.1 <small>May 7th 2015</small></h3>
 <ul>
