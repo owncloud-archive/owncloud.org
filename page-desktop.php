@@ -1,6 +1,7 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<!--
 <h3>Release 1.8.2 <small>June 8th 2015</small></h3>
 <ul>
 <li>Improve reporting of server error messages (<a href="https://github.com/owncloud/client/issues/3220">#3220</a>)</li>
@@ -36,9 +37,7 @@
 <li>OSX Shell integration: Optimizations</li>
 <li>Windows Shell integration: Optimizations</li>
 </ul>
-<div class="page-header">
-  <h1>ownCloud Desktop Client Changelog</h1>
-</div>
+-->
 <h3>Release 1.8.1 <small>May 7th 2015</small></h3>
 <ul>
 <li>Make "operation canceled" error a soft error</li>
