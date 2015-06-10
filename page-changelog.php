@@ -3,7 +3,7 @@
 </div>
 <h3>Version 8.0.4 <small>June 5th 2015</small></h3>
 <ul>
-<li>occ can now optionally update all third party apps without disabling</li>
+<li>occ can now optionally run the update routines without disabling all third party apps</li>
 <li>Database handling changes which should improve performance on big systems</li>
 <li>better support for very old cURL versions (for QNAP users)</li>
 <li>Extended X-Accel-Redirect functionality in nginx</li>
