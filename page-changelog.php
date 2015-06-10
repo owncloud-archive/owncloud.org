@@ -1,9 +1,9 @@
 <div class="page-header">
 	<h1>ownCloud Server Changelog</h1>
 </div>
-<h3>Version 8.0.4 <small>June 5th 2015</small></h3>
+<h3>Version 8.0.4 <small>June 9th 2015</small></h3>
 <ul>
-<li>occ can now optionally update all third party apps without disabling</li>
+<li>occ can now optionally run the update routines without disabling all third party apps</li>
 <li>Database handling changes which should improve performance on big systems</li>
 <li>better support for very old cURL versions (for QNAP users)</li>
 <li>Extended X-Accel-Redirect functionality in nginx</li>
@@ -26,7 +26,7 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.4.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.4.tar.bz2.asc">owncloud-8.0.4.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.4.zip.asc">owncloud-8.0.4.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
 
-<h3>Release 7.0.6 <small>June 5th 2015</small></h3>
+<h3>Release 7.0.6 <small>June 9th 2015</small></h3>
 <ul>
 <li>Improve upgrade process</li>
 <li>Improved quota calculation</li>
@@ -44,7 +44,7 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.6.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.6.tar.bz2.asc">owncloud-7.0.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.6.zip.asc">owncloud-7.0.6.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
 
-<h3>Release 6.0.8 <small>June 5th 2015</small></h3>
+<h3>Release 6.0.8 <small>June 9th 2015</small></h3>
 <ul>
 <li>versioning and deletion fix that solves "unable to rename, file is not writeable" bug</li>
 <li>fixed the long execution time of the key migration</li>
