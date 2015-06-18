@@ -8,7 +8,7 @@
 		<p style="text-align: justify; margin-top: 10px;">ownCloud is a self hosted file sync and share server. It provides access to your data through a web interface, sync clients or WebDAV while providing a platform to view, 
 		sync and share across devices easily—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and works with any storage.
 		</p>
-		<p><a href="/install" class="btn btn-lg btn-primary">Install ownCloud Server 8 now</a></p>
+		<p><a href="/install" class="btn btn-lg btn-primary">Install ownCloud Server 8.1 now</a></p>
 		<br/>
 		<p>Looking for <a href="https://owncloud.com/features/" target="_blank">enterprise features</a>?</p>
 	</div>
@@ -58,7 +58,7 @@
 		<h3 class="featuretitle">Update channels</h3></br>
 		<p class="featuredesc">The built in Updater app and our package repositories now offer different update channels to keep ownCloud updated from.</p>
 	</div>
-	<a href="/eight" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server 8</a>
+	<a href="/eight-one" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server 8</a>
 </div>
 
 <div class="featurewrapper"><h2>ownCloud Features</h2></div>
@@ -71,22 +71,29 @@
 		<p class="featuredesc">Access your data on any platform. Use the Android or iOS clients to work with your files on the go or synchronize your favorite folders seamlessly between your desktop and laptop devices.</p>
 	</div>
 
+        <div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="Sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing2.png" />
+		<h3 class="featuretitle">Share with anybody</h3></br>
+		<p class="featuredesc">ownCloud lets you share. You can share with users on your ownCloud, users on other ownCloud servers or send public links with or without upload rights, protected by passwords and automatic expiry.</p>
+	</div>
+
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
 		<h3 class="featuretitle">External Storage</h3>
 		<p class="featuredesc">Keep your data where it is - your NAS, FTP drive or Sama. Add external storage to your ownCloud with Dropbox, SWIFT, FTPs, Google Docs, S3, external WebDAV servers and more. </p>
-	</div>
-
-        <div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
-		<h3 class="featuretitle">Encryption and security</h3>
-		<p class="featuredesc">ownCloud encrypts your data in transit with secure https connections. You can enable the encryption app to encrypt data on storage for improved security and privacy.</p>
 	</div>
 </div>
 
 
 
 <div class="row featurerow">
+
+        <div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
+		<h3 class="featuretitle">Encryption and security</h3>
+		<p class="featuredesc">ownCloud encrypts your data in transit with secure https connections. You can enable the encryption app to encrypt data on storage for improved security and privacy.</p>
+	</div>
+
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/undelete.png" />
 		<h3 class="featuretitle">Versioning and Undelete</h3></br>
@@ -95,18 +102,10 @@
 	</div>
 
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/gallery.png" />
-		<h3 class="featuretitle">Galleries</h3></br>
-		<p class="featuredesc">Share photo galleries with friends and family. Give them access to upload pictures, view and download them. Send a link to anybody you choose, and 
-			control whether they can share those photos with anyone else.</p>
-	</div>
-
-	
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
-		<h3 class="featuretitle">Collaborative Editing</h3>
-		<p class="featuredesc">ownCloud Documents is collaborative editing of rich-text documents that lets up to 5 individuals collaborate to edit .odt or .doc files securely 
-			within the browser.  Documents may then be shared inside ownCloud or via a public link. See it in action on <a href="https://www.youtube.com/watch?v=xsqSLeppxm0" target="_blank">YouTube</a></p>
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png" />
+		<h3 class="featuretitle">Activity Feed</h3></br>
+		<p class="featuredesc">See what is going on in your ownCloud. See who shared a file with you or when you created, changed or deleted files. Access the feed via RSS, an API 
+			for Desktop or Mobile clients or receive email notifications.</p>
 	</div>
 </div>
 
@@ -118,24 +117,35 @@
 	</div>
 
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png" />
-		<h3 class="featuretitle">Activity Feed</h3></br>
-		<p class="featuredesc">See what is going on in your ownCloud. See who shared a file with you or when you created, changed or deleted files. Access the feed via RSS, an API 
-			for Desktop or Mobile clients or receive email notifications.</p>
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
+		<h3 class="featuretitle">Collaborative Editing</h3>
+		<p class="featuredesc">ownCloud Documents is collaborative editing of rich-text documents that lets up to 5 individuals collaborate to edit .odt or .doc files securely 
+			within the browser.  Documents may then be shared inside ownCloud or via a public link. See it in action on <a href="https://www.youtube.com/watch?v=xsqSLeppxm0" target="_blank">YouTube</a></p>
 	</div>
+
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/gallery.png" />
+		<h3 class="featuretitle">Galleries</h3></br>
+		<p class="featuredesc">Share photo galleries with friends and family. Give them access to upload pictures, view and download them. Send a link to anybody you choose, and 
+			control whether they can share those photos with anyone else.</p>
+	</div>
+</div>
+
+
+<div class="row featurerow">
+	<div class="col-md-4 featureblock">
+		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
+		<h3 class="featuretitle">Play music, watch movies, store passwords</h3></br>
+		<p class="featuredesc">Use the Music app to listen to your songs, securily store your passwords in Passman and stream your movies with the Streaming app. ownCloud is an <a href="http://karlitschek.de/2015/06/building-a-platform/" target="_blank">application platform</a> putting functionality at your service.</p>
+	</div>
+	
 
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/store.png" />
 		<h3 class="featuretitle">Application Store</h3></br>
-		<p class="featuredesc">Want to add one of the <a href="https://apps.owncloud.com" target="_blank">existing applications</a> to ownCloud? Simply enable a new application in settings, and it will be automatically downloaded 
+		<p class="featuredesc">Want to add <a href="https://apps.owncloud.com" target="_blank">more capabilities</a> to ownCloud? Simply enable a new application in the App store, and it will be automatically downloaded 
 			and installed in your ownCloud instance.</p>
 	</div>
-
-<!--	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
-		<h3 class="featuretitle">Contacts</h3></br>
-		<p class="featuredesc"></p>
-	</div>-->
 </div>
 
 <div class="featurewrapper"><h2>Other Features</h2></div>
