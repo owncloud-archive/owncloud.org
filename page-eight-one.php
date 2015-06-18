@@ -66,7 +66,7 @@
 			</div>
 
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="documentation" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
+				<img class="thumbnail" alt="documentation" src="<?php bloginfo('template_directory'); ?>/assets/img/features/tips.png" />
 				<h3 class="featuretitle">Integrated Documentation</h3></br>
 				<p class="featuredesc">To make ownCloud easier to use, documentation has been massively improved and integrated in the interface. Warnings and notifications come with documentation links, options are explained in the user interface and a tips and tricks section in the admin settings bring the ownCloud documentation closer.</p>
 			</div>
@@ -77,6 +77,15 @@
 				<p class="featuredesc">This ownCloud release brings much improved performance, with up to 4x faster up- and downloads, an order of magnitude faster file deletion and moving and better scalability through improved handling of parallel requests. ownCloud can now handle up to 50% more active users on each ownCloud Server instance.</p>
 			</div>
 		</div>
+
+		<div class="row featurerow">
+			<div class="col-md-4 featureblock">
+				<img class="thumbnail" alt="faster" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
+				<h3 class="featuretitle">Improved Documents</h3></br>
+				<p class="featuredesc">An updated ownCloud Documents app improves on document compatibility and introduces new features like indentation buttons and annotations support as well as working keyboard shortcuts for Firefox users.</p>
+			</div>
+		</div>
+
 
 		<div class="row">
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/better-integrated-help.png" title="help is integrated everywhere in the user interface" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/better-integrated-help-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
