@@ -113,7 +113,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="locking" src="<?php bloginfo('template_directory'); ?>/assets/img/features/conflict.png" />
 				<h3 class="featuretitle">Improved File Locking</h3></br>
-				<p class="featuredesc">In extremely large scale ownCloud instances the improved file locking app ensures consistency and integrity of data and meta data during race conditions, such as multiple users changing the same folder and/or files at the same time. Past filesystem file locking has been significantly enhanced to ensure file integrity.</p>
+				<p class="featuredesc">In very large scale ownCloud instances the improved file locking app ensures consistency and integrity of data and meta data during race conditions, such as multiple users changing the same folder and/or files at the same time. Gile system file locking has been significantly enhanced to ensure file integrity in all circumstances.</p>
 			</div>
 		</div>
 
@@ -166,7 +166,7 @@ videos showing the admin screen, managing users, the first minutes after setting
 			<ul class="featureslist">
 				<li>App Management</br>
 ownCloud is <a href="http://karlitschek.de/2015/06/building-a-platform/">meant to be a platform</a> and to aid app developers, APIs have been cleaned up and the process of getting apps in the appstore <a href="https://doc.owncloud.org/server/8.1/developer_manual/app/publishing.html">was documented</a>.</li>
-				<li>TBD</li>
+				<li>Security hardening of the server. <a href="https://statuscode.ch/2015/05/security-and-owncloud-8.1/" target="_blank">Details in this blog</a>.</li>
 				<li>TBD</li>
 				<li>TBD</li>
 			</ul>
