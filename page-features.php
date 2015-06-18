@@ -41,22 +41,22 @@
 <div class="wrap container">
 	<div class="content row">
 
-<div class="featurewrapper"><h2>New in ownCloud Server 8.0</h2></div>
+<div class="featurewrapper"><h2>New in ownCloud Server 8.1</h2></div>
 <div class="row featurerow">
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="Sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
-		<h3 class="featuretitle">Federate your clouds</h3></br>
-		<p class="featuredesc">ownCloud Server 8 improves Federated Cloud sharing, allowing users to share files by directly referring to users on other ownCloud servers and introducing notifications and user interface improvements to the sharing process.</p>
+		<img class="thumbnail" alt="documentation" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
+		<h3 class="featuretitle">Integrated Documentation</h3></br>
+		<p class="featuredesc">To make ownCloud easier to use, documentation has been massively improved and integrated in the interface.</p>
 	</div>
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="Design" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
-		<h3 class="featuretitle">Responsive Design</h3></br>
-		<p class="featuredesc">ownCloud Server 8 delivers better performance and more control for administrators thanks to enhanced user, storage and app management.</p>
+		<img class="thumbnail" alt="speed" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
+		<h3 class="featuretitle">Performance</h3></br>
+		<p class="featuredesc">ownCloud Server 8.1 brings much improved performance in the areas of syncing, file operations and dealing with parallel requests.</p>
 	</div>
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="Access" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
-		<h3 class="featuretitle">Be in control</h3></br>
-		<p class="featuredesc">ownCloud Server 8 introduces favorites support and much improved search functionality, enabling users to have extremely quick and easy access to important files without having to navigate through all their data.</p>
+		<img class="thumbnail" alt="update-channels" src="<?php bloginfo('template_directory'); ?>/assets/img/features/update.png" />
+		<h3 class="featuretitle">Update channels</h3></br>
+		<p class="featuredesc">The built in Updater app and our package repositories now offer different update channels to keep ownCloud updated from.</p>
 	</div>
 	<a href="/eight" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server 8</a>
 </div>
@@ -66,10 +66,9 @@
 <div class="row featurerow">
 
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
+		<img class="thumbnail" alt="syncing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/client.png" />
 		<h3 class="featuretitle">Mobile and Desktop syncing</h3></br>
-		<p class="featuredesc">Access your data on any platform. Use the Android or iOS clients to work with your files on the go or synchronize your favorite folders seamlessly 
-			between your desktop and laptop devices.</p>
+		<p class="featuredesc">Access your data on any platform. Use the Android or iOS clients to work with your files on the go or synchronize your favorite folders seamlessly between your desktop and laptop devices.</p>
 	</div>
 
 	<div class="col-md-4 featureblock">
@@ -79,7 +78,7 @@
 	</div>
 
         <div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
+		<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
 		<h3 class="featuretitle">Encryption and security</h3>
 		<p class="featuredesc">ownCloud encrypts your data in transit with secure https connections. You can enable the encryption app to encrypt data on storage for improved security and privacy.</p>
 	</div>
@@ -144,7 +143,7 @@
 <div class="row">
 <ul class="featureslist">
         <li>ownCloud is open source - there are no limitations and you can inspect, integrate, extend and modify ownCloud however you want.</li>
-	<li>Smooth performance and easy user interface.</li>
+	<li>Search, favorites and an easy user interface.</li>
 	<li>File editing and preview support for PDF, images, text files, Open Document, Word files and more.</li>
 	<li>Integration of anti-virus scanning functionality with the anti-virus app.</li>
 	<li>LDAP / Active directory integration</li>

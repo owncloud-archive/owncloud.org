@@ -60,19 +60,19 @@
 		</div>
 		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="Access" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
+				<img class="thumbnail" alt="sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
 				<h3 class="featuretitle">Federated Cloud ID</h3></br>
 				<p class="featuredesc">You can now find your Federated Cloud ID in the settings, making it easy to start sharing with other ownCloud servers. In addition, with a little configuration of server infrastructure, users can share seamlessly across ownCloud servers using federated cloud sharing and the destination server domain name.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
+				<img class="thumbnail" alt="documentation" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
 				<h3 class="featuretitle">Integrated Documentation</h3></br>
 				<p class="featuredesc">To make ownCloud easier to use, documentation has been massively improved and integrated in the interface. Warnings and notifications come with documentation links, options are explained in the user interface and a tips and tricks section in the admin settings bring the ownCloud documentation closer.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
+				<img class="thumbnail" alt="faster" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
 				<h3 class="featuretitle">Performance</h3></br>
 				<p class="featuredesc">This ownCloud release brings much improved performance, with up to 4x faster up- and downloads, an order of magnitude faster file deletion and moving and better scalability through improved handling of parallel requests. ownCloud can now handle up to 50% more active users on each ownCloud Server instance.</p>
 			</div>
@@ -90,19 +90,19 @@
 		<p>System administrators are strongly encouraged to check out the <a href="https://doc.owncloud.org/server/8.1/admin_manual/release_notes.html">release notes for ownCloud 8.1</a> before upgrading or doing a fresh installation!</p>
 		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
+				<img class="thumbnail" alt="external_storage" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
 				<h3 class="featuretitle">New Mount Options for External Storage</h3></br>
 				<p class="featuredesc">ownCloud is a mechanism for consolidating access to various backend storage systems using the external storage application. Administrators can now configure encryption, thumbnail support and file cache behavior for each external storage mount, providing another layer of control for the server admin.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
+				<img class="thumbnail" alt="ldap" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
 				<h3 class="featuretitle">LDAP Wizard improvements</h3></br>
 				<p class="featuredesc">The LDAP wizzard has been re-architectured for more scalable performance and advanced configuration options, including auto-detection of more common and uncommon scenarios.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/conflict.png" />
+				<img class="thumbnail" alt="locking" src="<?php bloginfo('template_directory'); ?>/assets/img/features/conflict.png" />
 				<h3 class="featuretitle">Improved File Locking</h3></br>
 				<p class="featuredesc">In extremely large scale ownCloud instances the improved file locking app ensures consistency and integrity of data and meta data during race conditions, such as multiple users changing the same folder and/or files at the same time. Past filesystem file locking has been significantly enhanced to ensure file integrity.</p>
 			</div>
@@ -110,19 +110,19 @@
 
 		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption.png" />
+				<img class="thumbnail" alt="encryption" src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption.png" />
 				<h3 class="featuretitle">Encryption 2.0</h3></br>
 				<p class="featuredesc">A modularization of the Encryption capabilities in ownCloud allows for external key management, provides improved reliability and management, and sets the foundation for future encryption enhancements.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
+				<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
 				<h3 class="featuretitle">Security improvements</h3></br>
 				<p class="featuredesc">There have been a raft of architectural improvements and changes made which harden ownCloud against security threats. Some of these <a href=”https://statuscode.ch/2015/05/security-and-owncloud-8.1/”>are described here</a>.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/update.png" />
+				<img class="thumbnail" alt="Updates" src="<?php bloginfo('template_directory'); ?>/assets/img/features/update.png" />
 				<h3 class="featuretitle">Update channels</h3></br>
 				<p class="featuredesc">The built in Updater app and our package repositories now offer different update channels to keep ownCloud updated from. Administrators can choose to track the latest released code, a more conservative stable branch, release candidates, or daily builds to align their ownCloud installation to their needs.</p>
 			</div>		</div>
