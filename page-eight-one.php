@@ -127,7 +127,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
 				<h3 class="featuretitle">Security improvements</h3></br>
-				<p class="featuredesc">There have been a raft of architectural improvements and changes made which harden ownCloud against security threats. Some of these <a href=”https://statuscode.ch/2015/05/security-and-owncloud-8.1/”>are described here</a>.</p>
+				<p class="featuredesc">There have been a raft of architectural improvements and changes made which harden ownCloud against security threats. Some of these <a href="https://statuscode.ch/2015/05/security-and-owncloud-8.1/">are described here</a>.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
