@@ -1,12 +1,14 @@
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+
 <script>
-  function owncloudHash(){
-    var hash = 'An example Federation ID is <strong>username@owncloudserver/owncloud';
-    if(window.location.hash) {
-        hash = 'My Federation ID is <strong>'+window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+$(document).ready(function() {
+        if(window.location.hash) {
+        $('#IDtext').text('My Federation ID is');
+        $('#userName').text(window.location.hash.substring(1));
     }  
-   return hash;
-  }
+ });
 </script>
+
 <div class="row col-md-12">
 	<h2 class="conf-location">Share across ownClouds!</h2>
 </div>
@@ -16,7 +18,7 @@
 	</div>
 	<div class="col-lg-8 col-md-7">
 		<p>Sharing files across ownCloud servers is as easy as sending an email from a Gmail address to a Yahoo account! Instead of an email address, you use a <em>Federation ID</em>.</p>
-		<p class="federation-id"><script>document.write(owncloudHash());</script></strong></p>
+		<p class="federation-id"><span id="IDtext">An example Federation ID is</span><strong> <span id="userName">username@example.com/owncloud</span></strong></p>
 		<p>To share a file, enter the Federation ID in the 'share' dialog. A notification will pop up on the ownCloud server of the recipient.</p>
 		<p>You can find your own Federation ID in your user settings. Give it to your friends so they can share files with you!</p>
 	</div>
