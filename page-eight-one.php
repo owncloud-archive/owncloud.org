@@ -84,6 +84,11 @@
 				<h3 class="featuretitle">Improved Documents</h3></br>
 				<p class="featuredesc">An updated ownCloud Documents app improves on document compatibility and introduces new features like indentation buttons and annotations support as well as working keyboard shortcuts for Firefox users.</p>
 			</div>
+			<div class="col-md-4 featureblock">
+				<img class="thumbnail" alt="other features" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
+				<h3 class="featuretitle">More previews</h3></br>
+				<p class="featuredesc">There is now preview support for fonts and 3D images as well as RAW support for viewing (not previews).</p>
+			</div>
 		</div>
 
 
@@ -142,6 +147,11 @@
 				<h3 class="featuretitle">Example theme</h3></br>
 				<p class="featuredesc">To make developing a custom ownCloud theme easier, a new example theme was included with ownCloud 8.1. Find details on how to theme ownCloud in the <a href="https://doc.owncloud.org/server/8.1/admin_manual/operations/theming.html">documentation</a>.</p>
 			</div>
+			<div class="col-md-4 featureblock">
+				<img class="thumbnail" alt="other features" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
+				<h3 class="featuretitle">SFTP with SSH</h3></br>
+				<p class="featuredesc">The SFTP external storage now works with an SSH key</p>
+			</div>
 
 
 
@@ -156,6 +166,10 @@
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption5.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption5-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme.png" title="Included example theme" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab.png" title="LDAP wizzard server page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab.png" title="LDAP wizzard users page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab.png" title="LDAP wizzard login page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-group-tab.png" title="LDAP wizzard group page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-group-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 		</div>
 videos showing the admin screen, managing users, the first minutes after setting up ownCloud and enabling external storage go here.
 		<a name="developer"></a>
@@ -166,9 +180,15 @@ videos showing the admin screen, managing users, the first minutes after setting
 			<ul class="featureslist">
 				<li>App Management</br>
 ownCloud is <a href="http://karlitschek.de/2015/06/building-a-platform/">meant to be a platform</a> and to aid app developers, APIs have been cleaned up and the process of getting apps in the appstore <a href="https://doc.owncloud.org/server/8.1/developer_manual/app/publishing.html">was documented</a>.</li>
+				<li>Improved API: over 190 additions, 50 deprecated calls. For details, see this blog about <a href="https://owncloud.org/blog/TBD">ownCloud 8.1 for app developers</a></li>
 				<li>Security hardening of the server. <a href="https://statuscode.ch/2015/05/security-and-owncloud-8.1/" target="_blank">Details in this blog</a>.</li>
-				<li>TBD</li>
-				<li>TBD</li>
+				<li>Sharing capabilities are now exposed to allow external applications (desktop client, mobile clients etc.) to provide a better UX (https://github.com/owncloud/core/pull/13964)</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
 			</ul>
 			<p>For details, see this blog about <a href="https://owncloud.org/blog/TBD">ownCloud 8.1 for app developers</a>.</p>
 		</div>
