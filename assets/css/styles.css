@@ -400,7 +400,15 @@ div.customers {
 
 }
 
-/*---- Eight Page ---- */
+/*---- Federation Page ---- */
+p.federation-id {
+    	font-size: 20px;
+       	font-weight: 100;
+
+}
+
+
+/*---- Version Pages ---- */
 h3.row-center-title {
 	font-weight: 100;
 	font-size: 35px;
