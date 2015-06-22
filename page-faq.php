@@ -288,7 +288,8 @@ You should use a backup application to store the files in ownCloud somewhere. Th
 <h2>ownCloud for professional use</h2>
 <a name="professionaluse"></a>
 <h3>Can I use ownCloud in professional, large scale deployments?</h3>
-<p>ownCloud Server is built for and used by both private and large scale, professional deployments in enterprises, education, research institutions and government agencies. Find some of the bigger deployments among the <a href="https://owncloud.com/customer-stories" target="_blank">ownCloud.com customer stories</a>.</p>
+<p>Absolutely. ownCloud Server is built for and used by both private and large scale, professional deployments in enterprises, education, research institutions and government agencies. Find some of the bigger deployments among the <a href="https://owncloud.com/customer-stories" target="_blank">ownCloud.com customer stories</a>.</p>
+<p>You can use ownCloud for free in any situation - due to the open source license. However, if you require support and certain enterprise functionality, consider <a href="#entcomparison">purchasing a subscription</a>.
 
 <a name="professionaluse"></a>
 <h3>What resources exist to support my deployment?</h3>
