@@ -1,7 +1,7 @@
 <script>
 $(document).ready(function() {
         if(window.location.hash) {
-        $('#IDtext').text('My Federation ID is');
+        $('#IDtext').text('My Federated Cloud ID is');
         $('#userName').text(window.location.hash.substring(1));
     }  
  });
@@ -15,10 +15,10 @@ $(document).ready(function() {
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/federation/federation.gif" alt="in action" /><br />
 	</div>
 	<div class="col-lg-8 col-md-7">
-		<p>Sharing files across ownCloud servers is as easy as sending an email from a Gmail address to a Yahoo account! Instead of an email address, you use a <em>Federation ID</em>.</p>
-		<p class="federation-id"><span id="IDtext">An example Federation ID is</span><strong> <span id="userName">username@example.com/owncloud</span></strong></p>
-		<p>To share a file, enter the Federation ID in the 'share' dialog. A notification will pop up on the ownCloud server of the recipient.</p>
-		<p>You can find your own Federation ID in your user settings. Give it to your friends so they can share files with you!</p>
+		<p>Sharing files across ownCloud servers is as easy as sending an email from a Gmail address to a Yahoo account! Instead of an email address, you use a <em>Federated Cloud ID</em>.</p>
+		<p class="federation-id"><span id="IDtext">An example Federated Cloud ID is</span><strong> <span id="userName">username@example.com/owncloud</span></strong></p>
+		<p>To share a file, enter the Federated Cloud ID in the 'share' dialog. A notification will pop up on the ownCloud server of the recipient.</p>
+		<p>You can find your own Federated Cloud ID in your user settings. Give it to your friends so they can share files with you!</p>
 	</div>
 </div>
 <div class="row conf-partners-title">

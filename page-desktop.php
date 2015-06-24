@@ -1,8 +1,21 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
-<!--
-<h3>Release 1.8.2 <small>June 8th 2015</small></h3>
+<h3>Release 1.8.3 <small>June 23th 2015</small></h3>
+<ul>
+<li>Fix a bug in the Windows Installer that could crash explorer (<a href="https://github.com/owncloud/client/issues/3320">#3320</a>)</li>
+<li>Reduce 'Connection closed' errors (<a href="https://github.com/owncloud/client/issues/3318">#3318</a>, <a href="https://github.com/owncloud/client/issues/3313">#3313</a>, <a href="https://github.com/owncloud/client/issues/3298">#3298</a>)</li>
+<li>Ignores: Force a remote discovery after ignore list change (<a href="https://github.com/owncloud/client/issues/3172">#3172</a>)</li>
+<li>Shibboleth: Avoid crash by letting the webview use its own QNAM (<a href="https://github.com/owncloud/client/issues/3359">#3359</a>)</li>
+<li>System Ignores: Removed *.tmp from system ignore again. If a user wants to ignore *.tmp, it needs to be added to the user ignore list.</li>
+</ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.3.5213-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.3.2458.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.3.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.3.tar.xz.asc">PGP signature</a>)
+
+<h3>Release 1.8.2 <i>(retracted)</i> <small>June 8th 2015</small></h3>
 <ul>
 <li>Improve reporting of server error messages (<a href="https://github.com/owncloud/client/issues/3220">#3220</a>)</li>
 <li>Discovery: Ignore folders with any 503 (<a href="https://github.com/owncloud/client/issues/3113">#3113</a>)</li>
@@ -37,7 +50,6 @@
 <li>OSX Shell integration: Optimizations</li>
 <li>Windows Shell integration: Optimizations</li>
 </ul>
--->
 <h3>Release 1.8.1 <small>May 7th 2015</small></h3>
 <ul>
 <li>Make "operation canceled" error a soft error</li>
@@ -84,7 +96,7 @@ Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.1.5050-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.1.2336.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.0.tar.xz.asc">PGP signature</a>)
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.1.tar.xz.asc">PGP signature</a>)
 
 <h3>Release 1.8.0 <small>Mar 17th 2015</small></h3>
 <ul>
