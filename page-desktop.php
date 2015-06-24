@@ -1,7 +1,7 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
-<h3>Release 1.8.3<small>June 23th 2015</small></h3>
+<h3>Release 1.8.3 <small>June 23th 2015</small></h3>
 <ul>
 <li>Fix a bug in the Windows Installer that could crash explorer (<a href="https://github.com/owncloud/client/issues/3320">#3320</a>)</li>
 <li>Reduce 'Connection closed' errors (<a href="https://github.com/owncloud/client/issues/3318">#3318</a>, <a href="https://github.com/owncloud/client/issues/3313">#3313</a>, <a href="https://github.com/owncloud/client/issues/3298">#3298</a>)</li>
