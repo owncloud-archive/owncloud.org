@@ -18,7 +18,7 @@
         <p><p>The external SMB storage of ownCloud was not properly neutralizing all special elements which allows an adversary to execute arbitrary SMB commands.</p><p>This was caused by improperly sanitizing the ; character which is interpreted as command separator by smbclient (the used software to connect to SMB shared by ownCloud)</p><p>Effectively this allows an attacker to gain access to any file on the system or overwrite it, finally leading to a PHP code execution in the case of ownCloud’s config file.</p></p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>6.0.8</strong> (CVE assignment pending)</li><li>ownCloud Server &lt; <strong>7.0.6</strong> (CVE assignment pending)</li><li>ownCloud Server &lt; <strong>8.0.4</strong> (CVE assignment pending)</li>
+            <li>ownCloud Server &lt; <strong>6.0.8</strong> (CVE-2015-4718)</li><li>ownCloud Server &lt; <strong>7.0.6</strong> (CVE-2015-4718)</li><li>ownCloud Server &lt; <strong>8.0.4</strong> (CVE-2015-4718)</li>
         </ul>
         <h3>Action Taken</h3>
         <p><p>Files containing a <code>;</code> are no longer processed on external SMB storages. This is no regression as handling files containing said character was not reliably possible before as well.</p><p>ownCloud 8.1 will feature a completely rewritten SMB storage with cleaner code to reduce the attack surface even more.</p></p>
