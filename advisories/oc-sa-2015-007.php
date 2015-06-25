@@ -18,7 +18,7 @@
         <p><p>The sanitization component for filenames was vulnerable to DoS when parsing specially crafted file names passed via specific endpoints.</p><p>Effectively this lead to a endless loop filling the log file until the system is not anymore responsive.</p></p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>6.0.8</strong> (CVE assignment pending)</li><li>ownCloud Server &lt; <strong>7.0.6</strong> (CVE assignment pending)</li><li>ownCloud Server &lt; <strong>8.0.4</strong> (CVE assignment pending)</li>
+            <li>ownCloud Server &lt; <strong>6.0.8</strong> (CVE-2015-4717)</li><li>ownCloud Server &lt; <strong>7.0.6</strong> (CVE-2015-4717)</li><li>ownCloud Server &lt; <strong>8.0.4</strong> (CVE-2015-4717)</li>
         </ul>
         <h3>Action Taken</h3>
         <p><p>This was caused by the PHP behaviour of allowing to cast <code>$_GET</code> values to an array. The critical usages have been fixed in all affected versions and with ownCloud 8.1 the usages of <code>$_GET</code> in the whole code base has been reviewed.</p></p>
