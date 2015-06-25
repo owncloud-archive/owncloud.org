@@ -128,7 +128,7 @@
                   </div>
                   </div>
                   <div class="overlay-footer row">
-                    <p>Looking for <a href="/changelog">older versions</a>?</p>
+                    <p>We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches.</p>
 		 </div>
 	    </div>
           </div>
