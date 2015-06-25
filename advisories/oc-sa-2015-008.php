@@ -9,7 +9,7 @@
         <?php get_template_part('advisories/advisory-side'); ?>
     </div>
     <div class="col-md-8">
-        <h2>Resource Exthaustion when sanitizing filenames (oC-SA-2015-008)</h2>
+        <h2>Command injection when using external SMB storage (oC-SA-2015-008)</h2>
         <p>24th June 2015</p>
         <p>Risk level: <strong>High</strong></p>
         <p>CVSS v2 Base Score: 9 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:C/I:C/A:C)">AV:N/AC:L/Au:S/C:C/I:C/A:C</a>)</p>
