@@ -179,9 +179,9 @@
 			</ul>
 			<p>For details, see this blog about <a href="https://owncloud.org/blog/owncloud-8-for-application-developers/">ownCloud 8 for app developers</a>.</p>
 		</div>
-	</div>
-</div>
 <h2>Get involved!</h2>
 <p><a target="_blank" href="/promote/" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss ownCloud with others</a></p>
 <p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> join the ownCloud community</a></p>
 <p><a target="_blank" href="/conf/" class="btn btn-lg btn-default"> <i class="icon-group"></i> ownCloud Contributor Conference</a></p>
+	</div>
+</div>
