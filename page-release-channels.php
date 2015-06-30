@@ -11,14 +11,14 @@
     </tr>
     <tr>
       <td class="warning"><h1>Production</h1></td>
-      <td class="info">This channel only delivers versions that have proven their stability in the Release channel for quite some time.</br>
-That does imply that these release are not bug free, but they are well known and its possible to work around.</td>
+      <td class="info">This channel delivers versions that have proven their stability for some time.</br>
+That does not imply that these release are bug free, but issues are known and can be worked around. The downside of this channel is that the releases are behind in terms of features and performance.</td>
             <td class="info"><a href="<?php echo $DOWNLOAD_SERVER_PRODUCTION_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Archive File</a> (<a href="<?php echo $DOWNLOAD_SERVER_PRODUCTION_TAR_MD5; ?>">MD5</a>)<br />
       <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_PRODUCTION; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a></td>
     </tr>
     <tr>
       <td class="warning"><h1>Stable</h1></td>
-      <td class="info">This channel delivers the latest released feature releases ready for home users at minimal risk.</td>
+      <td class="info">This channel delivers the latest feature releases ready for home users at minimal risk.</td>
             <td class="info"><a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Archive File</a> (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">MD5</a>)<br />
       <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a></td>
     </tr>
