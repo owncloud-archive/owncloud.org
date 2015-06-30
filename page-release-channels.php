@@ -2,7 +2,7 @@
 <div class="page-header">
 	<h1>Tracking ownCloud Releases</h1>
 </div>
-<p>With millions of ownCloud users, there is a wide variety of needs and requirements. To give our users more flexibility in choosing an ownCloud version which fits their needs, we offer Release Channels. Below you can find and pick the best Channel for you. We recommend using Linux packages if possible.</p>
+<p>With millions of ownCloud users, there are a wide variety of needs and requirements. To give our users more flexibility in choosing an ownCloud version to meet their needs, we offer Release Channels. Below you can find and pick the best Channel for you. We recommend using Linux packages if possible as they offer easier updates.</p>
   <table class="table table-striped">
     <tr>
       <td class="warning" style="min-width:250px; max-widt:250px"><i class="icon-sitemap"></i>&nbsp;&nbsp;Release channel</td>
@@ -11,7 +11,7 @@
     </tr>
     <tr>
       <td class="warning"><h1>Production</h1></td>
-      <td class="info">This channel delivers versions that have proven their stability for some time.</br>
+      <td class="info">This channel delivers the latest fully tested release of ownCloud.</br>
 That does not imply that these release are bug free, but issues are known and can be worked around. The downside of this channel is that the releases are behind in terms of features and performance.</td>
             <td class="info"><a href="<?php echo $DOWNLOAD_SERVER_PRODUCTION_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Archive File</a> (<a href="<?php echo $DOWNLOAD_SERVER_PRODUCTION_TAR_MD5; ?>">MD5</a>)<br />
       <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_PRODUCTION; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a></td>
@@ -35,5 +35,5 @@ That does not imply that these release are bug free, but issues are known and ca
       <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a></td>
     </tr>
   </table>
-<p>If you are looking to track a specific version, you can find our <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_OBS_HOME; ?>">Linux package repositories here</a> and older tarballs are available in our <a href="/changelog">changelog</a>.</p>
+<p>If you are looking to track a specific version, you can find our <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_OBS_HOME; ?>">Linux package repositories here</a> and older tarballs are available from our <a href="/changelog">changelog</a>.</p>
 <p><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>

@@ -56,7 +56,7 @@
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="update-channels" src="<?php bloginfo('template_directory'); ?>/assets/img/features/update.png" />
 		<h3 class="featuretitle">Update channels</h3></br>
-		<p class="featuredesc">The built in Updater app and our package repositories now offer different update channels to keep ownCloud updated from.</p>
+		<p class="featuredesc">It is now easier to keep ownCloud updated with the channel of your choice via the built in Updater app and our package repositories.</p>
 	</div>
 	<a href="/eight-one" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server 8</a>
 </div>
@@ -67,20 +67,20 @@
 
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="syncing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/client.png" />
-		<h3 class="featuretitle">Mobile and Desktop syncing</h3></br>
+		<h3 class="featuretitle">Mobile and Desktop Syncing</h3></br>
 		<p class="featuredesc">Access your data on any platform. Use the Android or iOS clients to work with your files on the go or synchronize your favorite folders seamlessly between your desktop and laptop devices.</p>
 	</div>
 
         <div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="Sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing2.png" />
-		<h3 class="featuretitle">Share with anybody</h3></br>
-		<p class="featuredesc">ownCloud lets you share. You can share with users on your ownCloud, users on other ownCloud servers or send public links with or without upload rights, protected by passwords and automatic expiry.</p>
+		<h3 class="featuretitle">Share With Anybody</h3></br>
+		<p class="featuredesc">ownCloud lets you share. You can share with users on your ownCloud, users on other ownCloud servers or send public links with or without upload rights, protected by passwords and automatic expiration.</p>
 	</div>
 
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
 		<h3 class="featuretitle">External Storage</h3>
-		<p class="featuredesc">Keep your data where it is - your NAS, FTP drive or Sama. Add external storage to your ownCloud with Dropbox, SWIFT, FTPs, Google Docs, S3, external WebDAV servers and more. </p>
+		<p class="featuredesc">Keep your data where it is - your NAS, FTP drive or Samba. Add external storage to your ownCloud with Dropbox, SWIFT, FTPs, Google Docs, S3, external WebDAV servers and more. </p>
 	</div>
 </div>
 
@@ -90,21 +90,21 @@
 
         <div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
-		<h3 class="featuretitle">Encryption and security</h3>
+		<h3 class="featuretitle">Encryption and Security</h3>
 		<p class="featuredesc">ownCloud encrypts your data in transit with secure https connections. You can enable the encryption app to encrypt data on storage for improved security and privacy.</p>
 	</div>
 
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/undelete.png" />
 		<h3 class="featuretitle">Versioning and Undelete</h3></br>
-		<p class="featuredesc">ownCloud stores your data and lets you bring back data that was deleted accidentally. Find previous versions of files you modified and bring them 
+		<p class="featuredesc">ownCloud stores your data and lets you bring back data that was deleted accidentally. Find previous versions of files you modified and bring them
 			back.</p>
 	</div>
 
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png" />
 		<h3 class="featuretitle">Activity Feed</h3></br>
-		<p class="featuredesc">See what is going on in your ownCloud. See who shared a file with you or when you created, changed or deleted files. Access the feed via RSS, an API 
+		<p class="featuredesc">See what is going on in your ownCloud. See who shared a file with you or when you created, changed or deleted files. Access the feed via RSS, the web interface, an API
 			for Desktop or Mobile clients or receive email notifications.</p>
 	</div>
 </div>
@@ -131,14 +131,12 @@
 	</div>
 </div>
 
-
 <div class="row featurerow">
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
-		<h3 class="featuretitle">Play music, watch movies, store passwords</h3></br>
+		<h3 class="featuretitle">Play Music, Watch Movies, Store Passwords</h3></br>
 		<p class="featuredesc">Use the Music app to listen to your songs, securily store your passwords in Passman and stream your movies with the Streaming app. ownCloud is an <a href="http://karlitschek.de/2015/06/building-a-platform/" target="_blank">application platform</a> putting functionality at your service.</p>
 	</div>
-	
 
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/store.png" />
@@ -156,7 +154,7 @@
 	<li>Search, favorites and an easy user interface.</li>
 	<li>File editing and preview support for PDF, images, text files, Open Document, Word files and more.</li>
 	<li>Integration of anti-virus scanning functionality with the anti-virus app.</li>
-	<li>LDAP / Active directory integration</li>
+	<li>LDAP / Active Directory integration</li>
 	<li>Example files for new users. Preload a new user's Files area with, for example, a tutorial file, which appears when they first log in.</li>
 	<li>Powerful integrated logging</li>
 	<li>Fine-grained control over access to data and sharing capabilities by user and by group.</li>
