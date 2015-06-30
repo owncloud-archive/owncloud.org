@@ -111,13 +111,13 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="ldap" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
 				<h3 class="featuretitle">LDAP Wizard improvements</h3></br>
-				<p class="featuredesc">The LDAP wizzard has been re-architectured for more scalable performance and advanced configuration options, including auto-detection of more common and uncommon scenarios.</p>
+				<p class="featuredesc">The LDAP wizard has been re-architected for more scalable performance and advanced configuration options, including auto-detection of more common and uncommon scenarios.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="locking" src="<?php bloginfo('template_directory'); ?>/assets/img/features/conflict.png" />
 				<h3 class="featuretitle">Improved File Locking</h3></br>
-				<p class="featuredesc">In very large scale ownCloud instances the improved file locking app ensures consistency and integrity of data and meta data during race conditions, such as multiple users changing the same folder and/or files at the same time. Gile system file locking has been significantly enhanced to ensure file integrity in all circumstances.</p>
+				<p class="featuredesc">In very large scale ownCloud instances the improved file locking app ensures consistency and integrity of data and meta data during race conditions, such as multiple users changing the same folder and/or files at the same time. File system locking has been significantly enhanced to ensure file integrity in all circumstances.</p>
 			</div>
 		</div>
 
@@ -149,7 +149,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="other features" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
 				<h3 class="featuretitle">SFTP with SSH</h3></br>
-				<p class="featuredesc">The SFTP external storage now works with an SSH key</p>
+				<p class="featuredesc">The SFTP external storage now works with an SSH key.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -171,7 +171,7 @@
 		<div class="row">
 			<ul class="featureslist">
 				<li>App Management</br>
-ownCloud is <a href="http://karlitschek.de/2015/06/building-a-platform/">meant to be a platform</a> and to aid app developers, APIs have been cleaned up and the process of getting apps in the appstore <a href="https://doc.owncloud.org/server/8.1/developer_manual/app/publishing.html">was documented</a>.</li>
+ownCloud is <a href="http://karlitschek.de/2015/06/building-a-platform/">meant to be a platform</a> and to aid app developers, APIs have been cleaned up and the process of getting apps in the appstore <a href="https://doc.owncloud.org/server/8.1/developer_manual/app/publishing.html">is now documented</a>.</li>
 				<li>Improved API: over 190 additions, 50 deprecated calls. For details, see this blog about <a href="https://owncloud.org/blog/TBD">ownCloud 8.1 for app developers</a></li>
 				<li>Security hardening of the server. <a href="https://statuscode.ch/2015/05/security-and-owncloud-8.1/" target="_blank">Details in this blog</a>.</li>
 				<li>Sharing capabilities are now exposed to allow external applications (desktop client, mobile clients etc.) to provide a better UX (https://github.com/owncloud/core/pull/13964)</li>
