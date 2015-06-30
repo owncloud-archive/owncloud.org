@@ -41,7 +41,7 @@
 			<div class="col-md-4 featureblock">
 				<i class="icon-road"></i>
 				<h3 class="ft-title">Update channels</h3>
-				<p class="featuredesc">The built in Updater app and our package repositories now offer different update channels to keep ownCloud updated from.</p>
+				<p class="featuredesc">It is now easier to keep ownCloud updated with the channel of your choice via the built in Updater app and our package repositories.</p>
 			</div>
 		</div>
 	</div>
@@ -62,7 +62,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
 				<h3 class="featuretitle">Federated Cloud ID</h3></br>
-				<p class="featuredesc">You can now find your Federated Cloud ID in the settings, making it easy to start sharing with other ownCloud servers. In addition, with a little configuration of server infrastructure, users can share seamlessly across ownCloud servers using federated cloud sharing and the destination server domain name.</p>
+				<p class="featuredesc">You can now find your Federated Cloud ID in the settings, making it easy to start sharing with other ownCloud servers. Federated Cloud ID's added to your address book will auto-complete in the share dialog.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
@@ -74,7 +74,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="faster" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
 				<h3 class="featuretitle">Performance</h3></br>
-				<p class="featuredesc">This ownCloud release brings much improved performance, with up to 4x faster up- and downloads, an order of magnitude faster file deletion and moving and better scalability through improved handling of parallel requests. ownCloud can now handle up to 50% more active users on each ownCloud Server instance.</p>
+				<p class="featuredesc">This ownCloud release brings much improved performance, with up to 4x faster up- and downloads and an order of magnitude faster file manipulation. Better scalability through improved handling of parallel requests means ownCloud can now handle up to 50% more active users on each ownCloud Server instance.</p>
 			</div>
 		</div>
 
@@ -86,16 +86,17 @@
 			</div>
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="other features" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
-				<h3 class="featuretitle">More previews</h3></br>
+				<h3 class="featuretitle">More Previews</h3></br>
 				<p class="featuredesc">There is now preview support for fonts and 3D images as well as RAW support for viewing (not previews).</p>
 			</div>
 		</div>
 
-
 		<div class="row">
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/better-integrated-help.png" title="help is integrated everywhere in the user interface" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/better-integrated-help-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-cloud-id.png" title="you can easily find and share your Federated Cloud ID" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-cloud-id-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-sharing-addressbook.png" title="auto-complete Federated Cloud ID's from your address book" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-sharing-addressbook-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 		</div>
+
 		<a name="admin"></a>
 		<div class="featurewrapper">
 			<h2>Admin Enhancements</h2>
@@ -110,7 +111,7 @@
 
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="ldap" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
-				<h3 class="featuretitle">LDAP Wizard improvements</h3></br>
+				<h3 class="featuretitle">LDAP Wizard Improvements</h3></br>
 				<p class="featuredesc">The LDAP wizard has been re-architected for more scalable performance and advanced configuration options, including auto-detection of more common and uncommon scenarios.</p>
 			</div>
 
@@ -130,20 +131,20 @@
 
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
-				<h3 class="featuretitle">Security improvements</h3></br>
+				<h3 class="featuretitle">Security Improvements</h3></br>
 				<p class="featuredesc">There have been a raft of architectural improvements and changes made which harden ownCloud against security threats. Some of these <a href="https://statuscode.ch/2015/05/security-and-owncloud-8.1/">are described here</a>.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="Updates" src="<?php bloginfo('template_directory'); ?>/assets/img/features/update.png" />
-				<h3 class="featuretitle">Update channels</h3></br>
+				<h3 class="featuretitle">Update Channels</h3></br>
 				<p class="featuredesc">The built in Updater app and our package repositories now offer different update channels to keep ownCloud updated from. Administrators can choose to track the latest released code, a more conservative stable branch, release candidates, or daily builds to align their ownCloud installation to their needs.</p>
 			</div>
 		</div>
 		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="example theme" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
-				<h3 class="featuretitle">Example theme</h3></br>
+				<h3 class="featuretitle">Example Theme</h3></br>
 				<p class="featuredesc">To make developing a custom ownCloud theme easier, a new example theme was included with ownCloud 8.1. Find details on how to theme ownCloud in the <a href="https://doc.owncloud.org/server/8.1/admin_manual/operations/theming.html">documentation</a>.</p>
 			</div>
 			<div class="col-md-4 featureblock">
