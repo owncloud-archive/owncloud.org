@@ -4,9 +4,9 @@
 		<iframe width="95%" height="315" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
 	</div>
 	<div class="col-md-7">
-		<h2 class="featuretitle" style="margin-top: 0;">Access, Sync and Share your data, under your control!</h2>
-		<p style="text-align: justify; margin-top: 10px;">ownCloud is a self hosted file sync and share server. It provides access to your data through a web interface, sync clients or WebDAV while providing a platform to view, 
-		sync and share across devices easily—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and works with any storage.
+		<h2 class="featuretitle" style="margin-top: 0;">Access, Sync and Share Your Data, Under Your Control!</h2>
+		<p style="text-align: justify; margin-top: 10px;">ownCloud is a self-hosted file sync and share server. It provides access to your data through a web interface, sync clients or WebDAV while providing a platform to view,
+		sync and share across devices easily—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and it works with any storage.
 		</p>
 		<p><a href="/install" class="btn btn-lg btn-primary">Install ownCloud Server 8.1 now</a></p>
 		<br/>
