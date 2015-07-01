@@ -1,6 +1,6 @@
 		<div class="row headerrow">
 			<div class="col-md-5">
-				<iframe width="95%" height="315" src="https://www.youtube.com/embed/TBD" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
+				<iframe width="95%" height="315" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
 			</div>
 			<div class="col-md-7">
 				<h2>ownCloud Server 8.1 Features</h2>
@@ -114,21 +114,14 @@
 				<h3 class="featuretitle">LDAP Wizard Improvements</h3></br>
 				<p class="featuredesc">The LDAP wizard has been re-architected for more scalable performance and advanced configuration options, including auto-detection of more common and uncommon scenarios.</p>
 			</div>
-
-			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="locking" src="<?php bloginfo('template_directory'); ?>/assets/img/features/conflict.png" />
-				<h3 class="featuretitle">Improved File Locking</h3></br>
-				<p class="featuredesc">In very large scale ownCloud instances the improved file locking app ensures consistency and integrity of data and meta data during race conditions, such as multiple users changing the same folder and/or files at the same time. File system locking has been significantly enhanced to ensure file integrity in all circumstances.</p>
-			</div>
-		</div>
-
-		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="encryption" src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption.png" />
 				<h3 class="featuretitle">Encryption 2.0</h3></br>
 				<p class="featuredesc">A modularization of the Encryption capabilities in ownCloud allows for external key management, provides improved reliability and management, and sets the foundation for future encryption enhancements.</p>
 			</div>
+		</div>
 
+		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
 				<h3 class="featuretitle">Security Improvements</h3></br>
@@ -140,15 +133,15 @@
 				<h3 class="featuretitle">Update Channels</h3></br>
 				<p class="featuredesc">The built in Updater app and our package repositories now offer different update channels to keep ownCloud updated from. Administrators can choose to track the latest released code, a more conservative stable branch, release candidates, or daily builds to align their ownCloud installation to their needs.</p>
 			</div>
-		</div>
 		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="example theme" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
 				<h3 class="featuretitle">Example Theme</h3></br>
 				<p class="featuredesc">To make developing a custom ownCloud theme easier, a new example theme was included with ownCloud 8.1. Find details on how to theme ownCloud in the <a href="https://doc.owncloud.org/server/8.1/admin_manual/operations/theming.html">documentation</a>.</p>
 			</div>
+		</div>
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="other features" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
+				<img class="thumbnail" alt="other features" src="<?php bloginfo('template_directory'); ?>/assets/img/features/backend.png" />
 				<h3 class="featuretitle">SFTP with SSH</h3></br>
 				<p class="featuredesc">The SFTP external storage now works with an SSH key.</p>
 			</div>
@@ -158,7 +151,7 @@
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/mount-options.png" title="You can set encryption, update policy and previews for each external storage mount" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/mount-options-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption3.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption3-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption5.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption5-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Update Channel selection in Updater App" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme.png" title="Included example theme" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab.png" title="LDAP wizzard server page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab.png" title="LDAP wizzard users page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
@@ -174,8 +167,7 @@
 				<li>App Management</br>
 ownCloud is <a href="http://karlitschek.de/2015/06/building-a-platform/">meant to be a platform</a> and to aid app developers, APIs have been cleaned up and the process of getting apps in the appstore <a href="https://doc.owncloud.org/server/8.1/developer_manual/app/publishing.html">is now documented</a>.</li>
 				<li>Improved API: over 190 additions, 50 deprecated calls. For details, see this blog about <a href="https://owncloud.org/blog/TBD">ownCloud 8.1 for app developers</a></li>
-				<li>Security hardening of the server. <a href="https://statuscode.ch/2015/05/security-and-owncloud-8.1/" target="_blank">Details in this blog</a>.</li>
-				<li>Sharing capabilities are now exposed to allow external applications (desktop client, mobile clients etc.) to provide a better UX (https://github.com/owncloud/core/pull/13964)</li>
+				<li>Sharing capabilities are now exposed to allow external applications (desktop client, mobile clients etc.) to provide a better UX.</li>
 			</ul>
 			<p>For details, see this blog about <a href="https://owncloud.org/blog/TBD">ownCloud 8.1 for app developers</a>.</p>
 		</div>

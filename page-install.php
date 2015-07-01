@@ -20,7 +20,7 @@
     <h3><i class="icon-refresh"></i> Sync</h3>
     <p>Connect to your ownCloud with our clients:</p>
     <div class="btn-group">
-      <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop clients</a>
+      <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a>
       <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">Mobile clients</a>
     </div>
   </div>
@@ -31,7 +31,7 @@
     <p>Browse hundreds of free ownCloud apps and connect services you use to ownCloud:</p>
      <div class="btn-group">
         <a class="btn btn-default btn-lg" role="button" href="https://apps.owncloud.com" target="_blank">ownCloud Apps</a>
-        <a class="btn btn-default btn-lg" role="button" href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd party apps</a>
+        <a class="btn btn-default btn-lg" role="button" href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd Party Apps</a>
       </div>
   </div>
 </div>
@@ -54,22 +54,22 @@
   <div class="col-md-4">
     <hr class="narrow"></hr>
     <div class="numbadge centre">5</div>
-    <h3><i class="icon-comment"></i> Support channels</h3>
+    <h3><i class="icon-comment"></i> Support Channels</h3>
     <p>Discuss using, installing or maintaining ownCloud in our community support channels.</p>
     <ul>
       <li><a href="http://forum.owncloud.org" target="_blank">Forum</a> (<a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">Forum FAQ</a>)</li>
-      <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">User mailing list</a></li>
-      <li><a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
+      <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">User Mailing List</a></li>
+      <li><a href="irc://#owncloud@freenode.net" target="_blank">IRC Channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
     </ul>
     <p>Find <a href="/support" target="_blank">more support resources here</a>.</p>
   </div>
   <div class="col-md-4">
     <hr class="narrow"></hr>
     <div class="numbadge centre">6</div>
-    <h3><i class="icon-rocket"></i> Get involved</h3>
+    <h3><i class="icon-rocket"></i> Get Involved</h3>
     <p><a href="/promote" target="_blank">Join the conversation</a> around ownCloud!</p>
     <p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank">developing</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank">testing</a>, grab a daily build or beta packages.</p>
-    <p><a class="btn btn-default btn-lg" role="button" href="#testing-development" rel="tooltip" title="Contribute" id="testing" data-toggle="popover">testing packages</a></p>
+    <p><a class="btn btn-default btn-lg" role="button" href="#testing-development" rel="tooltip" title="Contribute" id="testing" data-toggle="popover">Testing Packages</a></p>
     <p>See more <a href="/contribute" target="_blank">ways to get involved</a>!</p>
   </div>
 </div> 
