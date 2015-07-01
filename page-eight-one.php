@@ -27,9 +27,9 @@
 		  	</div>
 		 </div>
 			<div class="col-md-4 featureblock">
-				<i class="icon-book"></i>
-				<h3 class="ft-title">Integrated Documentation</h3>
-				<p class="featuredesc">To make ownCloud easier to use, documentation has been massively improved and integrated in the interface.</p>
+				<i class="icon-road"></i>
+				<h3 class="ft-title">Update channels</h3>
+				<p class="featuredesc">It is now easier to keep ownCloud updated with the channel of your choice via the built in Updater app and our package repositories.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
@@ -39,9 +39,9 @@
 			</div>
 
 			<div class="col-md-4 featureblock">
-				<i class="icon-road"></i>
-				<h3 class="ft-title">Update channels</h3>
-				<p class="featuredesc">It is now easier to keep ownCloud updated with the channel of your choice via the built in Updater app and our package repositories.</p>
+				<i class="icon-book"></i>
+				<h3 class="ft-title">Integrated Documentation</h3>
+				<p class="featuredesc">To make ownCloud easier to use, documentation has been massively improved and integrated in the interface.</p>
 			</div>
 		</div>
 	</div>
