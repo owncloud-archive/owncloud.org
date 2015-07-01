@@ -23,7 +23,7 @@
       <td class="warning"><h1>Production</h1></td>
       <td class="info">This channel delivers the latest fully tested release of ownCloud.</br>
 		      That does not imply that these release are bug free. The issues are known and can be worked around. The downside of this channel is that the releases are behind in terms of features and performance.</td>
-            <td class="info"><a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_OBS_HOME; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Repositories</a><br />older archives are available from our <a href="/changelog">changelog</a>.</td>
+            <td class="info">Older archives and links to older stable series repositories are available from our <a href="/changelog">changelog</a>.</td>
     </tr>
     <tr>
       <td class="warning"><h1>Stable</h1></td>
@@ -43,5 +43,5 @@
       <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a></td>
     </tr>
 </table>
-<p>If you are looking to track a specific version, you can find our <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_OBS_HOME; ?>">Linux package repositories here</a> and older archives are available from our <a href="/changelog">changelog</a>.</p>
+<p>If you are looking to grab a archive of a specific version, you can find links to them in our <a href="/changelog">changelog</a>.</p>
 <p><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>

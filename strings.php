@@ -54,16 +54,6 @@ $DOWNLOAD_SERVER_DAILY_TAR = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.
 $DOWNLOAD_SERVER_DAILY_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.tar.bz2.md5';
 $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://software.opensuse.org/download/package?project=isv:ownCloud:community:nightly&package=owncloud';
 
-// Beta
-$DOWNLOAD_SERVER_BETA_TAR = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.tar.bz2';
-$DOWNLOAD_SERVER_BETA_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.tar.bz2.md5';
-$DOWNLOAD_SERVER_PACKAGES_BETA = 'https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&package=owncloud';
-
-// Production
-$DOWNLOAD_SERVER_PRODUCTION_TAR = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.tar.bz2';
-$DOWNLOAD_SERVER_PRODUCTION_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.tar.bz2.md5';
-$DOWNLOAD_SERVER_PACKAGES_PRODUCTION = 'https://software.opensuse.org/download/package?project=isv:ownCloud:community:productiony&package=owncloud';
-
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
 
