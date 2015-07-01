@@ -29,7 +29,7 @@
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">6.0</a>
-		    <br>Register and activate one of this repositories with your package manager to get updates within the same major version.
+		    <br>Register and activate one of these repositories with your package manager to get updates within the same major version.
             </td>
     </tr>
     <tr>
