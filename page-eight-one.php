@@ -28,7 +28,7 @@
 		 </div>
 			<div class="col-md-4 featureblock">
 				<i class="icon-road"></i>
-				<h3 class="ft-title">Update channels</h3>
+				<h3 class="ft-title">Release channels</h3>
 				<p class="featuredesc">It is now easier to keep ownCloud updated with the channel of your choice via the built in Updater app and our package repositories.</p>
 			</div>
 
@@ -84,10 +84,19 @@
 				<h3 class="featuretitle">Improved Documents</h3></br>
 				<p class="featuredesc">An updated ownCloud Documents app improves on document compatibility and introduces new features like indentation buttons and annotations support as well as working keyboard shortcuts for Firefox users.</p>
 			</div>
-			<div class="col-md-4 featureblock">
+			<div class="col-md-8 featureblock">
 				<img class="thumbnail" alt="other features" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
-				<h3 class="featuretitle">More Previews</h3></br>
-				<p class="featuredesc">There is now preview support for fonts and 3D images as well as RAW support for viewing (not previews).</p>
+				<h3 class="featuretitle">Papercuts</h3>
+				<p class="featuredesc">There have been many small changes to ownCloud, including:</p></br></br>
+				<ul>
+				    <li>Preview support for fonts and 3D images as well as support for viewing RAW files.</li>
+				    <li>Automatic database, trash and version cleanups don't cause system wide slow-downs anymore</li>
+				    <li>With certain mail server configurations, setting the correct sender address now works</li>
+				    <li>File meta data like sharing or favorite state is preserved when files are deleted and undeleted</li>
+				    <li>Upgrading is far more reliable due to better handling of maintenance mode</li>
+				    <li>User avatars are shown in sharing dialogs</li>
+				    <li>And much more.</li>
+				</ul>
 			</div>
 		</div>
 
@@ -107,13 +116,13 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="external_storage" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
 				<h3 class="featuretitle">New Mount Options for External Storage</h3></br>
-				<p class="featuredesc">ownCloud is a mechanism for consolidating access to various backend storage systems using the external storage application. Administrators can now configure encryption, thumbnail support and file cache behavior for each external storage mount, providing another layer of control for the server admin.</p>
+				<p class="featuredesc">External storage now features new mount options. Performance can be fine-tuned per mount by enabling or disabling encryption and previews and choosing how often to check for changes to the underlying storage. Some authentication options have been added to CIFS/SMB and FTPS (which now features SSH key support).</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="ldap" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
 				<h3 class="featuretitle">LDAP Wizard Improvements</h3></br>
-				<p class="featuredesc">The LDAP wizard has been re-architected for more scalable performance and advanced configuration options, including auto-detection of more common and uncommon scenarios.</p>
+				<p class="featuredesc">The LDAP wizard has been updated to be faster and offer several (optional) auto-detection features and test buttons to verify settings. The user interface was also improved, offering visual user and group selection options among other things.</p>
 			</div>
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="encryption" src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption.png" />
@@ -131,8 +140,8 @@
 
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="Updates" src="<?php bloginfo('template_directory'); ?>/assets/img/features/update.png" />
-				<h3 class="featuretitle">Update Channels</h3></br>
-				<p class="featuredesc">The built in Updater app and our package repositories now offer different update channels to keep ownCloud updated from. Administrators can choose to track the latest released code, a more conservative stable branch, release candidates, or daily builds to align their ownCloud installation to their needs.</p>
+				<h3 class="featuretitle">Release Channels</h3></br>
+				<p class="featuredesc">The built in Updater app and our package repositories now offer different Release Channels to keep ownCloud updated from. Administrators can choose to track the latest released code, a more conservative stable branch, release candidates, or daily builds to align their ownCloud installation to their needs. <a href="/release-channels" target="_blank">Make your choice here</a>.</p>
 			</div>
 		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
@@ -141,18 +150,12 @@
 				<p class="featuredesc">To make developing a custom ownCloud theme easier, a new example theme was included with ownCloud 8.1. Find details on how to theme ownCloud in the <a href="https://doc.owncloud.org/server/8.1/admin_manual/operations/theming.html">documentation</a>.</p>
 			</div>
 		</div>
-			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="other features" src="<?php bloginfo('template_directory'); ?>/assets/img/features/backend.png" />
-				<h3 class="featuretitle">SFTP with SSH</h3></br>
-				<p class="featuredesc">The SFTP external storage now works with an SSH key.</p>
-			</div>
-		</div>
 		<div class="row">
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/tips-and-tricks.png" title="Tips and tricks as well as links to documentation are well integrated in the admin panel" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/tips-and-tricks-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/mount-options.png" title="You can set encryption, update policy and previews for each external storage mount" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/mount-options-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption3.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption3-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption5.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption5-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Update Channel selection in Updater App" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Release Channel selection in Updater App" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme.png" title="Included example theme" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab.png" title="LDAP wizzard server page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab.png" title="LDAP wizzard users page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
@@ -163,14 +166,16 @@
 		<div class="featurewrapper">
 			<h2>Improvements for Developers</h2>
 		</div>
+		ownCloud is <a href="http://karlitschek.de/2015/06/building-a-platform/">meant to be a platform</a>. For this release, much effort was put in the infrastructure for building and distributing apps for ownCloud.
 		<div class="row">
 			<ul class="featureslist">
-				<li>App Management</br>
-ownCloud is <a href="http://karlitschek.de/2015/06/building-a-platform/">meant to be a platform</a> and to aid app developers, APIs have been cleaned up and the process of getting apps in the appstore <a href="https://doc.owncloud.org/server/8.1/developer_manual/app/publishing.html">is now documented</a>.</li>
-				<li>Improved API: over 190 additions, 50 deprecated calls. For details, see this blog about <a href="https://owncloud.org/blog/TBD">ownCloud 8.1 for app developers</a></li>
+				<li>The process of getting apps in the appstore <a href="https://doc.owncloud.org/server/8.1/developer_manual/app/publishing.html">is now documented</a>.</li>
+				<li>We made many improvements to the ownCloud API: there have been over 190 additions and 50 deprecated functions.</li>
 				<li>Sharing capabilities are now exposed to allow external applications (desktop client, mobile clients etc.) to provide a better UX.</li>
+				<li>And much, much more.</li>
 			</ul>
-			<p>For details, see this blog about <a href="https://owncloud.org/blog/TBD">ownCloud 8.1 for app developers</a>.</p>
+		<p>We will share more details in an upcoming blog post.</p>
+		<!--	<p>For more details, see this blog about <a href="https://owncloud.org/blog/TBD">ownCloud 8.1 for app developers</a>.</p>-->
 		</div>
 		<h2>Get involved!</h2>
 		<p><a target="_blank" href="/promote/" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss ownCloud with others</a></p>
