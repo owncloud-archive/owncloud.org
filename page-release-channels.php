@@ -41,7 +41,9 @@
     <tr>
       <td class="warning"><h1>Beta</h1></td>
       <td class="info">Betas and release candidates are the versions of choice for testers in preparation for an ownCloud release. Grab these to make sure the upcoming release works well on your infrastructure.</td>
-      <td class="info">Follow our <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/testing/index.html">testpilots mailing list</a> to get the latest test version.</td>
+      <td class="info">Follow our <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/testing/index.html">testpilots mailing list</a> to get the latest test version.<br />
+      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>
+      </td>
     </tr>
     <tr>
       <td class="warning"><h1>Daily</h1></td>

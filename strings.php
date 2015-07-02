@@ -36,7 +36,6 @@ $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCE
 
 // Server
 $DOWNLOAD_SERVER_BASE = 'https://download.owncloud.org/community/';
-$DOWNLOAD_SERVER_PACKAGES_OBS_HOME = 'https://build.opensuse.org/project/subprojects/isv:ownCloud';
 
 // stable
 $DOWNLOAD_SERVER_STABLE_TAR = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.tar.bz2';
@@ -53,6 +52,9 @@ $DOWNLOAD_SERVER_STABLE_ZIP_PGP = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SE
 $DOWNLOAD_SERVER_DAILY_TAR = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.tar.bz2';
 $DOWNLOAD_SERVER_DAILY_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.tar.bz2.md5';
 $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://software.opensuse.org/download/package?project=isv:ownCloud:community:nightly&package=owncloud';
+
+// Testing
+$DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&package=owncloud';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
