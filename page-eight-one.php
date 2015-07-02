@@ -109,7 +109,7 @@
 
 		<a name="admin"></a>
 		<div class="featurewrapper">
-			<h2>Admin Enhancements</h2>
+			<h2>Administration and Management Enhancements</h2>
 		</div>
 		<p>System administrators are strongly encouraged to check out the <a href="https://doc.owncloud.org/server/8.1/admin_manual/release_notes.html">release notes for ownCloud 8.1</a> before upgrading or doing a fresh installation!</p>
 		<div class="row featurerow">
