@@ -29,7 +29,7 @@
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">6.0</a>
-		    <br>Register and activate one of these repositories with your package manager to get updates within the same major version.
+		    <br>Register and activate one of these repositories with your package manager to get updates within the same major version<a href="#warning">*</a>
             </td>
     </tr>
     <tr>
@@ -53,4 +53,9 @@
     </tr>
 </table>
 <p>If you are looking to grab a archive of a specific version or are looking for the version-specific Linux package repositories, you can find links to them in our <a href="/changelog">changelog</a>.</p>
-<p><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
+<p><strong>Security note:</strong></br>
+To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
+<a name="warning"></a>
+<p><strong>Warning:</strong></br>
+If you pick a specific Linux Package repository rather than following stable, you assume the responsibility for a timely upgrade to a new stable release once your current release is no longer supported. We support releases for a significant time, but not forever, and at some point you have to move to a newer version to continue to receive security and stability improvements.</br>
+If at all possible, we suggest to upgrade sooner rather than later. Doing a test on a copy of your production environment is a better way of ensuring the new version works for you than waiting and hoping all issues are found and fixed – that way, you lose out on many of the benefits of the new release, not only in terms of features and user interface enhancements but also when it comes to performance improvements and scalability.</p>
