@@ -106,6 +106,10 @@
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-sharing-addressbook.png" title="auto-complete Federated Cloud ID's from your address book" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-sharing-addressbook-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/documents-annotations.png" title="You can now add and edit annotations in Documents" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/documents-annotations-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 		</div>
+		<div class="row">
+<!--                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
+                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div>
+                </div>
 
 		<a name="admin"></a>
 		<div class="featurewrapper">
@@ -162,7 +166,13 @@
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab.png" title="LDAP wizzard login page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-group-tab.png" title="LDAP wizzard group page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-group-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 		</div>
-		<a name="developer"></a>
+
+		<div class="row">
+                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/9Hqo1ZlOuBI?rel=0" frameborder="0" allowfullscreen></iframe></div>
+                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div>
+                </div>
+
+                <a name="developer"></a>
 		<div class="featurewrapper">
 			<h2>Improvements for Developers</h2>
 		</div>

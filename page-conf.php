@@ -8,7 +8,7 @@
 </div>
 <div class="row">
 	<div class="text-center videoWrapper">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y" frameborder="0" allowfullscreen></iframe>
+		<iframe width="95%" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y" frameborder="0" allowfullscreen></iframe>
 	</div>
 </div>
 <div class="row conf-info">
