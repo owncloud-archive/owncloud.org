@@ -89,7 +89,7 @@ Half a dozen fixes, including:
 <li>Dropbox logs error files</li>
 <li>Fix sync from client to external SMB storage</li>
 <li>File path fix</li>
-<li>17237   App store application fixes</li>
+<li>App store application fixes</li>
 <li>Several smaller fixes</li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2">owncloud-6.0.9.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.9.zip">owncloud-6.0.9.zip</a></br>
