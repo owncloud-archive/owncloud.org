@@ -108,6 +108,7 @@
 		</div>
 		<div class="row">
 <!--                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
+			<!--ownCloud Documents video-->
                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div>
                 </div>
 
@@ -168,7 +169,9 @@
 		</div>
 
 		<div class="row">
-                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/9Hqo1ZlOuBI?rel=0" frameborder="0" allowfullscreen></iframe></div>
+			<!--Release Channels video-->
+                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>
+                        <!--Introduction to Admin Panel video-->
                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div>
                 </div>
 
@@ -187,6 +190,7 @@
 		<p>We will share more details in an upcoming blog post.</p>
 		<!--	<p>For more details, see this blog about <a href="https://owncloud.org/blog/TBD">ownCloud 8.1 for app developers</a>.</p>-->
 		</div>
+		<p>See all features of ownCloud on the <a href="/features">Features page</a>.</p>
 		<h2>Get involved!</h2>
 		<p><a target="_blank" href="/promote/" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss ownCloud with others</a></p>
 		<p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> join the ownCloud community</a></p>
