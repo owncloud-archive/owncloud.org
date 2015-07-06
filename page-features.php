@@ -57,7 +57,7 @@
 		<h3 class="featuretitle">Integrated Documentation</h3></br>
 		<p class="featuredesc">To make ownCloud easier to use, documentation has been massively improved and integrated in the interface.</p>
 	</div>
-	<a href="/eight-one" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server 8</a>
+	<a href="/eight-one" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
 </div>
 
 <div class="featurewrapper"><h2>ownCloud Features</h2></div>
@@ -149,17 +149,17 @@
 
 <div class="row">
 <!--	Using ownCloud 8.1 for end users - 5 minutes -->
-	<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" allowfullscreen></iframe></div> 
+	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	Your first minute with ownCloud - installation and admin screen -->
-	<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/8QeJKGyhFhk?rel=0" frameborder="0" allowfullscreen></iframe></div> 
+	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/8QeJKGyhFhk?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	ownCloud Documents new features in 8.1 -->
-	<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	walk-through of the admin configuration -->
-	<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	Configuring external storage -->
-	<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/uezzFDRnoPY?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/uezzFDRnoPY?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	Managing (adding, removing, changing) users in ownCloud -->
-	<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/teelHVdXD4k?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/teelHVdXD4k?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	Introducing Release Channels in 8.1 -->
 <!--	<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
 </div>
