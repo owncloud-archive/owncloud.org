@@ -152,7 +152,7 @@
 				<p>Music • Calendar • Contacts • Files • Video • More</p>
 				<div class="button-group text-center">
 				<h2>Host your own data</h2>
-				<a href="https://www.youtube.com/watch?v=Dn_YJYFVrms" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
+				<a href="https://www.youtube.com/watch?v=RrAhClhrRAc" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
 				<a href="/features/" target="_blank"><button type="button" class="btn btn-lg">More Features</button></a>
 				</div>
 			</div>

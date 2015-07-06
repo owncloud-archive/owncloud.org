@@ -1,6 +1,7 @@
 <div class="page-header">
 	<h1>ownCloud Server Changelog</h1>
 </div>
+We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.
 <h3>Version 8.0.4 <small>June 9th 2015</small></h3>
 <ul>
 <li>occ can now optionally run the update routines without disabling all third party apps</li>
