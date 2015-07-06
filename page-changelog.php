@@ -1,8 +1,104 @@
 <div class="page-header">
 	<h1>ownCloud Server Changelog</h1>
 </div>
-We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.
-<h3>Version 8.0.4 <small>June 9th 2015</small></h3>
+<p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
+
+<h3>Version 8.1.0 <small>July 6th 2015</small></h3>
+<ul>
+<li>Much polishing, stability and performance improvements</li>
+<li>Encryption 2.0</li>
+<li>Updated Documents</li>
+<li>New Mount Options for External Storage</li>
+<li>Federated Cloud ID</li>
+<li>Integrated documentation</li>
+<li>LDAP Wizard Improvements</li>
+<li>Security Improvements</li>
+<li>App store improvements</li>
+<li>Release channels</li>
+<li>ownCloud API work: 190 new calls, 50 replaced</li>
+<li>Many small improvements</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.1.0.tar.bz2">owncloud-8.1.0.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.0.zip">owncloud-8.1.0.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.0.tar.bz2.md5">owncloud-8.1.0.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.0.zip.md5">owncloud-8.1.0.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.0.tar.bz2.sha256">owncloud-8.1.0.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.0.zip.sha256">owncloud-8.1.0.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.0.tar.bz2.asc">owncloud-8.1.0.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.0.zip.asc">owncloud-8.1.0.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">on the Open Build Service</a></br>
+
+<h3>Version 8.0.5 <small>July 6th 2015</small></h3>
+Over 30 fixes, including:
+<ul>
+<li>Upgrade fixes</li>
+<li>Dropbox logs error fixes</li>
+<li>File scan fixes</li>
+<li>Security fixes</li>
+<li>OCS API fix</li>
+<li>Control bar width no longer overlays scrollbar</li>
+<li>Only load commands of enabled apps</li>
+<li>Port detection when using LDAP</li>
+<li>LDAP wizard improvements</li>
+<li>MultiSelect fixes</li>
+<li>Upgrade jquery-migrate</li>
+<li>Shared file deletion fix</li>
+<li>Fix sync from client to external SMB storage</li>
+<li>Video streaming fix</li>
+<li>File path fix</li>
+<li>LDAP user deletion fix</li>
+<li>Parsing fix in AppFramework</li>
+<li>File overwrite fix for external storage</li>
+<li>Disallow cookie auth in API</li>
+<li>Fix versions when restoring a deleted file</li>
+<li>Fix shares of unavailable users</li>
+<li>Unset password of a link share</li>
+<li>App store application fixes</li>
+<li>Several smaller fixes</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.0.5.tar.bz2">owncloud-8.0.5.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.5.zip">owncloud-8.0.5.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.5.tar.bz2.md5">owncloud-8.0.5.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.5.zip.md5">owncloud-8.0.5.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.5.tar.bz2.sha256">owncloud-8.0.5.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.5.zip.sha256">owncloud-8.0.5.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.5.tar.bz2.asc">owncloud-8.0.5.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.5.zip.asc">owncloud-8.0.5.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
+
+<h3>Release 7.0.7 <small>July 6th 2015</small></h3>
+Over 20 fixes, including:
+<ul>
+<li>Fix port detection when using LDAP</li>
+<li>External storage reload fix</li>
+<li>Dropbox logs error files</li>
+<li>Video streaming fix</li>
+<li>Fix sync from client to external SMB storage</li>
+<li>DB performance improvement</li>
+<li>File path fix</li>
+<li>Upgrade fixes</li>
+<li>LDAP user deletion fix</li>
+<li>Parsing fix in AppFramework</li>
+<li>Disallow cookie auth in API</li>
+<li>Fix shares of unavailable users</li>
+<li>IE8 fixes</li>
+<li>App store application fixes</li>
+<li>Several smaller fixes</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.7.tar.bz2">owncloud-7.0.7.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.7.zip">owncloud-7.0.7.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.7.tar.bz2.md5">owncloud-7.0.7.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.7.zip.md5">owncloud-7.0.7.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.7.tar.bz2.sha256">owncloud-7.0.7.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.7.zip.sha256">owncloud-7.0.7.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a <li>href="https://download.owncloud.org/community/owncloud-7.0.7.tar.bz2.asc">owncloud-7.0.7.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.7.zip.asc">owncloud-7.0.7.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
+
+<h3>Release 6.0.9 <small>July 6th 2015</small></h3>
+Half a dozen fixes, including:
+<ul>
+<li>Dropbox logs error files</li>
+<li>Fix sync from client to external SMB storage</li>
+<li>File path fix</li>
+<li>App store application fixes</li>
+<li>Several smaller fixes</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2">owncloud-6.0.9.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.9.zip">owncloud-6.0.9.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.md5">owncloud-6.0.9.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.9.zip.md5">owncloud-6.0.9.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.sha256">owncloud-6.0.9.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.9.zip.sha256">owncloud-6.0.9.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.asc">owncloud-6.0.9.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.9.zip.asc">owncloud-6.0.9.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
+
+<h3>Version 8.0.4 <small>July 6th 2015</small></h3>
 <ul>
 <li>occ can now optionally run the update routines without disabling all third party apps</li>
 <li>Database handling changes which should improve performance on big systems</li>
