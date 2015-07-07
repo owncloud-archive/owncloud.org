@@ -89,7 +89,7 @@
 				<h3 class="featuretitle">Papercuts</h3>
 				<p class="featuredesc">There have been many small changes to ownCloud, including:</p></br></br>
 				<ul>
-				    <li>Preview support for fonts and 3D images as well as support for viewing RAW files.</li>
+				    <li>Improved thumbnail generation engine and added preview support for fonts and 3D images.</li>
 				    <li>Automatic database, trash and version cleanups don't cause system wide slow-downs anymore</li>
 				    <li>With certain mail server configurations, setting the correct sender address now works</li>
 				    <li>File meta data like sharing or favorite state is preserved when files are deleted and undeleted</li>
