@@ -148,6 +148,13 @@
 				<h3 class="featuretitle">Release Channels</h3></br>
 				<p class="featuredesc">The built in Updater app and our package repositories now offer different Release Channels to keep ownCloud updated from. Administrators can choose to track the latest released code, a more conservative stable branch, release candidates, or daily builds to align their ownCloud installation to their needs. <a href="/release-channels" target="_blank">Make your choice here</a>.</p>
 			</div>
+			<div class="col-md-4 featureblock">
+				<img class="thumbnail" alt="Updates" src="<?php bloginfo('template_directory'); ?>/assets/img/features/store.png" />
+				<h3 class="featuretitle">Experimental apps</h3></br>
+				<p class="featuredesc">The built in app store now has the ability to install all apps from the <a href="https://apps.owncloud.com">online app store</a>, including the apps not yet approved and verified. This comes, of course, at a security- and stability risk, which the administrator should be aware off.</p>
+			</div>
+		</div>
+
 		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="example theme" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
@@ -162,6 +169,8 @@
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption5.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption5-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Release Channel selection in Updater App" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme.png" title="Included example theme" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps.png" title="Enabling experimental apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps2.png" title="Choosing experimental apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps2-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab.png" title="LDAP wizzard server page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab.png" title="LDAP wizzard users page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab.png" title="LDAP wizzard login page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
@@ -173,6 +182,8 @@
                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>
                         <!--Introduction to Admin Panel video-->
                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div>
+                        <!--Introducing the new experimental apps in the app store-->
+                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div>
                 </div>
 
                 <a name="developer"></a>
