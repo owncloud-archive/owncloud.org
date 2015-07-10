@@ -184,6 +184,8 @@
                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div>
                         <!--Introducing the new experimental apps in the app store-->
                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div>
+                        <!--New external storage options explained-->
+                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/nx5PGWc7X18?rel=0" frameborder="0" allowfullscreen></iframe></div>
                 </div>
 
                 <a name="developer"></a>
