@@ -200,8 +200,7 @@
 				<li>Sharing capabilities are now exposed to allow external applications (desktop client, mobile clients etc.) to provide a better UX.</li>
 				<li>And much, much more.</li>
 			</ul>
-		<p>We will share more details in an upcoming blog post.</p>
-		<!--	<p>For more details, see this blog about <a href="https://owncloud.org/blog/TBD">ownCloud 8.1 for app developers</a>.</p>-->
+			<p>For more details, see this blog about <a href="https://owncloud.org/blog/owncloud-8-1-brings-massively-improved-api-for-developers/">ownCloud 8.1 for app developers</a>.</p>
 		</div>
 		<p>See all features of ownCloud on the <a href="/features">Features page</a>.</p>
 		<h2>Get involved!</h2>
