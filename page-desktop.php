@@ -5,6 +5,12 @@
 <ul>
 <li>Release to ship a security release of openSSL. No source changes of the ownCloud Client code.</li>
 </ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.4.5267-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-1.8.4.2531.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.4.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.4.tar.xz.asc">PGP signature</a>)
+
 <h3>Release 1.8.3 <small>June 23th 2015</small></h3>
 <ul>
 <li>Fix a bug in the Windows Installer that could crash explorer (<a href="https://github.com/owncloud/client/issues/3320">#3320</a>)</li>
