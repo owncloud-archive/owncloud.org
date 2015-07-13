@@ -1,6 +1,10 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3>Release 1.8.4 <small>July 13th 2015</small></h3>
+<ul>
+<li>Release to ship a security release of openSSL. No source changes of the ownCloud Client code.</li>
+</ul>
 <h3>Release 1.8.3 <small>June 23th 2015</small></h3>
 <ul>
 <li>Fix a bug in the Windows Installer that could crash explorer (<a href="https://github.com/owncloud/client/issues/3320">#3320</a>)</li>
