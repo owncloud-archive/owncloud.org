@@ -8,10 +8,13 @@
 			<p>Take back your data with ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></p>
 			<p><a class="btn btn-primary btn-lg" role="button" href="/features">Learn more &raquo;</a></p>
 		</div>
-		<div id="image-container" class="col-lg-5 col-md-6 col-sm-7">
+<!--		<div id="image-container" class="col-lg-5 col-md-6 col-sm-7">
 			<div class="image">
 				<a href="/features"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser.png" class="teaser-img img-responsive" alt="ownCloud <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>" /></a>
 			</div>
+		</div>-->
+		<div id="image-container" class="col-lg-5 col-md-6 col-sm-7 text-center">
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 	<div class="row">
