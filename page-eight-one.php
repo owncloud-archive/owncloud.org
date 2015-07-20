@@ -110,6 +110,8 @@
 <!--                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
 			<!--ownCloud Documents video-->
                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div>
+                        <!--ownCloud Federated Sharing video-->
+                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div>
                 </div>
 
 		<a name="admin"></a>
