@@ -164,6 +164,12 @@
 <!--	<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
 <!--New external storage options explained-->
         <div class="col-md-4 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/nx5PGWc7X18?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<!--ownCloud Federated Sharing video-->
+        <div class="col-md-4 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<!--Creating a public upload folder-->
+        <div class="col-md-4 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/3GSppxEhmZY?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<!--Experimental apps in the app store-->
+        <div class="col-md-4 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div>
 </div>
 <p>Find more ownCloud videos in our <a href="https://youtube.com/ownClouders" target="_blank">YouTube Channel</a>.</p>
 
