@@ -1204,6 +1204,19 @@
             "organisations"
             ],
          "imagename":"xentos_logo_owncloud.png"
+      },
+      {
+         "title":"it-sds.de",
+         "url":"http:\/\/http://it-sds.de\/wp\/?page_id=127",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"it-sds_logo"
       }
     ]
 }
