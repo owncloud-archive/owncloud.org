@@ -161,7 +161,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="example theme" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
 				<h3 class="featuretitle">Example Theme</h3></br>
-				<p class="featuredesc">To make developing a custom ownCloud theme easier, a new example theme was included with ownCloud 8.1. Find details on how to theme ownCloud in the <a href="https://doc.owncloud.org/server/8.1/admin_manual/operations/theming.html">documentation</a>.</p>
+				<p class="featuredesc">To make developing a custom ownCloud theme easier, a new example theme was included with ownCloud 8.1. Find details on how to theme ownCloud in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>operations/theming.html">documentation</a>.</p>
 			</div>
 		</div>
 		<div class="row">
