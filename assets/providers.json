@@ -1206,8 +1206,21 @@
          "imagename":"xentos_logo_owncloud.png"
       },
       {
-         "title":"it-sds.de",
-         "url":"http:\/\/http://it-sds.de\/wp\/?page_id=127",
+         "title":"smartglobalservices.com",
+         "url":"http:\/\/www.smartglobalservices.com\/index.php\/owncloud-hosting",
+         "flags":[
+            "pa"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"SGSLogo.jpg"
+      },
+      {
+         "title":"isolated-cloud.de",
+         "url":"http:\/\/isolated-cloud.de",
          "flags":[
             "de"
          ],
@@ -1216,7 +1229,33 @@
             "consumers",
             "organisations"
             ],
-         "imagename":"it-sds_logo"
+         "imagename":"ic_complete_cyan_290x60.png"
+      },
+      {
+         "title":"my2storage.com",
+         "url":"http:\/\/www.my2storage.com\/?page_id=25",
+         "flags":[
+            "sp"
+         ],
+         "freeplans":true,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"Systemec-logo.png"
+      },
+      {
+         "title":"it-sds.de",
+         "url":"http:\/\/it-sds.de\/wp\/?page_id=127",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"it-sds_logo.png"
       }
     ]
 }
