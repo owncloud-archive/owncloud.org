@@ -28,19 +28,6 @@
          "supported":true
       },
       {
-         "title":"net.de",
-         "url":"http:\/\/www.net.de\/produkte_owncloud\/",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations"
-         ],
-         "imagename":"net.gif",
-         "supported":true
-      },
-      {
          "title":"kangaroot.net",
          "url":"http:\/\/www.kangaroot.net\/kangaroot-owncloud\/",
          "flags":[
@@ -68,19 +55,6 @@
          "supported":true
       },
       {
-         "title":"saxonsitsolutions.com.au",
-         "url":"http:\/\/www.saxonsitsolutions.com.au\/",
-         "flags":[
-            "gb"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations"
-         ],
-         "imagename":"saxonsitsolutions.png",
-         "supported":true
-      },
-      {
          "title":"noris.de",
          "url":"http:\/\/www.noris.de\/",
          "flags":[
@@ -91,32 +65,6 @@
 
          ],
          "imagename":"noris.png",
-         "supported":true
-      },
-      {
-         "title":"sapphire.gi",
-         "url":"http:\/\/www.sapphire.gi\/",
-         "flags":[
-            "gb"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"sapphire.png",
-         "supported":true
-      },
-      {
-         "title":"supra.net",
-         "url":"http:\/\/supra.net\/",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"supra.png",
          "supported":true
       },
       {
@@ -328,32 +276,6 @@
          "imagename":"web-shop-hosting.png"
       },
       {
-         "title":"qcloud.pl",
-         "url":"http:\/\/qcloud.pl\/",
-         "flags":[
-            "pl"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations",
-            "consumers"
-         ],
-         "imagename":"qcloud.png"
-      },
-      {
-         "title":"supercorehost.com",
-         "url":"https:\/\/supercorehost.com\/",
-         "flags":[
-            "gb"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations",
-            "consumers"
-         ],
-         "imagename":"supercorehost.png"
-      },
-      {
          "title":"rackscale.net",
          "url":"http:\/\/rackscale.net\/",
          "flags":[
@@ -365,21 +287,6 @@
             "consumers"
          ],
          "imagename":"rackscale.png"
-      },
-      {
-         "title":"e24cloud.com",
-         "url":"http:\/\/e24cloud.com\/",
-         "flags":[
-            "gb",
-            "de",
-            "pl"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations",
-            "consumers"
-         ],
-         "imagename":"e24cloud.png"
       },
       {
          "title":"readyspace.com",
@@ -394,18 +301,6 @@
          "imagename":"readyspace.png"
       },
       {
-         "title":"iway.ch",
-         "url":"http:\/\/iway.ch\/",
-         "flags":[
-            "ch"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"iway.png"
-      },
-      {
          "title":"computel.nl",
          "url":"https:\/\/www.computel.nl\/internetdiensten\/owncloud-opslagruimte",
          "flags":[
@@ -416,19 +311,6 @@
             "organisations"
          ],
          "imagename":"computel.jpg"
-      },
-      {
-         "title":"citycloud.com",
-         "url":"https:\/\/www.citycloud.com\/",
-         "flags":[
-            "gb",
-            "se"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations"
-         ],
-         "imagename":"citycloud.png"
       },
       {
          "title":"polskachmurka.pl",
@@ -442,31 +324,6 @@
             "consumers"
          ],
          "imagename":"polskachmurka.png"
-      },
-      {
-         "title":"hyve.com",
-         "url":"http:\/\/www.hyve.com\/",
-         "flags":[
-            "gb"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"hyve.jpeg"
-      },
-      {
-         "title":"acceleris.ch",
-         "url":"http:\/\/www.acceleris.ch\/de\/Cloud_Services\/KMU_IT_Services\/9S331",
-         "flags":[
-            "de",
-            "fr"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"acceleris.png"
       },
       {
          "title":"oriented.net",
@@ -609,18 +466,6 @@
          "imagename":"hummingbird.jpg"
       },
       {
-         "title":"openmailbox.org/",
-         "url":"https:\/\/www.openmailbox.org",
-         "flags":[
-            "gb"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"openmailbox.png"
-      },
-      {
          "title":"ovh.com",
          "url":"http:\/\/ovh.com",
          "flags":[
@@ -679,18 +524,6 @@
 
          ],
          "imagename":"weblumia.png"
-      },
-      {
-         "title":"lazymedia.com.pt",
-         "url":"http:\/\/www.lazymedia.com.pt\/",
-         "flags":[
-            "pt"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"lazymedia.png"
       },
       {
          "title":"hostiso.com",
@@ -770,31 +603,6 @@
             "consumers"
          ],
          "imagename":"webmeisterei.png"
-      },
-      {
-         "title":"opticempire.com.au",
-         "url":"http:\/\/www.opticempire.com.au",
-         "flags":[
-            "au"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations",
-            "consumers"
-         ],
-         "imagename":"opticempire.png"
-      },
-      {
-         "title":"rw-consult.com",
-         "url":"http:\/\/www.rw-consult.com",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations"
-            ],
-         "imagename":"rwconsult.png"
       },
       {
          "title":"manitu.de",
