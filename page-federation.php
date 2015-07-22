@@ -28,7 +28,7 @@ $(document).ready(function() {
 </div>
 <div     class="row">
         <div class="col-md-6 col-md-offset-3">
-                Watch <a href="http://youtube.com/ownClouders" target="_blank">this YouTube video</a> to learn more or check out the <a href="https://doc.owncloud.org/server/8.1/user_manual/files/federated_cloud_sharing.html" target="_blank">user documentation</a>. Find <a href="http://owncloud.com/introducing-federation" target="_blank">technical details here</a>.
+                Watch <a href="https://www.youtube.com/watch?v=9-JEmlH2DEg" target="_blank">this YouTube video</a> to learn more or check out the <a href="<?php echo $DOCUMENTATION_USER; ?>files/federated_cloud_sharing.html" target="_blank">user documentation</a>. Find <a href="https://owncloud.com/it-is-time-to-federate-our-clouds/" target="_blank">technical details in this series of blog posts</a>.
         </div>
 </div>
 
