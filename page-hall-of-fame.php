@@ -11,7 +11,7 @@
 <strong>2014</strong>
 <ul>
 	<li><a href="https://www.statuscode.ch">Lukas Reschke</a></li>
-	<li><a href="http://www.andreasfischer.net/">Andreas Fischer</a></li> 
+	<li><a href="http://www.andreasfischer.net/">Andreas Fischer</a></li>
 	<li><a href="http://itq.nl">Dirk van Veen</a> (ITQ)</li>
 	<li><a href="https://www.linkedin.com/in/jsibley1">James Sibley</a></li>
 	<li>Eddy Xu</li>
@@ -54,11 +54,11 @@
 <a name="issues-with-webservices"></a>
 <h2>Issues with our Web Services</h2>
 <div class="alert alert-warning">
-	<strong>Heads up!</strong> This hall of fame for website related reports is closed. We appreciate report about the web 
-	infrastructure, however, please notice that our team is focusing on security reports about issues in the ownCloud 
-	software itself. You find our security policy <a href="/security/">here</a>.</div>
+	<strong>Heads up!</strong> This hall of fame for website related reports is closed. We appreciate report about the web
+	infrastructure, however, please notice that our team is focusing on security reports about issues in the ownCloud
+	software itself. You find our responsible disclosure guidelines <a href="/security/">here</a>.</div>
 
-<p>The ownCloud community would like to acknowledge the following people for their contributions to the security of our websites 
+<p>The ownCloud community would like to acknowledge the following people for their contributions to the security of our websites
 	*.owncloud.org and *.owncloud.com</p>
 <br/>
 <strong>2015</strong>

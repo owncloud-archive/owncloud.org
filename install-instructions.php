@@ -117,7 +117,7 @@
 			        <a target="_blank" style="margin: 0 14px 0 7px;" href="https://www.en0ch.se/owncloud_/pre-configured-owncloud-installaton/"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/en0ch.png"></img></a>
 			      </div>
 			      <div class="col-md-9">
-			        Tech and Me provides a pre-configured ownCloud install with e.g. SSL (self-signed) enabled through a start-up script. The VM runs on Ubuntu 14.04 with Apache and MySQL, and is fully configured from start. Updates are managed through a built in script, and could be setup as a cron job for automatic updates.
+			        This pre-configured VM runs on Ubuntu 14.04 with Apache and MySQL, and is <a href="https://www.en0ch.se/machine-setup/" target="_blank">fully configured from start</a>. Updates are managed through a built in script, and could be setup as a cron job for automatic updates. 
 			      </div>
 			    </div>
                         </div>

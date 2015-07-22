@@ -1,9 +1,13 @@
 <?php get_template_part('templates/parts/title'); ?>
 <div class="sub-nav"><a href="/security/advisories">Security Advisories</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/hall-of-fame">Hall of Fame</a></div>
+<h2>Security information</h2>
+<p>This page hosts our security policies and information with regards to reporting security flaws.</p>
+
+<p>If you are looking for information on encryption, <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">see this blog</a>. For more general information around security, see our <a href="/faq#security" target="_blank">FAQ questions around security</a> and follow our development on <a href="https://owncloud.org/news" target="_blank">owncloud.org/news</a> to learn about <a href="https://statuscode.ch/2015/05/security-and-owncloud-8.1/" target="_blank">security improvements like those introduced in ownCloud 8.1</a>. For server owners, our documentation has a section with <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank">best practices and tips on securing an ownCloud server</a>.</p>
 <div class="row">
 <div class="span12">
-<p><div class="alert alert-danger"><strong>Heads up!</strong> We appreciate every report, however, please notice that our team is very busy and therefore won't respond to reports which we rate as "low" severity or invalid (e.g. DoS in Apache or "X-Powered-By" headers). So do us and yourself a favor: Don't report such things, we will not take them into consideration.</div></p>
-<p>If you've discovered a security issue with ownCloud, please read our responsible disclosure policy and contact <strong>security (at) owncloud (dot) com</strong>. Your report should include:
+<p><div class="alert alert-danger"><strong>Heads up!</strong> We appreciate every report, however, please notice that our team is very busy and therefore won't consider reports which we rate as "low" severity or invalid (e.g. DoS in Apache or "X-Powered-By" headers). So do us and yourself a favor: Don't report such things, we will not take them into consideration.</div></p>
+<p>If you've discovered a security issue with ownCloud, please read our responsible disclosure guidelines and contact <strong>security (at) owncloud (dot) com</strong>. Your report should include:
 <ul>
 	<li>Product version</li>
 	<li>A vulnerability description</li>
@@ -19,8 +23,8 @@ In order to facilitate secure submission of security issues, we provide the <a h
 </ul>
 <div class="alert alert-danger"><strong>Note: </strong>Make sure to not disclose details in the subject, as it will not be encrypted!</div>
 
-<h3>Responsible Disclosure Policy</h3>
-The ownCloud community asks that you comply with the following guidelines when researching and reporting security vulnerabilities:
+<h3>Responsible Disclosure Guidelines</h3>
+The ownCloud community kindly requests that you comply with the following guidelines when researching and reporting security vulnerabilities:
 <ul>
 	<li>Only test for vulnerabilities on your own install of ownCloud Server</li>
 	<li>Confirm the vulnerability applies to a supported product version</li>
@@ -39,27 +43,26 @@ Usually, the following types of bugs are out of scope from our security program:
 <h3>Supported Product Versions</h3>
 ownCloud Server:
 <ul>
-	<li>5.0.x</li>
 	<li>6.0.x</li>
 	<li>7.0.x</li>
 	<li>8.0.x</li>
+  <li>8.1.x</li>
 </ul>
 ownCloud Desktop Client:
 <ul>
-	<li>1.6.x</li>
 	<li>1.7.x</li>
 	<li>1.8.x</li>
 </ul>
 <h3>Unsupported Product Versions</h3>
 ownCloud Server:
 <ul>
-	<li>1.x to 4.x (We strongly suggest to upgrade to the latest release)</li>
+	<li>1.x to 5.x (We strongly suggest to upgrade to the latest release)</li>
 </ul>
 ownCloud Desktop Client:
 <ul>
 	<li>1.0.x to 1.6.x (We strongly suggest to upgrade to the latest release)</li>
 </ul>
-<h3>3rd party apps</h3>
-3rd party app security vulnerabilities should also be reported to the security team. The security team is not responsible for the security of these apps, but will attempt to contact the 3rd party app maintainer and then take proper actions.
+<h3>Third-party apps</h3>
+Vulnerabilities in third-party applications should also be reported to the security team. The security team is not responsible for the security of these apps, but will attempt to contact the 3rd party app maintainer and then take proper actions.
 </div>
 </div>
