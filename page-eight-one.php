@@ -93,7 +93,7 @@
 				    <li>Automatic database, trash and version cleanups don't cause system wide slow-downs anymore</li>
 				    <li>With certain mail server configurations, setting the correct sender address now works</li>
 				    <li>File meta data like sharing or favorite state is preserved when files are deleted and undeleted</li>
-				    <li><a href="http://morrisjobke.de/2015/07/22/Conditional-Logging-in-ownCloud/" target="_blank">Conditional logging</a> extends logging to debug leven when conditions you set are met</li>
+				    <li><a href="http://morrisjobke.de/2015/07/22/Conditional-Logging-in-ownCloud/" target="_blank">Conditional logging</a> extends logging to debug level when conditions you set are met</li>
 				    <li>Upgrading is far more reliable due to better handling of maintenance mode and more (optional) <a href="http://morrisjobke.de/2015/07/23/Verbose-ownCloud-upgrade/" target="_blank">verbosity during the upgrade</a></li>
 				    <li>User avatars are shown in sharing dialogs</li>
 				    <li>And much more.</li>
