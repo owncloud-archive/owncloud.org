@@ -171,7 +171,7 @@
 <!--Experimental apps in the app store-->
         <div class="col-md-4 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div>
 </div>
-<p>Find more ownCloud videos in our <a href="https://youtube.com/ownClouders" target="_blank">YouTube Channel</a>.</p>
+<p>Find more ownCloud videos on our <a href="https://youtube.com/ownClouders" target="_blank">YouTube Channel</a>.</p>
 
 <div class="featurewrapper"><h2>Other Features</h2></div>
 
