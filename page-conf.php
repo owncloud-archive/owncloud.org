@@ -29,25 +29,24 @@
 		<i class="icon-comments-o"></i>
 		<h2>Techtalks &amp; Workshops</br><small>August 29-30</small></h2>
 		<p>The Conference Days on Saturday and Sunday provide a chance to learn and improve coding skills on and around ownCloud.<br/>
-		There will be keynotes, lightning talks and workshops:</p>
+		The mornings feature keynotes and lightning talks, the afternoons have workshops, including:</p>
 		<ul>
-			<li>Learn to write your first ownCloud Server App</li>
-			<li>Find out about the state of the Music, Files or Calendar app</li>
-			<li>Secure your PHP application</li>
-			<li>Connect your JS app to ownCloud</li>
+			<li>Learn to <a href="https://conference.owncloud.org/conference/oCC2015/proposal/101" target="_blank">write your first ownCloud Server App</a></li>
+			<li>Find out about the state of the <a href="https://conference.owncloud.org/conference/oCC2015/proposal/86" target="_blank">Music</a>, <a href="https://conference.owncloud.org/conference/oCC2015/proposal/89" target="_blank">Files</a> or <a href="https://conference.owncloud.org/conference/oCC2015/proposal/88" target="_blank">Contacts</a> app</li>
+			<li><a href="https://conference.owncloud.org/conference/oCC2015/proposal/59" target="_blank">Secure your PHP application</a></li>
+			<li>How is ownCloud <a href="https://conference.owncloud.org/conference/oCC2015/proposal/91" target="_blank">used for 500.000 students</a></li>
 		</ul>
-		<p>Watch <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">the 2014 talks</a> on our youtube channel.</p>
-		<p>From May 5 onwards, you can find our <a href="https://owncloud.org/?p=8176">call for papers here</a>.</p>
-		<p><a href="https://conference.owncloud.org/conference/oCC2015/proposal" style="font-weight: 300" class="btn btn-lg btn-primary">Submit a talk</a></p>
+		<p>Our full program <a href="https://owncloud.org/blog/owncloud-contributor-conference-program/">is published</a>. Keynote speakers will be <a href="https://owncloud.org/blog/announcing-the-owncloud-contributor-conference-keynote-speaker-angela-richter/" target="_blank">Angela Richter</a> and <a href="http://karlitschek.de/blog/" target="_blank">Frank Karlitschek</a>.</p>
+		<p>Note that this is a hands-on event with very few passive talks.</br> <strong>Bring your laptop!</strong></p>
+		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>
 	</div>
 </div>
 <div class="row conf-info">
 	<div class="col-sm-6">
 		<h2>Register</h2>
-		<p>The ownCloud Contributor Conference will be entirely open and free. Registration will open in April, stay tuned!
-		We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register/new" target="_blank">register</a> to help us plan better for the event.
+		<p>The ownCloud Contributor Conference will be entirely open and free. We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register/new" target="_blank">register</a> to help us plan better for the event.
 		</p>
-		<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>
+		<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a>, <a href="http://www.meetup.com/owncloud-berlin/events/224095898/" target="_blank">Meetup.com</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>
 		<h2>Location</h2>
 		<p>Our conference will take place in Berlin at the <em>Technische Universität Berlin</em>, in the "Elektrotechnische Institute" building at Einsteinufer 17, Charlottenburg, 10587 Berlin.</p>
 		<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.openstreetmap.org/export/embed.html?bbox=13.32318127155304%2C52.51362881752727%2C13.330262303352356%2C52.5165081342206&amp;layer=mapnik&amp;marker=52.5150684994582%2C13.326721787452698"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51507&amp;mlon=13.32672#map=18/52.51507/13.32672" target="_blank">View Larger Map</a></small>
