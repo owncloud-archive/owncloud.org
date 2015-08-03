@@ -25,7 +25,7 @@
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li>Alain Homewood - PwC New Zealand () - Vulnerability discovery and disclosure.</li>
+            <li>Alain Homewood - PwC New Zealand - Vulnerability discovery and disclosure.</li>
         </ul>
         <br/>
     </div>

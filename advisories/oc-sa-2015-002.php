@@ -25,7 +25,7 @@
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li>Roy Jansen -  (rvahax@gmail.com) - Vulnerability discovery and disclosure.</li><li>Lukas Reschke - ownCloud Inc. (lukas@owncloud.com) - Further analysis and discovery of other related bugs.</li>
+            <li>Roy Jansen (rvahax@gmail.com) - Vulnerability discovery and disclosure.</li><li>Lukas Reschke - ownCloud Inc. (lukas@owncloud.com) - Further analysis and discovery of other related bugs.</li>
         </ul>
         <br/>
     </div>
