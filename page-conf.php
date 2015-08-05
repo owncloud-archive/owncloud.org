@@ -50,7 +50,7 @@
 		<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a>, <a href="http://www.meetup.com/owncloud-berlin/events/224095898/" target="_blank">Meetup.com</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>
 		<h2>Location</h2>
 		<p>Our conference will take place in Berlin at the <em>Technische Universität Berlin</em>, in the "<a href="https://www.math.tu-berlin.de/" target="_blank">Institut für Mathematik</a>" building, main entree at Strasse des 17. Juni 136, 10623 Berlin.</p>
-		<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=13.32431048154831%2C52.51259881205445%2C13.328194320201874%2C52.51417400875078&amp;layer=mapnik&amp;marker=52.513385601296605%2C13.326252400875092" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51339&amp;mlon=13.32625#map=19/52.51339/13.32625">View Larger Map</a></small>
+		<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=13.32431048154831%2C52.51259881205445%2C13.328194320201874%2C52.51417400875078&amp;layer=mapnik&amp;marker=52.513385601296605%2C13.326252400875092" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51339&amp;mlon=13.32625#map=19/52.51339/13.32625">View Larger Map</a></small>
 	</div>
 	<div class="col-sm-6">
 		<h2 class="conf-acc">Berlin and accommodation</h2>
