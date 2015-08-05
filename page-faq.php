@@ -16,7 +16,7 @@
 <ul>
 	<li><a href="#rsync">Why don't you just use rsync?</a></li>
 	<li><a href="#language">Why is ownCloud Server written in PHP and not in my favorite language?</a></li>
-	<li><a href="#protocol">Why do you use HTTP and not my favorite language?</a></li>
+	<li><a href="#protocol">Why do you use HTTP and not my favorite protocol?</a></li>
 	<li><a href="#android">Why does the calendar/contacts app not work with Android?</a></li>
 	<li><a href="#mobilefeatures">Why does the Android/iOS mobile app not support my favorite feature?</a></li>
 	<li><a href="#security">How Secure is ownCloud?</a></li>
@@ -130,7 +130,7 @@ In short, PHP lowers the barrier for using, auditing, modifying and contributing
 See more details in <a href="https://owncloud.org/blog/owncloud-and-php/" target="_blank">this blog about ownCloud and PHP</a>.
 
 <a name="protocol"></a>
-<h3>Why do you use HTTP and not $PROTOCOL?</h3>
+<h3>Why do you use HTTP and not another protocol?</h3>
 <ul>
 	<li>HTTP goes through every firewall and proxy.</li>
 </ul>
