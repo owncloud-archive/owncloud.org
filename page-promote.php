@@ -1,7 +1,7 @@
 <div class="page-header">
-	<h1>Join the conversation around ownCloud</h1>
+	<h1>Thanks for your interest in ownCloud!</h1>
 </div>
-<p>If you are happy with ownCloud, consider sharing your enthusiasm with the world!</p>
+<p>We invite you to join the online conversation about ownCloud! We love to hear your thoughts...</p>
 <div class="row">
 	<div class="col-md-12 col-sm-4 promote-buttons" style="text-align: center">
 		<a target="_blank" href="https://twitter.com/intent/tweet/?url=https%3A%2F%2Fowncloud.org&text=Check%20out%20ownCloud%20for%20open%20source%20data%20sync%2C%20sharing%20and%20more!&via=owncloud&hashtags=owncloud,opensource" class="btn btn-info btn-lg promote"><i class="icon-twitter"></i> Tweet about ownCloud</a>
@@ -18,7 +18,8 @@
       <ul>
         <li>Join the <a href="https://forum.owncloud.org">ownCloud forums</a> and our <a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
         <li>See ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
-        <li>Discuss ownCloud on on <a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li>
+        <li>Discuss ownCloud on <a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li>
+        <li>We meet each other in real life, too, at conferences and meetups. See <a href="/events">our event pages</a> for more information</li>
       </ul>
       <p>Join our community online and talk to us on social media: <br /><br />
 	    <a target="_blank" href="https://plus.google.com/107072838776436530705/about"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img></a>
@@ -46,7 +47,6 @@
 </ul>
 
 Example code:</p>
-
 
 <p><code>&lt;a href="http://owncloud.org/features"&gt;&lt;img src="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-460x70.png" alt="ownCloud release" width="460" height="70" /&gt;&lt;/a&gt;</code></p>
 Will look like this:</br>
