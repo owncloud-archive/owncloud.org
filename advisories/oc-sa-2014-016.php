@@ -25,7 +25,7 @@
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li>Eddy Xu -  (flyingtest09@gmail.com) - Vulnerability discovery and disclosure.</li><li>Robin Appelmann - ownCloud Inc. (icewind@owncloud.com) - Investigating the affected components and providing a patch.</li><li>Lukas Reschke - ownCloud Inc. (lukas@owncloud.org) - Coordinating the patches.</li>
+            <li>Eddy Xu (flyingtest09@gmail.com) - Vulnerability discovery and disclosure.</li><li>Robin Appelmann - ownCloud Inc. (icewind@owncloud.com) - Investigating the affected components and providing a patch.</li><li>Lukas Reschke - ownCloud Inc. (lukas@owncloud.org) - Coordinating the patches.</li>
         </ul>
         <br/>
     </div>

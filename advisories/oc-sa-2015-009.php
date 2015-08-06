@@ -25,7 +25,7 @@
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li>Johannes Kliemann -  (jklmnn@web.de) - Vulnerability discovery and disclosure.</li>
+            <li>Johannes Kliemann (jklmnn@web.de) - Vulnerability discovery and disclosure.</li>
         </ul>
         <br/>
     </div>

@@ -25,7 +25,7 @@
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li>Dirk van Veen - Itq (dvanveen@itq.nl) - Vulnerability discovery and disclosure.</li><li>James Sibley -  (jsibley1@gmail.com) - Vulnerability discovery and disclosure.</li>
+            <li>Dirk van Veen - Itq (dvanveen@itq.nl) - Vulnerability discovery and disclosure.</li><li>James Sibley (jsibley1@gmail.com) - Vulnerability discovery and disclosure.</li>
         </ul>
         <br/>
     </div>

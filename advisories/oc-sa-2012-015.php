@@ -25,7 +25,7 @@
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li>Julien Cayssol -  () - Vulnerability discovery and disclosure.</li>
+            <li>Julien Cayssol - Vulnerability discovery and disclosure.</li>
         </ul>
         <br/>
     </div>

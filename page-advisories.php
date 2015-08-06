@@ -22,6 +22,6 @@
 	</div>
 	<div class="col-md-4">
 		<h2>Mobile Clients</h2><br>
-		<p>Coming soon</p>
+                <?php get_template_part('advisories/mobile-list-part'); ?> 
 	</div>
 </div>

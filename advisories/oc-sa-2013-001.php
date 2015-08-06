@@ -25,7 +25,7 @@
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li>Mathias Karlsson - Detectify () - Vulnerability discovery and disclosure of CVE-2013-0201.</li><li>Ahmad Ashraff -  () - Vulnerability discovery and disclosure of CVE-2013-0202.</li><li>Frans Rosén - Detectify () - Vulnerability discovery and disclosure of CVE-2012-0203.</li>
+            <li>Mathias Karlsson - Detectify - Vulnerability discovery and disclosure of CVE-2013-0201.</li><li>Ahmad Ashraff - Vulnerability discovery and disclosure of CVE-2013-0202.</li><li>Frans Rosén - Detectify - Vulnerability discovery and disclosure of CVE-2012-0203.</li>
         </ul>
         <br/>
     </div>

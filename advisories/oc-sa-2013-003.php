@@ -25,7 +25,7 @@
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li>Lukas Reschke - ownCloud Inc. (lukas@owncloud.org) - Vulnerability discovery and disclosure.</li><li>Sabari Selvan -  () - Vulnerability discovery and disclosure. (CVE-2013-0307)</li>
+            <li>Lukas Reschke - ownCloud Inc. (lukas@owncloud.org) - Vulnerability discovery and disclosure.</li><li>Sabari Selvan - Vulnerability discovery and disclosure. (CVE-2013-0307)</li>
         </ul>
         <br/>
     </div>
