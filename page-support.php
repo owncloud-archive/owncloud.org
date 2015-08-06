@@ -51,6 +51,16 @@
     </tr>
   </table>
 
+  <div class="wrap container pad-bottom">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>Subscribe to our newsletter</h2>
+                    Stay up to date with ownCloud news - releases, events and development are covered monthly in our news letter.
+                    <script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
+                    <script> hbspt.forms.create({ portalId: '328096', formId: '9be4a67a-35ec-47ba-bb94-af3f349a8e7e' }); </script>
+		</div>
+	</div>
+</div>
 
 
 
