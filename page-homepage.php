@@ -299,6 +299,16 @@ $( document ).ready(function() {
 </div>
 <hr>
 
+<div class="wrap container pad-bottom">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>Subscribe to our newsletter</h2>
+                    <script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
+                    <script> hbspt.forms.create({ portalId: '328096', formId: '9be4a67a-35ec-47ba-bb94-af3f349a8e7e' }); </script>
+		</div>
+	</div>
+</div>
+
 <div class="row 3-column-lg-md-sm">
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<h2><i class="icon-twitter"></i> The latest <a href="https://twitter.com/ownclouders">twitter posts</a></h2>
