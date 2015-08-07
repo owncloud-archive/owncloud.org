@@ -3,14 +3,13 @@
 </div>
 <p>With this form, you submit your app for review to the ownCloud app review team. Make sure to read the <a href="<?php echo $DOCUMENTATION_DEVEL; ?>app/publishing.html" target="_blank">Publishing documentation</a> very carefully. Once you feel your app fullfills the requirements for approval, enter the details below to submit the app for review.</p>
 <p>You will be automatically subscribed to the <a href="https://mailman.owncloud.org/mailman/listinfo/appsreview">app review mailing list</a>. You will receive a confirmation link in your inbox, please make sure to <strong>confirm the subscription as soon as possible</strong> so you do not miss any important replies to your submission.</p>
-<form name="contactform" method="post" action="appformsubmit">
+<form name="appform" method="post" action="appformsubmit">
 <div class="row">
     <div class="col-md-8">
         <p><label for="name">Name<br>
         <input  type="text" name="name" maxlength="50" size="40"></label></p>
         <p><label for="email">Email<br>
         <input  type="text" name="email" maxlength="80" size="40"></label></p>
-        <td valign="top"">
         <p><label for="app_name">Name of your app<br>
         <input  type="text" name="app_name" maxlength="50" size="40"></label></p>
         <p><label for="appstoreurl">Link to your app on <a href="http://apps.owncloud.com">the appstore</a><br>
@@ -23,7 +22,6 @@
         <textarea  name="comments" maxlength="1000" cols="40" rows="6" placeholder="Please note how you applied the app guidelines and share your thoughts on why the app would be a great addition for the ownCloud ecosystem."></textarea></label></p>
         <td colspan="2" style="text-align:center">
         <input type="submit" value="Submit">
-        </table>
         </form>
     </div>
 </div>
