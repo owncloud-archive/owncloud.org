@@ -18,7 +18,7 @@ if(isset($_POST['email'])) {
     }
 
     // validation expected data exists
-    if(!isset($_POST['name']) ||
+    if(!isset($_POST['contributorname']) ||
         !isset($_POST['app_name']) ||
         !isset($_POST['email']) ||
         !isset($_POST['appdevurl']) ||
@@ -27,7 +27,7 @@ if(isset($_POST['email'])) {
         !isset($_POST['comments'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all fields?'); }
 
-    $name = $_POST['name']; // required
+    $contributorname = $_POST['contributorname']; // required
     $app_name = $_POST['app_name']; // required
     $email_from = $_POST['email']; // required
     $appstoreurl = $_POST['appstoreurl']; // required
@@ -41,7 +41,7 @@ if(isset($_POST['email'])) {
     $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
   }
     $string_exp = "/^[A-Za-z .'-]+$/";
-  if(!preg_match($string_exp,$name)) {
+  if(!preg_match($string_exp,contributorname)) {
     $error_message .= 'The name you entered does not appear to be valid.<br />';
   }
   if(!preg_match($string_exp,$app_name)) {
@@ -66,7 +66,7 @@ if(isset($_POST['email'])) {
       return str_replace($bad,"",$string);
     }
 
-    $email_message .= "Name: ".clean_string($name)."\n";
+    $email_message .= "Name: ".clean_string(contributorname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "App name: ".clean_string($app_name)."\n";
     $email_message .= "App store url: ".clean_string($appstoreurl)."\n";

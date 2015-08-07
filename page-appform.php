@@ -6,8 +6,8 @@
 <form name="appform" method="post" action="appformsubmit">
 <div class="row">
     <div class="col-md-8">
-        <p><label for="name">Name<br>
-        <input  type="text" name="name" maxlength="50" size="40"></label></p>
+        <p><label for="contributorname">Name<br>
+        <input  type="text" name="contributorname" maxlength="50" size="40"></label></p>
         <p><label for="email">Email<br>
         <input  type="text" name="email" maxlength="80" size="40"></label></p>
         <p><label for="app_name">Name of your app<br>
@@ -22,6 +22,6 @@
         <textarea  name="comments" maxlength="1000" cols="40" rows="6" placeholder="Please note how you applied the app guidelines and share your thoughts on why the app would be a great addition for the ownCloud ecosystem."></textarea></label></p>
         <td colspan="2" style="text-align:center">
         <input type="submit" value="Submit">
-        </form>
     </div>
 </div>
+</form>
