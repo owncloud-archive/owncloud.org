@@ -1,19 +1,15 @@
 <?php
 if(isset($_POST['email'])) {
-        // EDIT THE 2 LINES BELOW AS REQUIRED
-//     $email_to = "appsreview@owncloud.org";
 
-// for testing, send email to submitter of form. Note that spamfilters don't like this... check your spam folder!
-    $email_to = $_POST['email'];
+    
 
-    $email_subject = "Your email subject line";
-            function died($error) {
+   function died($error) {
 
-    // your error code can go here
+    // error code goes here
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-        echo "These errors appear below.<br /><br />";
-        echo $error."<br /><br />";
-        echo "Please go back and fix these errors.<br /><br />";
+        echo "These errors appear below.<br />";
+        echo $error."<br />";
+        echo "Please go back and fix these errors.<br />";
         die();
     }
 
@@ -65,6 +61,9 @@ if(isset($_POST['email'])) {
       $bad = array("content-type","bcc:","to:","cc:","href");
       return str_replace($bad,"",$string);
     }
+    
+    // the app review mailing list address
+    $email_to = "appsreview@owncloud.org";
 
     $email_message .= "Name: ".clean_string(contributorname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
@@ -73,7 +72,8 @@ if(isset($_POST['email'])) {
     $email_message .= "Development repo: ".clean_string($appdevurl)."\n";
     $email_message .= "Other authors: ".clean_string($collaborators)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
-
+    $email_subject .= "Seeking approval for ".clean_string($app_name).;
+    
 // create email headers
     $headers = 'From: '.$email_from."\r\n".
     'Reply-To: '.$email_from."\r\n" .
@@ -87,7 +87,7 @@ if(isset($_POST['email'])) {
     
  ?>
 
-    <!-- include your own success html here -->
+    <!-- success html here -->
 <div class="page-header">
 	<h1>Thanks for submitting your app!</h1>
 </div>
