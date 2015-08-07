@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
         // EDIT THE 2 LINES BELOW AS REQUIRED
-//     $email_to = "jos@owncloud.com";
+//     $email_to = "appsreview@owncloud.org";
 
 // for testing, send email to submitter of form. Note that spamfilters don't like this... check your spam folder!
     $email_to = $_POST['email'];
@@ -18,17 +18,17 @@ if(isset($_POST['email'])) {
     }
 
     // validation expected data exists
-    if(!isset($_POST['first_name']) ||
-        !isset($_POST['last_name']) ||
+    if(!isset($_POST['name']) ||
+        !isset($_POST['app_name']) ||
         !isset($_POST['email']) ||
         !isset($_POST['appdevurl']) ||
         !isset($_POST['appstoreurl']) ||
         !isset($_POST['collaborators']) ||
         !isset($_POST['comments'])) {
-        died('We are sorry, but there appears to be a problem with the form you submitted.'); }
+        died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all fields?'); }
 
-    $first_name = $_POST['first_name']; // required
-    $last_name = $_POST['last_name']; // required
+    $name = $_POST['name']; // required
+    $app_name = $_POST['app_name']; // required
     $email_from = $_POST['email']; // required
     $appstoreurl = $_POST['appstoreurl']; // required
     $appdevurl = $_POST['appdevurl']; // required
@@ -41,11 +41,11 @@ if(isset($_POST['email'])) {
     $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
   }
     $string_exp = "/^[A-Za-z .'-]+$/";
-  if(!preg_match($string_exp,$first_name)) {
-    $error_message .= 'The First Name you entered does not appear to be valid.<br />';
+  if(!preg_match($string_exp,$name)) {
+    $error_message .= 'The name you entered does not appear to be valid.<br />';
   }
-  if(!preg_match($string_exp,$last_name)) {
-    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
+  if(!preg_match($string_exp,$app_name)) {
+    $error_message .= 'The app name you entered does not appear to be valid.<br />';
   }
     if(strpos($appstoreurl, 'apps.owncloud.com/') === false) {
     $error_message .= 'The App store URL you entered does not appear to be valid.<br />';
@@ -66,9 +66,9 @@ if(isset($_POST['email'])) {
       return str_replace($bad,"",$string);
     }
 
-    $email_message .= "First Name: ".clean_string($first_name)."\n";
-    $email_message .= "Last Name: ".clean_string($last_name)."\n";
+    $email_message .= "Name: ".clean_string($name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
+    $email_message .= "App name: ".clean_string($app_name)."\n";
     $email_message .= "App store url: ".clean_string($appstoreurl)."\n";
     $email_message .= "Development repo: ".clean_string($appdevurl)."\n";
     $email_message .= "Other authors: ".clean_string($collaborators)."\n";
@@ -77,9 +77,17 @@ if(isset($_POST['email'])) {
 // create email headers
     $headers = 'From: '.$email_from."\r\n".
     'Reply-To: '.$email_from."\r\n" .
+    'Cc: '.$email_from."\r\n" .
     'X-Mailer: PHP/' . phpversion();
-    @mail($email_to, $email_subject, $email_message, $headers); ?>
-<!-- include your own success html here -->
+// Send the email to the list
+    @mail($email_to, $email_subject, $email_message, $headers);
+
+// Second email to subscribe to the mailing list
+    @mail("appsreview-join@owncloud.org", "subscribe", "subscribe", $headers);
+    
+ ?>
+
+    <!-- include your own success html here -->
 <div class="page-header">
 	<h1>Thanks for submitting your app!</h1>
 </div>
