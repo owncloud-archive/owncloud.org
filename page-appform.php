@@ -15,13 +15,13 @@
         <p><label for="appstoreurl">Link to your app on <a href="http://apps.owncloud.com">the appstore</a><br>
         <input  type="text" name="appstoreurl" maxlength="120" size="40"></label></p>
         <p><label for="appdevurl">Link to the public repository<br />
-        <input  type="text" name="appdevurl" maxlength="120" size="40" placeholder="where the app is developed (github for example)"></label></p>
+        <input  type="text" name="appdevurl" maxlength="120" size="40" placeholder="Where the app is developed (Github for example)"></label></p>
         <p><label for="collaborators">Fellow authors<br />
         <textarea  type="text" name="collaborators" maxlength="1000" cols="40" rows="4" placeholder="Who else works or has worked with you on the app? Names, ideally also urls to profiles."></textarea></label></p>
         <p><label for="comments">Why is the app ready for users<br />
         <textarea  name="comments" maxlength="1000" cols="40" rows="6" placeholder="Please note how you applied the app guidelines and share your thoughts on why the app would be a great addition for the ownCloud ecosystem."></textarea></label></p>
         <td colspan="2" style="text-align:center">
-        <input type="submit" value="Submit">
+        <input type="submit" value=" Submit ">
     </div>
 </div>
 </form>
