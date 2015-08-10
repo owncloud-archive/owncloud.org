@@ -407,6 +407,11 @@ p.federation-id {
 
 }
 
+/*---- App store approval form Page ---- */
+.appform label {
+        font-weight: normal;
+    
+}
 
 /*---- Version Pages ---- */
 h3.row-center-title {
