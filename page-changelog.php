@@ -21,7 +21,6 @@
 <li>Fixing 'Undefined index: REMOTE_ADDR'</li>
 <li>Add repair step for outdated OCS IDs</li>
 <li>Encryption migration improvements</li>
-<li>Add repair step for outdated OCS IDs</li>
 <li>Do not try clearing locked files in cache folder</li>
 <li>Fix "undefined index" and "file_exists() on a non-object" messages</li>
 <li>Fixing error logging</li>
