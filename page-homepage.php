@@ -221,7 +221,7 @@ $( document ).ready(function() {
 		</div>
 		<div class="row">
 			<div class="col-sm-6 col-xs-12 install-buttons">
-				<p>ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>.0 at home</p>
+				<p>ownCloud Server <?php echo $VERSIONS_SERVER_FULL_STABLE; ?> at home</p>
 					<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Download ownCloud</br><small>Host yourself or find a provider</small></a>
 			</div>
 			<div class="col-xs-12 col-sm-6">
