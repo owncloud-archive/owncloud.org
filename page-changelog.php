@@ -12,15 +12,13 @@
 <li>Fix Search box in user management only appears when making the font bigger or smaller</li>
 <li>Detect old NSS and OpenSSL versions</li>
 <li>Double slash for SMB storage id for compatibility</li>
-<li>Fix encryption migration</li>
+<li>Encryption migration improvements</li>
 <li>Only set is encrypted when encryption is enabled</li>
 <li>Adding error handling in case setting the password fails</li>
 <li>Fix mount point detection</li>
 <li>Allow upgrade of not enabled apps</li>
 <li>Ensure groups match filter when using memberOf to read users group</li>
 <li>Fixing 'Undefined index: REMOTE_ADDR'</li>
-<li>Add repair step for outdated OCS IDs</li>
-<li>Encryption migration improvements</li>
 <li>Add repair step for outdated OCS IDs</li>
 <li>Do not try clearing locked files in cache folder</li>
 <li>Fix "undefined index" and "file_exists() on a non-object" messages</li>
