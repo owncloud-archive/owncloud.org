@@ -18,7 +18,7 @@
         <p><p>A bug in the ownCloud iOS application below version 3.4.4 may leak credentials as well as cookies used for authentication purposes to other configured ownCloud instances.</p><p>Specifically, the ownCloud iOS application allows users to connect to multiple ownCloud instances offering an easy way to switch between different accounts on different instances. An user may for example configure their hosted ownCloud by a third-party provider as well as their company ownCloud instance.</p><p>In some cases when switching the accounts in the iOS applications the application is not properly handling the state switch and will continue to send the previous authentication headers to the other instance. Thus a malicious administrator on another configured ownCloud instance may gain access to the user' credentials on the other instance.</p></p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Mobile &lt; <strong>iOS 3.4.4</strong> (CVE assignment pending)</li>
+            <li>ownCloud Mobile &lt; <strong>iOS 3.4.4</strong> (CVE-2015-5955)</li>
         </ul>
         <h3>Action Taken</h3>
         <p><p>The iOS application is now properly handling credentials as well as cookies and will send these only to the correct domains.</p></p>
