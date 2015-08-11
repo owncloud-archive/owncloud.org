@@ -3,6 +3,70 @@
 </div>
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 
+<h3>Version 8.1.1 <small>August 11th 2015</small></h3>
+<ul>
+<li>Fix infinite loops with propagating etags on reshares</li>
+<li>Let the encryption storage wrapper always update the file cache</li>
+<li>Only update database on the first run</li> 
+<li>Add error handlers for avatar setup</li>
+<li>Fix Search box in user management only appears when making the font bigger or smaller</li>
+<li>Detect old NSS and OpenSSL versions</li>
+<li>Double slash for SMB storage id for compatibility</li>
+<li>Fix encryption migration</li>
+<li>Only set is encrypted when encryption is enabled</li>
+<li>Adding error handling in case setting the password fails</li>
+<li>Fix mount point detection</li>
+<li>Allow upgrade of not enabled apps</li>
+<li>Ensure groups match filter when using memberOf to read users group</li>
+<li>Fixing 'Undefined index: REMOTE_ADDR'</li>
+<li>Add repair step for outdated OCS IDs</li>
+<li>Encryption migration improvements</li>
+<li>Add repair step for outdated OCS IDs</li>
+<li>Do not try clearing locked files in cache folder</li>
+<li>Fix "undefined index" and "file_exists() on a non-object" messages</li>
+<li>Fixing error logging</li>
+<li>Add verbosity check and show repair info & steps</li>
+<li>Many small improvements</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.1.1.tar.bz2">owncloud-8.1.1.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.1.zip">owncloud-8.1.1.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.1.tar.bz2.md5">owncloud-8.1.1.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.1.zip.md5">owncloud-8.1.1.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.1.tar.bz2.sha256">owncloud-8.1.1.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.1.zip.sha256">owncloud-8.1.1.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.1.tar.bz2.asc">owncloud-8.1.1.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.1.zip.asc">owncloud-8.1.1.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">on the Open Build Service</a></br>
+
+<h3>Version 8.0.5 <small>August 11th 2015</small></h3>
+Several fixes, including:
+<ul>
+<li>remove duplicate ID in HTML template for public shares</li>
+<li>Scan check path correctly</li>
+<li>Fix php ldap segfault when some users login</li>
+<li>Do not restrict permissions for the original owner</li>
+<li>Fix thumbnails on public pages are blurry on high DPI devices</li>
+<li>Properly handle NotPermittedException in SabreDAV</li>
+<li>Fix version rename with files and folders</li>
+<li>Several smaller fixes</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.0.6.tar.bz2">owncloud-8.0.6.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.6.zip">owncloud-8.0.6.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.6.tar.bz2.md5">owncloud-8.0.6.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.6.zip.md5">owncloud-8.0.6.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.6.tar.bz2.sha256">owncloud-8.0.6.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.6.zip.sha256">owncloud-8.0.6.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.6.tar.bz2.asc">owncloud-8.0.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.6.zip.asc">owncloud-8.0.6.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
+
+<h3>Release 7.0.8 <small>August 11th 2015</small></h3>
+Several fixes, including:
+<ul>
+<li>Fix runtime caching in ldap's user manager</li>
+<li>Fix "undefined index" and "file_exists() on a non-object" messages</li>
+<li>Only rescan versions once in trashbin</li>
+<li>Return correct user count when the group has none</li>
+<li>Several smaller fixes and improvements</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.8.tar.bz2">owncloud-7.0.8.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.8.zip">owncloud-7.0.8.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.8.tar.bz2.md5">owncloud-7.0.8.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.8.zip.md5">owncloud-7.0.8.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.8.tar.bz2.sha256">owncloud-7.0.8.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.8.zip.sha256">owncloud-7.0.8.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.8.tar.bz2.asc">owncloud-7.0.8.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.8.zip.asc">owncloud-7.0.8.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
+
 <h3>Version 8.1.0 <small>July 6th 2015</small></h3>
 <ul>
 <li>Much polishing, stability and performance improvements</li>
