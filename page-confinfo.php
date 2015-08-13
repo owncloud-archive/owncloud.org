@@ -24,6 +24,7 @@
     </p>
     <h3>Conference days - Saturday and Sunday</h3>
     <p>Registration opens at 9 and at 10 we start with opening, keynotes and lightning talks in room <code>MA004</code>, main hall of the »<em>Mathematik</em>« building, ground floor. After lunch the hacking rooms open while the main hall features workshops in the <code>MA004</code>, <code>MA005</code> and <code>MA144</code> rooms.</p>
+    <p>Find <a href="https://conference.owncloud.org/conference/oCC2015/schedule">conference program here</a>.</p>
     </div>
 </div>
 
