@@ -30,13 +30,14 @@
 
 <div class="row conf-info">
     <div class="col-md-6">
-      <h2>Connectivity</h2>
+      <h2>Connectivity and power</h2>
     <p>We've got wifi and many rooms are equipped with a (limited) number of network cables.</p>
     <p>At registration, you sign up for a guest account. Use the how-to's here to connect:
     <ul>
         <li><a href="https://www.tubit.tu-berlin.de/wlan/">in German</a></li>
         <li><a href="https://www.tubit.tu-berlin.de/wlan/parameter/en/">in English</a></li>
     </ul>
+    <p>We have power strips in most places but they're EU plugs - don't forget your adapters!</p>
     </div>
     <div class="col-md-6">
     <h2>Getting stuff done and finding who to talk to</h2>
