@@ -1,5 +1,31 @@
 
 /*---- General ----*/
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Open Sans'), local('OpenSans'), url(../fonts/OpenSans-Regular.woff) format('woff'), url(../fonts/OpenSans-Regular.ttf) format('ttf');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/OpenSans-Bold.woff) format('woff'), url(../fonts/OpenSans-Bold.ttf) format('ttf');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Open Sans Italic'), local('OpenSans-Italic'), url(../fonts/OpenSans-Italic.woff) format('woff'), url(../fonts/OpenSans-Bold.ttf) format('ttf');
+}
+
+body {
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Font Awesome", sans-serif !important;
+}
+
 button a {color: #1d2d44}
 button a:hover {text-decoration: none; }
 
