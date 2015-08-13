@@ -44,6 +44,7 @@
     <p>New to ownCloud, looking for an introduction or answers about APIs, infrastructure or a pull request?
     <br/> <strong>ask your questions in the <em>starters room</em> <code>MA642</code></strong></p>
     <p>If you want to make sure a certain topic is discussed, make an agreement with the relevant people and <a href="https://github.com/owncloud/core/wiki/Conference-meetings">book the meeting room</a>.</p>
+    <p>If you are looking for some non-hacking entertainment in Berlin, <a href="https://github.com/owncloud/core/wiki/Conference-non-hacking-Entertainment">check our wiki page</a>!</p>
     </div>
 </div>
 
@@ -63,10 +64,6 @@
     <p>During weekdays, there is an open cafe at the entree of the »<em>Mathematik</em>« building.</p>
     </div>
 </div>
-
-
-
-
 
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
