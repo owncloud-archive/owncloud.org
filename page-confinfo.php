@@ -6,12 +6,13 @@
 <div class="row conf-info">
     <div class="col-md-6">
     <h2>Registration and badge</h2>
-    <p>Be sure to have <a href="https://conference.owncloud.org/conference/oCC2015/register/new">registered in advance for the conference</a>! Pick up your badge and some food tickets at the entree of the »<em>Mathematik</em>« building, Straße des 17. Juni 136.</br>
+    <p>Be sure to have <a href="https://conference.owncloud.org/conference/oCC2015/register/new">registered in advance for the conference</a>! Pick up your badge and some food tickets at the entree of the »<em>Mathematik</em>« building, Straße des 17. Juni 136 (<a href="http://www.openstreetmap.org/?mlat=52.51339&amp;mlon=13.32625#map=19/52.51339/13.32625">see on a map</a>).</p>
+    <p>»<em>Ernst-Reuter-Platz (U)</em>« and »<em>Tiergarten (S)</em>« are the closest public transport stops. Use <a href="http://fahrinfo.bvg.de/Fahrinfo/bin/query.bin/en?pk_campaign=BVG.de_Eingabe&from=&REQ0JourneyStopsS0ID=&REQ0JourneyStopsfromID=&REQ0JourneyStopsSA1=7&HWAI%3DJS!js=yes&HWAI%3DJS!ajax=yes&to=+10623+Berlin-Charlottenburg%2C+Str.+des+17.+Juni+136&REQ0JourneyStopsZ0ID=&REQ0JourneyStopstoID=A%3D2%40O%3D10623+Berlin-Charlottenburg%2C+Str.+des+17.+Juni+136%40X%3D13326247%40Y%3D52513247%40U%3D103%40L%3D7706964%40B%3D1%40p%3D1431509568%40&REQ0JourneyStopsZA1=7&date=27.08.2015&time=09%3A00&timesel=arrive&start=1">this</a> to plan your trip.</p>
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/frontdoor.jpg" style="width: 100%" alt="front door" class="aligncenter" /></p>
     <p>Note that carrying your badge is mandatory, especially after 18:00 and on the weekend!</p>
     </div>
     <div class="col-md-6">
-    <h2>Finding your way</h2>
+    <h2>In the building</h2>
     <h3>Hackathon</h3>
     <p>Friday, registration and hacking rooms open at 9. Walk from registration desk to the elevators. This is where we are:
     <ul>
@@ -22,7 +23,7 @@
     </ul>
     </p>
     <h3>Conference days - Saturday and Sunday</h3>
-    <p>Registration opens at 9 and at 10 we start with opening, keynotes and lightning talks in room <code>MA004</code>, main hall of the »<em>Mathematik</em>« building. After lunch the hacking rooms open while the main hall features workshops in the <code>MA004</code>, <code>MA005</code> and <code>MA144</code> rooms.</p>
+    <p>Registration opens at 9 and at 10 we start with opening, keynotes and lightning talks in room <code>MA004</code>, main hall of the »<em>Mathematik</em>« building, ground floor. After lunch the hacking rooms open while the main hall features workshops in the <code>MA004</code>, <code>MA005</code> and <code>MA144</code> rooms.</p>
     </div>
 </div>
 
