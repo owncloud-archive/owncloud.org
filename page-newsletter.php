@@ -10,5 +10,6 @@
 		</div>
 	</div>
 </div>
+<p>We promise not to share your email address with anybody else. See our <a href="/privacy">privacy policy</a> for details.</p>
 <p>To follow ownCloud in more 'real-time' fashion, you can also subscribe to our news feed on <a href="/news">owncloud.org/news</a>.</p>
 

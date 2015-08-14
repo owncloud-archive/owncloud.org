@@ -6,6 +6,7 @@ require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.p
   <div class="col-sm-12">
     <h1>ownCloud Planet</h1>
     <a href="/blogfeed" class="rss-button"><img style="vertical-align: top;" width=35 class="img-circle" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png"></img></a>
+    <p>Welcome to ownCloud News, our contributor blog roll. ownCloud contributors should <a href="https://mailman.owncloud.org/pipermail/devel/2014-April/000123.html">ask to get added</a>! We are not responsible for content here, see our <a href="/privacy">privacy policy</a>.</p>
   </div>
 </div>
 
