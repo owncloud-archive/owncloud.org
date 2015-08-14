@@ -32,7 +32,7 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.1.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.1.tar.bz2.asc">owncloud-8.1.1.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.1.zip.asc">owncloud-8.1.1.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">on the Open Build Service</a></br>
 
-<h3>Version 8.0.5 <small>August 11th 2015</small></h3>
+<h3>Version 8.0.6 <small>August 11th 2015</small></h3>
 Several fixes, including:
 <ul>
 <li>remove duplicate ID in HTML template for public shares</li>

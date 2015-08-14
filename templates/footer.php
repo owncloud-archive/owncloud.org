@@ -49,7 +49,7 @@
    </div>
    <div class="row">
     <div class="col-lg-12 footer-text">
-      <p><font face="sans"> &copy; </font> <?php echo date('Y'); ?> ownCloud.org</p>
+      <p><font face="sans"> &copy; </font> <?php echo date('Y'); ?> ownCloud</p>
   </div>
 </div>
 </footer>

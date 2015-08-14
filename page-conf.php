@@ -5,6 +5,7 @@
 		<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>
+		<p>Find <a href="confinfo">practical information for visitors here</a></p>
 	</div>
 </div>
 <div class="row">
