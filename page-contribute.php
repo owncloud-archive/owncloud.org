@@ -53,17 +53,12 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
         <h3><i class="icon-book"></i>&nbsp;&nbsp;Translate and document ownCloud</h3>
          <p>Translate ownCloud to your language. Go to <a href="https://www.transifex.com/projects/p/owncloud/">Transifex</a> and get going!</p>
         <p>Help us improve the ownCloud documentation! Find out how to make a difference <a href="https://doc.owncloud.org/howto_contribute.html">in this contribution guide</a>!</p>
-        <h3> <i class="icon-desktop"></i>&nbsp;&nbsp;Improve the ownCloud website</h3>
-      	Help out with the <a href="https://github.com/owncloud/owncloud.org/blob/master/README.md">website</a> and
-      	<a href="https://github.com/owncloud/documentation/blob/master/CONTRIBUTING.rst">write
-      	documentation</a> (contact tpn or deryo in the <a href="irc://#owncloud-dev@freenode.net">irc channel</a>)
+        <p>The animation shows the easiest way to contribute to the ownCloud documentation. Go to the <a href="https://github.com/owncloud/documentation">documentation in Github</a>, click the
+        'edit' icon on a page, make the changes and create a pull request. This will notify the documentation maintainers of your proposed change and after review, it can be included!</p>
+        
     </div>
     <div class="col-md-6">
-        <h3><i class="icon-book"></i>&nbsp;&nbsp;Answer questions about ownCloud use and development</h3>
-        <p>Help answer questions users and developer have about ownCloud!</p>
-        <ul><li>Join the <a href="https://forum.owncloud.org">ownCloud forums</a> and look for <a href="https://forum.owncloud.org/search.php?search_id=unanswered">unanswered questions</a></li>
-        <li>Answer ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
-        <li>Answer ownCloud user questions on <a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li></ul>
+        <p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/misc/contribute-doc.gif" style="width: 100%" alt="front door" class="aligncenter" /></p>
     </div>
 </div>
 <div class="row">
@@ -71,11 +66,16 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
         <h3><i class="icon-pencil"></i>&nbsp;&nbsp;Design ownCloud</h3>
       	Help out with ownCloud user interaction design or graphic design! Get involved on 
       	<a href="design/">the design page</a>!
-    </div>
-    <div class="col-md-6">
         <h3><i class="icon-money"></i>&nbsp;&nbsp;Support ownCloud development with bounties</h3>
         Support ownCloud development by offering some money on features you would like to have!
         <a href="https://www.bountysource.com/teams/owncloud">Check our bountysource page</a>!
+    </div>
+    <div class="col-md-6">
+    <h3><i class="icon-book"></i>&nbsp;&nbsp;Answer questions about ownCloud use and development</h3>
+        <p>Help answer questions users and developer have about ownCloud!</p>
+        <ul><li>Join the <a href="https://forum.owncloud.org">ownCloud forums</a> and look for <a href="https://forum.owncloud.org/search.php?search_id=unanswered">unanswered questions</a></li>
+        <li>Answer ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
+        <li>Answer ownCloud user questions on <a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li></ul>
     </div>
 </div>
 <br />

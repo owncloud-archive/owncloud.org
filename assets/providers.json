@@ -1064,6 +1064,45 @@
             "organisations"
             ],
          "imagename":"it-sds_logo.png"
+      },
+{
+         "title":"WebHostFace.com",
+         "url":"http:\/\/webhostface.com\/owncloud-hosting",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"webhostface.png"
+      },
+      {
+         "title":"edxinfo.com.br",
+         "url":"http:\/\/http://www.edxinfo.com.br\/#!novidades\/c1pmg",
+         "flags":[
+            "br"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"edx.jpeg"
+      },
+      {
+         "title":"huyn.de",
+         "url":"http:\/\/www.huynh.de\/index.php?id=226",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"huyhn.jpeg"
       }
-    ]
+      ]
 }
