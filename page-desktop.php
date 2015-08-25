@@ -2,7 +2,7 @@
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
 
-<h3>version 2.0.0 <small>August 25th 2015</small></h3>
+<h3 id="200">Release 2.0.0 <small>August 25th 2015</small></h3>
 <ul>
 <li>Add support for multiple accounts (<a href="https://github.com/owncloud/client/issues/3084">#3084</a>)</li>
 <li>Do not sync down new big folders from server without users consent (<a href="https://github.com/owncloud/client/issues/3148">#3148</a>)</li>
@@ -36,7 +36,7 @@ Download:
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.0.0.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.0.0.tar.xz.asc">PGP signature</a>)
 
-<h3>Release 1.8.4 <small>July 13th 2015</small></h3>
+<h3 id="184">Release 1.8.4 <small>July 13th 2015</small></h3>
 <ul>
 <li>Release to ship a security release of openSSL. No source changes of the ownCloud Client code.</li>
 </ul>
@@ -46,7 +46,7 @@ Download:
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.4.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.4.tar.xz.asc">PGP signature</a>)
 
-<h3>Release 1.8.3 <small>June 23th 2015</small></h3>
+<h3 id="183">Release 1.8.3 <small>June 23th 2015</small></h3>
 <ul>
 <li>Fix a bug in the Windows Installer that could crash explorer (<a href="https://github.com/owncloud/client/issues/3320">#3320</a>)</li>
 <li>Reduce 'Connection closed' errors (<a href="https://github.com/owncloud/client/issues/3318">#3318</a>, <a href="https://github.com/owncloud/client/issues/3313">#3313</a>, <a href="https://github.com/owncloud/client/issues/3298">#3298</a>)</li>
@@ -60,7 +60,7 @@ Download:
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.3.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.3.tar.xz.asc">PGP signature</a>)
 
-<h3>Release 1.8.2 <i>(retracted)</i> <small>June 8th 2015</small></h3>
+<h3 id="182">Release 1.8.2 <i>(retracted)</i> <small>June 8th 2015</small></h3>
 <ul>
 <li>Improve reporting of server error messages (<a href="https://github.com/owncloud/client/issues/3220">#3220</a>)</li>
 <li>Discovery: Ignore folders with any 503 (<a href="https://github.com/owncloud/client/issues/3113">#3113</a>)</li>
@@ -95,7 +95,7 @@ Download:
 <li>OSX Shell integration: Optimizations</li>
 <li>Windows Shell integration: Optimizations</li>
 </ul>
-<h3>Release 1.8.1 <small>May 7th 2015</small></h3>
+<h3 id="181">Release 1.8.1 <small>May 7th 2015</small></h3>
 <ul>
 <li>Make "operation canceled" error a soft error</li>
 <li>Do not throw an error for files that are scheduled to be removed, but can not be found on the server. (<a href="https://github.com/owncloud/client/issues/2919">#2919</a>)</li>
@@ -143,7 +143,7 @@ Download:
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-1.8.1.tar.xz.asc">PGP signature</a>)
 
-<h3>Release 1.8.0 <small>Mar 17th 2015</small></h3>
+<h3 id="180">Release 1.8.0 <small>Mar 17th 2015</small></h3>
 <ul>
 <li>Mac OS: HIDPI support</li>
 <li>Support Sharing from desktop: Added a share dialog that can be
