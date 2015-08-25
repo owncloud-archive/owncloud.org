@@ -20,10 +20,10 @@
 <li>Client Updater: Check for updates periodically, not only once per run (<a href="https://github.com/owncloud/client/issues/3044">#3044</a>)</li>
 <li>Windows: Remove misleading option to remove sync data (<a href="https://github.com/owncloud/client/issues/3461">#3461</a>)</li>
 <li>Windows: Do not provoke AD account locking if password changes (<a href="https://github.com/owncloud/client/issues/2186">#2186</a>)</li>
-<li>Windows: Fix installer when installing unprivileged (<a href="https://github.com/owncloud/client/issues/2616">#2616</a>, #2568)</li>
+<li>Windows: Fix installer when installing unprivileged (<a href="https://github.com/owncloud/client/issues/2616">#2616</a>, <a href="https://github.com/owncloud/client/issues/2568">#2568</a>)</li>
 <li>Quota: Only refresh from server when UI is shown</li>
 <li>SSL Button: Show more information</li>
-<li>owncloudcmd: Fix --httpproxy (<a href="https://github.com/owncloud/client/issues/3465">#3465</a>)</li>
+<li>owncloudcmd: Fix <tt>--httpproxy</tt> (<a href="https://github.com/owncloud/client/issues/3465">#3465</a>)</li>
 <li>System proxy: Ask user for credentials if needed</li>
 <li>Several fixes and performance improvements in the sync engine</li>
 <li>Network: Try to use SSL session tickets/identifiers. Check the SSL button to see if they are used.</li>
