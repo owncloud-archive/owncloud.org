@@ -1,6 +1,41 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+
+<h3>version 2.0.0 <small>August 25th 2015</small></h3>
+<ul>
+<li>Add support for multiple accounts (<a href="https://github.com/owncloud/client/issues/3084">#3084</a>)</li>
+<li>Do not sync down new big folders from server without users consent (<a href="https://github.com/owncloud/client/issues/3148">#3148</a>)</li>
+<li>Integrate Selective Sync into the default UI</li>
+<li>OS X: Support native finder integration for 10.10 Yosemite (<a href="https://github.com/owncloud/client/issues/2340">#2340</a>)</li>
+<li>Fix situation where client would not reconnect after timeout (<a href="https://github.com/owncloud/client/issues/2321">#2321</a>)</li>
+<li>Use SI units for the file sizes</li>
+<li>Improve progress reporting during sync (better estimations, show all files, show all bandwidth)</li>
+<li>Windows: Support paths &gt;255 characters (<a href="https://github.com/owncloud/client/issues/57">#57</a>) by using Windows API instead of POSIX API</li>
+<li>Windows, OS X: Allow to not sync hidden files (<a href="https://github.com/owncloud/client/issues/2086">#2086</a>)</li>
+<li>OS X: Show file name in UI if file has invalid UTF-8 in file name</li>
+<li>Sharing: Make use of Capability API (<a href="https://github.com/owncloud/client/issues/3439">#3439</a>)</li>
+<li>Sharing: Do not allow sharing the root folder (<a href="https://github.com/owncloud/client/issues/3495">#3495</a>)</li>
+<li>Sharing: Show thumbnail</li>
+<li>Client Updater: Check for updates periodically, not only once per run (<a href="https://github.com/owncloud/client/issues/3044">#3044</a>)</li>
+<li>Windows: Remove misleading option to remove sync data (<a href="https://github.com/owncloud/client/issues/3461">#3461</a>)</li>
+<li>Windows: Do not provoke AD account locking if password changes (<a href="https://github.com/owncloud/client/issues/2186">#2186</a>)</li>
+<li>Windows: Fix installer when installing unprivileged (<a href="https://github.com/owncloud/client/issues/2616">#2616</a>, #2568)</li>
+<li>Quota: Only refresh from server when UI is shown</li>
+<li>SSL Button: Show more information</li>
+<li>owncloudcmd: Fix --httpproxy (<a href="https://github.com/owncloud/client/issues/3465">#3465</a>)</li>
+<li>System proxy: Ask user for credentials if needed</li>
+<li>Several fixes and performance improvements in the sync engine</li>
+<li>Network: Try to use SSL session tickets/identifiers. Check the SSL button to see if they are used.</li>
+<li>Bandwidth Throttling: Provide automatic limit setting for downloads (<a href="https://github.com/owncloud/client/issues/3084">#3084</a>)</li>
+<li>Systray: Workaround for issue with Qt 5.5.0 (<a href="https://github.com/owncloud/client/issues/3656">#3656</a>)</li>
+</ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.0.0.5423-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.0.0.2666.pkg.tbz">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.0.0.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.0.0.tar.xz.asc">PGP signature</a>)
+
 <h3>Release 1.8.4 <small>July 13th 2015</small></h3>
 <ul>
 <li>Release to ship a security release of openSSL. No source changes of the ownCloud Client code.</li>
