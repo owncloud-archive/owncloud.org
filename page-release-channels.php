@@ -4,12 +4,12 @@
 </div>
 
 <div class="row">
-      <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+      <div class="col-lg-6 col-md-5 col-sm-4 col-xs-12">
 	      <p>With millions of ownCloud users, there are a wide variety of needs and requirements. We offer Release Channels to give our users more flexibility in choosing an ownCloud version to meet their needs. Below you can find and pick the best Channel for you.</p>
 	      <p>You can choose a channel of your preference in the Administrator settings in your ownCloud instance if you have installed ownCloud from an archive. If you prefer using Linux packages, you can pick a repository for a specific version, a repository with daily snapshots or follow the repository which always has the latest stable feature release.</p>
       </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-10">
-	      <a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Update Channel selection in Updater app" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a>
+      <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12">
+      	     <iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
 </div>
 
@@ -52,10 +52,17 @@
       <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a></td>
     </tr>
 </table>
-<p>If you are looking to grab a archive of a specific version or are looking for the version-specific Linux package repositories, you can find links to them in our <a href="/changelog">changelog</a>.</p>
-<p><strong>Security note:</strong></br>
-To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
-<a name="warning"></a>
-<p><strong>Warning:</strong></br>
-If you pick a <strong>specific Linux Package repository</strong> rather than following stable, you assume the responsibility for a timely upgrade to a new stable release once your current release is no longer supported. We support releases for a significant time, but not forever, and at some point you have to move to a newer version to continue to receive security and stability improvements.</br>
-If at all possible, we suggest to <strong>upgrade sooner rather than later</strong>. Doing a test on a copy of your production environment is a better way of ensuring the new version works for you than waiting and hoping all issues are found and fixed – that way, you lose out on many of the benefits of the new release, not only in terms of features and user interface enhancements but also when it comes to performance improvements and scalability.</p>
+<div class="row">
+    <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+        <p>If you are looking to grab a archive of a specific version or are looking for the version-specific Linux package repositories, you can find links to them in our <a href="/changelog">changelog</a>.</p>
+        <p><strong>Security note:</strong></br>
+        To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
+        <a name="warning"></a>
+        <p><strong>Warning:</strong></br>
+        If you pick a <strong>specific Linux Package repository</strong> rather than following stable, you assume the responsibility for a timely upgrade to a new stable release once your current release is no longer supported. We support releases for a significant time, but not forever, and at some point you have to move to a newer version to continue to receive security and stability improvements.</br>
+        If at all possible, we suggest to <strong>upgrade sooner rather than later</strong>. Doing a test on a copy of your production environment is a better way of ensuring the new version works for you than waiting and hoping all issues are found and fixed – that way, you lose out on many of the benefits of the new release, not only in terms of features and user interface enhancements but also when it comes to performance improvements and scalability.</p>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-10">
+        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Update Channel selection in Updater app" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a>
+    </div>
+</div>
