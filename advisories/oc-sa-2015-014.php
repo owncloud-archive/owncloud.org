@@ -21,7 +21,7 @@
             <li>ownCloud Server &lt; <strong>8.1.1</strong> (CVE-2015-6500)</li><li>ownCloud Server &lt; <strong>8.0.6</strong> (CVE-2015-6500)</li>
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The vulnerable vulnerable component has been patched and <a href="https://github.com/owncloud/core/issues/17906">will be replaced by a cron job in a future ownCloud release</a></p></p>
+        <p><p>The vulnerable component has been patched and <a href="https://github.com/owncloud/core/issues/17906">will be replaced by a cron job in a future ownCloud release</a></p></p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
