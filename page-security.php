@@ -7,7 +7,7 @@
 <div class="row">
 <div class="span12">
 <p><div class="alert alert-danger"><strong>Heads up!</strong> We appreciate every report, however, please notice that our team is very busy and therefore won't consider reports which we rate as "low" severity or invalid (e.g. DoS in Apache or "X-Powered-By" headers). So do us and yourself a favor: Don't report such things, we will not take them into consideration.</div></p>
-<p>If you've discovered a security issue with ownCloud, please read our responsible disclosure guidelines and contact <strong>security (at) owncloud (dot) com</strong>. Your report should include:
+<p>If you've discovered a security issue with ownCloud, please read our responsible disclosure guidelines and contact us at <a href="https://hackerone.com/owncloud"><strong>https://hackerone.com/owncloud</strong></a>. Your report should include:
 <ul>
 	<li>Product version</li>
 	<li>A vulnerability description</li>
@@ -50,8 +50,8 @@ ownCloud Server:
 </ul>
 ownCloud Desktop Client:
 <ul>
-	<li>1.7.x</li>
 	<li>1.8.x</li>
+	<li>2.0.x</li>
 </ul>
 <h3>Unsupported Product Versions</h3>
 ownCloud Server:
@@ -60,7 +60,7 @@ ownCloud Server:
 </ul>
 ownCloud Desktop Client:
 <ul>
-	<li>1.0.x to 1.6.x (We strongly suggest to upgrade to the latest release)</li>
+	<li>1.0.x to 1.7.x (We strongly suggest to upgrade to the latest release)</li>
 </ul>
 <h3>Third-party apps</h3>
 Vulnerabilities in third-party applications should also be reported to the security team. The security team is not responsible for the security of these apps, but will attempt to contact the 3rd party app maintainer and then take proper actions.
