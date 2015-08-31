@@ -2,11 +2,28 @@
 	<div class="col-sm-6 col-sm-offset-3">
 		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 		<h2 class="conf-location">August 28 - Sept 3 2015, Berlin</h2>
-		<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>
+		<!--<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>
-		<p>Find <a href="confinfo">practical information for visitors here</a>.<br/>
-		Not coming? We will <a href="https://owncloud.org/blog/follow-the-owncloud-contributor-conference-from-anywhere-with-our-live-stream/">have a live stream</a>!</p>
+		<p>Find <a href="confinfo">practical information for visitors here</a>.</p>
+	</div>
+</div>
+<div class="row conf-about">
+	<div class="col-sm-6">
+		<h2>Happening right now!</h2>
+		<p><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015_wee.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
+	</div>
+	<div class="col-sm-6">
+		<h2>Announcements</h2>
+		<p>The ownCloud Contributor Conference 2015 is ongoing!</p>
+		<p>During the keynotes on Saturday, we published some great news:
+                <ul>
+                    <li><a href="https://userdatamanifesto.org/" target="_blank">User Data Manifesto 2.0</a></li>
+                    <li><a href="https://hackerone.com/owncloud" target="_blank">Security Bug Bounties</a></li>
+                    <li><a href="/connect" target="_blank">ownCloud Proxy</a></li>
+                </ul>
+		Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-has-started-with-big-announcements/" target="_blank">blog about the announcements here</a>.</p>
+		<p>Follow what goes on <a href="https://twitter.com/hashtag/ownCloudConf?src=hash">via twitter</a> and other social media and on <a href="https://owncloud.org/news">our blog roll</a>. We published a overview of <a href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway" target="_blank">the event until now here</a>.</p>
 	</div>
 </div>
 <div class="row">
@@ -47,8 +64,7 @@
 <div class="row conf-info">
 	<div class="col-sm-6">
 		<h2>Register</h2>
-		<p>The ownCloud Contributor Conference will be entirely open and free. We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register/new" target="_blank">register</a> to help us plan better for the event. We already have over 250 registrations and while there's no official limit, please register soon so we can ensure enough food, drinks and room for everybody!
-		</p>
+		<p>The ownCloud Contributor Conference will be entirely open and free. We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register/new" target="_blank">register</a> to help us plan better for the event</p>
 		<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a>, <a href="http://www.meetup.com/owncloud-berlin/events/224095898/" target="_blank">Meetup.com</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>
 		<h2>Location</h2>
 		<p>Our conference will take place in Berlin at the <em>Technische Universität Berlin</em>, in the "<a href="https://www.math.tu-berlin.de/" target="_blank">Institut für Mathematik</a>" building, main entree at Strasse des 17. Juni 136, 10623 Berlin.</p>
@@ -81,7 +97,7 @@
 	</div>
 	<div class="col-xs-12 col-sm-4 col-md-3">
 		<a target="_blank" href="http://www.golem.de/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/golem.png" alt="Visit golem" /></a>
-	</div>
+        </div>
 	<div class="col-xs-12 col-sm-4 col-md-3">
 		<a target="_blank" href="http://linux-magazin.de"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="Visit Linux Magazin" /></a>
 	</div>
@@ -90,6 +106,23 @@
 	</div>
 </div>
 
+<div class="row conf-info">
+	<div class="col-md-12">
+		<h2>Coverage</h2>
+	</div>
+</div>
+
+<div class="row conf-info">
+        <div class="col-sm-6">Golem: <br />
+                <a href="http://www.golem.de/news/contributor-conference-owncloud-fuehrt-programm-fuer-bug-bounties-ein-1508-116016.html" target="_blank">Bug-Bounties</a>, <a href="www.golem.de/news/supernerds-angst-schueren-gegen-den-ueberwachungswahn-1508-116023.html" target="_blank">keynote by Angela</a>, <a href="http://www.golem.de/news/private-cloud-proxy-fuer-owncloud-soll-heimnutzung-erleichtern-1508-116014.html" target="_blank">ownCloud Proxy</a>.
+        </div>
+        <div class="col-sm-6">ZDNet: <br />
+                <a href="http://www.zdnet.com/article/user-data-manifesto-seeks-to-give-users-control-of-their-data/" target="_blank">User Data Manifesto 2.0</a>
+        </div>
+        <div class="col-sm-6">Heise: <br />
+                <a href="http://www.heise.de/security/meldung/Fuer-eine-Handvoll-Dollar-OwnCloud-zahlt-fuer-Schwachstellen-2794527.html" target="_blank">Bug-Bounties</a>
+        </div>
+</div>
 
 <div class="row conf-about">
 	<div class="col-sm-6">
