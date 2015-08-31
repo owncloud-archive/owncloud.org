@@ -20,11 +20,11 @@
 		<p>ownCloud Proxy is both an app inside ownCloud and a service. The ownCloud Proxy app is installed in ownCloud and configured in the ownCloud admin panel. From the ownCloud Proxy app, an admin can sign up for an ownCloud Proxy account with one of the supported providers. Once the account is confirmed, the ownCloud app initiates and maintains a secure connection to the ownCloud Proxy service. The service in turn provides a recognizable URL on the web that, when accessed via ownCloud clients, connects users back to their ownCloud server residing behind their router on a network at home or at work. Once the server is connected, simply download the desktop sync client from ownCloud.org, or get the ownCloud apps from the Apple App Store or Google Play, and get started.</p>
 	</div>
 </div>
-<div class="row">
+<!--<div class="row">
         <div class="col-md-12">
                 Learn more in the ownCloud <a href="<?php echo $DOCUMENTATION_ADMIN; ?>TBD">administrator documentation</a> and in the questions and answers section below.
         </div>
-</div>
+</div>-->
 
 
 <div class="row">
