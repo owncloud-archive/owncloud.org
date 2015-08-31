@@ -11,7 +11,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 <div class="wrap container pad-bottom">
 	<div class="row">
 		<div class="col-md-12 text-center">
-			<h2>Join the ownCloud Contributor Conference!</h2>
+			<h2>We rock the ownCloud Contributor Conference!</h2>
 		</div>
 	</div>
 	<div class="row pad-bottom">
@@ -21,7 +21,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 	</div>
 	<div class="row pad-bottom">
 		<div class="col-md-12 text-center">
-			  <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Learn more and register!</a>
+			  <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Learn more about the event and the announcements!</a>
 		</div>
 	</div>
 </div>
