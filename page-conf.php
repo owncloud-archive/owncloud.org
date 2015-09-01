@@ -113,14 +113,30 @@
 </div>
 
 <div class="row conf-info">
-        <div class="col-sm-6">Golem: <br />
+        <div class="col-sm-4">Golem: <br />
                 <a href="http://www.golem.de/news/contributor-conference-owncloud-fuehrt-programm-fuer-bug-bounties-ein-1508-116016.html" target="_blank">Bug-Bounties</a>, <a href="www.golem.de/news/supernerds-angst-schueren-gegen-den-ueberwachungswahn-1508-116023.html" target="_blank">keynote by Angela</a>, <a href="http://www.golem.de/news/private-cloud-proxy-fuer-owncloud-soll-heimnutzung-erleichtern-1508-116014.html" target="_blank">ownCloud Proxy</a>.
         </div>
-        <div class="col-sm-6">ZDNet: <br />
+        <div class="col-sm-4">ZDNet: <br />
                 <a href="http://www.zdnet.com/article/user-data-manifesto-seeks-to-give-users-control-of-their-data/" target="_blank">User Data Manifesto 2.0</a>
         </div>
-        <div class="col-sm-6">Heise: <br />
+        <div class="col-sm-4">Heise: <br />
                 <a href="http://www.heise.de/security/meldung/Fuer-eine-Handvoll-Dollar-OwnCloud-zahlt-fuer-Schwachstellen-2794527.html" target="_blank">Bug-Bounties</a>
+                <a href="http://www.heise.de/open/meldung/User-Data-Manifesto-Daten-gehoeren-in-die-Haende-der-Nutzer-2794687.html" target="_blank">User Data Manifesto</a>
+        </div>
+        <div class="col-sm-4">lwn.net: <br />
+                <a href="https://lwn.net/Articles/656247/" target="_blank">Conference overview/ownCloud Proxy</a>
+        </div>
+        <div class="col-sm-4">pro-linux.de: <br />
+                <a href="http://www.pro-linux.de/news/1/22691/user-data-manifesto-20-vorgestellt.html" target="_blank">User Data Manifesto</a>
+        </div>
+        <div class="col-sm-4">Netzpolitik: <br />
+                <a href="https://netzpolitik.org/2015/user-data-manifesto-2-0/" target="_blank">User Data Manifesto</a>
+        </div>
+        <div class="col-sm-4">Speicherguide.de: <br />
+                <a href="http://www.speicherguide.de/news/500-dollar-praemie-owncloud-praemiert-finden-von-schwachstellen-21406.aspx" target="_blank">Security Bug Bounties</a>
+        </div>
+        <div class="col-sm-4">itworld.com: <br />
+                <a href="http://www.itworld.com/article/2978278/cloud-computing/owncloud-announces-bug-bounty.html" target="_blank">Security Bug Bounties</a>
         </div>
 </div>
 
