@@ -4,34 +4,34 @@
 		<h2 class="conf-location">August 28 - Sept 3 2015, Berlin</h2>
 		<!--<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
-		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>
-		<p>Find <a href="confinfo">practical information for visitors here</a>.</p>
+<!--		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>-->
+		<!--<p>Find <a href="confinfo">practical information for visitors here</a>.</p>-->
 	</div>
 </div>
 <div class="row conf-about">
-	<div class="col-sm-6">
-		<h2>Happening right now!</h2>
-		<p><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015_wee.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
+	<div class="col-sm-6 no-underline">
+		<h2>We rocked #ownCloudConf 2015!</h2>
+		<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015_wee.jpg" style="width: 95%" alt="group photo" class="img-responsive" /></a>
 	</div>
 	<div class="col-sm-6">
+		<p>The ownCloud Contributor Conference 2015 is over and was awesome. We welcomed about 140 ownClouders at the TU Berlin for a week of writing code and sharing beer, knowledge and inspiration.</p>
 		<h2>Announcements</h2>
-		<p>The ownCloud Contributor Conference 2015 is ongoing!</p>
-		<p>During the keynotes on Saturday, we published some great news:
+		<p>During the keynote on Saturday we announced the following awesome news items:
                 <ul>
                     <li><a href="https://userdatamanifesto.org/" target="_blank">User Data Manifesto 2.0</a></li>
                     <li><a href="https://hackerone.com/owncloud" target="_blank">Security Bug Bounties</a></li>
                     <li><a href="/connect" target="_blank">ownCloud Proxy</a></li>
                 </ul>
 		Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-has-started-with-big-announcements/" target="_blank">blog about the announcements here</a>.</p>
-		<p>Follow what goes on <a href="https://twitter.com/hashtag/ownCloudConf?src=hash">via twitter</a> and other social media and on <a href="https://owncloud.org/news">our blog roll</a>. We published a overview of <a href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway" target="_blank">the event until now here</a>.</p>
+		<p>We published a overview of <a href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway" target="_blank">the event in this blog</a>.</p>
 	</div>
 </div>
-<div class="row">
+<!--<div class="row">
 	<div class="text-center videoWrapper">
 		<iframe width="95%" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y" frameborder="0" allowfullscreen></iframe>
 	</div>
-</div>
-<div class="row conf-info">
+</div>-->
+<!--<div class="row conf-info">
 	<div class="col-sm-6">
 		<i class="icon-code"></i>
 		<h2>Hackathon</br><small>August 28 - Sept 3</small></h2>
@@ -60,8 +60,8 @@
 		<p>This is a hands-on event. <strong>Bring your laptop!</strong></p>
 		
 	</div>
-</div>
-<div class="row conf-info">
+</div>-->
+<!--<div class="row conf-info">
 	<div class="col-sm-6">
 		<h2>Register</h2>
 		<p>The ownCloud Contributor Conference will be entirely open and free. We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register/new" target="_blank">register</a> to help us plan better for the event</p>
@@ -82,30 +82,7 @@
 		<h2>Code of conduct</h2>
 		<p>We want everybody to feel welcome at the event. Please be mindful of our <a href="https://owncloud.org/community/code-of-conduct/">code of conduct</a>. Also, please note that there will be video recording. The conference is an open space, please be sure that you are comfortable with that. Of course, you can always ask people not to take pictures or video of you.</p>
 	</div>
-</div>
-<div class="row conf-partners-title">
-	<div class="col-md-12">
-		<h2>Media Partners</h2>
-	</div>
-</div>
-<div class="row conf-partners">
-	<div class="col-xs-12 col-sm-4 col-md-3">
-		<a target="_blank" href="http://www.linuxvoice.com/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxVoice.png" alt="Visit the Linux Voice site" /></a>
-	</div>
-	<div class="col-xs-12 col-sm-4 col-md-3">
-		<a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="Visit lwn.net" /></a>
-	</div>
-	<div class="col-xs-12 col-sm-4 col-md-3">
-		<a target="_blank" href="http://www.golem.de/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/golem.png" alt="Visit golem" /></a>
-        </div>
-	<div class="col-xs-12 col-sm-4 col-md-3">
-		<a target="_blank" href="http://linux-magazin.de"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="Visit Linux Magazin" /></a>
-	</div>
-	<div class="col-xs-6 col-sm-4 col-md-3">
-		<a target="_blank" href="http://www.linuxveda.com/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/linuxveda.png" alt="Visit LinuxVeda" /></a>
-	</div>
-</div>
-
+</div>-->
 <div class="row conf-info">
 	<div class="col-md-12">
 		<h2>Coverage</h2>
@@ -140,6 +117,28 @@
         </div>
 </div>
 
+<div class="row conf-partners-title">
+	<div class="col-md-12">
+		<h2>Media Partners</h2>
+	</div>
+</div>
+<div class="row conf-partners">
+	<div class="col-xs-12 col-sm-4 col-md-3">
+		<a target="_blank" href="http://www.linuxvoice.com/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxVoice.png" alt="Visit the Linux Voice site" /></a>
+	</div>
+	<div class="col-xs-12 col-sm-4 col-md-3">
+		<a target="_blank" href="http://lwn.net"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/lwn.png" alt="Visit lwn.net" /></a>
+	</div>
+	<div class="col-xs-12 col-sm-4 col-md-3">
+		<a target="_blank" href="http://www.golem.de/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/golem.png" alt="Visit golem" /></a>
+        </div>
+	<div class="col-xs-12 col-sm-4 col-md-3">
+		<a target="_blank" href="http://linux-magazin.de"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="Visit Linux Magazin" /></a>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-3">
+		<a target="_blank" href="http://www.linuxveda.com/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/linuxveda.png" alt="Visit LinuxVeda" /></a>
+	</div>
+</div>
 <div class="row conf-about">
 	<div class="col-sm-6">
 		<h2>Last year</h2>
@@ -154,3 +153,4 @@
 		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="https://twitter.com/ownclouders" target="_blank">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders" target="_blank">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts" target="_blank">Google+</a>. Find some <a href="https://github.com/owncloud/promo/tree/master/Contributor%20Conference" target="_blank">promo materials here</a>.</p>
 	</div>
 </div>
+
