@@ -29,6 +29,10 @@ body {
 button a {color: #1d2d44}
 button a:hover {text-decoration: none; }
 
+.no-underline a {
+  border: 0px none transparent !important;
+}
+
 .banner img {
 	padding: 15px 0;
 }
