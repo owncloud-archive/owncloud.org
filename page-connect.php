@@ -4,7 +4,7 @@
 		<p>Access your files from any device, anywhere at any time, and collaborate with anyone – all in software completely within your control.</p>
 </div>
 <div class="row">
-	<div class="col-lg-4 col-md-5 text-center no-underline">
+	<div class="col-lg-4 col-md-5 no-underline">
                 <!--<iframe width="100%" height="360" src="https://www.youtube.com/embed/TBD?rel=0" frameborder="0" allowfullscreen></iframe>-->
 		<a href="<?php echo get_template_directory_uri(); ?>/assets/img/misc/oC-proxy.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/misc/oC-proxy_wee.png" class="img-responsive" alt="ownCloud Proxy" /></a>
 	</div>
