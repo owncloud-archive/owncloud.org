@@ -630,7 +630,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#838ca1', end
   width: 250px;
 }
 
-/** Get Started Page **/
+/** Get Started/install Page **/
 
 div#getapps h2{
   text-align: center;
@@ -642,6 +642,11 @@ div#getapps .row {
   margin-top: 30px;
   margin-bottom: 47px;
   text-align: center;
+}
+
+div .vmlist {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
 }
 
 div#getapps p {
@@ -673,6 +678,7 @@ div.numbadge.centre {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 body.install h3 {
 	font-weight: 600;
 }

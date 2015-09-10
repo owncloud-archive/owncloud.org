@@ -9,6 +9,8 @@ $VERSIONS_SERVER_MAJOR_DEV_DOCS = '8.2'; // Used in dev docs links
 $VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.0.1';
 $VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.0'; // For use in documentation link
 $VERSIONS_CLIENT_DESKTOP_TESTING = '';
+$VERSIONS_VM = '8.1.1-1-201509081909';
+$VM_UBUNTU_RELEASE = '14.04';
 
 /* DOCUMENTATION */
 $DOCUMENTATION_BASE = 'https://doc.owncloud.org';
@@ -63,6 +65,16 @@ $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://software.opensuse.org/download/pack
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
+
+// VM
+$DOWNLOAD_VM_BASE = 'http://download.owncloud.org/community/testing/vm/';
+
+$DOWNLOAD_VM_OVA = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.ova.zip';
+$DOWNLOAD_VM_QCOW2 = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.qcow2.zip';
+$DOWNLOAD_VM_RAW = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.raw.zip';
+$DOWNLOAD_VM_VHDX = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.vhdx.zip';
+$DOWNLOAD_VM_VMDK = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.vmdk.zip';
+$DOWNLOAD_VM_VMX = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.vmx.zip';
 
 // Mobile clients
 $DOWNLOAD_CLIENT_MOBILE_IOS = 'https://itunes.apple.com/us/app/owncloud/id543672169?ls=1&mt=8';

@@ -12,13 +12,13 @@
                           <li id="li-tab-archive" class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> Archive File<br><small>For server owners</small></a></li>
                           <li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li>
                           <li id="li-tab-packages"><a href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-linux"></i> Packages<br><small>For auto updates</small></a></li>
-                          <li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> VM Images<br><small>For cloud deployment</small></a></li>
+                          <li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> Appliances<br><small>For easy deployment</small></a></li>
                       </ul>
                   </div>
                   <br>
                   <div class="overlay-header row">
                     <p>Latest stable version:  <span class="label label-success"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a href="/changelog"><small>Changelog</small></a>)</br>
-                    <p>ownCloud Server supports Linux (like) operating systems, and is available via packages, sources, virtual images or a one file php installer.</p>
+                    <p>ownCloud Server supports Linux (like) operating systems, and is available via packages, sources, appliances or a one file php installer.</p>
                   </div>
                   <div  class="tab-content">
                       <div id="tab-archive" role="tabpanel" class="tab-pane active">
@@ -69,7 +69,7 @@
                     <div class="overlay-body row">
                         <div class="col-md-6">
                             <p>ownCloud provides ready-to-deploy <strong>packages</strong> for popular Linux distributions such as Debian, Ubuntu, Fedora, RedHat Enterprise Linux, CentOS and openSUSE.</p>
-                            <p>Clicking on “Continue” will forward you to the ownCloud community page at the <a target="_blank" href="http://build.opensuse.org/">openSUSE Build Service</a>, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there.</p>
+                            <p>Clicking on “Continue” will forward you to the ownCloud community page at the <a target="_blank" href="http://build.opensuse.org/">openSUSE Build Service</a>, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there. Here is the <a href="<?php echo get_template_directory_uri(); ?>/assets/files/obs-release-signing.gpg">key used to sign our OBS packages</a>.</p>
                             <p>The repositories allow you to stay on an up-to-date version of ownCloud using your distributions’ update mechanism, with packages maintained by the ownCloud community.</p>
                             <p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</br>
                             If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a> for moving to new ownCloud releases.</p>
@@ -79,7 +79,7 @@
 				      <div class="thumbnail">
 					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 				      </div>
-                            <p><strong>Security note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find the <a href="<?php echo $OWNCLOUD_GPG; ?>">public ownCloud GPG key here</a>. Here you can grab the <a href="<?php echo get_template_directory_uri(); ?>/assets/files/obs-release-signing.gpg">key used to sign our OBS packages</a>.</p>
+                            <p><strong>Security note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find the <a href="<?php echo $OWNCLOUD_GPG; ?>">public ownCloud GPG key here</a>.</p>
                             <p><small>ownCloud Server does <strong>not</strong> support installation on Microsoft Windows and support for Mac OS X as server is experimental.</small></p>
                         </div>
                       </div>
@@ -87,37 +87,39 @@
                   <div id="tab-cloud" role="tabpanel" class="tab-pane">
                     <div class="overlay-body row">
                         <div class="col-md-8">
-                            <p>Several third parties offer <strong>cloud images</strong> for ownCloud. These are not maintained by the ownCloud community itself.</p>
+			    <p>ownCloud provides an official appliance as the easiest way to get ownCloud up and running for non-technical users. It is built on Ubuntu Linux and fully set up and configured with a secure connection and the <a href="/connect">ownCloud Proxy app</a>.</p>
+			    <p>You can install <a href="https://www.virtualbox.org/">virtual box</a>, download our <a href="<?php echo $DOWNLOAD_VM_VMDK; ?>">VMDK</a> file and load it up. See our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/appliance_installation.html">documentation for more details</a>. Other formats: <a href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a>, <a href="<?php echo $DOWNLOAD_VM_QCOW2; ?>">QCOW2</a>, <a href="<?php echo $DOWNLOAD_VM_RAW; ?>">raw</a>, <a href="<?php echo $DOWNLOAD_VM_VHDX; ?>">VHDX</a>, <a href="<?php echo $DOWNLOAD_VM_VMDK; ?>">VMDK</a>, <a href="<?php echo $DOWNLOAD_VM_VMX; ?>">VMX</a></p>
+                            <p>Several third parties</strong> offer cloud images for ownCloud. These are not maintained by the ownCloud community itself.</p>
                             <div class="row">
-                              <div class="col-md-3">
+                              <div class="col-md-3 vmlist">
 			        <a target="_blank" style="margin: 0 14px 0 7px;" href="https://susestudio.com/a/TadMax/owncloud-in-a-box"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/susestudio.png"></img></a>
 			      </div>
-			      <div class="col-md-9">
-			        Offers live USB stick, liveCD and preload ISO images as well as images for VMware (ESX<em>i</em>), VirtualBox, IBM SmartCloud, XEN, Oracle VM and KVM-based hypervisors, Microsoft Hyper-V servers and OpenStack clouds.
+			      <div class="col-md-9 vmlist">
+			        ownCloud-in-a-box offers live USB stick, liveCD and preload ISO images as well a wide variety of VM images.
 			      </div>
 			    </div>
 			    <div class="row">
-                              <div class="col-md-3">
+                              <div class="col-md-3 vmlist">
                                 <a target="_blank" style="margin: 0 14px 0 7px;" href="https://bitnami.com/stack/owncloud"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/bitnami.png"></img></a>
                               </div>
-			      <div class="col-md-9">
-			    Offers direct deployment to Google Cloud, Amazon AWS and Microsoft Azure, local install, Docker images, VMware images and installers for Linux and Mac.
+			      <div class="col-md-9 vmlist">
+				Offers direct deployment to Google/Amazon/Microsoft clouds, Docker and VM images and installers.
 			      </div>
 			    </div>
 			    <div class="row">
-                              <div class="col-md-3">
+                              <div class="col-md-3 vmlist">
 			        <a target="_blank" style="margin: 0 14px 0 7px;" href="https://jujucharms.com/owncloud/"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/juju.png"></img></a>
 			      </div>
-			      <div class="col-md-9">
+			      <div class="col-md-9 vmlist">
 			        This charm installs Apache2, Apache-Mod-PHP5, and configures ownCloud with SQLite as a standalone server on an Ubuntu system.
 			      </div>
 			    </div>
 			    <div class="row">
-                              <div class="col-md-3">
+                              <div class="col-md-3 vmlist">
 			        <a target="_blank" style="margin: 0 14px 0 7px;" href="https://www.en0ch.se/owncloud_/pre-configured-owncloud-installaton/"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/en0ch.png"></img></a>
 			      </div>
-			      <div class="col-md-9">
-			        This pre-configured VM runs on Ubuntu 14.04 with Apache and MySQL, and is <a href="https://www.en0ch.se/machine-setup/" target="_blank">fully configured from start</a>. Updates are managed through a built in script, and could be setup as a cron job for automatic updates. 
+			      <div class="col-md-9 vmlist">
+			        <a href="https://www.en0ch.se/machine-setup/" target="_blank">Pre-configured Ubuntu 14.04 Vmwith Apache and MySQL</a>. Managers updates with script, can be automated.
 			      </div>
 			    </div>
                         </div>
