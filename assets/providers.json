@@ -1103,6 +1103,32 @@
             "organisations"
             ],
          "imagename":"huyhn.jpeg"
+      },
+      {
+         "title":"eqipe.ch",
+         "url":"http:\/\/eqipe.ch\/owncloud",
+         "flags":[
+            "ch"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"equipe.png"
+      },
+      {
+         "title":"wyffy.com",
+         "url":"http:\/\/wyffy.com",
+         "flags":[
+            "de"
+         ],
+         "freeplans":true,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"wyffy.png"
       }
       ]
 }
