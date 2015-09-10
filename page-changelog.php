@@ -3,7 +3,7 @@
 </div>
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 
-<h3>Version 8.1.2 <small>September 1 2015</small></h3>
+<h3>Version 8.1.3 <small>September 11 2015</small></h3>
 <ul>
 <li>App download fix</li>
 <li>File move fix</li>
@@ -52,7 +52,7 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.2.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.2.tar.bz2.asc">owncloud-8.1.2.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.2.zip.asc">owncloud-8.1.2.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">on the Open Build Service</a></br>
 
-<h3>Version 8.0.7 <small>September 1 2015</small></h3>
+<h3>Version 8.0.8 <small>September 11 2015</small></h3>
 Several fixes, including:
 <ul>
 <li>App download fix</li>
@@ -73,7 +73,7 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.7.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.7.tar.bz2.asc">owncloud-8.0.7.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.7.zip.asc">owncloud-8.0.7.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
 
-<h3>Release 7.0.9 <small>September 1 2015</small></h3>
+<h3>Release 7.0.10 <small>September 11 2015</small></h3>
 Several fixes, including:
 <ul>
 <li>App download fix</li>
