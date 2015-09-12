@@ -464,6 +464,10 @@ p.federation-id {
   z-index: -1;
 }
 
+div.timeline-year {
+    margin-left:20px;
+}
+
 div.timeline-block ul {
     margin-left:0px;
     list-style:none;
@@ -471,10 +475,6 @@ div.timeline-block ul {
 
 div.timeline-block li {
     padding-left:70px;
-}
-
-span.timeline-date {
-    font-weight: 200;
 }
 
 /*---- Version Pages ---- */
