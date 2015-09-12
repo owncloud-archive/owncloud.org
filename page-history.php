@@ -5,40 +5,64 @@
 
 /* The 'neutral circle' */
 li.neutral {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/neutral.svg") no-repeat 3px 13px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/neutral.svg") no-repeat 2px -1px;
+      height: auto;
+      margin-top: 3px;
     }
 li.inc {
       background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/inc.svg") no-repeat 2px -1px;
+      height: auto;
+      margin-top: 3px;
     }
 li.org {
       background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/org.svg") no-repeat 2px -1px;
+      height: auto;
+      margin-top: 3px;
     }
 li.release {
       background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/release.svg") no-repeat 2px -1px;
+      height: auto;
+      margin-top: 3px;
     }
 li.meeting {
       background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/meeting.svg") no-repeat 2px -1px;
+      height: auto;
+      margin-top: 3px;
     }
 li.press {
       background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/press.svg") no-repeat 2px -1px;
+      height: auto;
+      margin-top: 3px;
     }
 li.mobile {
       background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/mobile.svg") no-repeat 2px -1px;
+      height: auto;
+      margin-top: 3px;
     }
 li.desktop {
       background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/desktop.svg") no-repeat 2px -1px;
+      height: auto;
+      margin-top: 3px;
     }
 li.money {
       background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/money.svg") no-repeat 2px -1px;
+      height: auto;
+      margin-top: 3px;
     }
 li.github {
       background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/github.svg") no-repeat 2px -1px;
+      height: auto;
+      margin-top: 3px;
     }
 li.code {
       background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/code.svg") no-repeat 2px -1px;
-    }
+      height: auto;
+      margin-top: 3px;
+      }
 li.office {
       background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/office.svg") no-repeat 2px -1px;
+      height: auto;
+      margin-top: 3px;
     }
 </style>
 
