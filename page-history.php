@@ -2,67 +2,41 @@
 
 <!-- need to have this in-line css due to the php templating of the image -->
 <style>
-
-/* The 'neutral circle' */
 li.neutral {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/neutral.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/neutral.svg") no-repeat 3px 24px;
     }
 li.inc {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/inc.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/inc.svg") no-repeat 3px 24px;
     }
 li.org {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/org.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/org.svg") no-repeat 3px 24px;
     }
 li.release {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/release.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/release.svg") no-repeat 3px 24px;
     }
 li.meeting {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/meeting.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/meeting.svg") no-repeat 3px 24px;
     }
 li.press {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/press.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/press.svg") no-repeat 3px 24px;
     }
 li.mobile {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/mobile.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/mobile.svg") no-repeat 3px 24px;
     }
 li.desktop {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/desktop.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/desktop.svg") no-repeat 3px 24px;
     }
 li.money {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/money.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/money.svg") no-repeat 3px 24px;
     }
 li.github {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/github.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/github.svg") no-repeat 3px 24px;
     }
 li.code {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/code.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/code.svg") no-repeat 3px 24px;
       }
 li.office {
-      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/office.svg") no-repeat 2px -1px;
-      height: auto;
-      margin-top: 3px;
+      background:url("<?php echo get_template_directory_uri(); ?>/assets/img/history/office.svg") no-repeat 3px 24px;
     }
 </style>
 
@@ -125,14 +99,14 @@ Installation has minimal server requirements, doesn’t need special permissions
                     <ul>
                         <li class="desktop">
 			<h2> 2015 - Desktop Client 2.0 released</h2>
-			<p>introduces multi-Account support (<a href="https://owncloud.org/blog/owncloud-desktop-client-2-0-is-out-with-multi-account-support-and-more/">announcement</a>)</p>
+			<p>introduces multiaccount support (<a href="https://owncloud.org/blog/owncloud-desktop-client-2-0-is-out-with-multi-account-support-and-more/">announcement</a>)</p>
 			</li>
                     </ul>
 		</div>
 		<div class="timeline-content">
                     <ul>
                         <li class="inc">
-			<h2> 2015 - ownCloud introduces Security Bug Bounty program</h2>
+			<h2> 2015 - ownCloud, Inc. introduces Security Bug Bounty program</h2>
 			<p>(<a href="https://owncloud.com/introducing-the-owncloud-security-bug-bounty-program/">announcement</a>)</p>
 			</li>
                     </ul>
