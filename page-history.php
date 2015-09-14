@@ -497,8 +497,8 @@ Installation has minimal server requirements, doesn’t need special permissions
 		<div class="timeline-content">
                     <ul>
                         <li class="meeting">
-			<h2>November 2011 - Second Developer meeting</h2>
-			<p>9 participants got together in Zurich</p>
+			<h2>October 2011 - Second Developer meeting</h2>
+			<p>7 participants got together in Zurich, hosted by <a href="https://github.com/FreeMinded">github.com/FreeMinded</a></p>
 			</li>
                     </ul>
 		</div>
