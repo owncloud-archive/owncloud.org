@@ -57,6 +57,8 @@ div.office {
   margin-left: -2.5px;
 }
  
+
+ 
 .tldate {
   display: block;
   margin: 0 auto;
@@ -69,8 +71,10 @@ div.office {
 .new-timeline li {
   margin-bottom: 25px;
   position: relative;
-  clear: both;
+  height: 100px;
+/*  clear: both;*/
 }
+
 .new-timeline li::before, .new-timeline li::after {
     content: " ";
     display: table;
@@ -89,6 +93,11 @@ div.office {
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
+
+/** when left or right of an image, you need extra height... **/
+.tl-image-200 {
+  height: 200px !important;
 }
 
 /** panel arrows **/
@@ -161,7 +170,9 @@ div.office {
 }
  
 @media (max-width: 700px) {
-  .page-header h1 { font-size: 1.8em; }
+  .new-timeline li {
+  clear: both;
+  }
  
   ul.new-timeline:before {
     left: 40px;
@@ -206,7 +217,6 @@ div.office {
 
 </style>
 
-<div class="row">
 <ul class="new-timeline">
   <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2014.svg" alt="Picture"></div></li>
   <li class="new-timeline-inverted">
@@ -246,7 +256,7 @@ div.office {
       </div>
     </div>
   </li>
-  <li>
+  <li class="tl-image-200">
     <div class="tl-circ code"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -258,7 +268,7 @@ div.office {
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted">
+  <li class="tl-image-200">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -270,7 +280,7 @@ div.office {
       </div>
     </div>
   </li>
-  <li>
+  <li class="new-timeline-inverted">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -282,7 +292,7 @@ div.office {
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted">
+  <li>
     <div class="tl-circ inc"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -294,7 +304,7 @@ div.office {
       </div>
     </div>
   </li>
-  <li>
+  <li class="new-timeline-inverted">
     <div class="tl-circ press"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -307,4 +317,5 @@ div.office {
     </div>
   </li>
 </ul>
-</div>
+
+
