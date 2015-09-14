@@ -53,6 +53,9 @@ Installation has minimal server requirements, doesn’t need special permissions
 
 <section id="timeline">
  	<div class="timeline-block"> <!-- 2015 -->
+		<div class="timeline-year">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2015.svg" alt="Picture">
+		</div>
 <!--		<div class="timeline-content">
                     <ul>
                         <li class="github">
@@ -160,12 +163,12 @@ Installation has minimal server requirements, doesn’t need special permissions
 			</li>
                     </ul>
 		</div>
-		<div class="timeline-year">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2015.svg" alt="Picture">
-		</div>
 	</div>
 
 	<div class="timeline-block"> <!-- 2014 -->
+		<div class="timeline-year">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2014.svg" alt="Picture">
+		</div>
 		<div class="timeline-content">
                     <ul>
                         <li class="github">
@@ -264,13 +267,13 @@ Installation has minimal server requirements, doesn’t need special permissions
 			</li>
                     </ul>
 		</div>
-		<div class="timeline-year">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2014.svg" alt="Picture">
-		</div>
 	</div>
 
 
 	<div class="timeline-block"> <!-- 2013 -->
+		<div class="timeline-year">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2013.svg" alt="Picture">
+		</div>
 		<div class="timeline-content">
                     <ul>
                         <li class="github">
@@ -345,13 +348,13 @@ Installation has minimal server requirements, doesn’t need special permissions
 			</li>
                     </ul>
 		</div>
-		<div class="timeline-year">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2013.svg" alt="Picture">
-		</div>
 	</div>
 
 
 	<div class="timeline-block"> <!-- 2012 -->
+		<div class="timeline-year">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2012.svg" alt="Picture">
+		</div>
 		<div class="timeline-content">
                     <ul>
                         <li class="github">
@@ -466,13 +469,13 @@ Installation has minimal server requirements, doesn’t need special permissions
 			</li>
                     </ul>
 		</div>
-		<div class="timeline-year">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2012.svg" alt="Picture">
-		</div>
 	</div>
 
 
 	<div class="timeline-block"> <!-- 2011 -->
+		<div class="timeline-year">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2011.svg" alt="Picture">
+		</div>
 		<div class="timeline-content">
                     <ul>
                         <li class="github">
@@ -531,13 +534,13 @@ Installation has minimal server requirements, doesn’t need special permissions
 			</li>
                     </ul>
 		</div>
-		<div class="timeline-year">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2011.svg" alt="Picture">
-		</div>
 	</div>
 
 
 	<div class="timeline-block"> <!-- 2010 -->
+		<div class="timeline-year">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2010.svg" alt="Picture">
+		</div>
 		<div class="timeline-content">
                     <ul>
                         <li class="github">
@@ -595,9 +598,6 @@ Installation has minimal server requirements, doesn’t need special permissions
 			<p>At Camp KDE in San Diego by Frank Karlitschek (<a href="https://www.youtube.com/watch?v=5IdMWxtMMB8">video</a>)</p>
 			</li>
                     </ul>
-		</div>
-		<div class="timeline-year">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2010.svg" alt="Picture">
 		</div>
 	</div> 
 
