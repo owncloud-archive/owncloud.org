@@ -85,6 +85,7 @@ div.office {
   width: 46%;
   border: 1px solid #d4d4d4;
   padding: 20px;
+  background:  #fff;
   float: left;
   position: relative;
   -webkit-border-radius: 8px;
