@@ -98,7 +98,8 @@ Installation has minimal server requirements, doesn’t need special permissions
 		<div class="timeline-content">
                     <ul>
                         <li class="desktop">
-			<h2> 2015 - Desktop Client 2.0 released</h2>
+			<h2>August 2015 - Desktop Client 2.0 released</h2>
+			<!--</br><small class="text-muted"><i class="glyphicon glyphicon-time"></i> </small></h2>-->
 			<p>introduces multiaccount support (<a href="https://owncloud.org/blog/owncloud-desktop-client-2-0-is-out-with-multi-account-support-and-more/">announcement</a>)</p>
 			</li>
                     </ul>
@@ -106,7 +107,7 @@ Installation has minimal server requirements, doesn’t need special permissions
 		<div class="timeline-content">
                     <ul>
                         <li class="inc">
-			<h2> 2015 - ownCloud, Inc. introduces Security Bug Bounty program</h2>
+			<h2>August 2015 - ownCloud, Inc. introduces Security Bug Bounty program</h2>
 			<p>(<a href="https://owncloud.com/introducing-the-owncloud-security-bug-bounty-program/">announcement</a>)</p>
 			</li>
                     </ul>
@@ -364,7 +365,7 @@ Installation has minimal server requirements, doesn’t need special permissions
 		<div class="timeline-content">
                     <ul>
                         <li class="money">
-			<h2>November 2012 - wnCloud, Inc. runs second funding round</h2>
+			<h2>November 2012 - ownCloud, Inc. runs second funding round</h2>
 			<p>raising 2.5 million USD (<a href="https://owncloud.com/boston-business-journal-owncloud-announces-second-seed-round-with-general-catalyst/">coverage</a>)</p>
 			</li>
                     </ul>
@@ -397,7 +398,7 @@ Installation has minimal server requirements, doesn’t need special permissions
                     <ul>
                         <li class="meeting">
 			<h2>August 2012 - Fourth Developer Meeting</h2>
-			<p>20 participants (<a href="">HAVE NO BLOG</a>)</p>
+			<p>20 participants worked on ownCloud</p>
 			</li>
                     </ul>
 		</div>
@@ -492,25 +493,9 @@ Installation has minimal server requirements, doesn’t need special permissions
 		</div>
 		<div class="timeline-content">
                     <ul>
-                        <li class="money">
-			<h2>December 2011 - First ownCloud, Inc. funding round finished</h2>
-			<p>(<a href="http://www.bizjournals.com/boston/blog/mass-high-tech/2011/12/owncloud-showered-with-820k-in-first-funding.html">coverage</a>)</p>
-			</li>
-                    </ul>
-		</div>
-		<div class="timeline-content">
-                    <ul>
                         <li class="meeting">
-			<h2>??? 2011 - Second Developer meeting</h2>
-			<p>9 participants (<a href="">NO BLOG, NO DATE?!?!?</a>)</p>
-			</li>
-                    </ul>
-		</div>
-		<div class="timeline-content">
-                    <ul>
-                        <li class="inc">
-			<h2>November 2011 - ownCloud, Inc. founded</h2>
-			<p></p>
+			<h2>November 2011 - Second Developer meeting</h2>
+			<p>9 participants got together in Zurich</p>
 			</li>
                     </ul>
 		</div>
@@ -566,7 +551,7 @@ Installation has minimal server requirements, doesn’t need special permissions
 		<div class="timeline-content">
                     <ul>
                         <li class="press">
-			<h2>November 2010 - First press coverage</h2>
+			<h2>November 2010 - First major press coverage</h2>
 			<p><a href="https://lwn.net/Articles/394282/">lwn.net</a>, (<a href="http://digitizor.com/2010/06/25/open-source-alternative-to-dropbox-owncloud-1-0-released/">digitizor</a></p>
 			</li>
                     </ul>
