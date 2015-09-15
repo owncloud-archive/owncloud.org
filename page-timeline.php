@@ -101,6 +101,11 @@ div.office {
   height: 200px !important;
 }
 
+.tl-image-400 {
+  height: 400px !important;
+}
+
+
 /** panel arrows **/
 .new-timeline li .new-timeline-panel:before {
   position: absolute;
@@ -219,7 +224,10 @@ div.office {
 </style>
 
 <ul class="new-timeline">
-  <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2014.svg" alt="Picture"></div></li>
+
+<!-- 2015 -->
+  <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2015.svg" alt="Picture"></div></li>
+
   <li class="new-timeline-inverted">
     <div class="tl-circ desktop"></div>
     <div class="new-timeline-panel">
@@ -229,10 +237,11 @@ div.office {
       </div>
       <div class="tl-body">
         <p>introduces multiaccount support (<a href="https://owncloud.org/blog/owncloud-desktop-client-2-0-is-out-with-multi-account-support-and-more/">announcement</a>)</p>
-      </div>
+        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/client-2.0-overview.png" style="width: 100%" alt="Client with two accounts" class="img-responsive" /></a>
+     </div>
     </div>
   </li>
-  <li>
+  <li class="tl-image-200">
     <div class="tl-circ inc"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -244,7 +253,7 @@ div.office {
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted">
+  <li class="">
     <div class="tl-circ meeting"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -253,11 +262,11 @@ div.office {
       </div>
       <div class="tl-body">
         <p>Almost 140 participants (<a href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway/">overview blog</a>)</p>
-        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015_wee.jpg" style="width: 95%" alt="group photo" class="img-responsive" /></a>
+        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015_wee.jpg" style="width: 100%" alt="group photo" class="img-responsive" /></a>
       </div>
     </div>
   </li>
-  <li class="tl-image-200">
+  <li class="new-timeline-inverted tl-image-400">
     <div class="tl-circ code"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -266,7 +275,8 @@ div.office {
       </div>
       <div class="tl-body">
         <p>(<a href="https://owncloud.com/announcing-the-federated-cloud-sharing-api/">announcement</a>)</p>
-      </div>
+        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/misc/open-cloud-mesh.png" style="width: 100%" alt="Open Cloud Mesh" class="img-responsive" /></a>
+    </div>
     </div>
   </li>
   <li class="tl-image-200">
@@ -278,10 +288,11 @@ div.office {
       </div>
       <div class="tl-body">
         <p>introducing improved Documents, Release Channels, Encryption 2.0 (<a href="https://owncloud.org/blog/owncloud-8-1-raising-the-bar-on-security-and-performance/">announcement</a>)</p>
+        <iframe width="100%" height="240" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted">
+  <li class="new-timeline-inverted tl-image-200">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -290,10 +301,11 @@ div.office {
       </div>
       <div class="tl-body">
         <p>introducing Federated Cloud Sharing, improved search and favorites (<a href="https://owncloud.org/blog/faster-easier-file-sync-and-share-with-federated-self-hosted-owncloud-8-0/">announcement</a>)</p>
+        <iframe width="100%" height="240" src="https://www.youtube.com/embed/Dn_YJYFVrms?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </li>
-  <li>
+  <li class="tl-image-200" >
     <div class="tl-circ inc"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -305,7 +317,8 @@ div.office {
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted">
+
+  <li class="tl-image-400">
     <div class="tl-circ press"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -314,9 +327,179 @@ div.office {
       </div>
       <div class="tl-body">
         <p>(<a href="https://owncloud.org/blog/owncloud-at-fosdem-2015-and-scale13x/">events blogpost</a>)</p>
+        <iframe width="100%" height="240" src="https://www.youtube.com/embed/h5qX-HTHlEU?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </li>
+
+<!-- 2014  -->
+  <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2014.svg" alt="Picture"></div></li>
+  
+    <li class="new-timeline-inverted">
+    <div class="tl-circ github"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>End of 2014 statistics</h4>
+      </div>
+      <div class="tl-body">
+        <p>codebase grown to 2.2 million LOC</br>
+			average of 76 contributors/month
+			</p>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted">
+    <div class="tl-circ office"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>New office Nuremberg</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> November 2014</small></p>
+      </div>
+      <div class="tl-body">
+        <p></p>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted">
+    <div class="tl-circ mobile"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>November 2014 - iOS client open sourced</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> November 2014</small></p>
+      </div>
+      <div class="tl-body">
+        <p>(<a href="https://owncloud.com/thanks-community-users/">announcement</a>)</p>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted">
+    <div class="tl-circ inc"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>ownCloud 7 Enterprise Edition</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> November 2014</small></p>
+      </div>
+      <div class="tl-body">
+        <p>introduces Universal File Access (<a href="https://owncloud.com/taking-owncloud-beyond-file-sync-share/">announcement</a>)</p>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted">
+    <div class="tl-circ office"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>New office in Stuttgart</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2015</small></p>
+      </div>
+      <div class="tl-body">
+        <p></p>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted">
+    <div class="tl-circ office"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>opening of Berlin office</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2015</small></p>
+      </div>
+      <div class="tl-body">
+        <p></p>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted">
+    <div class="tl-circ meeting"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>First ownCloud Contributor Conference</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2015</small></p>
+      </div>
+      <div class="tl-body">
+        <p>100 participants (<a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/">conference report</a>)</p>
+        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014_wee.jpg" style="width: 95%" alt="group photo" class="img-responsive" /></a>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted">
+    <div class="tl-circ release"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>ownCloud 7 launched</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> July 2015</small></p>
+      </div>
+      <div class="tl-body">
+        <p>introducing server-to-server sharing and improved user management (<a href="http://owncloud.org/blog/owncloud-7-released-with-more-sharing-and-control/">announcement</a>)</p>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted">
+    <div class="tl-circ inc"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>April 2014 - ownCloud and Red Hat partner up</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> February 2015</small></p>
+      </div>
+      <div class="tl-body">
+        <p>(<a href="https://owncloud.com/wow-look-us-scale/">Red Hat scalability demonstration</a>)</p>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted">
+    <div class="tl-circ org"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>April 2014 - ownCloud gets Community Manager</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> February 2015</small></p>
+      </div>
+      <div class="tl-body">
+        <p>(<a href="https://owncloud.com/former-opensuse-community-manager-joins-owncloud/">announcement</a>)</p>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted">
+    <div class="tl-circ mobile"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>February 2014 - Mobile libraries released under liberal license</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> February 2015</small></p>
+      </div>
+      <div class="tl-body">
+        <p>(<a href="https://owncloud.com/libraries-free-public-shouldnt/">blog post</a>)</p>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted">
+    <div class="tl-circ press"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>February 2014 - ownCloud becoming big in Education</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> February 2015</small></p>
+      </div>
+      <div class="tl-body">
+        <p><a href="https://owncloud.com/swiss-universities-turn-owncloud-file-sync-share/">blog post</a>)</p>
+      </div>
+    </div>
+  </li>
+
+  <!-- 2013  -->
+  <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2013.svg" alt="Picture"></div></li>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </ul>
 
 
