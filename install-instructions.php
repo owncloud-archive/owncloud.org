@@ -119,7 +119,7 @@
 			        <a target="_blank" style="margin: 0 14px 0 7px;" href="https://www.en0ch.se/owncloud_/pre-configured-owncloud-installaton/"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/en0ch.png"></img></a>
 			      </div>
 			      <div class="col-md-9 vmlist">
-			        <a href="https://www.en0ch.se/machine-setup/" target="_blank">Pre-configured Ubuntu 14.04 Vmwith Apache and MySQL</a>. Managers updates with script, can be automated.
+			        <a href="https://www.en0ch.se/machine-setup/" target="_blank">Pre-configured Ubuntu 14.04 VM with Apache and MySQL</a>. Managers updates with script, can be automated.
 			      </div>
 			    </div>
                         </div>
