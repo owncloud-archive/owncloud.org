@@ -91,7 +91,7 @@
 
 <div class="row conf-info">
         <div class="col-sm-4">Golem: <br />
-                <a href="http://www.golem.de/news/contributor-conference-owncloud-fuehrt-programm-fuer-bug-bounties-ein-1508-116016.html" target="_blank">Bug-Bounties</a>, <a href="www.golem.de/news/supernerds-angst-schueren-gegen-den-ueberwachungswahn-1508-116023.html" target="_blank">keynote by Angela</a>, <a href="http://www.golem.de/news/private-cloud-proxy-fuer-owncloud-soll-heimnutzung-erleichtern-1508-116014.html" target="_blank">ownCloud Proxy</a>.
+                <a href="http://www.golem.de/news/contributor-conference-owncloud-fuehrt-programm-fuer-bug-bounties-ein-1508-116016.html" target="_blank">Bug-Bounties</a>, <a href="http://www.golem.de/news/supernerds-angst-schueren-gegen-den-ueberwachungswahn-1508-116023.html" target="_blank">keynote by Angela</a>, <a href="http://www.golem.de/news/private-cloud-proxy-fuer-owncloud-soll-heimnutzung-erleichtern-1508-116014.html" target="_blank">ownCloud Proxy</a>.
         </div>
         <div class="col-sm-4">ZDNet: <br />
                 <a href="http://www.zdnet.com/article/user-data-manifesto-seeks-to-give-users-control-of-their-data/" target="_blank">User Data Manifesto 2.0</a>

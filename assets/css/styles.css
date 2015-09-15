@@ -443,6 +443,42 @@ p.federation-id {
     
 }
 
+/*---- history page ---- */
+
+#timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 60px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+  z-index: -1;
+}
+
+div.timeline-year {
+    margin-left:17px;
+}
+
+div.timeline-block ul {
+    margin-left:0px;
+    list-style:none;
+}
+
+div.timeline-block li {
+    padding-left:70px;
+    min-height: 65px;
+    padding-top: 3px;
+}
+
 /*---- Version Pages ---- */
 h3.row-center-title {
 	font-weight: 100;
