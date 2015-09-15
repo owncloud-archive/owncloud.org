@@ -64,6 +64,16 @@ $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://software.opensuse.org/download/pack
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
 
+// VM
+$DOWNLOAD_VM_BASE = 'http://download.owncloud.org/community/testing/vm/';
+
+$DOWNLOAD_VM_OVA = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.ova.zip';
+$DOWNLOAD_VM_QCOW2 = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.qcow2.zip';
+$DOWNLOAD_VM_RAW = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.raw.zip';
+$DOWNLOAD_VM_VHDX = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.vhdx.zip';
+$DOWNLOAD_VM_VMDK = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.vmdk.zip';
+$DOWNLOAD_VM_VMX = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.vmx.zip';
+
 // Mobile clients
 $DOWNLOAD_CLIENT_MOBILE_IOS = 'https://itunes.apple.com/us/app/owncloud/id543672169?ls=1&mt=8';
 $DOWNLOAD_CLIENT_MOBILE_ANDROID = 'https://play.google.com/store/apps/details?id=com.owncloud.android';
