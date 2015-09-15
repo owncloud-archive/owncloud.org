@@ -1121,7 +1121,7 @@
          "title":"wyffy.com",
          "url":"http:\/\/wyffy.com",
          "flags":[
-            "de"
+            "de",
             "us"
          ],
          "freeplans":true,
@@ -1130,6 +1130,84 @@
             "organisations"
             ],
          "imagename":"wyffy.png"
+      },
+      {
+         "title":"host-on.de",
+         "url":"http:\/\/www.host-on.de\/owncloud.php",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers"
+            ],
+         "imagename":"host-on.png"
+      },
+      {
+         "title":"tripple8.net",
+         "url":"http:\/\/triple8.net\/services\/owncloud.cfm",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"triple8.jpg"
+      },
+      {
+         "title":"hosted-power.com",
+         "url":"http:\/\/www.hosted-power.com\/en\/owncloud",
+         "flags":[
+            "be",
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations"
+            ],
+         "imagename":"HostedPower4.png"
+      },
+      {
+         "title":"switchlayer.com",
+         "url":"http:\/\/www.switchlayer.com\/owncloud-servers",
+         "flags":[
+            "in",
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"switchlayer.png"
+      },
+      {
+         "title":"verkkotuki.fi",
+         "url":"http:\/\/www.verkkotuki.fi\/palvelut\/tiedostopalvelin-verkkolevy",
+         "flags":[
+            "fi"
+         ],
+         "freeplans":true,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"suomen-verkkotuki-oy-290-70.png"
+      },
+      {
+         "title":"hostingxtreme.com",
+         "url":"http:\/\/hostingxtreme.com\/owncloud-hosting",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"hxoc.png"
       }
       ]
 }
