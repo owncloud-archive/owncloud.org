@@ -5,20 +5,16 @@ get_template_part('templates/parts/title');
 $consultants = json_decode(file_get_contents(dirname(__FILE__).'/assets/consultants.json'))->consultants;
 
 $supportedConsultant = array();
-$HostingConsultants = array();
 $otherConsultants = array();
 
-// Sort supported consultants from non and hosting consultants
+// Sort supported consultants from unsupported consultants
 foreach($consultants as $consultant) {
 	if($consultant->supported) {
 		$supportedConsultants[] = $consultant;
-	} else {
-		$otherConsultants[] = $consultant;
 	}
-	if($consultant->hosting) {
-		$HostingConsultants[] = $consultant;
-	}
+	$otherConsultants[] = $consultant;
 }
+
 
 ?>
 <p>ownCloud consultants help organizations with deployment, maintenance and integration of ownCloud in their workflow. Find ownCloud consulting that fits your needs.</p>
@@ -27,17 +23,18 @@ foreach($consultants as $consultant) {
 	<h2>Certified consultants</h2>
 </div>
 <?php displayConsultants($supportedConsultants); ?>
-<div class="row col-xs-12">
-	<h2>With hosted offerings</h2>
-</div>
-<?php displayConsultants($HostingConsultants, true); ?>
+
 <div class="row col-xs-12">
 	<h2>Other consultants</h2>
 </div>
+<!-- <?php displayConsultants($supportedConsultants); ?>-->
 <?php displayConsultants($otherConsultants); ?>
+<!-- TODO: add code to sort consultants on property "github-score":"X" where X can be 0 and up. -->
+
 <?php
 
-function displayConsultants($consultants, $free=false) {
+function displayConsultants($consultants) {
+
 	$numConsultants = count($consultants);
 		echo '<div class="row">';
 		for($consultant=0; $consultant<$numConsultants; $consultant++) {
@@ -47,25 +44,28 @@ function displayConsultants($consultants, $free=false) {
 			} else {
 				$url = $consultants[$consultant]->url;
 			}
-			echo '<a href="' . $url . '" target="_blank" rel="noreferrer" title="' . $consultants[$consultant]->title . '"><div class="thumbnail">';
-			echo '<div class="bannerhead">';
+			echo '<div class="thumbnail"><div class="bannerhead">';
+			echo  $consultants[$consultant]->title . '<br \>';
 			foreach($consultants[$consultant]->flags as $flag) {
 				echo '<img class="flag" src="' . get_template_directory_uri() . '/assets/img/flags/' . $flag . '.gif"/>';
 			}
-			if($consultants[$consultant]->hosting) {
-				echo '<span class="text-primary freeplans">Hosted options available</span>';
-			}
+			echo '<a href="' . $url . '" target="_blank" rel="noreferrer" title="' . $consultants[$consultant]->title . '">';
 			echo '</div>';
 			echo '<img class="banner" src="' . get_template_directory_uri() . '/assets/img/consultants/' . $consultants[$consultant]->imagename . '"/>';
 
 			echo '</a><div class="bannerfoot">';
 			if(!empty($consultants[$consultant]->supports)) {
-				echo '<span>Ideal for organizations which are: </span>';
+				echo '<span>Ideal for organizations: </span>';
 				echo '<ul class="list-unstyled list-inline">';
 				foreach($consultants[$consultant]->supports as $supporting) {
 					echo '<li class="text-primary">' . $supporting . '</li>';
 				}
 				echo '</ul>';
+			}
+			if($consultants[$consultant]->hosting) {
+				echo '<span class="text-primary freeplans">Provides hosting</br></span>';
+			} else {
+			echo '<br/>';
 			}
 			echo '</div>';
 			echo '</div>';
@@ -76,5 +76,5 @@ function displayConsultants($consultants, $free=false) {
 }
 
 ?>
-<div class="alert alert-info">If you offer ownCloud Consulting, you can be <a href="/consultants/apply">listed on this page</a>. To find out more about becoming an enterprise consultant with a support contract from <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> please see <a target="_blank" href="https://owncloud.com/products/XXXXXXXXXXXXXX">their website</a>.</div>
+<div class="alert alert-info">If you offer ownCloud Consulting, you can be <a href="/consultants/apply">listed on this page</a>. To find out more about becoming an enterprise consultant with a support contract from <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> please see <a target="_blank" href="https://owncloud.com/partner/">the partner page on ownCloud.com</a>.</div>
 
