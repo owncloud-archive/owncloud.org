@@ -57,7 +57,6 @@ div.office {
   margin-left: -2.5px;
 }
  
-
  
 .tldate {
   display: block;
@@ -94,6 +93,7 @@ div.office {
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  z-index: 10;
 }
 
 /** when left or right of an image, you need extra height... **/
@@ -861,11 +861,11 @@ div.office {
     <div class="tl-circ meeting"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
-        <h4>First developer meeting</h4>
+        <h4>First developer meeting and release of ownCloud 1.2 with improved UI</h4>
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> April 2011</small></p>
       </div>
       <div class="tl-body">
-        <p>5 participants (<a href="https://community.kde.org/Sprints/ownCloud2011">planning page</a>)</p>
+        <p>5 participants. Read the <a href="https://dot.kde.org/2011/04/21/first-owncloud-sprint">meeting report here</a>.</p>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/firstmeetup.jpg" style="width: 80%" alt="first meetup" class="img-responsive" />
       </div>
     </div>
@@ -908,7 +908,7 @@ div.office {
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> November 2010</small></p>
       </div>
       <div class="tl-body">
-        <p><a href="https://lwn.net/Articles/394282/">lwn.net</a>, (<a href="http://digitizor.com/2010/06/25/open-source-alternative-to-dropbox-owncloud-1-0-released/">digitizor</a></p>
+        <p><a href="https://lwn.net/Articles/394282/">lwn.net</a>, <a href="http://digitizor.com/2010/06/25/open-source-alternative-to-dropbox-owncloud-1-0-released/">digitizor</a></p>
       </div>
     </div>
   </li>
@@ -920,8 +920,9 @@ div.office {
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> November 2010</small></p>
       </div>
       <div class="tl-body">
-        <p>introducing user management and built in text viewer (<a href="http://karlitschek.de/2010/11/owncloud-1-1-released/">announcement</a>)</p>
+        <p>introducing user management and built in text viewer (<a href="http://karlitschek.de/2010/11/owncloud-1-1-released/">announcement</a>).</p>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/ownCloud-1.1.png" style="width: 100%" alt="ownCloud 1.1" class="img-responsive" />
+        <p>(ownCloud 1.2, we have no screenshot of 1.1)</p>
       </div>
     </div>
   </li>
