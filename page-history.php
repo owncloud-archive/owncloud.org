@@ -188,7 +188,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="new-timeline-inverted tl-image-400">
     <div class="tl-circ mobile"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
