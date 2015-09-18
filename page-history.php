@@ -176,7 +176,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="">
+  <li class="tl-image-200">
     <div class="tl-circ office"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -184,11 +184,11 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> November 2014</small></p>
       </div>
       <div class="tl-body">
-        <p></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Nuremberg_office.jpg" style="width: 100%" alt="Office in the making" class="img-responsive" /></a>
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="new-timeline-inverted tl-image-400">
     <div class="tl-circ mobile"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -213,7 +213,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="">
+  <li class="tl-image-200">
     <div class="tl-circ office"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -221,11 +221,11 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2015</small></p>
       </div>
       <div class="tl-body">
-        <p></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Stuttgart_office.jpg" style="width: 100%" alt="Work-in-progress" class="img-responsive" /></a>
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted">
+  <li class="new-timeline-inverted tl-image-400">
     <div class="tl-circ office"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -233,7 +233,7 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2015</small></p>
       </div>
       <div class="tl-body">
-        <p></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Berlin_office.jpg" style="width: 100%" alt="Berlin office" class="img-responsive" /></a>
       </div>
     </div>
   </li>
@@ -366,7 +366,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted">
+  <li class="new-timeline-inverted tl-image-200">
     <div class="tl-circ office"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -374,11 +374,11 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> September 2013</small></p>
       </div>
       <div class="tl-body">
-        <p></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Lexington_office.jpg" style="width: 100%" alt="Painting the tables" class="img-responsive" /></a>
       </div>
     </div>
   </li>
-  <li class="">
+  <li class="tl-image-400">
     <div class="tl-circ meeting"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -504,7 +504,7 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> October 2012</small></p>
       </div>
       <div class="tl-body">
-        <p>Read the <a href="http://karlitschek.de/2012/09/worldwide-owncloud-developer-meeting-in-october/">announcement blog</a> and the <a href="http://blog.gapinthecloud.com/2012/11/08/great-lakes-owncloud-developer-meetup/">report from the US meetup</a> with four participants. There were over a dozen aat the meetup in Europe.</p>
+        <p>Read the <a href="http://karlitschek.de/2012/09/worldwide-owncloud-developer-meeting-in-october/">announcement blog</a> and the <a href="http://blog.gapinthecloud.com/2012/11/08/great-lakes-owncloud-developer-meetup/">report from the US meetup</a> with four participants. There were over a dozen participants at the meetup in Europe.</p>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/double-meetup.jpg" style="width: 100%" alt="US meetup" class="img-responsive" />
       </div>
     </div>
@@ -701,20 +701,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="">
-    <div class="tl-circ meeting"></div>
-    <div class="new-timeline-panel">
-      <div class="tl-heading">
-        <h4>First developer meeting</h4>
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> April 2011</small></p>
-      </div>
-      <div class="tl-body">
-        <p>5 participants. Work on ownCloud 2.0 started, building a framework for apps. Read the <a href="https://dot.kde.org/2011/04/21/first-owncloud-sprint">meeting report here</a>.</p>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/firstmeetup.jpg" style="width: 80%" alt="first meetup" class="img-responsive" />
-      </div>
-    </div>
-  </li>
-  <li class="new-timeline-inverted tl-image-400">
+  <li class="tl-image-200">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -727,7 +714,20 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="tl-image-200">
+  <li class="new-timeline-inverted tl-image-200">
+    <div class="tl-circ meeting"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>First developer meeting</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> April 2011</small></p>
+      </div>
+      <div class="tl-body">
+        <p>5 participants. Work on ownCloud 2.0 started, building a framework for apps. Read the <a href="https://dot.kde.org/2011/04/21/first-owncloud-sprint">meeting report here</a>.</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/firstmeetup.jpg" style="width: 80%" alt="first meetup" class="img-responsive" />
+      </div>
+    </div>
+  </li>
+  <li class="tl-image-400">
     <div class="tl-circ press"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
