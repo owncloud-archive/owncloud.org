@@ -80,4 +80,5 @@ $DOWNLOAD_VM_VMX = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.
 $DOWNLOAD_CLIENT_MOBILE_IOS = 'https://itunes.apple.com/us/app/owncloud/id543672169?ls=1&mt=8';
 $DOWNLOAD_CLIENT_MOBILE_ANDROID = 'https://play.google.com/store/apps/details?id=com.owncloud.android';
 $DOWNLOAD_CLIENT_MOBILE_BLACKBERRY = 'https://appworld.blackberry.com/webstore/content/59955931/';
+$DOWNLOAD_CLIENT_MOBILE_AMAZON = 'https://www.amazon.com/ownCloud-Inc/dp/B00944PQMK';
 ?>
