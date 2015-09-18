@@ -11,6 +11,11 @@
             "small",
             "medium"
          ],
+        "specializes":[
+            "mobile",
+            "app development",
+            "branding"
+         ],
          "imagename":"b1-systems.png",
          "supported":true,
          "github-accounts":[
@@ -29,7 +34,10 @@
          "supports":[
             "medium"
          ],
-         "imagename":"b1-systems.png",
+         "specializes":[
+            "app development",
+            "branding"
+         ],         "imagename":"b1-systems.png",
          "supported":true,
          "github-accounts":[
          "JohnOliver",
@@ -47,6 +55,9 @@
          "supports":[
             "medium",
             "large"
+         ],
+         "specializes":[
+            "app development"
          ],
          "imagename":"b1-systems.png",
          "supported":true,
@@ -66,6 +77,9 @@
          "supports":[
             "small"
          ],
+         "specializes":[
+            "app development"
+         ],
          "imagename":"b1-systems.png",
          "supported":true,
          "github-accounts":[
@@ -83,7 +97,9 @@
          "supports":[
             "small"
          ],
-         "imagename":"b1-systems.png",
+         "specializes":[
+            "branding"
+         ],         "imagename":"b1-systems.png",
          "supported":false,
          "github-accounts":[
          "JohnOliver",
@@ -101,6 +117,11 @@
          "supports":[
             "medium",
             "large"
+         ],
+         "specializes":[
+            "mobile",
+            "app development",
+            "branding"
          ],
          "imagename":"b1-systems.png",
          "supported":false,
@@ -138,7 +159,9 @@
             "small",
             "medium"
          ],
-         "imagename":"b1-systems.png",
+         "specializes":[
+            "branding"
+         ],         "imagename":"b1-systems.png",
          "supported":false,
          "github-accounts":[
          "JohnOliver",

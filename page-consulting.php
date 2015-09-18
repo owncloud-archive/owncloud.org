@@ -20,7 +20,7 @@ foreach($consultants as $consultant) {
 <p>ownCloud consultants help organizations with deployment, maintenance and integration of ownCloud in their workflow. Find ownCloud consulting that fits your needs.</p>
 
 <div class="row col-xs-12">
-	<h2>Certified consultants</h2>
+	<h2>Partners</h2>
 </div>
 <?php displayConsultants($supportedConsultants); ?>
 
@@ -59,6 +59,14 @@ function displayConsultants($consultants) {
 				echo '<ul class="list-unstyled list-inline">';
 				foreach($consultants[$consultant]->supports as $supporting) {
 					echo '<li class="text-primary">' . $supporting . '</li>';
+				}
+				echo '</ul>';
+			}
+			if(!empty($consultants[$consultant]->specializes)) {
+				echo '<span>Specializations: </span>';
+				echo '<ul class="list-unstyled list-inline">';
+				foreach($consultants[$consultant]->specializes as $specialization) {
+					echo '<li class="text-primary">' . $specialization . '</li>';
 				}
 				echo '</ul>';
 			}
