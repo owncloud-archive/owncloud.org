@@ -701,20 +701,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="">
-    <div class="tl-circ meeting"></div>
-    <div class="new-timeline-panel">
-      <div class="tl-heading">
-        <h4>First developer meeting</h4>
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> April 2011</small></p>
-      </div>
-      <div class="tl-body">
-        <p>5 participants. Work on ownCloud 2.0 started, building a framework for apps. Read the <a href="https://dot.kde.org/2011/04/21/first-owncloud-sprint">meeting report here</a>.</p>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/firstmeetup.jpg" style="width: 80%" alt="first meetup" class="img-responsive" />
-      </div>
-    </div>
-  </li>
-  <li class="new-timeline-inverted tl-image-400">
+  <li class="tl-image-200">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -727,7 +714,20 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="tl-image-200">
+  <li class="new-timeline-inverted tl-image-200">
+    <div class="tl-circ meeting"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>First developer meeting</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> April 2011</small></p>
+      </div>
+      <div class="tl-body">
+        <p>5 participants. Work on ownCloud 2.0 started, building a framework for apps. Read the <a href="https://dot.kde.org/2011/04/21/first-owncloud-sprint">meeting report here</a>.</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/firstmeetup.jpg" style="width: 80%" alt="first meetup" class="img-responsive" />
+      </div>
+    </div>
+  </li>
+  <li class="tl-image-400">
     <div class="tl-circ press"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
