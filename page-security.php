@@ -43,24 +43,22 @@ Usually, the following types of bugs are out of scope from our security program:
 <h3>Supported Product Versions</h3>
 ownCloud Server:
 <ul>
-	<li>6.0.x</li>
 	<li>7.0.x</li>
 	<li>8.0.x</li>
   <li>8.1.x</li>
 </ul>
 ownCloud Desktop Client:
 <ul>
-	<li>1.8.x</li>
 	<li>2.0.x</li>
 </ul>
 <h3>Unsupported Product Versions</h3>
 ownCloud Server:
 <ul>
-	<li>1.x to 5.x (We strongly suggest to upgrade to the latest release)</li>
+	<li>1.x to 6.x (We strongly suggest to upgrade to the latest release)</li>
 </ul>
 ownCloud Desktop Client:
 <ul>
-	<li>1.0.x to 1.7.x (We strongly suggest to upgrade to the latest release)</li>
+	<li>1.0.x to 1.8.x (We strongly suggest to upgrade to the latest release)</li>
 </ul>
 <h3>Third-party apps</h3>
 Vulnerabilities in third-party applications should also be reported to the security team. The security team is not responsible for the security of these apps, but will attempt to contact the 3rd party app maintainer and then take proper actions.
