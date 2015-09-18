@@ -41,7 +41,6 @@ div.office {
 </style>
 
 
-
 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/owncloud-square-logo.png" alt="" title="owncloud-square-logo" width="150" height="150" class="alignleft thumbnail size-thumbnail wp-image-3421" />
 <p>ownCloud gives you universal access to your files through a web interface or WebDAV. It also provides a platform to easily view & sync your contacts, calendars and bookmarks across all your devices and enables basic editing right on the web.
 Installation has minimal server requirements, doesn’t need special permissions and is quick. ownCloud Server is extendable via a simple but powerful API for applications and plugins.</p>
@@ -493,23 +492,37 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p>introducing external storage, syncing contacts/calendar, presentation and video players (<a href="https://owncloud.com/another-great-community-effort-meet-owncloud-4-5/">announcement</a>)</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/oC4.5.png" style="width: 100%" alt="ownCloud 4.5 in action" class="img-responsive" />
       </div>
     </div>
   </li>
-  <li class="tl-image-200">
-    <div class="tl-circ mobile"></div>
+  <li class="tl-image-400">
+    <div class="tl-circ meeting"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
-        <h4>ownCloud Android and iOS apps launched</h4>
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2012</small></p>
+        <h4>Double EU/US sprint</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> October 2012</small></p>
       </div>
       <div class="tl-body">
-        <p><a href="https://owncloud.com/owncloud-apps-now-available-for-android-and-ios/">announcement</a></p>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/mobile-apps.png" style="width: 60%" alt="mobile apps" class="img-responsive" />
+        <p>Read the <a href="http://karlitschek.de/2012/09/worldwide-owncloud-developer-meeting-in-october/">announcement blog</a> and the <a href="http://blog.gapinthecloud.com/2012/11/08/great-lakes-owncloud-developer-meetup/">report from the US meetup</a> with four participants. There were over a dozen aat the meetup in Europe.</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/double-meetup.jpg" style="width: 100%" alt="US meetup" class="img-responsive" />
       </div>
     </div>
   </li>
   <li class="new-timeline-inverted tl-image-200">
+    <div class="tl-circ mobile"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>ownCloud iOS app launched, Android app rebooted</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2012</small></p>
+      </div>
+      <div class="tl-body">
+        <p>Read the <a href="https://owncloud.com/owncloud-apps-now-available-for-android-and-ios/">announcement blog</a></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/mobile-apps.png" style="width: 60%" alt="mobile apps" class="img-responsive" />
+      </div>
+    </div>
+  </li>
+  <li class="tl-image-200">
     <div class="tl-circ meeting"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -517,11 +530,11 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2012</small></p>
       </div>
       <div class="tl-body">
-        <p>20 participants worked on ownCloud</p>
+        <p>18 participants worked on ownCloud, as mentioned <a href="karlitschek.de/2012/09/worldwide-owncloud-developer-meeting-in-october/and">in this blog post</a>.</p>
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="">
     <div class="tl-circ code"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -533,7 +546,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="">
+  <li class="new-timeline-inverted">
     <div class="tl-circ press"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -546,7 +559,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="tl-image-200">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -555,10 +568,11 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p>introducing file encryption and versioning, LDAP and more (<a href="http://karlitschek.de/2012/05/owncloud-4-released/">announcement</a>)</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/oc4-versioning.png" style="width: 100%" alt="Versioning in action" class="img-responsive" />
       </div>
     </div>
   </li>
-  <li class="">
+  <li class="new-timeline-inverted tl-image-200">
     <div class="tl-circ desktop"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -571,19 +585,20 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="tl-image-200">
     <div class="tl-circ meeting"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
         <h4>Third developer meeting</h4>
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> April 2012</small></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Third-meetup.jpg" style="width: 100%" alt="Meetup picture" class="img-responsive" />
       </div>
       <div class="tl-body">
         <p>19 participants (<a href="http://karlitschek.de/2012/04/what-a-weekend/">blog</a>)</p>
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted">
+  <li class="new-timeline-inverted tl-image-200">
     <div class="tl-circ inc"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -595,7 +610,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="">
+  <li class="new-timeline-inverted">
     <div class="tl-circ inc"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -607,7 +622,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="tl-image-200">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -690,16 +705,29 @@ Installation has minimal server requirements, doesn’t need special permissions
     <div class="tl-circ meeting"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
-        <h4>First developer meeting and release of ownCloud 1.2 with improved UI</h4>
+        <h4>First developer meeting</h4>
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> April 2011</small></p>
       </div>
       <div class="tl-body">
-        <p>5 participants. Read the <a href="https://dot.kde.org/2011/04/21/first-owncloud-sprint">meeting report here</a>.</p>
+        <p>5 participants. Work on ownCloud 2.0 started, building a framework for apps. Read the <a href="https://dot.kde.org/2011/04/21/first-owncloud-sprint">meeting report here</a>.</p>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/firstmeetup.jpg" style="width: 80%" alt="first meetup" class="img-responsive" />
       </div>
     </div>
   </li>
   <li class="new-timeline-inverted tl-image-400">
+    <div class="tl-circ release"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>ownCloud 1.2 launched</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> April 2011</small></p>
+      </div>
+      <div class="tl-body">
+        <p>introducing much improved UI and many bugfixes (<a href="https://dot.kde.org/2011/04/21/first-owncloud-sprint">announcement</a>).</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/ownCloud-1.1.png" style="width: 100%" alt="ownCloud 1.1" class="img-responsive" />
+      </div>
+    </div>
+  </li>
+  <li class="tl-image-200">
     <div class="tl-circ press"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -750,8 +778,6 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p>introducing user management and built in text viewer (<a href="http://karlitschek.de/2010/11/owncloud-1-1-released/">announcement</a>).</p>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/ownCloud-1.1.png" style="width: 100%" alt="ownCloud 1.1" class="img-responsive" />
-        <p>(ownCloud 1.2, we have no screenshot of 1.1)</p>
       </div>
     </div>
   </li>
@@ -764,10 +790,11 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p><a href="http://blog.cornelius-schumacher.de/2010/07/owncloud-in-box.html">blog by Cornelius</a></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/owncloud-in-a-box.png" style="width: 100%" alt="ownCloud  in a box site" class="img-responsive" />
       </div>
     </div>
   </li>
-  <li class="">
+  <li class="tl-image-400">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -780,7 +807,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="new-timeline-inverted">
     <div class="tl-circ code"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -792,7 +819,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="tl-image-200">
     <div class="tl-circ org"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
