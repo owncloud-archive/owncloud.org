@@ -171,6 +171,7 @@ div.office {
       <div class="tl-heading">
         <h4>New office Nuremberg</h4>
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> November 2014</small></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Nuremberg_office.jpg" style="width: 100%" alt="Office in the making" class="img-responsive" /></a>
       </div>
       <div class="tl-body">
         <p></p>
@@ -208,6 +209,7 @@ div.office {
       <div class="tl-heading">
         <h4>New office in Stuttgart</h4>
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2015</small></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Stuttgart_office.jpg" style="width: 100%" alt="Work-in-progress" class="img-responsive" /></a>
       </div>
       <div class="tl-body">
         <p></p>
@@ -220,6 +222,7 @@ div.office {
       <div class="tl-heading">
         <h4>opening of Berlin office</h4>
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2015</small></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Berlin_office.jpg" style="width: 100%" alt="Berlin office" class="img-responsive" /></a>
       </div>
       <div class="tl-body">
         <p></p>
@@ -361,6 +364,7 @@ div.office {
       <div class="tl-heading">
         <h4>Opening of official Lexington office</h4>
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> September 2013</small></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Lexington_office.jpg" style="width: 100%" alt="Painting the tables" class="img-responsive" /></a>
       </div>
       <div class="tl-body">
         <p></p>
