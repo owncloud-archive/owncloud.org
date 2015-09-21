@@ -89,7 +89,7 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2015</small></p>
       </div>
       <div class="tl-body">
-        <p>Almost 140 participants (<a href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway/">overview blog</a></p>
+        <p>Almost 140 participants (<a href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway/">overview blog</a>)</p>
         <a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015_wee.jpg" style="width: 100%" alt="group photo" class="img-responsive" /></a>
       </div>
     </div>
@@ -218,7 +218,7 @@ Installation has minimal server requirements, doesn’t need special permissions
     <div class="new-timeline-panel">
       <div class="tl-heading">
         <h4>New office in Stuttgart</h4>
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2015</small></p>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2014</small></p>
       </div>
       <div class="tl-body">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Stuttgart_office.jpg" style="width: 100%" alt="Work-in-progress" class="img-responsive" /></a>
@@ -230,7 +230,7 @@ Installation has minimal server requirements, doesn’t need special permissions
     <div class="new-timeline-panel">
       <div class="tl-heading">
         <h4>opening of Berlin office</h4>
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2015</small></p>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2014</small></p>
       </div>
       <div class="tl-body">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Berlin_office.jpg" style="width: 100%" alt="Berlin office" class="img-responsive" /></a>
@@ -242,7 +242,7 @@ Installation has minimal server requirements, doesn’t need special permissions
     <div class="new-timeline-panel">
       <div class="tl-heading">
         <h4>First ownCloud Contributor Conference</h4>
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2015</small></p>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2014</small></p>
       </div>
       <div class="tl-body">
         <p>100 participants (<a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/">conference report</a>)</p>
@@ -255,7 +255,7 @@ Installation has minimal server requirements, doesn’t need special permissions
     <div class="new-timeline-panel">
       <div class="tl-heading">
         <h4>ownCloud 7 launched</h4>
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> July 2015</small></p>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> July 2014</small></p>
       </div>
       <div class="tl-body">
         <p>introducing server-to-server sharing and improved user management (<a href="http://owncloud.org/blog/owncloud-7-released-with-more-sharing-and-control/">announcement</a>)</p>
@@ -268,7 +268,7 @@ Installation has minimal server requirements, doesn’t need special permissions
     <div class="new-timeline-panel">
       <div class="tl-heading">
         <h4>Stuttgart Meetup</h4>
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> May 2015</small></p>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> May 2014</small></p>
       </div>
       <div class="tl-body">
         <p>Meetup at the office in Stuttgart</p>
@@ -362,7 +362,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p><a href="http://karlitschek.de/2013/10/welcome-owncloud-documents/">announcement</a></p>
-        <iframe width="100%" height="240" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="240" src="https://www.youtube.com/embed/xsqSLeppxm0?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </li>
@@ -530,7 +530,7 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2012</small></p>
       </div>
       <div class="tl-body">
-        <p>18 participants worked on ownCloud, as mentioned <a href="karlitschek.de/2012/09/worldwide-owncloud-developer-meeting-in-october/and">in this blog post</a>.</p>
+        <p>18 participants worked on ownCloud, as mentioned <a href="http://karlitschek.de/2012/09/worldwide-owncloud-developer-meeting-in-october/and">in this blog post</a>.</p>
       </div>
     </div>
   </li>
