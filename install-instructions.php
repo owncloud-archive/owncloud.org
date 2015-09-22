@@ -38,7 +38,8 @@
 				      <div class="thumbnail">
 					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 				      </div>
-                                      <p><strong>Note:</strong></br> if you run ownCloud on Linux, <a id="packages" href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab">using packages</a> is recommended.</p>
+                                      <p><strong>Note:</strong></br> If you run ownCloud on Linux, <a id="packages" href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab">using packages</a> is recommended.</p>
+                                      <p>Looking for <a href="/changelog">older versions or major releases</a>?</p>
                                       <p><small>ownCloud Server does <strong>not</strong> support installation on Microsoft Windows and support for Mac OS X as server is experimental.</small></p>
                                 </div>
                             </div>
@@ -80,6 +81,7 @@
 					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 				      </div>
                             <p><strong>Security note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find the <a href="<?php echo $OWNCLOUD_GPG; ?>">public ownCloud GPG key here</a>.</p>
+                            <p>Looking for repositories of <a href="/changelog">previous major releases</a>?</p>
                             <p><small>ownCloud Server does <strong>not</strong> support installation on Microsoft Windows and support for Mac OS X as server is experimental.</small></p>
                         </div>
                       </div>
