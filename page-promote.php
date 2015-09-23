@@ -12,7 +12,7 @@
 	</div>
 </div>
 <div>
-	<h2>Discuss ownCloud with others</h2>
+	 <h2>Discuss ownCloud with others</h2>
 </div>
 <p>ownCloud users and enthusiasts can discuss and share ownCloud experiences on our Forums, IRC and mailing lists.</p>
       <ul>
