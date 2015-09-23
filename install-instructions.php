@@ -129,8 +129,7 @@
 				      <div class="thumbnail">
 					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 				      </div>
-                            <p><strong>Security note:</strong></br> These images usually do not offer automatic update technology. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
-                            <p><small>ownCloud Server does <strong>not</strong> support installation on Microsoft Windows and support for Mac OS X as server is experimental.</small></p>
+                            <p><strong>Security note:</strong></br> These images do not all offer automatic update technology. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
                         </div>
                       </div>
                   </div>
