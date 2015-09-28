@@ -29,7 +29,7 @@
 
 		<h3>Tell everybody!</h3>
 		<p>We use <a href="http://meetup.com">meetup.com</a> to track and promote most of our events. We have an account where we can set up Meetups, so if you're up for
-			organizing one, let us know and we get you going. Here is an <a href="http://www.meetup.com/owncloud-berlin/">example page</a>.</p>
+			organizing one, let us know and we can get you going. Here is an <a href="http://www.meetup.com/owncloud-berlin/">example page</a>.</p>
 
 		<p>Next up is to share it over social media - set up an event page on Facebook and Google plus, ask people to share the news. Don't feel bad if your first
 			meeting attracts just 5 visitors and don't freak out if 30 RSVP. A small group means you each have time to really work together; and a big group 
@@ -53,7 +53,7 @@
 		<h3>Tips</h3>
 		<ul>
 		    <li>It is nice to be welcome, so welcome newcomers! If your meetup gets big, you can ask somebody to help you welcoming new visitors...</li>
-		    <li>get people to sign up on meeetup.com or ask for their mail addresses so you can tell them about the next meetup!</li>
+		    <li>get people to sign up on meetup.com or ask for their mail addresses so you can tell them about the next meetup!</li>
 		    <li>Find people to help you. Try to organize the meetup with others so when you're on holiday, the event can still take place.</li>
 		    <li>Remind people of the ownCloud code of conduct if they aren't nice to each other: you have every right to tell them to stay away if they can't behave... It is your meetup!</li>
 		    <li>Find a <a href="http://blog.jospoortvliet.com/2014/11/5-steps-to-organizing-meetup.html">how to organize a meetup in 5 steps</a> article here.</li>
