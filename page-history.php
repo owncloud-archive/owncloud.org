@@ -108,6 +108,19 @@ Installation has minimal server requirements, doesn’t need special permissions
     </div>
   </li>
   <li class="tl-image-200">
+    <div class="tl-circ code"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>ownCloud picks up Smashbox from CERN</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> July 2015</small></p>
+      </div>
+      <div class="tl-body">
+        <p>CERN developed a testing framework for ownCloud which was adopted for testing ownCloud. See this <a href="https://owncloud.org/blog/owncloud-cern-smashbox/">blog post with details</a>.</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/cernbox_logo.png" style="width:80%" alt="Cernbox logo" class="img-responsive" />
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted tl-image-200">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -120,7 +133,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="tl-image-200">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -133,7 +146,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="tl-image-200" >
+  <li class="new-timeline-inverted tl-image-200" >
     <div class="tl-circ inc"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -146,7 +159,7 @@ Installation has minimal server requirements, doesn’t need special permissions
     </div>
   </li>
 
-  <li class="tl-image-400">
+  <li class="new-timeline-inverted tl-image-400">
     <div class="tl-circ press"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -163,7 +176,7 @@ Installation has minimal server requirements, doesn’t need special permissions
 <!-- 2014  -->
   <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2014.svg" alt="Picture"></div></li>
   
-    <li class="new-timeline-inverted">
+    <li class="">
     <div class="tl-circ github"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -171,8 +184,21 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p>codebase grown to 2.2 million LOC</br>
-			average of 76 contributors/month
-			</p>
+        average of 76 contributors/month</br>
+	estimated over 1.6 million users wordwide
+	</p>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted tl-image-200">
+    <div class="tl-circ code"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>Workshop at CERN</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> November 2014</small></p>
+      </div>
+      <div class="tl-body"><p><a href="https://dragotin.wordpress.com/2014/11/27/workshop-at-cern/">blog about the visit</a> by Klaas Freitag</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/cernbox_logo.png" style="width: 80%" alt="CERNbox coolness" class="img-responsive" /></a>
       </div>
     </div>
   </li>
@@ -272,7 +298,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p>Meetup at the office in Stuttgart</p>
-        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/june2014.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/june2014_wee.jpg" style="width: 100%" alt="group photo" class="img-responsive" /></a>
+        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/june2014.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/june2014_wee.jpg" style="width: 80%" alt="group photo" class="img-responsive" /></a>
       </div>
     </div>
   </li>  <li class="new-timeline-inverted tl-image-200">
@@ -284,22 +310,23 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p><a href="https://owncloud.com/wow-look-us-scale/">Red Hat scalability demonstration</a></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/RedHat.jpg" style="width: 100%" alt="RH Logo" class="img-responsive" />
+      </div>
+    </div>
+  </li>
+  <li class="tl-image-200">
+    <div class="tl-circ money"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>ownCloud, Inc. closes 6.3 million Series A Funding Round</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> March 2014</small></p>
+      </div>
+      <div class="tl-body">
+        <p><a href="https://owncloud.com/owncloud-closes-6-3-million-series-funding-round/">Press announcement</a></p>
       </div>
     </div>
   </li>
   <li class="new-timeline-inverted">
-    <div class="tl-circ org"></div>
-    <div class="new-timeline-panel">
-      <div class="tl-heading">
-        <h4>ownCloud gets Community Manager</h4>
-        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> April 2014</small></p>
-      </div>
-      <div class="tl-body">
-        <p><a href="https://owncloud.com/former-opensuse-community-manager-joins-owncloud/">announcement</a></p>
-      </div>
-    </div>
-  </li>
-  <li class="">
     <div class="tl-circ mobile"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -311,7 +338,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="tl-image-200">
     <div class="tl-circ press"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -335,7 +362,8 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p>codebase grown to 2 million LOC</br>
-            average of 62 contributors/month
+            average of 62 contributors/month</br>
+            estimated over 1 million users worldwide
 	</p>
       </div>
     </div>
@@ -454,7 +482,8 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p>codebase grown to 773K LOC</br>
-	average of 35 contributors/month
+	average of 35 contributors/month</br>
+	estimated over 650,000 users worldwide
 	</p>
       </div>
     </div>
@@ -467,7 +496,7 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> November 2012</small></p>
       </div>
       <div class="tl-body">
-        <p>raising 2.5 million USD (<a href="https://owncloud.com/boston-business-journal-owncloud-announces-second-seed-round-with-general-catalyst/">coverage</a>)</p>
+        <p>raising 2.5 million USD (<a href="https://owncloud.com/popular-open-source-sync-and-share-start-up-owncloud-closes-2-5-million-seed-round/">press release</a>, <a href="https://owncloud.com/boston-business-journal-owncloud-announces-second-seed-round-with-general-catalyst/">coverage</a>)</p>
       </div>
     </div>
   </li>
@@ -530,11 +559,11 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August 2012</small></p>
       </div>
       <div class="tl-body">
-        <p>18 participants worked on ownCloud, as mentioned <a href="http://karlitschek.de/2012/09/worldwide-owncloud-developer-meeting-in-october/and">in this blog post</a>.</p>
+        <p>18 participants worked on ownCloud, as mentioned <a href="http://karlitschek.de/2012/09/worldwide-owncloud-developer-meeting-in-october/">in this blog post</a>.</p>
       </div>
     </div>
   </li>
-  <li class="">
+  <li class="tl-image-200">
     <div class="tl-circ code"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -543,10 +572,11 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p><a href="https://owncloud.com/third-major-distro-embraces-owncloud/">With the addition of Fedora</a></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/distros.jpg" style="width: 90%" alt="Distribution tuxes" class="img-responsive" />
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted">
+  <li class="new-timeline-inverted tl-image-400">
     <div class="tl-circ press"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -610,7 +640,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted">
+  <li class="new-timeline-inverted tl-image-200">
     <div class="tl-circ inc"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -619,10 +649,24 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p>First customer signed up, partners follow soon (<a href="https://owncloud.com/owncloud-launches-partner-program-announces-partnerships-across-the-globe/">announcement</a>)</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/partners.png" style="width: 100%" alt="oC partners" class="img-responsive" />
       </div>
     </div>
   </li>
-  <li class="tl-image-200">
+    <li class="tl-image-200">
+    <div class="tl-circ inc"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>ownCloud Partners with Univention</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> February 2012</small></p>
+      </div>
+      <div class="tl-body">
+        <p><a href="https://owncloud.com/partnership-brings-secure-integrated-file-synch-and-share-to-univention-2/">press release</a></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/Univention.jpg" style="width: 100%" alt="Univention logo" class="img-responsive" />
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted tl-image-200">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -630,7 +674,7 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> January 2012</small></p>
       </div>
       <div class="tl-body">
-        <p>introducing text editor, introduction of ownCloud apps, PDF viewer and photo gallery (<a href="http://karlitschek.de/2012/01/owncloud-3-released/">announcement</a>)</p>
+        <p>introducing text editor, introduction of ownCloud apps, PDF viewer and photo gallery (<a href="http://karlitschek.de/2012/01/owncloud-3-released/">announcement</a>, <a href="https://owncloud.com/open-source-file-sync-and-share-project-adds-cloud-text-editing-and-more/">press release</a>)</p>
       </div>
     </div>
   </li>
@@ -647,12 +691,13 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p>codebase grown to 212K LOC</br>
-	average of 12 contributors/month
+	average of 12 contributors/month</br>
+	estimated 350,000 users worldwide
 	</p>
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted">
+  <li class="new-timeline-inverted tl-image-200">
     <div class="tl-circ inc"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -660,11 +705,12 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> December 2011</small></p>
       </div>
       <div class="tl-body">
-        <p><a href="http://karlitschek.de/2011/12/owncloud-inc-and-the-owncloud-community/">Blog by Frank</a></p>
+        <p><a href="http://karlitschek.de/2011/12/owncloud-inc-and-the-owncloud-community/">Blog by Frank</a>, <a href="https://owncloud.com/popular-open-source-file-sharing-project-creates-commercial-entity-2/">press release</a>.</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/ownCloudInc.png" style="width: 100%" alt="ownCloud, Inc." class="img-responsive" />
       </div>
     </div>
   </li>
-  <li class="">
+  <li class="tl-image-200">
     <div class="tl-circ meeting"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -752,8 +798,9 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p>codebase grown to 70K LOC</br>
-			average of 3 contributors/month
-			</p>
+	average of 3 contributors/month</br>
+        estimated tens of thousands of users already
+	</p>
       </div>
     </div>
   </li>
@@ -766,6 +813,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p><a href="https://lwn.net/Articles/394282/">lwn.net</a>, <a href="http://digitizor.com/2010/06/25/open-source-alternative-to-dropbox-owncloud-1-0-released/">digitizor</a></p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/digitizor-lwn.png" style="width: 80%" alt="site logos" class="img-responsive" />        
       </div>
     </div>
   </li>
