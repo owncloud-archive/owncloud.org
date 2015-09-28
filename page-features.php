@@ -5,7 +5,7 @@
 	<div class="col-md-7">
 		<h2 class="featuretitle" style="margin-top: 0;">Access, Sync and Share Your Data, Under Your Control!</h2>
 		<p style="text-align: justify; margin-top: 10px;">ownCloud is a self-hosted file sync and share server. It provides access to your data through a web interface, sync clients or WebDAV while providing a platform to view,
-		sync and share across devices easily—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and it works with any storage.
+		sync and share across devices easily — all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and it works with any storage.
 		</p>
 		<p><a href="/install" class="btn btn-lg btn-primary">Install ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?> now</a></p>
 		<br/>
@@ -112,7 +112,7 @@
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" />
 		<h3 class="featuretitle">Calendars and Contacts</h3></br>
-		<p class="featuredesc">Share your calendar with other ownCloud users or groups on your ownCloud server, easy and quick. Store your contacts in ownCloud and share them among your devices so you always have access to your friends, family and colleagues.</p>
+		<p class="featuredesc">Share your calendar with other ownCloud users or groups on your ownCloud server, easily and quickly. Store your contacts in ownCloud and share them among your devices so you always have access to your friends, family and colleagues.</p>
 	</div>
 
 	<div class="col-md-4 featureblock">
@@ -134,7 +134,7 @@
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
 		<h3 class="featuretitle">Play Music, Watch Movies, Store Passwords</h3></br>
-		<p class="featuredesc">Use the Music app to listen to your songs, securily store your passwords in Passman and stream your movies with the Streaming app. ownCloud is an <a href="http://karlitschek.de/2015/06/building-a-platform/" target="_blank">application platform</a> putting functionality at your service.</p>
+		<p class="featuredesc">Use the Music app to listen to your songs, securely store your passwords in Passman and stream your movies with the Streaming app. ownCloud is an <a href="http://karlitschek.de/2015/06/building-a-platform/" target="_blank">application platform</a> putting functionality at your service.</p>
 	</div>
 
 	<div class="col-md-4 featureblock">
