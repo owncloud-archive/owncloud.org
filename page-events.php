@@ -11,7 +11,7 @@
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 		<h2>Meetups</h2>
 		<p>ownCloud community members all around the globe get together in meetups to learn, share ideas and work on 
-			ownCloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below a list of local meetup groups.</p>
+			ownCloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below is a list of local meetup groups.</p>
 		<script type="text/javascript" src="http://www.meetup.com/embed/largest/owncloud/"></script>
 		<p>Find the next Meetup dates and more on <a target="_blank" href="http://owncloud.meetup.com/">owncloud.meetup.com</a></p>
 		<div class="row" style="text-align: center">
@@ -42,8 +42,8 @@
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/product_demo.jpg" style="width: 400px" title="Picture by Dragotin from CLT14" alt="Picture by Dragotin from CLT14" class="img-thumbnail alignright">
 		<h2>Conferences</h2>
 		<p>ownCloud community members everywhere organize ownCloud presence at trade shows and conferences to present our community and technology to visitors.
-			Below a list of upcoming tradeshows and conferences where you can find ownCloud represented!</p>
-			<p>If have business questions and would like to meet ownCloud, Inc. at an event, check out the <a href="https://owncloud.com/events/event/">events page on owncloud.com</a>.
+			Below is a list of upcoming tradeshows and conferences where you can find ownCloud represented!</p>
+			<p>If you have business questions and would like to meet ownCloud, Inc. at an event, check out the <a href="https://owncloud.com/events/event/">events page on owncloud.com</a>.
 		<table class="table table-striped">
 			<tr>
 				<th>Event</th>
