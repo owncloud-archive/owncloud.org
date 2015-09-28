@@ -12,7 +12,7 @@
 	<p>Let us help you become a better speaker!</p>
 
 	<h2>A great talk in 5 steps</h2>
-	<p>Key to a good talk the realization that the story matters most! Let's get from story to speaking in 5 steps.</p>
+	<p>The key to a good talk is the realization that the story matters most! Let's get from story to speaking in 5 steps.</p>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/choose.jpg" style="width: 300px" title="picture from wikisid on wikipedia" alt="picture from wikisid on wikipedia" class="img-thumbnail alignright">
 	<h3>1. Subject</h2>
 	<p>First, pick a subject you care and know about. And, keeping the audience you'll be talking to in mind, think of what you want people to take away from the talk in one sentence. For biggest impact, pick something actionable. Examples:
@@ -24,7 +24,7 @@
 	<ul>
 		<strong>hint:</strong> If you really want to dive in code or other details, a workshop is a much better format. People remember better what they did than what somebody told them.
 	</ul></p>
-	<p>Let's say, as example, we talk about our web application - ownCloud. We want people to try it out, and we want to tell them three things about ownCloud:
+	<p>Let's say, for example, we talk about our web application - ownCloud. We want people to try it out, and we want to tell them three things about ownCloud:
 	<ul>
 		<li><em>It matters</em></li>
 		<li><em>It helps YOU</em></li>
@@ -64,7 +64,7 @@
 	</ul>It is important to talk about the message from the perspective of the audience. Think from use cases, rather than technical abilities, and add examples!</p>
 	<p><strong>Style tips</strong> - simplicity is key:
 	<ul>
-		<li><strong>Limit</strong> the number of elements on a slide. Ideally, just one - be it a list, a image, a graph. Don't have more than two, really!</li>
+		<li><strong>Limit</strong> the number of elements on a slide. Ideally, just one - be it a list, an image, a graph. Don't have more than two, really!</li>
 		<li><strong>Lists</strong> should be short (under 5 items if possible). And don't use more than 2 words for each item or you'll be reading from the slide rather than giving a talk!</li>
 		<li><strong>Quotes</strong> are awesome. Put a single quote on a slide and cut them to at most 20 words. If they're longer, speak the rest during the talk!</li>
 		<li><strong>Pictures</strong> rock, too. You can discuss what is on the picture during the talk but don't describe it on the slide. Keep it full-screen, ideally!</li>
@@ -81,7 +81,7 @@
 	<p>Author Malcolm Gladwell concluded that it <a href="http://www.wisdomgroup.com/blog/10000-hours-of-practice/">takes 10,000 hours of practice to master a skill</a>, and this is true for public speaking as well. You don't have to practice your talk 10.000 hours - but realize that every time you practice, you get that much closer to perfection! And, also noted by Malcolm, <em>everything is practice</em>. If you sit in the bus and go over your main topic in your head or talk to yourself on the streets, during a shower or in bed - it all helps.</p>
 	<h4>The story</h4>
 	<p>You now have an idea of what you want to talk about and you have slides which add up to a story. Next is thus to turn it into the presentation itself. The best way to do it: grab the slides, either on your laptop or printed, and practice the presentation. The details you have 'left over' from creating the slides at step 2 can guide you. At every step, you will find things to improve - make notes, changes, and re-do. A good trick is to simply write the presentation out entirely, or with short key words - what works best for you. You will find that it easily takes 5-8 times of going over the slides before your story starts to settle down, but that is perfectly fine!</p>
-	<p>Of course, as you mostly start at the beginning, this means the first half of the presentation is practiced 8 times, while the end only twice or trice, but that is fine, too: getting started is always the hard part of a talk!</p>
+	<p>Of course, as you mostly start at the beginning, this means the first half of the presentation is practiced 8 times, while the end only twice or thrice, but that is fine, too: getting started is always the hard part of a talk!</p>
 	<h4>Timing</h4>
 	<p>Once the story is stable, do one or two more runs through and time them. You can now adjust how fast you speak. Cut the presentation in sections (perhaps each of the major points?) so you can check during the presentation if you're going too fast or too slow!</p>
 	<p><ul>
