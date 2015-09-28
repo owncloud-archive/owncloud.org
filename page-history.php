@@ -684,7 +684,7 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> October 2011</small></p>
       </div>
       <div class="tl-body">
-        <p>introducing calendar and contact syncng, sharing and a media player (<a href="http://karlitschek.de/2011/10/owncloud-2-is-released/">announcement</a>)</p>
+        <p>introducing calendar and contact syncing, sharing and a media player (<a href="http://karlitschek.de/2011/10/owncloud-2-is-released/">announcement</a>)</p>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/ownCloud-2.0.png" style="width: 100%" alt="ownCloud 2.0" class="img-responsive" />
       </div>
     </div>
