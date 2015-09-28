@@ -3,7 +3,7 @@
 </div>
 <h3 id="201">Release 2.0.1 <small>September 1st 2015</small></h3>
 <ul>
-<li>AccountWizard: fix when the theme specify a override URL (<a href="https://github.com/owncloud/client/issues/3699">#3699</a>)</li>
+<li>AccountWizard: fix when the theme specifies an override URL (<a href="https://github.com/owncloud/client/issues/3699">#3699</a>)</li>
 </ul>
 <h3 id="200">Release 2.0.0 <small>August 25th 2015</small></h3>
 <ul>
