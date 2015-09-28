@@ -22,7 +22,7 @@
     <tr>
       <td class="warning"><h1>Production</h1></td>
       <td class="info">This channel delivers the latest fully tested release of ownCloud.</br>
-		       That does not imply that these release are bug free. The issues are known and can be worked around. The downside of this channel is that the releases are behind in terms of features and performance.</td>
+		       That does not imply that these releases are bug free. The issues are known and can be worked around. The downside of this channel is that the releases are behind in terms of features and performance.</td>
             <td class="info">Older archives are available from our <a href="/changelog">changelog</a>.<br />
 		    Stable repositories are available for the following major versions:
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1</a>
@@ -54,7 +54,7 @@
 </table>
 <div class="row">
     <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
-        <p>If you are looking to grab a archive of a specific version or are looking for the version-specific Linux package repositories, you can find links to them in our <a href="/changelog">changelog</a>.</p>
+        <p>If you are looking to grab an archive of a specific version or are looking for the version-specific Linux package repositories, you can find links to them in our <a href="/changelog">changelog</a>.</p>
         <p><strong>Security note:</strong></br>
         To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
         <a name="warning"></a>

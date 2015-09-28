@@ -2,7 +2,7 @@
 <ul>
 	<li>We have a <a href="https://github.com/owncloud/core/issues?labels=Design">Design label on GitHub</a> – check out these issues if you want to help and fix interface problems. This label is also in the other repositories for clients and apps.</li>
 	<li>For easier issues and to get started, check out the <a href="https://github.com/owncloud/core/issues?labels=Design%2CJunior+Job">Design issues also marked »Junior Job«</a></li>
-	<li><a href="https://github.com/owncloud/core/issues?labels=Design,High">High priority design issues</a> are additionally marked with the »High« label  – these we need to prioritize on, and fixing any of those will make you everyone’s hero!</li>
+	<li><a href="https://github.com/owncloud/core/issues?labels=Design,High">High priority design issues</a> are additionally marked with the »High« label – these we need to prioritize, and fixing any of those will make you everyone’s hero!</li>
 </ul>
 
 
@@ -37,7 +37,7 @@ Please let us know if you want to contribute to the design and would like to be 
 	<li>People’s data is sacred. Provide undo instead of asking for confirmation – <a href="http://www.alistapart.com/articles/neveruseawarning/">which might be dismissed</a>.</li>
 	<li>The state of the application should be clear. If something loads, provide feedback.</li>
 	<li>Do not adapt broken concepts (for example design of desktop apps) just for the sake of »consistency«. We provide a better interface.</li>
-	<li>Regularly reset your installation to see how the first-run experience is like. And improve it.</li>
+	<li>Regularly reset your installation to see what the first-run experience is like. And improve it.</li>
 	<li>Ideally do <a href="http://jancborchardt.net/usability-in-free-software">usability testing</a> to know how people use the software.</li>
 	<li>When people ask for features, find out what the root of the problem is. Then fix that instead of just adding a feature.</li>
 	<li>Test in different browsers. We need to fully support the common browsers like Firefox and Chrome as well as Internet Explorer down to version 8.</li>
