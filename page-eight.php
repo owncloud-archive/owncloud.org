@@ -139,7 +139,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/backend.png" />
 				<h3 class="featuretitle">LDAP improvements including LDAP user cleanup</h3>
-				<p class="featuredesc">Integrating with LDAP and AD directories for user management is one of the most critical capabilities required for a file sync and share solutions. ownCloud has significantly improved LDAP and AD performance, provided additional configuration options and expert modes, and added a new utility for verifying and removing users from ownCloud that are no longer active in LDAP or AD, making it easier to maintain ownCloud in the enterprise.</p>
+				<p class="featuredesc">Integrating with LDAP and AD directories for user management is one of the most critical capabilities required for file sync and share solutions. ownCloud has significantly improved LDAP and AD performance, provided additional configuration options and expert modes, and added a new utility for verifying and removing users from ownCloud that are no longer active in LDAP or AD, making it easier to maintain ownCloud in the enterprise.</p>
 			</div>
 
 
