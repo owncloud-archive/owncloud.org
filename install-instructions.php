@@ -121,7 +121,7 @@
 			        <a target="_blank" style="margin: 0 14px 0 7px;" href="https://www.en0ch.se/owncloud_/pre-configured-owncloud-installaton/"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/en0ch.png"></img></a>
 			      </div>
 			      <div class="col-md-9 vmlist">
-			        <a href="https://www.en0ch.se/machine-setup/" target="_blank">Pre-configured Ubuntu 14.04 VM with Apache and MySQL</a>. Managers updates with script, can be automated.
+			        <a href="https://www.en0ch.se/machine-setup/" target="_blank">Pre-configured Ubuntu 14.04 VM with Apache and MySQL</a>. Manages updates with script, can be automated.
 			      </div>
 			    </div>
                         </div>
@@ -232,7 +232,7 @@
 		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux</a>
 		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Sources</a>
 		    </div>
- 		    <p>For those who prefer install the test version next to the stable ownCloud version, we offer the "Testpilot" edition of the client, which will install in parallel to the original client:</p>
+ 		    <p>For those who prefer to install the test version next to the stable ownCloud version, we offer the "Testpilot" edition of the client, which will install in parallel to the original client:</p>
 		    <div class="btn-group">
 		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_WIN; ?>" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows</a>
 		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_MAC; ?>" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac</a>
