@@ -67,7 +67,7 @@
 <!--
 
 <p>ownCloud is deployed in a wide variety of situations. Home users run it on a NAS or Raspberry Pi, using Calendar and Contact synchronization and many more of the <a href="https://apps.owncloud.com" target="_blank">more than 200 community apps</a>. Enterprises, research institutions and government agencies deploy it on large server parks, requiring integration in existing enterprise infrastructure like SAML, SharePoint, Windows network drives, S3 and more. In every case, <a href="/faq/#install" target="_blank">ownCloud Server is the same</a>.</p>
-<p>We provide information on how to install and maintain ownCloud for everybody <a href="htts://doc.owncloud.org" target="_blank">in our documentation</a>. When more resources are needed, private user can find help in our <a href="/faq/#install" target="_blank">community help channels</a> while professional users benefit from <a href="http://owncloud.com/resources" target="_blank">self help resources</a>, <a href="https://owncloud.com/features" target="_blank">enterprise functionality</a> and different <a href="http://owncloud.com/subscriptions" target="_blank">support options</a> from ownCloud, Inc.</p>
+<p>We provide information on how to install and maintain ownCloud for everybody <a href="htts://doc.owncloud.org" target="_blank">in our documentation</a>. When more resources are needed, private users can find help in our <a href="/faq/#install" target="_blank">community help channels</a> while professional users benefit from <a href="http://owncloud.com/resources" target="_blank">self help resources</a>, <a href="https://owncloud.com/features" target="_blank">enterprise functionality</a> and different <a href="http://owncloud.com/subscriptions" target="_blank">support options</a> from ownCloud, Inc.</p>
 
 <hr>
 
@@ -81,7 +81,7 @@
     </tr>
     <tr>
       <td class="active">Server install</td>
-      <td class="info">Own server, (Raspberry Pi, VPS, NAS) or rented space at <a href="/providers" target="_blank">ownCloud provider</a></td>
+      <td class="info">Own server, (Raspberry Pi, VPS, NAS) or rented space at an <a href="/providers" target="_blank">ownCloud provider</a></td>
       <td class="info">Spread out over multiple servers for high availability and performance</td>
     </tr>
     <tr>
@@ -105,9 +105,9 @@
       <td class="info">Hundreds to hundreds of thousands of users authenticated by SAML, LDAP, Active Directory or other authentication service</td>
     </tr>
     <tr>
-      <td class="warning">Where do I find what I need to keep ownCloud running smooth?</td>
+      <td class="warning">Where do I find what I need to keep ownCloud running smoothly?</td>
       <td class="warning"><p>Find the knowledge you need to enjoy ownCloud in the <a href="http://doc.owncloud.org" target="_blank">documentation</a> and get more help from <a href="/faq/#install" target="_blank">other community resources</a> like social media, forum, IRC chat and so on.</p>
-      <p>Use and enjoy the many apps from our build in app store, or find even more on <a href="https://apps.owncloud.com" target="_blank">our app store</a>. Find <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/apps_management_installation.html">documentation on handling Apps here</a>.
+      <p>Use and enjoy the many apps from our built in app store, or find even more on <a href="https://apps.owncloud.com" target="_blank">our app store</a>. Find <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/apps_management_installation.html">documentation on handling Apps here</a>.
       </td>
       <td class="warning"><p>Find what you need to tune ownCloud performance and meet business requirements in our <a href="http://doc.owncloud.org" target="_blank">documentation</a> as well as the <a href="http://owncloud.com/resources" target="_blank">resources provided by ownCloud, Inc.</a>
 		<ul>
