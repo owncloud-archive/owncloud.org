@@ -1,7 +1,6 @@
 <div class="row page-content-header">
 	<div class="col-md-4">
 		<h1>Security Advisories</h1>
-	<div class="sub-nav"><a href="/security">Security page</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/hall-of-fame">Hall of Fame</a></div>
 	</div>
 	<div class="col-md-5 col-md-offset-3">
 		<form role="form" action="/security/advisory/" method="get">
@@ -10,6 +9,7 @@
 		</form>
 	</div>
 </div>
+<div class="sub-nav"><a href="/security">Security page</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/hall-of-fame">Hall of Fame</a></div>
 <div class="row" style="
     margin-top: 40px;
 ">
