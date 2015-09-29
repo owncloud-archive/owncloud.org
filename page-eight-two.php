@@ -35,7 +35,7 @@
 			<div class="col-md-4 featureblock">
 				<i class="icon-picture-o"></i>
 				<h3 class="ft-title">Pictures Becomes Gallery</h3>
-				<p class="featuredesc">The Gallery app replaces the Pictures with a much nicer user experience introducing image sorting, image zoom, easy switching to the gallery and more.</p>
+				<p class="featuredesc">The Gallery app replaces the Pictures app with a much nicer user experience introducing image sorting, image zoom, easy switching to the gallery and more.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
@@ -68,7 +68,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="documentation" src="<?php bloginfo('template_directory'); ?>/assets/img/features/tips.png" />
 				<h3 class="featuretitle">New Sidebar</h3></br>
-				<p class="featuredesc">A new sidebar in the Files app makes it easy to view details on a file without cluttering the interface. A larger preview with meta data, file activity, sharing state and older versions all reside in the new sidebar. In the future, ownCloud apps can <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>app">add further functionality</a> through panels in the sidebar.</p>
+				<p class="featuredesc">A new sidebar in the Files app makes it easy to view details on a file without cluttering the interface. A larger preview with meta data, file activity, sharing state and older versions all resides in the new sidebar. In the future, ownCloud apps can <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>app">add further functionality</a> through panels in the sidebar.</p>
 			</div>
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="faster" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
@@ -84,11 +84,11 @@
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/documents-annotations.png" title="You can now add and edit annotations in Documents" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/documents-annotations-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 		</div>
 		<div class="row">
-<!--                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
+<!--			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
 			<!--ownCloud Documents video-->
-                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div>
-                        <!--ownCloud Federated Sharing video-->
-                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div>
+			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div>
+			<!--ownCloud Federated Sharing video-->
+			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div>
                 </div>
 
 		<a name="admin"></a>
@@ -125,7 +125,7 @@
 
 
 		<div class="row featurerow">
-                        <div class="col-md-6 featureblock">
+			<div class="col-md-6 featureblock">
 				<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
 				<h3 class="featuretitle">Security Improvements</h3></br>
 				<p>ownCloud Server 8.1 has received a significant amount of security hardening, including the following:</br>
@@ -140,7 +140,7 @@
 				Find <a href="https://github.com/owncloud/core/wiki/ownCloud-8.2-Features#security">more changes and details here</a>.
 				</p>
 			</div>
-                        <div class="col-md-6 featureblock">
+			<div class="col-md-6 featureblock">
 				<img class="thumbnail" alt="Updates" src="<?php bloginfo('template_directory'); ?>/assets/img/features/update.png" />
 				<h3 class="featuretitle">Other Improvements</h3></br>
 				<p>There have been many other small changes that benefit system administrators, including:</br>
@@ -155,7 +155,7 @@
 				</ul>
 				</p>
 			</div>
-                </div>
+		</div>
 
 		<div class="row">
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/tips-and-tricks.png" title="Tips and tricks as well as links to documentation are well integrated in the admin panel" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/tips-and-tricks-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
@@ -166,21 +166,21 @@
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme.png" title="Included example theme" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps.png" title="Enabling experimental apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps2.png" title="Choosing experimental apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps2-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab.png" title="LDAP wizzard server page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab.png" title="LDAP wizzard users page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab.png" title="LDAP wizzard login page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-group-tab.png" title="LDAP wizzard group page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-group-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab.png" title="LDAP wizard server page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab.png" title="LDAP wizard users page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab.png" title="LDAP wizard login page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-group-tab.png" title="LDAP wizard group page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-group-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 		</div>
 
 		<div class="row">
 			<!--Release Channels video-->
-                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>
-                        <!--Introduction to Admin Panel video-->
-                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div>
-                        <!--Introducing the new experimental apps in the app store-->
-                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div>
-                        <!--New external storage options explained-->
-                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/nx5PGWc7X18?rel=0" frameborder="0" allowfullscreen></iframe></div>
+			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>
+			<!--Introduction to Admin Panel video-->
+			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div>
+			<!--Introducing the new experimental apps in the app store-->
+			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div>
+			<!--New external storage options explained-->
+			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/nx5PGWc7X18?rel=0" frameborder="0" allowfullscreen></iframe></div>
                 </div>
 
                 <a name="developer"></a>
@@ -188,8 +188,8 @@
 			<h2>Improvements for Developers</h2>
 		</div>
 		ownCloud is <a href="http://karlitschek.de/2015/06/building-a-platform/">meant to be a platform</a>. This release introduces many improvements to the API, both to make more functionality available for app developers and to improve the existing interfaces.
-                        
-                <div class="row featurerow">
+
+		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="external_storage" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
 				<h3 class="featuretitle">Modular Authentication Mechanism Support</h3></br>
@@ -219,7 +219,7 @@
 		<p>See all features of ownCloud on the <a href="/features">Features page</a>.</p>
 		<h2>Get involved!</h2>
 		<p><a target="_blank" href="/promote/" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss ownCloud with others</a></p>
-		<p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> join the ownCloud community</a></p>
+		<p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> Join the ownCloud community</a></p>
 		<p><a target="_blank" href="/conf/" class="btn btn-lg btn-default"> <i class="icon-group"></i> ownCloud Contributor Conference</a></p>
 	</div>
 </div>

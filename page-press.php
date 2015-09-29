@@ -1,6 +1,7 @@
 <?php get_template_part('templates/parts/title'); ?>
 <h2>Current Release Information <small> ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></small></h2>
-<!-- <a target="_blank" href="https://owncloud.org/blog/owncloud-server-8-0-released" class="btn btn-lg btn-default">Announcement</a> -->
+<a target="_blank" href="https://owncloud.org/blog/owncloud-server-8-2-brings-renewed-user-interface-and-more-control" class="btn btn-lg btn-default">Announcement</a>
+<a href="/features" class="btn btn-lg btn-default">Overview of new features</a>
 <a href="/features" class="btn btn-lg btn-default">Key Features of ownCloud</a>
 <a href="/install" class="btn btn-lg btn-default">Download ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
 <h2>Latest News and Annoucements</h2>
