@@ -5,7 +5,7 @@
 <h2>Latest News and Annoucements</h2>
 <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
 <h2>ownCloud Resources</h2>
-<p>Find an overview of ownCloud history <a href="/history">on our history page</a> and a overview with <a href="/faq">frequently asked questions in our FAQ</a>.</p>
+<p>Find an overview of ownCloud history <a href="/history">on our history page</a> and an overview with <a href="/faq">frequently asked questions in our FAQ</a>.</p>
 <a href="/features" class="btn btn-lg btn-default">Key Features of ownCloud</a>
 <a href="/install" class="btn btn-lg btn-default">Download ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
 <div class="row">
