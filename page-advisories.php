@@ -9,6 +9,7 @@
 		</form>
 	</div>
 </div>
+<div class="sub-nav"><a href="/security">Security page</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/hall-of-fame">Hall of Fame</a></div>
 <div class="row" style="
     margin-top: 40px;
 ">
