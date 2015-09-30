@@ -22,7 +22,7 @@
 <!-- 			<p><a target="_blank" href="/conf/" class="btn btn-lg btn-primary"> -->
 <!-- 			<i class="icon-code"></i> ownCloud Contributor Conference!</a></p> -->
 		</div>
-<div class="wrap container pad-bottom">
+<!--<div class="wrap container pad-bottom">
 	<div class="row">
 		<div class="col-md-12 text-center">
 			<h2>We rock the ownCloud Contributor Conference!</h2>
@@ -38,7 +38,7 @@
 			  <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Learn more about the event and the announcements!</a>
 		</div>
 	</div>
-</div>
+</div>-->
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/product_demo.jpg" style="width: 400px" title="Picture by Dragotin from CLT14" alt="Picture by Dragotin from CLT14" class="img-thumbnail alignright">
 		<h2>Conferences</h2>
 		<p>ownCloud community members everywhere organize ownCloud presence at trade shows and conferences to present our community and technology to visitors.
@@ -53,18 +53,11 @@
 				<th>Link</th>
 			</tr>
 			<tr>
-				<td>ownCloud Contributor Conference</td>
-				<td>Berlin, Germany</td>
-				<td>August 28-Sept 3 2015</td>
-				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
-				<td><a target="_blank" href="/conf/">ownCloud Contributor Conference site</a>, <a target="_blank" href="https://conference.owncloud.org/conference/oCC2015/register">registration</a></td>
-			</tr>
-			<tr>
-				<td>Talk at South East Linux Fest</td>
-				<td>Charlotte, NC, USA</td>
-				<td>June 12-14 2015</td>
-				<td><a target="_blank" href="/events/contactform">Jos Poortvliet</a></td>
-				<td><a target="_blank" href="http://www.southeastlinuxfest.org/">SELF website</a></td>
+				<td>FOSSCOMM 2015</td>
+				<td>Athens, Greece</td>
+				<td>Nov 6-8, 2015</td>
+				<td><a target="_blank" href="http://www.iosifidis.gr/">Stathis</a></td>
+				<td><a target="_blank" href="http://fosscomm.teiath.gr/">website</a></td>
 			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
@@ -78,6 +71,18 @@
 				<th>Location</th>
 				<th>Date</th>
 				<th>Link (report)</th>
+			</tr>
+			<tr>
+				<td>ownCloud Contributor Conference</td>
+				<td>Berlin, Germany</td>
+				<td>August 28-Sept 3 2015</td>
+				<td><a target="_blank" href="/conf/">ownCloud Contributor Conference site</a>, <a target="_blank" href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway">blog post</a></td>
+			</tr>
+			<tr>
+				<td>Talk at South East Linux Fest</td>
+				<td>Charlotte, NC, USA</td>
+				<td>June 12-14 2015</td>
+				<td><a target="_blank" href="http://www.southeastlinuxfest.org/">SELF website</a></td>
 			</tr>
 			<tr>
 				<td>Keynote at DORSLUC</td>
