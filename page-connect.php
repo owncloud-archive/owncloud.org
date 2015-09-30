@@ -39,7 +39,7 @@
         <div class="col-md-12">
         <h3>How are ownCloud Proxy and the ownCloud Server Appliance different than ownCloud?</h3>
         <p>The ownCloud Server appliance contains the ownCloud server, an OS and a database, provided in a pre-configured, easy to download, fast to set up package. ownCloud Proxy is an app inside the ownCloud appliance that enables an admin to sign up for and manage use of the ownCloud Proxy Service. This service is simply a connection broker that connects users outside of a network firewall to an ownCloud instance behind the firewall, with no special configuration required.</p>
-        <p>Of course, if you already have ownCloud 8.1 up and running, the ownCloud Proxy app is available in <a href="http://apps.owncloud.com">the ownCloud app store</a> and can be installed easily in an existing ownCloud instance to achieve the same overall result.</p>
+        <p>Of course, if you already have ownCloud 8.1 up and running, the ownCloud Proxy app is available in <a href="https://apps.owncloud.com/content/show.php?content=173903">the ownCloud app store</a> and can be installed easily in an existing ownCloud instance to achieve the same overall result.</p>
         </div>
         <div class="col-md-12">
         <h3>What if I Want to Disconnect my ownCloud Proxy Account?</h3>
