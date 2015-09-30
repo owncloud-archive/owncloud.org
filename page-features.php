@@ -43,19 +43,19 @@
 <div class="featurewrapper"><h2>New in ownCloud Server 8.1</h2></div>
 <div class="row featurerow">
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="update-channels" src="<?php bloginfo('template_directory'); ?>/assets/img/features/update.png" />
-		<h3 class="featuretitle">Update channels</h3></br>
-		<p class="featuredesc">It is now easier to keep ownCloud updated with the channel of your choice via the built in Updater app and our package repositories.</p>
+		<img class="thumbnail" alt="improved design" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sidebar.png" />
+		<h3 class="featuretitle">Improved Design</h3></br>
+		<p class="featuredesc">This release introduces significant design improvements including new icons and a sidebar giving quick access to file information.</p>
 	</div>
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="speed" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
-		<h3 class="featuretitle">Performance</h3></br>
-		<p class="featuredesc">ownCloud Server 8.1 brings much improved performance in the areas of syncing, file operations and dealing with parallel requests.</p>
+		<img class="thumbnail" alt="New Gallery app" src="<?php bloginfo('template_directory'); ?>/assets/img/features/gallery.png" />
+		<h3 class="featuretitle">Pictures Becomes Gallery</h3></br>
+		<p class="featuredesc">The Gallery app replaces the Pictures app with a much nicer user experience introducing image sorting, image zoom, easy switching to the gallery and more.</p>
 	</div>
 	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="documentation" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
-		<h3 class="featuretitle">Integrated Documentation</h3></br>
-		<p class="featuredesc">To make ownCloud easier to use, documentation has been massively improved and integrated in the interface.</p>
+		<img class="thumbnail" alt="Notifications" src="<?php bloginfo('template_directory'); ?>/assets/img/features/notification.png" />
+		<h3 class="featuretitle">Notifications and Deletions</h3></br>
+		<p class="featuredesc">Admins now have the ability to send notifications to users and set limits on file retention in the trash.</p>
 	</div>
 	<a href="/eight-one" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
 </div>
