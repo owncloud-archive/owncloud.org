@@ -15,13 +15,17 @@
         
         
         <h3>Description</h3>
-        <p><p>A cross-site scripting (XSS) vulnerability in ownCloud before 4.5.5 and 4.0.10 allow remote attackers to inject arbitrary web script or HTML via the PATH data to index.php in apps/bookmark/</p></p>
+        <p><p>A cross-site scripting (XSS) vulnerability in ownCloud before 4.5.5 and 4.0.10 allow remote attackers to inject arbitrary web script or HTML via the PATH data to index.php in apps/bookmark/</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>4.5.5</strong> (CVE-2013-5666)</li><li>ownCloud Server &lt; <strong>4.0.10</strong> (CVE-2013-5666)</li>
+            <li>ownCloud Server &lt; <strong>4.5.5</strong> (CVE-2013-5666)</li>
+<li>ownCloud Server &lt; <strong>4.0.10</strong> (CVE-2013-5666)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.5 or 4.0.10.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.5 or 4.0.10.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

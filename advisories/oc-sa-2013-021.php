@@ -15,13 +15,20 @@
         
         
         <h3>Description</h3>
-        <p><p>Cross-site scripting (XSS) vulnerabilities in multiple files inside the media application via multiple unspecified vectors in all ownCloud versions prior to 5.0.6 and other versions before 4.0.15 allows authenticated remote attackers to inject arbitrary web script or HTML. (CVE-2013-2040)</p><p>Cross-site scripting (XSS) vulnerabilities in (1) apps/bookmarks/ajax/editBookmark.php via the “tag” GET parameter (CVE-2013-2041) and in (2) apps/files/js/files.js via the “dir” GET parameter to apps/files/ajax/newfile.php (CVE-2013-2041) in ownCloud 5.0.x before 5.0.6 allows authenticated remote attackers to inject arbitrary web script or HTML.</p><p>Cross-site scripting (XSS) vulnerabilities in (1) apps/bookmarks/ajax/addBookmark.php via the “url” GET parameter and in (2) apps/bookmarks/ajax/editBookmark.php via the “url” POST parameter in ownCloud 5.0.x before 5.0.6 allows authenticated remote attackers to inject arbitrary web script or HTML. (CVE-2013-2042)</p></p>
+        <p><p>Cross-site scripting (XSS) vulnerabilities in multiple files inside the media application via multiple unspecified vectors in all ownCloud versions prior to 5.0.6 and other versions before 4.0.15 allows authenticated remote attackers to inject arbitrary web script or HTML. (CVE-2013-2040)</p>
+<p>Cross-site scripting (XSS) vulnerabilities in (1) apps/bookmarks/ajax/editBookmark.php via the “tag” GET parameter (CVE-2013-2041) and in (2) apps/files/js/files.js via the “dir” GET parameter to apps/files/ajax/newfile.php (CVE-2013-2041) in ownCloud 5.0.x before 5.0.6 allows authenticated remote attackers to inject arbitrary web script or HTML.</p>
+<p>Cross-site scripting (XSS) vulnerabilities in (1) apps/bookmarks/ajax/addBookmark.php via the “url” GET parameter and in (2) apps/bookmarks/ajax/editBookmark.php via the “url” POST parameter in ownCloud 5.0.x before 5.0.6 allows authenticated remote attackers to inject arbitrary web script or HTML. (CVE-2013-2042)</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>5.0.6</strong> (CVE-2013-2040, CVE-2013-2041, CVE-2013-2042)</li><li>ownCloud Server &lt; <strong>4.5.11</strong> (CVE-2013-2040, CVE-2013-2042)</li><li>ownCloud Server &lt; <strong>4.0.15</strong> (CVE-2013-2040, CVE-2013-2042)</li>
+            <li>ownCloud Server &lt; <strong>5.0.6</strong> (CVE-2013-2040, CVE-2013-2041, CVE-2013-2042)</li>
+<li>ownCloud Server &lt; <strong>4.5.11</strong> (CVE-2013-2040, CVE-2013-2042)</li>
+<li>ownCloud Server &lt; <strong>4.0.15</strong> (CVE-2013-2040, CVE-2013-2042)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6, 4.5.11 or 4.0.15.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6, 4.5.11 or 4.0.15.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

@@ -15,13 +15,17 @@
         
         
         <h3>Description</h3>
-        <p><p>Incomplete blacklist vulnerability in ownCloud before 5.0.6 allows authenticated remote attackers to execute arbitrary PHP code by uploading a crafted file and accessing an uploaded PHP file.</p><p>Note: Successful exploitation requires that the /data/ directory is stored inside the webroot and a webserver that interprets .htaccess files (e.g. Apache)</p></p>
+        <p><p>Incomplete blacklist vulnerability in ownCloud before 5.0.6 allows authenticated remote attackers to execute arbitrary PHP code by uploading a crafted file and accessing an uploaded PHP file.</p>
+<p>Note: Successful exploitation requires that the /data/ directory is stored inside the webroot and a webserver that interprets .htaccess files (e.g. Apache)</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>5.0.6</strong> (CVE-2013-2089)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

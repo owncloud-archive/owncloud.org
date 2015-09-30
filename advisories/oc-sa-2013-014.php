@@ -15,13 +15,19 @@
         
         
         <h3>Description</h3>
-        <p><p>A cross-site scripting (XSS) vulnerability in all ownCloud versions prior to 5.0.5 including the 4.0.x branch allows remote attackers to execute arbitrary javascript when a user opens a special crafted URL.</p><p>This vulnerability exists in the bundled 3rdparty plugin “jPlayer”, “jPlayer” released version 2.2.20 which addresses the problem.</p></p>
+        <p><p>A cross-site scripting (XSS) vulnerability in all ownCloud versions prior to 5.0.5 including the 4.0.x branch allows remote attackers to execute arbitrary javascript when a user opens a special crafted URL.</p>
+<p>This vulnerability exists in the bundled 3rdparty plugin “jPlayer”, “jPlayer” released version 2.2.20 which addresses the problem.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>5.0.4</strong> (CVE-2013-1942)</li><li>ownCloud Server &lt; <strong>4.5.9</strong> (CVE-2013-1942)</li><li>ownCloud Server &lt; <strong>4.0.14</strong> (CVE-2013-1942)</li>
+            <li>ownCloud Server &lt; <strong>5.0.4</strong> (CVE-2013-1942)</li>
+<li>ownCloud Server &lt; <strong>4.5.9</strong> (CVE-2013-1942)</li>
+<li>ownCloud Server &lt; <strong>4.0.14</strong> (CVE-2013-1942)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.4, 4.5.9 or 4.0.14.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.4, 4.5.9 or 4.0.14.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

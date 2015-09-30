@@ -9,26 +9,25 @@
         <?php get_template_part('advisories/advisory-side'); ?>
     </div>
     <div class="col-md-8">
-        <h2>Command injection when using external SMB storage (oC-SA-2015-008)</h2>
-        <p>24th June 2015</p>
+        <h2>Command injection when using external SMB storage (oC-SA-2015-017)</h2>
+        <p>30th September 2015</p>
         <p>Risk level: <strong>High</strong></p>
         <p>CVSS v2 Base Score: 9 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:C/I:C/A:C)">AV:N/AC:L/Au:S/C:C/I:C/A:C</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/78.html">Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (CWE-78)</a></p>
         <h3>Description</h3>
-        <p><p>The external SMB storage of ownCloud was not properly neutralizing all special elements which allows an adversary to execute arbitrary SMB commands.</p>
-<p>This was caused by improperly sanitizing the ; character which is interpreted as command separator by smbclient (the used software to connect to SMB shared by ownCloud)</p>
-<p>Effectively this allows an attacker to gain access to any file on the system or overwrite it, finally leading to a PHP code execution in the case of ownCloud’s config file.</p>
+        <p><p>The external legacy SMB storage (not using php-libsmbclient) of ownCloud was not properly neutralizing all special elements which allows an adversary to execute arbitrary SMB commands.</p>
+<p>Effectively this allows an attacker to gain access to any file on the system or overwrite it, potentially leading to a PHP code execution.</p>
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>6.0.8</strong> (CVE-2015-4718)</li>
-<li>ownCloud Server &lt; <strong>7.0.6</strong> (CVE-2015-4718)</li>
-<li>ownCloud Server &lt; <strong>8.0.4</strong> (CVE-2015-4718)</li>
+            <li>ownCloud Server &lt; <strong>8.1.2</strong> (CVE assignment pending)</li>
+<ul>
+<li><a href="https://github.com/owncloud/core/commit/8c145541f65592a4d2d7de50ecfa1b0698496cb8">core/8c145541f65592a4d2d7de50ecfa1b0698496cb8</a></li>
+</ul>
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>Files containing a <code>;</code> are no longer processed on external SMB storages. This is no regression as handling files containing said character was not reliably possible before as well.</p>
-<p>ownCloud 8.1 will feature a completely rewritten SMB storage with cleaner code to reduce the attack surface even more.</p>
+        <p><p>The vulnerable library is now properly handling potentially dangerous characters.</p>
 </p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>

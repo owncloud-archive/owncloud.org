@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Multiple cross-site scripting (XSS) vulnerabilities in ownCloud before 4.0.8 allow remote attackers to inject arbitrary web script or HTML via </p><ul><li>the readyCallback parameter to PUT.swf in apps/files_odfviewer/src/webodf/webodf/flashput/</li><li>the root parameter to index.php in apps/gallery/templates/</li><li>a malformed query to db.php in lib/</li></ul></p>
+        <p><p>Multiple cross-site scripting (XSS) vulnerabilities in ownCloud before 4.0.8 allow remote attackers to inject arbitrary web script or HTML via </p>
+<ul><li>the readyCallback parameter to PUT.swf in apps/files_odfviewer/src/webodf/webodf/flashput/</li><li>the root parameter to index.php in apps/gallery/templates/</li><li>a malformed query to db.php in lib/</li></ul></p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>4.0.8</strong> (CVE-2012-5056)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.8.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.8.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

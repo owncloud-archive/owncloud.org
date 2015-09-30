@@ -15,13 +15,18 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to not properly checking the ownership of a single contact, an authenticated attacker is able to download contacts of other users in all ownCloud versions prior to 5.0.5 including the 4.5.x branch.</p><p>Note: Successful exploitation of this privilege escalation requires the “contacts” app to be enabled (enabled by default).</p></p>
+        <p><p>Due to not properly checking the ownership of a single contact, an authenticated attacker is able to download contacts of other users in all ownCloud versions prior to 5.0.5 including the 4.5.x branch.</p>
+<p>Note: Successful exploitation of this privilege escalation requires the “contacts” app to be enabled (enabled by default).</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>5.0.5</strong> (CVE-2013-1963)</li><li>ownCloud Server &lt; <strong>4.5.10</strong> (CVE-2013-1963)</li>
+            <li>ownCloud Server &lt; <strong>5.0.5</strong> (CVE-2013-1963)</li>
+<li>ownCloud Server &lt; <strong>4.5.10</strong> (CVE-2013-1963)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.5 or 4.5.10.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.5 or 4.5.10.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

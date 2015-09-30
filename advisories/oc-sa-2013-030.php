@@ -15,10 +15,13 @@
         
         
         <h3>Description</h3>
-        <p><p>A not further specified authentication bypass in the user_webdavauth application has been found. Using this vulnerability an attacker might login to the ownCloud instance without valid credentials.</p></p>
+        <p><p>A not further specified authentication bypass in the user_webdavauth application has been found. Using this vulnerability an attacker might login to the ownCloud instance without valid credentials.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>5.0.8</strong> ()</li><li>ownCloud Server &lt; <strong>4.5.13</strong> ()</li>
+            <li>ownCloud Server &lt; <strong>5.0.8</strong> ()</li>
+<li>ownCloud Server &lt; <strong>4.5.13</strong> ()</li>
+
         </ul>
         <h3>Action Taken</h3>
         <p></p>

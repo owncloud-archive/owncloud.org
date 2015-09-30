@@ -15,13 +15,17 @@
         
         
         <h3>Description</h3>
-        <p><p>Incomplete blacklist vulnerability in lib/migrate.php in ownCloud before 4.0.13 and 4.5.8 allows an authenticated remote attacker to import arbitrary files on the server inside his user account.</p></p>
+        <p><p>Incomplete blacklist vulnerability in lib/migrate.php in ownCloud before 4.0.13 and 4.5.8 allows an authenticated remote attacker to import arbitrary files on the server inside his user account.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>4.5.8</strong> (CVE-2013-1851)</li><li>ownCloud Server &lt; <strong>4.0.13</strong> (CVE-2013-1851)</li>
+            <li>ownCloud Server &lt; <strong>4.5.8</strong> (CVE-2013-1851)</li>
+<li>ownCloud Server &lt; <strong>4.0.13</strong> (CVE-2013-1851)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.9 or 4.0.13.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.9 or 4.0.13.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

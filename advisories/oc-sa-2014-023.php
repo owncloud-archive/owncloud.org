@@ -15,13 +15,18 @@
         
         
         <h3>Description</h3>
-        <p><p>ownCloud offers the <code>OC_Util::getUrlContent()</code> to developers. Using this function applications can download content from remote websites.</p><p>Due to a newly introduced bug in this functionality it was following redirects to other protocols such as <code>file://</code>. Thus, an attacker may be able to gain access to local files stored on the ownCloud instance.</p></p>
+        <p><p>ownCloud offers the <code>OC_Util::getUrlContent()</code> to developers. Using this function applications can download content from remote websites.</p>
+<p>Due to a newly introduced bug in this functionality it was following redirects to other protocols such as <code>file://</code>. Thus, an attacker may be able to gain access to local files stored on the ownCloud instance.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>7.0.3</strong> (CVE-2014-9046)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p><code>OC_Util::getUrlContent()</code> is now following only redirects to the <code>HTTP</code> and <code>HTTPS</code> protocols.  <br>Some other functions have received further hardening as well to prevent potential bypasses of network restrictions. (In particular the "Download from URL" feature will not accept redirect to other protocols such as FTP anymore).</p><p>Those specific hardenings have been also applied to 6.0.6 and 5.0.18 but are not considered as security bugs by the ownCloud project.</p></p>
+        <p><p><code>OC_Util::getUrlContent()</code> is now following only redirects to the <code>HTTP</code> and <code>HTTPS</code> protocols.  <br>Some other functions have received further hardening as well to prevent potential bypasses of network restrictions. (In particular the "Download from URL" feature will not accept redirect to other protocols such as FTP anymore).</p>
+<p>Those specific hardenings have been also applied to 6.0.6 and 5.0.18 but are not considered as security bugs by the ownCloud project.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to an insecure OpenID implementation used by user_openid in ownCloud 5 it is possible to log-into a system using an arbitrary OpenID Account (without knowing any secret information, i.e. the password, about it) by using a malicious OpenID provider.</p></p>
+        <p><p>Due to an insecure OpenID implementation used by user_openid in ownCloud 5 it is possible to log-into a system using an arbitrary OpenID Account (without knowing any secret information, i.e. the password, about it) by using a malicious OpenID provider.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>5.0.15</strong> (CVE-2014-2048)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>As the application is not longer maintained anymore, user_openid has been removed from the release.</p></p>
+        <p><p>As the application is not longer maintained anymore, user_openid has been removed from the release.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

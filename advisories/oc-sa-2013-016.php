@@ -15,13 +15,19 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to not rejecting “\” as path separator in all ownCloud versions prior to 5.0.4 including the 4.x branch an authenticated remote attacker is able to download arbitrary files from the server when running under Windows.</p><p>This vulnerability exists inside our used DAV implementation “SabreDAV” and was found by the ownCloud security team. SabreDAV released fixed versions to address this problem.</p></p>
+        <p><p>Due to not rejecting “\” as path separator in all ownCloud versions prior to 5.0.4 including the 4.x branch an authenticated remote attacker is able to download arbitrary files from the server when running under Windows.</p>
+<p>This vulnerability exists inside our used DAV implementation “SabreDAV” and was found by the ownCloud security team. SabreDAV released fixed versions to address this problem.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>5.0.4</strong> (CVE-2013-1939)</li><li>ownCloud Server &lt; <strong>4.5.9</strong> (CVE-2013-1939)</li><li>ownCloud Server &lt; <strong>4.0.14</strong> (CVE-2013-1939)</li>
+            <li>ownCloud Server &lt; <strong>5.0.4</strong> (CVE-2013-1939)</li>
+<li>ownCloud Server &lt; <strong>4.5.9</strong> (CVE-2013-1939)</li>
+<li>ownCloud Server &lt; <strong>4.0.14</strong> (CVE-2013-1939)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.4, 4.5.9 or 4.0.14.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.4, 4.5.9 or 4.0.14.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

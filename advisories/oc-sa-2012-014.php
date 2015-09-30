@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Cross-site request forgery (CSRF) vulnerability in core/ajax/appconfig.php in ownCloud before 4.0.7 allows remote attackers to hijack the authentication of administrators for requests that edit the app configurations.</p></p>
+        <p><p>Cross-site request forgery (CSRF) vulnerability in core/ajax/appconfig.php in ownCloud before 4.0.7 allows remote attackers to hijack the authentication of administrators for requests that edit the app configurations.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>4.0.7</strong> (CVE-2012-4391)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.7.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.7.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

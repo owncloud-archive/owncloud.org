@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Index.php (aka the login page) contains a form that does not disable the autocomplete setting for the password parameter, which makes it easier for local users or physically proximate attackers to obtain the password from web browsers that support autocomplete.</p></p>
+        <p><p>Index.php (aka the login page) contains a form that does not disable the autocomplete setting for the password parameter, which makes it easier for local users or physically proximate attackers to obtain the password from web browsers that support autocomplete.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>5.0.6</strong> (CVE-2013-2047)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

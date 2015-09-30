@@ -15,13 +15,17 @@
         
         
         <h3>Description</h3>
-        <p><p>Multiple cross-site scripting (XSS) vulnerabilities in ownCloud 4.5.0 allow remote attackers to inject arbitrary web script or HTML via </p><ul><li>the filename to to versions.js in apps/files_versions/js/</li><li>the filename to filelist.js in apps/files/js/</li><li>the event title to fullcalendar.js in 3rdparty/fullcalendar/js/</li></ul></p>
+        <p><p>Multiple cross-site scripting (XSS) vulnerabilities in ownCloud 4.5.0 allow remote attackers to inject arbitrary web script or HTML via </p>
+<ul><li>the filename to to versions.js in apps/files_versions/js/</li><li>the filename to filelist.js in apps/files/js/</li><li>the event title to fullcalendar.js in 3rdparty/fullcalendar/js/</li></ul></p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>4.5.1</strong> (CVE-2012-5605)</li><li>ownCloud Server &lt; <strong>4.0.9</strong> (CVE-2012-5605)</li>
+            <li>ownCloud Server &lt; <strong>4.5.1</strong> (CVE-2012-5605)</li>
+<li>ownCloud Server &lt; <strong>4.0.9</strong> (CVE-2012-5605)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.1 or 4.0.10.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.1 or 4.0.10.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

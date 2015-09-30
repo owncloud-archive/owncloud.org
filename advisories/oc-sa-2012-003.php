@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>A cross-site scripting (XSS) vulnerability in ownCloud 4.5.x before 4.5.2 allow remote attackers to inject arbitrary web script or HTML via the POST data to settings.php in apps/user_webdavauth/</p></p>
+        <p><p>A cross-site scripting (XSS) vulnerability in ownCloud 4.5.x before 4.5.2 allow remote attackers to inject arbitrary web script or HTML via the POST data to settings.php in apps/user_webdavauth/</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>4.5.2</strong> (CVE-2012-5608)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.2.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.2.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

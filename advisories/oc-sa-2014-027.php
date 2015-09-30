@@ -15,13 +15,19 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to not verifying the CSRF token on the import functionality of the "bookmarks" application, it was vulnerable against CSRF attacks.<br/>The "bookmarks" application is disabled by default.</p><p>An unauthenticated attacker could have used this to import bookmarks into the "bookmarks" application if the victim visits a specially crafted website and is logged-in into the ownCloud instance at the same time.<br/>Furthermore, an unauthenticated attacker could leverage this vulnerability with <a href="/security/advisory/?id=oc-sa-2014-028">oC-SA-2014-028</a> resulting in a potential Cross-site scripting vulnerability.</p></p>
+        <p><p>Due to not verifying the CSRF token on the import functionality of the "bookmarks" application, it was vulnerable against CSRF attacks.<br/>The "bookmarks" application is disabled by default.</p>
+<p>An unauthenticated attacker could have used this to import bookmarks into the "bookmarks" application if the victim visits a specially crafted website and is logged-in into the ownCloud instance at the same time.<br/>Furthermore, an unauthenticated attacker could leverage this vulnerability with <a href="/security/advisory/?id=oc-sa-2014-028">oC-SA-2014-028</a> resulting in a potential Cross-site scripting vulnerability.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>7.0.3</strong> (CVE-2014-9041)</li><li>ownCloud Server &lt; <strong>6.0.6</strong> (CVE-2014-9041)</li><li>ownCloud Server &lt; <strong>5.0.18</strong> (CVE-2014-9041)</li>
+            <li>ownCloud Server &lt; <strong>7.0.3</strong> (CVE-2014-9041)</li>
+<li>ownCloud Server &lt; <strong>6.0.6</strong> (CVE-2014-9041)</li>
+<li>ownCloud Server &lt; <strong>5.0.18</strong> (CVE-2014-9041)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The import functionality is now verifying the CSRF token.</p></p>
+        <p><p>The import functionality is now verifying the CSRF token.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
