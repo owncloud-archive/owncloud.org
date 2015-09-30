@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to an insufficient permission check authenticated users are able to access preview pictures of others users.</p></p>
+        <p><p>Due to an insufficient permission check authenticated users are able to access preview pictures of others users.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>6.0.1</strong> ()</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 6.0.2.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 6.0.2.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

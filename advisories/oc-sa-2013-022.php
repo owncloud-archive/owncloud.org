@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Open redirect vulnerability in index.php (aka the Login Page) in ownCloud before 5.0.6 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via a URL in the redirect_url parameter.</p></p>
+        <p><p>Open redirect vulnerability in index.php (aka the Login Page) in ownCloud before 5.0.6 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via a URL in the redirect_url parameter.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>5.0.6</strong> (CVE-2013-2044)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

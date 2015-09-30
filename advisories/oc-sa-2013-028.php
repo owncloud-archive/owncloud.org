@@ -15,13 +15,19 @@
         
         
         <h3>Description</h3>
-        <p><p>Cross-site scripting (XSS) vulnerabilities in js/viewer.js inside the files_videoviewer application via multiple unspecified vectors in all ownCloud versions prior to 5.0.7 and 4.5.12 allows authenticated remote attackers to inject arbitrary web script or HTML via shared files. (CVE-2013-2150)</p><p>Cross-site scripting (XSS) vulnerabilities in core/js/oc-dialogs.js via multiple unspecified vectors in all ownCloud versions prior to 5.0.7 and other versions before 4.0.16 allows authenticated remote attackers to inject arbitrary web script or HTML via shared files. (CVE-2013-2149)</p></p>
+        <p><p>Cross-site scripting (XSS) vulnerabilities in js/viewer.js inside the files_videoviewer application via multiple unspecified vectors in all ownCloud versions prior to 5.0.7 and 4.5.12 allows authenticated remote attackers to inject arbitrary web script or HTML via shared files. (CVE-2013-2150)</p>
+<p>Cross-site scripting (XSS) vulnerabilities in core/js/oc-dialogs.js via multiple unspecified vectors in all ownCloud versions prior to 5.0.7 and other versions before 4.0.16 allows authenticated remote attackers to inject arbitrary web script or HTML via shared files. (CVE-2013-2149)</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>5.0.7</strong> (CVE-2013-2150, CVE-2013-2149)</li><li>ownCloud Server &lt; <strong>4.5.12</strong> (CVE-2013-2150, CVE-2013-2149)</li><li>ownCloud Server &lt; <strong>4.0.16</strong> (CVE-2013-2149)</li>
+            <li>ownCloud Server &lt; <strong>5.0.7</strong> (CVE-2013-2150, CVE-2013-2149)</li>
+<li>ownCloud Server &lt; <strong>4.5.12</strong> (CVE-2013-2150, CVE-2013-2149)</li>
+<li>ownCloud Server &lt; <strong>4.0.16</strong> (CVE-2013-2149)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.7.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.7.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

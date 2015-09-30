@@ -15,13 +15,18 @@
         
         
         <h3>Description</h3>
-        <p><p>The "documents" application is a collaborative web-based online editor for ODT files. Using this application you can easily share and collaborate on office documents.</p><p>Due to missing access control within the API of this application, the password-protection of shared files can be bypassed.</p></p>
+        <p><p>The "documents" application is a collaborative web-based online editor for ODT files. Using this application you can easily share and collaborate on office documents.</p>
+<p>Due to missing access control within the API of this application, the password-protection of shared files can be bypassed.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>7.0.3</strong> (CVE-2014-9048)</li><li>ownCloud Server &lt; <strong>6.0.6</strong> (CVE-2014-9048)</li>
+            <li>ownCloud Server &lt; <strong>7.0.3</strong> (CVE-2014-9048)</li>
+<li>ownCloud Server &lt; <strong>6.0.6</strong> (CVE-2014-9048)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The "documents" application now verifies the password before granting access to shared files.</p></p>
+        <p><p>The "documents" application now verifies the password before granting access to shared files.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

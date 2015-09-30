@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>A Header injection vulnerability in ownCloud before 4.0.8 allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server via the HTTP url path parameter to index.php.</p></p>
+        <p><p>A Header injection vulnerability in ownCloud before 4.0.8 allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server via the HTTP url path parameter to index.php.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>4.0.8</strong> (CVE-2012-5057)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.8.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.8.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

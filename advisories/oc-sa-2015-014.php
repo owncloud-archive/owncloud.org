@@ -15,13 +15,18 @@
         <p>CVSS v2 Base Score: 4 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:P/I:N/A:N)">AV:N/AC:L/Au:S/C:P/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/548.html">Information Exposure Through Directory Listing (CWE-548)</a></p>
         <h3>Description</h3>
-        <p><p>Due to an incorrect usage of an ownCloud internal file system function the passed path to the file scanner was resolved relatively. An authenticated adversary may thus be able to get a listing of directories (but not the containing files) existing on the filesystem. However, it is not possible to access any of these files.</p><p>For a more technical description please take a look at the <a href="https://www.syss.de/pentest-blog/news-detail/?tx_news_pi1%5Bnews%5D=140&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=3d9e93c60f57ab1885ac335974427a7f">advisory of the reporter</a>.</p></p>
+        <p><p>Due to an incorrect usage of an ownCloud internal file system function the passed path to the file scanner was resolved relatively. An authenticated adversary may thus be able to get a listing of directories (but not the containing files) existing on the filesystem. However, it is not possible to access any of these files.</p>
+<p>For a more technical description please take a look at the <a href="https://www.syss.de/pentest-blog/news-detail/?tx_news_pi1%5Bnews%5D=140&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=3d9e93c60f57ab1885ac335974427a7f">advisory of the reporter</a>.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>8.1.1</strong> (CVE-2015-6500)</li><li>ownCloud Server &lt; <strong>8.0.6</strong> (CVE-2015-6500)</li>
+            <li>ownCloud Server &lt; <strong>8.1.1</strong> (CVE-2015-6500)</li>
+<li>ownCloud Server &lt; <strong>8.0.6</strong> (CVE-2015-6500)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The vulnerable component has been patched and <a href="https://github.com/owncloud/core/issues/17906">will be replaced by a cron job in a future ownCloud release</a></p></p>
+        <p><p>The vulnerable component has been patched and <a href="https://github.com/owncloud/core/issues/17906">will be replaced by a cron job in a future ownCloud release</a></p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

@@ -15,13 +15,18 @@
         
         
         <h3>Description</h3>
-        <p><p>Multiple third party components of ownCloud are vulnerable to XXE attacks, which may lead to:</p> <ul> <li>Local File Disclosure</li> <li>Server Side Request Forgery</li> <li>DoS</li> <li>Code Execution (depending on the PHP wrappers)</li> <li>&#8230;</li> </ul> <p>The following libraries are affected:</p> <ul> <li>ZendFramework: CVE-2014-2052</li> <li>GetID3: CVE-2014-2053</li> <li>PHPExcel: CVE-2014-2054</li> <li>SabreDAV: CVE-2014-2055</li> <li>PHPDocX: CVE-2014-2056</li> </ul> </p>
+        <p><p>Multiple third party components of ownCloud are vulnerable to XXE attacks, which may lead to:</p>
+ <ul> <li>Local File Disclosure</li> <li>Server Side Request Forgery</li> <li>DoS</li> <li>Code Execution (depending on the PHP wrappers)</li> <li>&#8230;</li> </ul> <p>The following libraries are affected:</p>
+ <ul> <li>ZendFramework: CVE-2014-2052</li> <li>GetID3: CVE-2014-2053</li> <li>PHPExcel: CVE-2014-2054</li> <li>SabreDAV: CVE-2014-2055</li> <li>PHPDocX: CVE-2014-2056</li> </ul> </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>6.0.2</strong> ()</li><li>ownCloud Server &lt; <strong>5.0.15</strong> ()</li>
+            <li>ownCloud Server &lt; <strong>6.0.2</strong> ()</li>
+<li>ownCloud Server &lt; <strong>5.0.15</strong> ()</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>All vendors except PHPDocX have released an update. PHPDocX states that the admin is responsible to validate the DOCX document and is considering  this as won't fix.</p></p>
+        <p><p>All vendors except PHPDocX have released an update. PHPDocX states that the admin is responsible to validate the DOCX document and is considering  this as won't fix.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Cross-site scripting (XSS) vulnerability in apps/files/js/filelist.js in ownCloud before 4.0.5 allows remote attackers to inject arbitrary web script or HTML via the file parameter.</p></p>
+        <p><p>Cross-site scripting (XSS) vulnerability in apps/files/js/filelist.js in ownCloud before 4.0.5 allows remote attackers to inject arbitrary web script or HTML via the file parameter.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>4.0.5</strong> (CVE-2012-4394)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.5.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.5.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

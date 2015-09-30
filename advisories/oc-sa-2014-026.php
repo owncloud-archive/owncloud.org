@@ -15,13 +15,19 @@
         
         
         <h3>Description</h3>
-        <p><p>ownCloud includes a preview system which generates the small thumbnails shown in the file list of the web interface. This functionality can be controlled with the enable_previews switch in config.php and is enabled by default.</p><p>Multiple unspecified vulnerabilities have been found within the preview system. Using these vulnerabilities an authenticated adversary (or an unauthenticated one if public uploads are enabled) may be able to extract local files from the ownCloud system.</p></p>
+        <p><p>ownCloud includes a preview system which generates the small thumbnails shown in the file list of the web interface. This functionality can be controlled with the enable_previews switch in config.php and is enabled by default.</p>
+<p>Multiple unspecified vulnerabilities have been found within the preview system. Using these vulnerabilities an authenticated adversary (or an unauthenticated one if public uploads are enabled) may be able to extract local files from the ownCloud system.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>7.0.3</strong> (CVE-2014-9047)</li><li>ownCloud Server &lt; <strong>6.0.6</strong> (CVE-2014-9047)</li>
+            <li>ownCloud Server &lt; <strong>7.0.3</strong> (CVE-2014-9047)</li>
+<li>ownCloud Server &lt; <strong>6.0.6</strong> (CVE-2014-9047)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>An additional configuration switch has been added to <code>config.php</code>. The <code>enabledPreviewProviders</code> option allows defining which preview providers are enabled.</p><p>By default the preview system is now only generating thumbnails for images and plain-text based formats. File formats that may leak local file content have been disabled by default.</p></p>
+        <p><p>An additional configuration switch has been added to <code>config.php</code>. The <code>enabledPreviewProviders</code> option allows defining which preview providers are enabled.</p>
+<p>By default the preview system is now only generating thumbnails for images and plain-text based formats. File formats that may leak local file content have been disabled by default.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Multiple cross-site scripting (XSS) vulnerabilities in ownCloud 5.0.0 allow remote attackers to inject arbitrary web script or HTML via </p><ul> <li>the “new_name” POST parameter to renameTag.php in /apps/bookmarks/ajax/</li> <ul> <li><strong>Commits:</strong> 1c63eb1 (stable5)</li> <li><strong>Risk:</strong> Medium</li> <li><strong>Note:</strong> Successful exploitation of this stored XSS requires the “bookmark” app to be enabled. (enabled by default)</li> </ul> <li>multiple unspecified parameters to several files in apps/contacts/ajax/</li> <ul> <li><strong>Commits:</strong> ae9e5a4 (stable5)</li> <li><strong>Risk:</strong> Medium</li> <li><strong>Note:</strong> Successful exploitation of this stored XSS requires the “calendar” app to be enabled. (enabled by default)</li> </ul> </ul></p>
+        <p><p>Multiple cross-site scripting (XSS) vulnerabilities in ownCloud 5.0.0 allow remote attackers to inject arbitrary web script or HTML via </p>
+<ul> <li>the “new_name” POST parameter to renameTag.php in /apps/bookmarks/ajax/</li> <ul> <li><strong>Commits:</strong> 1c63eb1 (stable5)</li> <li><strong>Risk:</strong> Medium</li> <li><strong>Note:</strong> Successful exploitation of this stored XSS requires the “bookmark” app to be enabled. (enabled by default)</li> </ul> <li>multiple unspecified parameters to several files in apps/contacts/ajax/</li> <ul> <li><strong>Commits:</strong> ae9e5a4 (stable5)</li> <li><strong>Risk:</strong> Medium</li> <li><strong>Note:</strong> Successful exploitation of this stored XSS requires the “calendar” app to be enabled. (enabled by default)</li> </ul> </ul></p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>5.0.1</strong> (CVE-2013-1890)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.1.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.1.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

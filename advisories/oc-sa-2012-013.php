@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>apps/calendar/appinfo/remote.php and apps/contacts/appinfo/remote.php in ownCloud before 4.0.7 allows remote authenticated users to enumerate the registered users via unspecified vectors.</p></p>
+        <p><p>apps/calendar/appinfo/remote.php and apps/contacts/appinfo/remote.php in ownCloud before 4.0.7 allows remote authenticated users to enumerate the registered users via unspecified vectors.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>4.0.7</strong> (CVE-2012-4390)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.7.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.7.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

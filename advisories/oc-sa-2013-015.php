@@ -15,13 +15,19 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to using “time()” as random source in the ownCloud installation routine, the entropy of the generated PostgreSQL database user password is very low and can be easily guessed.</p><p>This issue is inside the ownCloud setup routine and is not related to any PostgreSQL vulnerability.</p></p>
+        <p><p>Due to using “time()” as random source in the ownCloud installation routine, the entropy of the generated PostgreSQL database user password is very low and can be easily guessed.</p>
+<p>This issue is inside the ownCloud setup routine and is not related to any PostgreSQL vulnerability.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>5.0.4</strong> (CVE-2013-1941)</li><li>ownCloud Server &lt; <strong>4.5.9</strong> (CVE-2013-1941)</li><li>ownCloud Server &lt; <strong>4.0.14</strong> (CVE-2013-1941)</li>
+            <li>ownCloud Server &lt; <strong>5.0.4</strong> (CVE-2013-1941)</li>
+<li>ownCloud Server &lt; <strong>4.5.9</strong> (CVE-2013-1941)</li>
+<li>ownCloud Server &lt; <strong>4.0.14</strong> (CVE-2013-1941)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.4, 4.5.9 or 4.0.14.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.4, 4.5.9 or 4.0.14.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

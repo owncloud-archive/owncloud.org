@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to using the auto-incrementing <code>file_id</code> instead of the random generated <code>token</code> to access files in the documents app an authenticated users could enumerate shared files of other users.</p></p>
+        <p><p>Due to using the auto-incrementing <code>file_id</code> instead of the random generated <code>token</code> to access files in the documents app an authenticated users could enumerate shared files of other users.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>6.0.3</strong> (CVE-2014-3837)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>We replaced the usage of <code>file_id</code> with our random generated file sharing token.</p></p>
+        <p><p>We replaced the usage of <code>file_id</code> with our random generated file sharing token.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

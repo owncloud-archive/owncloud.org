@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Cross-site scripting (XSS) vulnerability in index.php in ownCloud before 4.0.3 allows remote attackers to inject arbitrary web script or HTML via the redirect_url parameter.</p></p>
+        <p><p>Cross-site scripting (XSS) vulnerability in index.php in ownCloud before 4.0.3 allows remote attackers to inject arbitrary web script or HTML via the redirect_url parameter.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>4.0.3</strong> (CVE-2012-4395)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.3.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.3.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
