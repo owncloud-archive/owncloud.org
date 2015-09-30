@@ -208,7 +208,7 @@
 		<p>See all features of ownCloud on the <a href="/features">Features page</a>.</p>
 		<h2>Get involved!</h2>
 		<p><a target="_blank" href="/promote/" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss ownCloud with others</a></p>
-		<p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> join the ownCloud community</a></p>
+		<p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> Join the ownCloud community</a></p>
 		<p><a target="_blank" href="/conf/" class="btn btn-lg btn-default"> <i class="icon-group"></i> ownCloud Contributor Conference</a></p>
 	</div>
 </div>
