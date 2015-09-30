@@ -60,36 +60,47 @@
 		</div>
 		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
+				<img class="thumbnail" alt="gallery" src="<?php bloginfo('template_directory'); ?>/assets/img/features/gallery.png" />
 				<h3 class="featuretitle">Pictures Becomes Gallery</h3></br>
 				<p class="featuredesc">The Gallery app replaces the Pictures app for browsing and viewing images. Supporting a wider range of image formats, better performance and new features, Gallery presents a significant enhancement. You can now sort your images, zoom in and out while viewing, and you can configure many specific settings in a <a href="https://github.com/owncloud/gallery/wiki/Gallery-configuration">simple text file</a>.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="documentation" src="<?php bloginfo('template_directory'); ?>/assets/img/features/tips.png" />
+				<img class="thumbnail" alt="sidebar" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sidebar.png" />
 				<h3 class="featuretitle">New Sidebar</h3></br>
 				<p class="featuredesc">A new sidebar in the Files app makes it easy to view details on a file without cluttering the interface. A larger preview with meta data, file activity, sharing state and older versions all resides in the new sidebar. In the future, ownCloud apps can <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>app">add further functionality</a> through panels in the sidebar.</p>
 			</div>
+
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="faster" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
+				<img class="thumbnail" alt="design" src="<?php bloginfo('template_directory'); ?>/assets/img/features/design.png" />
 				<h3 class="featuretitle">Refined User Interface</h3></br>
 				<p class="featuredesc">By reducing the number of colors and shades, the ownCloud interface is cleaner. Actions on files like download, rename and delete can now be found in the three-dot 'more' menu and this release also introduces new, more modern icons.</p>
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/better-integrated-help.png" title="help is integrated everywhere in the user interface" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/better-integrated-help-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-cloud-id.png" title="you can easily find and share your Federated Cloud ID" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-cloud-id-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-sharing-addressbook.png" title="auto-complete Federated Cloud ID's from your address book" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-sharing-addressbook-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/documents-annotations.png" title="You can now add and edit annotations in Documents" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/documents-annotations-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+		<div class="row featurerow">
+			<div class="col-md-4 featureblock">
+				<img class="thumbnail" alt="text editor" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
+				<h3 class="featuretitle">Updated Text Editor</h3></br>
+				<p class="featuredesc">The text editor included in ownCloud has been updated, featuring a new look and automatically saving your files.</p>
+			</div>
 		</div>
+
+
+
+
 		<div class="row">
-<!--			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/gallery.png" title="New Gallery introduces sorting, zooming and more" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/gallery-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/sidebar_sharing.png" title="the new sidebar gives you quick and easy access to details about a file" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/sidebar_sharing-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/files_menu.png" title="Many file actions are now in the file menu" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/file_menu-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/text-editor.png" title="The updated text editor automatically saves your files" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/text-editor-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+		</div>
+<!-- 		<div class="row"> -->
 			<!--ownCloud Documents video-->
-			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<!-- 			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
 			<!--ownCloud Federated Sharing video-->
-			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div>
-                </div>
+<!-- 			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+<!--                 </div> -->
 
 		<a name="admin"></a>
 		<div class="featurewrapper">
@@ -98,13 +109,13 @@
 		<p>System administrators are strongly encouraged to check out the <a href="https://doc.owncloud.org/server/8.2/admin_manual/release_notes.html">release notes for ownCloud Server 8.2</a> before upgrading or doing a fresh installation!</p>
 		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="external_storage" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
+				<img class="thumbnail" alt="notification" src="<?php bloginfo('template_directory'); ?>/assets/img/features/notification.png" />
 				<h3 class="featuretitle">Notification Mechanism</h3></br>
 				<p class="featuredesc">ownCloud now offers a notification window where an admin can push notifications out to users of the ownCloud system, such as notification about a maintenance window. This is currently only in the web interface but future mobile and desktop client releases will incorporate the notification feature.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="ldap" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
+				<img class="thumbnail" alt="undelete" src="<?php bloginfo('template_directory'); ?>/assets/img/features/undelete.png" />
 				<h3 class="featuretitle">Trash and Versions Retention Control</h3></br>
 				<p class="featuredesc">The new guaranteed file deletion option allows an admin to set a policy for retaining deleted files and file versions – setting the file retention time to automatic, min, max, both or none. In this way, admins have the flexibility to manage storage and quota for their users as they require.</p>
 			</div>
@@ -117,7 +128,7 @@
 
 		<div class="row featurerow">
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
+				<img class="thumbnail" alt="thumbnails" src="<?php bloginfo('template_directory'); ?>/assets/img/features/favorites.png" />
 				<h3 class="featuretitle">Improved Mimetype Handling</h3></br>
 				<p class="featuredesc">Administrators can now can define custom mimetype mappings and aliases. The occ tool has been updated to allow scanning for new mimetypes and update the database to ensure files are properly identified.</p>
 			</div>
@@ -157,30 +168,30 @@
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/tips-and-tricks.png" title="Tips and tricks as well as links to documentation are well integrated in the admin panel" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/tips-and-tricks-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/mount-options.png" title="You can set encryption, update policy and previews for each external storage mount" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/mount-options-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption3.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption3-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption5.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption5-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Release Channel selection in Updater App" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme.png" title="Included example theme" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/example-theme-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps.png" title="Enabling experimental apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps2.png" title="Choosing experimental apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/experimental-apps2-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab.png" title="LDAP wizard server page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-server-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab.png" title="LDAP wizard users page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-users-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab.png" title="LDAP wizard login page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-login-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-group-tab.png" title="LDAP wizard group page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/LDAP-group-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-		</div>
+<!--		<div class="row">
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/tips-and-tricks.png" title="Tips and tricks as well as links to documentation are well integrated in the admin panel" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/tips-and-tricks-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/mount-options.png" title="You can set encryption, update policy and previews for each external storage mount" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/mount-options-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/encryption3.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/encryption3-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/encryption5.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/encryption5-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/update-channels.png" title="Release Channel selection in Updater App" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/example-theme.png" title="Included example theme" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/example-theme-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/experimental-apps.png" title="Enabling experimental apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/experimental-apps-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/experimental-apps2.png" title="Choosing experimental apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/experimental-apps2-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-server-tab.png" title="LDAP wizard server page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-server-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-users-tab.png" title="LDAP wizard users page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-users-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-login-tab.png" title="LDAP wizard login page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-login-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-group-tab.png" title="LDAP wizard group page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-group-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+		</div>-->
 
 		<div class="row">
 			<!--Release Channels video-->
-			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<!-- 			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
 			<!--Introduction to Admin Panel video-->
-			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<!-- 			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
 			<!--Introducing the new experimental apps in the app store-->
-			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<!-- 			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
 			<!--New external storage options explained-->
-			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/nx5PGWc7X18?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<!-- 			<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/nx5PGWc7X18?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
                 </div>
 
                 <a name="developer"></a>
@@ -210,7 +221,7 @@
 
                <div class="row featurerow">
 			<div class="col-md-4 featureblock">
-				<img class="thumbnail" alt="external_storage" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
+				<img class="thumbnail" alt="app store" src="<?php bloginfo('template_directory'); ?>/assets/img/features/store.png" />
 				<h3 class="featuretitle">Improved External API</h3></br>
 				<p class="featuredesc">The OCS Share API now returns a URL when fetching shares, allows setting expire date on new shares directly and returns permissions and expire date on creation.</p>
 			</div>
