@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>The configuration loader in ownCloud 5.0.x before 5.0.6 includes private data such as CSRF tokens in a JavaScript file, which allows remote attackers to obtain sensitive information.</p></p>
+        <p><p>The configuration loader in ownCloud 5.0.x before 5.0.6 includes private data such as CSRF tokens in a JavaScript file, which allows remote attackers to obtain sensitive information.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>5.0.6</strong> (CVE-2013-2086)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

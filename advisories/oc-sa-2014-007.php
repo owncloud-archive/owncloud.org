@@ -15,10 +15,12 @@
         
         
         <h3>Description</h3>
-        <p><p>Multiple stored and reflected XSS have been adressed.</p></p>
+        <p><p>Multiple stored and reflected XSS have been adressed.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>6.0.2</strong> ()</li>
+
         </ul>
         <h3>Action Taken</h3>
         <p></p>

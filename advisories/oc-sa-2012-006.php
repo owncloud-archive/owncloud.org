@@ -15,13 +15,17 @@
         
         
         <h3>Description</h3>
-        <p><p>ownCloud 4.5.4, ownCloud 4.0.9 and all versions previous to this doesn’t sufficiently verify whether a request to settings.php was sent by an admin, which allows unauthenticated users to edit app configurations of user_webdavauth and user_ldap. An unauthenticated attacker may use this to gain access to any user account on the server if these plugins are enabled.</p></p>
+        <p><p>ownCloud 4.5.4, ownCloud 4.0.9 and all versions previous to this doesn’t sufficiently verify whether a request to settings.php was sent by an admin, which allows unauthenticated users to edit app configurations of user_webdavauth and user_ldap. An unauthenticated attacker may use this to gain access to any user account on the server if these plugins are enabled.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>4.0.10</strong> (CVE-2013-5665)</li><li>ownCloud Server &lt; <strong>4.5.5</strong> (CVE-2013-5665)</li>
+            <li>ownCloud Server &lt; <strong>4.0.10</strong> (CVE-2013-5665)</li>
+<li>ownCloud Server &lt; <strong>4.5.5</strong> (CVE-2013-5665)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.5 or 4.0.10.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.5 or 4.0.10.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

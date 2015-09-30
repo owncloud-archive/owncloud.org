@@ -15,13 +15,17 @@
         
         
         <h3>Description</h3>
-        <p><p>Incomplete blacklist vulnerability in lib/filesystem.php in ownCloud before 4.0.9 and 4.5.2 allows authenticated remote attackers to execute arbitrary code by uploading a file with a special crafted filename.</p></p>
+        <p><p>Incomplete blacklist vulnerability in lib/filesystem.php in ownCloud before 4.0.9 and 4.5.2 allows authenticated remote attackers to execute arbitrary code by uploading a file with a special crafted filename.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>4.0.10</strong> (CVE-2013-5665)</li><li>ownCloud Server &lt; <strong>4.5.5</strong> (CVE-2013-5665)</li>
+            <li>ownCloud Server &lt; <strong>4.0.10</strong> (CVE-2013-5665)</li>
+<li>ownCloud Server &lt; <strong>4.5.5</strong> (CVE-2013-5665)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.5 or 4.0.10.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.5 or 4.0.10.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

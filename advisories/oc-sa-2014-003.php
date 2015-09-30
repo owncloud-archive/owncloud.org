@@ -15,13 +15,17 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to insecure Flash Cross Domain policies an attacker might gain access to stored files of the user.</p></p>
+        <p><p>Due to insecure Flash Cross Domain policies an attacker might gain access to stored files of the user.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>6.0.2</strong> (CVE-2014-2047)</li><li>ownCloud Server &lt; <strong>5.0.15</strong> (CVE-2014-2049)</li>
+            <li>ownCloud Server &lt; <strong>6.0.2</strong> (CVE-2014-2047)</li>
+<li>ownCloud Server &lt; <strong>5.0.15</strong> (CVE-2014-2049)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>All packaged Flash files have been audited whether they have potentially insecure Cross Domain policies and vulnerable files have been fixed.</p></p>
+        <p><p>All packaged Flash files have been audited whether they have potentially insecure Cross Domain policies and vulnerable files have been fixed.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

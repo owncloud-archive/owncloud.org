@@ -15,13 +15,18 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to trusting user supplied input and interpret it as Host header an attacker is able to craft a password reset mail with a link pointing to his own site. If a user clicks on the link or a software (e.g. antivirus) is accessing the link the attacker is able to reset the user password.</p></p>
+        <p><p>Due to trusting user supplied input and interpret it as Host header an attacker is able to craft a password reset mail with a link pointing to his own site. If a user clicks on the link or a software (e.g. antivirus) is accessing the link the attacker is able to reset the user password.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>6.0.2</strong> (CVE-2014-2047)</li><li>ownCloud Server &lt; <strong>5.0.15</strong> (CVE-2014-2049)</li>
+            <li>ownCloud Server &lt; <strong>6.0.2</strong> (CVE-2014-2047)</li>
+<li>ownCloud Server &lt; <strong>5.0.15</strong> (CVE-2014-2049)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The new 'trusted_domain' setting has been introduced in which all domains from which ownCloud should be accessible has to be specified. A default configuration can be found in config/config.sample.php.</p><p>ownCloud will add this configuration setting on its own during an update or a fresh installation using the currently used domain.</p></p>
+        <p><p>The new 'trusted_domain' setting has been introduced in which all domains from which ownCloud should be accessible has to be specified. A default configuration can be found in config/config.sample.php.</p>
+<p>ownCloud will add this configuration setting on its own during an update or a fresh installation using the currently used domain.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

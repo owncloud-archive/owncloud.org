@@ -15,13 +15,18 @@
         
         
         <h3>Description</h3>
-        <p><p>Multiple directory traversal vulnerabilities in (1) apps/files_trashbin/index.php via the “dir” GET parameter and (2) lib/files/view.php via undefined vectors in all ownCloud versions prior to 5.0.6 and other versions before 4.0.15, allow authenticated remote attackers to get access to arbitrary local files.</p></p>
+        <p><p>Multiple directory traversal vulnerabilities in (1) apps/files_trashbin/index.php via the “dir” GET parameter and (2) lib/files/view.php via undefined vectors in all ownCloud versions prior to 5.0.6 and other versions before 4.0.15, allow authenticated remote attackers to get access to arbitrary local files.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>5.0.6</strong> (CVE-2013-2039, CVE-2013-2085)</li><li>ownCloud Server &lt; <strong>4.5.11</strong> (CVE-2013-2039)</li><li>ownCloud Server &lt; <strong>4.0.15</strong> (CVE-2013-2039)</li>
+            <li>ownCloud Server &lt; <strong>5.0.6</strong> (CVE-2013-2039, CVE-2013-2085)</li>
+<li>ownCloud Server &lt; <strong>4.5.11</strong> (CVE-2013-2039)</li>
+<li>ownCloud Server &lt; <strong>4.0.15</strong> (CVE-2013-2039)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6, 4.5.11 or 4.0.15.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 5.0.6, 4.5.11 or 4.0.15.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

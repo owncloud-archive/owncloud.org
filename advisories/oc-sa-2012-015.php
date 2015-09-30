@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>index.php before ownCloud 4.0.7 does not properly validate the oc_token cookie, which allows remote attackers to bypass authentication via a crafted oc_token cookie value.</p></p>
+        <p><p>index.php before ownCloud 4.0.7 does not properly validate the oc_token cookie, which allows remote attackers to bypass authentication via a crafted oc_token cookie value.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>4.0.7</strong> (CVE-2012-4392)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.7.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.7.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

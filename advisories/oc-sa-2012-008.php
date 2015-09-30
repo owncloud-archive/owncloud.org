@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>The rand and mt_rand functions in PHP < 5.4.x do not produce cryptographically strong random numbers, which allows attackers to leverage exposures in products that rely on these functions for security-relevant functionality, as demonstrated by the password-reset functionality in ownCloud 4.0.x.</p></p>
+        <p><p>The rand and mt_rand functions in PHP < 5.4.x do not produce cryptographically strong random numbers, which allows attackers to leverage exposures in products that rely on these functions for security-relevant functionality, as demonstrated by the password-reset functionality in ownCloud 4.0.x.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>4.0.8</strong> (CVE-2008-4107)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.8.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.0.8.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

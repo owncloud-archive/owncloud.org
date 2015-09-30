@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to not properly checking the ownership of an calendar, an authenticated attacker is able to download calendars of other users via the “calid” GET parameter to export.php in /apps/calendar/</p></p>
+        <p><p>Due to not properly checking the ownership of an calendar, an authenticated attacker is able to download calendars of other users via the “calid” GET parameter to export.php in /apps/calendar/</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>4.5.7</strong> (CVE-2013-0304)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.8.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.8.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

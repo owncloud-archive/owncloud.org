@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to authenticating a user without invalidating any existing session identifier an attacker has the opportunity to steal authenticated sessions. A successful exploit requires that PHP is configured to accept session parameters via <code>GET</code>.</p></p>
+        <p><p>Due to authenticating a user without invalidating any existing session identifier an attacker has the opportunity to steal authenticated sessions. A successful exploit requires that PHP is configured to accept session parameters via <code>GET</code>.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>6.0.2</strong> (CVE-2014-2047)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The session is now regenerated after a successful login.</p></p>
+        <p><p>The session is now regenerated after a successful login.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

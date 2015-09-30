@@ -15,13 +15,18 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to not verifying whether an user has been granted access to add external storages an authenticated user could even mount external storage (e.g. SMB/FTP/etc.) without permission.</p></p>
+        <p><p>Due to not verifying whether an user has been granted access to add external storages an authenticated user could even mount external storage (e.g. SMB/FTP/etc.) without permission.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>6.0.3</strong> (CVE-2014-3835)</li><li>ownCloud Server &lt; <strong>5.0.16</strong> (CVE-2014-3835)</li>
+            <li>ownCloud Server &lt; <strong>6.0.3</strong> (CVE-2014-3835)</li>
+<li>ownCloud Server &lt; <strong>5.0.16</strong> (CVE-2014-3835)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>We reviewed the access-control of the files_external application and ensured that permissions are checked properly for every action.</p><p>Additionally our next major release ownCloud 7 will give administrators the possibility to define which external storage type an user is allowed to mount.</p></p>
+        <p><p>We reviewed the access-control of the files_external application and ensured that permissions are checked properly for every action.</p>
+<p>Additionally our next major release ownCloud 7 will give administrators the possibility to define which external storage type an user is allowed to mount.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

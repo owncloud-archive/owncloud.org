@@ -15,13 +15,16 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to not sufficiently sanitizing the user input in “settings/personal.php” in ownCloud 4.5.x before 4.5.6 an authenticated remote attackers may be able to execute arbitrary code by entering special crafted PHP code in the mount point settings.</p></p>
+        <p><p>Due to not sufficiently sanitizing the user input in “settings/personal.php” in ownCloud 4.5.x before 4.5.6 an authenticated remote attackers may be able to execute arbitrary code by entering special crafted PHP code in the mount point settings.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>4.5.6</strong> (CVE-2013-0204)</li>
+
         </ul>
         <h3>Action Taken</h3>
-        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.6.</p></p>
+        <p><p>It is recommended that all instances are upgraded to ownCloud Server 4.5.6.</p>
+</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
