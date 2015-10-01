@@ -139,7 +139,7 @@
 			<div class="col-md-6 featureblock">
 				<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
 				<h3 class="featuretitle">Security Improvements</h3></br>
-				<p>ownCloud Server 8.1 has received a significant amount of security hardening, including the following:</br>
+				<p>ownCloud Server 8.2 has received a significant amount of security hardening, including the following:</br>
 				<ul class="featureslist">
 				<li>ownCloud now encrypts user keys in the ownCloud session. This means that, even if a server is compromised and the session data is discovered, user private keys stored in the session – required to unencrypt files stored on the server – can no longer be read.</li>
 				<li>$.get and $.post cannot be used to execute remote JavaScript anymore.</li>
