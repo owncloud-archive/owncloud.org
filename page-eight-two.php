@@ -111,7 +111,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="notification" src="<?php bloginfo('template_directory'); ?>/assets/img/features/notification.png" />
 				<h3 class="featuretitle">Notification Mechanism</h3></br>
-				<p class="featuredesc">ownCloud now offers a notification window where an admin can push notifications out to users of the ownCloud system, such as notification about a maintenance window. This is currently only in the web interface but future mobile and desktop client releases will incorporate the notification feature.</p>
+				<p class="featuredesc">ownCloud now offers a notification window where an admin can push notifications out to users of the ownCloud system, such as notification about a maintenance window. This is currently only in the web interface but future mobile and desktop client releases will incorporate the notification feature. There is an <a href="https://apps.owncloud.com/content/show.php?content=173921">Announcement Center App in the app store</a> for sending system wide notifications.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
@@ -168,20 +168,10 @@
 			</div>
 		</div>
 
-<!--		<div class="row">
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/tips-and-tricks.png" title="Tips and tricks as well as links to documentation are well integrated in the admin panel" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/tips-and-tricks-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/mount-options.png" title="You can set encryption, update policy and previews for each external storage mount" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/mount-options-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/encryption3.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/encryption3-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/encryption5.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/encryption5-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/update-channels.png" title="Release Channel selection in Updater App" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/example-theme.png" title="Included example theme" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/example-theme-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/experimental-apps.png" title="Enabling experimental apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/experimental-apps-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/experimental-apps2.png" title="Choosing experimental apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/experimental-apps2-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-server-tab.png" title="LDAP wizard server page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-server-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-users-tab.png" title="LDAP wizard users page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-users-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-login-tab.png" title="LDAP wizard login page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-login-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-group-tab.png" title="LDAP wizard group page" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/LDAP-group-tab-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-		</div>-->
+		<div class="row">
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/announcement-center.png" title="The Announcement Center App in action" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/announcement-center-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/notification.png" title="A notification" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/notification-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+		</div>
 
 		<div class="row">
 			<!--Release Channels video-->
