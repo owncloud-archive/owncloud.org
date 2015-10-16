@@ -9,7 +9,7 @@
         <?php get_template_part('advisories/advisory-side'); ?>
     </div>
     <div class="col-md-8">
-        <h2>PHP arbitrary class instantiiation in "files_external" (oC-SA-2015-018)</h2>
+        <h2>PHP arbitrary class instantiation in "files_external" (oC-SA-2015-018)</h2>
         <p>30th September 2015</p>
         <p>Risk level: <strong>High</strong></p>
         <p>CVSS v2 Base Score: 9 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:C/I:C/A:C)">AV:N/AC:L/Au:S/C:C/I:C/A:C</a>)</p>
@@ -19,15 +19,15 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>8.1.2</strong> (CVE assignment pending)</li>
+            <li>ownCloud Server &lt; <strong>8.1.2</strong> (CVE-2015-7699)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/a1706f61aaf822aeba4ea9e84b53c5cea984f8e4">core/a1706f61aaf822aeba4ea9e84b53c5cea984f8e4</a></li>
 </ul>
-<li>ownCloud Server &lt; <strong>8.0.7</strong> (CVE assignment pending)</li>
+<li>ownCloud Server &lt; <strong>8.0.7</strong> (CVE-2015-7699)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/595381b9bd5676492ff8957de0590982ed1864a4">core/595381b9bd5676492ff8957de0590982ed1864a4</a></li>
 </ul>
-<li>ownCloud Server &lt; <strong>7.0.9</strong> (CVE assignment pending)</li>
+<li>ownCloud Server &lt; <strong>7.0.9</strong> (CVE-2015-7699)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/b05e178bbf884b120d1106e6a28f35aa50d6d06f">core/b05e178bbf884b120d1106e6a28f35aa50d6d06f</a></li>
 </ul>
