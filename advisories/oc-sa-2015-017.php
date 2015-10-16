@@ -20,7 +20,7 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>8.1.2</strong> (CVE assignment pending)</li>
+            <li>ownCloud Server &lt; <strong>8.1.2</strong> (CVE-2015-7698)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/8c145541f65592a4d2d7de50ecfa1b0698496cb8">core/8c145541f65592a4d2d7de50ecfa1b0698496cb8</a></li>
 </ul>
