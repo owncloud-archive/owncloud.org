@@ -1,6 +1,6 @@
 		<div class="row headerrow">
 			<div class="col-md-5">
-				<iframe width="95%" height="315" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
+				<iframe width="95%" height="315" src="https://www.youtube.com/embed/m1V71pCAsws?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
 			</div>
 			<div class="col-md-7">
 				<h2>ownCloud Server 8.2 Features</h2>
@@ -29,13 +29,13 @@
 			<div class="col-md-4 featureblock">
 				<i class="icon-desktop"></i>
 				<h3 class="ft-title">Improved Design</h3>
-				<p class="featuredesc">This release introduces significant design improvements including new icons and a sidebar giving quick access to file information.</p>
+				<p class="featuredesc">This release introduces significant design improvements including a new look and a sidebar giving quick access to file information.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
 				<i class="icon-picture-o"></i>
 				<h3 class="ft-title">Pictures Becomes Gallery</h3>
-				<p class="featuredesc">The Gallery app replaces the Pictures app with a much nicer user experience introducing image sorting, image zoom, easy switching to the gallery and more.</p>
+				<p class="featuredesc">The Gallery app replaces the Pictures app with a much nicer user experience introducing image sorting, image zoom, easy switching from the Files app and more.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
@@ -85,9 +85,6 @@
 				<p class="featuredesc">The text editor included in ownCloud has been updated, featuring a new look and automatically saving your files.</p>
 			</div>
 		</div>
-
-
-
 
 		<div class="row">
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/gallery.png" title="New Gallery introduces sorting, zooming and more" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-two/gallery-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
