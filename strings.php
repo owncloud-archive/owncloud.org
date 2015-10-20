@@ -67,7 +67,7 @@ $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.owncloud.org/download/repo
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
 
 // VM
-$DOWNLOAD_VM_BASE = 'http://download.owncloud.org/community/testing/vm/';
+$DOWNLOAD_VM_BASE = 'http://download.owncloud.org/community/production/vm/';
 
 $DOWNLOAD_VM_OVA = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.ova.zip';
 $DOWNLOAD_VM_QCOW2 = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.qcow2.zip';
