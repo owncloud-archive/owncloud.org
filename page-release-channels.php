@@ -7,6 +7,7 @@
       <div class="col-lg-6 col-md-5 col-sm-4 col-xs-12">
 	      <p>With millions of ownCloud users, there are a wide variety of needs and requirements. We offer Release Channels to give our users more flexibility in choosing an ownCloud version to meet their needs. Below you can find and pick the best Channel for you.</p>
 	      <p>You can choose a channel of your preference in the Administrator settings in your ownCloud instance if you have installed ownCloud from an archive. If you prefer using Linux packages, you can pick a repository for a specific version, a repository with daily snapshots or follow the repository which always has the latest stable feature release.</p>
+	      <p>NOTE that you can <strong>only upgrade to a newer version</strong>. Downgrading is not supported by ownCloud.</p>
       </div>
       <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12">
       	     <iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -40,7 +41,7 @@
     </tr>
     <tr>
       <td class="warning"><h1>Beta</h1></td>
-      <td class="info">Betas and release candidates are the versions of choice for testers in preparation for an ownCloud release. Grab these to make sure the upcoming release works well on your infrastructure.</td>
+      <td class="info">Betas and release candidates are the versions of choice for testers in preparation for an ownCloud release. They provide a short-term-stable point to report bugs against. Grab these to make sure the upcoming release works well on your infrastructure.<br>Automatically generated <a href="/install/#testing-development">snapshot tarballs and packages</a> track daily ownCloud development. These are suitable to check if bugs are fixed but can break any time.</td>
       <td class="info">Follow our <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/testing/index.html">testpilots mailing list</a> to get the latest test version.<br />
       <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>
       </td>
