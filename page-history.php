@@ -103,7 +103,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
       <div class="tl-body">
         <p><a href="https://owncloud.com/announcing-the-federated-cloud-sharing-api/">announcement</a></p>
-        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/misc/open-cloud-mesh.png" style="width: 100%" alt="Open Cloud Mesh" class="img-responsive" /></a>
+        <a href="https://owncloud.com/announcing-the-federated-cloud-sharing-api/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/misc/open-cloud-mesh.png" style="width: 100%" alt="Open Cloud Mesh" class="img-responsive" /></a>
     </div>
     </div>
   </li>
