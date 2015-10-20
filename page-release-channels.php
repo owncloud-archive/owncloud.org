@@ -25,7 +25,7 @@
 		       That does not imply that these releases are bug free. The issues are known and can be worked around. The downside of this channel is that the releases are behind in terms of features and performance.</td>
             <td class="info">Older archives are available from our <a href="/changelog">changelog</a>.<br />
 		    Stable repositories are available for the following major versions:
-		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.2&package=owncloud">8.2</a>
+		    <a href="https://download.owncloud.org/download/repositories/8.2/owncloud/">8.2</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0</a>
@@ -61,6 +61,7 @@
         <p><strong>Warning:</strong></br>
         If you pick a <strong>specific Linux Package repository</strong> rather than following stable, you assume the responsibility for a timely upgrade to a new stable release once your current release is no longer supported. We support releases for a significant time, but not forever, and at some point you have to move to a newer version to continue to receive security and stability improvements.</br>
         If at all possible, we suggest to <strong>upgrade sooner rather than later</strong>. Doing a test on a copy of your production environment is a better way of ensuring the new version works for you than waiting and hoping all issues are found and fixed – that way, you lose out on many of the benefits of the new release, not only in terms of features and user interface enhancements but also when it comes to performance improvements and scalability.</p>
+        <p>Note that from 8.2 onward, ownCloud packages can be found on download.owncloud.org rather than on the openSUSE Open Build Service. This means you will have to move repositories if you want to upgrade from the Stable 8.1 release.</p>
     </div>
     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-10">
         <a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Update Channel selection in Updater app" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a>

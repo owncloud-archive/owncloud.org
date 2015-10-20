@@ -21,7 +21,7 @@ Download: <a href="https://download.owncloud.org/community/owncloud-8.2.0.tar.bz
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.0.tar.bz2.md5">owncloud-8.2.0.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.0.zip.md5">owncloud-8.2.0.zip.md5</a></br>
 SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.0.tar.bz2.sha256">owncloud-8.2.0.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.0.zip.sha256">owncloud-8.2.0.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.0.tar.bz2.asc">owncloud-8.2.0.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.0.zip.asc">owncloud-8.2.0.zip.asc</a></br>
-Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.2&package=owncloud">on the Open Build Service</a></br>
+Packages: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud/">on our Open Build Service instance</a></br>
 
 <h3>Version 8.1.3 <small>September 15 2015</small></h3>
 <ul>

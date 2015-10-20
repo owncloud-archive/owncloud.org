@@ -2,10 +2,10 @@
 // Strings used throughout ownCloud.org.
 
 /* VERSIONS */
-$VERSIONS_SERVER_MAJOR_STABLE = '8.1';
-$VERSIONS_SERVER_FULL_STABLE = '8.1.3';
-$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '8.2';
-$VERSIONS_SERVER_MAJOR_DEV_DOCS = '8.2'; // Used in dev docs links
+$VERSIONS_SERVER_MAJOR_STABLE = '8.2';
+$VERSIONS_SERVER_FULL_STABLE = '8.2.0';
+$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '8.3';
+$VERSIONS_SERVER_MAJOR_DEV_DOCS = '8.3'; // Used in dev docs links
 $VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.0.1';
 $VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.0'; // For use in documentation link
 $VERSIONS_CLIENT_DESKTOP_TESTING = '2.0.2-rc1';
@@ -49,7 +49,7 @@ $DOWNLOAD_SERVER_STABLE_TAR = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER
 $DOWNLOAD_SERVER_STABLE_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.tar.bz2.md5';
 $DOWNLOAD_SERVER_STABLE_TAR_SHA256 = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.tar.bz2.sha256';
 $DOWNLOAD_SERVER_STABLE_TAR_PGP = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.tar.bz2.asc';
-$DOWNLOAD_SERVER_PACKAGES_STABLE = 'https://software.opensuse.org/download/package?project=isv:ownCloud:community&package=owncloud';
+$DOWNLOAD_SERVER_PACKAGES_STABLE = 'https://download.owncloud.org/download/repositories/8.2/owncloud/';
 $DOWNLOAD_SERVER_STABLE_ZIP = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.zip';
 $DOWNLOAD_SERVER_STABLE_ZIP_MD5 = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.zip.md5';
 $DOWNLOAD_SERVER_STABLE_ZIP_SHA256 = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.zip.sha256';
@@ -58,10 +58,10 @@ $DOWNLOAD_SERVER_STABLE_ZIP_PGP = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SE
 // Daily
 $DOWNLOAD_SERVER_DAILY_TAR = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.tar.bz2';
 $DOWNLOAD_SERVER_DAILY_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.tar.bz2.md5';
-$DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://software.opensuse.org/download/package?project=isv:ownCloud:community:nightly&package=owncloud';
+$DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.owncloud.org/download/repositories/nightly/';
 
 // Testing
-$DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&package=owncloud';
+$DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.owncloud.org/download/repositories/8.2:/testing/owncloud';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
