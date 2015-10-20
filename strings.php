@@ -16,7 +16,7 @@ $DOCUMENTATION_DEVELOPER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR
 $DOCUMENTATION_ADMIN = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'/admin_manual/';
 $DOCUMENTATION_USER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'/user_manual/';
 $DOCUMENTATION_CLIENT_DESKTOP = $DOCUMENTATION_BASE.'/desktop/'.$VERSIONS_CLIENT_DESKTOP_STABLE_SHORT;
-$VERSIONS_VM = '8.1.3-1.1-201509112335';
+$VERSIONS_VM = '8.2.0-1.1-201510201459';
 $VM_UBUNTU_RELEASE = '14.04';
 
 /* DOWNLOADS */
@@ -67,7 +67,7 @@ $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.owncloud.org/download/repo
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
 
 // VM
-$DOWNLOAD_VM_BASE = 'http://download.owncloud.org/community/testing/vm/';
+$DOWNLOAD_VM_BASE = 'http://download.owncloud.org/community/production/vm/';
 
 $DOWNLOAD_VM_OVA = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.ova.zip';
 $DOWNLOAD_VM_QCOW2 = $DOWNLOAD_VM_BASE.'xUbuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.qcow2.zip';
