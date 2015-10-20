@@ -6,7 +6,7 @@
   <div class="col-md-4">
     <hr class="narrow"></hr>
     <div class="numbadge centre">1</div>
-    <h3><i class="icon-download"></i> Download ownCloud</h3>
+    <h3><i class="icon-download"></i> Download ownCloud Server</h3>
     <p>Set up a server yourself, deploy to the cloud or find a provider:</p>
     <div class="btn-group">
       <a class="btn btn-default btn-lg" role="button" href="#instructions-server" rel="tooltip" title="Install instructions" id="server" data-toggle="popover">Download</a>
@@ -17,7 +17,7 @@
   <div class="col-md-4">
     <hr class="narrow"></hr>
     <div class="numbadge centre">2</div>
-    <h3><i class="icon-refresh"></i> Sync</h3>
+    <h3><i class="icon-refresh"></i> Sync your data</h3>
     <p>Connect to your ownCloud with our clients:</p>
     <div class="btn-group">
       <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a>
@@ -27,7 +27,7 @@
   <div class="col-md-4">
     <hr class="narrow"></hr>
     <div class="numbadge centre">3</div>
-    <h3><i class="icon-globe"></i> Extend</h3>
+    <h3><i class="icon-globe"></i> Extend your cloud</h3>
     <p>Browse hundreds of free ownCloud apps and connect services you use to ownCloud:</p>
      <div class="btn-group">
         <a class="btn btn-default btn-lg" role="button" href="https://apps.owncloud.com" target="_blank">ownCloud Apps</a>

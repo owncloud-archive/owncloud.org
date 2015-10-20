@@ -152,7 +152,7 @@
 				<p>Music • Calendar • Contacts • Files • Video • More</p>
 				<div class="button-group text-center">
 				<h2>Host your own data</h2>
-				<a href="https://www.youtube.com/watch?v=RrAhClhrRAc" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
+				<a href="https://www.youtube.com/watch?v=m1V71pCAsws" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
 				<a href="/features/" target="_blank"><button type="button" class="btn btn-lg">More Features</button></a>
 				</div>
 			</div>
@@ -250,7 +250,7 @@ $( document ).ready(function() {
 	</div>
 </div>
 
-<div class="wrap container pad-bottom">
+<!--<div class="wrap container pad-bottom">
 	<div class="row">
 		<div class="col-md-12 text-center">
 			<h2>We rock the ownCloud Contributor Conference!</h2>
@@ -266,7 +266,7 @@ $( document ).ready(function() {
 			  <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Learn more about the event and the announcements!</a>
 		</div>
 	</div>
-</div>
+</div>-->
 
 <div class="wrap container pad-bottom">
 		<div class="row">

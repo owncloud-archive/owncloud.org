@@ -7,6 +7,7 @@
       <div class="col-lg-6 col-md-5 col-sm-4 col-xs-12">
 	      <p>With millions of ownCloud users, there are a wide variety of needs and requirements. We offer Release Channels to give our users more flexibility in choosing an ownCloud version to meet their needs. Below you can find and pick the best Channel for you.</p>
 	      <p>You can choose a channel of your preference in the Administrator settings in your ownCloud instance if you have installed ownCloud from an archive. If you prefer using Linux packages, you can pick a repository for a specific version, a repository with daily snapshots or follow the repository which always has the latest stable feature release.</p>
+	      <p>NOTE that you can <strong>only upgrade to a newer version</strong>. Downgrading is not supported by ownCloud.</p>
       </div>
       <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12">
       	     <iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -25,10 +26,10 @@
 		       That does not imply that these releases are bug free. The issues are known and can be worked around. The downside of this channel is that the releases are behind in terms of features and performance.</td>
             <td class="info">Older archives are available from our <a href="/changelog">changelog</a>.<br />
 		    Stable repositories are available for the following major versions:
+		    <a href="https://download.owncloud.org/download/repositories/8.2/owncloud/">8.2</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0</a>
-		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">6.0</a>
 		    <br>Register and activate one of these repositories with your package manager to get updates within the same major version<a href="#warning">*</a>
             </td>
     </tr>
@@ -40,7 +41,7 @@
     </tr>
     <tr>
       <td class="warning"><h1>Beta</h1></td>
-      <td class="info">Betas and release candidates are the versions of choice for testers in preparation for an ownCloud release. Grab these to make sure the upcoming release works well on your infrastructure.</td>
+      <td class="info">Betas and release candidates are the versions of choice for testers in preparation for an ownCloud release. They provide a short-term-stable point to report bugs against. Grab these to make sure the upcoming release works well on your infrastructure.<br>Automatically generated <a href="/install/#testing-development">snapshot tarballs and packages</a> track daily ownCloud development. These are suitable to check if bugs are fixed but can break any time.</td>
       <td class="info">Follow our <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/testing/index.html">testpilots mailing list</a> to get the latest test version.<br />
       <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>
       </td>
@@ -61,6 +62,7 @@
         <p><strong>Warning:</strong></br>
         If you pick a <strong>specific Linux Package repository</strong> rather than following stable, you assume the responsibility for a timely upgrade to a new stable release once your current release is no longer supported. We support releases for a significant time, but not forever, and at some point you have to move to a newer version to continue to receive security and stability improvements.</br>
         If at all possible, we suggest to <strong>upgrade sooner rather than later</strong>. Doing a test on a copy of your production environment is a better way of ensuring the new version works for you than waiting and hoping all issues are found and fixed – that way, you lose out on many of the benefits of the new release, not only in terms of features and user interface enhancements but also when it comes to performance improvements and scalability.</p>
+        <p>Note that from 8.2 onward, ownCloud packages can be found on download.owncloud.org rather than on the openSUSE Open Build Service. This means you will have to move repositories if you want to upgrade from the Stable 8.1 release.</p>
     </div>
     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-10">
         <a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Update Channel selection in Updater app" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a>
