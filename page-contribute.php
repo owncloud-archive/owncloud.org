@@ -4,7 +4,7 @@
 Do you want to <strong>help</strong> translate, promote or document ownCloud?</p>
 <h2>Become part of the ownCloud Community and help us liberate data across the globe!</h2>
 <div class="row" style="text-align: center">
-  <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/testing/index.html" class="btn btn-lg btn-default">
+  <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" class="btn btn-lg btn-default">
   <i class="icon-lightbulb-o"></i> Join the Test Pilots!</a>
   <a href="/promote" class="btn btn-default btn-lg"><i class="icon-bullhorn"></i> Discuss ownCloud with others</a>
 </div>
@@ -30,7 +30,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 	<div class="col-md-6">
             <h3><i class="icon-thumbs-up"></i>&nbsp;&nbsp;Improve ownCloud</h3>
             <ul>
-            <li>Develop your own ownCloud Server app (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app">app development documentation</a>)</li>
+            <li>Develop your own ownCloud Server app (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>app">app development documentation</a>)</li>
             <li>Get a bug fixed (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker">bugtracker documentation</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>general">general guidelines and setup</a>)</li>
             <li>Improve the ownCloud Core (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core">core development documentation</a>)</li>
             <li>Learn to write ownCloud code. (Try your hands on a <a href="https://github.com/owncloud/core/issues?labels=Junior+Job&state=open">Junior Job</a>
