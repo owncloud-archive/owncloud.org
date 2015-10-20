@@ -127,7 +127,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="thumbnails" src="<?php bloginfo('template_directory'); ?>/assets/img/features/favorites.png" />
 				<h3 class="featuretitle">Improved Mimetype Handling</h3></br>
-				<p class="featuredesc">Administrators can now can define custom mimetype mappings and aliases. The occ tool has been updated to allow scanning for new mimetypes and update the database to ensure files are properly identified.</p>
+				<p class="featuredesc">Administrators can now define custom mimetype mappings and aliases. The occ tool has been updated to allow scanning for new mimetypes and update the database to ensure files are properly identified.</p>
 			</div>
 		</div>
 
