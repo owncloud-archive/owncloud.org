@@ -1,6 +1,52 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3 id="201">Release 2.0.2 <small>October 22nd 2015</small></h3>
+<ul>
+<li>csync_file_stat_s: Save a bit of memory</li>
+<li>Shibboleth: Add our base user agent to WebKit</li>
+<li>SelectiveSync: Increase folder list timeout to 60</li>
+<li>Propagation: Try another sync on 423 Locked (<a href="https://github.com/owncloud/client/issues/3387">#3387</a>)</li>
+<li>Propagation: Make 423 Locked a soft error (<a href="https://github.com/owncloud/client/issues/3387">#3387</a>)</li>
+<li>Propagation: Reset upload blacklist if a chunk suceeds</li>
+<li>Application: Fix crash on early shutdown (<a href="https://github.com/owncloud/client/issues/3898">#3898</a>)</li>
+<li>Linux: Don't show settings dialog always when launched twice (<a href="https://github.com/owncloud/client/issues/3273">#3273</a>, <a href="https://github.com/owncloud/client/issues/3771">#3771</a>, <a href="https://github.com/owncloud/client/issues/3485">#3485</a>)</li>
+<li>win32 vio: Add the OPEN_REPARSE_POINTS flag to the CreateFileW call. (<a href="https://github.com/owncloud/client/issues/3813">#3813</a>)</li>
+<li>AccountSettings: only expand root elements on single click.</li>
+<li>AccountSettings: Do not allow to expand the folder list when disconnected.</li>
+<li>Use application SHORT name for the name of the MacOSX pkg file (ownBrander).</li>
+<li>FolderMan: Fix for removing a syncing folder (<a href="https://github.com/owncloud/client/issues/3843">#3843</a>)</li>
+<li>ConnectionMethodDialog: Don't be insecure on close (<a href="https://github.com/owncloud/client/issues/3863">#3863</a>)</li>
+<li>Updater: Ensure folders are not removed (<a href="https://github.com/owncloud/client/issues/3747">#3747</a>)</li>
+<li>Folder settings: Ensure path is cleaned (<a href="https://github.com/owncloud/client/issues/3811">#3811</a>)</li>
+<li>Propagator: Simplify sub job finished counting (<a href="https://github.com/owncloud/client/issues/3844">#3844</a>)</li>
+<li>Share dialog: Hide settings dialog before showing (<a href="https://github.com/owncloud/client/issues/3783">#3783</a>)</li>
+<li>UI: Only expand 1 level in folder list (<a href="https://github.com/owncloud/client/issues/3585">#3585</a>)</li>
+<li>UI: Allow folder expanding from button click (<a href="https://github.com/owncloud/client/issues/3585">#3585</a>)</li>
+<li>UI: Expand folder treeview on single click (<a href="https://github.com/owncloud/client/issues/3585">#3585</a>)</li>
+<li>GUI: Change tray menu order (<a href="https://github.com/owncloud/client/issues/3657">#3657</a>)</li>
+<li>GUI: Replace term "sign in" with "Log in" and friends.</li>
+<li>SetupPage: Fix crash caused by uninitialized Account object.</li>
+<li>Use a themable WebDAV path all over.</li>
+<li>Units: Back to the "usual" mix units (JEDEC standard).</li>
+<li>csync io: Full UNC path support on Win (<a href="https://github.com/owncloud/client/issues/3748">#3748</a>)</li>
+<li>Tray: Don't use the tray workaround with the KDE theme (<a href="https://github.com/owncloud/client/issues/3706">#3706</a>, <a href="https://github.com/owncloud/client/issues/3765">#3765</a>)</li>
+<li>ShareDialog: Fix folder display (<a href="https://github.com/owncloud/client/issues/3659">#3659</a>)</li>
+<li>AccountSettings: Restore from legacy only once (<a href="https://github.com/owncloud/client/issues/3565">#3565</a>)</li>
+<li>SSL Certificate Error Dialog: show account name (<a href="https://github.com/owncloud/client/issues/3729">#3729</a>)</li>
+<li>Tray notification: Don't show a message about modified folder (<a href="https://github.com/owncloud/client/issues/3613">#3613</a>)</li>
+<li>PropagateLocalRemove:  remove entries from the DB even if there was an error.</li>
+<li>Settings UI improvements (eg. <a href="https://github.com/owncloud/client/issues/3713">#3713</a>, <a href="https://github.com/owncloud/client/issues/3721">#3721</a>, <a href="https://github.com/owncloud/client/issues/3619">#3619</a> and others)</li>
+<li>Folder: Do not create the sync folder if it does not exist (<a href="https://github.com/owncloud/client/issues/3692">#3692</a>)</li>
+<li>Shell integratioon: don't show share menu item for top level folders</li>
+<li>Tray: Hide while modifying menus (<a href="https://github.com/owncloud/client/issues/3656">#3656</a>, <a href="https://github.com/owncloud/client/issues/3672">#3672</a>)</li>
+<li>AddFolder: Improve remote path selection error handling (<a href="https://github.com/owncloud/client/issues/3573">#3573</a>)</li>
+<li>csync_update: Use excluded_traversal() to improve performance (<a href="https://github.com/owncloud/client/issues/3638">#3638</a>)</li>
+<li>csync_excluded: Add fast _traversal() function (<a href="https://github.com/owncloud/client/issues/3638">#3638</a>)</li>
+<li>csync_exclude: Speed up siginificantly (<a href="https://github.com/owncloud/client/issues/3638">#3638</a>)</li>
+<li>AccountSettings: Adjust quota info design (<a href="https://github.com/owncloud/client/issues/3644">#3644</a>, <a href="https://github.com/owncloud/client/issues/3651">#3651</a>)</li>
+<li>Adjust buttons on remove folder/account questions (<a href="https://github.com/owncloud/client/issues/3654">#3654</a>)</li>
+</ul>
 <h3 id="201">Release 2.0.1 <small>September 1st 2015</small></h3>
 <ul>
 <li>AccountWizard: fix when the theme specifies an override URL (<a href="https://github.com/owncloud/client/issues/3699">#3699</a>)</li>
