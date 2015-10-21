@@ -49,7 +49,7 @@ $DOWNLOAD_SERVER_STABLE_TAR = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER
 $DOWNLOAD_SERVER_STABLE_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.tar.bz2.md5';
 $DOWNLOAD_SERVER_STABLE_TAR_SHA256 = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.tar.bz2.sha256';
 $DOWNLOAD_SERVER_STABLE_TAR_PGP = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.tar.bz2.asc';
-$DOWNLOAD_SERVER_PACKAGES_STABLE = 'https://download.owncloud.org/download/repositories/8.2/owncloud/';
+$DOWNLOAD_SERVER_PACKAGES_STABLE = 'https://download.owncloud.org/download/repositories/stable/owncloud';
 $DOWNLOAD_SERVER_STABLE_ZIP = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.zip';
 $DOWNLOAD_SERVER_STABLE_ZIP_MD5 = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.zip.md5';
 $DOWNLOAD_SERVER_STABLE_ZIP_SHA256 = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SERVER_FULL_STABLE.'.zip.sha256';
@@ -58,10 +58,10 @@ $DOWNLOAD_SERVER_STABLE_ZIP_PGP = $DOWNLOAD_SERVER_BASE.'owncloud-'.$VERSIONS_SE
 // Daily
 $DOWNLOAD_SERVER_DAILY_TAR = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.tar.bz2';
 $DOWNLOAD_SERVER_DAILY_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'daily/owncloud-daily-master.tar.bz2.md5';
-$DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.owncloud.org/download/repositories/nightly/';
+$DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.owncloud.org/download/repositories/nightly/owncloud';
 
 // Testing
-$DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.owncloud.org/download/repositories/8.2:/testing/owncloud';
+$DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.owncloud.org/download/repositories/testing/owncloud';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
