@@ -43,9 +43,10 @@ Usually, the following types of bugs are out of scope from our security program:
 <h3>Supported Product Versions</h3>
 ownCloud Server:
 <ul>
-	<li>7.0.x</li>
-	<li>8.0.x</li>
+  <li>7.0.x</li>
+  <li>8.0.x</li>
   <li>8.1.x</li>
+  <li>8.2.x</li>
 </ul>
 ownCloud Desktop Client:
 <ul>

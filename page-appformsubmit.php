@@ -1,8 +1,6 @@
 <?php
 if(isset($_POST['email'])) {
 
-    
-
    function died($error) {
 
     // error code goes here
@@ -62,9 +60,9 @@ if(isset($_POST['email'])) {
       return str_replace($bad,"",$string);
     }
     
-    // the app review mailing list address
+// the app review mailing list address
     $email_to = "appsreview@owncloud.org";
-
+    
     $email_message .= "Name: ".clean_string(contributorname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "App name: ".clean_string($app_name)."\n";
@@ -72,7 +70,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Development repo: ".clean_string($appdevurl)."\n";
     $email_message .= "Other authors: ".clean_string($collaborators)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
-    $email_subject .= "Seeking approval for ".clean_string($app_name).;
+    $email_subject .= "Seeking approval for ".clean_string($app_name)."\n";
     
 // create email headers
     $headers = 'From: '.$email_from."\r\n".
@@ -84,7 +82,6 @@ if(isset($_POST['email'])) {
 
 // Second email to subscribe to the mailing list
     @mail("appsreview-join@owncloud.org", "subscribe", "subscribe", $headers);
-    
  ?>
 
     <!-- success html here -->

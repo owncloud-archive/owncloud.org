@@ -40,7 +40,7 @@
 <div class="wrap container">
 	<div class="content row">
 
-<div class="featurewrapper"><h2>New in ownCloud Server 8.1</h2></div>
+<div class="featurewrapper"><h2>New in ownCloud Server 8.2</h2></div>
 <div class="row featurerow">
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="improved design" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sidebar.png" />
@@ -57,7 +57,7 @@
 		<h3 class="featuretitle">Notifications and Deletions</h3></br>
 		<p class="featuredesc">Admins now have the ability to send notifications to users and set limits on file retention in the trash.</p>
 	</div>
-	<a href="/eight-one" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
+	<a href="/eight-two" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
 </div>
 
 <div class="featurewrapper"><h2>ownCloud Features</h2></div>
