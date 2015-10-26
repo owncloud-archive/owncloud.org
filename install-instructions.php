@@ -70,7 +70,7 @@
                     <div class="overlay-body row">
                         <div class="col-md-6">
                             <p>ownCloud provides ready-to-deploy <strong>packages</strong> for popular Linux distributions such as Debian, Ubuntu, Fedora, RedHat Enterprise Linux, CentOS and openSUSE.</p>
-                            <p>Clicking on “Continue” will forward you to the ownCloud download page page, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there. Here is the <a href="<?php echo get_template_directory_uri(); ?>/assets/files/obs-release-signing.gpg">key used to sign our packages</a>.</p>
+                            <p>Clicking on “Continue” will forward you to the ownCloud download page, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there. Here is the <a href="<?php echo get_template_directory_uri(); ?>/assets/files/obs-release-signing.gpg">key used to sign our packages</a>.</p>
                             <p>The repositories allow you to stay on an up-to-date version of ownCloud using your distributions’ update mechanism, with packages maintained by the ownCloud community.</p>
                             <p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</br>
                             If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a> for moving to new ownCloud releases.</p>
