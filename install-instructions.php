@@ -80,7 +80,7 @@
 				      <div class="thumbnail">
 					  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 				      </div>
-                            <p><strong>Security note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find the <a href="<?php echo $OWNCLOUD_GPG; ?>">public ownCloud GPG key here</a>.</p>
+                            <p><strong>Security note:</strong></br> We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find the <a href="<?php echo $OWNCLOUD_GPG; ?>">public ownCloud GPG key here</a>.</p>
                             <p>Looking for repositories of <a href="/changelog">previous major releases</a>?</p>
                                     <p><small>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</small></p>
                         </div>
