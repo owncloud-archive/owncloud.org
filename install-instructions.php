@@ -47,7 +47,7 @@
                       <div id="tab-web" role="tabpanel" class="tab-pane">
                         <div class="overlay-body row">
                             <div class="col-md-6">
-                                  <p>The <strong>Web Installer</strong> is the easiest way to install ownCloud on a web space. It checks the dependencies, downloads the newest ownCloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the ownCloud installer.</p>
+                                  <p>The <strong>Web Installer</strong> is the easiest way to install ownCloud on a web space. It checks the dependencies, downloads ownCloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the ownCloud installer.</p>
                                   <ol>
                                           <li>Right-click <a href="https://download.owncloud.com/download/community/setup-owncloud.php">here</a> and save the file to your computer</li>
                                           <li>Upload <tt>setup-owncloud.php</tt> to your web space</li>
@@ -56,6 +56,7 @@
                                           <li>Login to your newly created ownCloud instance!</li>
                                   </ol>
                                     <p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
+                                    <p><strong>Note</strong> that the installer uses the same ownCloud version as available for the built in updater in ownCloud. After a major release it can take up to a month before it becomes available through the web installer and the updater. This is done to spread the deployment of new major releases out over time.</p>
                             </div>
                             <div class="col-md-6">
 				      <div class="thumbnail">
