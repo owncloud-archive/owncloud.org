@@ -3,7 +3,7 @@
 </div>
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 
-<h3>Version 8.1.4 <small>October 20 2015</small></h3>
+<h3>Version 8.1.4 <small>October 30 2015</small></h3>
 <ul>
 <li>Stop when PHP 7 is used, only ownCloud 8.2 is compatible</li>
 <li>Allow public webdav auth to recognize sesssion, (WebDAV can be used with publicly shared links)</li>
@@ -34,7 +34,7 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.4.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.4.tar.bz2.asc">owncloud-8.1.4.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.4.zip.asc">owncloud-8.1.4.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">on the Open Build Service</a></br>
 
-<h3>Version 8.0.9 <small>October 20 2015</small></h3>
+<h3>Version 8.0.9 <small>October 30 2015</small></h3>
 Several fixes, including:
 <ul>
 <li>Stop when PHP 7 is used, only ownCloud 8.2 is compatible</li>
@@ -53,7 +53,7 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.9.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.9.tar.bz2.asc">owncloud-8.0.9.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.9.zip.asc">owncloud-8.0.9.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
 
-<h3>Release 7.0.11 <small>October 20 2015</small></h3>
+<h3>Release 7.0.11 <small>October 30 2015</small></h3>
 Several fixes, including:
 <ul>
 <li>Stop when PHP 7 is used, only ownCloud 8.2 is compatible</li>
