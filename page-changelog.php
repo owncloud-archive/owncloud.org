@@ -3,17 +3,86 @@
 </div>
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 
-<h3>Version 8.2.0 <small>October 20th 2015</small></h3>
+<h3>Version 8.1.4 <small>October 30 2015</small></h3>
 <ul>
-<li>Many design updates</li>
+<li>Stop when PHP 7 is used, only ownCloud 8.2 is compatible</li>
+<li>Allow public webdav auth to recognize sesssion, (WebDAV can be used with publicly shared links)</li>
+<li>Make it possible to change the syslog_tag</li>
+<li>Enable limiting resharing when using Federated Cloud Sharing</li>
+<li>Improved Memcached compatibility</li>
+<li>Optimized ./occ performance and decrease space usage</li>
+<li>Several improvements to LDAP reliability</li>
+<li>Switch to debug logging on upgrade</li>
+<li>improve Documents compatibility</li>
+<li>IE/Win 10 compatibility fix</li>
+<li>WebDAV won't create empty folders on incorrect copy commands</li>
+<li>Crypto error fix</li>
+<li>Improve email sending compatibility</li>
+<li>Download tar on Mac instead of zip</li>
+<li>Fix search operations for Node</li>
+<li>Block downgrades as they are unsupported</li>
+<li>Fixed password reset from admin account</li>
+<li>Fixes related to various PHP versions</li>
+<li>Fixes to PDF viewer and text editor</li>
+<li>Several UI improvements</li>
+<li>Security improvements</li>
+<li>Many small improvements</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.1.4.tar.bz2">owncloud-8.1.4.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.4.zip">owncloud-8.1.4.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.4.tar.bz2.md5">owncloud-8.1.4.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.4.zip.md5">owncloud-8.1.4.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.4.tar.bz2.sha256">owncloud-8.1.4.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.4.zip.sha256">owncloud-8.1.4.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.4.tar.bz2.asc">owncloud-8.1.4.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.4.zip.asc">owncloud-8.1.4.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">on the Open Build Service</a></br>
+
+<h3>Version 8.0.9 <small>October 30 2015</small></h3>
+Several fixes, including:
+<ul>
+<li>Stop when PHP 7 is used, only ownCloud 8.2 is compatible</li>
+<li>Improve LDAP and Memcached compatibility</li>
+<li>Switch to debug logging on upgrade</li>
+<li>optimize ./occ performance and decrease space usage</li>
+<li>WebDAV won't create empty folders on incorrect copy commands</li>
+<li>improve Documents compatibility</li>
+<li>IE/Win 10 compatibility fix</li>
+<li>Security improvements</li>
+<li>Small improvements</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.0.9.tar.bz2">owncloud-8.0.9.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.9.zip">owncloud-8.0.9.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.9.tar.bz2.md5">owncloud-8.0.9.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.9.zip.md5">owncloud-8.0.9.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.9.tar.bz2.sha256">owncloud-8.0.9.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.9.zip.sha256">owncloud-8.0.9.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.9.tar.bz2.asc">owncloud-8.0.9.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.9.zip.asc">owncloud-8.0.9.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">on the Open Build Service</a></br>
+
+<h3>Release 7.0.11 <small>October 30 2015</small></h3>
+Several fixes, including:
+<ul>
+<li>Stop when PHP 7 is used, only ownCloud 8.2 is compatible</li>
+<li>Improve PHP 5.3 support</li>
+<li>Switch to debug logging on upgrade</li>
+<li>Improve LDAP and Memcached compatibility</li>
+<li>WebDAV won't create empty folders on incorrect copy commands</li>
+<li>Security improvements</li>
+<li>Small improvements</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.11.tar.bz2">owncloud-7.0.11.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.11.zip">owncloud-7.0.11.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.11.tar.bz2.md5">owncloud-7.0.11.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.11.zip.md5">owncloud-7.0.11.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.11.tar.bz2.sha256">owncloud-7.0.11.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.11.zip.sha256">owncloud-7.0.11.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.11.tar.bz2.asc">owncloud-7.0.11.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.11.zip.asc">owncloud-7.0.11.zip.asc</a></br>
+Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">on the Open Build Service</a></br>
+
+<h3>Version 8.2.0 <small>October 20th 2015</small></h3>
+Major new ownCloud release, more info <a href="https://owncloud.org/blog/owncloud-server-8-2-brings-renewed-user-interface-and-more-control" target="_blank">in announcement blog</a>. Summary:
+<ul>
+<li>Updated design</li>
 <li>New sidebar</li>
 <li>Rewritten Gallery app</li>
 <li>Updated text editor</li>
 <li>Notifications</li>
 <li>Policy for retaining deleted files and file versions</li>
 <li>Encrypt/decrypt commands</li>
-<li>Improved mimetype handling</li>
-<li>Security Improvements</li>
+<li>Many additions to occ command tool for admins</li>
+<li>Improved mime type handling</li>
+<li>Security Hardening</li>
 <li>ownCloud API work: Modular Authentication support, Capabilities Manager and Query Builder and more</li>
 <li>Many small improvements</li>
 </ul>
