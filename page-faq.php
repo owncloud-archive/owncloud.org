@@ -334,7 +334,7 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <ul>
 	<li>Absolutely. ownCloud Server is built for and used by both private and large scale, professional deployments in enterprises, education, research institutions and government agencies. Find some of the bigger deployments among the <a href="https://owncloud.com/customer-stories" target="_blank">ownCloud.com customer stories</a>.</li>
 	<li>You can use ownCloud for free in any situation - due to the open source license. However, if you require support and certain enterprise functionality, consider <a href="#entcomparison">purchasing a subscription</a>.</li>
-<ul>
+</ul>
 
 <a name="professionaluse"></a>
 <h3>What resources exist to support my deployment?</h3>
