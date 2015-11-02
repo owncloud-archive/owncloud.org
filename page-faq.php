@@ -38,7 +38,7 @@
 	<li><a href="#howitstarted">How did ownCloud get started?</a></li>
 	<li><a href="#getinvolved">How can I get involved in the ownCloud Community?</a></li>
 	<li><a href="#notechknowledge">But what if I'm not very technical?</a></li>
-	<li><a href="#mobile">How can I get started writing mobile (andoid, iOS) clients or third party (web) apps?</a></li>
+	<li><a href="#mobile">How can I get started writing mobile (Android, iOS) clients or third party (web) apps?</a></li>
 	<li><a href="#appslocation">Where can I find ownCloud Server apps?</a></li>
 	<li><a href="#communityswag">Where can I find ownCloud t-shirts, stickers and other swag?</a></li>
 </ul>
@@ -269,10 +269,10 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 </ul>
 
 <a name="mobile"></a>
-<h3>How can I get started writing mobile (andoid, iOS) clients or third party (web) apps?</h3>
+<h3>How can I get started writing mobile (Android, iOS) clients or third party (web) apps?</h3>
 <ul>
-	<li>First of all, awesome you want to bring ownCloud support to your app or built an app entirely for ownCloud, rocking!</li>
-	<li>If you're interested in writing and Android or iOS app with ownCloud support, you can use our MIT licensed libraries on those platforms. Find them on Github: <a href="https://github.com/owncloud/ios-library">iOS</a>, <a href="https://github.com/owncloud/android-library">Android</a>. You can then use the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>ios_library">iOS</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>android_library">Android</a> developer docs.</li>
+	<li>First of all, awesome you want to bring ownCloud support to your app or build an app entirely for ownCloud, rocking!</li>
+	<li>If you're interested in writing an Android or iOS app with ownCloud support, you can use our MIT licensed libraries on those platforms. Find them on Github: <a href="https://github.com/owncloud/ios-library">iOS</a>, <a href="https://github.com/owncloud/android-library">Android</a>. You can then use the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>ios_library">iOS</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>android_library">Android</a> developer docs.</li>
 	<li>To build a third party application accessing ownCloud data through its external API, <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core/ocs-share-api.html">find the documentation here</a>.
 </ul>
 
