@@ -38,13 +38,14 @@
 	<li><a href="#howitstarted">How did ownCloud get started?</a></li>
 	<li><a href="#getinvolved">How can I get involved in the ownCloud Community?</a></li>
 	<li><a href="#notechknowledge">But what if I'm not very technical?</a></li>
+	<li><a href="#mobile">How can I get started writing mobile (andoid, iOS) clients or third party (web) apps?</a></li>
 	<li><a href="#appslocation">Where can I find ownCloud Server apps?</a></li>
 	<li><a href="#communityswag">Where can I find ownCloud t-shirts, stickers and other swag?</a></li>
 </ul>
 <h4>Legal</h4>
 <ul>
 	<li><a href="#modifyowncloud">Can I modify ownCloud and run it on my website for others to use/access?</a></li>
-	<li><a href="#closedapps">Can I write closed source apps for ownCloud?</a></li>
+	<li><a href="#closedapps">Can I write closed source apps for ownCloud Server?</a></li>
 	<li><a href="#trademark">Can I use the ownCloud logo on my website, for my ownCloud app or client, or promotional materials?</a></li>
 	<li><a href="#copyrightviolation">I want to report a copyright infringement or other legal matter on a site that mentions use of ownCloud.</a></li>
 </ul>
@@ -71,6 +72,7 @@
 <!-- TODO: create and add videos here, explaining all this... -->
 
 <h2>Running ownCloud</h2>
+
 <a name="install"></a>
 <h3>Where do I find information on how to use/install ownCloud?</h3>
 <ul>
@@ -78,10 +80,13 @@
 	<li>There are a lot of tutorials and how-to's written for installing and managing ownCloud, to be found all over the internet. We collect a list on <a href="https://github.com/owncloud/core/wiki/Reviews-tutorials-and-videos-of-ownCloud"  target="_blank">this page</a> and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">YouTube channel collects video tutorials</a> but if what you are looking for is not there, <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">Google</a> or another search engine can find them easily.</li>
 	<li>The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
 </ul>
+
 <a name="channels"></a>
 <h3>I have a problem, what do I do?</h3>
-<p>If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a> does not help and <a href="https://www.google.com/search?q=owncloud+installation+problem" target="_blank">Google</a> can't solve your problem either you should check out <a href="/support/">our support page</a>.</p>
-<p>If you are using ownCloud in a business, educational setting or other professional or large scale deployments, note that the <a href="#entcomparison">ownCloud, Inc.</a> offers support contracts.</p>
+<ul>
+	<li>If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a> does not help and <a href="https://www.google.com/search?q=owncloud+installation+problem" target="_blank">Google</a> can't solve your problem either you should check out <a href="/support/">our support page</a>.</li>
+	<li>If you are using ownCloud in a business, educational setting or other professional or large scale deployments, note that the <a href="#entcomparison">ownCloud, Inc.</a> offers support contracts.</li>
+</ul>
 
 <a name="chat"></a>
 <h3>Where can I discuss ideas with other ownCloud users?</h3>
@@ -111,7 +116,8 @@ The best places for conversation are:
 
 <a name="decentralization"></a>
 <h3>If I have my ownCloud server hosted, does that still help me protect my privacy?</h3>
-<p>Yes, it does. Decentralization helps protect your data by making it harder for an attacker to find, and less valuable if they do (decreasing motivation). Moreover, you get to choose where and with whom you host your data - so you can find a jurisdiction which protects you better, or host your data at a local company you trust. See <a href="https://owncloud.org/blog/dont-be-caught-naked-in-the-cloud-decentralization-protects-our-data/" target="_blank">this blog post</a> for more details on this.</p>
+<ul>
+	<li>Yes, it does. Decentralization helps protect your data by making it harder for an attacker to find, and less valuable if they do (decreasing motivation). Moreover, you get to choose where and with whom you host your data - so you can find a jurisdiction which protects you better, or host your data at a local company you trust. See <a href="https://owncloud.org/blog/dont-be-caught-naked-in-the-cloud-decentralization-protects-our-data/" target="_blank">this blog post</a> for more details on this.</li>
 
 <h2>Technology</h2>
 <a name="rsync"></a>
@@ -119,6 +125,7 @@ The best places for conversation are:
 <ul>
 	<li>rsync is a one-way syncing protocol. This means that if you have two servers and delete a file on one side, it will pop up again if you use rsync. To ensure old files get removed but new files added, and updated files overwritten, you need a N-to-N sync solution. ownCloud uses csync for syncing, which also deals with conflicts in a smart way.</li>
 </ul>
+
 <a name="language"></a>
 <h3>Why is ownCloud Server written in PHP?</h3>
 ownCloud is for everybody. We picked PHP because:
@@ -134,16 +141,19 @@ See more details in <a href="https://owncloud.org/blog/owncloud-and-php/" target
 <ul>
 	<li>HTTP goes through every firewall and proxy.</li>
 </ul>
+
 <a name="android"></a>
 <h3>Why does the calendar/contacts app not work with Android?</h3>
 <ul>
 	<li>iOS has native ical/caldav support, Android does not. You have to use an Android app that does but unfortunately almost all apps we're aware of that support caldav/ical are paid. One open source client is <a href="https://github.com/rfc2822/davdroid" target="_blank">DAVdroid</a>. You can find a list of <a href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd-party apps which work with ownCloud here</a>.</li>
 </ul>
+
 <a name="mobilefeatures"></a>
 <h3>Why does the Android/iOS mobile app not support my favorite feature?</h3>
 <ul>
 	<li>The Android mobile app has automatic picture and video upload. Both mobile clients give access to your files and include selective sync for keeping some of your files up to date on the device. Other features are under development or provided by other apps (like calendar and contacts, see <a href="#android">previous FAQ item</a>). If you'd like to add features to the Android or iOS client, find the <a href="https://github.com/owncloud/android/" target="_blank">Android sources here</a> and the <a href="https://github.com/owncloud/ios" target="_blank">iOS sources here</a>. Legal notes: the Android app is under the GPLv2, the iOS app under the GPLv3. To contribute to either, you have to <a href="https://owncloud.org/contribute/agreement/" target="_blank">sign a contributor agreement</a> or contribute your code under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>. For testing, we provide a <a href="https://owncloud.org/contribute/iOS-license-exception/" target="_blank">iOS license exception</a> so you can run the iOS app on up to 100 devices.</li>
 </ul>
+
 <a name="security"></a>
 <h3>How Secure is ownCloud?</h3>
 <ul>
@@ -151,6 +161,7 @@ See more details in <a href="https://owncloud.org/blog/owncloud-and-php/" target
 	<li>ownCloud is an open source project so all code is visible. We are committed to building secure code. We employ a full-time security expert and do regular security audits on the code. We always welcome fixes to security issues, see <a href="https://owncloud.org/security" target="_blank">owncloud.org/security</a>.</li>
 	<li>To learn a bit more about ownCloud security, watch <a href="https://www.youtube.com/watch?v=iLJbMrLgowk&index=25&list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">this technical talk at the ownCloud Contributor Conference</a> and read <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">this article about ownCloud and encryption</a>.</li>
 </ul>
+
 <a name="security2"></a>
 <h3>Does the long list of security advisories mean ownCloud is less secure than other solutions?</h3>
 Rather the opposite. It signals that ownCloud is a mature project taking responsibility for its security.
@@ -165,6 +176,7 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <ul>
 	<li>Yes, we use TLS for sending and receiving files over the network so they are encrypted during transmission.</li>
 </ul>
+
 <a name="encryption2"></a>
 <h3>Does ownCloud support file encryption on the server?</h3>
 <ul>
@@ -176,27 +188,30 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h3>Can I use ownCloud as a backup solution?</h3>
 <p>No, ownCloud is absolutely not a backup solution:
 <ul>
-<li>Changes you make in one place are synchronized to other places which means that if you accidentally remove or overwrite a file on your local system, ownCloud will remove it from the server.</li>
-<li>If a file get's corrupted at one place the corrupted file get distributed to other places.</li>
-<li>The 'previous files' and 'undelete' functionality of ownCloud is merely meant as a convenience and should never be relied upon as a backup function. Algorithms are in place which clean up 'old files' and thus, changes will get lost over time.</li>
+	<li>Changes you make in one place are synchronized to other places which means that if you accidentally remove or overwrite a file on your local system, ownCloud will remove it from the server.</li>
+	<li>If a file get's corrupted at one place the corrupted file get distributed to other places.</li>
+	<li>The 'previous files' and 'undelete' functionality of ownCloud is merely meant as a convenience and should never be relied upon as a backup function. Algorithms are in place which clean up 'old files' and thus, changes will get lost over time.</li>
 </ul>
-You should use a backup application to store the files in ownCloud somewhere. The <a href="https://doc.owncloud.org">ownCloud documentation</a> has tips on how to back up ownCloud.
+<p>You should use a backup application to store the files in ownCloud somewhere. The <a href="https://doc.owncloud.org">ownCloud documentation</a> has tips on how to back up ownCloud.</p>
 
 <a name="conflict"></a>
 <h3>Why do I sometimes get conflict files and messages while syncing?</h3>
 <ul>
 	<li>A conflict may be caused by two or more users editing the same files at the same time or while on the road before the files are synced. We do not merge changes to files like version control systems like git do; we don't modify user files, ever. So you will get two files, the one that was synced to the server first and the one you had locally modified in the same time. You can compare the file changes by hand and delete the local file once you're sure you did not lose data.</li>
 </ul>
+
 <a name="partialsyncing"></a>
 <h3>Does ownCloud use delta-sync (only syncing file changes)?</h3>
 <ul>
 	<li>We introduced chunked, parallel up- and download with ownCloud 7 and the ownCloud 1.6 client. Syncing only file changes needs much deeper changes. It is on our roadmap, but won't be done soon. Find some <a href="https://dragotin.wordpress.com/2015/02/09/incremental-sync-in-owncloud/" target="_blank">background on that decision here</a>. If you want to speed up the development of this feature by working on it, see <a href="https://github.com/owncloud/mirall/issues/179" target="_blank">the github discussion</a>. If you really want this feature and would like to specifically fund work on it, see <a href="https://www.bountysource.com/issues/905030-sync-only-the-file-change-not-entire-file" target="_blank">the Bountysource page</a>.</li>
 </ul>
+
 <a name="deduplication"></a>
 <h3>Does ownCloud do file de-duplication?</h3>
 <ul>
 	<li>No, we think that that is the job of the file system. We do maintain versions of files as they are replaced and you may revert to older versions at any time.</li>
 </ul>
+
 <a name="syncspeed"></a>
 <h3>Why is ownCloud syncing not faster?</h3>
 <ul>
@@ -228,26 +243,39 @@ You should use a backup application to store the files in ownCloud somewhere. Th
 <ul>
 	<li>The ownCloud code can be found at <a href="https://github.com/owncloud" target="_blank">github.com/ownCloud</a> and our website is on <a href="https://owncloud.org" target="_blank">owncloud.org</a></li>
 </ul>
+
 <a name="communitysize"></a>
 <h3>How big is the ownCloud Community?</h3>
 <ul>
 	<li>ownCloud has over 2 million users and over 360 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="https://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself.</li>
 </ul>
+
 <a name="howitstarted"></a>
 <h3>How did ownCloud get started?</h3>
 <ul>
 	<li>ownCloud started with a keynote by Frank Karlitschek at Camp KDE’10 where he talked about the need for a self-controlled free and open source cloud. Two years later, Frank announced the start of ownCloud, Inc. which is headquartered in Lexington, Massachusetts in the United States and Nuremburg, Germany. Find out more on <a href="/contribute/" target="_blank">our history page</a>.</li>
 </ul>
+
 <a name="getinvolved"></a>
 <h3>How can I get involved in the ownCloud Community?</h3>
 <ul>
 	<li>The best way to get started is to visit <a href="/contribute/" target="_blank">owncloud.org/contribute</a>.</li>
 </ul>
+
 <a name="notechknowledge"></a>
 <h3>But what if I'm not very technical?</h3>
 <ul>
 	<li>There are lots of ways you can contribute to ownCloud. We have a need for developers, designers, event organizers, speakers, QA and more. It is all <a href="/contribute/" target="_blank">on the <em>contribute</em> page</a>!</li>
 </ul>
+
+<a name="mobile"></a>
+<h3>How can I get started writing mobile (andoid, iOS) clients or third party (web) apps?</h3>
+<ul>
+	<li>First of all, awesome you want to bring ownCloud support to your app or built an app entirely for ownCloud, rocking!</li>
+	<li>If you're interested in writing and Android or iOS app with ownCloud support, you can use our MIT licensed libraries on those platforms. Find them on Github: <a href="https://github.com/owncloud/ios-library">iOS</a>, <a href="https://github.com/owncloud/android-library">Android</a>. You can then use the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>ios_library">iOS</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>android_library">Android</a> developer docs.</li>
+	<li>To build a third party application accessing ownCloud data through its external API, <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core/ocs-share-api.html">find the documentation here</a>.
+</ul>
+
 <a name="appslocation"></a>
 <h3>Where can I find ownCloud apps?</h3>
 <ul>
@@ -256,13 +284,17 @@ You should use a backup application to store the files in ownCloud somewhere. Th
 	<li>If you are looking for third-party apps that integrate ownCloud in mobile and desktop applications, see our <a href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd-party apps</a> page.</li>
 	<li>Building a new ownCloud app is easy. If you're interested in developing your own ownCloud app, see <a href="/contribute/" target="_blank">the contribute page</a>, where you can find a link to the latest App Development documentation.</li>
 </ul>
+
 <a name="communityswag"></a>
 <h3>Where can I find ownCloud t-shirts, stickers and other swag?</h3>
-<p>ownCloud has a store on <a href="http://www.cafepress.com/owncloudshop" target="_blank">this page</a> where you can find posters, mugs, stickers, magnets, buttons, t-shirts and much more.</p>
-<p>If you are looking for materials for an ownCloud event or to use to promote ownCloud at a conference or trade show, see our <a href="/events" target="_blank">events pages</a> for information on what is available.</p>
+<ul>
+	<li>ownCloud has a store on <a href="http://www.cafepress.com/owncloudshop" target="_blank">this page</a> where you can find posters, mugs, stickers, magnets, buttons, t-shirts and much more.</li>
+	<li>If you are looking for materials for an ownCloud event or to use to promote ownCloud at a conference or trade show, see our <a href="/events" target="_blank">events pages</a> for information on what is available.</li>
+</ul>
 
 <h2>Legal</h2>
 <p>DISCLAIMER: The answers below are general directions, <em>not</em> legal advice and we can not provide such. Contact a lawyer if you are unsure about any of this.</p>
+
 <a name="modifyowncloud"></a>
 <h3>Can I modify ownCloud and run it on my website for others to use/access?</h3>
 <p>ownCloud Server is available <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">under the AGPLv3</a>. In laymen terms (this is NOT legal advice!) the AGPL license grants you the right to run the ownCloud code wherever and however you want, make modifications and additions and share these with anybody you like. The only limitation is that if you give others access to your ownCloud (by giving them a user account or sharing files with them), you must also give them access to the source code; and the whole source (including your modifications) has to be under the AGPLv3 license.</p>
@@ -278,25 +310,31 @@ You should use a backup application to store the files in ownCloud somewhere. Th
 </ul>
 
 <a name="closedapps"></a>
-<h3>Can I write closed source or proprietary apps for ownCloud?</h3>
+<h3>Can I write closed source or proprietary apps for ownCloud Server?</h3>
 <ul>
 	<li>Yes, but following the requirements of the <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">under the AGPLv3</a>, these can be distributed or made available to users outside of your household or organization only under the <a href="https://www.owncloud.com" target="_blank">ownCloud Enterprise Edition</a>, which supports integration with proprietary technologies. Contact <a href="https://owncloud.com/contact/"target="_blank">ownCloud, Inc.</a> for details.</li>
+	<li>External apps like mobile or desktop clients (like those using the <a href="https://github.com/owncloud/ios-library">iOS</a> or <a href="https://github.com/owncloud/android-library">Android</a> ownCloud libraries, <a href="https://owncloud.com/owncloud-open-sources-mobile-libraries/">which are MIT licensed</a>) or apps running on another server and otherwise not part of ownCloud but using the external ownCloud OCS API as <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/core/externalapi.html" target="_blank">you would find here</a> are NOT subject to the AGPLv3 and can be under any license you like.</li>
 </ul>
 
 <a name="copyrightviolation"></a>
 <h3>I want to report a copyright infringement or other legal matter on a site that mentions use of ownCloud.</h3>
-<p>ownCloud is an open-source project that can be easily hosted by any person allowing anybody to securely exchange files. Neither the ownCloud open source project nor ownCloud, Inc. exert any legal or technical control over those domains. If you found a copyright infringement on a domain other than <a href="http://owncloud.org" target="_blank">owncloud.org</a> or <a href="http://owncloud.com" target="_blank">owncloud.com</a>, please try to contact the domain owner. ownCloud has no insight or control over ownCloud instances.</p>
+<ul>
+	<li>ownCloud is an open-source project that can be easily hosted by any person allowing anybody to securely exchange files. Neither the ownCloud open source project nor ownCloud, Inc. exert any legal or technical control over those domains. If you found a copyright infringement on a domain other than <a href="http://owncloud.org" target="_blank">owncloud.org</a> or <a href="http://owncloud.com" target="_blank">owncloud.com</a>, please try to contact the domain owner. ownCloud has no insight or control over ownCloud instances.</li>
+</ul>
 
 <a name="trademark"></a>
 <h3>Can I use the ownCloud logo on my website, for my ownCloud app or client, or promotional materials?</h3>
-<p>The use of the ownCloud trademark is governed by <a href="/trademarks">our trademark policy</a>. In short, we want to support you in promoting, using and building on ownCloud but we also want to prevent confusion about the meaning of our logo and trademark and your use of it. Carefully read <a href="/trademarks">our trademark policy</a> before you use ownCloud marks (like our logo or our name) on a website, app, flyer or anywhere else.</p>
-
+<ul>
+	<li>The use of the ownCloud trademark is governed by <a href="/trademarks">our trademark policy</a>. In short, we want to support you in promoting, using and building on ownCloud but we also want to prevent confusion about the meaning of our logo and trademark and your use of it. Carefully read <a href="/trademarks">our trademark policy</a> before you use ownCloud marks (like our logo or our name) on a website, app, flyer or anywhere else.</li>
+</ul>
 
 <h2>ownCloud for professional use</h2>
 <a name="professionaluse"></a>
 <h3>Can I use ownCloud in professional, large scale deployments?</h3>
-<p>Absolutely. ownCloud Server is built for and used by both private and large scale, professional deployments in enterprises, education, research institutions and government agencies. Find some of the bigger deployments among the <a href="https://owncloud.com/customer-stories" target="_blank">ownCloud.com customer stories</a>.</p>
-<p>You can use ownCloud for free in any situation - due to the open source license. However, if you require support and certain enterprise functionality, consider <a href="#entcomparison">purchasing a subscription</a>.
+<ul>
+	<li>Absolutely. ownCloud Server is built for and used by both private and large scale, professional deployments in enterprises, education, research institutions and government agencies. Find some of the bigger deployments among the <a href="https://owncloud.com/customer-stories" target="_blank">ownCloud.com customer stories</a>.</li>
+	<li>You can use ownCloud for free in any situation - due to the open source license. However, if you require support and certain enterprise functionality, consider <a href="#entcomparison">purchasing a subscription</a>.</li>
+<ul>
 
 <a name="professionaluse"></a>
 <h3>What resources exist to support my deployment?</h3>
@@ -304,6 +342,7 @@ You should use a backup application to store the files in ownCloud somewhere. Th
 	<li>Where home users can find <a href="#channels">the support resources they need</a> in the community, professional users can find <a href="http://owncloud.com/resources" target="_blank">resources developed by ownCloud, Inc.</a> as well as the <a href="https://owncloud.com/get-started-standard-subscription" target="_blank">Standard Subscription</a> support option for ownCloud Server and the <a href="https://owncloud.com/products/enterprise" target="_blank">Enterprise Subscription</a> which adds functionality for integrating ownCloud in an enterprise infrastructure.
 	<li>You can find out where to look for relevant resources on <a href="/support" target="_blank">this page</a>.</li>
 </ul>
+
 <a name="entcomparison"></a>
 <h3>What is the Standard Subscription and Enterprise Subscription?</h3>
 <ul>
@@ -311,6 +350,7 @@ You should use a backup application to store the files in ownCloud somewhere. Th
 	<li>The Enterprise Subscription builds on the support offered by the Standard Subscription. It adds enterprise certified applications to the ownCloud Server, including integration with enterprise services like a File Firewall, SharePoint, Windows network drives, Oracle SQL support and SAML/Shibboleth authentication as well as audit and control tools. The Enterprise Subscription comes with the ownCloud Commercial License and may be modified to include custom services and support to meet the unique needs of the enterprise. It includes access to branding and deployment tools and offers a wider range of support options including up to 24x7 support.</li>
 	<li>You can find a comparison table <a href="https://owncloud.com/subscriptions/" target="_blank">detailing support options here</a> and enterprise features on <a href="https://owncloud.com/lp/owncloud-server-or-enterprise-edition/" target="_blank">this page</a>.</li>
 </ul>
+
 <a name="bestedition"></a>
 <h3>Which solution is best for me?</h3>
 <ul>
@@ -319,6 +359,7 @@ You should use a backup application to store the files in ownCloud somewhere. Th
 	<li>For larger and more complex deployments of ownCloud, servicing hundreds to hundreds of thousands of users, handling terabytes to Petabytes of data, requiring high availability and multi-server scaling, needing integration in Enterprise infrastructure and/or having specific needs around compliance in regulated industries, <a href="https://owncloud.com/products/enterprise/" target="_blank">Enterprise Subscription</a> from ownCloud, Inc. is available with 12x5 email and phone support, additional enterprise functionality, deployment and branding tools and more. ownCloud,. Inc. can also work with you to develop custom support that can include up to 24x7 coverage.</li>
 	<li><a href="http://vimeo.com/107631039" target="_blank">Watch the Community and Enterprise Edition Webinar</a> to find out what is best for you.</li>
 </ul>
+
 <a name="communityandenterprise"></a>
 <h3>How do the community and company work together?</h3>
 <ul>
@@ -327,6 +368,7 @@ You should use a backup application to store the files in ownCloud somewhere. Th
 	<li>The Enterprise Edition offers additional enterprise applications bundled with ownCloud Server and supported through the Enterprise Subscription. The Standard Subscription and the Enterprise apps become available after a period of additional testing and the addition of <a href="https://owncloud.com/features/" target="_blank">enterprise features</a>. ownCloud develops in the open; this is neither an open-core nor a dump-your-code-over-the-wall model. Read what the Free Software Foundation says about it: <a href="http://www.gnu.org/philosophy/selling-exceptions.html" target="_blank">gnu.org/philosophy/selling-exceptions</a>.</li>
 </ul>
 Check out <a href="https://owncloud.com" target="_blank">owncloud.com</a> and <a href="/history" target="_blank">owncloud.org/history</a> for more information.
+
 <a name="entcustomers"></a>
 <h3>What customers does ownCloud, Inc. have?</h3>
 <ul>
