@@ -65,7 +65,6 @@ function displayConsultants($consultants) {
 				echo '</ul>';
 			}
 			if(!empty($consultants[$consultant]->specializes)) {
-				echo '<span>Specializations: </span>';
 				echo '<ul class="list-unstyled list-inline">';
 				foreach($consultants[$consultant]->specializes as $specialization) {
 					echo '<li class="text-primary">' . $specialization . '</li>';
