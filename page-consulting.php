@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 get_template_part('templates/parts/title');
 
@@ -21,11 +21,13 @@ foreach($consultants as $consultant) {
 
 <div class="row col-xs-12">
 	<h2>Partners</h2>
+	<p>For any projects where ownCloud is mission critical, ownCloud partners provide subscription based offerings from ownCloud and consulting as well as development services backed up by ownCloud, Inc. full-time support personal, engineers and expert knowledge.</p>
 </div>
 <?php displayConsultants($supportedConsultants); ?>
 
 <div class="row col-xs-12">
-	<h2>Other consultants</h2>
+	<h2>Independent consultants</h2>
+	<p>For smaller ownCloud deployments, a wide variety of consulting firms and individuals offers support installing and deploying ownCloud or developing custom functionality.</p>
 </div>
 <!-- <?php displayConsultants($supportedConsultants); ?>-->
 <?php displayConsultants($otherConsultants); ?>
