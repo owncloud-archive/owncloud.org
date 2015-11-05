@@ -4,8 +4,8 @@
 
 <div class="container teaser-area">
             <div class="intro-text">
-                <div class="intro-heading">A safe home for all your data.</div>
-                <div class="intro-details">Access and share your files, contacts, mail and more from any device, on your terms.</div>
+                <div class="intro-heading">A safe home for all your data</div>
+                <div class="intro-details">Access and share your files, calendars, contacts, mail and more from any device, on your terms</div>
                 <a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a>
             </div>
         </div>
