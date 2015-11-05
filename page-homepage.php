@@ -3,29 +3,38 @@
 <!-- Teaser Area -->
 
 <div class="container teaser-area">
-            <div class="intro-text">
-                <div class="intro-heading">A safe home for all your data</div>
-                <div class="intro-details">Access and share your files, calendars, contacts, mail and more from any device, on your terms</div>
-                <a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a>
-            </div>
-        </div>
+	<div class="intro-text">
+		<div class="intro-heading">A safe home for all your data</div>
+		<div class="intro-details">Access and share your files, calendars, contacts, mail and more from any device, on your terms</div>
+		<a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a></div>
+	</div>
 </div>
+
 <div class="wrap container home-features">
 	<div class="row">
 		<div class="col-md-4">
-			<a href="/contribute"><i class="icon-group icon"></i>
+			<a href="/contribute">
+			<i class="icon-group icon"></i>
 			<h3 class="ft-title">Open Community</h3>
-			<p class="featuredesc">ownCloud is developed in a transparent and inviting way by the open source community.</p></a>
+			<p class="featuredesc">ownCloud is developed in a transparent and inviting way by the open source community.</p>
+			<p class="featurelink">Join our community!</p>
+			</a>
 		</div>
-		<a href="/security"><div class="col-md-4">
+		<div class="col-md-4">
+			<a href="/install/#instructions-server">
 			<i class="icon-eye icon"></i>
 			<h3 class="ft-title">Privacy First</h3>
 			<p class="featuredesc">ownCloud keeps your files secure and private - you decide where you host your data.</p>
-		</div></a>
-		<a href="/features"><div class="col-md-4">
+			<p class="featurelink">Install your ownCloud!</p>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<a href="/features">
 			<i class="icon-cubes icon"></i>
 			<h3 class="ft-title">Capable Cloud</h3>
-			<p class="featuredesc">ownCloud is extensible with new functionality to provide all you need to live your digital live.</p></a>
+			<p class="featuredesc">ownCloud is extensible with new functionality to provide all you need to live your digital live.</p>
+			<p>Learn about more features!</p>
+			</a>
 		</div>
 	</div>
 </div>

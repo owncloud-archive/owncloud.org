@@ -70,12 +70,11 @@ body {
   color: #1d2d44;
 }
 
- .home-features a:hover  {
+.home-features a:hover  {
   text-decoration: none;
   color: #2A6496;
   /*  color: #A1A1A1;*/
 }
-
 
 .users {
     margin-top: 90px;
