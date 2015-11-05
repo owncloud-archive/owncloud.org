@@ -1,9 +1,10 @@
 <div class="container footer-social-icons">
     <div>
-      <a target="_blank" href="https://plus.google.com/107072838776436530705/about"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img></a>
-      <a target="_blank" style="margin: 0 7px 0 14px;" href="https://www.facebook.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img></a>
-      <a target="_blank" style="margin: 0 14px 0 7px;" href="https://twitter.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img></a>
-      <a target="_blank" href="https://owncloud.org/blogfeed"><img class="img-circle" width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png"></img></a>
+      <a target="_blank" href="https://plus.google.com/107072838776436530705/about"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png" title="Follow us on Google Plus!" alt="Follow us on Google Plus!"></img></a>
+      <a target="_blank" style="margin: 0 7px 0 14px;" href="https://www.facebook.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png" title="Like our facebook page!" alt="Like our facebook page!"></img></a>
+      <a target="_blank" style="margin: 0 14px 0 7px;" href="https://twitter.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png" title="Subscribe to our twitter channel!" alt="Subscribe to our twitter channel!"></img></a>
+      <a target="_blank" href="https://owncloud.org/blogfeed"><img class="img-circle" width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png" title="Subscribe to our news feed!" alt="Subscribe to our news feed!"></img></a>
+      <a target="_blank" href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/mail.png" title="Subscribe to our newsletter!" alt="Subscribe to our newsletter!"></img></a>
     </div>
   </div>
 <footer class="content-info" role="contentinfo">
