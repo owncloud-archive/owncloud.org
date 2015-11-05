@@ -4,28 +4,28 @@
 
 <div class="container teaser-area">
             <div class="intro-text">
-                <div class="intro-heading">The safe home for all your data.</div>
+                <div class="intro-heading">A safe home for all your data.</div>
                 <div class="intro-details">Access and share your files, contacts, mail and more from any device, on your terms.</div>
                 <a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a>
             </div>
         </div>
 </div>
-<div class="wrap container text-center">
-	<div class="row featurerow featuresheader">
-		<div class="col-md-4 featureblock">
-			<i class="icon-globe"></i>
+<div class="wrap container home-features">
+	<div class="row">
+		<div class="col-md-4">
+			<a href="/contribute"><i class="icon-group icon"></i>
 			<h3 class="ft-title">Open Community</h3>
-			<p class="featuredesc">ownCloud is developed in a transparent and inviting way by the open source community.</p>
+			<p class="featuredesc">ownCloud is developed in a transparent and inviting way by the open source community.</p></a>
 		</div>
-		<div class="col-md-4 featureblock">
-			<i class="icon-refresh"></i>
+		<a href="/security"><div class="col-md-4">
+			<i class="icon-eye icon"></i>
 			<h3 class="ft-title">Privacy First</h3>
-			<p class="featuredesc">ownCloud keeps your files secure and private - you decide where your data belongs.</p>
-		</div>
-		<div class="col-md-4 featureblock">
-			<i class="icon-share-alt"></i>
+			<p class="featuredesc">ownCloud keeps your files secure and private - you decide where you host your data.</p>
+		</div></a>
+		<a href="/features"><div class="col-md-4">
+			<i class="icon-cubes icon"></i>
 			<h3 class="ft-title">Capable Cloud</h3>
-			<p class="featuredesc">ownCloud is extensible and can do everything you need to live your digital live.</p>
+			<p class="featuredesc">ownCloud is extensible with new functionality to provide all you need to live your digital live.</p></a>
 		</div>
 	</div>
 </div>
@@ -48,9 +48,9 @@
 	</div>
 </div>-->
 
-<div class="wrap container pad-bottom">
+<div class="wrap container users">
 		<div class="row">
-			<div class="col-md-12 text-center">
+			<div class="col-md-12">
 				<h2>Trusted by hundreds of organizations worldwide</h2>
 			</div>
 		</div>
@@ -74,16 +74,15 @@
 			  <a href="https://www.hawaii.edu/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni" /></a>
 			</div>
 		</div>
-	<div class="text-center"><p>Learn about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p>
-	</div>
+	<p>Learn more about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p>
 </div>
-<hr>
 
-<div class="wrap container pad-bottom">
+<div class="wrap container newsletter">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3 text-center">
 		<!-- Constant Contact Email List Form Button -->
-		    <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a><br />
+		   <!-- <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a><br />-->
+		   <a class="btn btn-primary btn-lg" role="button" href="/features">Learn more about what ownCloud can do for you &raquo;</a>
 		</div>
 	</div>
 </div>
@@ -103,14 +102,3 @@
 		<?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,9); } ?>
 	</div>
 </div>
-
-
-<!-- Tiny caroussel -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.tinycarousel.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function()
-		{
-			$('#slider1').tinycarousel();
-		});
-	</script>
