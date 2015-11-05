@@ -28,6 +28,8 @@ body {
 }
 
 .teaser-area .btn-primary {
+    font-size: 24px;
+    padding: 18px 24px;
     margin-top: 20px;
     background: #1d2d44;
     border: 1px solid #1d2d44;
@@ -44,15 +46,15 @@ body {
 }
 
 .intro-text .intro-details {
-  margin-bottom: 34px;
-  font-size: 18px;
-  line-height: 22px;
+  margin-bottom: 38px;
+  font-size: 26px;
+  line-height: 28px;
 }
 
 .intro-text .intro-heading {
-  margin-bottom: 18px;
-  font-size: 42px;
-  line-height: 44px;
+  margin-bottom: 22px;
+  font-size: 58px;
+  line-height: 60px;
 }
 
 .home-features {
