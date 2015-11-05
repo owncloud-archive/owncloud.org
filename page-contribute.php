@@ -8,7 +8,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
   <i class="icon-lightbulb-o"></i> Join the Test Pilots!</a>
   <a href="/promote" class="btn btn-default btn-lg"><i class="icon-bullhorn"></i> Discuss ownCloud with others</a>
 </div>
-<div class="wrap container pad-bottom">
+<!--<div class="wrap container pad-bottom">
 	<div class="row">
 		<div class="col-md-12 text-center">
 			<h2>We rock the ownCloud Contributor Conference!</h2>
@@ -24,7 +24,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 			  <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Learn more about the event and the announcements!</a>
 		</div>
 	</div>
-</div>
+</div>-->
 <h2>How to participate:</h2>
 <div class="row">
 	<div class="col-md-6">
