@@ -22,8 +22,20 @@
 	src: local('Open Sans Italic'), local('OpenSans-Italic'), url(../fonts/OpenSans-Italic.woff) format('woff'), url(../fonts/OpenSans-Bold.ttf) format('ttf');
 }
 
+/* Make background white and default buttons a bit darker to compensate */
 body {
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Font Awesome", sans-serif !important;
+	background: white;
+}
+
+.btn-default {
+	background: #EFEFEF;
+	border: 1px solid #CCCCCC;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+	background: #CCCCCC;
+	border: 1px solid #AAAAAA;
 }
 
 button a {color: #1d2d44}
