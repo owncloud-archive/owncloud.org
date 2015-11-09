@@ -15,7 +15,7 @@
 		<div class="col-md-4">
 			<a href="/contribute">
 			<i class="icon-group icon"></i>
-			<h3 class="ft-title">Open Community</h3>
+			<h3 class="ft-title">Community</h3>
 			<p class="featuredesc">ownCloud is developed in a transparent and inviting way by the open source community.</p>
 			<p class="featurelink">Join our community!</p>
 			</a>
@@ -23,7 +23,7 @@
 		<div class="col-md-4">
 			<a href="/install/#instructions-server">
 			<i class="icon-eye icon"></i>
-			<h3 class="ft-title">Privacy First</h3>
+			<h3 class="ft-title">Privacy</h3>
 			<p class="featuredesc">ownCloud keeps your files secure and private - you decide where you host your data.</p>
 			<p class="featurelink">Install your ownCloud!</p>
 			</a>
@@ -31,8 +31,8 @@
 		<div class="col-md-4">
 			<a href="/features">
 			<i class="icon-cubes icon"></i>
-			<h3 class="ft-title">Capable Cloud</h3>
-			<p class="featuredesc">ownCloud is extensible with new functionality to provide all you need to live your digital live.</p>
+			<h3 class="ft-title">flexibility</h3>
+			<p class="featuredesc">ownCloud is extensible with new functionality to provide all you need to live your digital life.</p>
 			<p>Learn about more features!</p>
 			</a>
 		</div>
