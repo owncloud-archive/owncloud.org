@@ -93,7 +93,21 @@ body {
     font-weight: 300;
 }
 
+.home-social {
+	margin-top: 70px;
+	text-align: center;
+}
 
-.newsletter {
-    margin-top: 90px;
+.home-social .icon {
+	font-size: 50px;
+}
+
+.home-social a {
+/* 	color: #1d2d44; */
+/* 	text-decoration: underline; */
+}
+
+.home-social a:hover  {
+/* 	text-decoration: none; */
+	color: #2A6496;
 }
