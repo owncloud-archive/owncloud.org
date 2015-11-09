@@ -68,31 +68,40 @@
 			  <a href="http://home.web.cern.ch/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/cern.png" alt="The Scientific Atom Smashers in Switzerland" title="The Scientific Atom Smashers in Switzerland" /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			<a href="http://www.tu-berlin.de/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/TUB.png" alt="Technische Universität Berlin and home of the ownCloud Contributor Conference" title="Technische Universität Berlin and home of the ownCloud Contributor Conference" /></a>
+			  <a href="http://www.joyglobal.com" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/joyglobal.png" title="Joy Global Inc. is an American fortune 1000 company that manufactures and services heavy machinery used in underground and surface mining." alt="Joy Global Inc. is an American fortune 1000 company that manufactures and services heavy machinery used in underground and surface mining." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			<a href="http://www.bauhaus.info/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/bauhaus.png" alt="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe" title="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe" /></a>
+			<a href="http://www.bauhaus.info/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/bauhaus.png" alt="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe." title="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="http://www.delonghi.com/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/delongi.png" alt="DeLongi is a major Italian appliance manufacturer" title="DeLongi is a major Italian appliance manufacturer" /></a>
+			  <a href="http://www.delonghi.com/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/delongi.png" alt="DeLongi is a major Italian appliance manufacturer." title="DeLongi is a major Italian appliance manufacturer." /></a>
 			</div>
 <!--			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
 			  <a href="https://www.amnesty.de/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/amnesty.png" alt="Amnesty Germany" /></a>
 			</div>-->
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="https://www.hawaii.edu/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni" title="The university of Hawaii has 50.000 students and famous alumni" /></a>
+			  <a href="https://www.hawaii.edu/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni." title="The university of Hawaii has 50.000 students and famous alumni." /></a>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			  <a href="https://www.healthmanagement.com/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/HMA.png" title="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." alt="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
 			  <a href="https://www.jeffnat.com/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/jeffnat.png" alt="Jefferson National replaced Dropbox with ownCloud to keep their financial information secure" title="Jefferson National replaced Dropbox with ownCloud to keep their financial information secure" /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="https://www.sciebo.de/en" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/sciebo.png" title="Through Sciebo, 22 German universities scale up to 500,000 users on a federated ownCloud network" alt="Through Sciebo, 22 German universities scale up to 500,000 users on a federated ownCloud network" /></a>
+			  <a href="https://www.sciebo.de/en" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/sciebo.png" title="Through Sciebo, 22 German universities scale up to 500,000 users on a federated ownCloud network." alt="Through Sciebo, 22 German universities scale up to 500,000 users on a federated ownCloud network." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="http://www.deutschebahn.com/en/start-en.html" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/DB.png" title="German Railway Deutsche Bahn uses ownCloud to organize its transportation services" alt="German Railway Deutsche Bahn uses ownCloud to organize its transportation services" /></a>
+			  <a href="http://www.deutschebahn.com/en/start-en.html" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/DB.png" title="German Railway Deutsche Bahn uses ownCloud to organize its transportation services." alt="German Railway Deutsche Bahn uses ownCloud to organize its transportation services." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="http://www.datto.com/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/datto.png" title="Datto is one of the worlds leading backup solution providers and integrates ownCloud in all their backup solutions" alt="Datto is one of the worlds leading backup solution providers and integrates ownCloud in all their backup solutions" /></a>
+			<a href="http://www.tu-berlin.de/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/TUB.png" alt="Technische Universität Berlin and home of the ownCloud Contributor Conference." title="Technische Universität Berlin and home of the ownCloud Contributor Conference." /></a>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			  <a href="http://www.datto.com/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/datto.png" title="Datto is one of the worlds leading backup solution providers and integrates ownCloud in all their backup solutions." alt="Datto is one of the worlds leading backup solution providers and integrates ownCloud in all their backup solutions." /></a>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			  <a href="https://www.ipcc.ca/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/IPC.png" title="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area." alt="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area" /></a>
 			</div>
 		</div>
 	<p>Learn more about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p>
