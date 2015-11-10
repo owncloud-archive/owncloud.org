@@ -29,13 +29,13 @@ body {
 }
 
 .btn-default {
-	background: #EFEFEF;
-	border: 1px solid #CCCCCC;
+	background: rgba(240,240,240,.9);
+	border: 1px solid rgba(240,240,240,.9);
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-	background: #CCCCCC;
-	border: 1px solid #AAAAAA;
+	background: white;
+	border: 1px solid rgba(240,240,240,.9);
 }
 
 button a {color: #1d2d44}
