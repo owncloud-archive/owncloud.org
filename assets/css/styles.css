@@ -667,3 +667,22 @@ body.install a.btn-lg {
 	}
 
 }
+
+.consulting .bannerhead {
+	text-align: center;
+}
+
+.consulting .flag {
+	margin: auto;
+	padding: 0px 5px;
+}
+
+.consulting .logo {
+	padding: 15px;
+	margin: auto;
+	width: 100%;
+}
+
+.consulting .bannerfoot {
+	height: 130px;
+}
