@@ -15,7 +15,7 @@
 }
 
 .menu-install {
-	background: #1D2D44 !important;
+	background: #35537a !important;
 }
 
 .menu-install:hover  {
@@ -39,8 +39,8 @@ body {
     font-size: 24px;
     padding: 18px 24px;
     margin-top: 20px;
-    background: #1d2d44;
-    border: 1px solid #1d2d44;
+    background: #35537a;
+    border: 1px solid #35537a;
 }
 
 .teaser-area .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
