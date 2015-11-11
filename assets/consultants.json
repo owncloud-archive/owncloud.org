@@ -28,7 +28,7 @@
          "specializes":[
             "digital/i provides products and services for secure cloud computing, secure data storage and anywhere access based on ownCloud(tm)."
          ],
-         "imagename":"digitali.jpg",
+         "imagename":"digitali.png",
          "supported":true,
          "github-accounts":[
          "JohnOliver",
@@ -81,7 +81,7 @@
          "specializes":[
             "IIS is a premier HP and Red Hat reseller based in New York."
          ],
-         "imagename":"iis.jpg",
+         "imagename":"iis.png",
          "supported":true,
          "github-accounts":[
          "JohnOliver",
@@ -170,7 +170,7 @@
          "specializes":[
             "Vizuri is a successful consulting firm founded on engineering principles."
          ],
-         "imagename":"viruzi.jpg",
+         "imagename":"viruzi.png",
          "supported":true,
          "github-accounts":[
          ""

@@ -41,49 +41,43 @@ foreach($consultants as $consultant) {
 function displayConsultants($consultants) {
 
 	$numConsultants = count($consultants);
-		echo '<div class="row">';
+		echo '<div class="row">' . "\r\n";
 		for($consultant=0; $consultant<$numConsultants; $consultant++) {
-			echo '<div class="col-xs-12 col-sm-6 col-md-4 ">';
-			echo '<div class="consulting thumbnail"><div class="bannerhead">';
-			echo '<a href="' . $url . '" target="_blank" rel="noreferrer" title="' . $consultants[$consultant]->title . '">';
-			echo '<img class="logo" src="' . get_template_directory_uri() . '/assets/img/consultants/' . $consultants[$consultant]->imagename . '"/>';
-
-			echo '</a><br \>';
 			if($free && isset($consultants[$consultant]->freeurl)) {
 				$url = $consultants[$consultant]->freeurl;
 			} else {
 				$url = $consultants[$consultant]->url;
 			}
+			echo '<div class="col-xs-12 col-sm-6 col-md-4 ">' . "\r\n";
+			echo '<div class="consulting thumbnail"><div class="bannerhead">' . "\r\n";
+			echo '<a href="' . $url . '" target="_blank" rel="noreferrer" title="' . $consultants[$consultant]->title . '">';
+			echo '<img class="logo" src="' . get_template_directory_uri() . '/assets/img/consultants/' . $consultants[$consultant]->imagename . '"/>';
+
+			echo '</a><br \>' . "\r\n";
 			echo  $consultants[$consultant]->title;
 			foreach($consultants[$consultant]->flags as $flag) {
-				echo '<img class="flag" src="' . get_template_directory_uri() . '/assets/img/flags/' . $flag . '.gif"/>';
+				echo '<img class="flag" src="' . get_template_directory_uri() . '/assets/img/flags/' . $flag . '.gif"/>' . "\r\n";
 			}
-			
-			echo '<br \></div>';
-			echo '<div class="bannerfoot">';
+			echo '<br \></div>' . "\r\n";
+			echo '<div class="bannerfoot">' . "\r\n";
 			if(!empty($consultants[$consultant]->supports)) {
-				echo '<span>Ideal for organizations: </span>';
-				echo '<ul class="list-unstyled list-inline">';
+				echo '<span>Ideal for organizations: </span>' . "\r\n";
+				echo '<ul class="list-unstyled list-inline">' . "\r\n";
 				foreach($consultants[$consultant]->supports as $supporting) {
-					echo '<li class="text-primary">' . $supporting . '</li>';
+					echo '<li class="text-primary">' . $supporting . '</li>' . "\r\n";
 				}
-				echo '</ul>';
+				echo '</ul>' . "\r\n";
 			}
 			if(!empty($consultants[$consultant]->specializes)) {
-				echo '<ul class="list-unstyled list-inline">';
+				echo '<ul class="list-unstyled list-inline">' . "\r\n";
 				foreach($consultants[$consultant]->specializes as $specialization) {
-					echo '<li class="text-primary">' . $specialization . '</li>';
+					echo '<li class="text-primary">' . $specialization . '</li>' . "\r\n";
 				}
-				echo '</ul>';
+				echo '</ul>' . "\r\n";
 			}
-			if($consultants[$consultant]->hosting) {
-				echo '<span class="hosting">Provides hosting</br></span>';
-			} else {
-			echo '<br/>';
-			}
-			echo '</div>';
-			echo '</div>';
-			echo '</div>';
+			echo '</div>' . "\r\n";
+			echo '</div>' . "\r\n";
+			echo '</div>' . "\r\n" . "\r\n";
 		}
 		echo '</div>';
 
@@ -92,3 +86,10 @@ function displayConsultants($consultants) {
 ?>
 
 
+
+
+			<!--if($consultants[$consultant]->hosting) {
+				echo '<span class="hosting">Provides hosting</br></span>';
+			} else {
+			echo '<br/>';
+			}-->
