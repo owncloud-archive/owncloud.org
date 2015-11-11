@@ -20,7 +20,7 @@ foreach($consultants as $consultant) {
 <p>While most ownCloud users are able to install and use ownCloud without any help or with assistance of volunteers in our community support channels, some deployments, especially by corporate users, may have more complex requirements that require professional services. This page lists individuals and companies offering services with regards to deployment, maintenance and integration of ownCloud in your workflow.
 </p>
 
-<div class="alert alert-info">If you offer ownCloud Consulting, you can be <a href="/consultants/apply">listed on this page</a>. To find out more about becoming an enterprise consultant with a support contract from <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> please see <a target="_blank" href="https://owncloud.com/partner/">the partner page on ownCloud.com</a>.</div>
+<div class="alert alert-info">If you offer ownCloud Consulting, you can <a href="/consultants/apply">request to be listed on this page</a>. To find out more about becoming an enterprise consultant with a support contract from <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> please see <a target="_blank" href="https://owncloud.com/partner/">the partner page on ownCloud.com</a>.</div>
 
 <div class="row col-xs-12">
 	<h2>Partners</h2>
@@ -48,36 +48,34 @@ function displayConsultants($consultants) {
 			} else {
 				$url = $consultants[$consultant]->url;
 			}
-			echo '<div class="col-xs-12 col-sm-6 col-md-4 ">' . "\r\n";
-			echo '<div class="consulting thumbnail"><div class="bannerhead">' . "\r\n";
-			echo '<a href="' . $url . '" target="_blank" rel="noreferrer" title="' . $consultants[$consultant]->title . '">';
-			echo '<img class="logo" src="' . get_template_directory_uri() . '/assets/img/consultants/' . $consultants[$consultant]->imagename . '"/>';
-
-			echo '</a><br \>' . "\r\n";
+			echo ' <div class="col-xs-12 col-sm-6 col-md-4 ">' . "\r\n";
+			echo '  <div class="consulting thumbnail">' . "\r\n";
+			echo '   <div class="bannerhead">' . "\r\n";
+			echo '    <a href="' . $url . '" target="_blank" rel="noreferrer" title="' . $consultants[$consultant]->title . '">' . "\r\n";
+			echo '    <img class="logo" src="' . get_template_directory_uri() . '/assets/img/consultants/' . $consultants[$consultant]->imagename . '"/>';
+			echo '</a><br \>' . "\r\n" . '     ';
 			echo  $consultants[$consultant]->title;
 			foreach($consultants[$consultant]->flags as $flag) {
-				echo '<img class="flag" src="' . get_template_directory_uri() . '/assets/img/flags/' . $flag . '.gif"/>' . "\r\n";
+				echo '    <img class="flag" src="' . get_template_directory_uri() . '/assets/img/flags/' . $flag . '.gif"/>';
 			}
-			echo '<br \></div>' . "\r\n";
-			echo '<div class="bannerfoot">' . "\r\n";
+			echo "\r\n" . '    <br \>' . "\r\n" . '   </div>' . "\r\n";
+			echo '   <div class="bannerfoot">' . "\r\n";
 			if(!empty($consultants[$consultant]->supports)) {
 				echo '<span>Ideal for organizations: </span>' . "\r\n";
-				echo '<ul class="list-unstyled list-inline">' . "\r\n";
+				echo '   <ul class="list-unstyled list-inline">' . "\r\n";
 				foreach($consultants[$consultant]->supports as $supporting) {
-					echo '<li class="text-primary">' . $supporting . '</li>' . "\r\n";
+					echo '    <li class="text-primary">' . $supporting . '</li>' . "\r\n";
 				}
-				echo '</ul>' . "\r\n";
+				echo '   </ul>' . "\r\n";
 			}
 			if(!empty($consultants[$consultant]->specializes)) {
-				echo '<ul class="list-unstyled list-inline">' . "\r\n";
 				foreach($consultants[$consultant]->specializes as $specialization) {
-					echo '<li class="text-primary">' . $specialization . '</li>' . "\r\n";
+					echo '    <p>' . $specialization . '</p>' . "\r\n";
 				}
-				echo '</ul>' . "\r\n";
 			}
-			echo '</div>' . "\r\n";
-			echo '</div>' . "\r\n";
-			echo '</div>' . "\r\n" . "\r\n";
+			echo '   </div>' . "\r\n";
+			echo '  </div>' . "\r\n";
+			echo ' </div>' . "\r\n" . "\r\n";
 		}
 		echo '</div>';
 
