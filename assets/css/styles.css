@@ -45,6 +45,15 @@ button a:hover {text-decoration: none; }
   border: 0px none transparent !important;
 }
 
+/* Remove line under page headers (defined in main.min.css) */
+div.page-header {
+border-bottom: 0px solid #EEE;
+}
+/* Remove border from navbar (defined in main.min.css) */
+.navbar {
+border: 1px solid transparent;
+}
+
 .banner img {
 	padding: 15px 0;
 }
@@ -432,7 +441,7 @@ div.customers {
 	text-align: center;
 
 }
-
+}
 /*---- Federation Page ---- */
 p.federation-id {
     	font-size: 20px;
@@ -708,7 +717,7 @@ div.numbadge {
 	text-align: center;
 	padding-top: 6px;
 	font-size: 21px;
-	border: 4px solid #eee;
+	border: 4px solid white;
 }
 
 div.numbadge.centre {
@@ -742,7 +751,7 @@ body.install div.col-md-3 {
 body.install div.PopupGetStarted {
     height: auto%;
     margin: 0 auto;
-    color: #1D2D44;
+/*     color: #1D2D44; no need to repeat that here */
     position: absolute;
     top: 0;
     right: 0;
@@ -754,10 +763,10 @@ body.install div.PopupGetStarted div.row{
     margin: 0;
 }
 body.install div.PopupGetStarted div.instructions{
-/*     background: white !important; */
+    background: white !important; /* I seem to have to enforce this, comes from main.min.css*/
     margin-top: 150px !important;
-    padding: 10px;
-    border-radius: 4px;
+/*     padding: 10px; already set */
+/*     border-radius: 4px; already set*/
 }
 body.install a.mask {
     position: fixed;
@@ -770,7 +779,8 @@ body.install a.mask {
     display: none;
 }
 body.install .overlay-header {
-    background-color: #EFEFEF;
+	background-color: rgba(240,240,240,.9);
+	border-radius: 4px;
 }
 body.install .overlay-header h3 {
     margin-left: 15px;
@@ -782,7 +792,8 @@ body.install .overlay-body {
     padding-top: 10px;
 }
 body.install .overlay-footer {
-    background-color: #EFEFEF;
+	background-color: rgba(240,240,240,.9);
+	border-radius: 4px;
 }
 body.install .overlay-footer a.btn {
     float: right;
@@ -809,6 +820,7 @@ body.install .close:hover, body.install .close:focus {
 body.install a.btn-lg {
     font-size: 16px;
 }
+
 @media(min-width: 996px) {
 	body.install hr.wide {
 		display: block;
