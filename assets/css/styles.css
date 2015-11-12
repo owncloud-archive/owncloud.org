@@ -754,7 +754,7 @@ body.install div.PopupGetStarted div.row{
     margin: 0;
 }
 body.install div.PopupGetStarted div.instructions{
-    background: #F6F6F6;
+/*     background: white !important; */
     margin-top: 150px !important;
     padding: 10px;
     border-radius: 4px;
@@ -795,8 +795,11 @@ body.install div.PopupGetStarted:target, body.install div.PopupGetStarted:target
     display: block;
     opacity: 1;
 }
+body.install .label-blue {
+	background-color: #35537a;
+}
 body.install .close {
-    color: #CE5B00;
+	color: #575858;
     font-size: 1.75em;
     opacity: 0.8;
 }

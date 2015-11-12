@@ -17,7 +17,7 @@
                   </div>
                   <br>
                   <div class="overlay-header row">
-                    <p>Latest stable version:  <span class="label label-success"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a href="/changelog"><small>Changelog</small></a>)</br>
+                    <p>Latest stable version:  <span class="label label-blue"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a href="/changelog"><small>Changelog</small></a>)</br>
                     <p>ownCloud Server supports Linux (like) operating systems, and is available via packages, sources, appliances or a one file php installer.</p>
                   </div>
                   <div  class="tab-content">
