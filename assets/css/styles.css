@@ -175,8 +175,7 @@ div.footer-text {
 
 div.footer-social-icons > div {
   text-align: center;
-  margin-bottom: -14px;
-  margin-top: 7px;
+  margin: 50px 17px -20px -14px;
 }
 
 div.footer-social-icons> div > a:hover {
@@ -184,16 +183,12 @@ div.footer-social-icons> div > a:hover {
 }
 
 div.footer-social-icons img {
-  margin: 0 1em 1em 0;
+  margin: 0 30px 30px 0;
 }
 
 footer div.footer-nav>h4 {
 	font-size: 1.125em;
 	color: #FFFFFF;
-}
-
-p.socialicons > a > img {
-	margin: 0 4px;
 }
 
 div.thumbnail > img {
