@@ -38,6 +38,18 @@ body {
 	border: 1px solid rgba(240,240,240,.9);
 }
 
+.btn-primary {
+	background: #55739a;
+	border: 1px solid #1D2D44;
+	color: white;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	background: #428BCA;
+	border: 1px solid #1D2D44;
+	color: white;
+}
+
 button a {color: #1d2d44}
 button a:hover {text-decoration: none; }
 
@@ -760,8 +772,8 @@ body.install div.PopupGetStarted div.row{
 body.install div.PopupGetStarted div.instructions{
     background: white !important; /* I seem to have to enforce this, comes from main.min.css*/
     margin-top: 150px !important;
-/*     padding: 10px; already set */
-/*     border-radius: 4px; already set*/
+    padding: 10px;
+    border-radius: 4px;
 }
 body.install a.mask {
     position: fixed;
