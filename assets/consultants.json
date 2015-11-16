@@ -1,0 +1,200 @@
+{
+   "consultants":[
+      {
+         "title":"B1 Systems",
+         "url":"http:\/\/www.b1-systems.de",
+         "flags":[
+            "de"
+         ],
+         "hosting":true,
+         "specializes":[
+            "Customized solutions are the maxim of our project work. In close collaboration with the customer we develop target-oriented solutions."
+         ],
+         "imagename":"b1-systems.png",
+         "supported":true,
+         "github-accounts":[
+         "JohnOliver",
+         "SantaClaus"
+         ],
+         "github-score":"25"
+      },
+      {
+         "title":"digital/i",
+         "url":"http:\/\/www.digitali.eu",
+         "flags":[
+            "de"
+         ],
+         "hosting":false,
+         "specializes":[
+            "digital/i provides products and services for secure cloud computing, secure data storage and anywhere access based on ownCloud(tm)."
+         ],
+         "imagename":"digitali.png",
+         "supported":true,
+         "github-accounts":[
+         "JohnOliver",
+         "SantaClaus"
+         ],
+         "github-score":"15"
+      },
+      {
+         "title":"Be Good Technology",
+         "url":"http:\/\/www.begood-tech.com/",
+         "flags":[
+            "jp"
+         ],
+         "hosting":false,
+         "specializes":[
+            "We provide infrastructure solutions including MySQL and ownCloud."
+         ],
+         "imagename":"begood.png",
+         "supported":true,
+         "github-accounts":[
+         "JohnOliver",
+         "SantaClaus"
+         ],
+         "github-score":"15"
+      },
+      {
+         "title":"dass IT",
+         "url":"http:\/\/www.dass-it.de",
+         "flags":[
+            "de"
+         ],
+         "hosting":false,
+         "specializes":[
+            "dass IT is a privately-held company in Cologne and specializes in tailor-made Open Source solutions."
+         ],
+         "imagename":"dassit_logo.png",
+         "supported":true,
+         "github-accounts":[
+         ""
+         ],
+         "github-score":"0"
+      },
+      {
+         "title":"IIS",
+         "url":"http:\/\/www.iisl.com",
+         "flags":[
+            "us"
+         ],
+         "hosting":true,
+         "specializes":[
+            "IIS is a premier HP and Red Hat reseller based in New York."
+         ],
+         "imagename":"iis.png",
+         "supported":true,
+         "github-accounts":[
+         "JohnOliver",
+         "SantaClaus"
+         ],
+         "github-score":"30"
+      },
+      {
+         "title":"InfoCloud",
+         "url":"http:\/\/infocloud.com.br",
+         "flags":[
+            "br"
+         ],
+         "hosting":false,
+         "specializes":[
+            "Our company offers targeted solutions in Cloud Computing and IT Infrastructure."
+         ],
+         "imagename":"infocloud.png",
+         "supported":true,
+         "github-accounts":[
+         "JohnOliver",
+         "SantaClaus"
+         ],
+         "github-score":"30"
+      },
+      {
+         "title":"it25",
+         "url":"http:\/\/www.it25.de",
+         "flags":[
+            "de"
+         ],
+         "hosting":true,
+         "specializes":[
+            "it25 delivers consulting and support services for e-mail, collaboration platforms and Linux-based IT-infrastructure environments."
+         ],
+         "imagename":"it25.png",
+         "supported":true,
+         "github-accounts":[
+         ""
+         ],
+         "github-score":"0"
+      },
+      {
+         "title":"kangaroot",
+         "url":"http:\/\/www.kangaroot.net\/kangaroot-owncloud\/",
+         "flags":[
+            "be",
+            "fr",
+            "nl"
+         ],
+         "hosting":false,
+         "specializes":[
+            "Has been Belgium's number one Linux and open source service provider since 2000. Also serving France and The Netherlands."
+         ],         "imagename":"b1-systems.png",
+         "supported":true,
+         "github-accounts":[
+         "JohnOliver",
+         "SantaClaus"
+         ],
+         "github-score":"30"
+      },
+      {
+         "title":"Unotech Software",
+         "url":"http:\/\/www.unotechsoft.com",
+         "flags":[
+            "in"
+         ],
+         "hosting":true,
+         "specializes":[
+            "Your end-to-end partner for Open Source software conceptualization, development and deployment."
+         ],
+         "imagename":"unotech.png",
+         "supported":true,
+         "github-accounts":[
+         ""
+         ],
+         "github-score":"0"
+      },
+      {
+         "title":"Vizuri",
+         "url":"http:\/\/www.vizuri.com",
+         "flags":[
+            "us"
+         ],
+         "hosting":true,
+         "specializes":[
+            "Vizuri is a successful consulting firm founded on engineering principles."
+         ],
+         "imagename":"vizuri.png",
+         "supported":true,
+         "github-accounts":[
+         ""
+         ],
+         "github-score":"0"
+      },
+      {
+         "title":"VNC",
+         "url":"http:\/\/www.vnc.biz",
+         "flags":[
+            "de",
+            "ch"
+         ],
+         "hosting":true,
+         "specializes":[
+            "Virtual Network Consult is a leading business cloud integrator and a specialist in commercial open source solutions."
+         ],
+         "imagename":"vnc.png",
+         "supported":true,
+         "github-accounts":[
+         ""
+         ],
+         "github-score":"0"
+      }
+
+   ]
+}
