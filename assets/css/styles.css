@@ -22,11 +22,36 @@
 	src: local('Open Sans Italic'), local('OpenSans-Italic'), url(../fonts/OpenSans-Italic.woff) format('woff'), url(../fonts/OpenSans-Bold.ttf) format('ttf');
 }
 
-/* Make background white and default buttons a bit darker to compensate */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: light;
+	src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/OpenSans-Light.woff) format('woff'), url(../fonts/OpenSans-Light.ttf) format('ttf');
+}
+
+/* Make background white, font grey and default buttons a bit darker to compensate */
 body {
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Font Awesome", sans-serif !important;
+	color: #555;
 	background: white;
 }
+
+
+h1, h2, h3 {
+	font-weight: 300;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+h3 {
+	font-size: 15px;
+	margin: 12px 0;
+}
+
 
 .btn-default {
 	background: rgba(240,240,240,.9);
