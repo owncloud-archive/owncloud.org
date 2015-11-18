@@ -3,30 +3,104 @@
 </div>
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 
+<h3>Version 8.2.1 <small>November 17 2015</small></h3>
+<ul>
+	<li>Sharing improvements:</li>
+	<ul>
+		<li>Show path to file in error message about sharing with owner</li>
+		<li>Replaced error numbers with details in the sharing error message</li>
+		<li>Fix pagination on public link share page</li>
+		<li>Deal with NoUserException in sharing code</li>
+		<li>Fix cannot change share info after switching sections</li>
+		<li>Fix changing expiration date of shared link breaks password</li>
+		<li>Various other fixes</li>
+	</ul>
+	<li>Performance improvements:</li>
+	<ul>
+		<li>Optimize multiple shared locks for a single process</li>
+		<li>Don't lock if we're only reading cache metadata</li>
+		<li>Escape like parameter in cache operations</li>
+	</ul>
+	<li>Storage improvements:</li>
+	<ul>
+		<li>Improve dealing with Dropbox and Google Drive</li>
+		<li>Moving files makes them disappear (SWIFT object store)</li>
+		<li>Transactional file locking database backend warning is only shown when there is another warning.</li>
+		<li>Don't lock /$user/files</li>
+		<li>Include the final update in the transaction when moving a folder in the cache</li>
+		<li>WebDAV MOVE on a non existing file results in Internal Server Error #20069</li>
+		<li>Catch all exception if table doesn't exist #19884 #19893</li>
+		<li>Various other objectstore fixes</li>
+	</ul>
+	<li>Usability and UI:</li>
+	<ul>
+		<li>Made error message about file not found more specific in federated sharing</li>
+		<li>Improved CSS, fonts, text color on various buttons, login screen, menu and settings</li>
+		<li>Hide strength indication after password change and hide notifications after time-out or on delete</li>
+		<li>Fixes to inconsistent language and translation support, show language code for unknown languages</li>
+		<li>Fix icons for share/public folders, fix spinner positions in share tab</li>
+		<li>Close user menu when clicking on other menus</li>
+		<li>Sidebar fixes and hiding sidebar for trashbin view</li>
+		<li>Move alt text for favorite action to image</li>
+		<li>Sidebar should not open, when renaming a file on mobile</li>
+		<li>Do not register sidebar panels when no sidebar</li>
+		<li>Update process: state which step we are going to start and warn if it might be slow</li>
+	</ul>
+	<li>User Management and LDAP fixes:</li>
+	<ul>
+		<li>LDAP fixes for quota, user mapper, initial user creation and connectivity</li>
+		<li>Fix group admin settings, group assignment when group name is a number</li>
+		<li>Enable proper CardDAV cookie authentication</li>
+	</ul>
+	<li>Documentation, reliability and stability fixes:</li>
+	<ul>
+		<li>Expose syslog tag in the configuration</li>
+		<li>Update list of deprecated methods (documentation)</li>
+		<li>Fixes to text editor</li>
+		<li>Fixes to activity app</li>
+		<li>Create several repair steps in update process to clean up shares</li>
+		<li>Update certificate bundle</li>
+		<li>Fix multiple issues for IE 8 and 9</li>
+		<li>Memcache warning with memcached</li>
+		<li>Fix File versioning with encryption</li>
+		<li>Update the unencrypted size for versions</li>
+		<li>Fix mtime PROPPATCH to be "lastmodified" instead of "getlastmodified"</li>
+		<li>Make sure that remote shares use the correct uid casing</li>
+		<li>Variables don't have a class, so we can't use toString() on it</li>
+		<li>Use IRequest's `getScriptName` functionality instead of $_SERVER</li>
+		<li>Don't trigger the scroll event of every single item we filter in the file list</li>
+	</ul>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.2.1.tar.bz2">owncloud-8.2.1.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.1.zip">owncloud-8.2.1.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.1.tar.bz2.md5">owncloud-8.2.1.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.1.zip.md5">owncloud-8.2.1.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.1.tar.bz2.sha256">owncloud-8.2.1.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.1.zip.sha256">owncloud-8.2.1.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.1.tar.bz2.asc">owncloud-8.2.1.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.1.zip.asc">owncloud-8.2.1.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
 <h3>Version 8.1.4 <small>October 30 2015</small></h3>
 <ul>
-<li>Stop when PHP 7 is used, only ownCloud 8.2 is compatible</li>
-<li>Allow public webdav auth to recognize sesssion, (WebDAV can be used with publicly shared links)</li>
-<li>Make it possible to change the syslog_tag</li>
-<li>Enable limiting resharing when using Federated Cloud Sharing</li>
-<li>Improved Memcached compatibility</li>
-<li>Optimized ./occ performance and decrease space usage</li>
-<li>Several improvements to LDAP reliability</li>
-<li>Switch to debug logging on upgrade</li>
-<li>improve Documents compatibility</li>
-<li>IE/Win 10 compatibility fix</li>
-<li>WebDAV won't create empty folders on incorrect copy commands</li>
-<li>Crypto error fix</li>
-<li>Improve email sending compatibility</li>
-<li>Download tar on Mac instead of zip</li>
-<li>Fix search operations for Node</li>
-<li>Block downgrades as they are unsupported</li>
-<li>Fixed password reset from admin account</li>
-<li>Fixes related to various PHP versions</li>
-<li>Fixes to PDF viewer and text editor</li>
-<li>Several UI improvements</li>
-<li>Security improvements</li>
-<li>Many small improvements</li>
+	<li>Stop when PHP 7 is used, only ownCloud 8.2 is compatible</li>
+	<li>Allow public webdav auth to recognize sesssion, (WebDAV can be used with publicly shared links)</li>
+	<li>Make it possible to change the syslog_tag</li>
+	<li>Enable limiting resharing when using Federated Cloud Sharing</li>
+	<li>Improved Memcached compatibility</li>
+	<li>Optimized ./occ performance and decrease space usage</li>
+	<li>Several improvements to LDAP reliability</li>
+	<li>Switch to debug logging on upgrade</li>
+	<li>improve Documents compatibility</li>
+	<li>IE/Win 10 compatibility fix</li>
+	<li>WebDAV won't create empty folders on incorrect copy commands</li>
+	<li>Crypto error fix</li>
+	<li>Improve email sending compatibility</li>
+	<li>Download tar on Mac instead of zip</li>
+	<li>Fix search operations for Node</li>
+	<li>Block downgrades as they are unsupported</li>
+	<li>Fixed password reset from admin account</li>
+	<li>Fixes related to various PHP versions</li>
+	<li>Fixes to PDF viewer and text editor</li>
+	<li>Several UI improvements</li>
+	<li>Security improvements</li>
+	<li>Many small improvements</li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.1.4.tar.bz2">owncloud-8.1.4.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.4.zip">owncloud-8.1.4.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.4.tar.bz2.md5">owncloud-8.1.4.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.4.zip.md5">owncloud-8.1.4.zip.md5</a></br>
@@ -37,15 +111,15 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <h3>Version 8.0.9 <small>October 30 2015</small></h3>
 Several fixes, including:
 <ul>
-<li>Stop when PHP 7 is used, only ownCloud 8.2 is compatible</li>
-<li>Improve LDAP and Memcached compatibility</li>
-<li>Switch to debug logging on upgrade</li>
-<li>optimize ./occ performance and decrease space usage</li>
-<li>WebDAV won't create empty folders on incorrect copy commands</li>
-<li>improve Documents compatibility</li>
-<li>IE/Win 10 compatibility fix</li>
-<li>Security improvements</li>
-<li>Small improvements</li>
+	<li>Stop when PHP 7 is used, only ownCloud 8.2 is compatible</li>
+	<li>Improve LDAP and Memcached compatibility</li>
+	<li>Switch to debug logging on upgrade</li>
+	<li>optimize ./occ performance and decrease space usage</li>
+	<li>WebDAV won't create empty folders on incorrect copy commands</li>
+	<li>improve Documents compatibility</li>
+	<li>IE/Win 10 compatibility fix</li>
+	<li>Security improvements</li>
+	<li>Small improvements</li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.9.tar.bz2">owncloud-8.0.9.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.9.zip">owncloud-8.0.9.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.9.tar.bz2.md5">owncloud-8.0.9.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.9.zip.md5">owncloud-8.0.9.zip.md5</a></br>
