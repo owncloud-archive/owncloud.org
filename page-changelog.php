@@ -3,7 +3,7 @@
 </div>
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 
-<h3>Version 8.2.1 <small>November 17 2015</small></h3>
+<h3>Version 8.2.1 <small>November 18 2015</small></h3>
 <ul>
 	<li>Sharing improvements:</li>
 	<ul>
