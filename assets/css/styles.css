@@ -970,6 +970,12 @@ body.install a.btn-lg {
 
 }
 
+/* Consulting page */
+
+.consulting .consultingname {
+	height: 30px;
+}
+
 .consulting .bannerhead {
 	text-align: center;
 }

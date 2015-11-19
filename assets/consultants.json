@@ -11,7 +11,7 @@
             "Customized solutions are the maxim of our project work. In close collaboration with the customer we develop target-oriented solutions."
          ],
          "imagename":"b1-systems.png",
-         "supported":true,
+         "supported":false,
          "github-accounts":[
          "JohnOliver",
          "SantaClaus"
@@ -29,7 +29,7 @@
             "digital/i provides products and services for secure cloud computing, secure data storage and anywhere access based on ownCloud(tm)."
          ],
          "imagename":"digitali.png",
-         "supported":true,
+         "supported":false,
          "github-accounts":[
          "JohnOliver",
          "SantaClaus"
