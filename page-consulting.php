@@ -45,18 +45,18 @@ function displayConsultants($consultants) {
 			echo '  <div class="consulting thumbnail">' . "\r\n";
 			echo '   <div class="bannerhead">' . "\r\n";
 			echo '    <a href="' . $consultants[$consultant]->url . '" target="_blank" rel="noreferrer" title="' . $consultants[$consultant]->title . '">' . "\r\n";
-			if($consultants[$consultant]->supported) {
 			echo '    <img class="logo" src="' . get_template_directory_uri() . '/assets/img/consultants/' . $consultants[$consultant]->imagename . '"/>';
-			} else {
-			echo '    <div class="consultingname">' . $consultants[$consultant]->url . '</div>' . "\r\n";
-			}
 			echo '</a><br \>' . "\r\n" . '     ';
 			echo  $consultants[$consultant]->title;
 			foreach($consultants[$consultant]->flags as $flag) {
 				echo '    <img class="flag" src="' . get_template_directory_uri() . '/assets/img/flags/' . $flag . '.gif"/>';
 			}
 			echo "\r\n" . '    <br \>' . "\r\n" . '   </div>' . "\r\n";
+			if($consultants[$consultant]->supported) {
+			echo '   <div class="bannerfoot-partner">' . "\r\n";
+			} else {
 			echo '   <div class="bannerfoot">' . "\r\n";
+			}
 			if(!empty($consultants[$consultant]->supports)) {
 				echo '<span>Ideal for organizations: </span>' . "\r\n";
 				echo '   <ul class="list-unstyled list-inline">' . "\r\n";
