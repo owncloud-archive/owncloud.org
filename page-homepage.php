@@ -25,7 +25,7 @@
 			<h3 class="ft-title">Privacy</h3>
 			<p class="featuredesc">ownCloud keeps your files secure and private - you decide where you host your data.</p>
 			<a href="/install/#instructions-server">
-			<p class="featurelink">Install your ownCloud!</p>
+			<p class="featurelink">Install your ownCloud Server!</p>
 			</a>
 		</div>
 		<div class="col-md-4">
