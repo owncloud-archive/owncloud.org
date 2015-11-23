@@ -85,7 +85,7 @@
 <h3>I have a problem, what do I do?</h3>
 <ul>
 	<li>If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a> does not help and <a href="https://www.google.com/search?q=owncloud+installation+problem" target="_blank">Google</a> can't solve your problem either you should check out <a href="/support/">our support page</a>.</li>
-	<li>If you are using ownCloud in a business, educational setting or other professional or large scale deployments, note that the <a href="#entcomparison">ownCloud, Inc.</a> offers support contracts.</li>
+	<li>If you are using ownCloud in a business, educational setting or other professional or large scale deployments, note that the <a href="#entcomparison">ownCloud, Inc.</a> offers support contracts as well as <a href="http://owncloud.com/resources">resources</a> like white papers, webinars and a knowledge base to help successfully deploy and use ownCloud in your business.</li>
 </ul>
 
 <a name="chat"></a>
