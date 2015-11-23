@@ -8,35 +8,41 @@ div.conference {
 	margin-top: -20px;
 }
 
-div.conf-content {
-	color: #FFFFFF;
-	font-size: 16px;
-	font-family: FontAwesome,sans-serif;
-	line-height: 1.7;
-	text-align: left;
-}
-
-div.conf-content h1 {
-	text-align: center;
-}
-
-div.conf-content h2,
-div.conf-content h3 {
+div.conference h1,
+div.conference h2,
+div.conference h3 {
 	text-align: center;
 	margin-left: 0;
 }
 
-div.conf-content a:not(.btn) {
+.navbar-default {
+    border: none;
+}
+
+.banner {
+    background-color: transparent;
+}
+
+div.conf-content {
 	color: #FFFFFF;
-	padding: 2px;
+/* 	font-size: 16px; */
+/* 	font-family: FontAwesome,sans-serif; */
+/* 	line-height: 1.7; */
+/* 	text-align: left; */
+}
+
+div.conference a:not(.btn) {
+	color: #FFFFFF;
+	padding: 0px;
 	border-bottom: 1px solid #FFFFFF;
 	border-radius: 2px;
 }
 
-div.conf-content a:hover,
-div.conf-content a:active,
-div.conf-content a:focus {
-	color: #5BC0DE;
+div.conference a:hover,
+div.conference a:active,
+div.conference a:focus {
+/* 	color: #5BC0DE; */
+	border-bottom: 2px solid #FFFFFF;
 	text-decoration: none;
 }
 
@@ -56,9 +62,9 @@ div.conf-header {
 }
 
 h2.conf-location {
-  	font-size: 1.75em;
-    	font-weight: 500;
-	margin-top: 0.5em;
+/*   	font-size: 1.75em; */
+/*     	font-weight: 500; */
+/* 	margin-top: 0.5em; */
 }
 
 div.conf-txt,
@@ -75,11 +81,6 @@ div.conf-info {
 	margin-right: -20px;
 }
 
-div.conf-info h3 {
-  	margin-top: 0;
-	font-weight: 700;
-}
-
 div.conf-info p,
 div.conf-info ul {
 	text-align: left;
@@ -89,13 +90,6 @@ div.conf-info ul {
 	margin-left: 15px;
 }
 
-.navbar-default {
-    border: none;
-}
-
-.banner {
-    background-color: transparent;
-}
 
 div.conference {
     margin-top: -128px;
@@ -134,7 +128,7 @@ div.footer-social-icons {
 	margin-top: 2em !important;
 }
 
-/* Reigstration page */
+/* Reigstration page (we don't use this atm) */
 div.conference .hs-form .hs-form-required {
 	color: white !important;
 }
