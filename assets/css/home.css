@@ -2,7 +2,7 @@
  
  header {
    background-attachment: scroll;
-   background-image: url(../img/home/background.jpg);
+   background-image: url(../img/home/WIP.jpg);
    background-position: center center;
    background-repeat: none;
    -webkit-background-size: cover;
@@ -50,7 +50,7 @@ body {
 }
 
 .intro-text {
-  text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.7);
+  text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9);
 }
 
 .intro-text .intro-heading {
