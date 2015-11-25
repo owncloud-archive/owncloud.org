@@ -47,17 +47,17 @@ body {
 
 .intro-text {
   text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9);
-  margin-top:  25%;
+  margin-top:  20%;
 }
 
 .intro-text h1 {
   font-size: 58px;
-  line-height: 60px;
+  line-height: 70px;
 }
 
 .intro-text p {
   font-size: 26px;
-  line-height: 28px;
+  line-height: 36px;
 }
 
 .home-features {
