@@ -29,6 +29,10 @@
 	src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/OpenSans-Light.woff) format('woff'), url(../fonts/OpenSans-Light.ttf) format('ttf');
 }
 
+span.avoidwrap {
+	display:inline-block;
+}
+
 /* Make background white, font grey and default buttons a bit darker to compensate */
 body {
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Font Awesome", sans-serif !important;
