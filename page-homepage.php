@@ -1,32 +1,30 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/home.css" rel="stylesheet">
 <!-- Teaser Area -->
-<div class="wrap container home-features clearfix">
-	<div class="row">
-		<div class="col-md-4 col-lg-4 col-sm-4">
-			<i class="icon-group icon"></i>
-			<h3 class="ft-title">Community</h3>
-			<p class="featuredesc">ownCloud is developed in a transparent and inviting way by the open source community.</p>
-			<a href="/contribute">
-			<p class="featurelink">Join our community!</p>
-			</a>
-		</div>
-		<div class="col-md-4 col-lg-4 col-sm-4">
-			<i class="icon-eye icon"></i>
-			<h3 class="ft-title">Privacy</h3>
-			<p class="featuredesc">ownCloud keeps your files secure and private - you decide where you host your data.</p>
-			<a href="/install/#instructions-server">
-			<p class="featurelink">Install your ownCloud Server!</p>
-			</a>
-		</div>
-		<div class="col-md-4 col-lg-4 col-sm-4">
-			<i class="icon-cubes icon"></i>
-			<h3 class="ft-title">flexibility</h3>
-			<p class="featuredesc">ownCloud is extensible with new functionality to provide all you need to live your digital life.</p>
-			<a href="/features">
-			<p>Learn about more features!</p>
-			</a>
-		</div>
+<div class="row wrap container home-features clearfix">
+	<div class="col-sm-4">
+		<i class="icon-group icon"></i>
+		<h3 class="ft-title">Community</h3>
+		<p class="featuredesc">ownCloud is developed in a transparent and inviting way by the open source community.</p>
+		<a href="/contribute">
+		<p class="featurelink">Join our community!</p>
+		</a>
+	</div>
+	<div class="col-sm-4">
+		<i class="icon-eye icon"></i>
+		<h3 class="ft-title">Privacy</h3>
+		<p class="featuredesc">ownCloud keeps your files secure and private - you decide where you host your data.</p>
+		<a href="/install/#instructions-server">
+		<p class="featurelink">Install your ownCloud Server!</p>
+		</a>
+	</div>
+	<div class="col-sm-4">
+		<i class="icon-cubes icon"></i>
+		<h3 class="ft-title">flexibility</h3>
+		<p class="featuredesc">ownCloud is extensible with new functionality to provide all you need to live your digital life.</p>
+		<a href="/features">
+		<p>Learn about more features!</p>
+		</a>
 	</div>
 </div>
 
@@ -48,7 +46,7 @@
 	</div>
 </div>-->
 
-<div class="wrap container users">
+<div class="	users">
 		<div class="row">
 			<div class="col-md-12">
 				<h2>Trusted by hundreds of organizations worldwide</h2>
