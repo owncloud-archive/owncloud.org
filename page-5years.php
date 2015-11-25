@@ -8,7 +8,7 @@
 	<div class="col-md-6">
 		<strong>ownCloud is 5 years old!</strong>
 		<p>ownCloud was <a href="/history">announced in 2010</a> by Frank Karlitschek.<br />
-		Having started with just a handful of enthusiasts, it has grown to a community with hundreds of developers and millions of users! Find our blog about the anniversary with <a href="https://owncloud.org/blog/owncloud-is-5-years-old">a time line of ownCloud events here</a>.</p>
+		Having started with just a handful of enthusiasts, it has grown to a community with hundreds of developers and millions of users! Find our <a href="https://owncloud.org/blog/owncloud-is-5-years-old">blog about the anniversary here</a> and see a <a href="/hfull timeline of ownCloud events on our history page</a>.</p>
 		<p>Below we proudly present you some of what makes ownCloud strong:<br />
 		<strong>the ideas and creativity of its users and contributors!</strong>
 		</p>

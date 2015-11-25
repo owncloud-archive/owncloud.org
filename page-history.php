@@ -55,7 +55,19 @@ Installation has minimal server requirements, doesn’t need special permissions
 
 <!-- 2015 -->
   <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2015.svg" alt="Picture"></div></li>
-
+  <li class="tl-image-400">
+    <div class="tl-circ release"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>ownCloud 8.2 released</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> October 2015</small></p>
+      </div>
+      <div class="tl-body">
+        <p>introducing improved Design, new Gallery app, Notifications and file retention control for deletions and versions (<a href="https://owncloud.org/blog/owncloud-server-8-2-brings-renewed-user-interface-and-more-control/">announcement</a></p>
+        <iframe width="100%" height="240" src="https://www.youtube.com/embed/m1V71pCAsws?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </li>
   <li class="new-timeline-inverted">
     <div class="tl-circ desktop"></div>
     <div class="new-timeline-panel">
@@ -176,7 +188,7 @@ Installation has minimal server requirements, doesn’t need special permissions
 <!-- 2014  -->
   <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2014.svg" alt="Picture"></div></li>
   
-    <li class="">
+    <li class="new-timeline-inverted ">
     <div class="tl-circ github"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -190,7 +202,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="tl-image-200">
     <div class="tl-circ code"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -202,7 +214,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="tl-image-200">
+  <li class="new-timeline-inverted tl-image-200">
     <div class="tl-circ office"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -214,7 +226,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-400">
+  <li class="tl-image-400">
     <div class="tl-circ mobile"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -227,7 +239,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="tl-image-200">
+  <li class="new-timeline-inverted tl-image-200">
     <div class="tl-circ inc"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -354,7 +366,7 @@ Installation has minimal server requirements, doesn’t need special permissions
   <!-- 2013  -->
   <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2013.svg" alt="Picture"></div></li>
   
-    <li class="">
+    <li class="new-timeline-inverted">
     <div class="tl-circ github"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -368,7 +380,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="tl-image-200">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -381,7 +393,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="tl-image-400">
+  <li class="new-timeline-inverted tl-image-400">
     <div class="tl-circ code"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -394,7 +406,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="tl-image-200">
     <div class="tl-circ office"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -406,7 +418,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="tl-image-400">
+  <li class="new-timeline-inverted tl-image-400">
     <div class="tl-circ meeting"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
@@ -419,7 +431,7 @@ Installation has minimal server requirements, doesn’t need special permissions
       </div>
     </div>
   </li>
-  <li class="new-timeline-inverted tl-image-200">
+  <li class="tl-image-200">
     <div class="tl-circ inc"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
