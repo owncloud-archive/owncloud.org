@@ -56,6 +56,7 @@
 <div class="row">
     <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
         <p>If you are looking to grab an archive of a specific version or are looking for the version-specific Linux package repositories, you can find links to them in our <a href="/changelog">changelog</a>.</p>
+        <p>Note that releases don't show up in the updater app right away. We usually stagger releases out to watch the impact and hold off in case very serious problems pop up. In practice, most bugfix releases are available within a week, major releases within a week for the Stable channel and a week after the first bugfix release (for example, 9.0.1) for the Production channel. Packages for the Stable channel are available close by or at the release date, Production also waits for the first minor update after a major release.</p>
         <p><strong>Security note:</strong></br>
         To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
         <a name="warning"></a>
