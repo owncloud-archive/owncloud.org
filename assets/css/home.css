@@ -2,7 +2,7 @@
  
  header {
    background-attachment: scroll;
-   background-image: url(../img/home/sq600p.jpg);
+   background-image: url(../img/home/720p.jpg);
    background-position: center center;
    background-repeat: none;
    -webkit-background-size: cover;
@@ -10,7 +10,7 @@
    background-size: cover;
    -o-background-size: cover;
    border: 0px;
-   min-height: 1000px !important;
+   min-height: 800px !important;
    z-index: 0 !important;
 }
 
@@ -28,12 +28,7 @@ body {
 }
 
 .teaser-area  {
-  margin-top:  -600px !important;
-  padding-top: 100px;
-  padding-bottom: 150px;
-  text-align: center;
   color: #FFF;
-  z-index: 10 !important;
 }
 
 .teaser-area .btn-primary {
@@ -52,22 +47,17 @@ body {
 
 .intro-text {
   text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9);
+  margin-top:  25%;
 }
 
-.intro-text .intro-heading {
-  margin-bottom: 22px;
+.intro-text h1 {
   font-size: 58px;
   line-height: 60px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
-.intro-text .intro-details {
-  margin-bottom: 38px;
+.intro-text p {
   font-size: 26px;
   line-height: 28px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .home-features {
@@ -79,14 +69,9 @@ body {
         font-size: 50px;
 }
 
-.home-features a {
-/*   color: black; */
-}
-
 .home-features a:hover  {
   text-decoration: none;
   color: #2A6496;
-  /*  color: #A1A1A1;*/
 }
 
 .users {
@@ -120,54 +105,87 @@ body {
 
 /* handle landscape */
 
-@media only screen and (min-width: 300px) and (max-width: 768px) and (orientation: landscape) {
-	header {
-		background-image: url(../img/home/wide-720p.jpg);
-		min-height: 800px !important;
-	}
-}
 
-@media only screen and (min-width: 768px) and (orientation: landscape) {
+@media only screen and (max-width: 700px) {
 	header {
-		background-image: url(../img/home/wide-1080p.jpg);
-		min-height: 800px !important;
-	}
-}
-
-/* handle portrait */
-
-@media only screen and (min-width: 300px) and (max-width: 768px) and (orientation: portrait) {
-	header {
-		background-image: url(../img/home/sq600p.jpg);
-		min-height: 800px !important;
+		background-image: url(../img/home/h900p.jpg);
+                min-height: 500px !important;
 	}
 	.teaser-area  {
-		margin-top:  -800px !important;
+                color: #FFF;
+        }
+
+        .teaser-area .btn-primary {
+                font-size: 18px;
+                padding: 12px 18px;
+                margin-top: 10px;
+                background: #35537a;
+                border: 1px solid #35537a;
+        }
+        .teaser-area .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+                margin-top: 15px;
+                background: #2A6496;
+                border: 1px solid #2A6496;
+        }
+        .intro-text {
+                text-shadow: 0px 0px 50px rgba(0, 0, 0, 35.9);
+                margin-top:  10%;
+        }       
+        .intro-text h1 {
+                font-size: 36px;
+                line-height: 38px;
+        }
+        .intro-text p {
+                font-size: 18px;
+                line-height: 20px;
+        }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 862px) {
+	header {
+		background-image: url(../img/home/720p.jpg);
+                min-height: 800px !important;
+	}
+	.intro-text {
+		margin-left: 7%;
 	}
 }
 
-@media only screen and (min-width: 768px) and (orientation: portrait) {
+@media only screen and (min-width: 862px) and (max-width: 992px) {
 	header {
-		background-image: url(../img/home/sq1200p.jpg);
-		min-height: 800px !important;
+		background-image: url(../img/home/720p.jpg);
 	}
-	.teaser-area  {
-		margin-top:  -700px !important;
+	.intro-text {
+		margin-left: 11%;
 	}
-	.intro-text .intro-heading {
-		margin-bottom: 22px;
-		font-size: 58px;
-		line-height: 60px;
-		margin-left: 50px;
-		margin-right: 50px;
-	}
+}
 
-	.intro-text .intro-details {
-		margin-bottom: 38px;
-		font-size: 26px;
-		line-height: 28px;
-		margin-left: 50px;
-		margin-right: 50px;
-
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	header {
+		background-image: url(../img/home/1080p.jpg);
 	}
+	.intro-text {
+		margin-left: 10%;
+	}
+	
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px)  {
+	header {
+		background-image: url(../img/home/1440p.jpg);
+	}
+	.intro-text {
+		margin-left: 5%;
+	}
+	
+}
+
+@media only screen and (min-width: 1400px) {
+	header {
+		background-image: url(../img/home/1440p.jpg);
+	}
+	.intro-text {
+		margin-left: 8%;
+	}
+	
 }

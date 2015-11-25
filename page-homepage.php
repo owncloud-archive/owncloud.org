@@ -1,18 +1,9 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/home.css" rel="stylesheet">
 <!-- Teaser Area -->
-
-<div class="container teaser-area">
-	<div class="intro-text">
-		<div class="intro-heading">A safe home for all your data</div>
-		<div class="intro-details">Access & share your files, calendars, contacts, mail & more from any device, on your terms</div>
-		<a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a></div>
-	</div>
-</div>
-
-<div class="wrap container home-features">
+<div class="wrap container home-features clearfix">
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-4 col-lg-4 col-sm-4">
 			<i class="icon-group icon"></i>
 			<h3 class="ft-title">Community</h3>
 			<p class="featuredesc">ownCloud is developed in a transparent and inviting way by the open source community.</p>
@@ -20,7 +11,7 @@
 			<p class="featurelink">Join our community!</p>
 			</a>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 col-lg-4 col-sm-4">
 			<i class="icon-eye icon"></i>
 			<h3 class="ft-title">Privacy</h3>
 			<p class="featuredesc">ownCloud keeps your files secure and private - you decide where you host your data.</p>
@@ -28,7 +19,7 @@
 			<p class="featurelink">Install your ownCloud Server!</p>
 			</a>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 col-lg-4 col-sm-4">
 			<i class="icon-cubes icon"></i>
 			<h3 class="ft-title">flexibility</h3>
 			<p class="featuredesc">ownCloud is extensible with new functionality to provide all you need to live your digital life.</p>
