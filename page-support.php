@@ -52,7 +52,7 @@
     </tr>
   </table>
 
-  <div class="wrap container pad-bottom">
+  <div class="wrap pad-bottom">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3 text-center">
                     <h2>Subscribe to our newsletter</h2>
