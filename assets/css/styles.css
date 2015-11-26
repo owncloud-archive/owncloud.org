@@ -967,7 +967,12 @@ body.install a.btn-lg {
 		display: block;
 		margin-top: 50px;
 	}
+}
 
+/* Consulting page */
+
+.consulting .consultingname {
+	height: 30px;
 }
 
 .consulting .bannerhead {
@@ -987,4 +992,8 @@ body.install a.btn-lg {
 
 .consulting .bannerfoot {
 	height: 110px;
+}
+
+.consulting .bannerfoot-partner {
+	height: 160px;
 }

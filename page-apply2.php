@@ -6,13 +6,13 @@
 	<li>Entries <strong>must</strong> be factual and relevant to ownCloud. Generic services are not a good fit. Make sure that the link you submit contains references (and a link) to ownCloud.</li>
 	<li>Your organization and in particular the website at the link provided has to <strong>respect the <a href="/trademarks">ownCloud trademark policy</a></strong>.</li>
         <li>Note that being listed does not apply approval, endorsement or affiliation with the ownCloud community or project or ownCloud, Inc. and your website and/or description should not, incorrectly, claim so.</li>
-	<li>The <strong>description</strong> can be up to 135 characters. It should give an idea of the offered services so readers can quickly judge if an entry is of interest. Review the current list for the expected contents and format.</li>
+	<li>The <strong>description</strong> can be up to 135 characters (250 for partners). It should give an idea of the offered services so readers can quickly judge if an entry is of interest. Review the current list for the expected contents and format.</li>
 	<ul>
 		<li><strong>Good</strong>: “We offer deployment support, performance optimization of ownCloud, external storage integration and can develop custom apps”</li>
 		<li><strong>Bad</strong>: “Awesome, Inc. is a successful consulting firm founded on solid engineering principles and is a leading provider of open source solutions.”</li>
 	(this does not explain what you offer and gives no reason for a visitor to click to your website)
 	</ul>
-	<li>A <strong>logo</strong> has to be of the size of 290x70pixels in png format.</li>
+	<li>A <strong>logo</strong> has to be of the size of 290x70pixels in png format and use grayscale colors (partners color).</li>
         <li>Entries with incorrect data (wrong image size, too many characters, invalid email addresses or web links) might be silently ignored.</li>
         <li>Submit a new entry if you made a mistake or if something has to change.</li>
         <li>Entries with invalid links may be removed. Please keep us informed about changes.</li>
