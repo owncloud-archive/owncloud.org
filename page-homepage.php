@@ -1,7 +1,7 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/home.css" rel="stylesheet">
 <!-- Teaser Area -->
-<div class="row wrap container home-features clearfix">
+<div class="row wrap home-features clearfix">
 	<div class="col-sm-4">
 		<i class="icon-group icon"></i>
 		<h3 class="ft-title">Community</h3>
@@ -46,7 +46,7 @@
 	</div>
 </div>-->
 
-<div class="	users">
+<div class="users">
 		<div class="row">
 			<div class="col-md-12">
 				<h2>Trusted by hundreds of organizations worldwide</h2>
@@ -96,7 +96,7 @@
 	<p>Learn more about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p>
 </div>
 
-<div class="wrap container newsletter">
+<div class="wrap newsletter">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3 text-center">
 		<!-- Constant Contact Email List Form Button -->
