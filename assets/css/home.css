@@ -170,9 +170,9 @@ body {
 	}
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
 	header {
-		background-image: url(../img/home/1080p.jpg);
+		background-image: url(../img/home/720p.jpg);
 	}
 	.intro-text {
 		margin-left: 10%;
@@ -180,9 +180,9 @@ body {
 	
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1400px)  {
+@media only screen and (min-width: 1280px) and (max-width: 2300px)  {
 	header {
-		background-image: url(../img/home/1440p.jpg);
+		background-image: url(../img/home/1080p.jpg);
 	}
 	.intro-text {
 		margin-left: 5%;
@@ -190,7 +190,7 @@ body {
 	
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 2300px) {
 	header {
 		background-image: url(../img/home/1440p.jpg);
 	}
