@@ -88,6 +88,10 @@ body {
 	text-align: center;
 }
 
+.social-feed {
+	text-align: left;
+}
+
 .home-social .icon {
 	font-size: 50px;
 }

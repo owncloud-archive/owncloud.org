@@ -20,7 +20,7 @@
 	</div>
 	<div class="col-sm-4">
 		<i class="icon-cubes icon"></i>
-		<h3 class="ft-title">flexibility</h3>
+		<h3 class="ft-title">Flexibility</h3>
 		<p class="featuredesc">ownCloud is extensible with new functionality to provide all you need to live your digital life.</p>
 		<a href="/features">
 		<p>Learn about more features!</p>
@@ -110,17 +110,17 @@
 <div class="row 3-column-lg-md-sm home-social">
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<i class="icon-twitter"></i>
-		<h3>The latest <a href="https://twitter.com/ownclouders">twitter posts</a></h3>
-		<?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?>
+		<h3>The latest <a href="https://twitter.com/ownclouders">Twitter posts</a></h3>
+		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<i class="icon-comment"></i>
 		<h3>The latest <a href="https://forum.owncloud.org">from the forum</a></h3>
-		<?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,5); }?>
+		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,5); }?></span>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<i class="icon-cloud"></i>
 		<h3><a href="/news">ownCloud News</a></h3>
-		<?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,6); } ?>
+		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,6); } ?></span>
 	</div>
 </div>
