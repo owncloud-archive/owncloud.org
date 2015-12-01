@@ -74,22 +74,22 @@
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
 			  <a href="https://www.healthmanagement.com/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/HMA.png" title="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." alt="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." /></a>
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
 			  <a href="https://www.jeffnat.com/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/jeffnat.png" alt="Jefferson National replaced Dropbox with ownCloud to keep their financial information secure" title="Jefferson National replaced Dropbox with ownCloud to keep their financial information secure" /></a>
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
 			  <a href="https://www.sciebo.de/en" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/sciebo.png" title="Through Sciebo, 22 German universities scale up to 500,000 users on a federated ownCloud network." alt="Through Sciebo, 22 German universities scale up to 500,000 users on a federated ownCloud network." /></a>
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
 			  <a href="http://www.deutschebahn.com/en/start-en.html" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/DB.png" title="German Railway Deutsche Bahn uses ownCloud to organize its transportation services." alt="German Railway Deutsche Bahn uses ownCloud to organize its transportation services." /></a>
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
 			<a href="http://www.tu-berlin.de/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/TUB.png" alt="Technische Universität Berlin and home of the ownCloud Contributor Conference." title="Technische Universität Berlin and home of the ownCloud Contributor Conference." /></a>
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
 			  <a href="http://www.datto.com/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/datto.png" title="Datto is one of the worlds leading backup solution providers and integrates ownCloud in all their backup solutions." alt="Datto is one of the worlds leading backup solution providers and integrates ownCloud in all their backup solutions." /></a>
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
 			  <a href="https://www.ipcc.ca/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/IPC.png" title="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area." alt="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area" /></a>
 			</div>
 		</div>
