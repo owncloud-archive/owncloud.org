@@ -3,7 +3,7 @@
 		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 		<h2 class="conf-location">Hold the date: Sept 9 - 15 2016, Berlin</h2>
 		Registration will open in Q1 2016. To get notified,</br>
-		<a href="/newsletter" style="font-weight: 300" class="btn btn-lg btn-primary">sign up to our newsletter <i class="icon-check"></i></a>
+		<a href="/confsubscribe" style="font-weight: 300" class="btn btn-lg btn-primary">sign up here <i class="icon-check"></i></a>
 		<!--<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 <!--		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>-->
@@ -41,7 +41,7 @@
 <div class="row conf-info">
 	<div class="col-sm-6">
 		<i class="icon-code"></i>
-		<h2>Hackathon</br><small>Sept 9 - 15</small></h2>
+		<h2>Hackathon</br><!--<small>Sept 9 - 15</small>--></h2>
 		<p>For the fourth time, the awesominals behind ownCloud get together at the TU Berlin for a week of writing code and sharing beer, knowledge and inspiration. Work will get done:</p>
 		<ul>
 			<li>Coding (PHP, JS, C++)</li>
@@ -54,9 +54,9 @@
 	</div>
 	<div class="col-sm-6">
 		<i class="icon-comments-o"></i>
-		<h2>Techtalks &amp; Workshops</br><small>September 10 and 11</small></h2>
-		<p>The Conference Days on Saturday and Sunday provide a chance to learn and improve coding skills on and around ownCloud.<br/>
-		The mornings feature keynotes and lightning talks and the afternoons have workshops. Examples from last year include:</p>
+		<h2>Techtalks &amp; Workshops</br> <!--<small>Sept 10 and 11</small>--></h2>
+		<p>We will also have a program with talks and workshops to provide a chance to learn and improve coding skills on and around ownCloud.<br/>
+		<!--The mornings feature keynotes and lightning talks and the afternoons have workshops.--> Examples from last year include:</p>
 		<ul>
 			<li>Learn to <a href="https://conference.owncloud.org/conference/oCC2015/proposal/101" target="_blank">write your first ownCloud Server App</a></li>
 			<li>Find out about the state of the <a href="https://conference.owncloud.org/conference/oCC2015/proposal/86" target="_blank">Music</a>, <a href="https://conference.owncloud.org/conference/oCC2015/proposal/89" target="_blank">Files</a> or <a href="https://conference.owncloud.org/conference/oCC2015/proposal/88" target="_blank">Contacts</a> app</li>
