@@ -38,7 +38,7 @@
 	</div>
 </div>
 <div class="wrap container">
-	<div class="content row">
+	<div class="content">
 
 <div class="featurewrapper"><h2>New in ownCloud Server 8.2</h2></div>
 <div class="row featurerow">

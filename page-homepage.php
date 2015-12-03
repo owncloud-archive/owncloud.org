@@ -109,6 +109,11 @@
 
 <div class="row 3-column-lg-md-sm home-social">
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
+		<i class="icon-cloud"></i>
+		<h3><a href="/news">ownCloud News</a></h3>
+		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,6); } ?></span>
+	</div>
+	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<i class="icon-twitter"></i>
 		<h3>The latest <a href="https://twitter.com/ownclouders">Twitter posts</a></h3>
 		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span>
@@ -117,10 +122,5 @@
 		<i class="icon-comment"></i>
 		<h3>The latest <a href="https://forum.owncloud.org">from the forum</a></h3>
 		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,5); }?></span>
-	</div>
-	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<i class="icon-cloud"></i>
-		<h3><a href="/news">ownCloud News</a></h3>
-		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,6); } ?></span>
 	</div>
 </div>
