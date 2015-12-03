@@ -40,6 +40,11 @@ span.avoidwrap {
 	display:inline-block;
 }
 
+@media only screen and (max-width: 700px) {
+	div .hideonsmall {
+		display: none;
+	}
+}
 /* Make background white, font grey and default buttons a bit darker to compensate */
 body {
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Font Awesome", sans-serif !important;
@@ -66,7 +71,7 @@ h3 {
 
 .btn-default {
 	background: rgba(240,240,240,.9);
-	border: 1px solid rgba(240,240,240,.9);
+	border: 1px solid rgba(210,210,210,.9);
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {

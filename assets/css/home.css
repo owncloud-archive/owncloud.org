@@ -46,18 +46,20 @@ body {
 }
 
 .intro-text {
-  text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9);
-  margin-top:  20%;
+    text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9);
+    margin-top:  20%;
 }
 
 .intro-text h1 {
-  font-size: 58px;
-  line-height: 70px;
+	font-size: 58px;
+	line-height: 70px;
+	text-shadow: 0px 0px 3px #000000;
 }
 
 .intro-text p {
-  font-size: 26px;
-  line-height: 36px;
+	font-size: 26px;
+	line-height: 36px;
+	text-shadow: 0px 0px 3px #000000;
 }
 
 .home-features {
@@ -88,6 +90,10 @@ body {
 	text-align: center;
 }
 
+.social-feed {
+	text-align: left;
+}
+
 .home-social .icon {
 	font-size: 50px;
 }
@@ -105,7 +111,7 @@ body {
 
 /* handle landscape */
 
-
+/* mobile portrait */
 @media only screen and (max-width: 700px) {
 	header {
 		background-image: url(../img/home/h900p.jpg);
@@ -143,6 +149,7 @@ body {
         }
 }
 
+/* mobile landscape and small screens */
 @media only screen and (min-width: 700px) and (max-width: 862px) {
 	header {
 		background-image: url(../img/home/720p.jpg);
@@ -152,15 +159,9 @@ body {
 	.intro-text {
 		margin-left: 7%;
 	}
-	.intro-text h1 {
-		text-shadow: 0px 0px 3px #000000;
-	}
-	.intro-text p {
-		text-shadow: 0px 0px 3px #000000;
-	}
-
 }
 
+/* small screens */
 @media only screen and (min-width: 862px) and (max-width: 992px) {
 	header {
 		background-image: url(../img/home/720p.jpg);
@@ -169,33 +170,36 @@ body {
 		margin-left: 8%;
 	}
 }
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+/* medium screen size */
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+	header {
+		background-image: url(../img/home/720p.jpg);
+	}
+	.intro-text {
+		margin-left: 0%;
+	}
+	
+}
+/* full hd screen */
+@media only screen and (min-width: 1280px) and (max-width: 2300px)  {
 	header {
 		background-image: url(../img/home/1080p.jpg);
 	}
 	.intro-text {
-		margin-left: 10%;
+		margin-top: 12%;
+		margin-left: -2%;
+		margin-right: 5%;
 	}
 	
 }
-
-@media only screen and (min-width: 1200px) and (max-width: 1400px)  {
+/* larger than full hd */
+@media only screen and (min-width: 2300px) {
 	header {
 		background-image: url(../img/home/1440p.jpg);
+		background-position: 5% 80%;
+        min-height: 1000px !important;
 	}
 	.intro-text {
-		margin-left: 5%;
+		margin-left: 0%;
 	}
-	
-}
-
-@media only screen and (min-width: 1400px) {
-	header {
-		background-image: url(../img/home/1440p.jpg);
-	}
-	.intro-text {
-		margin-left: 8%;
-	}
-	
 }
