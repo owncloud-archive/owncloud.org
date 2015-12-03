@@ -1,7 +1,9 @@
 <div class="row conf-header">
 	<div class="col-sm-6 col-sm-offset-3">
 		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
-		<h2 class="conf-location">August 28 - Sept 3 2015, Berlin</h2>
+		<h2 class="conf-location">Hold the date: Sept 9 - 15 2016, Berlin</h2>
+		Registration will open in Q1 2016. To get notified,</br>
+		<a href="/confsubscribe" style="font-weight: 300" class="btn btn-lg btn-primary">sign up here <i class="icon-check"></i></a>
 		<!--<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 <!--		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>-->
@@ -31,11 +33,16 @@
 		<iframe width="95%" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y" frameborder="0" allowfullscreen></iframe>
 	</div>
 </div>-->
-<!--<div class="row conf-info">
+<div class="row">
+	<div class="text-center">
+	<h2>2016</h2>
+	</div>
+</div>
+<div class="row conf-info">
 	<div class="col-sm-6">
 		<i class="icon-code"></i>
-		<h2>Hackathon</br><small>August 28 - Sept 3</small></h2>
-		<p>For the third time, the awesominals behind ownCloud get together at the TU Berlin for a week of writing code and sharing beer, knowledge and inspiration. Work will get done:</p>
+		<h2>Hackathon</br><!--<small>Sept 9 - 15</small>--></h2>
+		<p>For the fourth time, the awesominals behind ownCloud get together at the TU Berlin for a week of writing code and sharing beer, knowledge and inspiration. Work will get done:</p>
 		<ul>
 			<li>Coding (PHP, JS, C++)</li>
 			<li>Design &amp; Front-end</li>
@@ -43,24 +50,25 @@
 			<li>Translation &amp; Documentation</li>
 			<li>Marketing &amp; Promo</li>
 		</ul>
-		<p>Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/" target="_blank">report on the ownCloud Contributor Conference 2014</a> to get a feeling of the conf.</p>
+		<p>Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway" target="_blank">blog on the ownCloud Contributor Conference 2015</a> to get a feeling of the conf.</p>
 	</div>
 	<div class="col-sm-6">
 		<i class="icon-comments-o"></i>
-		<h2>Techtalks &amp; Workshops</br><small>August 29-30</small></h2>
-		<p>The Conference Days on Saturday and Sunday provide a chance to learn and improve coding skills on and around ownCloud.<br/>
-		The mornings feature keynotes and lightning talks, the afternoons have workshops, including:</p>
+		<h2>Techtalks &amp; Workshops</br> <!--<small>Sept 10 and 11</small>--></h2>
+		<p>We will also have a program with talks and workshops to provide a chance to learn and improve coding skills on and around ownCloud.<br/>
+		<!--The mornings feature keynotes and lightning talks and the afternoons have workshops.--> Examples from last year include:</p>
 		<ul>
 			<li>Learn to <a href="https://conference.owncloud.org/conference/oCC2015/proposal/101" target="_blank">write your first ownCloud Server App</a></li>
 			<li>Find out about the state of the <a href="https://conference.owncloud.org/conference/oCC2015/proposal/86" target="_blank">Music</a>, <a href="https://conference.owncloud.org/conference/oCC2015/proposal/89" target="_blank">Files</a> or <a href="https://conference.owncloud.org/conference/oCC2015/proposal/88" target="_blank">Contacts</a> app</li>
 			<li><a href="https://conference.owncloud.org/conference/oCC2015/proposal/59" target="_blank">Secure your PHP application</a></li>
 			<li>How is ownCloud <a href="https://conference.owncloud.org/conference/oCC2015/proposal/91" target="_blank">used for 500.000 students</a></li>
 		</ul>
-		<p>Check out <a href="https://owncloud.org/blog/owncloud-contributor-conference-program/">the full program</a>!</p>
+		<!--<p>Check out <a href="https://owncloud.org/blog/owncloud-contributor-conference-program/">the full program</a>!</p>-->
+		<p>We will publish a Call for Papers in Q2 2016</p>
 		<p>This is a hands-on event. <strong>Bring your laptop!</strong></p>
 		
 	</div>
-</div>-->
+</div>
 <!--<div class="row conf-info">
 	<div class="col-sm-6">
 		<h2>Register</h2>
@@ -85,7 +93,7 @@
 </div>-->
 <div class="row conf-info">
 	<div class="col-md-12">
-		<h2>Coverage</h2>
+		<h2>Coverage 2015</h2>
 	</div>
 </div>
 
@@ -119,7 +127,7 @@
 
 <div class="row conf-partners-title">
 	<div class="col-md-12">
-		<h2>Media Partners</h2>
+		<h2>Media Partners 2015</h2>
 	</div>
 </div>
 <div class="row conf-partners">
@@ -142,8 +150,8 @@
 <div class="row conf-about">
 	<div class="col-sm-6">
 		<h2>Last year</h2>
-		<p>The ownCloud Contributor Conference 2014 brought 100 ownClouders to Berlin. Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-was-awesome/" target="_blank">report</a> to learn more and watch <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">the 2014 talks</a> on our youtube channel.</p>
-		<p><!--<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014.jpg" target="_blank">--><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014.jpg" style="width: 95%" alt="group photo" class="aligncenter" /><!--</a>--></p>
+		<p>The ownCloud Contributor Conference 2015 brought 140 ownClouders to Berlin. Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway" target="_blank">blog</a> to learn more and watch <a href="https://www.youtube.com/watch?v=NQ5XMwVs_wY&list=PLtZe22ggl2YCHUFQiUfFHq8DWNBzBdQ0U" target="_blank">the 2015 talks</a> on our youtube channel.</p>
+		<p><!--<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014.jpg" target="_blank">--><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" style="width: 95%" alt="group photo" class="aligncenter" /><!--</a>--></p>
 <!--		<iframe src="//www.youtube-nocookie.com/embed/srGYbsugEPc?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>-->
 	</div>
 	<div class="col-sm-6">

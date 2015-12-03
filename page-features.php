@@ -38,7 +38,7 @@
 	</div>
 </div>
 <div class="wrap container">
-	<div class="content row">
+	<div class="content">
 
 <div class="featurewrapper"><h2>New in ownCloud Server 8.2</h2></div>
 <div class="row featurerow">
@@ -192,8 +192,11 @@
 </ul>
 <p>Find answers to your questions on our <a href="/faq">Frequently Asked Questions page</a>.</p>
 </div>
+</div>
+</div>
+<div class="wrap container">
 <h2>Get involved!</h2>
-<p><a target="_blank" href="/promote/" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss ownCloud with others</a></p>
-<p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> Join the ownCloud community</a></p>
-<p><a target="_blank" href="/conf/" class="btn btn-lg btn-default"> <i class="icon-group"></i> ownCloud Contributor Conference</a></p>
-
+<p><a target="_blank" href="/promote/" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss and share ownCloud</a></p>
+<p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> Contribute to ownCloud</a></p>
+<p><a target="_blank" href="/conf/" class="btn btn-lg btn-default"> <i class="icon-group"></i> ownCloud Contributor Conf</a></p>
+</div>
