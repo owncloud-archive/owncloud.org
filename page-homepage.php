@@ -1,252 +1,30 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/tinycarousel.css" type="text/css" media="screen"/>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/home.css" rel="stylesheet">
 <!-- Teaser Area -->
-<div class="container teaser-area">
-	<div class="row">
-		<div class="col-lg-7 col-md-6 col-sm-5">
-			<h1>Access your data from all your devices, on an open platform you can extend and modify.</h1>
-			<p>Take back your data with ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></p>
-			<p><a class="btn btn-primary btn-lg" role="button" href="/features">Learn more &raquo;</a></p>
-		</div>
-		<div id="image-container" class="col-lg-5 col-md-6 col-sm-7">
-			<div class="image">
-				<a href="/features"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser.png" class="teaser-img img-responsive" alt="ownCloud <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>" /></a>
-			</div>
-		</div>
+<div class="row wrap home-features clearfix">
+	<div class="col-sm-4">
+		<i class="icon-group icon"></i>
+		<h3 class="ft-title">Community</h3>
+		<p class="featuredesc">ownCloud is developed in a transparent and inviting way by the open source community.</p>
+		<a href="/contribute">
+		<p class="featurelink">Join our community!</p>
+		</a>
 	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<div class="separator"></div>
-		</div>
+	<div class="col-sm-4">
+		<i class="icon-eye icon"></i>
+		<h3 class="ft-title">Privacy</h3>
+		<p class="featuredesc">ownCloud keeps your files secure and private - you decide where you host your data.</p>
+		<a href="/install/#instructions-server">
+		<p class="featurelink">Install your ownCloud Server!</p>
+		</a>
 	</div>
-</div>
-
-
-
-<div class="container feature-cols">
-	<div class="row">
-	<div class="col-md-4">
-		<div class="feature-block slider">
-		
-		
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner">
-			
-			
-			 <!-- ITEM #1 -->
-			<div class="item active">
-				<div class="hoverarea">
-					<div class="hovercontent">
-						<p>The News app is an<br /> RSS/Atom feed aggregator.</p>
-						<div class="button-group text-center">
-							<h2>News</h2>
-							<a href="https://github.com/owncloud/news/blob/master/README.md#before-you-installupdate-the-news-app" target="_blank"><button type="button" class="btn btn-lg">Get the news app</button></a>
-					 </div>
-				</div>
-			</div>
-
-				<div class="img-con">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-news.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-news-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
-				</div>
-				<h2 class="text-center hoverfade">Extend your Cloud</h2>
-				<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
-			 </div>
-			 
-			<!-- ITEM #2 -->
-			<div class="item ">
-				<div class="hoverarea">
-					<div class="hovercontent">
-						<p>Become part of the ownCloud Community and help us liberate data across the globe!</p>
-						<div class="button-group text-center">
-							<h2>Contribute</h2>
-							<a href="/contribute/" target="_blank"><button type="button" class="btn btn-lg">Make ownCloud better</button></a>
-					 </div>
-				</div>
-			</div>
-
-				<div class="img-con">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-develop.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-develop-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
-				</div>
-				<h2 class="text-center hoverfade">Develop an ownCloud App</h2>
-				<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
-			 </div>
-		
-			 
-			<!-- ITEM #3 -->
-			<div class="item ">
-				<div class="hoverarea">
-					<div class="hovercontent">
-						<p>Widgets shows you quick and easy the most important information</p>
-						<div class="button-group text-center">
-							<h2>ocDashboard</h2>
-							<a href="https://apps.owncloud.com/content/show.php/ocDashboard?content=160265" target="_blank"><button type="button" class="btn btn-lg">Get ocDashboard</button></a>
-					 </div>
-				</div>
-			</div>
-
-				<div class="img-con">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-dashboard.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-dashboard-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
-				</div>
-				<h2 class="text-center hoverfade">Extend your Cloud</h2>
-				<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
-			 </div>
-			 
-			 <!-- ITEM #4 -->
-			<div class="item ">
-				<div class="hoverarea">
-					<div class="hovercontent">
-						<p>Music player and server for ownCloud</p>
-						<div class="button-group text-center">
-							<h2>Music</h2>
-							<a href="https://apps.owncloud.com/content/show.php/Music?content=164319" target="_blank"><button type="button" class="btn btn-lg">Get the music app</button></a>
-					 </div>
-				</div>
-			</div>
-
-				<div class="img-con">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-music.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-music-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
-				</div>
-				<h2 class="text-center hoverfade">Extend your Cloud</h2>
-				<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
-			 </div>
-			 
-			<!-- ITEM #5 -->
-			<div class="item ">
-				<div class="hoverarea">
-					<div class="hovercontent">
-						<p>Tasks management for ownCloud.</p>
-						<div class="button-group text-center">
-							<h2>Tasks Enhanced</h2>
-							<a href="https://apps.owncloud.com/content/show.php/Tasks+Enhanced?content=164356" target="_blank"><button type="button" class="btn btn-lg">Get Tasks Enhanced</button></a>
-					 </div>
-				</div>
-			</div>
-
-				<div class="img-con">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-tasks.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/slider-tasks-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
-				</div>
-				<h2 class="text-center hoverfade">Extend your Cloud</h2>
-				<p class="text-center hoverfade">Use or develop apps to extend your ownCloud.</p>
-			 </div>
-				
-				
-				
-				
-			</div>
-		</div>
-
-
-		 
-	</div>
-	</div>
-	
-	<div class="col-md-4">
-		<div class="feature-block">
-		<div class="hoverarea">
-			<div class="hovercontent">
-				<p>Music • Calendar • Contacts • Files • Video • More</p>
-				<div class="button-group text-center">
-				<h2>Host your own data</h2>
-				<a href="https://www.youtube.com/watch?v=m1V71pCAsws" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
-				<a href="/features/" target="_blank"><button type="button" class="btn btn-lg">More Features</button></a>
-				</div>
-			</div>
-		</div>
-		<div class="img-container primary">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-owncloud.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-owncloud-small.png" class="img-responsive hidden-md hidden-lg" alt="...">
-		</div>
-		<h2 class="text-center hoverfade">Host your own data</h2>
-		<p class="text-center hoverfade">Share files, music and contacts on your terms.</p>
-		</div>
-	 </div>
-
-	<div class="col-md-4">
-		<div class="feature-block">
-		<div class="hoverarea">
-			<div class="hovercontent">
-				<p>Windows network drives • SharePoint • SAML • S3• More</p>
-				<div class="button-group text-center">
-				<h2>Relying on ownCloud<br /> in your business?</h2>
-				<a href="https://owncloud.com/webinars/playback/?videourl=91033287&webinartitle=ownCloud%20for%20Enterprise%20File%20Sync%20and%20Share&webinarhost=ownCloud.Inc" target="_blank"><button type="button" class="btn btn-lg"><span class="glyphicon glyphicon-play-circle"></span> Demo Video</button></a>
-				<a href="https://owncloud.com/subscriptions" target="_blank"><button type="button" class="btn btn-lg">Learn More</button></a>
-				</div>
-			</div>
-		</div>
-		<div class="img-container enterprise">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business.jpg" class="img-responsive hidden-xs hidden-sm" alt="...">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/teaser-own-your-business-small.jpg" class="img-responsive hidden-md hidden-lg" alt="...">
-		</div>
-		<h2 class="text-center hoverfade">Relying on ownCloud<br /> in your business?</h2>
-		<p class="text-center hoverfade">Learn about support options and enterprise features.</p>
-		</div>
-	</div>
-
-
-	<hr>
-
-
-</div> <!-- /container -->
-
-<script>
-$( document ).ready(function() {
-	//Pause Slider on hover
-	$(".slider").hover(
-	function() {
-		$("#carousel-example-generic").carousel('pause');
-	}, function() {
-		$("#carousel-example-generic").carousel('cycle');
-	});
-	
-	$(".hoverarea").hover(
-	function() {
-		$( this ).nextAll(".hoverfade").addClass("hide-type");
-		}, function() {
-	$( this ).nextAll(".hoverfade").removeClass("hide-type");
-	});
-});
-</script>
-
-<div class="row pad-bottom" id="getapps">
-	<div class="col-sm-12">
-		<div class="row" style="margin-bottom: -7px !important;">
-			<div class="col-md-12">
-				<h2><i class="icon-cloud-download">&nbsp;</i> Get your ownCloud</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-6 col-xs-12 install-buttons">
-				<p>ownCloud Server <?php echo $VERSIONS_SERVER_FULL_STABLE; ?> at home</p>
-					<a class="btn btn-primary btn-lg installbtn" href="/install"><i class="icon-cloud-download" ></i> Download ownCloud</br><small>Host yourself or find a provider</small></a>
-			</div>
-			<div class="col-xs-12 col-sm-6">
-				<p>Looking to use ownCloud in a professional setting?</p>
-				<a href="https://owncloud.com/owncloud-overview/" class="btn btn-lg btn-primary"><i class="icon-briefcase"></i> ownCloud in the Enterprise<br/><small>Sensitive data under your control</small></a>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="row 2-column-lg-md-sm pad-bottom">
-	<div class="col-xs-12 col-sm-6">
-		<h2><i class="icon-rocket">&nbsp;</i> Join the ownCloud community</h2>
-		<p>Join a large and growing community discussing ownCloud and sharing their experiences. Meet other enthusiasts at events and online!</p>
-		<div class="join">
-			<a class="btn btn-block btn-lg join-button events-button" href="/promote" role="button">Connect with others</a>
-			<a class="btn btn-block btn-lg join-button events-button" href="/events" role="button">ownCloud Events</a>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-6">
-		<h2><i class="icon-users">&nbsp;</i> Make a difference</h2>
-		<p>Become part of the force that pushes ownCloud development further. Test, code, translate, support development with bounties and more!</p>
-		<div class="join">
-			<a class="btn btn-block btn-primary btn-lg join-button" href="/contribute" role="button">Help change the world!</a>
-			<a class="btn btn-block btn-primary btn-lg join-button" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html" role="button">Report an issue</a>
-		</div>
+	<div class="col-sm-4">
+		<i class="icon-cubes icon"></i>
+		<h3 class="ft-title">Flexibility</h3>
+		<p class="featuredesc">ownCloud is extensible with new functionality to provide all you need to live your digital life.</p>
+		<a href="/features">
+		<p>Learn about more features!</p>
+		</a>
 	</div>
 </div>
 
@@ -268,69 +46,81 @@ $( document ).ready(function() {
 	</div>
 </div>-->
 
-<div class="wrap container pad-bottom">
+<div class="users">
 		<div class="row">
-			<div class="col-md-12 text-center">
+			<div class="col-md-12">
 				<h2>Trusted by hundreds of organizations worldwide</h2>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
-			  <a href="http://home.web.cern.ch/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/cern.png" alt="The Atom Smashers in Switzerland" /></a>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			  <a href="https://owncloud.com/cern-smashbox-and-owncloud-collaboration/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/cern.png" alt="The Scientific Atom Smashers in Switzerland" title="The Scientific Atom Smashers in Switzerland" /></a>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
-			<a href="http://www.tu-berlin.de/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/TUB.png" alt="Technische Universität Berlin and home of the ownCloud Contributor Conference" /></a>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/joyglobal.png" title="Joy Global Inc. is an American fortune 1000 company that manufactures and services heavy machinery used in underground and surface mining." alt="Joy Global Inc. is an American fortune 1000 company that manufactures and services heavy machinery used in underground and surface mining." /></a>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
-			<a href="http://www.bauhaus.info/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/bauhaus.png" alt="Swiss retail chain offering products for home improvement, gardening and workshop" /></a>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			<a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/bauhaus.png" alt="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe." title="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe." /></a>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
-			  <a href="http://www.delonghi.com/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/delongi.png" alt="DeLongi is a major Italian appliance manufacturer" /></a>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/delongi.png" alt="DeLongi is a major Italian appliance manufacturer." title="DeLongi is a major Italian appliance manufacturer." /></a>
 			</div>
-<!--			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
+<!--			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
 			  <a href="https://www.amnesty.de/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/amnesty.png" alt="Amnesty Germany" /></a>
 			</div>-->
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 customers">
-			  <a href="https://www.hawaii.edu/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni" /></a>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			  <a href="http://oc.owncloud.com/opencloudmesh.html" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni." title="The university of Hawaii has 50.000 students and famous alumni." /></a>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
+			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/HMA.png" title="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." alt="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." /></a>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
+			  <a href="https://owncloud.com/customer/jefferson-national/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/jeffnat.png" alt="Jefferson National replaced Dropbox with ownCloud to keep their financial information secure" title="Jefferson National replaced Dropbox with ownCloud to keep their financial information secure" /></a>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
+			  <a href="https://owncloud.com/customer/sciebo/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/sciebo.png" title="Through Sciebo, 22 German universities scale up to 500,000 users on a federated ownCloud network." alt="Through Sciebo, 22 German universities scale up to 500,000 users on a federated ownCloud network." /></a>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
+			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/DB.png" title="German Railway Deutsche Bahn uses ownCloud to organize its transportation services." alt="German Railway Deutsche Bahn uses ownCloud to organize its transportation services." /></a>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
+			<a href="https://www.youtube.com/watch?v=L6SLi6D6dz4&index=3&list=PLtZe22ggl2YCHUFQiUfFHq8DWNBzBdQ0U" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/TUB.png" alt="Technische Universität Berlin and home of the ownCloud Contributor Conference." title="Technische Universität Berlin and home of the ownCloud Contributor Conference." /></a>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
+			  <a href="http://www.forbes.com/sites/benkepes/2015/06/12/owncloud-and-datto-partner-to-secure-private-file-sharing/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/datto.png" title="Datto is one of the worlds leading backup solution providers and integrates ownCloud in all their backup solutions." alt="Datto is one of the worlds leading backup solution providers and integrates ownCloud in all their backup solutions." /></a>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
+			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/IPC.png" title="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area." alt="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area" /></a>
 			</div>
 		</div>
-	<div class="text-center"><p>Learn about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p>
-	</div>
+	<p>Learn more about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p>
 </div>
-<hr>
 
-<div class="wrap container pad-bottom">
+<div class="wrap newsletter">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3 text-center">
 		<!-- Constant Contact Email List Form Button -->
-		    <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a><br />
+		   <!-- <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a><br />-->
+<!-- 		   <a class="btn btn-primary btn-lg" role="button" href="/features">Learn more about what ownCloud can do for you &raquo;</a> -->
 		</div>
 	</div>
 </div>
 
 
-<div class="row 3-column-lg-md-sm">
+<div class="row 3-column-lg-md-sm home-social">
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<h2><i class="icon-twitter"></i> The latest <a href="https://twitter.com/ownclouders">twitter posts</a></h2>
-		<?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,3); } ?>
+		<i class="icon-twitter"></i>
+		<h3>The latest <a href="https://twitter.com/ownclouders">Twitter posts</a></h3>
+		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<h2><i class="icon-comment"></i> The latest <a href="https://forum.owncloud.org">from the forum</a></h2>
-		<?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,7); }?>
+		<i class="icon-comment"></i>
+		<h3>The latest <a href="https://forum.owncloud.org">from the forum</a></h3>
+		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,5); }?></span>
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<h2><i class="icon-cloud"></i> <a href="/news">ownCloud News</a></h2>
-		<?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,9); } ?>
+		<i class="icon-cloud"></i>
+		<h3><a href="/news">ownCloud News</a></h3>
+		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,6); } ?></span>
 	</div>
 </div>
-
-
-<!-- Tiny caroussel -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.tinycarousel.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function()
-		{
-			$('#slider1').tinycarousel();
-		});
-	</script>

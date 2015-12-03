@@ -21,27 +21,37 @@ if(is_page('oc-news') || is_page('blogfeed')) { include roots_template_path(); }
       get_template_part('templates/header-top-navbar');
     ?>
 
-    <?php if(is_page('5years') || is_page('conf') || is_page('register') || is_page('federation') || is_page('thankyou')) { // Handle alternative layout ?>
-      <div class="conference">
-        <div class="wrap container conf-content" role="document">
-          <div class="content row">
-            <main class="main <?php echo roots_main_class(); ?>" role="main">
-              <?php include roots_template_path(); ?>
-            </main><!-- /.main -->
-          </div><!-- /.content -->
-        </div><!-- /.wrap -->
-      </div><!-- /.conference -->
+    <?php if(is_page('home')) { // Handle home page ?>
+	<div class="homepage">
+	    <main class="main <?php echo roots_main_class(); ?>" role="main">
+	      <?php include roots_template_path(); ?>
+	    </main><!-- /.main -->
+	</div><!-- /.wrap -->
 
-    <?php } else { // Handle all other layouts ?>
+	<?php } else { // Handle further special layouts ?>
 
-      <div class="wrap container" role="document">
-        <div class="content row">
-          <main class="main <?php echo roots_main_class(); ?>" role="main">
-            <?php include roots_template_path(); ?>
-          </main><!-- /.main -->
-        </div><!-- /.content -->
-      </div><!-- /.wrap -->
+	  <?php if(is_page('5years') || is_page('conf') || is_page('register') || is_page('federation') || is_page('thankyou')) { // Handle alternative layout ?>
+	    <div class="conference">
+	      <div class="wrap container conf-content" role="document">
+		<div class="content row">
+		  <main class="main <?php echo roots_main_class(); ?>" role="main">
+		    <?php include roots_template_path(); ?>
+		  </main><!-- /.main -->
+		</div><!-- /.content -->
+	      </div><!-- /.wrap -->
+	    </div><!-- /.conference -->
 
+	  <?php } else { // Handle all other layouts ?>
+
+	    <div class="wrap container" role="document">
+	      <div class="content row">
+		<main class="main <?php echo roots_main_class(); ?>" role="main">
+		  <?php include roots_template_path(); ?>
+		</main><!-- /.main -->
+	      </div><!-- /.content -->
+	    </div><!-- /.wrap -->
+
+	  <?php } ?>
     <?php } ?>
     
     <?php require get_template_directory().'/templates/footer.php'; ?>

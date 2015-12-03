@@ -17,9 +17,22 @@
         <li class="menu-demo"><a target="_blank" href="https://demo.owncloud.org">Demo</a></li>
         <li class="menu-documentation"><a href="https://doc.owncloud.org">Documentation</a></li>
         <li class="<?php if(is_page('contribute')){ echo 'top-nav-active '; } ?>menu-contribute"><a href="/contribute/">Contribute</a>
-        <li class="<?php if(is_page('support')){ echo 'top-nav-active '; } ?>menu-commercial"><a href="/support/">Support</a></li>
+        <li class="<?php if(is_page('support')){ echo 'top-nav-active '; } ?>menu-support"><a href="/support/">Support</a></li>
+        <li class="menu-commercial"><a target="_blank" href="https://owncloud.com">Enterprise Edition</a></li>
         <li class="<?php if(is_page('news')){ echo 'top-nav-active '; } ?>menu-install"><a href="/install/">Download</a></li>
       </ul>
     </nav>
   </div>
+  <?php if(is_page('homepage')): ?>
+	<div class="container-fluid teaser-area">
+		<div class="col-xs-offset-0 col-sm-offset-1 col-md-offset-2 col-lg-offset-3  col-xs-12 col-sm-10 col-md-8 col-lg-6">
+			<div class="text-center intro-text">
+				<h1><span class="avoidwrap">A safe home</span> <span class="avoidwrap">for all your data</span></h1>
+				<p><span class="avoidwrap">Access & share your files</span>, calendars, contacts, <span class="avoidwrap">mail & more</span> <span class="avoidwrap">from any device, on your terms</span></p>
+				<br>
+				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a>
+			</div>
+		</div>
+	</div>
+  <?php endif; ?>
 </header>
