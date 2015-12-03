@@ -1,7 +1,55 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
-<h3 id="201">Release 2.0.2 <small>October 22nd 2015</small></h3>
+<h3 id="210">Release 2.1.0 <small>December 3rd 2015</small></h3>
+<ul>
+<li>GUI: Added a separate view for not synced items, ignores, errors</li>
+<li>GUI: Improved upload/download progress UI (<a href="https://github.com/owncloud/client/issues/3403">#3403</a>, <a href="https://github.com/owncloud/client/issues/3569">#3569</a>)</li>
+<li>Allowed sharing with ownCloud internal users and groups from Desktop</li>
+<li>Changed files starting in .* to be considered hidden on all platforms (<a href="https://github.com/owncloud/client/issues/4023">#4023</a>)</li>
+<li>Reflect read-only permissions in filesystem (<a href="https://github.com/owncloud/client/issues/3244">#3244</a>)  </li>
+<li>Blacklist: Clear on successful chunk upload (<a href="https://github.com/owncloud/client/issues/3934">#3934</a>)</li>
+<li>Improved reconnecting after network change/disconnect (<a href="https://github.com/owncloud/client/issues/4167">#4167</a> <a href="https://github.com/owncloud/client/issues/3969">#3969</a> ...)</li>
+<li>Improved performance in Windows file system discovery</li>
+<li>Removed libneon-based propagator. As a consequence, The client can no longer provide bandwith limiting on Linux-distributions where it is using Qt &lt; 5.4</li>
+<li>Performance improvements in the logging functions</li>
+<li>Ensured that local disk space problems are handled gracefully (<a href="https://github.com/owncloud/client/issues/2939">#2939</a>)</li>
+<li>Improved handling of checksums: transport validation, db (<a href="https://github.com/owncloud/client/issues/3735">#3735</a>)</li>
+<li>For *eml-files don't reupload if size and checksum are unchanged (<a href="https://github.com/owncloud/client/issues/3235">#3235</a>)</li>
+<li>Ensured 403 reply code is handled properly (File Firewall) (<a href="https://github.com/owncloud/client/issues/3490">#3490</a>)</li>
+<li>Reduced number of PROPFIND requests to server(<a href="https://github.com/owncloud/client/issues/3964">#3964</a>)</li>
+<li>GUI: Added Account toolbox widget to keep account actions (<a href="https://github.com/owncloud/client/issues/4139">#4139</a>)</li>
+<li>Tray Menu: Added fixes for Recent Activity menu (<a href="https://github.com/owncloud/client/issues/4093">#4093</a>, <a href="https://github.com/owncloud/client/issues/3969">#3969</a>)</li>
+<li>FolderMan: Fixed infinite wait on pause (<a href="https://github.com/owncloud/client/issues/4093">#4093</a>)</li>
+<li>Renamed env variables to include unit (<a href="https://github.com/owncloud/client/issues/2939">#2939</a>)</li>
+<li>FolderStatusModel: Attempt to detect removed undecided files (<a href="https://github.com/owncloud/client/issues/3612">#3612</a>)</li>
+<li>SyncEngine: Don't whipe the white list if the sync was aborted (<a href="https://github.com/owncloud/client/issues/4018">#4018</a>)</li>
+<li>Quota: Handle special negative value for the quota (<a href="https://github.com/owncloud/client/issues/3940">#3940</a>)</li>
+<li>State app name in update notification (<a href="https://github.com/owncloud/client/issues/4020">#4020</a>)</li>
+<li>PropagateUpload: Fixed double-emission of finished (<a href="https://github.com/owncloud/client/issues/3844">#3844</a>)</li>
+<li>GUI: Ensured folder names which are excluded from sync can be clicked</li>
+<li>Shell Integration: Dolphin support, requires KF 5.16 and KDE Application 15.12</li>
+<li>FolderStatusModel: Ensured reset also if a folder was renamed (<a href="https://github.com/owncloud/client/issues/4011">#4011</a>)</li>
+<li>GUI: Fixed accessiblity of remaing items in full settings toolbar (<a href="https://github.com/owncloud/client/issues/3795">#3795</a>)</li>
+<li>Introduced the term "folder sync connection" in more places (<a href="https://github.com/owncloud/client/issues/3757">#3757</a>)</li>
+<li>AccountSettings: Don't disable pause when offline (<a href="https://github.com/owncloud/client/issues/4010">#4010</a>)</li>
+<li>Fixed handling of hidden files (<a href="https://github.com/owncloud/client/issues/3980">#3980</a>)</li>
+<li>Handle download errors while resuming as soft errors (<a href="https://github.com/owncloud/client/issues/4000">#4000</a>)</li>
+<li>SocketAPI: Ensured that the command isn't trimmed (<a href="https://github.com/owncloud/client/issues/3297">#3297</a>)</li>
+<li>Shutdown socket API before removing the db (<a href="https://github.com/owncloud/client/issues/3824">#3824</a>)</li>
+<li>GUI: Made "Keep" default in the delete-all dialog (<a href="https://github.com/owncloud/client/issues/3824">#3824</a>)</li>
+<li>owncloudcmd: Introduced return code 0 for --version and --help</li>
+<li>owncloudcmd: Added --max-sync-retries (<a href="https://github.com/owncloud/client/issues/4037">#4037</a>)</li>
+<li>owncloudcmd: Don't do a check that file are older than 2s (<a href="https://github.com/owncloud/client/issues/4160">#4160</a>)</li>
+<li>Fixed getting size for selective sync (<a href="https://github.com/owncloud/client/issues/3986">#3986</a>)</li>
+<li>Re-added close button in the settings window (<a href="https://github.com/owncloud/client/issues/3713">#3713</a>)</li>
+<li>Added abililty to handle storage limitations gracefully (<a href="https://github.com/owncloud/client/issues/3736">#3736</a>)</li>
+<li>Updated 3rdparty dependencies: sqlite version 3.9.1</li>
+<li>Organized patches to our base Qt version into admin/qt/patches</li>
+<li>Plus: A lot of unmentioned improvements and fixes</li>
+</ul>
+
+<h3 id="202">Release 2.0.2 <small>October 22nd 2015</small></h3>
 <ul>
 <li>csync_file_stat_s: Save a bit of memory</li>
 <li>Shibboleth: Add our base user agent to WebKit</li>
