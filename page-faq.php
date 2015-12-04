@@ -121,7 +121,7 @@ The best places for conversation are:
 <h3>If I have my ownCloud server hosted, does that still help me protect my privacy?</h3>
 <ul>
 	<li>Yes, it does. Decentralization helps protect your data by making it harder for an attacker to find, and less valuable if they do (decreasing motivation). Moreover, you get to choose where and with whom you host your data - so you can find a jurisdiction which protects you better, or host your data at a local company you trust. See <a href="https://owncloud.org/blog/dont-be-caught-naked-in-the-cloud-decentralization-protects-our-data/" target="_blank">this blog post</a> for more details on this.</li>
-
+</ul>
 <h2>Technology</h2>
 <a name="rsync"></a>
 <h3>Why does ownCloud use csync rather than rsync?</h3>
