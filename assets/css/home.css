@@ -162,8 +162,12 @@ body {
 }
 
 /* mobile and super small screen hi DPI */
-@media only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width: 700px) and (max-width: 862px), only screen and (-o-min-device-pixel-ratio: 3/2) and (min-width: 700px) and (max-width: 862px), only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 700px) and (max-width: 862px), only screen and (min-devicepixel-ratio: 1.5) and (min-width: 700px) and (max-width: 862px), only screen and (min-resolution: 1.5dppx) and (min-width: 700px) and (max-width: 862px) {
-
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 700px) and (max-width: 862px),
+only screen and (-moz-min-device-pixel-ratio: 1.5   ) and (min-width: 700px) and (max-width: 862px),
+only screen and (-o-min-device-pixel-ratio: 3/2     ) and (min-width: 700px) and (max-width: 862px),
+only screen and (min-devicepixel-ratio: 1.5         ) and (min-width: 700px) and (max-width: 862px),
+only screen and (min-resolution: 1.5dppx            ) and (min-width: 700px) and (max-width: 862px) {
 	header {
 		background-image: url(../img/home/1080p.jpg);
                 min-height: 800px !important;
@@ -186,7 +190,11 @@ body {
 }
 
 /* small screen, hi DPI */
-@media only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width: 862px) and (max-width: 992px), only screen and (-o-min-device-pixel-ratio: 3/2) and (min-width: 862px) and (max-width: 992px), only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 862px) and (max-width: 992px), only screen and (min-devicepixel-ratio: 1.5) and (min-width: 862px) and (max-width: 992px), only screen and (min-resolution: 1.5dppx) and (min-width: 862px) and (max-width: 992px) {
+@media only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width: 862px) and (max-width: 992px),
+only screen and (-webkit-min-device-pixel-ratio: 1.5    ) and (min-width: 862px) and (max-width: 992px),
+only screen and (-o-min-device-pixel-ratio: 3/2         ) and (min-width: 862px) and (max-width: 992px),
+only screen and (min-devicepixel-ratio: 1.5             ) and (min-width: 862px) and (max-width: 992px),
+only screen and (min-resolution: 1.5dppx                ) and (min-width: 862px) and (max-width: 992px) {
 	header {
 		background-image: url(../img/home/1080p.jpg);
 	}
@@ -207,7 +215,11 @@ body {
 }
 
 /* medium screen size, hi DPI */
-@media only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width: 992px) and (max-width: 1260px), only screen and (-o-min-device-pixel-ratio: 3/2) and (min-width: 992px) and (max-width: 1260px), only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 992px) and (max-width: 1260px), only screen and (min-devicepixel-ratio: 1.5) and (min-width: 992px) and (max-width: 1260px), only screen and (min-resolution: 1.5dppx) and (min-width: 992px) and (max-width: 1260px) {
+@media only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width: 992px) and (max-width: 1260px),
+only screen and (-webkit-min-device-pixel-ratio: 1.5    ) and (min-width: 992px) and (max-width: 1260px),
+only screen and (-o-min-device-pixel-ratio: 3/2         ) and (min-width: 992px) and (max-width: 1260px),
+only screen and (min-devicepixel-ratio: 1.5             ) and (min-width: 992px) and (max-width: 1260px),
+only screen and (min-resolution: 1.5dppx                ) and (min-width: 992px) and (max-width: 1260px) {
 	header {
 		background-image: url(../img/home/1080p.jpg);
 	}
@@ -231,7 +243,11 @@ body {
 }
 
 /* full hd screen size, hi DPI */
-@media only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width: 1260px) and (max-width: 2300px), only screen and (-o-min-device-pixel-ratio: 3/2) and  (min-width: 1260px) and (max-width: 2300px), only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1260px) and (max-width: 2300px), only screen and (min-devicepixel-ratio: 1.5) and (min-width: 1260px) and (max-width: 2300px), only screen and (min-resolution: 1.5dppx) and (min-width: 1260px) and (max-width: 2300px) {
+@media only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width: 1260px) and (max-width: 2300px),
+only screen and (-webkit-min-device-pixel-ratio: 1.5    ) and (min-width: 1260px) and (max-width: 2300px),
+only screen and (-o-min-device-pixel-ratio: 3/2         ) and  (min-width: 1260px) and (max-width: 2300px),
+only screen and (min-devicepixel-ratio: 1.5             ) and (min-width: 1260px) and (max-width: 2300px),
+only screen and (min-resolution: 1.5dppx                ) and (min-width: 1260px) and (max-width: 2300px) {
 		header {
 		background-image: url(../img/home/1440p.jpg);
 	}
