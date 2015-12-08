@@ -1,10 +1,10 @@
 <div class="container footer-social-icons">
     <div>
-      <a target="_blank" href="https://plus.google.com/107072838776436530705/about"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png" title="Follow us on Google Plus!" alt="Follow us on Google Plus!"></img></a>
-      <a target="_blank" href="https://www.facebook.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png" title="Like our facebook page!" alt="Like our facebook page!"></img></a>
-      <a target="_blank" href="https://twitter.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png" title="Subscribe to our twitter channel!" alt="Subscribe to our twitter channel!"></img></a>
-      <a target="_blank" href="https://owncloud.org/blogfeed"><img class="img-circle" width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png" title="Subscribe to our news feed!" alt="Subscribe to our news feed!"></img></a>
-      <a target="_blank" href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/mail.png" title="Subscribe to our newsletter!" alt="Subscribe to our newsletter!"></img></a>
+      <a target="_blank" href="https://plus.google.com/107072838776436530705/about"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.svg" title="Follow us on Google Plus!" alt="Follow us on Google Plus!"></img></a>
+      <a target="_blank" href="https://www.facebook.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.svg" title="Like our facebook page!" alt="Like our facebook page!"></img></a>
+      <a target="_blank" href="https://twitter.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitter.svg" title="Subscribe to our twitter channel!" alt="Subscribe to our twitter channel!"></img></a>
+      <a target="_blank" href="https://owncloud.org/blogfeed"><img class="img-circle" width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.svg" title="Subscribe to our news feed!" alt="Subscribe to our news feed!"></img></a>
+      <a target="_blank" href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/mail.svg" title="Subscribe to our newsletter!" alt="Subscribe to our newsletter!"></img></a>
     </div>
   </div>
 <footer class="content-info" role="contentinfo">
@@ -27,6 +27,7 @@
           <h4>Resources</h4>
           <ul id="menu-support-and-documentation" class="menu">
             <li class="menu-faq"><a href="<?php get_bloginfo('url'); ?>/faq/">FAQ</a></li>
+            <li class="menu-support"><a href="<?php get_bloginfo('url'); ?>/support/">Support</a></li>
             <li class="menu-admin-manual"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>">Admin manual</a></li>
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_USER; ?>">User manual</a></li>
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer manual</a></li>
