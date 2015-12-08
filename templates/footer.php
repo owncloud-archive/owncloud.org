@@ -27,6 +27,7 @@
           <h4>Resources</h4>
           <ul id="menu-support-and-documentation" class="menu">
             <li class="menu-faq"><a href="<?php get_bloginfo('url'); ?>/faq/">FAQ</a></li>
+            <li class="menu-support"><a href="<?php get_bloginfo('url'); ?>/support/">Support</a></li>
             <li class="menu-admin-manual"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>">Admin manual</a></li>
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_USER; ?>">User manual</a></li>
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer manual</a></li>
