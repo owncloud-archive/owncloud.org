@@ -151,12 +151,12 @@
 	<div class="col-sm-6">
 		<h2>Last year</h2>
 		<p>The ownCloud Contributor Conference 2015 brought 140 ownClouders to Berlin. Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway" target="_blank">blog</a> to learn more and watch <a href="https://www.youtube.com/watch?v=NQ5XMwVs_wY&list=PLtZe22ggl2YCHUFQiUfFHq8DWNBzBdQ0U" target="_blank">the 2015 talks</a> on our youtube channel.</p>
-		<p><!--<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014.jpg" target="_blank">--><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" style="width: 95%" alt="group photo" class="aligncenter" /><!--</a>--></p>
+		<p><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015_wee.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
 <!--		<iframe src="//www.youtube-nocookie.com/embed/srGYbsugEPc?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>-->
 	</div>
 	<div class="col-sm-6">
 		<h2>Thanks!</h2>
-		<p>The event is made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="httsp://owncloud.com">ownCloud Inc</a>.</p>
+		<p>The event is made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="https://owncloud.com">ownCloud Inc</a>.</p>
 		<h2>Spread the word!</h2>
 		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="https://twitter.com/ownclouders" target="_blank">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders" target="_blank">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts" target="_blank">Google+</a>. Find some <a href="https://github.com/owncloud/promo/tree/master/Contributor%20Conference" target="_blank">promo materials here</a>.</p>
 	</div>

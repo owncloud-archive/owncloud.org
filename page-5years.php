@@ -8,19 +8,18 @@
 	<div class="col-md-6">
 		<strong>ownCloud is 5 years old!</strong>
 		<p>ownCloud was <a href="/history">announced in 2010</a> by Frank Karlitschek.<br />
-		Having started with just a handful of enthusiasts, it has grown to a community with hundreds of developers and millions of users! Find our <a href="https://owncloud.org/blog/owncloud-is-5-years-old">blog about the anniversary here</a> and see a <a href="/hfull timeline of ownCloud events on our history page</a>.</p>
+		Having started with just a handful of enthusiasts, it has grown to a community with hundreds of developers and millions of users! Find our <a href="https://owncloud.org/blog/owncloud-is-5-years-old">blog about the anniversary here</a> and see a <a href="/history">full timeline of ownCloud events on our history page</a>.</p>
 		<p>Below we proudly present you some of what makes ownCloud strong:<br />
 		<strong>the ideas and creativity of its users and contributors!</strong>
 		</p>
 	</div>
 </div>
-<hr>
 <div class="row conf-partners-title">
 	<div class="col-md-12">
 		<h2>Quotes and congratulations</h2>
 	</div>
 </div>
-<div class="row conf-partners">
+<div class="row quotes">
 	<div class="col-sm-6">
 		<p>"It is unbelievable that ownCloud is just five year old. Looking at the amazing feature set one could think it has been in development for ten years at least."</p>
 		<p style="color:rgba(255,255,255,0.5); text-align: right">–contributor since 2011 <i>Jakob Sack</i>, Germany</p>
@@ -30,8 +29,7 @@
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2012 <i>Nassos Kourentas</i>, Greece</p>
 	</div>
 </div>
-<hr>
-<div class="row conf-partners">
+<div class="row quotes">
 	<div class="col-sm-6">
 		<p>"Love, love, love my owncloud. Just recently upgraded from version 5 to version 7."</p>
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2013 <i>Jody Hoagland</i>, USA</p>
@@ -41,8 +39,7 @@
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2013 <i>Sander Brand</i>, Netherlands</p>
 	</div>
 </div>
-<hr>
-<div class="row conf-partners">
+<div class="row quotes">
 	<div class="col-sm-6">
 		<p>"Let’s rock the world and make open-source a more important thing. We’re quite a great showcase project when somebody asks about some cool open-source stuff"</p>
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud contributor since 2012 <i>Lukas Reschke</i>, Switzerland</p>
@@ -52,8 +49,7 @@
 		<p style="color:rgba(255,255,255,0.5); text-align: right">–ownCloud business since 2013 <i>Naukri</i>, India</p>
 	</div>
 </div>
-<hr>
-<div class="row conf-partners">
+<div class="row quotes">
 	<div class="col-sm-6">
 		<p>"Before OC, I made and used my own bash-script to sync my files online but OC has ajaxed drag and drop feature in browser like a desktop. And it can sync on multiple devices."</p>
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2013 <i>Faisal-ur-Rehman</i>, Pakistan</p>
@@ -63,8 +59,7 @@
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2014 <i>"mudzimba"</i>, South Africa</p>
 	</div>
 </div>
-<hr>
-<div class="row conf-partners">
+<div class="row quotes">
 	<div class="col-sm-6">
 		<p>"BI use it to keep my kids' Minecraft saves synced between computers. Move the saves into a folder in Owncloud, delete the original save folder in the MC dir, then symlink to the Owncloud location. Works great!!"</p>
 		<p style="color:rgba(255,255,255,0.5); text-align: right">–ownCloud user since 2013 <i>John Thieling</i>, USA</p>
@@ -74,8 +69,7 @@
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2013 <i>"Robin Jacobs"</i>, Europe</p>
 	</div>
 </div>
-<hr>
-<div class="row conf-partners">
+<div class="row quotes">
 	<div class="col-sm-6">
 		<p>"Keep up the good work, delivering a powerful AND simple solution running like a charm on my Pi"</p>
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2013 <i>Antoine Guilloux</i>, France</p>
@@ -86,8 +80,7 @@
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud contributor since 2012 <i>Raghu Nayyar</i>, India</p>
 	</div>
 </div>
-<hr>
-<div class="row conf-partners">
+<div class="row quotes">
 	<div class="col-sm-6">
 		<p>"I've been ownclouding since version 5 and it's getting better and better.<br>
 		Hopefully we'll enjoy ownCloud for years to come"</p>
@@ -98,8 +91,7 @@
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2013 <i>Christoph S</i>, Germany</p>
 	</div>
 </div>
-<hr>
-<div class="row conf-partners">
+<div class="row quotes">
 	<div class="col-sm-6">
 		<p>"It works. Thats the most important reason I use it. And it did not cause much maintenance overhead so far."</p>
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2012 <i>Martin 'Helios' Steigerwald</i>, Germany</p>
@@ -112,4 +104,3 @@
 		<p style="color:rgba(255,255,255,0.5); text-align: right">– ownCloud user since 2011 <i>Efstathios (Stathis) Iosifidis</i>, Greece</p>
 	</div>
 </div>
-<hr>

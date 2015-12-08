@@ -1646,10 +1646,10 @@ MD5: <a href="https://mirrors.owncloud.org/releases/owncloud-4.5.0.tar.bz2.md5">
 <ul>
 	<li>Show Login Button when user and password are autocompleted</li>
 	<li>Sanitize LDAP base, user and groups</li>
-	<li>Security: Fix for insufficiently Random Values (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2008-4107&type=Code">CVE-2008-4107</a>)</li>
-	<li>Security: Fixed multiple XSS vulnerabilities (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-5056&type=Code">CVE-2012-5056</a>)</li>
-	<li>Security: Fixed a https header injection (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-5057&type=Code">CVE-2012-5057</a>)</li>
-	<li>Security: Fixed an Auth bypass in /lib/base.php (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-5336&type=Code">CVE-2012-5336</a>)</li>
+	<li>Security: Fix for insufficiently Random Values (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2008-4107&type=Code">CVE-2008-4107</a>)</li>
+	<li>Security: Fixed multiple XSS vulnerabilities (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-5056&type=Code">CVE-2012-5056</a>)</li>
+	<li>Security: Fixed a https header injection (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-5057&type=Code">CVE-2012-5057</a>)</li>
+	<li>Security: Fixed an Auth bypass in /lib/base.php (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-5336&type=Code">CVE-2012-5336</a>)</li>
 </ul>
 Download: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2">https://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2</a><br />
 MD5: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2.md5">https://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2.md5</a>
@@ -1663,10 +1663,10 @@ MD5: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.8.tar.bz2.md5">
 	<li>Add parent directory into filecache if it doesn't exist</li>
 	<li>Handle non writable files correctly</li>
 	<li>Disable webfinger completely if not activated</li>
-	<li>Security: Disable user listings in DAV (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-4390&type=Code">CVE-2012-4390</a>)</li>
-	<li>Security: Check file blacklist for file renames (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-4389&type=Code">CVE-2012-4389</a>)</li>
-	<li>Security: CSRF fix for appconfig.php (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-4391&type=Code">CVE-2012-4391</a>)</li>
-	<li>Security: Validate cookie to prevent auth bypasses (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-4392&type=Code">CVE-2012-4392</a>)</li>
+	<li>Security: Disable user listings in DAV (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4390&type=Code">CVE-2012-4390</a>)</li>
+	<li>Security: Check file blacklist for file renames (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4389&type=Code">CVE-2012-4389</a>)</li>
+	<li>Security: CSRF fix for appconfig.php (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4391&type=Code">CVE-2012-4391</a>)</li>
+	<li>Security: Validate cookie to prevent auth bypasses (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4392&type=Code">CVE-2012-4392</a>)</li>
 	<li>Special thanks to Julien Cayssol for reporting several security problems</li>
 </ul>
 Download: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.7.tar.bz2">https://mirrors.owncloud.org/releases/owncloud-4.0.7.tar.bz2</a><br />
@@ -1683,8 +1683,8 @@ MD5: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.7.tar.bz2.md5">
 	<li>Don't delete lot's of session files during DAV requests</li>
 	<li>Fix error when no adressbook is created</li>
 	<li>Check if php-ldap is installed</li>
-	<li>Security: Check for Admin user in appconfig.php (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-4752&type=Code">CVE-2012-4752</a>)</li>
-	<li>Security: Several CSRF security fixes (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-4393&type=Code">CVE-2012-4393</a>)</li>
+	<li>Security: Check for Admin user in appconfig.php (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4752&type=Code">CVE-2012-4752</a>)</li>
+	<li>Security: Several CSRF security fixes (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4393&type=Code">CVE-2012-4393</a>)</li>
 </ul>
 Download: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2">https://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2</a><br />
 MD5: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2.md5">https://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2.md5</a>
@@ -1699,7 +1699,7 @@ MD5: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.6.tar.bz2.md5">
 	<li>Fix sending of emails</li>
 	<li>Several fixes in the system log</li>
 	<li>Several fixes for the external filesystem feature</li>
-	<li>Security: Fix a reflected XSS (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-4394&type=Code">CVE-2012-4394</a>)</li>
+	<li>Security: Fix a reflected XSS (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4394&type=Code">CVE-2012-4394</a>)</li>
 </ul>
 Download: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.5.tar.bz2">https://mirrors.owncloud.org/releases/owncloud-4.0.5.tar.bz2</a><br />
 MD5: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.5.tar.bz2.md5">https://mirrors.owncloud.org/releases/owncloud-4.0.5.tar.bz2.md5</a>
@@ -1723,7 +1723,7 @@ MD5: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.4.tar.bz2.md5">
 	<li>Fix the filecache for the /Shared folder</li>
 	<li>Fix a potential data corruption bug in the encryption app</li>
 	<li>Don't show other users filenames during filesystem cache rebuild</li>
-	<li>Security: Fix several XSS bugs (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-4395&type=Code">CVE-2012-4395</a>)</li>
+	<li>Security: Fix several XSS bugs (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4395&type=Code">CVE-2012-4395</a>)</li>
 	<li>Performance improvements for WebDAV and Desktop Syncing</li>
 	<li>Fix quota calculation</li>
 	<li>Improve the LDAP integration and group management</li>
@@ -1746,10 +1746,10 @@ MD5: <a href="https://mirrors.owncloud.org/releases/owncloud-4.0.3.tar.bz2.md5">
 	<li>More 3rd party apps visible</li>
 	<li>Fixed update notifications</li>
 	<li>Several calendar fixes</li>
-	<li>Several XSS fixes in calendar (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-4396&type=Code">CVE-2012-4396)</a></li>
+	<li>Several XSS fixes in calendar (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4396&type=Code">CVE-2012-4396)</a></li>
 	<li>Several improvements in contacts</li>
 	<li>Fix infinite redirect during setup for windows hosts</li>
-	<li>Several XSS fixes in contacts (<a href="httpss://github.com/owncloud/security-advisories/search?q=CVE-2012-4396&type=Code">CVE-2012-4396</a>)</li>
+	<li>Several XSS fixes in contacts (<a href="https://github.com/owncloud/security-advisories/search?q=CVE-2012-4396&type=Code">CVE-2012-4396</a>)</li>
 	<li>New user password salting</li>
 	<li>Several LDAP fixes</li>
 	<li>Fix duplicate emails in sharing</li>

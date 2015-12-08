@@ -25,10 +25,6 @@ div.conference h3 {
 
 div.conf-content {
 	color: #FFFFFF;
-/* 	font-size: 16px; */
-/* 	font-family: FontAwesome,sans-serif; */
-/* 	line-height: 1.7; */
-/* 	text-align: left; */
 }
 
 div.conference a:not(.btn) {
@@ -36,14 +32,14 @@ div.conference a:not(.btn) {
 	padding: 0px;
 	border-bottom: 1px solid #FFFFFF;
 	border-radius: 2px;
+	text-decoration: none;
 }
 
-div.conference a:hover,
-div.conference a:active,
-div.conference a:focus {
-/* 	color: #5BC0DE; */
+div.conference a:hover:not(.btn),
+div.conference a:active:not(.btn),
+div.conference a:focus:not(.btn)
+ {
 	border-bottom: 2px solid #FFFFFF;
-	text-decoration: none;
 }
 
 div.conf-header {
@@ -75,6 +71,11 @@ div.conf-about {
 	padding-left: 20px;
   	margin-bottom: 45px;
 }
+
+div.quotes {
+  	padding-top: 50px;
+  	margin-bottom: 400x;
+}	
 
 div.conf-info {
 	margin-left: -40px;
