@@ -151,7 +151,7 @@
 	<div class="col-sm-6">
 		<h2>Last year</h2>
 		<p>The ownCloud Contributor Conference 2015 brought 140 ownClouders to Berlin. Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway" target="_blank">blog</a> to learn more and watch <a href="https://www.youtube.com/watch?v=NQ5XMwVs_wY&list=PLtZe22ggl2YCHUFQiUfFHq8DWNBzBdQ0U" target="_blank">the 2015 talks</a> on our youtube channel.</p>
-		<p><!--<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2014.jpg" target="_blank">--><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" style="width: 95%" alt="group photo" class="aligncenter" /><!--</a>--></p>
+		<p><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015_wee.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
 <!--		<iframe src="//www.youtube-nocookie.com/embed/srGYbsugEPc?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>-->
 	</div>
 	<div class="col-sm-6">
