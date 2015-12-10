@@ -186,33 +186,6 @@
          "imagename":"cloudlay.png"
       },
       {
-         "title":"bpanet.de",
-         "url":"http:\/\/www.bpanet.de\/307.html",
-         "flags":[
-            "gb",
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers"
-         ],
-         "imagename":"bpanet.png"
-      },
-      {
-         "title":"nxserver.org",
-         "url":"http:\/\/www.nxserver.org\/nxcloud",
-         "flags":[
-            "gb",
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations",
-            "consumers"
-         ],
-         "imagename":"nxserver.png"
-      },
-      {
          "title":"aixpro.de",
          "url":"https:\/\/www.aix-cloud.de",
          "flags":[
@@ -292,7 +265,7 @@
          "title":"readyspace.com",
          "url":"http:\/\/readyspace.com.hk\/en\/cloud_services\/cloud_apps\/owncloud.php",
          "flags":[
-            "gb"
+            "hk"
          ],
          "freeplans":false,
          "supports":[
@@ -567,7 +540,7 @@
       },
       {
          "title":"tifo.com",
-         "url":"http:\/\/www.tifo.com.ar\/index.php\/productos\/20-cloud",
+         "url":"http:\/\/www.tifo.com.ar\/index.php\/owncloud",
          "flags":[
             "ar",
             "us"
@@ -697,21 +670,8 @@
          "imagename":"greenet.png"
       },
       {
-         "title":"ownocean.com",
-         "url":"https:\/\/www.ownocean.com\/osp",
-         "flags":[
-            "us"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations",
-            "consumers"
-            ],
-         "imagename":"ownocean.gif"
-      },
-      {
          "title":"edv-luehr.de",
-         "url":"https:\/\/www.edv-luehr.de\/index.php\/bestellen\/cloud-service",
+         "url":"https:\/\/www.edv-luehr.de\/cloud-web-services\/cloud-service",
          "flags":[
             "de"
          ],
@@ -874,19 +834,6 @@
             "organisations"
             ],
          "imagename":"uh-logo.png"
-      },
-      {
-         "title":"aethosting.com",
-         "url":"http:\/\/www.aethosting.com\/solutions\/owncloud\/",
-         "flags":[
-            "us"
-         ],
-         "freeplans":true,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"aet-hosting.png"
       },
       {
          "title":"hb.nss.com.tw",
@@ -1080,7 +1027,7 @@
       },
       {
          "title":"edxinfo.com.br",
-         "url":"http:\/\/http://www.edxinfo.com.br\/#!novidades\/c1pmg",
+         "url":"http:\/\/www.edxinfo.com.br\/#!novidades\/c1pmg",
          "flags":[
             "br"
          ],
@@ -1208,6 +1155,31 @@
             "organisations"
             ],
          "imagename":"hxoc.png"
+      },
+      {
+         "title":"clear-cloud-services.fr",
+         "url":"http:\/\/clear-cloud-services.fr\/cloudboxoffice\/stockage-et-partage",
+         "flags":[
+            "fr"
+         ],
+         "freeplans":true,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"clear-cloud.png"
+      },
+      {
+         "title":"xt3.it",
+         "url":"http:\/\/xt3.it",
+         "flags":[
+            "it"
+         ],
+         "freeplans":true,
+         "supports":[
+            "consumers"
+            ],
+         "imagename":"xt3.png"
       }
       ]
 }
