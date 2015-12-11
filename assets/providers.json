@@ -263,9 +263,9 @@
       },
       {
          "title":"readyspace.com",
-         "url":"http:\/\/readyspace.com.hk\/en\/cloud_services\/cloud_apps\/owncloud.php",
+         "url":"http:\/\/readyspace.com\solutions\/business-productivity\/owncloud",
          "flags":[
-            "hk"
+            "us"
          ],
          "freeplans":false,
          "supports":[
