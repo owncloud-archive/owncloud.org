@@ -909,3 +909,9 @@ body.install a.btn-lg {
 .consulting .bannerfoot-partner {
 	height: 160px;
 }
+
+/* make sure captions show under gallery */
+.gallery-item .gallery-caption {
+    display: block!important;
+    text-align: center;
+}
