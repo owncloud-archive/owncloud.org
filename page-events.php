@@ -53,11 +53,18 @@
 				<th>Link</th>
 			</tr>
 			<tr>
-				<td>FOSSCOMM 2015</td>
-				<td>Athens, Greece</td>
-				<td>Nov 6-8, 2015</td>
-				<td><a target="_blank" href="http://www.iosifidis.gr/">Stathis</a></td>
-				<td><a target="_blank" href="http://fosscomm.teiath.gr/">website</a></td>
+				<td>SCALE 2016</td>
+				<td>Pasedena, Los Angelos, CA, USA</td>
+				<td>Jan 21-24, 2016</td>
+				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
+				<td><a target="_blank" href="http://www.socallinuxexpo.org/scale/14x">website</a></td>
+			</tr>
+			<tr>
+				<td>FOSDEM 2016</td>
+				<td>Brussels, Belgium</td>
+				<td>Jan 30-31, 2016</td>
+				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
+				<td><a target="_blank" href="https://fosdem.org/2016/">website</a></td>
 			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
@@ -71,6 +78,12 @@
 				<th>Location</th>
 				<th>Date</th>
 				<th>Link (report)</th>
+			</tr>
+			<tr>
+				<td>FOSSCOMM 2015</td>
+				<td>Athens, Greece</td>
+				<td>Nov 6-8, 2015</td>
+				<td><a target="_blank" href="http://fosscomm.teiath.gr/">website</a></td>
 			</tr>
 			<tr>
 				<td>ownCloud Contributor Conference</td>
