@@ -12,10 +12,10 @@
 		<h2>Meetups</h2>
 		<p>ownCloud community members all around the globe get together in meetups to learn, share ideas and work on 
 			ownCloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below is a list of local meetup groups.</p>
-		<script type="text/javascript" src="http://www.meetup.com/embed/largest/owncloud/"></script>
-		<p>Find the next Meetup dates and more on <a target="_blank" href="http://owncloud.meetup.com/">owncloud.meetup.com</a></p>
+		<script type="text/javascript" src="https://www.meetup.com/embed/largest/owncloud/"></script>
+		<p>Find the next Meetup dates and more on <a target="_blank" href="https://owncloud.meetup.com/">owncloud.meetup.com</a></p>
 		<div class="row" style="text-align: center">
-			<p><a target="_blank" href="http://owncloud.meetup.com/" class="btn btn-lg btn-default">
+			<p><a target="_blank" href="https://owncloud.meetup.com/" class="btn btn-lg btn-default">
 			<i class="icon-group"></i> Join a Meetup!</a>
 			<a target="_blank" href="/events/meetups" class="btn btn-lg btn-default">
 			<i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>
