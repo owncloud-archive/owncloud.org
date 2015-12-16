@@ -38,6 +38,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
           </ul>
           <p>Talk to us <a href="irc://#owncloud-dev@freenode.net">on IRC</a> and on our
           <a href="https://mailman.owncloud.org/mailman/listinfo/devel">mailing list</a>! We look forward to your code and thoughts.</p>
+          <iframe width="100%" height="360" src="https://www.youtube.com/embed/M_-PtACnnz4?rel=0" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<div class="col-md-6">
             <h3><i class="icon-refresh"></i>&nbsp;&nbsp;Test ownCloud</h3>
@@ -47,21 +48,14 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
             <p>Anybody interested in helping out with ownCloud Server testing is invited to join the ownCloud Test Pilot team.
             See <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing">the Test Pilot documentation</a> for information!.</p>
 	</div>
-</div>
-<div class="row">
     <div class="col-md-6">
         <h3><i class="icon-book"></i>&nbsp;&nbsp;Translate and document ownCloud</h3>
          <p>Translate ownCloud to your language. Go to <a href="https://www.transifex.com/projects/p/owncloud/">Transifex</a> and get going!</p>
         <p>Help us improve the ownCloud documentation! Find out how to make a difference <a href="https://doc.owncloud.org/howto_contribute.html">in this contribution guide</a>!</p>
+        <p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/misc/contribute-doc.gif" style="width: 100%" alt="front door" class="aligncenter" /></p>
         <p>The animation shows the easiest way to contribute to the ownCloud documentation. Go to the <a href="https://github.com/owncloud/documentation">documentation in Github</a>, click the
         'edit' icon on a page, make the changes and create a pull request. This will notify the documentation maintainers of your proposed change and after review, it can be included!</p>
-        
     </div>
-    <div class="col-md-6">
-        <p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/misc/contribute-doc.gif" style="width: 100%" alt="front door" class="aligncenter" /></p>
-    </div>
-</div>
-<div class="row">
     <div class="col-md-6">
         <h3><i class="icon-pencil"></i>&nbsp;&nbsp;Design ownCloud</h3>
       	Help out with ownCloud user interaction design or graphic design! Get involved on 
