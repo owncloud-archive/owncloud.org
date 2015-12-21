@@ -1,3 +1,5 @@
+# note that this file is no longer maintained. See owncloud.org/changelog for the current change log.
+
 ### HEAD
 * Switch `div.main` to `main` element now that Modernizr uses the latest HTML5 Shiv
 * Update to Modernizr 2.7.0
