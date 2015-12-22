@@ -3,6 +3,133 @@
 </div>
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 
+<h3>Version 8.2.2 <small>December 22 2015</small></h3>
+<ul>
+	<li>Sharing improvements</li>
+	<ul>
+		<li>Passing an empty base in this diagnosis call will not result in LDAP errors</li>
+		<li>Send sharing link to more than one recipient</li>
+		<li>Cannot share at all when share with link is disabled globally</li>
+		<li>Delete share hotspot not wide enough</li>
+		<li>Can't access a shared folder on external storage</li>
+		<li>Fix S2S error handling, making WebDAV work and get rid of undeletable files</li>
+		<li>Files/folders created while the users group was included in 'Exclude groups from sharing' cannot be shared even if the group is removed from the excluded groups.</li>
+		<li>"unshare" action should be called "unshare" in the action menu and not "delete"</li>
+		<li>Fix shared files of deleted users, detect DN change when checking for existence on LDAP</li>
+		<li>Etag isn't propagated to the root of the share owner if the file is uploaded to a group reshare</li>
+		<li>Empty etag after moving shared file into a commonly received share</li>
+		<li>The ajax code path unshares a link share when updating the password</li>
+	</ul>
+	<li>Other fixes</li>
+	<ul>
+		<li>MySQL file socket not working during initial setup</li>
+		<li>Multiple PUT requests to new DAV backend results in locked file</li>
+		<li>Dont output paths in scan.php</li>
+		<li>Activity oracle sql error for favorites</li>
+		<li>Check the expiration date for null</li>
+		<li>Stray locks not being cleaned: server replied: Locked</li>
+		<li>Login attributes tab. Other attributes combobox does not keep the selection if the users click away</li>
+		<li>Fix trashbin wrapper when no user is logged in</li>
+		<li>Handle non existing files in version previews</li>
+		<li>Properly preserve home folder naming enforcement setting</li>
+		<li>User details not saved unless click Enter</li>
+		<li>User management: Password change error display behavior</li>
+		<li>Add listener for URL change and then close the PDF viewer - files_pdfviewer</li>
+		<li>Remove white area below pdf viewer on public page - files_pdfviewer</li>
+		<li>Unable to move /srv/http/owncloud/_oc-upgrade/8.2.1.4/core/resources to /srv/http/owncloud/resources - updater</li>
+		<li>Fix minification quirks - updater</li>
+		<li>Accessibility Bug for 8.2 UI</li>
+	</ul>
+	<li>Several UI improvements</li>
+	<li>Security improvements</li>
+	<li>Many small improvements</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.2.2.tar.bz2">owncloud-8.2.2.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.2.zip">owncloud-8.2.2.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.2.tar.bz2.md5">owncloud-8.2.2.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.2.zip.md5">owncloud-8.2.2.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.2.tar.bz2.sha256">owncloud-8.2.2.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.2.zip.sha256">owncloud-8.2.2.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.2.tar.bz2.asc">owncloud-8.2.2.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.2.zip.asc">owncloud-8.2.2.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<h3>Version 8.1.5 <small>December 22 2015</small></h3>
+<ul>
+	<li>LDAP improvements</li>
+	<ul>
+		<li>LDAP wizard 'Could not connect to LDAP'</li>
+		<li>Backup Host for LDAP server does not automatically connect/li>
+		<li>Passing an empty base in this diagnosis call will not result in LDAP errors</li>
+		<li>LDAP Wizard Group Tab: infinite loop when having more than 400 groups</li>
+		<li>User management: Password change error display behavior</li>
+	</ul>
+	<li>Sharing improvements</li>
+	<ul>
+		<li>Fix Group Sharing</li>
+		<li>Mount fed share as same user, move source into received folder, must be forbidden</li>
+		<li>Files/folders created while the users group was included in 'Exclude groups from sharing' cannot be shared even if the group is removed from the excluded groups.</li>
+		<li>Fix shared files of deleted users, detect DN change when checking for existence on LDAP</li>
+		<li>Recursive external shares kill web server</li>
+		<li>Send sharing link to more than one recipient</li>
+	</ul>
+	<li>Other fixes</li>
+	<ul>
+		<li>Force approval in GDrive oauth to get refresh_token</li>
+		<li>Show the language code in personal settings for unknown languages</li>
+		<li>Login attributes tab. Other attributes combobox does not keep the selection if the users click away</li>
+		<li>Empty etag after moving shared file into a commonly received share</li>
+		<li>Fix trashbin wrapper when no user is logged in</li>
+		<li>Handle non existing files in version previews</li>
+		<li>User details not saved unless click Enter</li>
+		<li>Properly handle enforce home folder naming rule setting</li>
+		<li>X-Sendfile likely required for video streaming - to be documented - apps</li>
+		<li>Allow seeking for non-public videos. - apps</li>
+		<li>Skip version check for daily builds - updater</li>
+	</ul>
+	<li>Several UI improvements</li>
+	<li>Security improvements</li>
+	<li>Many small improvements</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.1.5.tar.bz2">owncloud-8.1.5.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.5.zip">owncloud-8.1.5.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.5.tar.bz2.md5">owncloud-8.1.5.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.5.zip.md5">owncloud-8.1.5.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.5.tar.bz2.sha256">owncloud-8.1.5.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.5.zip.sha256">owncloud-8.1.5.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.5.tar.bz2.asc">owncloud-8.1.5.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.5.zip.asc">owncloud-8.1.5.zip.asc</a></br>
+Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<h3>Version 8.0.10 <small>December 22 2015</small></h3>
+<ul>
+	<li>LDAP wizard 'Could not connect to LDAP' fix</li>
+	<li>Backup Host for LDAP server does not automatically connect</li>
+	<li>Fix shared files of deleted users, detect DN change when checking for existence on LDAP</li>
+	<li>Hardening home folder retrieval in user_ldap</li>
+	<li>Force approval in GDrive oauth to get refresh_token</li>
+	<li>escape like parameter in cache operations</li>
+	<li>Node API: search operations don't work on the top folder of external shares</li>
+	<li>Use new updater URL</li>
+	<li>CLI scan ignores passed user / options parser seems broken</li>
+	<li>Prevent 0 byte downloads when storage returns false</li>
+	<li>Handle non existing files in version previews</li>
+	<li>Mount fed share as same user, move source into received folder, must be forbidden</li>
+	<li>Allow seeking for non-public videos - apps</li>
+	<li>Several UI improvements</li>
+	<li>Security improvements</li>
+	<li>Many small improvements</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.0.10.tar.bz2">owncloud-8.0.10.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.10.zip">owncloud-8.0.10.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.10.tar.bz2.md5">owncloud-8.0.10.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.10.zip.md5">owncloud-8.0.10.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.10.tar.bz2.sha256">owncloud-8.0.10.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.10.zip.sha256">owncloud-8.0.10.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.10.tar.bz2.asc">owncloud-8.0.10.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.10.zip.asc">owncloud-8.0.10.zip.asc</a></br>
+Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<h3>Version 7.0.10 <small>December 22 2015</small></h3>
+<ul>
+	<li>Handle non existing files in version previews</li>
+	<li>Use XMLWriter to generate response</li>
+	<li>Use a correctly initialized JobList in antivirus update</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.10.tar.bz2">owncloud-7.0.10.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.10.zip">owncloud-7.0.10.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.10.tar.bz2.md5">owncloud-7.0.10.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.10.zip.md5">owncloud-7.0.10.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.10.tar.bz2.sha256">owncloud-7.0.10.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.10.zip.sha256">owncloud-7.0.10.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.10.tar.bz2.asc">owncloud-7.0.10.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.10.zip.asc">owncloud-7.0.10.zip.asc</a></br>
+Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
 <h3>Version 8.2.1 <small>November 18 2015</small></h3>
 <ul>
 	<li>Sharing improvements:</li>
