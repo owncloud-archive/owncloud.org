@@ -51,6 +51,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <h3>Version 8.1.5 <small>December 22 2015</small></h3>
+Note that the packages no longer automatically execute the <code>occ upgrade</code> command, this has to be done manually. See the <a href="https://doc.owncloud.org/server/8.1/admin_manual/maintenance/package_upgrade.html">documentation for upgrading ownCloud 8.1</a>.
 <ul>
 	<li>LDAP improvements</li>
 	<ul>
@@ -94,6 +95,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <h3>Version 8.0.10 <small>December 22 2015</small></h3>
+Note that the packages no longer automatically execute the <code>occ upgrade</code> command, this has to be done manually. See the <a href="https://doc.owncloud.org/server/8.0/admin_manual/maintenance/upgrade.html">documentation for upgrading ownCloud 8.0</a>.
 <ul>
 	<li>LDAP wizard 'Could not connect to LDAP' fix</li>
 	<li>Backup Host for LDAP server does not automatically connect</li>
@@ -118,16 +120,17 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.10.tar.bz2
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.10.tar.bz2.asc">owncloud-8.0.10.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.10.zip.asc">owncloud-8.0.10.zip.asc</a></br>
 Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<h3>Version 7.0.10 <small>December 22 2015</small></h3>
+<h3>Version 7.0.12 <small>December 22 2015</small></h3>
+Note that the packages no longer automatically execute the <code>occ upgrade</code> command, this has to be done manually. See the <a href="https://doc.owncloud.org/server/7.0/admin_manual/maintenance/upgrade.html">documentation for upgrading ownCloud 7.0</a>.
 <ul>
 	<li>Handle non existing files in version previews</li>
 	<li>Use XMLWriter to generate response</li>
 	<li>Use a correctly initialized JobList in antivirus update</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-7.0.10.tar.bz2">owncloud-7.0.10.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.10.zip">owncloud-7.0.10.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.10.tar.bz2.md5">owncloud-7.0.10.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.10.zip.md5">owncloud-7.0.10.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.10.tar.bz2.sha256">owncloud-7.0.10.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.10.zip.sha256">owncloud-7.0.10.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.10.tar.bz2.asc">owncloud-7.0.10.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.10.zip.asc">owncloud-7.0.10.zip.asc</a></br>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.12.tar.bz2">owncloud-7.0.12.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.12.zip">owncloud-7.0.12.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.12.tar.bz2.md5">owncloud-7.0.12.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.12.zip.md5">owncloud-7.0.12.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.12.tar.bz2.sha256">owncloud-7.0.12.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.12.zip.sha256">owncloud-7.0.12.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.12.tar.bz2.asc">owncloud-7.0.12.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.12.zip.asc">owncloud-7.0.12.zip.asc</a></br>
 Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <h3>Version 8.2.1 <small>November 18 2015</small></h3>
