@@ -56,7 +56,7 @@ Note that the packages no longer automatically execute the <code>occ upgrade</co
 	<li>LDAP improvements</li>
 	<ul>
 		<li>LDAP wizard 'Could not connect to LDAP'</li>
-		<li>Backup Host for LDAP server does not automatically connect/li>
+		<li>Backup Host for LDAP server does not automatically connect</li>
 		<li>Passing an empty base in this diagnosis call will not result in LDAP errors</li>
 		<li>LDAP Wizard Group Tab: infinite loop when having more than 400 groups</li>
 		<li>User management: Password change error display behavior</li>
