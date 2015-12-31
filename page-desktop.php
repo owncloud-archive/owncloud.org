@@ -48,6 +48,11 @@
 <li>Organized patches to our base Qt version into admin/qt/patches</li>
 <li>Plus: A lot of unmentioned improvements and fixes</li>
 </ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.1.0.5683-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.1.0.2944.pkg.tbz">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.1.0.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.1.0.tar.xz.asc">PGP signature</a>)
 
 <h3 id="202">Release 2.0.2 <small>October 22nd 2015</small></h3>
 <ul>
@@ -95,10 +100,22 @@
 <li>AccountSettings: Adjust quota info design (<a href="https://github.com/owncloud/client/issues/3644">#3644</a>, <a href="https://github.com/owncloud/client/issues/3651">#3651</a>)</li>
 <li>Adjust buttons on remove folder/account questions (<a href="https://github.com/owncloud/client/issues/3654">#3654</a>)</li>
 </ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.0.2.5569-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.0.2.2818.pkg.tbz">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.0.2.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.0.2.tar.xz.asc">PGP signature</a>)
+
 <h3 id="201">Release 2.0.1 <small>September 1st 2015</small></h3>
 <ul>
 <li>AccountWizard: fix when the theme specifies an override URL (<a href="https://github.com/owncloud/client/issues/3699">#3699</a>)</li>
 </ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.0.1.5446-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.0.1.2694.pkg.tbz">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.0.1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.0.1.tar.xz.asc">PGP signature</a>)
+
 <h3 id="200">Release 2.0.0 <small>August 25th 2015</small></h3>
 <ul>
 <li>Add support for multiple accounts (<a href="https://github.com/owncloud/client/issues/3084">#3084</a>)</li>
