@@ -19,19 +19,19 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>8.2.2</strong> (CVE assignment pending)</li>
+            <li>ownCloud Server &lt; <strong>8.2.2</strong> (CVE-2016-1500)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/b7c217290f0d1974c048bb467e2c3cee0bbc6fc2">core/b7c217290f0d1974c048bb467e2c3cee0bbc6fc2</a></li>
 </ul>
-<li>ownCloud Server &lt; <strong>8.1.5</strong> (CVE assignment pending)</li>
+<li>ownCloud Server &lt; <strong>8.1.5</strong> (CVE-2016-1500)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/51c6cd5c6a725b4849d995049163a0b87a9c3a58">core/51c6cd5c6a725b4849d995049163a0b87a9c3a58</a></li>
 </ul>
-<li>ownCloud Server &lt; <strong>8.0.10</strong> (CVE assignment pending)</li>
+<li>ownCloud Server &lt; <strong>8.0.10</strong> (CVE-2016-1500)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/07fb3e329b37c19d9eb6a3a114e00a09f3f2798b">core/07fb3e329b37c19d9eb6a3a114e00a09f3f2798b</a></li>
 </ul>
-<li>ownCloud Server &lt; <strong>7.0.12</strong> (CVE assignment pending)</li>
+<li>ownCloud Server &lt; <strong>7.0.12</strong> (CVE-2016-1500)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/f746100e13dcadf8a2b6d311422a1c66c959565c">core/f746100e13dcadf8a2b6d311422a1c66c959565c</a></li>
 </ul>
