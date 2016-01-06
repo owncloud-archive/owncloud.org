@@ -1,11 +1,27 @@
-<p>Version 8.1.2</p>
+<p>Version 8.2.2</p>
+<a href="/security/advisory?id=oc-sa-2016-001">Reflected XSS in OCS provider discovery</a><br>
+<a href="/security/advisory?id=oc-sa-2016-002">Information Exposure Through Directory Listing in the file scanner</a><br>
+<a href="/security/advisory?id=oc-sa-2016-003">Disclosure of files that begin with ".v" due to unchecked return value</a><br>
+<br/><p>Version 8.1.5</p>
+<a href="/security/advisory?id=oc-sa-2016-001">Reflected XSS in OCS provider discovery</a><br>
+<a href="/security/advisory?id=oc-sa-2016-002">Information Exposure Through Directory Listing in the file scanner</a><br>
+<a href="/security/advisory?id=oc-sa-2016-003">Disclosure of files that begin with ".v" due to unchecked return value</a><br>
+<br/><p>Version 8.1.4</p>
+<a href="/security/advisory?id=oc-sa-2016-004">Full installation path disclosure through error message</a><br>
+<br/><p>Version 8.1.2</p>
 <a href="/security/advisory?id=oc-sa-2015-017">Command injection when using external SMB storage</a><br>
-<a href="/security/advisory?id=oc-sa-2015-018">PHP arbitrary class instantiiation in "files_external"</a><br>
+<a href="/security/advisory?id=oc-sa-2015-018">PHP arbitrary class instantiation in "files_external"</a><br>
 <br/><p>Version 8.1.1</p>
 <a href="/security/advisory?id=oc-sa-2015-014">Information Exposure Through Directory Listing in the file scanner</a><br>
 <a href="/security/advisory?id=oc-sa-2015-015">Calendar export: Authorization Bypass Through User-Controlled Key</a><br>
+<br/><p>Version 8.0.10</p>
+<a href="/security/advisory?id=oc-sa-2016-001">Reflected XSS in OCS provider discovery</a><br>
+<a href="/security/advisory?id=oc-sa-2016-002">Information Exposure Through Directory Listing in the file scanner</a><br>
+<a href="/security/advisory?id=oc-sa-2016-003">Disclosure of files that begin with ".v" due to unchecked return value</a><br>
+<br/><p>Version 8.0.9</p>
+<a href="/security/advisory?id=oc-sa-2016-004">Full installation path disclosure through error message</a><br>
 <br/><p>Version 8.0.7</p>
-<a href="/security/advisory?id=oc-sa-2015-018">PHP arbitrary class instantiiation in "files_external"</a><br>
+<a href="/security/advisory?id=oc-sa-2015-018">PHP arbitrary class instantiation in "files_external"</a><br>
 <br/><p>Version 8.0.6</p>
 <a href="/security/advisory?id=oc-sa-2015-014">Information Exposure Through Directory Listing in the file scanner</a><br>
 <a href="/security/advisory?id=oc-sa-2015-015">Calendar export: Authorization Bypass Through User-Controlled Key</a><br>
@@ -17,8 +33,11 @@
 <a href="/security/advisory?id=oc-sa-2015-007">Resource Exthaustion when sanitizing filenames</a><br>
 <a href="/security/advisory?id=oc-sa-2015-008">Command injection when using external SMB storage</a><br>
 <a href="/security/advisory?id=oc-sa-2015-010">Stored XSS in "activity" application</a><br>
+<br/><p>Version 7.0.12</p>
+<a href="/security/advisory?id=oc-sa-2016-001">Reflected XSS in OCS provider discovery</a><br>
+<a href="/security/advisory?id=oc-sa-2016-003">Disclosure of files that begin with ".v" due to unchecked return value</a><br>
 <br/><p>Version 7.0.9</p>
-<a href="/security/advisory?id=oc-sa-2015-018">PHP arbitrary class instantiiation in "files_external"</a><br>
+<a href="/security/advisory?id=oc-sa-2015-018">PHP arbitrary class instantiation in "files_external"</a><br>
 <br/><p>Version 7.0.8</p>
 <a href="/security/advisory?id=oc-sa-2015-015">Calendar export: Authorization Bypass Through User-Controlled Key</a><br>
 <br/><p>Version 7.0.7</p>
