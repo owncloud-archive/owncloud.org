@@ -1,6 +1,7 @@
-<br/><p>ownCloud server 8.1.2</p>
-<a href="/security/advisory?id=oc-sa-2015-017">Command injection when using external SMB storage</a><br/>
-<a href="/security/advisory?id=oc-sa-2015-018">PHP arbitrary class instantiiation in "files_external"</a><br/>
+<br/><p>ownCloud server 8.2.2</p>
+<a href="/security/advisory?id=oc-sa-2016-001">Reflected XSS in OCS provider discovery</a><br/>
+<a href="/security/advisory?id=oc-sa-2016-002">Information Exposure Through Directory Listing in the file scanner</a><br/>
+<a href="/security/advisory?id=oc-sa-2016-003">Disclosure of files that begin with ".v" due to unchecked return value</a><br/>
 <br/><p>ownCloud desktop 2.0.1</p>
 <a href="/security/advisory?id=oc-sa-2015-016">Improper validation of certificates when using self-signed certificates</a><br/>
 <br/><p>ownCloud mobile iOS 3.4.4</p>
