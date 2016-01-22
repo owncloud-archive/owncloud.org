@@ -10,7 +10,7 @@ process easy and effective for everyone involved.
   * Enter what you like for site title, admin user and password, none of this is stored in git
 2. Setup the repository
   1. Clone the www repo in a folder of your choice
-    * `git clone git@github.com:owncloud/www.repo owncloudorgnew`
+    * `git clone git@github.com:owncloud/owncloud.org owncloudorgnew`
   2. In the wordpress installation in the wp-content/themes folder, create a link to the folder you just cloned our www repo in under the name 'owncloudorgnew'
 3. Activate the theme in Appearance > Themes
 4. Import the website content.xml file
