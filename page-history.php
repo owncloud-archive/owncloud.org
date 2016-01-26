@@ -55,6 +55,35 @@ Installation has minimal server requirements, doesn’t need special permissions
 
 <!-- 2015 -->
   <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2015.svg" alt="Picture"></div></li>
+  
+      <li class="">
+    <div class="tl-circ github"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>End of 2015 statistics</h4>
+      </div>
+      <div class="tl-body">
+        <p>codebase grown to 2.4 million LOC</br>
+			average of 84 contributors/month</br>
+			estimated over 8 million users wordwide
+		</p>
+      </div>
+    </div>
+  </li>
+  
+    <li class="new-timeline-inverted">
+    <div class="tl-circ desktop"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>ownCloud Collaborates with Collabora and Western Digital</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> December 2015</small></p>
+      </div>
+      <div class="tl-body">
+        <p>Western Digital approached ownCloud to <a href="https://owncloud.org/blog/western-digital-and-owncloud-team-up-to-bring-owncloud-to-home-users/">build a Raspberry Pi based private cloud storage</a> and Collabora wants to <a href="https://owncloud.org/blog/libreoffice-online-has-arrived-in-owncloud/">bring LibreOffice Online to ownCloud</a>.</p>
+        <iframe width="100%" height="240" src="https://www.youtube.com/embed/jPGBRu085Dw?rel=0" frameborder="0" allowfullscreen></iframe>
+     </div>
+    </div>
+  </li>
   <li class="tl-image-400">
     <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
