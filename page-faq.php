@@ -251,7 +251,7 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <a name="communitysize"></a>
 <h3>How big is the ownCloud Community?</h3>
 <ul>
-	<li>ownCloud has over 2 million users and over 360 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="https://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself.</li>
+	<li>ownCloud has an estimated <a href="https://owncloud.org/blog/owncloud-grows-to-8-million-users/" target="_blank">8 million users</a> and over 350 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="https://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself. We track the development of the ownCloud user and contributor base on <a href="/history">our history page</a>.</li>
 </ul>
 
 <a name="howitstarted"></a>
