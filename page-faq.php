@@ -50,6 +50,7 @@
 	<li><a href="#copyrightviolation">I want to report a copyright infringement or other legal matter on a site that mentions use of ownCloud.</a></li>
 </ul>
 <h4>ownCloud for professional use</h4>
+See also the <a href="https://owncloud.com/faq" target="_blank">ownCloud Enterprise FAQ</a>.
 <ul>
 	<li><a href="#professionaluse">Can I use ownCloud in professional, large scale deployments?</a></li>
 	<li><a href="#professionaluse">What resources exist to support my deployment?</a></li>
