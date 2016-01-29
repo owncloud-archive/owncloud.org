@@ -19,6 +19,7 @@
 	<li><a href="#protocol">Why do you use HTTP and not my favorite protocol?</a></li>
 	<li><a href="#android">Why does the calendar/contacts app not work with Android?</a></li>
 	<li><a href="#mobilefeatures">Why does the Android/iOS mobile app not support my favorite feature?</a></li>
+	<li><a href="#calendarcontacts">Why are Calendar and Contacts (or another app) not shipped with the zip file, are they not part of ownCloud?</a></li>
 	<li><a href="#security">How Secure is ownCloud?</a></li>
 	<li><a href="#security2">Does the long list of security advisories mean ownCloud is less secure than other solutions?</a></li>
 	<li><a href="#encryption">Are files encrypted during sync?</a></li>
@@ -50,6 +51,7 @@
 	<li><a href="#copyrightviolation">I want to report a copyright infringement or other legal matter on a site that mentions use of ownCloud.</a></li>
 </ul>
 <h4>ownCloud for professional use</h4>
+See also the <a href="https://owncloud.com/faq" target="_blank">ownCloud Enterprise FAQ</a>.
 <ul>
 	<li><a href="#professionaluse">Can I use ownCloud in professional, large scale deployments?</a></li>
 	<li><a href="#professionaluse">What resources exist to support my deployment?</a></li>
@@ -157,11 +159,22 @@ See more details in <a href="https://owncloud.org/blog/owncloud-and-php/" target
 	<li>The Android mobile app has automatic picture and video upload. Both mobile clients give access to your files and include selective sync for keeping some of your files up to date on the device. Other features are under development or provided by other apps (like calendar and contacts, see <a href="#android">previous FAQ item</a>). If you'd like to add features to the Android or iOS client, find the <a href="https://github.com/owncloud/android/" target="_blank">Android sources here</a> and the <a href="https://github.com/owncloud/ios" target="_blank">iOS sources here</a>. Legal notes: the Android app is under the GPLv2, the iOS app under the GPLv3. To contribute to either, you have to <a href="https://owncloud.org/contribute/agreement/" target="_blank">sign a contributor agreement</a> or contribute your code under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>. For testing, we provide a <a href="https://owncloud.org/contribute/iOS-license-exception/" target="_blank">iOS license exception</a> so you can run the iOS app on up to 100 devices.</li>
 </ul>
 
+<a name="calendarcontacts"></a>
+<h3>Why are Calendar and Contacts (or another app) not shipped with the zip file, are they not part of ownCloud?</h3>
+<p>We have four types of apps: Core, Official, Approved and Experimental.Calendar and Contacts are a bit of an issue as, right now, they are not super well maintained and we probably should downgrade them to Approved. If they were core parts of ownCloud users would expect that they get the same attention as ownCloud core. But these apps are developed mostly by students in their free time and thus are not as stable, don’t scale to large instances and don’t get such swift attention to bugreports as the core of ownCloud which is maintained by people who are paid full-time by customers. If a company (or more than one) steps up to pay ownCloud, Inc. for maintenance of the calendar/contact, or if 
+<ul>
+	<li><strong>Core</strong> means part of ownCloud core, like sharing, gallery, external storage, encryption etc. Being part of core, problems would block releases and the employees of ownCloud, Inc. maintain most of the components.</li>
+	<li><strong>Official</strong> are apps which are quite well maintained and important for ownCloud. They include the Calendar and Contacts. Being 'official', we deeply care about them and will try to have them available for new releases on release day, but they are still developed by volunteers. This also means there is no commercial support available from ownCloud, Inc. This often also means that these apps do not work well on systems with large number of users or large amounts of data.</li>
+	<li><strong>Approved</strong> means that an app won’t immediately eat your data, that we have made sure there are no security problems and we know the maintainers.</li>
+	<li><strong>Experimental = the rest. These apps are neither checked for stability nor security problems and you should be careful when installing them - they might compromise your privacy, security or data integrity.</li>
+</ul>
+<p>Changes of status can happen following <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>general/publishing">the rules documented here</a>. In simple words, the better maintained an app is, the more fitting an '<strong>official</strong>' label is. If a company, be it ownCloud, Inc. due to customer demand, or another company, decides to dedicate resources to maintaining an app, it could become part of core. Your help thus matters!</p>
+
 <a name="security"></a>
 <h3>How Secure is ownCloud?</h3>
 <ul>
 	<li>ownCloud supports HTTPS and offers server-side encryption. ownCloud Server automatically generates a 4096-bit strong private/public key-pair for each user. Private keys are encrypted with the user’s login password and thus nobody can get at your data if you are not logged in on your ownCloud server.</li>
-	<li>ownCloud is an open source project so all code is visible. We are committed to building secure code. We employ a full-time security expert and do regular security audits on the code. We always welcome fixes to security issues, see <a href="https://owncloud.org/security" target="_blank">owncloud.org/security</a>.</li>
+	<li>ownCloud is an open source project so all code is visible. We are committed to building secure code and work following the leading industry security practices. We employ a full-time security expert and do regular security audits on the code. Our <a href="https://hackerone.com/owncloud">bug bounty program on hackerone</a> provides an opportunity for white hat hackers to get rewarded for responsible disclosure of ownCloud vulnerabilities. We always welcome notifications of security issues, see <a href="https://owncloud.org/security" target="_blank">owncloud.org/security</a>.</li>
 	<li>To learn a bit more about ownCloud security, watch <a href="https://www.youtube.com/watch?v=iLJbMrLgowk&index=25&list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" target="_blank">this technical talk at the ownCloud Contributor Conference</a> and read <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">this article about ownCloud and encryption</a>.</li>
 </ul>
 
@@ -250,7 +263,7 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <a name="communitysize"></a>
 <h3>How big is the ownCloud Community?</h3>
 <ul>
-	<li>ownCloud has over 2 million users and over 360 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="https://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself.</li>
+	<li>ownCloud has an estimated <a href="https://owncloud.org/blog/owncloud-grows-to-8-million-users/" target="_blank">8 million users</a> and over 350 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="https://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself. We track the development of the ownCloud user and contributor base on <a href="/history">our history page</a>.</li>
 </ul>
 
 <a name="howitstarted"></a>
