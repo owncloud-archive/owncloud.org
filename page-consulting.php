@@ -21,10 +21,59 @@ foreach($consultants as $consultant) {
 
 <div class="alert alert-info">If you offer ownCloud Consulting, you can <a href="/consulting/apply2/">request to be listed on this page</a>. To find out more about becoming an enterprise consultant with a support contract from <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> please see <a target="_blank" href="https://owncloud.com/partner/">the partner page on ownCloud.com</a>.</div>
 
+<h2>Test</h2>
+<?php
+// 	echo 'VAR: '.var_dump($consultants);
+	$tmp_flags= array();
+	foreach($consultants as $c) {
+		foreach($c->flags as $f) {
+			array_push($tmp_flags, $f);
+		}				
+	}
+	$tmp_flags = array_unique($tmp_flags);
+	sort($tmp_flags);
+?>
+
+<div class="row col-xs-12">
+<h2>Choose what you are looking for</h2>
+<p>Country:
+	<select name="country">
+		<option value="">World</option>
+			<?php
+				foreach($tmp_flags as $flag) {
+					echo '<option value=' . $flag . '>' . $flag . ' </option>';
+				}
+			?>
+	</select>
+</p>
+
+
+
+
+
+
+
+
+	<p>Offers hosting: <select name="hosting">
+	<option value="">Both</option>
+		<?php
+			$numConsultants = count($consultants);
+				for($consultant=0; $consultant<$numConsultants; $consultant++) {
+					foreach($consultants[$consultant]->hosting as $host) {
+					echo '<option value=' . $host . '>' . $host . ' </option>';
+				}
+			}
+		?>
+	</select></p>
+</div>
+
+
 <div class="row col-xs-12">
 	<h2>ownCloud Certified Partners</h2>
 	<p>For any projects where ownCloud is mission critical, ownCloud partners provide subscription based offerings from ownCloud and consulting as well as development services backed up by ownCloud, Inc. full-time support personal, engineers and expert knowledge.</p>
 </div>
+
+
 <?php displayConsultants($supportedConsultants); ?>
 
 <div class="row col-xs-12">
@@ -35,6 +84,9 @@ foreach($consultants as $consultant) {
 <!-- TODO: add code to sort consultants on property "github-score":"X" where X can be 0 and up. -->
 
 <?php
+
+
+
 
 function displayConsultants($consultants) {
 
@@ -81,10 +133,7 @@ function displayConsultants($consultants) {
 ?>
 
 
+<script>
 
 
-			<!--if($consultants[$consultant]->hosting) {
-				echo '<span class="hosting">Provides hosting</br></span>';
-			} else {
-			echo '<br/>';
-			}-->
+</script>
