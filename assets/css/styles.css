@@ -896,7 +896,7 @@ body.install a.btn-lg {
 	padding: 0px 5px;
 }
 
-.consulting .logo {
+.consulting .consultant-logo {
 	padding: 15px;
 	margin: auto;
 	width: 100%;
@@ -907,5 +907,5 @@ body.install a.btn-lg {
 }
 
 .consulting .bannerfoot-partner {
-	height: 160px;
+	height: 180px;
 }
