@@ -10,30 +10,25 @@
 </div>
 <div class="row col-xs-12">
 	<h2>Independent consultants</h2>
-	<p>The following individuals and firms offer ownCloud related services that may be of interest. The information provided here was provided by the entities named, and is not verified or endorsed by the ownCloud community or ownCloud, Inc. We offer this listing as a service to the ecosystem.</p>
+	<p>Besides partners, individuals and firms offer ownCloud related services that may be of interest. The information provided here was provided by the entities named, and is not verified or endorsed by the ownCloud community or ownCloud, Inc. We offer this listing as a service to the ecosystem.</p>
 </div>
 
 <div class="row">
 	<div class="col-md-4">
-		<select id="countryPicker" class="form-control">
+		Country: <select id="countryPicker" class="form-control">
 			<option value="all">World</option>
 		</select>
 	</div>
-	<div class="col-md-8">
-		<input type="checkbox" id="offersHosting">Show only hosters<br>
-		<input type="checkbox" id="certified">Show only Certified Partners<br>
+	<div class="col-md-7 col-md-offset-1">
+		<input type="checkbox" id="offersHosting"> Show only hosters<br>
+		<input type="checkbox" id="certified"> Show only Certified Partners<br>
 	</div>
 </div>
 
-<div id="consultants" class="row"></div>
+<div id="consultants" class="row">
 
-
-
-
+<!-- TODO: sort on Certified or not ? -->
 <!-- TODO: add code to sort consultants on property "github-score":"X" where X can be 0 and up. -->
-
-
-
 
 <!-- <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script> -->
 <script type="text/javascript">
@@ -42,7 +37,7 @@
 		var countries = [];
 		var selectedCountryCode = 'all';
 		var filterOnlyHosters = false;
-		var filterOnlyCertified = true;
+		var filterOnlyCertified = false;
 		function filterItems(country) {
 			var filteredItems = [];
 			$.each(items, function (key, consultant) {
@@ -64,6 +59,7 @@
 						return true;
 					}
 				}
+				// Filter for supported partners
 				if (filterOnlyCertified) {
 					if(consultant.supported !== true) {
 						return true;
@@ -72,13 +68,18 @@
 				// Iterate and template all the remaining ones. Yay.
 				filteredItems.push('<div class="col-xs-12 col-sm-6 col-md-4">');
 						filteredItems.push('<div class="consulting thumbnail">');
-							filteredItems.push('<div class="bannerhead">');
+							filteredItems.push('<div class="bannerhead">')
 								filteredItems.push('<a href="');
 									filteredItems.push(consultant.url);
 									filteredItems.push('" target="_blank" rel="noreferrer" title="');
 										filteredItems.push(consultant.title);
 									filteredItems.push('">');
-									filteredItems.push('<img class="consultant-logo" src="<?php echo get_template_directory_uri() ?>/assets/img/consultants/');
+									if(consultant.supported == true) {
+										filteredItems.push('<img class="consultant-logo-partner"');
+									}else{
+										filteredItems.push('<img class="consultant-logo desaturate"');
+									}
+									filteredItems.push(' src="<?php echo get_template_directory_uri() ?>/assets/img/consultants/');
 										filteredItems.push(consultant.imagename);
 									filteredItems.push('">');
 								filteredItems.push('</a><br \>');
@@ -91,12 +92,7 @@
 									}
 								});
 							filteredItems.push('<br \></div>');
-							if(consultant.supported !== true) {
-								filteredItems.push('<div class="bannerfoot">')
-							}
-							if(consultant.supported == true) {
-							filteredItems.push('<div class="bannerfoot-partner">')
-							}
+							filteredItems.push('<div class="bannerfoot">');
 								filteredItems.push('<p>');
 									filteredItems.push(consultant.specializes);
 								filteredItems.push('</p>');
@@ -129,8 +125,8 @@
 			filterOnlyHosters = $('#offersHosting').is(':checked');
 			filterItems(selectedCountryCode, filterOnlyHosters, filterOnlyCertified);
 		});
-		$('#Certified').change(function () {
-			filterOnlyHosters = $('#certified').is(':checked');
+		$('#certified').change(function () {
+			filterOnlyCertified = $('#certified').is(':checked');
 			filterItems(selectedCountryCode, filterOnlyHosters, filterOnlyCertified);
 		});
 	})
