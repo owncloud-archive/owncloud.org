@@ -1,5 +1,4 @@
-{
-   "consultants":[
+[
       {
          "title":"ACP IT Solutions",
          "url":"http:\/\/www.acp.de",
@@ -504,6 +503,4 @@
          ],
          "github-score":"0"
       }
-
-   ]
-}
+]
