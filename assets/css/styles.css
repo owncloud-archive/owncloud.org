@@ -887,6 +887,17 @@ body.install a.btn-lg {
 	height: 30px;
 }
 
+.consulting .consultant-logo { 
+	padding: 15px;
+	margin: auto;
+	width: 80%;
+}
+
+img.desaturate { 
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
 .consulting .bannerhead {
 	text-align: center;
 }
@@ -896,16 +907,12 @@ body.install a.btn-lg {
 	padding: 0px 5px;
 }
 
-.consulting .logo {
+.consulting .consultant-logo-partner {
 	padding: 15px;
 	margin: auto;
 	width: 100%;
 }
 
 .consulting .bannerfoot {
-	height: 110px;
-}
-
-.consulting .bannerfoot-partner {
-	height: 160px;
+	height: 180px;
 }
