@@ -80,16 +80,22 @@
 				<th>Link (report)</th>
 			</tr>
 			<tr>
+				<td>Workshop introduction to ownCloud</th>
+				<td>College of Engineering, Pune (COEP)</th>
+				<td>February 6</th>
+				<td><a href="http://meetu.ps/2VgNf8">Site</a></th>
+			</tr>
+			<tr>
 				<td>Workshop on setting up your owncloud</th>
 				<td>mini Debian Conference in Mumbai</th>
 				<td>January 31st</th>
 				<td><a href="http://in2016.mini.debconf.org/#schedule">Schedule</a></th>
 			</tr>
 			<tr>
-				<td>Workshop introduction to ownCloud</th>
-				<td>College of Engineering, Pune (COEP)</th>
-				<td>February 6</th>
-				<td><a href="http://meetu.ps/2VgNf8">Site</a></th>
+				<td>FOSDEM 2016</td>
+				<td>Brussels, Belgium</td>
+				<td>Jan 30-31, 2016</td>
+				<td><a target="_blank" href="http://blog.jospoortvliet.com/2016/02/fosdem-2016-and-owncloud-kolab-kde-and.html">blog by Jos</a></td>
 			</tr>
 			<tr>
 				<td>SCALE 2016</td>
@@ -97,12 +103,6 @@
 				<td>Jan 21-24, 2016</td>
 				<td><a target="_blank" href="http://blog.jospoortvliet.com/2016/01/scale14x-and-8-million-users-for.html">blog by Jos</a></td>
 			</tr>
-			<tr>
-				<td>FOSDEM 2016</td>
-				<td>Brussels, Belgium</td>
-				<td>Jan 30-31, 2016</td>
-				<td><a target="_blank" href="http://blog.jospoortvliet.com/2016/02/fosdem-2016-and-owncloud-kolab-kde-and.html">blog by Jos</a></td>
-			</tr>z7
 		</table>
 		
 		<h3>Events we've been at in 2015</h3>
