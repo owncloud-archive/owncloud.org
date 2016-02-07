@@ -71,6 +71,40 @@
 		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know via the contact form</a> or email the events mailing list!</p>
 		<p>Consider joining the <a target="_blank" href="https://mailman.owncloud.org/mailman/listinfo/events">events mailing list</a> to discuss events with other ownClouders.</p>
 
+		<h3>Events we've been at in 2016</h3>
+		<table class="table table-striped">
+			<tr>
+				<th>Event</th>
+				<th>Location</th>
+				<th>Date</th>
+				<th>Link (report)</th>
+			</tr>
+			<tr>
+				<td>Workshop on setting up your owncloud</th>
+				<td>mini Debian Conference in Mumbai</th>
+				<td>January 31st</th>
+				<td><a href="http://in2016.mini.debconf.org/#schedule">Schedule</a></th>
+			</tr>
+			<tr>
+				<td>Workshop introduction to ownCloud</th>
+				<td>College of Engineering, Pune (COEP)</th>
+				<td>February 6</th>
+				<td><a href="http://meetu.ps/2VgNf8">Site</a></th>
+			</tr>
+			<tr>
+				<td>SCALE 2016</td>
+				<td>Pasedena, Los Angelos, CA, USA</td>
+				<td>Jan 21-24, 2016</td>
+				<td><a target="_blank" href="http://blog.jospoortvliet.com/2016/01/scale14x-and-8-million-users-for.html">blog by Jos</a></td>
+			</tr>
+			<tr>
+				<td>FOSDEM 2016</td>
+				<td>Brussels, Belgium</td>
+				<td>Jan 30-31, 2016</td>
+				<td><a target="_blank" href="http://blog.jospoortvliet.com/2016/02/fosdem-2016-and-owncloud-kolab-kde-and.html">blog by Jos</a></td>
+			</tr>z7
+		</table>
+		
 		<h3>Events we've been at in 2015</h3>
 		<table class="table table-striped">
 			<tr>
@@ -194,7 +228,7 @@
 				<td>January 31 and February 1</td>
 				<td><a target="_blank" href="https://fosdem.org/2015/">FOSDEM 2014</a> (<a target="_blank" href="https://owncloud.org/blog/owncloud-at-fosdem-2015-and-scale13x/">report</a>)</td>
 			</tr>
-			</table>
+		</table>
 
 <!--		<h2>Release parties</h2>
 		<p>One of the best parts of an ownCloud release, are the community release parties! A release party can be a meeting in a cafe or office with a
