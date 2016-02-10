@@ -1,6 +1,29 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3 id="211">Release 2.1.1 <small>Februrary 10th 2016</small></h3>
+<ul>
+<li>UI improvements for HiDPI screens, error messages, RTL languages</li>
+<li>Fix occurences of "Connection Closed" when a new unauthenticated TCP socket is used</li>
+<li>Fix undeliberate WiFi scanning done by Qt Network classes</li>
+<li>Several fixes/improvements to the sharing dialog</li>
+<li>Several fixes/improvements to the server activity tab</li>
+<li>Create the directory when using <tt>--confdir</tt> and it does not exist</li>
+<li>Windows Overlay icons: Fix DLL and icon oddities</li>
+<li>Mac Overlay icons: Don't install legacy Finder plugin on &gt;= 10.10</li>
+<li>Linux Overlay icons: Nemo plugin</li>
+<li>Overlay icons: Fix several wrong icon state computations</li>
+<li>Allow changeable upload chunk size in owncloud.cfg</li>
+<li>Crash fixes on account deletion</li>
+<li>Forget password on explicit sign-out</li>
+<li>OS X: Fix the file system watcher ignoring unicode paths (<a href="https://github.com/owncloud/client/issues/4424">#4424</a>)</li>
+<li>Windows Installer: Update to NSIS 2.50, fixes possible DLL injection</li>
+<li>Sync Engine: .lnk files</li>
+<li>Sync Engine: symlinked syn directories</li>
+<li>Sync Engine: Windows: Fix deleting and replacing of read-only files (<a href="https://github.com/owncloud/client/issues/4308">#4308</a>, <a href="https://github.com/owncloud/client/issues/4277">#4277</a>)</li>
+<li>Sync Engine: Fixes for files becoming directories and vice versa (<a href="https://github.com/owncloud/client/issues/4302">#4302</a>)</li>
+<li>Misc other fixes/improvements</li>
+</ul>
 <h3 id="210">Release 2.1.0 <small>December 3rd 2015</small></h3>
 <ul>
 <li>GUI: Added a separate view for not synced items, ignores, errors</li>
