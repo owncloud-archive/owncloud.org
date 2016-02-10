@@ -16,12 +16,12 @@
 <li>Allow changeable upload chunk size in owncloud.cfg</li>
 <li>Crash fixes on account deletion</li>
 <li>Forget password on explicit sign-out</li>
-<li>OS X: Fix the file system watcher ignoring unicode paths (#4424)</li>
+<li>OS X: Fix the file system watcher ignoring unicode paths (<a href="https://github.com/owncloud/client/issues/4424">#4424</a>)</li>
 <li>Windows Installer: Update to NSIS 2.50, fixes possible DLL injection</li>
 <li>Sync Engine: .lnk files</li>
 <li>Sync Engine: symlinked syn directories</li>
-<li>Sync Engine: Windows: Fix deleting and replacing of read-only files (#4308, #4277)</li>
-<li>Sync Engine: Fixes for files becoming directories and vice versa (#4302)</li>
+<li>Sync Engine: Windows: Fix deleting and replacing of read-only files (<a href="https://github.com/owncloud/client/issues/4308">#4308</a>, <a href="https://github.com/owncloud/client/issues/4277">#4277</a>)</li>
+<li>Sync Engine: Fixes for files becoming directories and vice versa (<a href="https://github.com/owncloud/client/issues/4302">#4302</a>)</li>
 <li>Misc other fixes/improvements</li>
 </ul>
 <h3 id="210">Release 2.1.0 <small>December 3rd 2015</small></h3>
