@@ -11,7 +11,7 @@
     <div class="btn-group">
       <a class="btn btn-default btn-lg" role="button" href="#instructions-server" rel="tooltip" title="Install instructions" id="server" data-toggle="popover">Download</a>
 <!--       <a class="btn btn-default btn-lg" role="button" href="/hardware-TBD">Servers</a> - disabled for now, until we have a page like that... -->
-      <a class="btn btn-default btn-lg" role="button" href="/providers">Providers</a>
+      <a class="btn btn-default btn-lg" role="button" href="/providers" rel="tooltip" title="Third Party ownCloud Providers">Providers</a>
     </div>
   </div>
   <div class="col-md-4">
@@ -30,8 +30,8 @@
     <h3><i class="icon-globe"></i> Extend your cloud</h3>
     <p>Browse hundreds of free ownCloud apps and connect services you use to ownCloud:</p>
      <div class="btn-group">
-        <a class="btn btn-default btn-lg" role="button" href="https://apps.owncloud.com" target="_blank">ownCloud Apps</a>
-        <a class="btn btn-default btn-lg" role="button" href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd Party Apps</a>
+        <a class="btn btn-default btn-lg" role="button" href="https://apps.owncloud.com" target="_blank" rel="tooltip" title="The ownCloud Appstore">ownCloud Apps</a>
+        <a class="btn btn-default btn-lg" role="button" href="https://github.com/owncloud/core/wiki/Apps" target="_blank" rel="tooltip" title="3rd Party App List on the ownCloud Wiki">3rd Party Apps</a>
       </div>
   </div>
 </div>
@@ -44,12 +44,12 @@
     <h3><i class="icon-book"></i> Documentation</h3>
     <p>Manuals are provided in HTML and PDF form:</p>
     <ul>
-      <li><a href="<?php echo $DOCUMENTATION_USER; ?>" target="_blank">Users</a></li>
-      <li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>" target="_blank">Admins</a></li>
-      <li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank">Developers</a></li>
-      <li> <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/" target="_blank">Testers</a></li>
+      <li><a href="<?php echo $DOCUMENTATION_USER; ?>" target="_blank" rel="tooltip" title="End User Documentation">Users</a></li>
+      <li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>" target="_blank" rel="tooltip" title="ownCloud administrator Documentation">Admins</a></li>
+      <li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="ownCloud Developer Documentation">Developers</a></li>
+      <li> <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/" target="_blank" rel="tooltip" title="Information for Testers">Testers</a></li>
     </ul>
-    <p>If you have other questions about ownCloud, read our <a href="/faq" target="_blank">ownCloud FAQ</a>.</p>
+    <p>If you have other questions about ownCloud, read our <a href="/faq" target="_blank" rel="tooltip" title="Most Frequently Asked Questions and Answers">ownCloud FAQ</a>.</p>
   </div>
   <div class="col-md-4">
     <hr class="narrow"></hr>
@@ -57,20 +57,21 @@
     <h3><i class="icon-comment"></i> Support Channels</h3>
     <p>Discuss using, installing or maintaining ownCloud in our community support channels.</p>
     <ul>
-      <li><a href="http://forum.owncloud.org" target="_blank">Forum</a> (<a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">Forum FAQ</a>)</li>
-      <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">User Mailing List</a></li>
-      <li><a href="irc://#owncloud@freenode.net" target="_blank">IRC Channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
+      <li><a href="http://forum.owncloud.org" target="_blank" rel="tooltip" title="The ownCloud User Forums">Forum</a> (<a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank" rel="tooltip" title="The FAQ maintained by the ownCloud Forum Team">Forum FAQ</a>)</li>
+      <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank" rel="tooltip" title="The ownCloud User Mailing List">User Mailing List</a></li>
+      <li><a href="irc://#owncloud@freenode.net" target="_blank" rel="tooltip" title="The ownCloud IRC Channel">IRC Channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank"  rel="tooltip" title="Web interface to the ownCloud IRC Channel">Webchat</a>)</li>
     </ul>
-    <p>Find <a href="/support" target="_blank">more support resources here</a>.</p>
+    <p>Note that these consist of users helping each other. Consider helping out others, too!</p>
+    <p>Find <a href="/support" target="_blank" rel="tooltip" title="An overview of where to find help">more support resources here</a>.</p>
   </div>
   <div class="col-md-4">
     <hr class="narrow"></hr>
     <div class="numbadge centre">6</div>
     <h3><i class="icon-rocket"></i> Get Involved</h3>
-    <p><a href="/promote" target="_blank">Join the conversation</a> around ownCloud!</p>
-    <p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank">developing</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank">testing</a>, grab a daily build or beta packages.</p>
-    <p><a class="btn btn-default btn-lg" role="button" href="#testing-development" rel="tooltip" title="Contribute" id="testing" data-toggle="popover">Testing Packages</a></p>
-    <p>See more <a href="/contribute" target="_blank">ways to get involved</a>!</p>
+    <p><a href="/promote" target="_blank"  rel="tooltip" title="List of our Communication Channels">Join the conversation</a> around ownCloud!</p>
+    <p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="Developer Documentation">developing</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank"  rel="tooltip" title="Testing Documentation">testing</a>, grab a daily build or beta packages.</p>
+    <p><a class="btn btn-default btn-lg" role="button" href="#testing-development" rel="tooltip" title="Contribute to testing" id="testing" data-toggle="popover">Testing Packages</a></p>
+    <p>See more <a href="/contribute" target="_blank" rel="tooltip" title="The ownCloud Contribute Page">ways to get involved</a>!</p>
   </div>
 </div> 
 <hr></hr>
