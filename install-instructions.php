@@ -38,7 +38,7 @@
 							<div class="thumbnail">
 								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 							</div>
-								<p><strong>Note:</strong></br> If you run ownCloud on Linux, <a id="packages" href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab">using packages</a> is recommended.</p>
+								<!--<p><strong>Note:</strong></br> If you run ownCloud on Linux, <a id="packages" href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab">using packages</a> is recommended.</p>-->
 								<p>Looking for <a href="/changelog">older versions or major releases</a>?</p>
 								<p><small>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</small></p>
 							</div>
@@ -90,9 +90,12 @@
 							<div id="tab-cloud" role="tabpanel" class="tab-pane">
 								<div class="overlay-body row">
 									<div class="col-md-8">
-										<p>ownCloud provides an official appliance as the easiest way to get ownCloud up and running for non-technical users. It is built on Ubuntu Linux and fully set up and configured with a secure connection and the <a href="/connect">ownCloud Proxy app</a>.</p>
-										<p>You can install <a href="https://www.virtualbox.org/">virtual box</a>, download our <a href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> file and load it up. See our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/appliance_installation.html">documentation for more details</a>. Other formats: <a href="<?php echo $DOWNLOAD_VM_QCOW2; ?>">QCOW2</a>, <a href="<?php echo $DOWNLOAD_VM_RAW; ?>">raw</a>, <a href="<?php echo $DOWNLOAD_VM_VHDX; ?>">VHDX</a>, <a href="<?php echo $DOWNLOAD_VM_VMDK; ?>">VMDK</a>, <a href="<?php echo $DOWNLOAD_VM_VMX; ?>">VMX</a></p>
-										<p>Several third parties</strong> offer cloud images for ownCloud. These are not maintained by the ownCloud community itself.</p>
+										<p>ownCloud provides an official appliance as the easiest way to get ownCloud up and running for non-technical users. It is built on Ubuntu Linux and fully set up and configured with a secure connection and the <a href="/connect">ownCloud Proxy app</a>. You can install <a href="https://www.virtualbox.org/">virtual box</a>, download our <a href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> file and load it up. See our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/appliance_installation.html">documentation for more details</a>.</p>
+										<h4>Grab the official ownCloud virtual machine image in one of these formats:</h4>
+										<a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_QCOW2; ?>">QCOW2</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_RAW; ?>">raw</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VHDX; ?>">VHDX</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VMDK; ?>">VMDK</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VMX; ?>">VMX</a>
+										
+										<h4>Third party ownCloud VM images</h4>
+										<p>These are not maintained by the ownCloud community itself.</p>
 										<div class="row">
 											<div class="row">
 												<div class="col-md-3 vmlist">
