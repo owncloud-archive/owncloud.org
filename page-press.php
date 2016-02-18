@@ -21,4 +21,4 @@
 <h2>Branding and Trademark Guidelines</h2>
 <p>Our general Trademark guidelines <a href="/trademarks">can be found here</a>. Find graphics like posters, stickers, flyers, release banners and other designs in our <a href="https://github.com/owncloud/promo">promo github account</a>.</p>
 <h2>Inquiries</h2>
-<p>For press inquiries, please contact <a href="mailto:pr@owncloud.com" target="_blank">Diane Clay</a>.<p>
+<p>For press inquiries, please contact <a href="mailto:pr@owncloud.com" target="_blank">Kelley Brooks</a>.<p>
