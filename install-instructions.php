@@ -234,8 +234,18 @@
 		      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>
 		    </div>
 		    <h5>Beta and RC builds</h5>
+		    <?php if(!empty($SERVER_TESTING_VERSION)) { ?>
+			    <p>Latest testing version: <span class="label label-blue"><?php echo $SERVER_TESTING_VERSION; ?></span></p>
+		    <?php } ?>
 		    <div class="btn-group">
-		      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>
+		    
+		    <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>
+		    <?php if(!empty($DOWNLOAD_SERVER_ZIP_TESTING)) { ?>
+			      <a href="<?php echo $DOWNLOAD_SERVER_ZIP_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> zip</a>
+		    <?php } ?>
+		    <?php if(!empty($DOWNLOAD_SERVER_TAR_TESTING)) { ?>
+			      <a href="<?php echo $DOWNLOAD_SERVER_TAR_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> tar.bz2</a>
+		    <?php } ?>
 		    </div>
 		    <?php if(!empty($VERSIONS_CLIENT_DESKTOP_TESTING)) { ?>
 		    <h4>Desktop Clients <small><?php echo $VERSIONS_CLIENT_DESKTOP_TESTING; ?></small></h4>
