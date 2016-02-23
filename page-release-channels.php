@@ -26,6 +26,7 @@
 		       That does not imply that these releases are bug free. The issues are known and can be worked around. The downside of this channel is that the releases are behind in terms of features and performance.</td>
             <td class="info">Older archives are available from our <a href="/changelog">changelog</a>.<br />
 		    Stable repositories are available for the following major versions:
+		    <a href="https://download.owncloud.org/download/repositories/9.0/owncloud/">9.0</a>
 		    <a href="https://download.owncloud.org/download/repositories/8.2/owncloud/">8.2</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1</a>
 		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0</a>
