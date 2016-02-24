@@ -759,7 +759,7 @@
       },
       {
          "title":"wolkesicher.de",
-         "url":"https:\/\/www.wolkesicher.de\/products\/allgemein\/kostenloser-zugang-inkl-2-gb-speicher\/",
+         "url":"https:\/\/www.wolkesicher.de\/produktuebersicht",
          "flags":[
             "de"
          ],
@@ -1180,6 +1180,186 @@
             "consumers"
             ],
          "imagename":"xt3.png"
+      },
+      {
+         "title":"Lander Networks",
+         "url":"http:\/\/owncloud.landernetworks.mx\/owncloud",
+         "flags":[
+            "mx"
+         ],
+         "freeplans":true,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"landers.png"
+      },
+      {
+         "title":"Swiss Packet",
+         "url":"http:\/\/swisspacket.com",
+         "flags":[
+            "sc"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers"
+            ],
+         "imagename":"swisspacket.png"
+      },
+      {
+         "title":"Prega Design",
+         "url":"http:\/\/prega-design.de\/sicherheit-und-cloud-services\/",
+         "flags":[
+            "de"
+         ],
+         "freeplans":true,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"prega.png"
+      },
+      {
+         "title":"syndicat",
+         "url":"http:\/\/www.syndicat.com\/internet\/internet_services/cloud\/owncloud\/index_ger.html",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"syndicat.png"
+      },
+      {
+         "title":"agilogik",
+         "url":"http:\/\/agilogik.de",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations"
+            ],
+         "imagename":"agilogik.png"
+      },
+      {
+         "title":"K&T Host",
+         "url":"http:\/\/www.knthost.com\/owncloud-hosting",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"knthost.png"
+      },
+      {
+         "title":"SW Hosting",
+         "url":"http:\/\/www.swhosting.com\/en\/cloud\/aplicacion\/owncloud",
+         "flags":[
+            "us",
+            "es"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"swhosting.png"
+      },
+      {
+         "title":"DynamicHosting",
+         "url":"http:\/\/www.dynamichosting.biz\/dropbox-owncloud-hosting-in-canada",
+         "flags":[
+            "ca"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations"
+            ],
+         "imagename":"dynamichosting.png"
+      },
+      {
+         "title":"Webis",
+         "url":"http:\/\/www.webis.pt\/email.php",
+         "flags":[
+            "br"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"webis.png"
+      },
+      {
+         "title":"JABA hosting",
+         "url":"http:\/\/www.jaba.hosting\/owncloud",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"jaba.png"
+      },
+      {
+         "title":"Yorkshire Hosting",
+         "url":"http:\/\/www.hostingyorkshire.uk\/cart.php?gid=5",
+         "flags":[
+            "uk",
+            "eu",
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"yorkshire.jpg"
+      },
+      {
+         "title":"HostForWeb, INC",
+         "url":"http:\/\/www.hostforweb.com\/apps\/?act=368",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers"
+            ],
+         "imagename":"hostforweb.png"
+      },
+      {
+         "title":"GigaPros.com LLC",
+         "url":"http:\/\/www.gigapros.com\/portal\/owncloud-hosting",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"gigapros.jpg"
+      },
+      {
+         "title":"Hisl",
+         "url":"http:\/\/www.hisyl.cloud",
+         "flags":[
+            "fr"
+         ],
+         "freeplans":true,
+         "supports":[
+            "organisations"
+            ],
+         "imagename":"hysl.png"
       }
       ]
 }
