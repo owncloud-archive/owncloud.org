@@ -7,7 +7,7 @@
          "flags":[
             "gb"
          ],
-         "freeplans":true,
+         "freeplans":false,
          "supports":[
             "consumers"
          ],
@@ -137,7 +137,7 @@
          "flags":[
             "de"
          ],
-         "freeplans":true,
+         "freeplans":false,
          "supports":[
             "consumers"
          ],
@@ -601,7 +601,7 @@
          "flags":[
             "at"
          ],
-         "freeplans":true,
+         "freeplans":false,
          "supports":[],
          "imagename":"hostingworld.png"
       },
@@ -631,7 +631,7 @@
          "flags":[
             "us"
          ],
-         "freeplans":true,
+         "freeplans":false,
          "supports":[],
          "imagename":"rosehosting.png"
       },
@@ -915,9 +915,10 @@
          "title":"systemec.nl",
          "url":"http:\/\/www.systemec.nl\/nl\/webservices\/owncloud\/",
          "flags":[
-            "nl"
+            "nl",
+            "de"
          ],
-         "freeplans":true,
+         "freeplans":false,
          "supports":[
             "organisations"
             ],
@@ -978,9 +979,10 @@
          "title":"my2storage.com",
          "url":"http:\/\/www.my2storage.com\/?page_id=25",
          "flags":[
-            "es"
+            "es",
+            "us"
          ],
-         "freeplans":true,
+         "freeplans":false,
          "supports":[
             "consumers",
             "organisations"
@@ -1124,7 +1126,7 @@
          "flags":[
             "fi"
          ],
-         "freeplans":true,
+         "freeplans":false,
          "supports":[
             "consumers",
             "organisations"
