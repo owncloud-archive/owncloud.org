@@ -375,18 +375,6 @@
          "imagename":"cahoots.png"
       },
       {
-         "title":"pereramedia.com",
-         "url":"http:\/\/www.pereramedia.com\/owncloud",
-         "flags":[
-            "gb"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"perera.png"
-      },
-      {
          "title":"allmenda.com",
          "url":"https:\/\/allmenda.net",
          "flags":[
