@@ -1364,6 +1364,19 @@
             "organisations"
             ],
          "imagename":"tremmel.png"
+      },
+      {
+         "title":"WIRCON Interservices GmbH",
+         "url":"https:\/\/wint.global\/ocloud",
+         "flags":[
+            "de"
+         ],
+         "freeplans":true,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"wint.png"
       }
-      ]
+    ]
 }
