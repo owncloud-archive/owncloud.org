@@ -1348,6 +1348,20 @@
             "organisations"
             ],
          "imagename":"hysl.png"
+      },
+      {
+         "title":"Domain & Webspace Tremmel",
+         "url":"http:\/\/www.domain-and-webspace.com\/en\/webspace\/2gb",
+         "flags":[
+            "us",
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"tremmel.png"
       }
       ]
 }
