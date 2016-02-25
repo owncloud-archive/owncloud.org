@@ -6,7 +6,6 @@
 <p>If you are looking for information on encryption, <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">see this blog</a>. For more general information around security, see our <a href="/faq#security" target="_blank">FAQ questions around security</a> and follow our development on <a href="https://owncloud.org/news" target="_blank">owncloud.org/news</a> to learn about <a href="https://statuscode.ch/2015/05/security-and-owncloud-8.1/" target="_blank">security improvements like those introduced in ownCloud 8.1</a>. For server owners, our documentation has a section with <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank">best practices and tips on securing an ownCloud server</a>.</p>
 <div class="row">
 <div class="span12">
-<p><div class="alert alert-danger"><strong>Heads up!</strong> We appreciate every report, however, please notice that our team is very busy and therefore won't consider reports which we rate as "low" severity or invalid (e.g. DoS in Apache or "X-Powered-By" headers). So do us and yourself a favor: Don't report such things, we will not take them into consideration.</div></p>
 <p>If you've discovered a security issue with ownCloud, please read our responsible disclosure guidelines and contact us at <a href="https://hackerone.com/owncloud"><strong>https://hackerone.com/owncloud</strong></a>. Your report should include:
 <ul>
 	<li>Product version</li>
