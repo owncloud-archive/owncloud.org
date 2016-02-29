@@ -54,7 +54,7 @@
 	</div>
         <div class="col-md-8 col-md-offset-2 featureblock ft-access">
 		<p class="featuredesc">You've got files on a FTP server at work. You have music on Google Drive. Friends shared images with you on Dropbox. Your NAS at home stores your private holiday pictures. And your financial administration, as well as you calendar and contacts you keep on your ownCloud server at home. One folder with large videos you store on a SFTP server you rent, all files fully encrypted before they are uploaded there. At work, the ownCloud server of your company runs on a rented VPS and your family uses one of the <a href="/providers">public ownCloud providers</a>.</p>
-		<p class="featuredesc">You run your ownCloud server in a place you trust and access all the data you care about through it in one place!</p>
+		<p class="featuredesc">You run your ownCloud server in a place you trust and through it access all the data you care about in one place!</p>
 	</div>
 
 </div>
@@ -78,7 +78,7 @@
 
 <!-- Sharing -->
 <div class="row featurerow ft-sharing">
-        <div class="col-lg-4 col-lg-offset-2 col-md-5 col-sm-7 featureblock ">
+        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-7 featureblock ">
 		<h1 class="featuretitle"><span class="avoidwrap">Share with anybody</span> <span class="avoidwrap">on your terms</span></h1></br>
 		<p class="featuredesc">You send a password protected public link to your recording studio so they can upload the music your band recorded this week to your ownCloud server. You get a notification on your phone that a band mate has shared a spreadsheet with travel planing with you and you edit it together from your browsers while having a video call about trip. At the airport, you quickly share the spreadsheet from your mobile phone to your uncle so he knows where you'll be. You also share your calendar with your family so they know when you're back home. Back, you sort through the pictures you took and share them from your tablet to your dad, mom and sister's user accounts on your parents's ownCloud server. You notice in your activity feed they already commented on pictures and you reply, chatting about your concert tour.</p>
 		<p>With ownCloud, you easily share and collaborate with whomever you want.</p>
