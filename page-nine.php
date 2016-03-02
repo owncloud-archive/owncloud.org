@@ -29,19 +29,19 @@
 
 			<div class="col-md-4 featureblock">
 				<i class="icon-comments"></i>
-				<h3 class="ft-title">Innovative Collaboration</h3>
+				<h3 class="ft-title"><a href="#collaboration">Innovative Collaboration</a></h3>
 				<p class="featuredesc">The introduction of comments and tags combined with the rework of the notifications and activity feed allow a new level of interaction.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
 				<i class="icon-space-shuttle"></i>
-				<h3 class="ft-title">Ultimate Scalability</h3>
+				<h3 class="ft-title"><a href="#scalability">Ultimate Scalability</a></h3>
 				<p class="featuredesc">A new storage API enables deeper integration with storage solutions and reworked sharing code handles more shares with more users.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
 				<i class="icon-users"></i>
-				<h3 class="ft-title">Full Federation</h3>
+				<h3 class="ft-title"><a href="#federation">Full Federation</a></h3>
 				<p class="featuredesc">Sharing between different ownCloud servers is smoother than ever with cross-server user name auto complete, trusted servers and more.</p>
 			</div>
 		</div>
@@ -52,44 +52,41 @@
 		<div class="featurewrapper">
 			<h2>ownCloud Server 9.0 Improvements</h2>
 		</div>
-		<p>Learn all about: <a href="#scalability">Ultimate Scalability</a> | 
-			<a href="#collaboration">Innovative Collaboration</a> | <a href="#federation">Full Federation</a> | <a href="#more">smaller changes</a></p>
-
-
 		<a name="collaboration"></a>
 		<div class="featurewrapper">
 			<h2>Innovative Collaboration</h2>
 		</div>
 		<div class="featurewrapper">
-			<p>With ownCloud, you can seamlessly collaborate on files and folders with others, add comments while working on files and organize files via tags. You keep an eye on what happens to your files through the activity feed, available in the Activity app, through RSS or in the ownCloud client apps. Notifications will pop up if files are shared or a calendar invitation comes in. The wide variety of applications developed in the ownCloud community brings additional collaborative capabilities like email handling, calendar and contacts and more.</p>
+			<p>With ownCloud 9.0, you can seamlessly collaborate on files and folders with others, <em>add comments</em> while working on files and <em>organize files via tags</em>. You keep an eye on what happens to your files through the <em>activity feed</em>, available in the Activity app, through RSS or in the ownCloud client apps. <em>Notifications</em> will pop up if files are shared or a calendar invitation comes in. The wide variety of applications developed in the ownCloud community brings additional collaborative capabilities like email handling, calendar and contacts and more.</p>
 		</div>
 		<div class="row featurerow">
 			<div class="col-md-6 featureblock">
 				<img class="thumbnail" alt="external_storage" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
 				<h3 class="featuretitle">Comment on your files</h3></br>
-				<p class="featuredesc">You shared your holiday-to-Italy photos with your family. In the comments they discussed how great Venice looks. You easily follow the conversation and participate, either by looking at your global Activity Feed or the file-specific feed in the side bar. If you wrote in response about a picture of Naples that it was in Rome, you can even go back and edit your mistake.</p>
 				<p class="featuredesc">Comments are new in ownCloud 9 and bring a whole new level of interaction to your files.</p>
+				<p class="featuredesc"><em>You shared your holiday-to-Italy photos with your family. In the comments they discussed how great Venice looks. You easily follow the conversation and participate, either by looking at your global Activity Feed or the file-specific feed in the side bar. If you wrote in response about a picture of Naples that it was in Rome, you can even go back and edit your mistake.</em></p>
 			</div>
 			<div class="col-md-6 featureblock">
 				<img class="thumbnail" alt="sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
 				<h3 class="featuretitle">Tag your files</h3></br>
-				<p class="featuredesc">If you're handling large amounts of files for various projects you are working on, tagging is your friend. Assign tags to the files and when looking for them, just select the tag on the left side bar and only files with that tag are shown in the folder you're in.</p>
 				<p class="featuredesc">The new tag support in ownCloud 9 will help you organize your data and find what you are looking for even faster.</p>
+				<p class="featuredesc"><em>You're handling large amounts of files for various projects you are working on and tagging is your friend. You assign tags to the files and when looking for them, you just select the tag on the left side bar and only files with that tag are shown in the folder you're in.</em></p>
+				<p><small>Note that tags are system wide: if you don't wish to share that, like on big systems, you can disable the feature.</small></p>
 			</div>
 		</div>
 		<div class="row featurerow">
 			<div class="col-md-6 featureblock">
 				<img class="thumbnail" alt="ldap" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
 				<h3 class="featuretitle">Activities and Notifications</h3></br>
-				<p class="featuredesc">You shared a file with a friend and she downloaded it - as you saw in the desktop clients' Activities feed view. She shares something back with you and you receive a notification on your phone allowing you to accept or decline the share.</p>
-				<p>Notifications about new shares, calendar invitations or other events you should respond to are now separated out from Activities. They will show up with a little alarm icon next to your user name in the web application, pop up as desktop notifications or on your mobile phone thanks to the support being added to the desktop and mobile clients.</p>
+				<p class="featuredesc">Notifications about new shares, calendar invitations or other events you should respond to are now separated out from Activities. They will show up with a little alarm icon next to your user name in the web application, pop up as desktop notifications or on your mobile phone thanks to the support being added to the desktop and mobile clients.</p>
+				<p class="featuredesc"><em>You shared a file with a friend and she downloaded it - as you saw in the desktop clients' Activities feed view. She shares something back with you and you receive a notification on your phone allowing you to accept or decline the share.</em></p>
 <!-- 				Activities show what is happening to your data like modifications, comments, shares or downloads. You can follow what's going on in the Activities app or just see the changes made to a single file in the side bar. -->
 			</div>
 			<div class="col-md-6 featureblock">
 				<img class="thumbnail" alt="encryption" src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption.png" />
 				<h3 class="featuretitle">Application Works</h3></br>
-				<p class="featuredesc">You send a link to your family to invite them for a video call without having to route anything through a third party server. You share a spreadsheet with a friend and edit it together, real-time, while you are chatting on the side. You give a colleague access to your contacts and calendars, use your own server to read your email, store your passwords and do countless more things thanks to the many ownCloud apps in the app store!</p>
 				<p class="featuredesc">Both Calendar and Contacts have been updated for ownCloud 9 while the Mail app is a relative newcomer but getting into shape. Collaborations with Spreed and Collabora Cloudsuite are bringing web conferencing and real time document editing to ownCloud.</p>
+				<p class="featuredesc"><em>You send a link to your family to invite them for a video call without having to route anything through a third party server. You share a spreadsheet with a friend and edit it together, real-time, while you are chatting on the side. You give a colleague access to your contacts and calendars, use your own server to read your email, store your passwords and do countless more things thanks to the many ownCloud apps in the app store!</em></p>
 			</div>
 		</div>
 
