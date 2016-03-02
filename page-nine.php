@@ -71,6 +71,7 @@
 				<h3 class="featuretitle">Tag your files</h3></br>
 				<p class="featuredesc">The new tag support in ownCloud 9 will help you organize your data and find what you are looking for even faster.</p>
 				<p class="featuredesc"><em>You're handling large amounts of files for various projects you are working on and tagging is your friend. You assign tags to the files and when looking for them, you just select the tag on the left side bar and only files with that tag are shown in the folder you're in.</em></p>
+				<p><small>Note that tags are system wide: if you don't wish to share that, like on big systems, you can disable the feature.</small></p>
 			</div>
 		</div>
 		<div class="row featurerow">
