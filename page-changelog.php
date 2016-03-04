@@ -6,20 +6,20 @@
 <h3>Version 9.0.0 <small>March 8 2016</small></h3>
 Major new ownCloud release, more info <a href="https://owncloud.org/blog/owncloud-server-9-0-released-with-improved-scalability-federation-and-collaboration" target="_blank">in announcement blog</a>. Summary:
 <ul>
-<li>New: commenting on files</li>
-<li>New: tags for files</li>
-<li>New: Notifications (separate from Activity feed)</li>
-<li>New: (Federation) auto-complete of user names</li>
-<li>New: (Federation) Trusted Servers</li>
-<li>New: Code Signing check when updating or installing core and apps</li>
-<li>New: Stand-alone updater for more reliable upgrading</li>
-<li>Updated Activity feed and app</li>
-<li>Improved sharing behavior an performance</li>
-<li>New External Storage API's for improved scalability</li>
-<li>Calendar, Contacts rewritten, calDAV and cardDAV now part of core</li>
-<li>Security Hardening</li>
-<li>ownCloud API work mostly related to scalability</li>
-<li>Many small improvements</li>
+	<li>New: commenting on files</li>
+	<li>New: tags for files</li>
+	<li>New: Notifications (separate from Activity feed)</li>
+	<li>New: (Federation) auto-complete of user names</li>
+	<li>New: (Federation) Trusted Servers</li>
+	<li>New: Code Signing (check when updating or installing core and apps)</li>
+	<li>New: Stand-alone updater for more reliable upgrading</li>
+	<li>Updated Activity feed and app</li>
+	<li>Improved sharing behavior and performance</li>
+	<li>New External Storage API's for improved scalability</li>
+	<li>Calendar, Contacts rewritten, calDAV and cardDAV now part of core</li>
+	<li>Security Hardening</li>
+	<li>ownCloud API work to improve scalability</li>
+	<li>Many small improvements</li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.0.0.tar.bz2">owncloud-9.0.0.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.0.zip">owncloud-9.0.0.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.0.tar.bz2.md5">owncloud-9.0.0.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.0.zip.md5">owncloud-9.0.0.zip.md5</a></br>
@@ -87,31 +87,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.3.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.3.tar.bz2.asc">owncloud-8.2.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.3.zip.asc">owncloud-8.2.3.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<h3>Version 8.0.11 <small>March 8 2016</small></h3>
-<ul>
-	<li>Prevent 0 byte downloads when storage returns false - <a href="http://github.com/owncloud/core/issues/19081">github issue</a></li>
-	<li>Keep scroll position in user's page when sorting - <a href="http://github.com/owncloud/core/issues/21634">github issue</a></li>
-	<li>Always use an LDAP URL when connecting to LDAP - <a href="http://github.com/owncloud/core/issues/21634">github issue</a></li>
-	<li>Shares moving back to default "landing" dir - <a href="http://github.com/owncloud/core/issues/12385">github issue</a></li>
-	<li>PHPMailer address validation fix - <a href="http://github.com/owncloud/3rdparty/issues/253">github issue</a></li>
-</ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2">owncloud-8.0.11.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip">owncloud-8.0.11.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2.md5">owncloud-8.0.11.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip.md5">owncloud-8.0.11.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2.sha256">owncloud-8.0.11.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip.sha256">owncloud-8.0.11.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2.asc">owncloud-8.0.11.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip.asc">owncloud-8.0.11.zip.asc</a></br>
-Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
-
-<h3>Version 7.0.13 <small>March 8 2016</small></h3>
-<ul>
-<li>PHPMailer address validation - <a href="http://github.com/owncloud/3rdparty/issues/253">github issue</a></li>
-</ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2">owncloud-7.0.13.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip">owncloud-7.0.13.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2.md5">owncloud-7.0.13.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip.md5">owncloud-7.0.13.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2.sha256">owncloud-7.0.13.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip.sha256">owncloud-7.0.13.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2.asc">owncloud-7.0.13.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip.asc">owncloud-7.0.13.zip.asc</a></br>
-<p>Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.</p>
-<p><strong>Note</strong> that this is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer.</p>
-
 <h3>Version 8.1.6 <small>March 8 2016</small></h3>
 <ul>
 	<li>User management: Password change error display behavior - <a href="https://github.com/owncloud/core/issues/21239">github issue</a></li>
@@ -143,6 +118,31 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.6.tar.bz2.md5
 SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.6.tar.bz2.sha256">owncloud-8.1.6.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.6.zip.sha256">owncloud-8.1.6.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.6.tar.bz2.asc">owncloud-8.1.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.6.zip.asc">owncloud-8.1.6.zip.asc</a></br>
 Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<h3>Version 8.0.11 <small>March 8 2016</small></h3>
+<ul>
+	<li>Prevent 0 byte downloads when storage returns false - <a href="http://github.com/owncloud/core/issues/19081">github issue</a></li>
+	<li>Keep scroll position in user's page when sorting - <a href="http://github.com/owncloud/core/issues/21634">github issue</a></li>
+	<li>Always use an LDAP URL when connecting to LDAP - <a href="http://github.com/owncloud/core/issues/21634">github issue</a></li>
+	<li>Shares moving back to default "landing" dir - <a href="http://github.com/owncloud/core/issues/12385">github issue</a></li>
+	<li>PHPMailer address validation fix - <a href="http://github.com/owncloud/3rdparty/issues/253">github issue</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2">owncloud-8.0.11.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip">owncloud-8.0.11.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2.md5">owncloud-8.0.11.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip.md5">owncloud-8.0.11.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2.sha256">owncloud-8.0.11.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip.sha256">owncloud-8.0.11.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2.asc">owncloud-8.0.11.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip.asc">owncloud-8.0.11.zip.asc</a></br>
+Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<h3>Version 7.0.13 <small>March 8 2016</small></h3>
+<ul>
+<li>PHPMailer address validation - <a href="http://github.com/owncloud/3rdparty/issues/253">github issue</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2">owncloud-7.0.13.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip">owncloud-7.0.13.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2.md5">owncloud-7.0.13.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip.md5">owncloud-7.0.13.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2.sha256">owncloud-7.0.13.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip.sha256">owncloud-7.0.13.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2.asc">owncloud-7.0.13.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip.asc">owncloud-7.0.13.zip.asc</a></br>
+<p>Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.</p>
+<p><strong>Note</strong> that this is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer.</p>
 
 <h3>Version 8.2.2 <small>December 22 2015</small></h3>
 <ul>
