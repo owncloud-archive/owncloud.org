@@ -207,7 +207,7 @@
 				<li>Made app updates <a href="https://github.com/owncloud/core/pull/22422">more visible</a></li>
 				<li>And much, much more.</li>
 			</ul>
-			<p>For more details, see this blog about <a href="to be written by Lukas">ownCloud 9.0 for app developers (to be written by Lukas)</a>. If you want to find out how ownCloud is developed, check out our <a href="https://owncloud.org/blog/6-owncloud-user-interaction-design-principles/" target="_blank">6 Design Principles</a> and our <a href="https://owncloud.org/blog/the-three-owncloud-development-priorities/" target="_blank">Three Development Priorities</a>!</p>
+			<p>If you're curious about how ownCloud is developed, check out our <a href="https://owncloud.org/blog/6-owncloud-user-interaction-design-principles/" target="_blank">6 Interaction Design Principles</a> and our <a href="https://owncloud.org/blog/the-three-owncloud-development-priorities/" target="_blank">Three Development Priorities</a>!</p>
 		</div>
 		<p>See all features of ownCloud on the <a href="/features">Features page</a>.</p>
 		<h2>Get involved!</h2>
