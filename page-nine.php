@@ -8,10 +8,10 @@
 					This page contains an overview of how ownCloud 9.0 provides the safest home for all your data.
 				</p>
 				<a href="/install" class="btn btn-lg btn-primary install-8-btn">Install ownCloud 9.0 now</br></a>
-				<p>Want to learn more about ownCloud from somebody in person? Meet us at an event or join the conversation online!</p>
+				<p>Want to learn more about ownCloud in person? Meet us at an event or join the conversation online!</p>
 				<div class="evnt-btn-wrap">
-					<a href="/events" class="btn btn-lg btn-default">Join an ownCloud event</a>
-					<a href="/promote" class="btn btn-lg btn-default">Discuss ownCloud with others</a>
+					<a href="/events" class="btn btn-lg btn-default">Join an ownCloud Event</a>
+					<a href="/promote" class="btn btn-lg btn-default">Discuss ownCloud with Others</a>
 				</div>
 			</div>
 		</div>
@@ -30,7 +30,7 @@
 			<div class="col-md-4 featureblock">
 				<i class="icon-comments"></i>
 				<h3 class="ft-title"><a href="#collaboration">Innovative Collaboration</a></h3>
-				<p class="featuredesc">The introduction of comments and tags combined with the rework of the notifications and activity feed allow a new level of interaction.</p>
+				<p class="featuredesc">The introduction of comments and tags, combined with the rework of the notifications and activity feed, allow a new level of interaction.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">
@@ -57,7 +57,7 @@
 			<h2>Innovative Collaboration</h2>
 		</div>
 		<div class="featurewrapper">
-			<p>With ownCloud 9.0, you can seamlessly collaborate on files and folders with others, <em>add comments</em> while working on files and <em>organize files via tags</em>. You keep an eye on what happens to your files through the <em>activity feed</em>, available in the Activity app, through RSS or in the ownCloud client apps. <em>Notifications</em> will pop up if files are shared or a calendar invitation comes in. The wide variety of applications developed in the ownCloud community brings additional collaborative capabilities like email handling, calendar and contacts and more.</p>
+			<p>With ownCloud 9.0, you can seamlessly collaborate on files and folders with others, <em>add comments</em> while working on files and <em>organize files via tags</em>. You can keep an eye on what happens to your files through the <em>activity feed</em>, available in the Activity app, through RSS or in the ownCloud client apps. <em>Notifications</em> will pop up if files are shared or a calendar invitation comes in. The wide variety of applications developed in the ownCloud community brings additional collaborative capabilities like email handling, calendar and contacts and more.</p>
 		</div>
 		<div class="row featurerow">
 			<div class="col-md-6 featureblock">
@@ -70,7 +70,7 @@
 				<img class="thumbnail" alt="sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png" />
 				<h3 class="featuretitle">Tag your files</h3></br>
 				<p class="featuredesc">The new tag support in ownCloud 9 will help you organize your data and find what you are looking for even faster.</p>
-				<p class="featuredesc"><em>You're handling large amounts of files for various projects you are working on and tagging is your friend. You assign tags to the files and when looking for them, you just select the tag on the left side bar and only files with that tag are shown in the folder you're in.</em></p>
+				<p class="featuredesc"><em>You're handling large amounts of files for various projects you are working on and tagging is your friend. You assign tags to the files and when looking for them you just select the tag on the left side bar and only files with that tag are shown in the folder you're in.</em></p>
 				<p><small>Note that tags are system wide: if you don't wish to share that, like on big systems, you can disable the feature.</small></p>
 			</div>
 		</div>
@@ -79,7 +79,7 @@
 				<img class="thumbnail" alt="ldap" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
 				<h3 class="featuretitle">Activities and Notifications</h3></br>
 				<p class="featuredesc">Notifications about new shares, calendar invitations or other events you should respond to are now separated out from Activities. They will show up with a little alarm icon next to your user name in the web application, pop up as desktop notifications or on your mobile phone thanks to the support being added to the desktop and mobile clients.</p>
-				<p class="featuredesc"><em>You shared a file with a friend and she downloaded it - as you saw in the desktop clients' Activities feed view. She shares something back with you and you receive a notification on your phone allowing you to accept or decline the share.</em></p>
+				<p class="featuredesc"><em>You shared a file with a friend and she downloaded it - as you saw in the desktop client's Activities feed view. She shares something back with you and you receive a notification on your phone allowing you to accept or decline the share.</em></p>
 <!-- 				Activities show what is happening to your data like modifications, comments, shares or downloads. You can follow what's going on in the Activities app or just see the changes made to a single file in the side bar. -->
 			</div>
 			<div class="col-md-6 featureblock">
@@ -113,19 +113,19 @@
 			<h2>Ultimate Scalability</h2>
 		</div>
 		<div class="featurewrapper">
-			<p>Your ownCloud has to get you the files you are looking for quickly and smoothly, even if it is serving hundreds of thousands of users or sharing terrabytes of data. With ownCloud being deployed in ever larger installations, scalability and performance are more important than ever. ownCloud has collaborated with large ownCloud users like CERN and X to bring the scalability of ownCloud to a new level. To be able to deliver petabytes of data to hundreds of thousands of users, key areas like the storage and sharing functionality of ownCloud have been improved.</p>
+			<p>Your ownCloud has to get you the files you are looking for quickly and smoothly, even if it is serving hundreds of thousands of users or sharing terabytes of data. With ownCloud being deployed in ever larger installations, scalability and performance are more important than ever. ownCloud has collaborated with large ownCloud users like CERN and X to bring the scalability of ownCloud to a new level. To be able to deliver petabytes of data to hundreds of thousands of users, key areas like the storage and sharing functionality of ownCloud have been improved.</p>
 		</div>
 		<div class="row featurerow">
 			<div class="col-md-7 featureblock">
 				<img class="thumbnail" alt="documentation" src="<?php bloginfo('template_directory'); ?>/assets/img/features/tips.png" />
 				<h3 class="featuretitle">New Storage API</h3></br>
-				<p class="featuredesc">To be compatible with as many backend storage systems as possible, ownCloud is designed to store all file meta data in the ownCloud database. This includes information like sharing information, file IDs and more. It can be more efficient to hand some of the file handling and meta data storage off to backend storage systems that support, for example versions or file sharing. As the database can become a bottleneck in extremely large systems, offloading these file handling activities and meta data to an alternative location can improve performance, allowing the same hardware to scale to support even more users – particularly useful for extremely large instances. It also enables integrating in existing storage capabilities like version support.</p>
+				<p class="featuredesc">To be compatible with as many backend storage systems as possible, ownCloud is designed to store all file meta data in the ownCloud database. This includes information like sharing information, file IDs and more. It can be more efficient to hand some of the file handling and meta data storage off to backend storage systems that support, for example versions or file sharing. As the database can become a bottleneck in extremely large systems, offloading these file handling activities and meta data to an alternative location can improve performance, allowing the same hardware to scale and to support even more users – particularly useful for extremely large instances. It also enables integrating existing storage capabilities like version support.</p>
 				<p class="featuredesc">In addition to better scalability and integration, the new storage API also enables ownCloud to leverage storage that has until now been unheard of in file access solutions - such as tape.  In this manner, ownCloud can bring files on any kind of storage to users with the same frictionless experience.</p>
 			</div>
 			<div class="col-md-5 featureblock">
 				<img class="thumbnail" alt="faster" src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" />
 				<h3 class="featuretitle">Reworked Sharing</h3></br>
-				<p class="featuredesc">With ownCloud you can share with whomever you like, choosing conditions and permissions for the recipient. When files are shared among large numbers of people or in complicated scenario's like folders with shares in them, shared to a third party who shares it back and so on, it becomes hard to determine what the logical and expected behavior would be.</p>
+				<p class="featuredesc">With ownCloud you can share with whomever you like, choosing conditions and permissions for the recipient. When files are shared among large numbers of people or in complicated scenarios like folders with shares in them, shared to a third party who shares it back and so on, it becomes hard to determine what the logical and expected behavior would be.</p>
 				<p class="featuredesc">ownCloud 9.0 introduces a rewritten and simplified sharing model, avoiding recursive sharing conflicts and making sure it is always clear who is the owner of a file and who has access to it.</p>
 			</div>
 		</div>
@@ -171,7 +171,7 @@
 			<h2>Full Federation</h2>
 		</div>
 		<div class="featurewrapper">
-			<p>Not everybody you want to share files or collaborate with has an account on your ownCloud server - and they don't need to. You can share public links, protected by a password if you like. Even better, if the recipient has an ownCloud of their own, you can share with their Federated Cloud ID and connect your ownCloud servers. ownCloud 9 brings federation of ownCloud servers to a new level with better performance, name auto completion between servers and a finalized API.</p>
+			<p>Not everybody you want to share files or collaborate with has an account on your ownCloud server - and they don't need to. You can share public links, which can be protected by a password if you like. Even better, if the recipient has an ownCloud of their own, you can share with their Federated Cloud ID and connect your ownCloud servers. ownCloud 9 brings federation of ownCloud servers to a new level with better performance, name auto completion between servers and a finalized API.</p>
 		</div>
 		<div class="row featurerow">
 			<div class="col-md-6 featureblock">
@@ -183,7 +183,7 @@
 			<div class="col-md-6 featureblock">
 				<img class="thumbnail" alt="external_storage" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
 				<h3 class="featuretitle">Securely Connect ownCloud Servers</h3></br>
-				<p class="featuredesc">You've worked with somebody on another ownCloud server and want to share with other users on their server. This is easy, as names will auto-complete while you type them! Once a connection between servers is made by a first share, your system administrator can configure the list of trusted servers to ensure safe and easy collaboration between ownCloud servers.</p>
+				<p class="featuredesc">You've worked with somebody on another ownCloud server and want to share with other users on their server. This is easy as names will auto-complete while you type them! Once a connection between servers is made by a first share, your system administrator can configure the list of trusted servers to ensure safe and easy collaboration between ownCloud servers.</p>
 				<p class="featuredesc">Cross-server user name auto-complete and the Trusted Server technology are both introduced in ownCloud 9.0.</p>
 			</div>
 		</div>
@@ -197,12 +197,14 @@
 		<div class="featurewrapper">
 			<h2>Other Improvements</h2>
 		</div>
-		TBD
 		<div class="row">
 			<ul class="featureslist">
-				<li>The process of getting apps in the appstore <a href="https://doc.owncloud.org/server/9.0/developer_manual/app/publishing.html">has been improved</a>.</li>
-				<li>We made many improvements to the ownCloud API: there have been over 190 additions and 50 deprecated functions.</li>
-				<li>Sharing capabilities are now exposed to allow external applications (desktop client, mobile clients etc.) to provide a better UX.</li>
+				<li>The process of getting Apps in the Appstore <a href="https://doc.owncloud.org/server/9.1/developer_manual/app/publishing.html">has been improved</a>.</li>
+				<li>We made many improvements to the ownCloud API--there have been over 408 additions and 20 deprecated functions. See <a href="https://owncloud.org/?p=9701" target="_blank">this blog</a> for details about what's new for developers. A big chunk of this are new API's allowing for deep integration in external storage, enabling better scalability for large installations</li>
+				<li>A brand new, stand-alone updater will ensure smoother upgrades from 9.0 and onwards</li>
+				<li>Code Signing ensures the integrity of your ownCloud installation, with the code of ownCloud being checked with a secure cryptographic hash upon upgrade or installation of ownCloud itself as well as ownCloud apps</li>
+				<li>We've <a href="https://github.com/owncloud/core/pull/21701">extended the output details</a> for occ scan:files</li>
+				<li>Made app updates <a href="https://github.com/owncloud/core/pull/22422">more visible</a></li>
 				<li>And much, much more.</li>
 			</ul>
 			<p>For more details, see this blog about <a href="to be written by Lukas">ownCloud 9.0 for app developers (to be written by Lukas)</a>.</p>
