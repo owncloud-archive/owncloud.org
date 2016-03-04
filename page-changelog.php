@@ -11,7 +11,7 @@ Major new ownCloud release, more info <a href="https://owncloud.org/blog/ownclou
 	<li>New: Notifications (separate from Activity feed)</li>
 	<li>New: (Federation) auto-complete of user names</li>
 	<li>New: (Federation) Trusted Servers</li>
-	<li>New: Code Signing (check when updating or installing core and apps)</li>
+	<li>New: Code Signing (checked when updating or installing core and apps)</li>
 	<li>New: Stand-alone updater for more reliable upgrading</li>
 	<li>Updated Activity feed and app</li>
 	<li>Improved sharing behavior and performance</li>
