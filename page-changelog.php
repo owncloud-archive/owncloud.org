@@ -6,18 +6,17 @@
 <h3>Version 9.0.0 <small>March 8 2016</small></h3>
 Major new ownCloud release, more info <a href="https://owncloud.org/blog/owncloud-server-9-0-released-with-improved-scalability-federation-and-collaboration" target="_blank">in announcement blog</a>. Summary:
 <ul>
-	<li>New: commenting on files</li>
-	<li>New: tags for files</li>
+	<li>New: Comments on files</li>
+	<li>New: Tags for files</li>
 	<li>New: Notifications (separate from Activity feed)</li>
-	<li>New: (Federation) auto-complete of user names</li>
+	<li>New: (Federation) Auto-complete of user names</li>
 	<li>New: (Federation) Trusted Servers</li>
-	<li>New: Code Signing (checked when updating or installing core and apps)</li>
+	<li>New: Code signing, checked when updating or installing core and apps</li>
 	<li>New: Stand-alone updater for more reliable upgrading</li>
-	<li>Updated Activity feed and app</li>
 	<li>Improved sharing behavior and performance</li>
 	<li>New External Storage API's for improved scalability</li>
 	<li>Calendar, Contacts rewritten, calDAV and cardDAV now part of core</li>
-	<li>Security Hardening</li>
+	<li>Security hardening</li>
 	<li>ownCloud API work to improve scalability</li>
 	<li>Many small improvements</li>
 </ul>
