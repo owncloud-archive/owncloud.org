@@ -91,10 +91,10 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/tips-and-tricks.png" title="Tips and tricks as well as links to documentation are well integrated in the admin panel" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/notifications.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/mount-options.png" title="You can set encryption, update policy and previews for each external storage mount" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/tags.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption3.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/comments.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/encryption5.png" title="Next generation server side encryption in ownCloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/apps.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="https://owncloud.org/blog/about-activities-and-notifications-in-owncloud/" title="Learn more about notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/notifications.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="TBD" title="Learn more about tags" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/tags.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="TBD" title="Learn more about comments" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/comments.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="TBD" title="More about ownCloud Apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/apps.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 		</div>
 
 <!-- 		<div class="row"> -->
@@ -154,9 +154,10 @@
 		</div>-->
 
 		<div class="row">
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/better-integrated-help.png" title="help is integrated everywhere in the user interface" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/CERN.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-cloud-id.png" title="you can easily find and share your Federated Cloud ID" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/storageapp.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/federated-sharing-addressbook.png" title="auto-complete Federated Cloud ID's from your address book" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/storagedocu.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="https://opensource.com/business/16/3/cern-and-owncloud" title="ownCloud and CERN on opensource.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/CERN.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="https://github.com/owncloud/example-storage" title="Example External Storage App" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/storageapp.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="https://owncloud.org/?p=9701" title="Documentation of the new storage API's" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/storagedocu.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			
 		</div>
 <!-- 		<div class="row"> -->
 <!--                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
@@ -201,8 +202,8 @@
 			<ul class="featureslist">
 				<li>The process of getting Apps in the Appstore <a href="https://doc.owncloud.org/server/9.1/developer_manual/app/publishing.html">has been improved</a>.</li>
 				<li>We made many improvements to the ownCloud API--there have been over 408 additions and 20 deprecated functions. See <a href="https://owncloud.org/?p=9701" target="_blank">this blog</a> for details about what's new for developers. A big chunk of this are new API's allowing for deep integration in external storage, enabling better scalability for large installations</li>
-				<li>A brand new, stand-alone updater will ensure smoother upgrades from 9.0 and onwards</li>
-				<li>Code Signing ensures the integrity of your ownCloud installation, with the code of ownCloud being checked with a secure cryptographic hash upon upgrade or installation of ownCloud itself as well as ownCloud apps</li>
+				<li>A brand new, stand-alone updater will ensure smoother upgrades from 9.0 and onwards. <a href="https://owncloud.org/blog/making-owncloud-upgrades-more-robust/" target="_blank">Learn more</a></li>
+				<li>Code Signing ensures the integrity of your ownCloud installation, with the code of ownCloud being checked with a secure cryptographic hash upon upgrade or installation of ownCloud itself as well as ownCloud apps. <a href="https://owncloud.org/blog/code-signing-in-owncloud-9-0" target="_blank">Learn more</a></li>
 				<li>We've <a href="https://github.com/owncloud/core/pull/21701">extended the output details</a> for occ scan:files</li>
 				<li>Made app updates <a href="https://github.com/owncloud/core/pull/22422">more visible</a></li>
 				<li>And much, much more.</li>
