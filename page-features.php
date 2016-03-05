@@ -94,7 +94,7 @@
 <div class="featurewrapper"><h2>How ownCloud provides a safe home for your data</h2></div>
 <div class="row featurerow">
 
-        <div class="col-md-5 col-sm-6 featureblock">
+        <div class="col-md-6 col-sm-6 featureblock">
 		<h3 class="featuretitle">Share and collaborate with anybody</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/comments-shot.png" target="_blank"><img class="img-responsive" alt="Comment on your files" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/comments-shot-wee.png" /></a>
 		<p class="featuredesc">ownCloud features comments, sharing within and between ownCloud servers, public links and more. <br/> <span class="caret"></span><a href="#share" data-toggle="collapse"> learn more</a></p>
@@ -106,7 +106,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-5 col-md-offset-2 col-sm-6 featureblock">
+	<div class="col-md-6 col-sm-6 featureblock">
 		<h3 class="featuretitle">Flexible storage</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/ext-storage.png" target="_blank"><img class="img-responsive" alt="External storage configuration" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/ext-storage-wee.png" /></a>
 		<p class="featuredesc">Flexible external storage handling allows you to access your existing data through ownCloud, wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="collapse"> learn more</a></p>
@@ -114,7 +114,7 @@
 			<p class="featuredesc">You can add external storage to your ownCloud with Dropbox, SWIFT, (S)FTP, Google Drive, Amazon S3, OpenStack Object Storage, local hard drives, WebDAV, SMB/CIFS and more. You can control if you want to retrieve thumbnails and how often you want to check for changes. With the ownCloud Encryption app, data can be encrypted on local and/or remote storage. Keys never leave the ownCloud server but can also be managed by an external key management tool.</p>
 <!-- 			Configuring external storage -->
 			<iframe width="100%" height="315" src="https://www.youtube.com/embed/uezzFDRnoPY?rel=0" frameborder="0" allowfullscreen></iframe>
-			<p>Read on <a href="https://opensource.com/business/16/3/cern-and-owncloud">on opensource.com</a> about how the collaboration between ownCloud and physics labs CERN, inventors of the Internet.</p>
+			<p>Read on <a href="https://opensource.com/business/16/3/cern-and-owncloud">on opensource.com</a> about the work of ownCloud and physics labs CERN, inventors of the Internet, collaborating on bringing the scalability of file sync and share to a new level.</p>
 		</div>
 	</div>
 
@@ -124,7 +124,7 @@
 
 <div class="row featurerow">
 
-	<div class="col-md-5 col-sm-6 featureblock">
+	<div class="col-md-6 col-sm-6 featureblock">
 		<h3 class="featuretitle">Mobile and desktop syncing</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/mobile.png" target="_blank"><img class="img-responsive" alt="mobile UI" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/mobile-wee.png" /></a>
 		<p class="featuredesc">Android, iOS, Windows, Mac and Linux clients are available for ownCloud. <br/> <span class="caret"></span><a href="#clients" data-toggle="collapse"> learn more</a></p>
@@ -133,7 +133,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-5 col-md-offset-2 col-sm-6 featureblock">
+	<div class="col-md-6 col-sm-6 featureblock">
 		<h3 class="featuretitle">Calendars and contacts</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/calendar-wee.png" target="_blank"><img class="img-responsive" alt="calendar and contacts" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/calendar-wee.png" /></a>
 		<p class="featuredesc">ownCloud features Calendar and Contacts apps to store, sync and share what you do and who you know.<br/> <span class="caret"></span><a href="#calendar" data-toggle="collapse"> learn more</a></p>
@@ -145,18 +145,18 @@
 
 <div class="row featurerow">
 
-	<div class="col-md-5 col-sm-6 featureblock">
+	<div class="col-md-6 col-sm-6 featureblock">
 		<h3 class="featuretitle">Work with your documents</h3>
-		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/pdf.png" target="_blank"><img class="img-responsive" alt="Comment on your files" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/pdf-wee.png" />
+		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/pdf.png" target="_blank"><img class="img-responsive" alt="Comment on your files" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/pdf-wee.png" /></a>
 		<p class="featuredesc">Edit rich text documents with others in real time, read PDF's, see pictures, watch videos and more. <br/> <span class="caret"></span><a href="#editing" data-toggle="collapse"> learn more</a></p>
 		<div id="editing" class="collapse">
 			<p class="featuredesc">ownCloud Documents is collaborative editing of rich-text documents that lets up to 5 individuals collaborate to edit .odt or .doc files securely 
-			within the browser.  Documents may then be shared inside ownCloud or via a public link. See it in action on <a href="https://www.youtube.com/watch?v=xsqSLeppxm0" target="_blank">YouTube</a>. Other collaboration apps are in development, like a <a href="https://owncloud.org/blog/libreoffice-online-has-arrived-in-owncloud/">full online office suite for ownCloud by Collabora</a> and <a href="https://owncloud.org/blog/spreed-brings-private-video-calls-to-owncloud/">private video calls and chat by Spreed</a>.</p>
+			within the browser.  Documents may then be shared inside ownCloud or via a public link. Other collaboration apps are in development, like a <a href="https://www.collaboraoffice.com/community-news/code-updates-2/">full online office suite for ownCloud by Collabora</a> and <a href="https://owncloud.org/blog/spreed-brings-private-video-calls-to-owncloud/">private video calls and chat by Spreed</a>.</p>
 			<iframe width="480" height="360" src="https://www.youtube.com/embed/xsqSLeppxm0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 
-	<div class="col-md-5 col-md-offset-2 col-sm-6 featureblock">
+	<div class="col-md-6 col-sm-6 featureblock">
 		<h3 class="featuretitle">Activity feed and notifications</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/receiving-notification.png" target="_blank"><img class="img-responsive" alt="Comment on your files" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/receiving-notification-wee.png" /></a>
 		<p class="featuredesc">The Activity feed and Notifications keep you updated on what is happening with your data. <br/> <span class="caret"></span><a href="#notify" data-toggle="collapse"> learn more</a></p>
