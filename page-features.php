@@ -211,26 +211,26 @@
 <div class="featurewrapper"><h2>ownCloud in Action</h2></div>
 
 <div class="row"><div class="row">
-<!--	Using ownCloud 8.1 for end users - 5 minutes
-	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+<!--	Using ownCloud 8.1 for end users - 5 minutes -->
+<!-- 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
 <!--	Your first minute with ownCloud - installation and admin screen -->
-<!-- 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/8QeJKGyhFhk?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/8QeJKGyhFhk?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	ownCloud Documents new features in 8.1 -->
-<!-- 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	walk-through of the admin configuration -->
-<!-- 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	Configuring external storage -->
-<!-- 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/uezzFDRnoPY?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/uezzFDRnoPY?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	Managing (adding, removing, changing) users in ownCloud -->
-<!-- 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/teelHVdXD4k?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/teelHVdXD4k?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	New external storage options explained-->
-<!--         <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/nx5PGWc7X18?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+        <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/nx5PGWc7X18?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--ownCloud Federated Sharing video-->
-<!--         <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+        <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--Creating a public upload folder-->
-<!--         <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/3GSppxEhmZY?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+        <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/3GSppxEhmZY?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--Experimental apps in the app store-->
-<!--         <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+        <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div>
 </div>
 <p>Find more ownCloud videos on our <a href="https://youtube.com/ownClouders" target="_blank">YouTube Channel</a>.</p>
 <div class="featurewrapper"><h2>New in ownCloud Server 9.0</h2></div>
