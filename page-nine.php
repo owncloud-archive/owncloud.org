@@ -202,6 +202,12 @@
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/mount-options.png" title="You can set encryption, update policy and previews for each external storage mount" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/collaboration.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 		</div>
 
+		<div class="row">
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/federated-sharing-1.png" title="Notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/federated-sharing-1-wee.png" style="width: 100%" alt="..."></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/federated-sharing-2.png" title="Commenting" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/federated-sharing-2-wee.png" style="width: 100%" alt="..."></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification.png" title="Notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification-wee.png" style="width: 100%" alt="..."></a></div>
+		</div>
+		
                 <a name="other"></a>
 		<div class="featurewrapper">
 			<h2>Other Improvements</h2>
