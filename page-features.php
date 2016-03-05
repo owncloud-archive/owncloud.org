@@ -91,7 +91,8 @@
 	</div>
 </div>
 
-<div class="featurewrapper"><h2>How ownCloud provides a safe home for your data</h2></div>
+<div class="featurewrapper"><h2>How ownCloud provides a safe home for your data</h2>
+<a href="#video" class="btn btn-lg btn-default"><i class="icon-youtube-play"></i>  See ownCloud in action</a></div>
 <div class="row featurerow">
 
         <div class="col-md-6 col-sm-6 featureblock">
@@ -135,7 +136,7 @@
 
 	<div class="col-md-6 col-sm-6 featureblock">
 		<h3 class="featuretitle">Calendars and contacts</h3>
-		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/calendar-wee.png" target="_blank"><img class="img-responsive" alt="calendar and contacts" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/calendar-wee.png" /></a>
+		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/contacts.png" target="_blank"><img class="img-responsive" alt="calendar and contacts" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/contacts-wee.png" /></a>
 		<p class="featuredesc">ownCloud features Calendar and Contacts apps to store, sync and share what you do and who you know.<br/> <span class="caret"></span><a href="#calendar" data-toggle="collapse"> learn more</a></p>
 		<div id="calendar" class="collapse">
 			<p class="featuredesc">Share your calendar with other ownCloud users or groups on your ownCloud server, easily and quickly. Store your contacts in ownCloud and share them among your devices so you always have access to the contact information of your friends, family and colleagues.</p>
@@ -207,6 +208,7 @@
 </div>
 
 
+<a name="video"></a>
 
 <div class="featurewrapper"><h2>ownCloud in Action</h2></div>
 

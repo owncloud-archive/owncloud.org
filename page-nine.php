@@ -61,13 +61,13 @@
 		</div>
 		<div class="row featurerow">
 			<div class="col-md-6 featureblock">
-				<img class="thumbnail" alt="external_storage" src="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png" />
+				<img class="thumbnail" alt="commenting on files" src="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png" />
 				<h3 class="featuretitle">Comment on your files</h3></br>
 				<p class="featuredesc">Comments are new in ownCloud 9 and bring a whole new level of interaction to your files.</p>
 				<p class="featuredesc"><em>You shared your holiday-to-Italy photos with your family. In the comments they discussed how great Venice looks. You easily follow the conversation and participate, either by looking at your global Activity Feed or the file-specific feed in the side bar. Wrongly identify that picture of Naples? No problem.  You can easily go back and edit your comments.</em></p>
 			</div>
 			<div class="col-md-6 featureblock">
-				<img class="thumbnail" alt="sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/tags.png" />
+				<img class="thumbnail" alt="tags" src="<?php bloginfo('template_directory'); ?>/assets/img/features/tags.png" />
 				<h3 class="featuretitle">Tag your files</h3></br>
 				<p class="featuredesc">The new tag support in ownCloud 9 will help you organize your data and find what you are looking for even faster.</p>
 				<p class="featuredesc"><em>You're handling large amounts of files for various projects. Tagging is your friend. You assign tags to the files and when looking for them, you just select the tag on the left side bar and only files with that tag are shown in the folder view.</em></p>
@@ -76,14 +76,14 @@
 		</div>
 		<div class="row featurerow">
 			<div class="col-md-6 featureblock">
-				<img class="thumbnail" alt="ldap" src="<?php bloginfo('template_directory'); ?>/assets/img/features/notification.png" />
+				<img class="thumbnail" alt="notification" src="<?php bloginfo('template_directory'); ?>/assets/img/features/notification.png" />
 				<h3 class="featuretitle">Activities and Notifications</h3></br>
 				<p class="featuredesc">Notifications about new shares, calendar invitations or other events that require a response are now separated from Activities. They will show up with an alarm icon next to your user name in the web application, pop up as desktop notifications, or appear on your mobile phone.</p>
 				<p class="featuredesc"><em>You shared a file with a friend and she downloaded it - as you saw in the desktop client's Activities feed view. She shares something back with you and you receive a notification on your phone allowing you to accept or decline the share.</em></p>
 <!-- 				Activities show what is happening to your data like modifications, comments, shares or downloads. You can follow what's going on in the Activities app or just see the changes made to a single file in the side bar. -->
 			</div>
 			<div class="col-md-6 featureblock">
-				<img class="thumbnail" alt="encryption" src="<?php bloginfo('template_directory'); ?>/assets/img/features/store.png" />
+				<img class="thumbnail" alt="app store" src="<?php bloginfo('template_directory'); ?>/assets/img/features/store.png" />
 				<h3 class="featuretitle">Application Works</h3></br>
 				<p class="featuredesc">Both Calendar and Contacts have been updated for ownCloud 9 while the Mail app remains a beta feature. Collaborations with <a href="https://owncloud.org/blog/spreed-brings-private-video-calls-to-owncloud/" target="_blank">Spreed</a> and <a href="https://owncloud.org/blog/libreoffice-online-has-arrived-in-owncloud/" target="_blank">Collabora Cloudsuite</a> are bringing <a href="https://owncloud.org/blog/spreed-brings-private-video-calls-to-owncloud/" target="_blank">web conferencing</a> and <a href="https://owncloud.org/blog/libreoffice-online-has-arrived-in-owncloud/" target="_blank">real time online document editing</a> to ownCloud.</p>
 				<p class="featuredesc"><em>You send a link to your family to invite them for a video call without having to route anything through a third-party server. You share a spreadsheet with a friend and edit it together, real-time, while you are chatting on the side. You give a colleague access to your contacts and calendars, use your own server to read your email, store your passwords and do countless more things thanks to the many ownCloud apps in the App Store!</em></p>
@@ -92,11 +92,20 @@
 
 		<div class="row">
 			<div class="col-md-3"><a href="https://owncloud.org/blog/about-activities-and-notifications-in-owncloud/" title="Learn more about notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/notifications.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="TBD" title="Learn more about tags" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/tags.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="TBD" title="Learn more about comments" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/comments.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="TBD" title="More about ownCloud Apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/apps.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="TBD video" title="Learn more about tags" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/tags.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="TBD video" title="Learn more about comments" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/comments.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="https://apps.owncloud.com" title="More about ownCloud Apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/apps.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 		</div>
-
+		<div class="row">
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification.png" title="Notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification-wee.png" style="width: 100%" alt="..."></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/comments-shot.png" title="Commenting" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/comments-shot-wee.png" style="width: 100%" alt="..."></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/tags-list.png" title="Assign tags from a list" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/tags-list-wee.png" style="width: 100%" alt="..."></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/tag-filter.png" title="Search for files with a tag" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/tag-filter-wee.png" style="width: 100%" alt="..."></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/tag-add.png" title="Assign a tag by typing" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/tag-add-wee.png" style="width: 100%" alt="..."></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/contacts.png" title="Contacts" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/contacts-wee.png" style="width: 100%" alt="..."></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/calendar.png" title="Calendar" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/calendar-wee.png" style="width: 100%" alt="..."></a></div>
+			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/activity.png" title="Calendar" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/activity-wee.png" style="width: 100%" alt="..."></a></div>
+		</div>
 <!-- 		<div class="row"> -->
 			<!--Release Channels video-->
 <!--                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
