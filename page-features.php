@@ -138,7 +138,7 @@
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/calendar-wee.png" target="_blank"><img class="img-responsive" alt="calendar and contacts" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/calendar-wee.png" /></a>
 		<p class="featuredesc">ownCloud features Calendar and Contacts apps to store, sync and share what you do and who you know.<br/> <span class="caret"></span><a href="#calendar" data-toggle="collapse"> learn more</a></p>
 		<div id="calendar" class="collapse">
-			<p class="featuredesc">Share your calendar with other ownCloud users or groups on your ownCloud server, easily and quickly. Store your contacts in ownCloud and share them among your devices so you always have access to your friends, family and colleagues.</p>
+			<p class="featuredesc">Share your calendar with other ownCloud users or groups on your ownCloud server, easily and quickly. Store your contacts in ownCloud and share them among your devices so you always have access to the contact information of your friends, family and colleagues.</p>
 		</div>
 	</div>
 </div>
