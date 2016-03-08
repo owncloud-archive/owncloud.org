@@ -1,20 +1,23 @@
+
+
 <div class="row featurerow topfeature">
 	<div class="col-md-5">
-		<iframe width="95%" height="315" src="https://www.youtube.com/embed/m1V71pCAsws?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
+		<iframe width="95%" height="315" src="https://www.youtube.com/embed/g3b0XDpcvuc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
 	</div>
 	<div class="col-md-7">
-		<h2 class="featuretitle" style="margin-top: 0;">Access, Sync and Share Your Data, Under Your Control!</h2>
+		<h2 class="featuretitle" style="margin-top: 0;"><span class="avoidwrap">Access, Sync and Share</span> <span class="avoidwrap">Your Data, Under Your Control!</span></h2>
 		<p style="text-align: justify; margin-top: 10px;">ownCloud is a self-hosted file sync and share server. It provides access to your data through a web interface, sync clients or WebDAV while providing a platform to view,
 		sync and share across devices easily — all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and it works with any storage.
 		</p>
-		<p><a href="/install" class="btn btn-lg btn-primary">Install ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?> now</a></p>
+		<br />
+		<p><a href="/install" class="btn btn-lg btn-primary install-8-btn">Install ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?> now</a></p>
 		<br/>
 		<p>Looking for <a href="https://owncloud.com/features/" target="_blank">enterprise features</a>?</p>
 	</div>
 </div>
 </div></div><!-- end main -->
 
-<div class="feature-wide-row-wrap">
+<!--<div class="feature-wide-row-wrap">
 	<div class="wrap container">
 		<div class="row featurerow featuresheader">
 			<div class="col-md-4 featureblock">
@@ -36,120 +39,189 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>-->
 <div class="wrap container">
 	<div class="content">
 
-<div class="featurewrapper"><h2>New in ownCloud Server 8.2</h2></div>
-<div class="row featurerow">
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="improved design" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sidebar.png" />
-		<h3 class="featuretitle">Improved Design</h3></br>
-		<p class="featuredesc">This release introduces significant design improvements including a new look and a sidebar giving quick access to file information.</p>
-	</div>
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="New Gallery app" src="<?php bloginfo('template_directory'); ?>/assets/img/features/gallery.png" />
-		<h3 class="featuretitle">Pictures Becomes Gallery</h3></br>
-		<p class="featuredesc">The Gallery app replaces the Pictures app with a much nicer user experience introducing image sorting, image zoom, easy switching from the Files app and more.</p>
-	</div>
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="Notifications" src="<?php bloginfo('template_directory'); ?>/assets/img/features/notification.png" />
-		<h3 class="featuretitle">Notifications and Deletions</h3></br>
-		<p class="featuredesc">Admins now have the ability to send notifications to users and set limits on file retention in the trash.</p>
-	</div>
-	<a href="/eight-two" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
-</div>
 
-<div class="featurewrapper"><h2>ownCloud Features</h2></div>
+<!-- "External storage, whatever server you want" -->
+
+<div class="featurewrapper text-center"><h1><span class="avoidwrap">Access everything</span> <span class="avoidwrap">you care about</span></h1></div>
 
 <div class="row featurerow">
-
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="syncing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/client.png" />
-		<h3 class="featuretitle">Mobile and Desktop Syncing</h3></br>
-		<p class="featuredesc">Access your data on any platform. Use the Android or iOS clients to work with your files on the go or synchronize your favorite folders seamlessly between your desktop and laptop devices.</p>
+	<div class="col-md-10 col-md-offset-1">
+		<img class="center-feature-image img-responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" />
 	</div>
-
-        <div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="Sharing" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing2.png" />
-		<h3 class="featuretitle">Share With Anybody</h3></br>
-		<p class="featuredesc">ownCloud lets you share. You can share with users on your ownCloud, users on other ownCloud servers or send public links with or without upload rights, protected by passwords and automatic expiration.</p>
-	</div>
-
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external.png" />
-		<h3 class="featuretitle">External Storage</h3>
-		<p class="featuredesc">Keep your data where it is - your NAS, FTP drive or Samba. Add external storage to your ownCloud with Dropbox, SWIFT, FTPs, Google Docs, S3, external WebDAV servers and more. </p>
+        <div class="col-md-8 col-md-offset-2 featureblock ft-access">
+	<p class="featuredesc">Store your private pictures, documents, calendar and contacts on your ownCloud server at home, a rented VPS or use one of the <a href="/providers">public ownCloud providers</a>. Access your existing data on an FTP drive at work, images shared with you on Dropbox, or your NAS at home--all through your ownCloud server.</p>
+        <!-- 		<p class="featuredesc">You've got files on a FTP server at work. You have music on Google Drive. Friends shared images with you on Dropbox. Your NAS at home stores your private holiday pictures. And your financial administration, as well as you calendar and contacts you keep on your ownCloud server at home. One folder with large videos you store on a SFTP server you rent, all files fully encrypted before they are uploaded there. At work, the ownCloud server of your company runs on a rented VPS and your family uses one of the <a href="/providers">public ownCloud providers</a>.</p> -->
+		<p class="featuredesc">Run your ownCloud server in a place you trust and access all the data you care about in one place!</p>
 	</div>
 </div>
 
 
+<!-- "data is everywhere"  -->
+
+</div></div> <!--end main for wide pic-->
+<div class="row featurerow ft-image-bg" style="background: url(<?php bloginfo('template_directory'); ?>/assets/img/features/sharing-back.jpg) no-repeat; min-height: 450px; background-position: 35% 25%;">
+        <div class="col-lg-7 col-lg-offset-2 col-md-6 col-md-offset-1 col-sm-5 col-sm-offset-1 featureblock ft-everywhere-txt">  <!-- right -->
+		<h1 class="featuretitle"><span class="avoidwrap">Your data is</span> <span class="avoidwrap">where you are</span></h1></br>
+		<p class="featuredesc">When traveling, access ownCloud through your Android or iOS devices. Automatically upload pictures after taking them. Sync files at home or work with the desktop client keeping one or more local folders synchronized between devices. And wherever you are, the web interface lets you view, share and edit your files alone or with others.</p>
+<!-- 		You're on holiday and access your ownCloud through your Android phone. Pictures and videos are uploaded to your server whenever you make them. At work, you always have the latest version of your files on your desktop and your calendar is synced with your iPad. You borrow a laptop from a friend and get at your files through the web interface. -->
+		<p>Wherever you are, your data is with you thanks to ownCloud!</p>
+
+	</div>
+	<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing-hand.png" class="ft-everywhere-img" />
+</div>
+
+<!-- start main again -->
+<div class="wrap container">
+	<div class="content">
+
+<!-- Sharing -->
+<div class="row featurerow ft-sharing">
+        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-7 featureblock ">
+		<h1 class="featuretitle"><span class="avoidwrap">Share with anybody</span> <span class="avoidwrap">on your terms</span></h1></br>
+		<p class="featuredesc">Send password protected public links so others can upload files to you; get notified on your phone when you get a share from your own or another ownCloud server. Edit documents together, have video calls over your own server, comment on pictures shared with or by you. Don't be alone!</p>
+		<!--<p class="featuredesc">You send a password protected public link to your recording studio so they can upload the music your band recorded this week to your ownCloud server. You get a notification on your phone that a band mate has shared a spreadsheet with travel planing with you and you edit it together from your browsers while having a video call about trip. At the airport, you quickly share the spreadsheet from your mobile phone to your uncle so he knows where you'll be. You also share your calendar with your family so they know when you're back home. Back, you sort through the pictures you took and share them from your tablet to your dad, mom and sister's user accounts on your parents's ownCloud server. You notice in your activity feed they already commented on pictures and you reply, chatting about your concert tour.</p>-->
+		<p>With ownCloud, you easily share and collaborate with whomever you want.</p>
+	</div>
+	<div class="col-lg-5 col-md-6 featureblock col-sm-5">
+		<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/sidebar_sharing.png" class="img-responsive ft-sharing-img" />
+	</div>
+</div>
+
+<div class="featurewrapper"><h2>How ownCloud provides a safe home for your data</h2>
+<a href="#video" class="btn btn-lg btn-default"><i class="icon-youtube-play"></i>  See ownCloud in action</a></div>
+<div class="row featurerow">
+
+        <div class="col-md-6 col-sm-6 featureblock">
+		<h3 class="featuretitle">Share and collaborate with anybody</h3>
+		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/comments-shot.png" target="_blank"><img class="img-responsive" alt="Comment on your files" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/comments-shot-wee.png" /></a>
+		<p class="featuredesc">ownCloud features comments, sharing within and between ownCloud servers, public links and more. <br/> <span class="caret"></span><a href="#share" data-toggle="collapse"> learn more</a></p>
+		<div id="share" class="collapse">
+			<p class="featuredesc">You and others can comment on files, tag them, and see the comments and tags by others. ownCloud lets you share files, calendars and other data with users on your ownCloud or on other ownCloud servers ("federation"). User names on remote ownCloud servers ("Federated Cloud ID's") are auto-completed once the server is added as trusted (this can be done automatically on the first time you share with the other server) and files you share with others always remain on your server. You can also share via public links with or without upload rights, password protection and automatic expiration.</p>
+<!-- 		Adding tags to files -->
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/6coT-WCbEyo" frameborder="0" allowfullscreen></iframe>
+<!-- 		Adding comments to files -->
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/hOl2OhvKZQY" frameborder="0" allowfullscreen></iframe>
+<!-- 		Creating a public upload folder -->
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/3GSppxEhmZY?rel=0" frameborder="0" allowfullscreen></iframe>
+<!-- 		Federation -->
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/b1F-N3QXN2s" frameborder="0" allowfullscreen></iframe>
+	        <p>Learn <a href="/federation">more about federation here</a>.</p>
+		</div>
+	</div>
+
+	<div class="col-md-6 col-sm-6 featureblock">
+		<h3 class="featuretitle">Flexible storage</h3>
+		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/ext-storage.png" target="_blank"><img class="img-responsive" alt="External storage configuration" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/ext-storage-wee.png" /></a>
+		<p class="featuredesc">Flexible external storage handling allows you to access your existing data through ownCloud, <!-- 		Creating a public upload folder -->
+wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="collapse"> learn more</a></p>
+		<div id="store" class="collapse">
+			<p class="featuredesc">You can add external storage to your ownCloud with Dropbox, SWIFT, (S)FTP, Google Drive, Amazon S3, OpenStack Object Storage, local hard drives, WebDAV, SMB/CIFS and more. You can control if you want to retrieve thumbnails and how often you want to check for changes. With the ownCloud Encryption app, data can be encrypted on local and/or remote storage. Keys never leave the ownCloud server but can also be managed by an external key management tool.</p>
+<!-- 			Configuring external storage -->
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/uezzFDRnoPY?rel=0" frameborder="0" allowfullscreen></iframe>
+			<p>Read on <a href="https://opensource.com/business/16/3/cern-and-owncloud">on opensource.com</a> about the work of ownCloud and physics labs CERN, inventors of the Internet, collaborating on bringing the scalability of file sync and share to a new level.</p>
+		</div>
+	</div>
+
+</div>
+
+
 
 <div class="row featurerow">
 
-        <div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="security" src="<?php bloginfo('template_directory'); ?>/assets/img/features/security.png" />
-		<h3 class="featuretitle">Encryption and Security</h3>
-		<p class="featuredesc">ownCloud encrypts your data in transit with secure https connections. You can enable the encryption app to encrypt data on storage for improved security and privacy.</p>
+	<div class="col-md-6 col-sm-6 featureblock">
+		<h3 class="featuretitle">Mobile and desktop syncing</h3>
+		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/mobile.png" target="_blank"><img class="img-responsive" alt="mobile UI" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/mobile-wee.png" /></a>
+		<p class="featuredesc">Android, iOS, Windows, Mac and Linux clients are available for ownCloud. <br/> <span class="caret"></span><a href="#clients" data-toggle="collapse"> learn more</a></p>
+		<div id="clients" class="collapse">
+			<p class="featuredesc">ownCloud offers rich Android and iOS mobile clients as well as Windows, Mac and Linux desktop sync clients. The mobile clients can automatically upload pictures and videos you take and synchronize select files and folders. All clients can show activity on your server and notify you of new shares and other important events. All data transfers, from and to clients or the web interface, are encrypted with HTTPS and based on the widely implemented and supported WebDAV standard.</p>
+		</div>
 	</div>
+
+	<div class="col-md-6 col-sm-6 featureblock">
+		<h3 class="featuretitle">Calendars and contacts</h3>
+		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/contacts.png" target="_blank"><img class="img-responsive" alt="calendar and contacts" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/contacts-wee.png" /></a>
+		<p class="featuredesc">ownCloud features Calendar and Contacts apps to store, sync and share what you do and who you know.<br/> <span class="caret"></span><a href="#calendar" data-toggle="collapse"> learn more</a></p>
+		<div id="calendar" class="collapse">
+			<p class="featuredesc">Share your calendar with other ownCloud users or groups on your ownCloud server, easily and quickly. Store your contacts in ownCloud and share them among your devices so you always have access to the contact information of your friends, family and colleagues.</p>
+		</div>
+	</div>
+</div>
+
+<div class="row featurerow">
+
+	<div class="col-md-6 col-sm-6 featureblock">
+		<h3 class="featuretitle">Work with your documents</h3>
+		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/pdf.png" target="_blank"><img class="img-responsive" alt="Comment on your files" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/pdf-wee.png" /></a>
+		<p class="featuredesc">Edit rich text documents with others in real time, read PDF's, see pictures, watch videos and more. <br/> <span class="caret"></span><a href="#editing" data-toggle="collapse"> learn more</a></p>
+		<div id="editing" class="collapse">
+			<p class="featuredesc">ownCloud Documents is collaborative editing of rich-text documents that lets up to 5 individuals collaborate to edit .odt or .doc files securely 
+			within the browser.  Documents may then be shared inside ownCloud or via a public link. Other collaboration apps are in development, like a <a href="https://www.collaboraoffice.com/community-news/code-updates-2/">full online office suite for ownCloud by Collabora</a> and <a href="https://owncloud.org/blog/spreed-brings-private-video-calls-to-owncloud/">private video calls and chat by Spreed</a>.</p>
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/xsqSLeppxm0" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+
+	<div class="col-md-6 col-sm-6 featureblock">
+		<h3 class="featuretitle">Activity feed and notifications</h3>
+		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/receiving-notification.png" target="_blank"><img class="img-responsive" alt="Comment on your files" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/receiving-notification-wee.png" /></a>
+		<p class="featuredesc">The Activity feed and Notifications keep you updated on what is happening with your data. <br/> <span class="caret"></span><a href="#notify" data-toggle="collapse"> learn more</a></p>
+		<div id="notify" class="collapse">
+			<p class="featuredesc">ownCloud features an activity feed. See who shared a file with you or when you created, changed or deleted files, commented or added a tag. Access the feed via RSS, the web interface, or Desktop or Mobile clients. Notifications pop up in the web interface and on the clients when new files are shared or a calendar invite came in.</p>
+		</div>
+	</div>
+
+</div>
+
+<div class="featurewrapper"><h2>Other Features</h2></div>
+
+<div class="row featurerow">
 
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/undelete.png" />
-		<h3 class="featuretitle">Versioning and Undelete</h3></br>
-		<p class="featuredesc">ownCloud stores your data and lets you bring back data that was deleted accidentally. Find previous versions of files you modified and bring them
-			back.</p>
+		<h3 class="featuretitle">Versioning and undelete</h3>
+		<p class="featuredesc">Previous versions of files you modified are retained and can be brought back. Deleted files can be found in the trash.</p>
 	</div>
-
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png" />
-		<h3 class="featuretitle">Activity Feed</h3></br>
-		<p class="featuredesc">See what is going on in your ownCloud. See who shared a file with you or when you created, changed or deleted files. Access the feed via RSS, the web interface, an API
-			for Desktop or Mobile clients or receive email notifications.</p>
-	</div>
-</div>
-
-<div class="row featurerow">
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" />
-		<h3 class="featuretitle">Calendars and Contacts</h3></br>
-		<p class="featuredesc">Share your calendar with other ownCloud users or groups on your ownCloud server, easily and quickly. Store your contacts in ownCloud and share them among your devices so you always have access to your friends, family and colleagues.</p>
-	</div>
-
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/documents.png" />
-		<h3 class="featuretitle">Collaborative Editing</h3>
-		<p class="featuredesc">ownCloud Documents is collaborative editing of rich-text documents that lets up to 5 individuals collaborate to edit .odt or .doc files securely 
-			within the browser.  Documents may then be shared inside ownCloud or via a public link. See it in action on <a href="https://www.youtube.com/watch?v=xsqSLeppxm0" target="_blank">YouTube</a></p>
-	</div>
-
+	
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/gallery.png" />
-		<h3 class="featuretitle">Galleries</h3></br>
-		<p class="featuredesc">Share photo galleries with friends and family. Give them access to upload pictures, view and download them. Send a link to anybody you choose, and 
-			control whether they can share those photos with anyone else.</p>
+		<h3 class="featuretitle">Galleries</h3>
+		<p class="featuredesc">Share photo galleries with friends and family. Give them access to upload pictures, view, download and comment on them. Your data - your choice.</p>
 	</div>
-</div>
-
-<div class="row featurerow">
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
-		<h3 class="featuretitle">Play Music, Watch Movies, Store Passwords</h3></br>
-		<p class="featuredesc">Use the Music app to listen to your songs, securely store your passwords in Passman and stream your movies with the Streaming app. ownCloud is an <a href="http://karlitschek.de/2015/06/building-a-platform/" target="_blank">application platform</a> putting functionality at your service.</p>
-	</div>
-
-	<div class="col-md-4 featureblock">
-		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/store.png" />
-		<h3 class="featuretitle">Application Store</h3></br>
-		<p class="featuredesc">Want to add <a href="https://apps.owncloud.com" target="_blank">more capabilities</a> to ownCloud? Simply enable a new application in the App store, and it will be automatically downloaded 
-			and installed in your ownCloud instance.</p>
+		<h3 class="featuretitle">Play music, watch movies, store passwords</h3>
+		<p class="featuredesc">Use the Music app to listen to your songs, securely store your passwords in Passman and stream your movies with the Streaming app. Simply enable <a href="https://apps.owncloud.com" target="_blank">one of over 250 applications</a> in the built in ownCloud App store.</p>
 	</div>
 </div>
+
+<div class="row">
+	<ul class="featureslist">
+	        <li>ownCloud is open source - there are no limitations and you can inspect, integrate, extend and modify ownCloud however you want.</li>
+		<li>ownCloud offers an easy user interface with search, favorites, tags and other ways to quickly get at your files.</li>
+		<li>File editing and preview support for PDF, images, text files, Open Document, Word files and more.</li>
+		<li>Integration of anti-virus scanning functionality with the anti-virus app.</li>
+		<li>LDAP / Active Directory integration</li>
+		<li>Example files for new users. Preload a new user's Files area with, for example, a tutorial file, which appears when they first log in.</li>
+		<li>Powerful integrated logging</li>
+		<li>Fine-grained control over access to data and sharing capabilities by user and by group.</li>
+		<li>Advanced quota management with configurable accounting of external storage.</li>
+		<li>Sharing REST API. Control sharing from mobile apps and desktop clients</li>
+		<li>Easy development of 3rd party apps with the share REST API. Quick access to core functions for app development with the powerful ownCloud App API and webhooks following the publication / subscription model.</li>
+	</ul>
+	<p>Find answers to your questions on our <a href="/faq">Frequently Asked Questions page</a>.</p>
+</div>
+
+
+<a name="video"></a>
 
 <div class="featurewrapper"><h2>ownCloud in Action</h2></div>
 
-<div class="row">
-<!--	Using ownCloud 8.1 for end users - 5 minutes
-	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+<div class="row"><div class="row">
+<!--	Using ownCloud 8.1 for end users - 5 minutes -->
+<!-- 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
 <!--	Your first minute with ownCloud - installation and admin screen -->
 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/8QeJKGyhFhk?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	ownCloud Documents new features in 8.1 -->
@@ -160,9 +232,7 @@
 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/uezzFDRnoPY?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	Managing (adding, removing, changing) users in ownCloud -->
 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/teelHVdXD4k?rel=0" frameborder="0" allowfullscreen></iframe></div>
-<!--	Introducing Release Channels in 8.1 -->
-<!--	<div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
-<!--New external storage options explained-->
+<!--	New external storage options explained-->
         <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/nx5PGWc7X18?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--ownCloud Federated Sharing video-->
         <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div>
@@ -172,31 +242,32 @@
         <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div>
 </div>
 <p>Find more ownCloud videos on our <a href="https://youtube.com/ownClouders" target="_blank">YouTube Channel</a>.</p>
-
-<div class="featurewrapper"><h2>Other Features</h2></div>
-
-<div class="row">
-<ul class="featureslist">
-        <li>ownCloud is open source - there are no limitations and you can inspect, integrate, extend and modify ownCloud however you want.</li>
-	<li>Search, favorites and an easy user interface.</li>
-	<li>File editing and preview support for PDF, images, text files, Open Document, Word files and more.</li>
-	<li>Integration of anti-virus scanning functionality with the anti-virus app.</li>
-	<li>LDAP / Active Directory integration</li>
-	<li>Example files for new users. Preload a new user's Files area with, for example, a tutorial file, which appears when they first log in.</li>
-	<li>Powerful integrated logging</li>
-	<li>Fine-grained control over access to data and sharing capabilities by user and by group.</li>
-	<li>Advanced quota management with configurable accounting of external storage.</li>
-	<li>Sharing REST API. Control sharing from mobile apps and desktop clients</li>
-	<li>Easy development of 3rd party apps with the share REST API. Quick access to core functions for app development with the powerful ownCloud App API and webhooks following 
-		the publication / subscription model.</li>
-</ul>
-<p>Find answers to your questions on our <a href="/faq">Frequently Asked Questions page</a>.</p>
+<div class="featurewrapper"><h2>New in ownCloud Server 9.0</h2></div>
+	<div class="row featurerow">
+		<div class="col-md-4 featureblock">
+			<img class="thumbnail" alt="improved design" src="<?php bloginfo('template_directory'); ?>/assets/img/features/sidebar.png" />
+			<h3 class="ft-title">Innovative Collaboration</h3>
+			<p class="featuredesc">The introduction of comments and tags combined with the improvements to the notifications and activity feed allow a new level of interaction.</p>
+		</div>
+		<div class="col-md-4 featureblock">
+			<img class="thumbnail" alt="New Gallery app" src="<?php bloginfo('template_directory'); ?>/assets/img/features/gallery.png" />
+			<h3 class="ft-title">Ultimate Scalability</h3>
+			<p class="featuredesc">A new storage API enables deeper integration with storage solutions and updated sharing code handles more shares with more users.</p>
+		</div>
+		<div class="col-md-4 featureblock">
+			<img class="thumbnail" alt="Notifications" src="<?php bloginfo('template_directory'); ?>/assets/img/features/notification.png" />
+			<h3 class="ft-title">Full Federation</h3>
+			<p class="featuredesc">Sharing between different ownCloud servers is smoother than ever with cross-server user name auto complete, trusted servers and more.</p>
+		</div>
+		<a href="/nine" class="btn btn-lg btn-default" style="float:right">Details on ownCloud Server 9.0</a>
+	</div>
 </div>
+
 </div>
 </div>
 <div class="wrap container">
 <h2>Get involved!</h2>
 <p><a target="_blank" href="/promote/" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss and share ownCloud</a></p>
 <p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> Contribute to ownCloud</a></p>
-<p><a target="_blank" href="/conf/" class="btn btn-lg btn-default"> <i class="icon-group"></i> ownCloud Contributor Conf</a></p>
+<!-- <p><a target="_blank" href="/conf/" class="btn btn-lg btn-default"> <i class="icon-group"></i> ownCloud Contributor Conf</a></p> -->
 </div>
