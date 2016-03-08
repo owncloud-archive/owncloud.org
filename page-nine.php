@@ -1,6 +1,6 @@
 		<div class="row headerrow">
 			<div class="col-md-5">
-				<iframe width="95%" height="315" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
+				<iframe width="95%" height="315" src="https://www.youtube.com/embed/g3b0XDpcvuc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
 			</div>
 			<div class="col-md-7">
 				<h2>ownCloud Server 9.0 - Faster, More Collaborative and Fully Federated</h2>
@@ -57,7 +57,7 @@
 			<h2>Innovative Collaboration</h2>
 		</div>
 		<div class="featurewrapper">
-			<p>WWith ownCloud 9.0, you can seamlessly collaborate on files and folders with others, <em>add comments</em> while working on files and <em>organize files via tags</em>. Keep an eye on what happens to your files through the <em>activity feed</em>, available in the Activity app, through RSS or in the ownCloud client apps. <em>Notifications</em> will pop up with calendar invitations or when files are shared. The ownCloud community developed a wide variety of applications bringing additional collaborative capabilities like email handling, calendar and contacts, and more.</p>
+			<p>With ownCloud 9.0, you can seamlessly collaborate on files and folders with others, <em>add comments</em> while working on files and <em>organize files via tags</em>. Keep an eye on what happens to your files through the <em>activity feed</em>, available in the Activity app, through RSS or in the ownCloud client apps. <em>Notifications</em> will pop up with calendar invitations or when files are shared. The ownCloud community developed a wide variety of applications bringing additional collaborative capabilities like email handling, calendar and contacts, and more.</p>
 		</div>
 		<div class="row featurerow">
 			<div class="col-md-6 featureblock">
@@ -106,16 +106,16 @@
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/calendar.png" title="Calendar" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/calendar-wee.png" style="width: 100%" alt="..."></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/activity.png" title="Calendar" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/activity-wee.png" style="width: 100%" alt="..."></a></div>
 		</div>
-<!-- 		<div class="row"> -->
-			<!--Release Channels video-->
-<!--                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
-                        <!--Introduction to Admin Panel video-->
-<!--                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+		<div class="row">
+			<!--Comments video-->
+                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/hOl2OhvKZQY?rel=0" frameborder="0" allowfullscreen></iframe></div>
+			<!--Tags Video-->
+                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/6coT-WCbEyo?rel=0" frameborder="0" allowfullscreen></iframe></div>
                         <!--Introducing the new experimental apps in the app store-->
 <!--                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
                         <!--New external storage options explained-->
 <!--                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/nx5PGWc7X18?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
-<!--                 </div> -->
+                </div>
 
 		<a name="scalability"></a>
 		<div class="featurewrapper">
@@ -167,13 +167,6 @@
 			<div class="col-md-3"><a href="https://owncloud.org/?p=9701" title="Documentation of the new storage API's" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/storagedocu.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			
 		</div>
-<!-- 		<div class="row"> -->
-<!--                        <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe></div>-->
-			<!--ownCloud Documents video-->
-<!--                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
-                        <!--ownCloud Federated Sharing video-->
-<!--                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
-<!--                 </div> -->
 
 		<a name="federation"></a>
 		<div class="featurewrapper">
@@ -207,7 +200,13 @@
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/federated-sharing-2.png" title="Commenting" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/federated-sharing-2-wee.png" style="width: 100%" alt="..."></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification.png" title="Notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification-wee.png" style="width: 100%" alt="..."></a></div>
 		</div>
-		
+		<div class="row">
+                       <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/b1F-N3QXN2s?rel=0" frameborder="0" allowfullscreen></iframe></div>
+			<!--ownCloud Documents video-->
+<!--                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+                        <!--ownCloud Federated Sharing video-->
+<!--                         <div class="col-md-6 text-center"><iframe width="100%" height="360" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+                </div>
                 <a name="other"></a>
 		<div class="featurewrapper">
 			<h2>Other Improvements</h2>

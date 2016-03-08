@@ -2,7 +2,7 @@
 
 <div class="row featurerow topfeature">
 	<div class="col-md-5">
-		<iframe width="95%" height="315" src="https://www.youtube.com/embed/m1V71pCAsws?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
+		<iframe width="95%" height="315" src="https://www.youtube.com/embed/g3b0XDpcvuc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
 	</div>
 	<div class="col-md-7">
 		<h2 class="featuretitle" style="margin-top: 0;"><span class="avoidwrap">Access, Sync and Share</span> <span class="avoidwrap">Your Data, Under Your Control!</span></h2>
@@ -101,20 +101,27 @@
 		<p class="featuredesc">ownCloud features comments, sharing within and between ownCloud servers, public links and more. <br/> <span class="caret"></span><a href="#share" data-toggle="collapse"> learn more</a></p>
 		<div id="share" class="collapse">
 			<p class="featuredesc">You and others can comment on files, tag them, and see the comments and tags by others. ownCloud lets you share files, calendars and other data with users on your ownCloud or on other ownCloud servers ("federation"). User names on remote ownCloud servers ("Federated Cloud ID's") are auto-completed once the server is added as trusted (this can be done automatically on the first time you share with the other server) and files you share with others always remain on your server. You can also share via public links with or without upload rights, password protection and automatic expiration.</p>
-<!-- 			Creating a public upload folder -->
-		        <iframe width="100%" height="315" src="https://www.youtube.com/embed/3GSppxEhmZY?rel=0" frameborder="0" allowfullscreen></iframe>
-		        <p>Learn <a href="/federation">more about federation here</a>.</p>
+<!-- 		Adding tags to files -->
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/6coT-WCbEyo" frameborder="0" allowfullscreen></iframe>
+<!-- 		Adding comments to files -->
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/hOl2OhvKZQY" frameborder="0" allowfullscreen></iframe>
+<!-- 		Creating a public upload folder -->
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/3GSppxEhmZY?rel=0" frameborder="0" allowfullscreen></iframe>
+<!-- 		Federation -->
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/b1F-N3QXN2s" frameborder="0" allowfullscreen></iframe>
+	        <p>Learn <a href="/federation">more about federation here</a>.</p>
 		</div>
 	</div>
 
 	<div class="col-md-6 col-sm-6 featureblock">
 		<h3 class="featuretitle">Flexible storage</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/ext-storage.png" target="_blank"><img class="img-responsive" alt="External storage configuration" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/ext-storage-wee.png" /></a>
-		<p class="featuredesc">Flexible external storage handling allows you to access your existing data through ownCloud, wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="collapse"> learn more</a></p>
+		<p class="featuredesc">Flexible external storage handling allows you to access your existing data through ownCloud, <!-- 		Creating a public upload folder -->
+wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="collapse"> learn more</a></p>
 		<div id="store" class="collapse">
 			<p class="featuredesc">You can add external storage to your ownCloud with Dropbox, SWIFT, (S)FTP, Google Drive, Amazon S3, OpenStack Object Storage, local hard drives, WebDAV, SMB/CIFS and more. You can control if you want to retrieve thumbnails and how often you want to check for changes. With the ownCloud Encryption app, data can be encrypted on local and/or remote storage. Keys never leave the ownCloud server but can also be managed by an external key management tool.</p>
 <!-- 			Configuring external storage -->
-			<iframe width="100%" height="315" src="https://www.youtube.com/embed/uezzFDRnoPY?rel=0" frameborder="0" allowfullscreen></iframe>
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/uezzFDRnoPY?rel=0" frameborder="0" allowfullscreen></iframe>
 			<p>Read on <a href="https://opensource.com/business/16/3/cern-and-owncloud">on opensource.com</a> about the work of ownCloud and physics labs CERN, inventors of the Internet, collaborating on bringing the scalability of file sync and share to a new level.</p>
 		</div>
 	</div>
@@ -153,7 +160,7 @@
 		<div id="editing" class="collapse">
 			<p class="featuredesc">ownCloud Documents is collaborative editing of rich-text documents that lets up to 5 individuals collaborate to edit .odt or .doc files securely 
 			within the browser.  Documents may then be shared inside ownCloud or via a public link. Other collaboration apps are in development, like a <a href="https://www.collaboraoffice.com/community-news/code-updates-2/">full online office suite for ownCloud by Collabora</a> and <a href="https://owncloud.org/blog/spreed-brings-private-video-calls-to-owncloud/">private video calls and chat by Spreed</a>.</p>
-			<iframe width="480" height="360" src="https://www.youtube.com/embed/xsqSLeppxm0" frameborder="0" allowfullscreen></iframe>
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/xsqSLeppxm0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 
