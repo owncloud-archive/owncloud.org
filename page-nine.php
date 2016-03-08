@@ -92,9 +92,8 @@
 
 		<div class="row">
 			<div class="col-md-3"><a href="https://owncloud.org/blog/about-activities-and-notifications-in-owncloud/" title="Learn more about notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/notifications.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="TBD video" title="Learn more about tags" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/tags.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="TBD video" title="Learn more about comments" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/comments.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="https://apps.owncloud.com" title="More about ownCloud Apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/apps.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="https://owncloud.org/blog/owncloud-9-0-boosts-team-collaboration/" title="Learn more about comments and tags" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/collaboration_blog.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="https://apps.owncloud.com" title="See some ownCloud Apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/apps.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 		</div>
 		<div class="row">
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification.png" title="Notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification-wee.png" style="width: 100%" alt="..."></a></div>
@@ -191,11 +190,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/tips-and-tricks.png" title="Tips and tricks as well as links to documentation are well integrated in the admin panel" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/connect.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/mount-options.png" title="You can set encryption, update policy and previews for each external storage mount" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/collaboration.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-		</div>
-
-		<div class="row">
+			<div class="col-md-3"><a href="https://owncloud.org/blog/owncloud-9-0-boosts-team-collaboration/" title="Learn more about Federation" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/connect.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/federated-sharing-1.png" title="Notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/federated-sharing-1-wee.png" style="width: 100%" alt="..."></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/federated-sharing-2.png" title="Commenting" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/federated-sharing-2-wee.png" style="width: 100%" alt="..."></a></div>
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification.png" title="Notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification-wee.png" style="width: 100%" alt="..."></a></div>
