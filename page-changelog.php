@@ -15,7 +15,7 @@ Major new ownCloud release, more info <a href="https://owncloud.org/blog/ownclou
 	<li>New: Stand-alone updater for more reliable upgrading</li>
 	<li>Improved sharing behavior and performance</li>
 	<li>New External Storage API's for improved scalability</li>
-	<li>Calendar, Contacts rewritten, calDAV and cardDAV now part of core</li>
+	<li>Calendar and Contacts Apps where rewritten. The CalDAV and CardDAV backends are now part of core</li>
 	<li>Security hardening</li>
 	<li>ownCloud API work to improve scalability</li>
 	<li>Many small improvements</li>
@@ -30,7 +30,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <ul>
 	<li>Object of class OC\\Connector\\Sabre\\Directory could not be converted to string - <a href="https://github.com/owncloud/core/issues/21230">github issue</a></li>
 	<li>Files: show 405 Method Not Allowed - <a href="https://github.com/owncloud/core/issues/20713">github issue</a></li>
-	<li>enforce-home-folder_naming_rule cannot be configured in config.hp - <a href="https://github.com/owncloud/core/issues/21261">github issue</a></li>
+	<li>enforce-home-folder_naming_rule cannot be configured in config.php - <a href="https://github.com/owncloud/core/issues/21261">github issue</a></li>
 	<li>User management: Password change error display behavior - <a href="https://github.com/owncloud/core/issues/21239">github issue</a></li>
 	<li>Initialize l10n instance earlier, fixes an undefined var warning followed by a PHP error - <a href="https://github.com/owncloud/core/issues/21262">github issue</a></li>
 	<li>Enable user backends to show a different page when login failed (e.g password wrong or needs to change) - <a href="https://github.com/owncloud/core/issues/12215">github issue</a></li>
@@ -63,20 +63,17 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 	<li>Heal unencrypted file sizes at download time - <a href="https://github.com/owncloud/core/issues/22626">github issue</a></li>
 	<li>Can load empty folder of "not available" external storage - <a href="https://github.com/owncloud/core/issues/21125">github issue</a></li>
 	<li>Call to a member function file_exists() on a non-obect in owncloud/lib/private/files/filesystem.php on line 688 - <a href="https://github.com/owncloud/core/issues/18499">github issue</a></li>
-	<li>Second display name fails sometimes - enterprise/<a href="https://github.com/owncloud/core/issues/1088">github issue</a></li>
 	<li>Command line occ add user group issue - <a href="https://github.com/owncloud/core/issues/20663">github issue</a></li>
 	<li>Federated shared subfolder not syncing - <a href="https://github.com/owncloud/core/issues/20329">github issue</a></li>
 	<li>Skip users with no trashbin - <a href="https://github.com/owncloud/core/issues/22628">github issue</a></li>
-	<li>Right sidebar isn't fully translated when theme contains l10n files - enterprise/<a href="https://github.com/owncloud/core/issues/1109">github issue</a></li>
-	<li>Not able to sync files on Windows and iOS client from/to filder sitting on mounted Windows Network Drive - enterprise/<a href="https://github.com/owncloud/core/issues/1036">github issue</a></li>
-	<li>Update sabre/dav to 2.1.9 and sabre/vobject to 3.50 for PHP7 compatibility - <a href="https://github.com/owncloud/core/issues/21914">github issue</a></li>
+	<li>Update sabre/dav to 2.1.9 and sabre/vobject to 3.5.0 for PHP7 compatibility - <a href="https://github.com/owncloud/core/issues/21914">github issue</a></li>
 	<li>Lazy loading doesn't work - <a href="https://github.com/owncloud/activity/issues/441">github issue</a></li>
 	<li>No email notification - <a href="https://github.com/owncloud/core/issues/20962">github issue</a></li>
 	<li>Add more supported mimes read ODF formats - <a href="https://github.com/owncloud/documents/issues/615">github issue</a></li>
 	<li>Save path for new documents cannot be set in preferences with oc8.2 - <a href="https://github.com/owncloud/documents/issues/600">github issue</a></li>
 	<li>Scrolling file lists in public share greater than windows size not possible - <a href="https://github.com/owncloud/files_pdfviewer/issues/90">github issue</a></li>
 	<li>Fix for IE to remove second scrollbar - <a href="https://github.com/owncloud/files_pdfviewer//99">github issue</a></li>
-	<li>Sharing permissions cannot be modified because checkboes are not shown - <a href="https://github.com/owncloud/gallery/issues/538">github issue</a></li>
+	<li>Sharing permissions cannot be modified because checkboxes are not shown - <a href="https://github.com/owncloud/gallery/issues/538">github issue</a></li>
 	<li>Error logged on admin settings page - <a href="https://github.com/owncloud/updater/issues/199">github issue</a></li>
 	<li>Error when enabling app - <a href="https://github.com/owncloud/announcementcenter/issues/31">github issue</a></li>
 </ul>
