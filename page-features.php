@@ -95,7 +95,7 @@
 <a href="#video" class="btn btn-lg btn-default"><i class="icon-youtube-play"></i>  See ownCloud in action</a></div>
 <div class="row featurerow">
 
-        <div class="col-md-6 col-sm-6 featureblock">
+        <div class="col-md-4 col-sm-4 featureblock">
 		<h3 class="featuretitle">Share and collaborate with anybody</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/comments-shot.png" target="_blank"><img class="img-responsive" alt="Comment on your files" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/comments-shot-wee.png" /></a>
 		<p class="featuredesc">ownCloud features comments, sharing within and between ownCloud servers, public links and more. <br/> <span class="caret"></span><a href="#share" data-toggle="collapse"> learn more</a></p>
@@ -113,7 +113,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-6 col-sm-6 featureblock">
+	<div class="col-md-4 col-sm-4 featureblock">
 		<h3 class="featuretitle">Flexible storage</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/ext-storage.png" target="_blank"><img class="img-responsive" alt="External storage configuration" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/ext-storage-wee.png" /></a>
 		<p class="featuredesc">Flexible external storage handling allows you to access your existing data through ownCloud, <!-- 		Creating a public upload folder -->
@@ -126,13 +126,7 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 		</div>
 	</div>
 
-</div>
-
-
-
-<div class="row featurerow">
-
-	<div class="col-md-6 col-sm-6 featureblock">
+	<div class="col-md-4 col-sm-4 featureblock">
 		<h3 class="featuretitle">Mobile and desktop syncing</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/mobile.png" target="_blank"><img class="img-responsive" alt="mobile UI" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/mobile-wee.png" /></a>
 		<p class="featuredesc">Android, iOS, Windows, Mac and Linux clients are available for ownCloud. <br/> <span class="caret"></span><a href="#clients" data-toggle="collapse"> learn more</a></p>
@@ -141,7 +135,14 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 		</div>
 	</div>
 
-	<div class="col-md-6 col-sm-6 featureblock">
+</div>
+
+
+
+<div class="row featurerow">
+
+
+	<div class="col-md-4 col-sm-4 featureblock">
 		<h3 class="featuretitle">Calendars and contacts</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/contacts.png" target="_blank"><img class="img-responsive" alt="calendar and contacts" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/contacts-wee.png" /></a>
 		<p class="featuredesc">ownCloud features Calendar and Contacts apps to store, sync and share what you do and who you know.<br/> <span class="caret"></span><a href="#calendar" data-toggle="collapse"> learn more</a></p>
@@ -149,11 +150,8 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 			<p class="featuredesc">Share your calendar with other ownCloud users or groups on your ownCloud server, easily and quickly. Store your contacts in ownCloud and share them among your devices so you always have access to the contact information of your friends, family and colleagues.</p>
 		</div>
 	</div>
-</div>
 
-<div class="row featurerow">
-
-	<div class="col-md-6 col-sm-6 featureblock">
+	<div class="col-md-4 col-sm-4 featureblock">
 		<h3 class="featuretitle">Work with your documents</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/pdf.png" target="_blank"><img class="img-responsive" alt="Comment on your files" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/pdf-wee.png" /></a>
 		<p class="featuredesc">Edit rich text documents with others in real time, read PDF's, see pictures, watch videos and more. <br/> <span class="caret"></span><a href="#editing" data-toggle="collapse"> learn more</a></p>
@@ -164,7 +162,7 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 		</div>
 	</div>
 
-	<div class="col-md-6 col-sm-6 featureblock">
+	<div class="col-md-4 col-sm-4 featureblock">
 		<h3 class="featuretitle">Activity feed and notifications</h3>
 		<a href="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/receiving-notification.png" target="_blank"><img class="img-responsive" alt="Comment on your files" src="<?php bloginfo('template_directory'); ?>/assets/img/screenshots/server/nine/receiving-notification-wee.png" /></a>
 		<p class="featuredesc">The Activity feed and Notifications keep you updated on what is happening with your data. <br/> <span class="caret"></span><a href="#notify" data-toggle="collapse"> learn more</a></p>
