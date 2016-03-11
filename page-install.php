@@ -18,7 +18,7 @@
     <hr class="narrow"></hr>
     <div class="numbadge centre">2</div>
     <h3><i class="icon-refresh"></i> Sync your data</h3>
-    <p>Connect to your ownCloud with our clients:</p>
+    <p>Connect to your ownCloud with our clients for your devices:</p>
     <div class="btn-group">
       <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a>
       <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">Mobile clients</a>
