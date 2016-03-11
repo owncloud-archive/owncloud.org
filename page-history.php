@@ -53,23 +53,65 @@ Installation has minimal server requirements, doesn’t need special permissions
 
 <ul class="new-timeline">
 
-<!-- 2015 -->
-  <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2015.svg" alt="Picture"></div></li>
-  
-      <li class="">
-    <div class="tl-circ github"></div>
+<!-- 2016  -->
+  <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2016.svg" alt="Picture"></div></li>
+
+  <li class="new-timeline-inverted tl-image-400">
+    <div class="tl-circ release"></div>
     <div class="new-timeline-panel">
       <div class="tl-heading">
-        <h4>End of 2015 statistics</h4>
+        <h4>ownCloud 9.0 released</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> March 2016</small></p>
       </div>
       <div class="tl-body">
-        <p>codebase grown to 2.4 million LOC</br>
-			average of 84 contributors/month</br>
-			estimated over 8 million users wordwide
-		</p>
+        <p>introducing improved scalability (worked on with CERN), federation and collaboration tools including comments and tags (<a href="https://owncloud.org/blog/owncloud-server-9-0-released/">announcement</a>)</p>
+        <iframe width="100%" height="240" src="https://www.youtube.com/embed/g3b0XDpcvuc?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </li>
+  <li class="">
+    <div class="tl-circ release"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>Spreed Brings Private Video Calls to ownCloud</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> February 2016</small></p>
+      </div>
+      <div class="tl-body">
+        <p>A 2.5 pound (1.1kg) aluminum cube with an oDroid and some custom hardware <a href="https://owncloud.org/blog/spreed-brings-private-video-calls-to-owncloud/">integrates ownCloud with the spreed webconferencing software</a>, aiming at consumers and SMB.</p>
+        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/history/spreed.png" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/spreed-wee.jpg" style="width: 100%" alt="group photo" class="img-responsive" /></a>
+      </div>
+    </div>
+  </li>
+  <li class="new-timeline-inverted tl-image-400">
+    <div class="tl-circ release"></div>
+    <div class="new-timeline-panel">
+      <div class="tl-heading">
+        <h4>ownCloud grows to 8 million users</h4>
+        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> January 2016</small></p>
+      </div>
+      <div class="tl-body">
+        <p><a href="https://owncloud.org/blog/owncloud-grows-to-8-million-users/">details in the blog post</a></p>
+      </div>
+    </div>
+  </li>
+  
+<!-- 2015 -->
+  <li><div class="tldate"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/history/2015.svg" alt="Picture"></div></li>
+  
+	<li class="">
+		<div class="tl-circ github"></div>
+		<div class="new-timeline-panel">
+		<div class="tl-heading">
+			<h4>End of 2015 statistics</h4>
+		</div>
+		<div class="tl-body">
+			<p>codebase grown to 2.4 million LOC</br>
+				average of 84 contributors/month</br>
+				estimated <a href="https://owncloud.org/blog/owncloud-grows-to-8-million-users/">8 million users worldwide</a>
+			</p>
+		</div>
+		</div>
+	</li>
   
     <li class="new-timeline-inverted">
     <div class="tl-circ desktop"></div>
@@ -92,7 +134,7 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> October 2015</small></p>
       </div>
       <div class="tl-body">
-        <p>introducing improved Design, new Gallery app, Notifications and file retention control for deletions and versions (<a href="https://owncloud.org/blog/owncloud-server-8-2-brings-renewed-user-interface-and-more-control/">announcement</a></p>
+        <p>introducing improved Design, new Gallery app, Notifications and file retention control for deletions and versions (<a href="https://owncloud.org/blog/owncloud-server-8-2-brings-renewed-user-interface-and-more-control/">announcement</a>)</p>
         <iframe width="100%" height="240" src="https://www.youtube.com/embed/m1V71pCAsws?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
@@ -169,7 +211,7 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> July 2015</small></p>
       </div>
       <div class="tl-body">
-        <p>introducing improved Documents, Release Channels, Encryption 2.0 (<a href="https://owncloud.org/blog/owncloud-8-1-raising-the-bar-on-security-and-performance/">announcement</a></p>
+        <p>introducing improved Documents, Release Channels, Encryption 2.0 (<a href="https://owncloud.org/blog/owncloud-8-1-raising-the-bar-on-security-and-performance/">announcement</a>)</p>
         <iframe width="100%" height="240" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
