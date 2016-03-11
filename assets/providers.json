@@ -1301,13 +1301,13 @@
       },
       {
          "title":"Yorkshire Hosting",
-         "url":"http:\/\/www.hostingyorkshire.uk\/cart.php?gid=5",
+         "url":"http:\/\/www.yorkshire.cloud",
          "flags":[
             "uk",
             "eu",
             "us"
          ],
-         "freeplans":false,
+         "freeplans":true,
          "supports":[
             "consumers",
             "organisations"
