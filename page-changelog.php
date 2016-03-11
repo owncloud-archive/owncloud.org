@@ -15,7 +15,7 @@ Major new ownCloud release, more info <a href="https://owncloud.org/blog/ownclou
 	<li>New: Stand-alone updater for more reliable upgrading</li>
 	<li>Improved sharing behavior and performance</li>
 	<li>New External Storage API's for improved scalability</li>
-	<li>Calendar and Contacts Apps where rewritten. The CalDAV and CardDAV backends are now part of core</li>
+	<li>Calendar and Contacts Apps were rewritten. The CalDAV and CardDAV backends are now part of core</li>
 	<li>Security hardening</li>
 	<li>ownCloud API work to improve scalability</li>
 	<li>Many small improvements</li>
