@@ -573,6 +573,9 @@ p.federation-id {
   height: 400px !important;
 }
 
+.tl-image-500 {
+  height: 500px !important;
+}
 
 /** panel arrows **/
 .new-timeline li .new-timeline-panel:before {
