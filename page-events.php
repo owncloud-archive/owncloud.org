@@ -53,6 +53,13 @@
 				<th>Link</th>
 			</tr>
 			<tr>
+				<td>ownCloud Hackathon at openSUSE Conference 2016</td>
+				<td>Nuremberg, Germany</td>
+				<td>June 22-26, 2016 (ownCloud program on June 22-23)</td>
+				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
+				<td><a target="_blank" href="https://events.opensuse.org/conference/oSC16">openSUSE website</a>, <a href="/hackathon">our info page</a></td>
+			</tr>
+			<tr>
 				<td>DevOps Pro conference 2016</td>
 				<td>Vilnius, Lithuania</td>
 				<td>May 26, 2016</td>
