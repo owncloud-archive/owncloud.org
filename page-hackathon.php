@@ -13,7 +13,7 @@
 <div class="row conf-about">
 	<div class="col-sm-6 no-underline">
 		<h2>Let's get some work done!</h2>
-		<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015_wee.jpg" style="width: 95%" alt="group photo" class="img-responsive" /></a>
+		<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup.jpg" style="width: 95%" alt="coding time" class="img-responsive" /></a>
 	</div>
 	<div class="col-sm-6">
 		<p>As a hackathon, this event is about getting work done!</p>
