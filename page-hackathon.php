@@ -1,22 +1,21 @@
-<div class="row conf-header">
+<div class="row text-center">
 	<div class="col-sm-6 col-sm-offset-3">
-		<img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/osc2016logo-wee.png" alt="logo" />
-		<h2 class="conf-location">June 22-26, 2016 in Nuremberg, Germany.</h2>
-		<p>attendance free - and open to anyone!</p>
-		<a href="https://events.opensuse.org/conference/oSC16/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">register here <i class="icon-check"></i></a>
+		<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/osc2016logo-wee.png" alt="logo" />
+		<h2 class="">June 22-26, 2016 in Nuremberg, Germany</h2>
+		<p>Attendance free - and open to anyone!</p>
+		<a href="https://events.opensuse.org/conference/oSC16/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register here <i class="icon-check"></i></a>
 		<!--<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
 		<h3>Our hackathon takes place on the first two days of the openSUSE conference (June 22 and 23).</h3><br />
 <!--		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>-->
 		<!--<p>Find <a href="confinfo">practical information for visitors here</a>.</p>-->
 	</div>
 </div>
-<div class="row conf-about">
+<div class="row">
 	<div class="col-sm-6 no-underline">
 		<h2>Let's get some work done!</h2>
 		<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup.jpg" style="width: 95%" alt="coding time" class="img-responsive" /></a>
 	</div>
 	<div class="col-sm-6">
-		<p>As a hackathon, this event is about getting work done!</p>
 		<h2>Program</h2>
 		<p>Thursday, the openSUSE Conference opens with a keynote by Frank Karlitschek, founder and lead of the ownCloud community.</p>
 		<p>After the opening, we'll have two workshops and open rooms for coding and conversation.

@@ -74,6 +74,13 @@
 				<td><a target="_blank" href="http://chemnitzer.linux-tage.de/">website</a></td>
 			</tr>
 			<tr>
+				<td>Özgür Yazılım ve Linux Günleri (Free Software And Linux Days)</td>
+				<td>Istanbul Bilgi University, Turkey</td>
+				<td>March 26-26, 2016</td>
+				<td>Güven Atbakan</td>
+				<td><a target="_blank" href="http://ozguryazilimgunleri.org.tr/2016/">website</a>, <a href="http://ozguryazilimgunleri.org.tr/2016/etkinlik-programi/">program</a></td>
+			</tr>
+			<tr>
 				<td>Chemnitzer Linux Tage 2016</td>
 				<td>Chemnitz, Germany</td>
 				<td>March 18-20, 2016</td>
