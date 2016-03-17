@@ -4,7 +4,7 @@
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 
 <h3>Version 9.0.0 <small>March 8 2016</small></h3>
-Major new ownCloud release, more info <a href="https://owncloud.org/blog/owncloud-server-9-0-released-with-improved-scalability-federation-and-collaboration" target="_blank">in announcement blog</a>. Summary:
+Major new ownCloud release, more info <a href="https://owncloud.org/blog/owncloud-server-9-0-released/" target="_blank">in announcement blog</a>. Summary:
 <ul>
 	<li>New: Comments on files</li>
 	<li>New: Tags for files</li>
