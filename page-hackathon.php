@@ -18,10 +18,10 @@
 	<div class="col-sm-6">
 		<h2>Program</h2>
 		<p>Thursday, the openSUSE Conference opens with a keynote by Frank Karlitschek, founder and lead of the ownCloud community.</p>
-		<p>After the opening, we'll have two workshops and open rooms for coding and conversation.
+		<p>After the opening, we'll have a workshop and a talk as well as open rooms for coding and conversation.
                 <ul>
                     <li>Workshop: how to write your first ownCloud App</li>
-                    <li>Workshop: getting your code in ownCloud</li>
+                    <li>Talk: getting your code in ownCloud</li>
                 </ul>
 		Participation is open to anyone interested in working on or with ownCloud, be it as contributor or independent consultant.</p>
 		<p>This is a hands-on event. <strong>Bring your laptop!</strong></p>
