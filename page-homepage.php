@@ -57,13 +57,13 @@
 			  <a href="https://owncloud.com/cern-smashbox-and-owncloud-collaboration/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/cern.png" alt="The Scientific Atom Smashers in Switzerland" title="The Scientific Atom Smashers in Switzerland" /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/joyglobal.png" title="Joy Global Inc. is an American fortune 1000 company that manufactures and services heavy machinery used in underground and surface mining." alt="Joy Global Inc. is an American fortune 1000 company that manufactures and services heavy machinery used in underground and surface mining." /></a>
+			  <a href="https://owncloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/joyglobal.png" title="Joy Global Inc. is an American fortune 1000 company that manufactures and services heavy machinery used in underground and surface mining." alt="Joy Global Inc. is an American fortune 1000 company that manufactures and services heavy machinery used in underground and surface mining." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			<a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/bauhaus.png" alt="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe." title="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe." /></a>
+			<a href="https://owncloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/bauhaus.png" alt="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe." title="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/delongi.png" alt="DeLongi is a major Italian appliance manufacturer." title="DeLongi is a major Italian appliance manufacturer." /></a>
+			  <a href="https://owncloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/delongi.png" alt="DeLongi is a major Italian appliance manufacturer." title="DeLongi is a major Italian appliance manufacturer." /></a>
 			</div>
 <!--			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
 			  <a href="https://www.amnesty.de/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/amnesty.png" alt="Amnesty Germany" /></a>
@@ -72,7 +72,7 @@
 			  <a href="http://oc.owncloud.com/opencloudmesh.html" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni." title="The university of Hawaii has 50.000 students and famous alumni." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/rakuten.png" title="Rakuten, Inc. is a Japanese electronic commerce and Internet company based in Tokyo, Japan. Its B2B2C e-commerce platform Rakuten Ichiba is among the world’s largest by sales." /></a>
+			  <a href="https://owncloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/rakuten.png" title="Rakuten, Inc. is a Japanese electronic commerce and Internet company based in Tokyo, Japan. Its B2B2C e-commerce platform Rakuten Ichiba is among the world’s largest by sales." /></a>
 <!-- 			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/HMA.png" title="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." alt="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." /></a> -->
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
@@ -82,7 +82,7 @@
 			  <a href="https://owncloud.com/customer/sciebo/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/sciebo.png" title="Through Sciebo, 22 German universities scale up to 500,000 users on a federated ownCloud network." alt="Through Sciebo, 22 German universities scale up to 500,000 users on a federated ownCloud network." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
-			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/DB.png" title="German Railway Deutsche Bahn uses ownCloud to organize its transportation services." alt="German Railway Deutsche Bahn uses ownCloud to organize its transportation services." /></a>
+			  <a href="https://owncloud.com/customer/deutsche-bahn-ag/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/DB.png" title="German Railway Deutsche Bahn uses ownCloud to organize its transportation services." alt="German Railway Deutsche Bahn uses ownCloud to organize its transportation services." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
 			<a href="https://www.youtube.com/watch?v=L6SLi6D6dz4&index=3&list=PLtZe22ggl2YCHUFQiUfFHq8DWNBzBdQ0U" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/TUB.png" alt="Technische Universität Berlin and home of the ownCloud Contributor Conference." title="Technische Universität Berlin and home of the ownCloud Contributor Conference." /></a>
@@ -91,7 +91,7 @@
 			  <a href="http://www.forbes.com/sites/benkepes/2015/06/12/owncloud-and-datto-partner-to-secure-private-file-sharing/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/datto.png" title="Datto is one of the worlds leading backup solution providers and integrates ownCloud in all their backup solutions." alt="Datto is one of the worlds leading backup solution providers and integrates ownCloud in all their backup solutions." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
-			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/IPC.png" title="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area." alt="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area" /></a>
+			  <a href="https://owncloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/IPC.png" title="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area." alt="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area" /></a>
 			</div>
 		</div>
 	<p>Learn more about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p>
