@@ -52,12 +52,19 @@
 				<th>Organizer/contact</th>
 				<th>Link</th>
 			</tr>
-<!--			<tr>
+			<tr>
 				<td>ownCloud Hackathon at openSUSE Conference 2016</td>
 				<td>Nuremberg, Germany</td>
 				<td>June 22-26, 2016 (ownCloud program on June 22-23)</td>
 				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
-				<td><a target="_blank" href="https://events.opensuse.org/conference/oSC16">openSUSE website</a>, <a href="/hackathon">our info page</a></td>
+				<td><a target="_blank" href="https://events.opensuse.org/conference/oSC16">website</a>, <a href="/hackathon">our info page</a></td>
+			</tr>
+<!--			<tr>
+				<td>FOSSCOMM 2016</td>
+				<td>Pireaus (Athens), Greece</td>
+				<td>April 15-18, 2016</td>
+				<td>not sure yet</td>
+				<td><a target="_blank" href="http://fosscomm.cs.unipi.gr/">website</a></td>
 			</tr>-->
 			<tr>
 				<td>DevOps Pro conference 2016</td>
