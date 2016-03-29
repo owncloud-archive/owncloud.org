@@ -5,7 +5,7 @@
 		<p>Attendance free - and open to anyone!</p>
 		<a href="https://events.opensuse.org/conference/oSC16/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register here <i class="icon-check"></i></a>
 		<!--<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
-		<h3>Our hackathon takes place on the first two days of the openSUSE conference (June 22 and 23).</h3><br />
+		<h3>Our hackathon takes place from June the 23'rd to the 25th during the openSUSE conference.</h3><br />
 <!--		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>-->
 		<!--<p>Find <a href="confinfo">practical information for visitors here</a>.</p>-->
 	</div>
@@ -17,13 +17,13 @@
 	</div>
 	<div class="col-sm-6">
 		<h2>Program</h2>
-		<p>Thursday, the openSUSE Conference opens with a keynote by Frank Karlitschek, founder and lead of the ownCloud community.</p>
+		<p>Thursday the 23rd, the openSUSE Conference opens with a keynote by Frank Karlitschek, founder and lead of the ownCloud community.</p>
 		<p>After the opening, we'll have a workshop and a talk as well as open rooms for coding and conversation.
                 <ul>
                     <li>Workshop: how to write your first ownCloud App</li>
                     <li>Talk: getting your code in ownCloud</li>
                 </ul>
-		Participation is open to anyone interested in working on or with ownCloud, be it as contributor or independent consultant.</p>
+		Participation is open to anyone interested in working on or with ownCloud, be it as contributor or independent consultant. Friday and Saturday - we code, talk, eat, drink and have fun!</p>
 		<p>This is a hands-on event. <strong>Bring your laptop!</strong></p>
 	</div>
 </div>
