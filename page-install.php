@@ -28,7 +28,7 @@
     <hr class="narrow"></hr>
     <div class="numbadge centre">3</div>
     <h3><i class="icon-globe"></i> Extend your cloud</h3>
-    <p>Browse hundreds of free ownCloud apps and connect services you use to ownCloud:</p>
+    <p>Browse hundreds of free apps and connect services you use to ownCloud:</p>
      <div class="btn-group">
         <a class="btn btn-default btn-lg" role="button" href="https://apps.owncloud.com" target="_blank" rel="tooltip" title="The ownCloud Appstore">ownCloud Apps</a>
         <a class="btn btn-default btn-lg" role="button" href="https://github.com/owncloud/core/wiki/Apps" target="_blank" rel="tooltip" title="3rd Party App List on the ownCloud Wiki">3rd Party Apps</a>
