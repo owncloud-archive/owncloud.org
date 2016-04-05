@@ -1377,6 +1377,47 @@
             "organisations"
             ],
          "imagename":"wint.png"
+      },
+      {
+         "title":"ownserver.org",
+         "url":"http:\/\/ownserver.org",
+         "flags":[
+            "us",
+            "nl"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"ownserver.jpg"
+      },
+      {
+         "title":"cloudron.io",
+         "url":"http:\/\/cloudron.io\/appstore.html#org.owncloud.cloudronapp",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"cloudron.png"
+      },
+      {
+         "title":"d9tready.com",
+         "url":"http:\/\/d9tready.com\/store\/media-sharing\/owncloud",
+         "flags":[
+            "de",
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"d9tready.png"
       }
     ]
 }
