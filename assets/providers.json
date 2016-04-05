@@ -1382,7 +1382,7 @@
          "title":"ownserver.org",
          "url":"http:\/\/ownserver.org",
          "flags":[
-            "en",
+            "us",
             "nl"
          ],
          "freeplans":false,
@@ -1403,14 +1403,13 @@
             "consumers",
             "organisations"
             ],
-         "imagename":"cloudron"
+         "imagename":"cloudron.png"
       },
       {
          "title":"d9tready.com",
          "url":"http:\/\/d9tready.com\/store\/media-sharing\/owncloud",
          "flags":[
             "de",
-            "en",
             "us"
          ],
          "freeplans":false,
