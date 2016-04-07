@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -15,8 +15,8 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to not properly checking the ownership of an calendar, an authenticated attacker is able to download calendars of other users via the “calendar_id” GET parameter to /apps/calendar/ajax/events.php</p>
-<p>Note: Successful exploitation of this privilege escalation requires the “calendar” app to be enabled (enabled by default).</p>
+        <p><p>Due to not properly checking the ownership of an calendar, an authenticated attacker is able to download calendars of other users via the "calendar_id" GET parameter to /apps/calendar/ajax/events.php</p>
+<p>Note: Successful exploitation of this privilege escalation requires the "calendar" app to be enabled (enabled by default).</p>
 </p>
         <h3>Affected Software</h3>
         <ul>

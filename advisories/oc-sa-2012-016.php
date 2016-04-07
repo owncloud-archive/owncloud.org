@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -15,7 +15,7 @@
         
         
         <h3>Description</h3>
-        <p><p>ownCloud 4.0.6 and all versions previous to this doesn’t sufficiently verify whether a request to appconfig.php was sent by an admin, which allows remote authenticated users to edit app configurations.</p>
+        <p><p>ownCloud 4.0.6 and all versions previous to this doesn't sufficiently verify whether a request to appconfig.php was sent by an admin, which allows remote authenticated users to edit app configurations.</p>
 <p>NOTE: this can be leveraged by unauthenticated remote attackers using CVE-2012-4393.</p>
 </p>
         <h3>Affected Software</h3>
