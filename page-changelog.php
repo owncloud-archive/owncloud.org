@@ -32,7 +32,7 @@ Go directly to the latest maintenance release of:
 	<li>Sharing to AD group fails when not all users have logged in <a href="https://github.com/owncloud/core/issues/22907">#22907</a></li>
 	<li>Case insensitive group sharing <a href="https://github.com/owncloud/core/issues/23223">#23223</a></li>
 	<li>Position of edit options in sharing menu confuses user <a href="https://github.com/owncloud/core/issues/18163">#18163</a></li>
-	<li>Cannot download shared albums that were shared via link <a href="https://github.com/owncloud/core/issues/gallery/554">gallery/#554</a></li>
+	<li>Cannot download shared albums that were shared via link <a href="https://github.com/owncloud/gallery/issues/554">gallery/#554</a></li>
 	</li></ul>
 <li>CalDAV/CardDAV, Calendar and Contacts
 	<ul>
@@ -142,7 +142,7 @@ Go directly to the latest maintenance release of:
 <li>Trying to activate app on production stable9, doesn’t work (dependency analyzer) <a href="https://github.com/owncloud/core/issues/23668">#23668</a></li>
 <li>User trapped in app management screen <a href="https://github.com/owncloud/core/issues/23482">#23482</a></li>
 <li>Read available l10n files also from theme folder <a href="https://github.com/owncloud/core/issues/23567">#23567</a></li>
-<li>CSS isn't loaded correctly in ownCloud 9 version of the player <a href="https://github.com/owncloud/core/issues/files_videoplayer/36">files_videoplayer/#36</a></li>
+<li>CSS isn't loaded correctly in ownCloud 9 version of the player <a href="https://github.com/owncloud/files_videoplayer/issues/36">files_videoplayer/#36</a></li>
 <li>Only load for apps/files and apps/files_sharing <a href="https://github.com/owncloud/gallery/issues/635">gallery/#635</a></li>
 <li>Fix order of Gallery app in app navigation <a href="https://github.com/owncloud/gallery/issues/640">gallery/#640</a></li>
 <li>Issue migration from 8.2.2 to 9.0.0 <a href="https://github.com/owncloud/updater/issues/270">updater/#270</a></li>
