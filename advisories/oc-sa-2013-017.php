@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -16,7 +16,7 @@
         
         <h3>Description</h3>
         <p><p>A cross-site scripting (XSS) vulnerability in all ownCloud versions prior to 5.0.5 including the 4.5.x branch allows remote attackers to execute arbitrary javascript when a user opens a special crafted URL.</p>
-<p>This vulnerability exists in the bundled 3rdparty plugin “MediaElement.js”, “MediaElement.js” released version 2.11.2 which addresses the problem.</p>
+<p>This vulnerability exists in the bundled 3rdparty plugin "MediaElement.js", "MediaElement.js" released version 2.11.2 which addresses the problem.</p>
 </p>
         <h3>Affected Software</h3>
         <ul>

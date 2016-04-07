@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -15,7 +15,7 @@
         
         
         <h3>Description</h3>
-        <p><p>The “Lost Password” implementation is vulnerable to a Remote Timing Attack. The token used to secure the password reset is fetched from the database and compared to the user-specified value using the equals operator. An attacker successfully rebuilding the token can then specify an arbitrary password in POST which will overwrite the old password.</p>
+        <p><p>The "Lost Password" implementation is vulnerable to a Remote Timing Attack. The token used to secure the password reset is fetched from the database and compared to the user-specified value using the equals operator. An attacker successfully rebuilding the token can then specify an arbitrary password in POST which will overwrite the old password.</p>
 <p>Please note that actual exploitation would require an attacker to be on the same LAN as the ownCloud server.</p>
 </p>
         <h3>Affected Software</h3>

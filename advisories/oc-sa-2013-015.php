@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -15,7 +15,7 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to using “time()” as random source in the ownCloud installation routine, the entropy of the generated PostgreSQL database user password is very low and can be easily guessed.</p>
+        <p><p>Due to using "time()" as random source in the ownCloud installation routine, the entropy of the generated PostgreSQL database user password is very low and can be easily guessed.</p>
 <p>This issue is inside the ownCloud setup routine and is not related to any PostgreSQL vulnerability.</p>
 </p>
         <h3>Affected Software</h3>

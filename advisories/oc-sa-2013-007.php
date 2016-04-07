@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -15,7 +15,7 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to not properly checking the ownership of an calendar, an authenticated attacker is able to download calendars of other users via the “calid” GET parameter to export.php in /apps/calendar/</p>
+        <p><p>Due to not properly checking the ownership of an calendar, an authenticated attacker is able to download calendars of other users via the "calid" GET parameter to export.php in /apps/calendar/</p>
 </p>
         <h3>Affected Software</h3>
         <ul>

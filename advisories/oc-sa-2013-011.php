@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -16,7 +16,7 @@
         
         <h3>Description</h3>
         <p><p>Multiple cross-site scripting (XSS) vulnerabilities in ownCloud 5.0.0 allow remote attackers to inject arbitrary web script or HTML via </p>
-<ul> <li>the “new_name” POST parameter to renameTag.php in /apps/bookmarks/ajax/</li> <ul> <li><strong>Commits:</strong> 1c63eb1 (stable5)</li> <li><strong>Risk:</strong> Medium</li> <li><strong>Note:</strong> Successful exploitation of this stored XSS requires the “bookmark” app to be enabled. (enabled by default)</li> </ul> <li>multiple unspecified parameters to several files in apps/contacts/ajax/</li> <ul> <li><strong>Commits:</strong> ae9e5a4 (stable5)</li> <li><strong>Risk:</strong> Medium</li> <li><strong>Note:</strong> Successful exploitation of this stored XSS requires the “calendar” app to be enabled. (enabled by default)</li> </ul> </ul></p>
+<ul> <li>the "new_name" POST parameter to renameTag.php in /apps/bookmarks/ajax/</li> <ul> <li><strong>Commits:</strong> 1c63eb1 (stable5)</li> <li><strong>Risk:</strong> Medium</li> <li><strong>Note:</strong> Successful exploitation of this stored XSS requires the "bookmark" app to be enabled. (enabled by default)</li> </ul> <li>multiple unspecified parameters to several files in apps/contacts/ajax/</li> <ul> <li><strong>Commits:</strong> ae9e5a4 (stable5)</li> <li><strong>Risk:</strong> Medium</li> <li><strong>Note:</strong> Successful exploitation of this stored XSS requires the "calendar" app to be enabled. (enabled by default)</li> </ul> </ul></p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>5.0.1</strong> (CVE-2013-1890)</li>

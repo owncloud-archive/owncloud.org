@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -16,7 +16,7 @@
         
         <h3>Description</h3>
         <p><p>Due to not properly checking the ownership of a single contact, an authenticated attacker is able to download contacts of other users in all ownCloud versions prior to 5.0.5 including the 4.5.x branch.</p>
-<p>Note: Successful exploitation of this privilege escalation requires the “contacts” app to be enabled (enabled by default).</p>
+<p>Note: Successful exploitation of this privilege escalation requires the "contacts" app to be enabled (enabled by default).</p>
 </p>
         <h3>Affected Software</h3>
         <ul>
