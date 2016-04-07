@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -15,7 +15,7 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to not sanitising all user provided input, the "contacts" application shipped with the mentioned ownCloud versions is vulnerable to multiple stored cross-site scripting attacks.<br/>The "contacts" application is enabled by default in the ownCloud Community Edition but not shipped with the ownCloud Enterprise Edition.</p>
+        <p><p>Due to not sanitising all user provided input, the "contacts" application shipped with the mentioned ownCloud versions is vulnerable to multiple stored cross-site scripting attacks.<br/>The "contacts" application is enabled by default in the ownCloud Community Edition but not shipped with the ownCloud Enterprise Edition.</p>
 <p>Successful exploitation requires that the adversary is able to access the contact group and share contacts with the victim. The victim then has to access the contacts application and edit the maliciously drafted contact.</p>
 <p>While ownCloud advises browsers to disable inline JavaScript execution this vulnerability is caused by a <code>eval</code> like construct which is currently allowed in our default Content-Security-Policy, thus this is effectively exploitable in any browser.</p>
 </p>

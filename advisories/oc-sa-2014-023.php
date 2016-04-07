@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -24,7 +24,7 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p><code>OC_Util::getUrlContent()</code> is now following only redirects to the <code>HTTP</code> and <code>HTTPS</code> protocols.  <br>Some other functions have received further hardening as well to prevent potential bypasses of network restrictions. (In particular the "Download from URL" feature will not accept redirect to other protocols such as FTP anymore).</p>
+        <p><p><code>OC_Util::getUrlContent()</code> is now following only redirects to the <code>HTTP</code> and <code>HTTPS</code> protocols.  <br>Some other functions have received further hardening as well to prevent potential bypasses of network restrictions. (In particular the "Download from URL" feature will not accept redirect to other protocols such as FTP anymore).</p>
 <p>Those specific hardenings have been also applied to 6.0.6 and 5.0.18 but are not considered as security bugs by the ownCloud project.</p>
 </p>
         <h3>Acknowledgements</h3>

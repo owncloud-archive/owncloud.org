@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -15,7 +15,7 @@
         
         
         <h3>Description</h3>
-        <p><p>Multiple directory traversal vulnerabilities in (1) apps/files_trashbin/index.php via the “dir” GET parameter and (2) lib/files/view.php via undefined vectors in all ownCloud versions prior to 5.0.6 and other versions before 4.0.15, allow authenticated remote attackers to get access to arbitrary local files.</p>
+        <p><p>Multiple directory traversal vulnerabilities in (1) apps/files_trashbin/index.php via the "dir" GET parameter and (2) lib/files/view.php via undefined vectors in all ownCloud versions prior to 5.0.6 and other versions before 4.0.15, allow authenticated remote attackers to get access to arbitrary local files.</p>
 </p>
         <h3>Affected Software</h3>
         <ul>

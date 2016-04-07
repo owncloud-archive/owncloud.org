@@ -46,6 +46,7 @@ ownCloud Server:
   <li>8.0.x</li>
   <li>8.1.x</li>
   <li>8.2.x</li>
+  <li>9.0.x</li>
 </ul>
 ownCloud Desktop Client:
 <ul>

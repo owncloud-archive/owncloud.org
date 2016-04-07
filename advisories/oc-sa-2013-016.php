@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -15,8 +15,8 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to not rejecting “\” as path separator in all ownCloud versions prior to 5.0.4 including the 4.x branch an authenticated remote attacker is able to download arbitrary files from the server when running under Windows.</p>
-<p>This vulnerability exists inside our used DAV implementation “SabreDAV” and was found by the ownCloud security team. SabreDAV released fixed versions to address this problem.</p>
+        <p><p>Due to not rejecting "\" as path separator in all ownCloud versions prior to 5.0.4 including the 4.x branch an authenticated remote attacker is able to download arbitrary files from the server when running under Windows.</p>
+<p>This vulnerability exists inside our used DAV implementation "SabreDAV" and was found by the ownCloud security team. SabreDAV released fixed versions to address this problem.</p>
 </p>
         <h3>Affected Software</h3>
         <ul>

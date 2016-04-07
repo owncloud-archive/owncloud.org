@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -17,7 +17,7 @@
         <h3>Description</h3>
         <p><p>The external SMB storage of ownCloud was not properly neutralizing all special elements which allows an adversary to execute arbitrary SMB commands.</p>
 <p>This was caused by improperly sanitizing the ; character which is interpreted as command separator by smbclient (the used software to connect to SMB shared by ownCloud)</p>
-<p>Effectively this allows an attacker to gain access to any file on the system or overwrite it, finally leading to a PHP code execution in the case of ownCloud’s config file.</p>
+<p>Effectively this allows an attacker to gain access to any file on the system or overwrite it, finally leading to a PHP code execution in the case of ownCloud's config file.</p>
 </p>
         <h3>Affected Software</h3>
         <ul>

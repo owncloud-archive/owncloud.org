@@ -8,6 +8,7 @@ require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.p
     <a href="/blogfeed" class="rss-button"><img style="vertical-align: top;" width=35 class="img-circle" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png"></img></a>
     <p>Welcome to ownCloud News, our contributor blog roll. ownCloud contributors should <a href="https://mailman.owncloud.org/pipermail/devel/2014-April/000123.html">ask to get added</a>!</p>
     <p>Opinions are the responsibility of those who express them. See our <a href="/privacy">privacy policy</a>.</p>
+    <p>If you'd like to stay up to date with ownCloud news you could also <a href="/newsletter">subscribe to our newsletter</a>!</p>
   </div>
 </div>
 

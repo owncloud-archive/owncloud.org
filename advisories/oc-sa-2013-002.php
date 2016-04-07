@@ -1,7 +1,7 @@
 <div class="row page-content-header">
 <div class="col-md-4">
     <h1>Security Advisory</h1>
-    <a style="margin-left: 0.5em;" href="/security/advisories/">Back to advisories</a>
+    <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
@@ -15,7 +15,7 @@
         
         
         <h3>Description</h3>
-        <p><p>Due to not sufficiently sanitizing the user input in “settings/personal.php” in ownCloud 4.5.x before 4.5.6 an authenticated remote attackers may be able to execute arbitrary code by entering special crafted PHP code in the mount point settings.</p>
+        <p><p>Due to not sufficiently sanitizing the user input in "settings/personal.php" in ownCloud 4.5.x before 4.5.6 an authenticated remote attackers may be able to execute arbitrary code by entering special crafted PHP code in the mount point settings.</p>
 </p>
         <h3>Affected Software</h3>
         <ul>
