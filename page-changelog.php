@@ -149,7 +149,7 @@ Go directly to the latest maintenance release of:
 <li>Date of checkpoint/backup missing <a href="https://github.com/owncloud/updater/issues/268">updater/#268</a></li>
 <li>[New updater] Checkpoints aren't deleted after restoring them <a href="https://github.com/owncloud/updater/issues/259">updater/#259</a></li>
 <li>[New updater] Updater tries to do a md5 of a missing file <a href="https://github.com/owncloud/updater/issues/260">updater/#260</a></li>
-<li>Updater breaks OC leaving apps empty <a href="https://github.com/owncloud/core/issues/280">#280</a></li>
+<li>Updater breaks OC leaving apps empty <a href="https://github.com/owncloud/updater/issues/280">updater/#280</a></li>
 <li>Invalid password/updater.secret + Login UI broken <a href="https://github.com/owncloud/updater/issues/263">updater/#263</a></li>
 <li>Fix message style in activity view <a href="https://github.com/owncloud/activity/issues/474">activity/#474</a></li>
 <li>Remove left margin from files tabview <a href="https://github.com/owncloud/activity/issues/475">activity/#475</a></li>
