@@ -100,7 +100,6 @@ Go directly to the latest maintenance release of:
 <li>php fatal error during upgrade from 8.2.2.2 to 9.0.0.1 <a href="https://github.com/owncloud/core/issues/23020">#23020</a></li>
 <li>500 on PROPFIND with "oc:owner-display-name" <a href="https://github.com/owncloud/core/issues/23116">#23116</a></li>
 <li>Explicitly check for port <a href="https://github.com/owncloud/core/issues/23156">#23156</a></li>
-<li>PHP 5.4 Warning Wording Needs Updating <a href="https://github.com/owncloud/core/issues/1170">#1170</a></li>
 <li>Windows Office files via SMB mount through WebDAV is prompting for authentication <a href="https://github.com/owncloud/core/issues/22596">#22596</a></li>
 <li>memcached error - no activities are being shown <a href="https://github.com/owncloud/core/issues/23076">#23076</a></li>
 <li>Fix errors in memcached implementation <a href="https://github.com/owncloud/core/issues/23229">#23229</a></li>
