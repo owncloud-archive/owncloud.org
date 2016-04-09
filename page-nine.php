@@ -7,7 +7,7 @@
 				<p>ownCloud Server 9.0 has significant improvements for users, administrators and developers.<br/>
 					Learn how ownCloud 9.0 provides the safest home for all your data.
 				</p>
-				<a href="/install" class="btn btn-lg btn-primary install-8-btn">Install ownCloud 9.0 now</br></a>
+				<a href="/install" class="btn btn-lg btn-primary install-8-btn">Get ownCloud 9.0 now</br></a>
 				<!--<p>Want to learn more about ownCloud in person? Meet us at an event or join the conversation online!</p>
 				<div class="evnt-btn-wrap">
 					<a href="/events" class="btn btn-lg btn-default">Join an ownCloud Event</a>

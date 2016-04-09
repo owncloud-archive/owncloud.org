@@ -100,7 +100,6 @@ Go directly to the latest maintenance release of:
 <li>php fatal error during upgrade from 8.2.2.2 to 9.0.0.1 <a href="https://github.com/owncloud/core/issues/23020">#23020</a></li>
 <li>500 on PROPFIND with "oc:owner-display-name" <a href="https://github.com/owncloud/core/issues/23116">#23116</a></li>
 <li>Explicitly check for port <a href="https://github.com/owncloud/core/issues/23156">#23156</a></li>
-<li>PHP 5.4 Warning Wording Needs Updating <a href="https://github.com/owncloud/core/issues/1170">#1170</a></li>
 <li>Windows Office files via SMB mount through WebDAV is prompting for authentication <a href="https://github.com/owncloud/core/issues/22596">#22596</a></li>
 <li>memcached error - no activities are being shown <a href="https://github.com/owncloud/core/issues/23076">#23076</a></li>
 <li>Fix errors in memcached implementation <a href="https://github.com/owncloud/core/issues/23229">#23229</a></li>
@@ -149,7 +148,7 @@ Go directly to the latest maintenance release of:
 <li>Date of checkpoint/backup missing <a href="https://github.com/owncloud/updater/issues/268">updater/#268</a></li>
 <li>[New updater] Checkpoints aren't deleted after restoring them <a href="https://github.com/owncloud/updater/issues/259">updater/#259</a></li>
 <li>[New updater] Updater tries to do a md5 of a missing file <a href="https://github.com/owncloud/updater/issues/260">updater/#260</a></li>
-<li>Updater breaks OC leaving apps empty <a href="https://github.com/owncloud/core/issues/280">#280</a></li>
+<li>Updater breaks OC leaving apps empty <a href="https://github.com/owncloud/updater/issues/280">updater/#280</a></li>
 <li>Invalid password/updater.secret + Login UI broken <a href="https://github.com/owncloud/updater/issues/263">updater/#263</a></li>
 <li>Fix message style in activity view <a href="https://github.com/owncloud/activity/issues/474">activity/#474</a></li>
 <li>Remove left margin from files tabview <a href="https://github.com/owncloud/activity/issues/475">activity/#475</a></li>
