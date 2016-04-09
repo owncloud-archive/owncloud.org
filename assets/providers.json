@@ -1418,6 +1418,58 @@
             "organisations"
             ],
          "imagename":"d9tready.png"
+      },
+      {
+         "title":"unixcorn.org",
+         "url":"http:\/\/unixcorn.org",
+         "flags":[
+            "fr"
+         ],
+         "freeplans":true,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"unixcorn.png"
+      },
+      {
+         "title":"spryservers.net",
+         "url":"http:\/\/spryservers.net\/sprycloud",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"spryservers.png"
+      },
+      {
+         "title":"quexacloud.de",
+         "url":"http:\/\/quexacloud.de",
+         "flags":[
+            "de"
+            ],
+         "freeplans":true,
+         "supports":[
+            "consumers"
+            ],
+         "imagename":"quexacloud.png"
+      },
+      {
+         "title":"DFI.ch",
+         "url":"https:\/\/www.dfi.ch\/en\/swiss-it-services\/hosting-switzerland\/cloud-storage\/online-backup.html",
+         "flags":[
+            "ch",
+            "us"
+            ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+            ],
+         "imagename":"dfi.gif"
       }
     ]
 }
