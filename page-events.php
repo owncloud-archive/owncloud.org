@@ -53,6 +53,13 @@
 				<th>Link</th>
 			</tr>
 			<tr>
+				<td>ownCloud Contributor Conference 2016</td>
+				<td>Berlin, Germany</td>
+				<td>September 9-15</td>
+				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
+				<td><a target="_blank" href="/conf">website</a></td>
+			</tr>
+			<tr>
 				<td>ownCloud Hackathon at openSUSE Conference 2016</td>
 				<td>Nuremberg, Germany</td>
 				<td>June 22-23</td>
@@ -79,6 +86,7 @@
 				<td>May 26, 2016</td>
 				<td><a href="https://github.com/rullzer">Rullzer</a></td>
 				<td><a target="_blank" href="http://chemnitzer.linux-tage.de/">website</a></td>
+			</tr>
 			<tr>
 				<td>Workshop at OpenTechSummit 2016 Berlin</td>
 				<td>Berlin, Germany</td>
@@ -86,7 +94,15 @@
 				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
 				<td><a target="_blank" href="http://www.meetup.com/OpenXLab/events/230446672/">website</a></td>
 			</tr>
-		</tr>
+			<tr>
+				<td>Talk at Vault conference</td>
+				<td>Rayleigh, NC, USA</td>
+				<td>April 20-21, 2016</td>
+				<td><a target="_blank" href="http://http://karlitschek.de/blog/">Frank</a></td>
+				<td><a target="_blank" href="http://events.linuxfoundation.org/events/vault">website</a></td>
+			</tr>
+
+			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
 		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know via the contact form</a> or email the events mailing list!</p>
@@ -99,6 +115,12 @@
 				<th>Location</th>
 				<th>Date</th>
 				<th>Link (report)</th>
+			</tr>
+			<tr>
+				<td>PGConf US 2016</td>
+				<td>New York, USA</td>
+				<td>April 18-20, 2016</td>
+				<td><a target="_blank" href="http://www.pgconf.us/2016/">website</a></td>
 			</tr>
 			<tr>
 				<td>FOSSCOMM 2016</td>
