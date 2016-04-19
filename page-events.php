@@ -85,7 +85,7 @@
 				<td>Bunnink/Utrecht, Netherlands</td>
 				<td>May 26, 2016</td>
 				<td><a href="https://github.com/rullzer">Rullzer</a></td>
-				<td><a target="_blank" href="http://chemnitzer.linux-tage.de/">website</a></td>
+				<td><a target="_blank" href="https://www.nluug.nl/activiteiten/events/vj16/index.html">website</a></td>
 			</tr>
 			<tr>
 				<td>Workshop at OpenTechSummit 2016 Berlin</td>
