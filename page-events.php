@@ -55,7 +55,7 @@
 			<tr>
 				<td>ownCloud Hackathon at openSUSE Conference 2016</td>
 				<td>Nuremberg, Germany</td>
-				<td>June 22-26, 2016 (ownCloud program on June 22-23)</td>
+				<td>June 22-23</td>
 				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
 				<td><a target="_blank" href="https://events.opensuse.org/conference/oSC16">website</a>, <a href="/hackathon">our info page</a></td>
 			</tr>
@@ -67,26 +67,26 @@
 				<td><a target="_blank" href="https://owncloud.org/blog/owncloud-connects-business-users/">blog</a> and <a target="_blank" href="https://oc.owncloud.com/Register_cfp_1Jun16_org.html">agenda</a></td>
 			</tr>
 			<tr>
-				<td>FOSSCOMM 2016</td>
-				<td>Pireaus (Athens), Greece</td>
-				<td>April 15-18, 2016</td>
-				<td><a target="_blank" href="http://eiosifidis.blogspot.gr/2016/04/opensuse-and-owncloud-at-fosscomm-2016.html">Stathis</a></td>
-				<td><a target="_blank" href="http://fosscomm.cs.unipi.gr/">website</a> and <a target="_blank" href="http://eiosifidis.blogspot.gr/2016/04/opensuse-and-owncloud-at-fosscomm-2016.html">blog</a></td>
-			</tr>
-			<tr>
-				<td>DevOps Pro conference 2016</td>
+				<td>Talk at DevOps Pro conference 2016</td>
 				<td>Vilnius, Lithuania</td>
 				<td>May 26, 2016</td>
 				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
 				<td><a target="_blank" href="http://devopspro.lt/">website</a></td>
 			</tr>
 			<tr>
-				<td>NLUUG voorjaarsconferentie 2016</td>
+				<td>Talk at NLUUG voorjaarsconferentie 2016</td>
 				<td>Bunnink/Utrecht, Netherlands</td>
 				<td>May 26, 2016</td>
 				<td><a href="https://github.com/rullzer">Rullzer</a></td>
 				<td><a target="_blank" href="http://chemnitzer.linux-tage.de/">website</a></td>
+			<tr>
+				<td>Workshop at OpenTechSummit 2016 Berlin</td>
+				<td>Berlin, Germany</td>
+				<td>May 5, 2016</td>
+				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
+				<td><a target="_blank" href="http://www.meetup.com/OpenXLab/events/230446672/">website</a></td>
 			</tr>
+		</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
 		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know via the contact form</a> or email the events mailing list!</p>
@@ -99,6 +99,12 @@
 				<th>Location</th>
 				<th>Date</th>
 				<th>Link (report)</th>
+			</tr>
+			<tr>
+				<td>FOSSCOMM 2016</td>
+				<td>Pireaus (Athens), Greece</td>
+				<td>April 15-18, 2016</td>
+				<td><a target="_blank" href="http://fosscomm.cs.unipi.gr/">website</a> and <a target="_blank" href="http://eiosifidis.blogspot.gr/2016/04/opensuse-and-owncloud-at-fosscomm-2016.html">blog</a></td>
 			</tr>
 			<tr>
 				<td>Özgür Yazılım ve Linux Günleri (Free Software And Linux Days)</td>
