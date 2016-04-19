@@ -8,7 +8,7 @@
 	<div class="col-md-12">
 		<p>The ownCloud community organizes and participates in many events around the globe. Interested in meeting fellow ownCloud users and contributors? Look for an 
 			event that happens close to you or organize one!</p>
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup_small.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 		<h2>Meetups</h2>
 		<p>ownCloud community members all around the globe get together in meetups to learn, share ideas and work on 
 			ownCloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below is a list of local meetup groups.</p>
@@ -25,17 +25,17 @@
 <!--<div class="wrap container pad-bottom">
 	<div class="row">
 		<div class="col-md-12 text-center">
-			<h2>We rock the ownCloud Contributor Conference!</h2>
+			<h2>The ownCloud Contributor Conference!</h2>
 		</div>
-	</div>
-	<div class="row pad-bottom">
+	</div>-->
+<!--	<div class="row pad-bottom">
 		<div class="text-center videoWrapper">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y" frameborder="0" allowfullscreen></iframe>
 		</div>
-	</div>
-	<div class="row pad-bottom">
+	</div>-->
+<!--	<div class="row pad-bottom">
 		<div class="col-md-12 text-center">
-			  <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Learn more about the event and the announcements!</a>
+			  <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Learn more about the conference!</a>
 		</div>
 	</div>
 </div>-->
@@ -51,6 +51,13 @@
 				<th>Date</th>
 				<th>Organizer/contact</th>
 				<th>Link</th>
+			</tr>
+			<tr>
+				<td>ownCloud Contributor Conference 2016</td>
+				<td>Berlin, Germany</td>
+				<td>September 9-15</td>
+				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
+				<td><a target="_blank" href="/conf">website</a></td>
 			</tr>
 			<tr>
 				<td>ownCloud Hackathon at openSUSE Conference 2016</td>
@@ -79,6 +86,7 @@
 				<td>May 26, 2016</td>
 				<td><a href="https://github.com/rullzer">Rullzer</a></td>
 				<td><a target="_blank" href="http://chemnitzer.linux-tage.de/">website</a></td>
+			</tr>
 			<tr>
 				<td>Workshop at OpenTechSummit 2016 Berlin</td>
 				<td>Berlin, Germany</td>
@@ -86,7 +94,15 @@
 				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
 				<td><a target="_blank" href="http://www.meetup.com/OpenXLab/events/230446672/">website</a></td>
 			</tr>
-		</tr>
+			<tr>
+				<td>Talk at Vault conference</td>
+				<td>Rayleigh, NC, USA</td>
+				<td>April 20-21, 2016</td>
+				<td><a target="_blank" href="http://http://karlitschek.de/blog/">Frank</a></td>
+				<td><a target="_blank" href="http://events.linuxfoundation.org/events/vault">website</a></td>
+			</tr>
+
+			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
 		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know via the contact form</a> or email the events mailing list!</p>
@@ -99,6 +115,12 @@
 				<th>Location</th>
 				<th>Date</th>
 				<th>Link (report)</th>
+			</tr>
+			<tr>
+				<td>PGConf US 2016</td>
+				<td>New York, USA</td>
+				<td>April 18-20, 2016</td>
+				<td><a target="_blank" href="http://www.pgconf.us/2016/">website</a></td>
 			</tr>
 			<tr>
 				<td>FOSSCOMM 2016</td>
