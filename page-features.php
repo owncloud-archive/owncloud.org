@@ -221,6 +221,9 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 <!--	Using ownCloud 8.1 for end users - 5 minutes -->
 <!-- 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
 <!--	Your first minute with ownCloud - installation and admin screen -->
+
+    <div class="col-md-4 text-center"><img class="img-responsive img-round" src="http://img.youtube.com/vi/8QeJKGyhFhk/hqdefault.jpg" /></div>
+<!--  TODO: integrate http://web3o.blogspot.de/2011/05/jquery-youtube-popup-player-plugin.html or http://lab.abhinayrathore.com/jquery_youtube/ -->
 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/8QeJKGyhFhk?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <!--	ownCloud Documents new features in 8.1 -->
 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div>
