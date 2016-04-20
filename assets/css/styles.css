@@ -969,26 +969,63 @@ img.desaturate {
 }
 
 @media (max-width: 991px) {
-.ft-everywhere-img {
-	height: auto;
-	width: 25%;
-}
+	.ft-everywhere-img {
+		height: auto;
+		width: 25%;
+	}
 }
 
 @media (max-width: 767px) {
-.ft-everywhere-img {
-/* 	height: auto; */
-	width: 20%;
-	right: 5%;
-}
-.ft-everywhere-txt {
-	padding-right: 30%;
-	padding-left: 5%;
-	float: left;
-}
-.ft-sharing-img {
-	padding-top: 2%
-}
+	.ft-everywhere-img {
+	/* 	height: auto; */
+		width: 20%;
+		right: 5%;
+	}
+	.ft-everywhere-txt {
+		padding-right: 30%;
+		padding-left: 5%;
+		float: left;
+	}
+	.ft-sharing-img {
+		padding-top: 2%
+	}
 	
 }
 
+/* image overlay */
+
+.ft-img-overlay {
+	position: relative;
+	max-width: 500px;
+	left: 0px;  /* stick it wherever it was positioned by default */
+    top: 0px;
+	display: table;
+}
+
+/*.ft-img-overlay a {
+	display: table;
+}*/
+
+/*.ft-img-overlay img {
+	width: 100%;
+	height: 100%;
+}*/
+
+.ft-play-overlay {
+	font-size: 300%;
+	position: absolute;
+	top: 30%;
+	left: 45%;
+	margin-top: 10px;
+/* 	width: 0px; */
+/* 	height: 0px; */
+/* 	padding: 50%; */
+}
+
+.youtube i {
+	color: white;
+}
+
+.youtube i:hover {
+	color: #CC181E;
+}

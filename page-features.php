@@ -1,8 +1,13 @@
-
-
 <div class="row featurerow topfeature">
 	<div class="col-md-5">
-		<iframe width="95%" height="315" src="https://www.youtube.com/embed/g3b0XDpcvuc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
+<!-- 		<iframe width="95%" height="315" src="https://www.youtube.com/embed/g3b0XDpcvuc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe> -->
+		<div class="ft-img-overlay">
+			<a class="youtube" href="https://www.youtube.com/watch?v=g3b0XDpcvuc" title="Introduction to ownCloud 9">
+				<img class="img-responsive" src="http://img.youtube.com/vi/g3b0XDpcvuc/hqdefault.jpg" title="Introduction to ownCloud 9" />
+				<i class="icon-youtube-play ft-play-overlay"></i>
+			</a>
+		</div>
+
 	</div>
 	<div class="col-md-7">
 		<h2 class="featuretitle" style="margin-top: 0;"><span class="avoidwrap">Access, Sync and Share</span> <span class="avoidwrap">Your Data, Under Your Control!</span></h2>
@@ -102,13 +107,33 @@
 		<div id="share" class="collapse">
 			<p class="featuredesc">You and others can comment on files, tag them, and see the comments and tags by others. ownCloud lets you share files, calendars and other data with users on your ownCloud or on other ownCloud servers ("federation"). User names on remote ownCloud servers ("Federated Cloud ID's") are auto-completed once the server is added as trusted (this can be done automatically on the first time you share with the other server) and files you share with others always remain on your server. You can also share via public links with or without upload rights, password protection and automatic expiration.</p>
 <!-- 		Adding tags to files -->
-			<iframe width="100%" height="360" src="https://www.youtube.com/embed/6coT-WCbEyo" frameborder="0" allowfullscreen></iframe>
+			<div class="ft-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=6coT-WCbEyo" title="Adding tags to files">
+					<img class="img-responsive" src="http://img.youtube.com/vi/6coT-WCbEyo/hqdefault.jpg" title="Adding tags to files" />
+					<i class="icon-youtube-play ft-play-overlay"></i>
+				</a>
+			</div>
 <!-- 		Adding comments to files -->
-			<iframe width="100%" height="360" src="https://www.youtube.com/embed/hOl2OhvKZQY" frameborder="0" allowfullscreen></iframe>
+			<div class="ft-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=hOl2OhvKZQY" title="Adding comments to files">
+					<img class="img-responsive" src="http://img.youtube.com/vi/hOl2OhvKZQY/hqdefault.jpg" title="Adding comments to files" />
+					<i class="icon-youtube-play ft-play-overlay"></i>
+				</a>
+			</div>
 <!-- 		Creating a public upload folder -->
-			<iframe width="100%" height="360" src="https://www.youtube.com/embed/3GSppxEhmZY?rel=0" frameborder="0" allowfullscreen></iframe>
+			<div class="ft-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=3GSppxEhmZY" title="Creating a public upload folder">
+					<img class="img-responsive" src="http://img.youtube.com/vi/3GSppxEhmZY/hqdefault.jpg" title="Creating a public upload folder" />
+					<i class="icon-youtube-play ft-play-overlay"></i>
+				</a>
+			</div>
 <!-- 		Federation -->
-			<iframe width="100%" height="360" src="https://www.youtube.com/embed/b1F-N3QXN2s" frameborder="0" allowfullscreen></iframe>
+			<div class="ft-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=b1F-N3QXN2s" title="ownCloud Federation in action">
+					<img class="img-responsive" src="http://img.youtube.com/vi/b1F-N3QXN2s/hqdefault.jpg" title="ownCloud Federation in action" />
+					<i class="icon-youtube-play ft-play-overlay"></i>
+				</a>
+			</div>
 	        <p>Learn <a href="/federation">more about federation here</a>.</p>
 		</div>
 	</div>
@@ -121,8 +146,14 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 		<div id="store" class="collapse">
 			<p class="featuredesc">You can add external storage to your ownCloud with Dropbox, SWIFT, (S)FTP, Google Drive, Amazon S3, OpenStack Object Storage, local hard drives, WebDAV, SMB/CIFS and more. You can control if you want to retrieve thumbnails and how often you want to check for changes. With the ownCloud Encryption app, data can be encrypted on local and/or remote storage. Keys never leave the ownCloud server but can also be managed by an external key management tool.</p>
 <!-- 			Configuring external storage -->
-			<iframe width="100%" height="360" src="https://www.youtube.com/embed/uezzFDRnoPY?rel=0" frameborder="0" allowfullscreen></iframe>
+			<div class="ft-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=uezzFDRnoPY" title="Configuring external storage">
+					<img class="img-responsive" src="http://img.youtube.com/vi/uezzFDRnoPY/hqdefault.jpg" title="Configuring external storage" />
+					<i class="icon-youtube-play ft-play-overlay"></i>
+				</a>
+			</div>
 			<p>Read on <a href="https://opensource.com/business/16/3/cern-and-owncloud">on opensource.com</a> about the work of ownCloud and physics labs CERN, inventors of the Internet, collaborating on bringing the scalability of file sync and share to a new level.</p>
+			<p>Since ownCloud 9.0, you can enable or disable encryption on the local storage as well as for each external storage separately.</p>
 		</div>
 	</div>
 
@@ -157,8 +188,13 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 		<p class="featuredesc">Edit rich text documents with others in real time, read PDF's, see pictures, watch videos and more. <br/> <span class="caret"></span><a href="#editing" data-toggle="collapse"> learn more</a></p>
 		<div id="editing" class="collapse">
 			<p class="featuredesc">ownCloud Documents is collaborative editing of rich-text documents that lets up to 5 individuals collaborate to edit .odt or .doc files securely 
-			within the browser.  Documents may then be shared inside ownCloud or via a public link. Other collaboration apps are in development, like a <a href="https://www.collaboraoffice.com/community-news/code-updates-2/">full online office suite for ownCloud by Collabora</a> and <a href="https://owncloud.org/blog/spreed-brings-private-video-calls-to-owncloud/">private video calls and chat by Spreed</a>.</p>
-			<iframe width="100%" height="360" src="https://www.youtube.com/embed/xsqSLeppxm0" frameborder="0" allowfullscreen></iframe>
+			within the browser. Documents may then be shared inside ownCloud or via a public link. Other collaboration apps are in development, like a <a href="https://www.collaboraoffice.com/community-news/code-updates-2/">full online office suite for ownCloud by Collabora</a> and <a href="https://owncloud.org/blog/spreed-brings-private-video-calls-to-owncloud/">private video calls and chat by Spreed</a>.</p>
+			<div class="ft-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=597gjnBB2JM" title="ownCloud Documents in action">
+					<img class="img-responsive" src="http://img.youtube.com/vi/597gjnBB2JM/hqdefault.jpg" title="ownCloud Documents in action" />
+					<i class="icon-youtube-play ft-play-overlay"></i>
+				</a>
+			</div>
 		</div>
 	</div>
 
@@ -197,7 +233,7 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 
 <div class="row">
 	<ul class="featureslist">
-	        <li>ownCloud is open source - there are no limitations and you can inspect, integrate, extend and modify ownCloud however you want.</li>
+		<li>ownCloud is open source - there are no limitations and you can inspect, integrate, extend and modify ownCloud however you want.</li>
 		<li>ownCloud offers an easy user interface with search, favorites, tags and other ways to quickly get at your files.</li>
 		<li>File editing and preview support for PDF, images, text files, Open Document, Word files and more.</li>
 		<li>Integration of anti-virus scanning functionality with the anti-virus app.</li>
@@ -213,35 +249,99 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 </div>
 
 
+
 <a name="video"></a>
 
 <div class="featurewrapper"><h2>ownCloud in Action</h2></div>
 
-<div class="row"><div class="row">
-<!--	Using ownCloud 8.1 for end users - 5 minutes -->
-<!-- 	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/RrAhClhrRAc?rel=0" frameborder="0" allowfullscreen></iframe></div> -->
+<!--<div class="row">-->
+<div class="row">
 <!--	Your first minute with ownCloud - installation and admin screen -->
-
-    <div class="col-md-4 text-center"><img class="img-responsive img-round" src="http://img.youtube.com/vi/8QeJKGyhFhk/hqdefault.jpg" /></div>
-<!--  TODO: integrate http://web3o.blogspot.de/2011/05/jquery-youtube-popup-player-plugin.html or http://lab.abhinayrathore.com/jquery_youtube/ -->
-	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/8QeJKGyhFhk?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4 ft-img-overlay">
+		<a class="youtube" href="http://www.youtube.com/watch?v=8QeJKGyhFhk" title="your first minute with ownCloud">
+		<img class="img-responsive" src="http://img.youtube.com/vi/8QeJKGyhFhk/hqdefault.jpg" title="your first minute with ownCloud" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
+<!--     Adding tags to your files -->
+	<div class="col-md-4  ft-img-overlay">
+		<a class="youtube" href="https://www.youtube.com/watch?v=6coT-WCbEyo" title="Adding tags to your files">
+		<img class="img-responsive" src="http://img.youtube.com/vi/6coT-WCbEyo/hqdefault.jpg" title="Adding tags to your files" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
+<!--     Adding comments to your files -->
+	<div class="col-md-4  ft-img-overlay">
+		<a class="youtube" href="https://www.youtube.com/watch?v=hOl2OhvKZQY" title="Adding comments to your files">
+		<img class="img-responsive" src="http://img.youtube.com/vi/hOl2OhvKZQY/hqdefault.jpg" title="Adding comments to your files" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
+<!--     Sharing between ownCloud Servers -->
+	<div class="col-md-4  ft-img-overlay">
+		<a class="youtube" href="https://www.youtube.com/watch?v=b1F-N3QXN2s" title="Sharing between ownCloud servers">
+		<img class="img-responsive" src="http://img.youtube.com/vi/b1F-N3QXN2s/hqdefault.jpg" title="Sharing between ownCloud servers" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
 <!--	ownCloud Documents new features in 8.1 -->
-	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/597gjnBB2JM?rel=0" frameborder="0" allowfullscreen></iframe></div>
+ 	<div class="col-md-4  ft-img-overlay">
+		<a class="youtube" href="http://www.youtube.com/watch?v=597gjnBB2JM" title="ownCloud Documents new features in 8.1">
+		<img class="img-responsive" src="http://img.youtube.com/vi/597gjnBB2JM/hqdefault.jpg" title="ownCloud Documents new features in 8.1" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
 <!--	walk-through of the admin configuration -->
-	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/J2R-7lpBXjU?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4  ft-img-overlay">
+		<a class="youtube" href="http://www.youtube.com/watch?v=J2R-7lpBXjU" title="walk-through of the admin configuration">
+		<img class="img-responsive" src="http://img.youtube.com/vi/J2R-7lpBXjU/hqdefault.jpg" title="walk-through of the admin configuration" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
 <!--	Configuring external storage -->
-	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/uezzFDRnoPY?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4  ft-img-overlay">
+		<a class="youtube" href="http://www.youtube.com/watch?v=uezzFDRnoPY" title="Configuring external storage">
+		<img class="img-responsive" src="http://img.youtube.com/vi/uezzFDRnoPY/hqdefault.jpg" title="Configuring external storage" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
 <!--	Managing (adding, removing, changing) users in ownCloud -->
-	<div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/teelHVdXD4k?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4  ft-img-overlay">
+		<a class="youtube" href="http://www.youtube.com/watch?v=teelHVdXD4k" title="Managing (adding, removing, changing) users in ownCloud">
+		<img class="img-responsive" src="http://img.youtube.com/vi/teelHVdXD4k/hqdefault.jpg" title="Managing (adding, removing, changing) users in ownCloud" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
 <!--	New external storage options explained-->
-        <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/nx5PGWc7X18?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4  ft-img-overlay">
+		<a class="youtube" href="http://www.youtube.com/watch?v=nx5PGWc7X18" title="New external storage options explained">
+		<img class="img-responsive" src="http://img.youtube.com/vi/nx5PGWc7X18/hqdefault.jpg" title="New external storage options explained" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
 <!--ownCloud Federated Sharing video-->
-        <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/9-JEmlH2DEg?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4  ft-img-overlay">
+		<a class="youtube" href="http://www.youtube.com/watch?v=9-JEmlH2DEg" title="ownCloud Federated Sharing video">
+		<img class="img-responsive" src="http://img.youtube.com/vi/9-JEmlH2DEg/hqdefault.jpg" title="ownCloud Federated Sharing video" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
 <!--Creating a public upload folder-->
-        <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/3GSppxEhmZY?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4  ft-img-overlay">
+		<a class="youtube" href="http://www.youtube.com/watch?v=3GSppxEhmZY" title="Creating a public upload folder">
+		<img class="img-responsive" src="http://img.youtube.com/vi/3GSppxEhmZY/hqdefault.jpg" title="Creating a public upload folder" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
 <!--Experimental apps in the app store-->
-        <div class="col-md-4 text-center"><iframe width="100%" height="315" src="https://www.youtube.com/embed/ujCFy41J2ag?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	<div class="col-md-4  ft-img-overlay">
+		<a class="youtube" href="http://www.youtube.com/watch?v=ujCFy41J2ag" title="Experimental apps in the app store">
+		<img class="img-responsive" src="http://img.youtube.com/vi/ujCFy41J2ag/hqdefault.jpg" title="Experimental apps in the app store" />
+		<i class="icon-youtube-play ft-play-overlay"></i>
+		</a>
+    </div>
 </div>
+
 <p>Find more ownCloud videos on our <a href="https://youtube.com/ownClouders" target="_blank">YouTube Channel</a>.</p>
 <div class="featurewrapper"><h2>New in ownCloud Server 9.0</h2></div>
 	<div class="row featurerow">
@@ -272,3 +372,14 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 <p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> Contribute to ownCloud</a></p>
 <!-- <p><a target="_blank" href="/conf/" class="btn btn-lg btn-default"> <i class="icon-group"></i> ownCloud Contributor Conf</a></p> -->
 </div>
+
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/vendor/jquery.youtubepopup.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+	$("a.youtube").YouTubePopup({ hideTitleBar: true });
+});
+</script>
