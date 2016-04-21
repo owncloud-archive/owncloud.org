@@ -3,7 +3,7 @@
 <!-- 		<iframe width="95%" height="315" src="https://www.youtube.com/embed/g3b0XDpcvuc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe> -->
 		<div class="ft-img-overlay">
 			<a class="youtube" href="https://www.youtube.com/watch?v=g3b0XDpcvuc" title="Introduction to ownCloud 9">
-				<img class="img-responsive" src="http://img.youtube.com/vi/g3b0XDpcvuc/hqdefault.jpg" title="Introduction to ownCloud 9" />
+				<img class="img-responsive" src="https://img.youtube.com/vi/g3b0XDpcvuc/hqdefault.jpg" title="Introduction to ownCloud 9" />
 				<i class="icon-youtube-play ft-play-overlay"></i>
 			</a>
 		</div>
@@ -109,28 +109,28 @@
 <!-- 		Adding tags to files -->
 			<div class="ft-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=6coT-WCbEyo" title="Adding tags to files">
-					<img class="img-responsive" src="http://img.youtube.com/vi/6coT-WCbEyo/hqdefault.jpg" title="Adding tags to files" />
+					<img class="img-responsive" src="https://img.youtube.com/vi/6coT-WCbEyo/hqdefault.jpg" title="Adding tags to files" />
 					<i class="icon-youtube-play ft-play-overlay"></i>
 				</a>
 			</div>
 <!-- 		Adding comments to files -->
 			<div class="ft-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=hOl2OhvKZQY" title="Adding comments to files">
-					<img class="img-responsive" src="http://img.youtube.com/vi/hOl2OhvKZQY/hqdefault.jpg" title="Adding comments to files" />
+					<img class="img-responsive" src="https://img.youtube.com/vi/hOl2OhvKZQY/hqdefault.jpg" title="Adding comments to files" />
 					<i class="icon-youtube-play ft-play-overlay"></i>
 				</a>
 			</div>
 <!-- 		Creating a public upload folder -->
 			<div class="ft-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=3GSppxEhmZY" title="Creating a public upload folder">
-					<img class="img-responsive" src="http://img.youtube.com/vi/3GSppxEhmZY/hqdefault.jpg" title="Creating a public upload folder" />
+					<img class="img-responsive" src="https://img.youtube.com/vi/3GSppxEhmZY/hqdefault.jpg" title="Creating a public upload folder" />
 					<i class="icon-youtube-play ft-play-overlay"></i>
 				</a>
 			</div>
 <!-- 		Federation -->
 			<div class="ft-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=b1F-N3QXN2s" title="ownCloud Federation in action">
-					<img class="img-responsive" src="http://img.youtube.com/vi/b1F-N3QXN2s/hqdefault.jpg" title="ownCloud Federation in action" />
+					<img class="img-responsive" src="https://img.youtube.com/vi/b1F-N3QXN2s/hqdefault.jpg" title="ownCloud Federation in action" />
 					<i class="icon-youtube-play ft-play-overlay"></i>
 				</a>
 			</div>
@@ -148,7 +148,7 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 <!-- 			Configuring external storage -->
 			<div class="ft-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=uezzFDRnoPY" title="Configuring external storage">
-					<img class="img-responsive" src="http://img.youtube.com/vi/uezzFDRnoPY/hqdefault.jpg" title="Configuring external storage" />
+					<img class="img-responsive" src="https://img.youtube.com/vi/uezzFDRnoPY/hqdefault.jpg" title="Configuring external storage" />
 					<i class="icon-youtube-play ft-play-overlay"></i>
 				</a>
 			</div>
@@ -191,7 +191,7 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 			within the browser. Documents may then be shared inside ownCloud or via a public link. Other collaboration apps are in development, like a <a href="https://www.collaboraoffice.com/community-news/code-updates-2/">full online office suite for ownCloud by Collabora</a> and <a href="https://owncloud.org/blog/spreed-brings-private-video-calls-to-owncloud/">private video calls and chat by Spreed</a>.</p>
 			<div class="ft-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=597gjnBB2JM" title="ownCloud Documents in action">
-					<img class="img-responsive" src="http://img.youtube.com/vi/597gjnBB2JM/hqdefault.jpg" title="ownCloud Documents in action" />
+					<img class="img-responsive" src="https://img.youtube.com/vi/597gjnBB2JM/hqdefault.jpg" title="ownCloud Documents in action" />
 					<i class="icon-youtube-play ft-play-overlay"></i>
 				</a>
 			</div>
@@ -258,85 +258,85 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 <div class="row">
 <!--	Your first minute with ownCloud - installation and admin screen -->
 	<div class="col-md-4 ft-img-overlay">
-		<a class="youtube" href="http://www.youtube.com/watch?v=8QeJKGyhFhk" title="your first minute with ownCloud">
-		<img class="img-responsive" src="http://img.youtube.com/vi/8QeJKGyhFhk/hqdefault.jpg" title="your first minute with ownCloud" />
+		<a class="youtube" href="https://www.youtube.com/watch?v=8QeJKGyhFhk" title="your first minute with ownCloud">
+		<img class="img-responsive" src="https://img.youtube.com/vi/8QeJKGyhFhk/hqdefault.jpg" title="your first minute with ownCloud" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
 <!--     Adding tags to your files -->
 	<div class="col-md-4  ft-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=6coT-WCbEyo" title="Adding tags to your files">
-		<img class="img-responsive" src="http://img.youtube.com/vi/6coT-WCbEyo/hqdefault.jpg" title="Adding tags to your files" />
+		<img class="img-responsive" src="https://img.youtube.com/vi/6coT-WCbEyo/hqdefault.jpg" title="Adding tags to your files" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
 <!--     Adding comments to your files -->
 	<div class="col-md-4  ft-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=hOl2OhvKZQY" title="Adding comments to your files">
-		<img class="img-responsive" src="http://img.youtube.com/vi/hOl2OhvKZQY/hqdefault.jpg" title="Adding comments to your files" />
+		<img class="img-responsive" src="https://img.youtube.com/vi/hOl2OhvKZQY/hqdefault.jpg" title="Adding comments to your files" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
 <!--     Sharing between ownCloud Servers -->
 	<div class="col-md-4  ft-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=b1F-N3QXN2s" title="Sharing between ownCloud servers">
-		<img class="img-responsive" src="http://img.youtube.com/vi/b1F-N3QXN2s/hqdefault.jpg" title="Sharing between ownCloud servers" />
+		<img class="img-responsive" src="https://img.youtube.com/vi/b1F-N3QXN2s/hqdefault.jpg" title="Sharing between ownCloud servers" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
 <!--	ownCloud Documents new features in 8.1 -->
  	<div class="col-md-4  ft-img-overlay">
-		<a class="youtube" href="http://www.youtube.com/watch?v=597gjnBB2JM" title="ownCloud Documents new features in 8.1">
-		<img class="img-responsive" src="http://img.youtube.com/vi/597gjnBB2JM/hqdefault.jpg" title="ownCloud Documents new features in 8.1" />
+		<a class="youtube" href="https://www.youtube.com/watch?v=597gjnBB2JM" title="ownCloud Documents new features in 8.1">
+		<img class="img-responsive" src="https://img.youtube.com/vi/597gjnBB2JM/hqdefault.jpg" title="ownCloud Documents new features in 8.1" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
 <!--	walk-through of the admin configuration -->
 	<div class="col-md-4  ft-img-overlay">
-		<a class="youtube" href="http://www.youtube.com/watch?v=J2R-7lpBXjU" title="walk-through of the admin configuration">
-		<img class="img-responsive" src="http://img.youtube.com/vi/J2R-7lpBXjU/hqdefault.jpg" title="walk-through of the admin configuration" />
+		<a class="youtube" href="https://www.youtube.com/watch?v=J2R-7lpBXjU" title="walk-through of the admin configuration">
+		<img class="img-responsive" src="https://img.youtube.com/vi/J2R-7lpBXjU/hqdefault.jpg" title="walk-through of the admin configuration" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
 <!--	Configuring external storage -->
 	<div class="col-md-4  ft-img-overlay">
-		<a class="youtube" href="http://www.youtube.com/watch?v=uezzFDRnoPY" title="Configuring external storage">
-		<img class="img-responsive" src="http://img.youtube.com/vi/uezzFDRnoPY/hqdefault.jpg" title="Configuring external storage" />
+		<a class="youtube" href="https://www.youtube.com/watch?v=uezzFDRnoPY" title="Configuring external storage">
+		<img class="img-responsive" src="https://img.youtube.com/vi/uezzFDRnoPY/hqdefault.jpg" title="Configuring external storage" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
 <!--	Managing (adding, removing, changing) users in ownCloud -->
 	<div class="col-md-4  ft-img-overlay">
-		<a class="youtube" href="http://www.youtube.com/watch?v=teelHVdXD4k" title="Managing (adding, removing, changing) users in ownCloud">
-		<img class="img-responsive" src="http://img.youtube.com/vi/teelHVdXD4k/hqdefault.jpg" title="Managing (adding, removing, changing) users in ownCloud" />
+		<a class="youtube" href="https://www.youtube.com/watch?v=teelHVdXD4k" title="Managing (adding, removing, changing) users in ownCloud">
+		<img class="img-responsive" src="https://img.youtube.com/vi/teelHVdXD4k/hqdefault.jpg" title="Managing (adding, removing, changing) users in ownCloud" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
 <!--	New external storage options explained-->
 	<div class="col-md-4  ft-img-overlay">
-		<a class="youtube" href="http://www.youtube.com/watch?v=nx5PGWc7X18" title="New external storage options explained">
-		<img class="img-responsive" src="http://img.youtube.com/vi/nx5PGWc7X18/hqdefault.jpg" title="New external storage options explained" />
+		<a class="youtube" href="https://www.youtube.com/watch?v=nx5PGWc7X18" title="New external storage options explained">
+		<img class="img-responsive" src="https://img.youtube.com/vi/nx5PGWc7X18/hqdefault.jpg" title="New external storage options explained" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
 <!--ownCloud Federated Sharing video-->
 	<div class="col-md-4  ft-img-overlay">
-		<a class="youtube" href="http://www.youtube.com/watch?v=9-JEmlH2DEg" title="ownCloud Federated Sharing video">
-		<img class="img-responsive" src="http://img.youtube.com/vi/9-JEmlH2DEg/hqdefault.jpg" title="ownCloud Federated Sharing video" />
+		<a class="youtube" href="https://www.youtube.com/watch?v=9-JEmlH2DEg" title="ownCloud Federated Sharing video">
+		<img class="img-responsive" src="https://img.youtube.com/vi/9-JEmlH2DEg/hqdefault.jpg" title="ownCloud Federated Sharing video" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
 <!--Creating a public upload folder-->
 	<div class="col-md-4  ft-img-overlay">
-		<a class="youtube" href="http://www.youtube.com/watch?v=3GSppxEhmZY" title="Creating a public upload folder">
-		<img class="img-responsive" src="http://img.youtube.com/vi/3GSppxEhmZY/hqdefault.jpg" title="Creating a public upload folder" />
+		<a class="youtube" href="https://www.youtube.com/watch?v=3GSppxEhmZY" title="Creating a public upload folder">
+		<img class="img-responsive" src="https://img.youtube.com/vi/3GSppxEhmZY/hqdefault.jpg" title="Creating a public upload folder" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
 <!--Experimental apps in the app store-->
 	<div class="col-md-4  ft-img-overlay">
-		<a class="youtube" href="http://www.youtube.com/watch?v=ujCFy41J2ag" title="Experimental apps in the app store">
-		<img class="img-responsive" src="http://img.youtube.com/vi/ujCFy41J2ag/hqdefault.jpg" title="Experimental apps in the app store" />
+		<a class="youtube" href="https://www.youtube.com/watch?v=ujCFy41J2ag" title="Experimental apps in the app store">
+		<img class="img-responsive" src="https://img.youtube.com/vi/ujCFy41J2ag/hqdefault.jpg" title="Experimental apps in the app store" />
 		<i class="icon-youtube-play ft-play-overlay"></i>
 		</a>
     </div>
@@ -373,9 +373,9 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 <!-- <p><a target="_blank" href="/conf/" class="btn btn-lg btn-default"> <i class="icon-group"></i> ownCloud Contributor Conf</a></p> -->
 </div>
 
-<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/vendor/jquery.youtubepopup.min.js"></script>
 
 <script type="text/javascript">
