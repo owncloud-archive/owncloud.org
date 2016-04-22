@@ -215,7 +215,7 @@ body {
 		height: 30%;
 		margin: 0 0 0 0 !important;
 		position: absolute;
-		bottom:0%;
+		bottom:-20px;
 		left:35%;
 		/* IE 9 */
 		-ms-transform: rotate(-11deg);
@@ -266,7 +266,7 @@ body {
 			height: 35%;
 			margin: 0 0 0 0 !important;
 			position: absolute;
-			bottom:0%;
+			bottom:-20px;
 			left:35%;
 			/* IE 9 */
 			-ms-transform: rotate(-11deg);
@@ -344,11 +344,11 @@ only screen and ( min-resolution: 160dpi              ) and (min-width: 700px) a
 	}
 
 	.home-event-img {
-		height: 30%;
+		height: 28%;
 		margin: 0 0 0 0 !important;
 		position: absolute;
-		top:15%;
-		left:80%;
+		top:10%;
+		left:5%;
 		/* IE 9 */
 		-ms-transform: rotate(-11deg);
 		/* Chrome, Safari, Opera */
@@ -372,11 +372,11 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 862px
 		margin-left: 8%;
 	}
 	.home-event-img {
-		height: 30%;
+		height: 28%;
 		margin: 0 0 0 0 !important;
 		position: absolute;
-		top:15%;
-		left:80%;
+		top:10%;
+		left:5%;
 		/* IE 9 */
 		-ms-transform: rotate(-11deg);
 		/* Chrome, Safari, Opera */
@@ -394,11 +394,11 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 862px
 		margin-left: 0%;
 	}
 	.home-event-img {
-		height: 30%;
+		height: 28%;
 		margin: 0 0 0 0 !important;
 		position: absolute;
-		top:15%;
-		left:80%;
+		top:10%;
+		left:5%;
 		/* IE 9 */
 		-ms-transform: rotate(-11deg);
 		/* Chrome, Safari, Opera */
@@ -422,11 +422,11 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 992px
 		margin-left: 0%;
 	}
 	.home-event-img {
-		height: 30%;
+		height: 28%;
 		margin: 0 0 0 0 !important;
 		position: absolute;
-		bottom:15%;
-		left:80%;
+		top:15%;
+		left:5%;
 		/* IE 9 */
 		-ms-transform: rotate(-11deg);
 		/* Chrome, Safari, Opera */
