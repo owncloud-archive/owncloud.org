@@ -293,3 +293,17 @@
         $("#li-tab-packages").addClass("active");
     });
 </script>
+<script type="text/javascript">
+	$(function() {
+		if (navigator.appVersion.indexOf("Win")!=-1) {
+			var e = document.getElementById("client-download-win");
+			e.className += ' btn-primary';
+		} else if(navigator.appVersion.indexOf("Mac")!=-1) {
+			var e = document.getElementById("client-download-mac");
+			e.className += " btn-primary";
+		} else if (navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1) {
+			var e = document.getElementById("client-download-linux");
+			e.className += ' btn-primary';
+		}
+	});
+</script>

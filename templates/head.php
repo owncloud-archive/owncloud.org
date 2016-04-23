@@ -6,12 +6,8 @@
 	<title><?php wp_title('|', true, 'right'); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta itemprop="name" content="ownCloud">
-	<meta itemprop="description" content="ownCloud provides universal access to your files via the web, your computer or your mobile devices — wherever you are.
-	It also provides a platform to easily view &amp; sync your contacts, calendars and bookmarks across all your devices and enables basic editing right on the web.
-	Through apps, you can extend ownCloud Server and make it your own!">
-	<meta name="description" content="ownCloud provides universal access to your files via the web, your computer or your mobile devices — wherever you are.
-	It also provides a platform to easily view &amp; sync your contacts, calendars and bookmarks across all your devices and enables basic editing right on the web.
-	Through apps, you can extend ownCloud Server and make it your own!">
+	<meta itemprop="description" content="ownCloud is an open source, self-hosted file sync and share app platform. Access  &amp; sync your files, contacts, calendars  &amp; bookmarks across your devices. You decide what happens with your data, where it is and who can access it!">
+	<meta name="description" content="ownCloud is an open source, self-hosted file sync and share app platform. Access  &amp; sync your files, contacts, calendars  &amp; bookmarks across your devices. You decide what happens with your data, where it is and who can access it!">
 	<meta itemprop="image" content="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/home/ocsplash.png">
   <meta name="theme-color" content="#1d2d44">
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.png" />
@@ -24,22 +20,6 @@
   	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.masonry.min.js"></script>
 	<?php } ?>
 	<link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
-	<?php if(is_page('install')) { ?>
-	<script type="text/javascript">
-		$(function() {
-			if (navigator.appVersion.indexOf("Win")!=-1) {
-				var e = document.getElementById("client-download-win");
-				e.className += ' btn-primary';
-			} else if(navigator.appVersion.indexOf("Mac")!=-1) {
-				var e = document.getElementById("client-download-mac");
-				e.className += " btn-primary";
-			} else if (navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1) {
-				var e = document.getElementById("client-download-linux");
-				e.className += ' btn-primary';
-			}
-		});
-	</script>
-	<?php } ?>
 </head>
 
 
