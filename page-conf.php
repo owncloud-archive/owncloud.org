@@ -2,30 +2,11 @@
 	<div class="col-sm-6 col-sm-offset-3">
 		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 		<h2 class="conf-location">Hold the date: Sept 9 - 15 2016, Berlin</h2>
-		Registration will open in Q1 2016. To get notified,</br>
-		<a href="/confsubscribe" style="font-weight: 300" class="btn btn-lg btn-primary">sign up here <i class="icon-check"></i></a>
+		<a href="https://conference.owncloud.org/conference/oCC2016/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register here <i class="icon-check"></i></a>
 		<!--<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 <!--		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>-->
 		<!--<p>Find <a href="confinfo">practical information for visitors here</a>.</p>-->
-	</div>
-</div>
-<div class="row conf-about">
-	<div class="col-sm-6 no-underline">
-		<h2>We rocked #ownCloudConf 2015!</h2>
-		<a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2015_wee.jpg" style="width: 95%" alt="group photo" class="img-responsive" /></a>
-	</div>
-	<div class="col-sm-6">
-		<p>The ownCloud Contributor Conference 2015 is over and was awesome. We welcomed about 140 ownClouders at the TU Berlin for a week of writing code and sharing beer, knowledge and inspiration.</p>
-		<h2>Announcements</h2>
-		<p>During the keynote on Saturday we announced the following awesome news items:
-                <ul>
-                    <li><a href="https://userdatamanifesto.org/" target="_blank">User Data Manifesto 2.0</a></li>
-                    <li><a href="https://hackerone.com/owncloud" target="_blank">Security Bug Bounties</a></li>
-                    <li><a href="/connect" target="_blank">ownCloud Proxy</a></li>
-                </ul>
-		Read our <a href="https://owncloud.org/blog/owncloud-contributor-conference-has-started-with-big-announcements/" target="_blank">blog about the announcements here</a>.</p>
-		<p>We published a overview of <a href="https://owncloud.org/blog/owncloud-contributor-conference-well-underway" target="_blank">the event in this blog</a>.</p>
 	</div>
 </div>
 <!--<div class="row">
@@ -33,11 +14,6 @@
 		<iframe width="95%" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y" frameborder="0" allowfullscreen></iframe>
 	</div>
 </div>-->
-<div class="row">
-	<div class="text-center">
-	<h2>2016</h2>
-	</div>
-</div>
 <div class="row conf-info">
 	<div class="col-sm-6">
 		<i class="icon-code"></i>
@@ -92,13 +68,18 @@
 		<p>We want everybody to feel welcome at the event. Please be mindful of our <a href="https://owncloud.org/community/code-of-conduct/">code of conduct</a>. Also, please note that there will be video recording. The conference is an open space, please be sure that you are comfortable with that. Of course, you can always ask people not to take pictures or video of you.</p>
 	</div>
 </div>
+<!--<div class="row">
+	<div class="text-center">
+	<h2>2015</h2>
+	</div>
+</div>
 <div class="row conf-info">
 	<div class="col-md-12">
 		<h2>Coverage 2015</h2>
 	</div>
-</div>
+</div>-->
 
-<div class="row conf-info">
+<!--<div class="row conf-info">
         <div class="col-sm-4">Golem: <br />
                 <a href="http://www.golem.de/news/contributor-conference-owncloud-fuehrt-programm-fuer-bug-bounties-ein-1508-116016.html" target="_blank">Bug-Bounties</a>, <a href="http://www.golem.de/news/supernerds-angst-schueren-gegen-den-ueberwachungswahn-1508-116023.html" target="_blank">keynote by Angela</a>, <a href="http://www.golem.de/news/private-cloud-proxy-fuer-owncloud-soll-heimnutzung-erleichtern-1508-116014.html" target="_blank">ownCloud Proxy</a>.
         </div>
@@ -147,7 +128,7 @@
 	<div class="col-xs-6 col-sm-4 col-md-3">
 		<a target="_blank" href="http://www.linuxveda.com/"><img class="banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/linuxveda.png" alt="Visit LinuxVeda" /></a>
 	</div>
-</div>
+</div>-->
 <div class="row conf-about">
 	<div class="col-sm-6">
 		<h2>Last year</h2>
