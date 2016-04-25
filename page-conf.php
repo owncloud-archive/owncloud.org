@@ -69,11 +69,11 @@
 		
 	</div>
 </div>
-<!--<div class="row conf-info">
+<div class="row conf-info">
 	<div class="col-sm-6">
 		<h2>Register</h2>
-		<p>The ownCloud Contributor Conference will be entirely open and free. We do ask you to <a href="https://conference.owncloud.org/conference/oCC2015/register/new" target="_blank">register</a> to help us plan better for the event</p>
-		<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a>, <a href="http://www.meetup.com/owncloud-berlin/events/224095898/" target="_blank">Meetup.com</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>
+		<p>The ownCloud Contributor Conference will be entirely open and free. We do ask you to <a href="https://conference.owncloud.org/conference/oCC2016/register/new" target="_blank">register</a> to help us plan better for the event</p>
+		<!--<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a>, <a href="http://www.meetup.com/owncloud-berlin/events/224095898/" target="_blank">Meetup.com</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>-->
 		<h2>Location</h2>
 		<p>Our conference will take place in Berlin at the <em>Technische Universität Berlin</em>, in the "<a href="https://www.math.tu-berlin.de/" target="_blank">Institut für Mathematik</a>" building, main entree at Strasse des 17. Juni 136, 10623 Berlin.</p>
 		<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=13.32431048154831%2C52.51259881205445%2C13.328194320201874%2C52.51417400875078&amp;layer=mapnik&amp;marker=52.513385601296605%2C13.326252400875092" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51339&amp;mlon=13.32625#map=19/52.51339/13.32625">View Larger Map</a></small>
@@ -82,15 +82,16 @@
 		<h2 class="conf-acc">Berlin and accommodation</h2>
 		<p>We gathered some hotel options for you! Be quick, many hotels already had no space left in May...</p>
 		<ul>
-                            <li>You can book for Eur 65/night single or Eur 75/night double at <a href="http://www.aletto.de/en/kudamm" target="_blank">hotel Aletto Kudamm</a> by <a href="mailto:gr@aletto.de">sending a mail to gr@aletto.de</a> with your reservation data and mentioning "owncloudconf2015". Note that we could reserve only 20 rooms and the reservation ends on June 28!</li>
-                            <li>Another option is the <a href="http://www.nh-hotels.de/hotel/nh-berlin-city-ost" target="_blank">NH Berlin City Ost</a>, about Eur 75 per night. It is situated in Berlin East so a S-bahn ride away but close to where we have booked more people. We have no reserved rooms so you'll have to be quick!</li>
-                            <li><a href="http://www.allhotels-inn.com/show.php?hotel=876&ref=0" target="_blank">Hotel Amelie</a> is just a quick U-bahn stop away, is affordable and still has room.</li>
+                            <li><strong><a href="http://www.accorhotels.com/gb/hotel-7968-ibis-budget-berlin-kurfuerstendamm/index.shtml" target="_blank">Ibis Budget Berlin Kurfürstendamm</strong> This affordable hotel (starting at Eur 50/night) is one U-bahn stop or a 25 minute walk away from the University. Most of the core developers will be staying here.</li>
+                            <li><strong><a href="http://www.aletto.de/en/kudamm" target="_blank">Youth hotel Aletto Kudamm</a></strong> (starting at Eur 50) is walking distance.</li>
+                            <li><a href="http://www.allhotels-inn.com/show.php?hotel=876&ref=0" target="_blank">Hotel Amelie</a> is just a quick U-bahn trip away and is affordable.</li>
+                            <li><strong><a href="http://www.accorhotels.com/gb/hotel-3649-novotel-berlin-am-tiergarten/index.shtml" target="_blank">Novotel Berlin Am Tiergarten</a></strong>This hotel costs about Eur 75/night but is very conveniently located at the closest S-bahn station. You do risk sleeping on the side of the train, though, that isn't fun.</li>
 		</ul>
 		<p>If these hotels are full or not to your liking, you can use <a href="http://findhotelsnearanaddress.com/">this site</a> to find something close by the University.</p>
 		<h2>Code of conduct</h2>
 		<p>We want everybody to feel welcome at the event. Please be mindful of our <a href="https://owncloud.org/community/code-of-conduct/">code of conduct</a>. Also, please note that there will be video recording. The conference is an open space, please be sure that you are comfortable with that. Of course, you can always ask people not to take pictures or video of you.</p>
 	</div>
-</div>-->
+</div>
 <div class="row conf-info">
 	<div class="col-md-12">
 		<h2>Coverage 2015</h2>
