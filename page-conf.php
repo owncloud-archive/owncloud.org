@@ -33,10 +33,10 @@
 		<p>We will also have a program with talks and workshops to provide a chance to learn and improve coding skills on and around ownCloud.<br/>
 		<!--The mornings feature keynotes and lightning talks and the afternoons have workshops.--> Examples from last year include:</p>
 		<ul>
-			<li>Learn to <a href="https://conference.owncloud.org/conference/oCC2015/proposal/101" target="_blank">write your first ownCloud Server App</a></li>
-			<li>Find out about the state of the <a href="https://conference.owncloud.org/conference/oCC2015/proposal/86" target="_blank">Music</a>, <a href="https://conference.owncloud.org/conference/oCC2015/proposal/89" target="_blank">Files</a> or <a href="https://conference.owncloud.org/conference/oCC2015/proposal/88" target="_blank">Contacts</a> app</li>
-			<li><a href="https://conference.owncloud.org/conference/oCC2015/proposal/59" target="_blank">Secure your PHP application</a></li>
-			<li>How is ownCloud <a href="https://conference.owncloud.org/conference/oCC2015/proposal/91" target="_blank">used for 500.000 students</a></li>
+			<li>Learn to <a href="https://conference.owncloud.org/conference/oCC2015/program/proposal/101" target="_blank">write your first ownCloud Server App</a></li>
+			<li>Find out about the state of the <a href="https://conference.owncloud.org/conference/oCC2015/program/proposal/86" target="_blank">Music</a>, <a href="https://conference.owncloud.org/conference/oCC2015/program/proposal/89" target="_blank">Files</a> or <a href="https://conference.owncloud.org/conference/oCC2015/program/proposal/88" target="_blank">Contacts</a> app</li>
+			<li><a href="https://conference.owncloud.org/conference/oCC2015/program/proposal/59" target="_blank">Secure your PHP application</a></li>
+			<li>How is ownCloud <a href="https://conference.owncloud.org/conference/oCC2015/program/proposal/91" target="_blank">used for 500.000 students</a></li>
 		</ul>
 		<!--<p>Check out <a href="https://owncloud.org/blog/owncloud-contributor-conference-program/">the full program</a>!</p>-->
 		<p>We will publish a Call for Papers in Q2 2016</p>
