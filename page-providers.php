@@ -76,5 +76,5 @@ function displayProviders($providers, $free=false) {
 }
 
 ?>
-<div class="alert alert-info">If you offer ownCloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. To find out more about becoming an enterprise provider with a support contract from <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> please see <a target="_blank" href="https://owncloud.com/products/service-provider">their website</a>.</div>
+<div class="alert alert-info">If you offer ownCloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. To find out more about becoming an enterprise provider with a support contract from <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> please see <a target="_blank" href="https://owncloud.com/products/service-provider">their website</a>. If you want to report an abuse by one of the providers listed above, you can sent us an email to abuse@owncloud.com.</div>
 
