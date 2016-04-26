@@ -2,9 +2,7 @@
 	<div class="col-sm-6 col-sm-offset-3">
 		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
 		<h2 class="conf-location">Hold the date: Sept 9 - 15 2016, Berlin</h2>
-		Registration is coming soon!<br />
-<!-- 		<a href="https://conference.owncloud.org/conference/oCC2016/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register here <i class="icon-check"></i></a> -->
-		<!--<a href="https://conference.owncloud.org/conference/oCC2015/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register <i class="icon-check"></i></a>-->
+		<a href="https://conference.owncloud.org/conference/oCC2016/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register here <i class="icon-check"></i></a>
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
 <!--		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>-->
 		<!--<p>Find <a href="confinfo">practical information for visitors here</a>.</p>-->
@@ -48,8 +46,8 @@
 </div>
 <div class="row conf-info">
 	<div class="col-sm-6">
-		<!--<h2>Register</h2>
-		<p>The ownCloud Contributor Conference will be entirely open and free. We do ask you to <a href="https://conference.owncloud.org/conference/oCC2016/register/new" target="_blank">register</a> to help us plan better for the event</p>-->
+		<h2>Register</h2>
+		<p>The ownCloud Contributor Conference will be entirely open and free. We do ask you to <a href="https://conference.owncloud.org/conference/oCC2016/register/new" target="_blank">register</a> to help us plan better for the event</p>
 		<!--<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a>, <a href="http://www.meetup.com/owncloud-berlin/events/224095898/" target="_blank">Meetup.com</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>-->
 		<h2>Location</h2>
 		<p>Our conference will take place in Berlin at the <em>Technische Universität Berlin</em>, in the "<a href="https://www.math.tu-berlin.de/" target="_blank">Institut für Mathematik</a>" building, main entree at Strasse des 17. Juni 136, 10623 Berlin.</p>
