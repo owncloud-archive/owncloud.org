@@ -17,12 +17,12 @@ called apps. We don't require a contributor agreement for the apps, only for the
 <p>We can accept your core contribution if you release your code under the MIT license. Of course we 
 recommend that you sign the agreement because AGPL/GPL protects the freedom of your work better than MIT. But the choice is yours.<p>
 <h3>How difficult is it to sign the agreement?</h3>
-Very easy. Take the PDF, sign it and send it by mail or scan to: frank@owncloud.com</p>
+Very easy. Take the PDF, sign it and send it by mail or scan to Carlos: cml@owncloud.com</p>
 <p>or<br />
-Frank Karlitschek<br />
-Alexanderstrasse 80<br />
-70182 Stuttgart<br />
-Germany</p>
+Carlos Montero-Luque<br />
+57 Bedford Street, Suite 102<br />
+Lexington, MA 02420<br />
+USA</p>
 <p>We will give you full commit rights as soon as we have received your agreement. If you also want to contribute
 to the ownCloud iOS app please also send the signed "iOS Addendum" document. See the <a href="/contribute/iOS-license-exception/">iOS license exception</a> for testing the ownCloud iOS app on Apple hardware.</p>
 <h3>Is there any risk for me when I sign this agreement?</h3>
