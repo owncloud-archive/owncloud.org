@@ -4,7 +4,7 @@
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 Go directly to the latest maintenance release of:
 <ul>
-<li><a href="#latest9">ownCloud 9</a></li>
+<li><a href="#latest9.0">ownCloud 9</a></li>
 <li><a href="#latest8.2">ownCloud 8.2</a></li>
 <li><a href="#latest8.1">ownCloud 8.1</a></li>
 <li><a href="#latest8.0">ownCloud 8</a></li>
@@ -12,6 +12,7 @@ Go directly to the latest maintenance release of:
 <li><a href="#latest6">ownCloud 6 (unsupported!)</a></li>
 </ul>
 
+<a name="latest9.0"></a>
 <h3>Version 9.0.2 <small>May 4 2016</small></h3>
 <ul>
 <li>Open sidebar when clicking in the right part of rows in files view - <a href="https://github.com/owncloud/core/issues/23381">#23381</a></li>
@@ -56,23 +57,9 @@ Go directly to the latest maintenance release of:
 <li>Update sabre/dav to 3.0.9 on stable9 - <a href="https://github.com/owncloud/3rdparty/issues/270">3rdparty/#270</a></li>
 <li>Spinning wheel OC 9 - <a href="https://github.com/owncloud/activity/issues/481">activity/#481</a></li>
 <li>wrong links in RSS feed - <a href="https://github.com/owncloud/activity/issues/508">activity/#508</a></li>
-<li>LDAP users don't get listed when I try to share - <a href="https://github.com/owncloud/android/issues/1527">android/#1527</a></li>
 <li>Announcementcenter is listing only the last 5 announcements - <a href="https://github.com/owncloud/announcementcenter/issues/67">announcementcenter/#67</a></li>
-<li>[stable9] renameTag SQL bugfix - <a href="https://github.com/owncloud/bookmarks/issues/234">bookmarks/#234</a></li>
-<li>[stable9] move version to info.xml - <a href="https://github.com/owncloud/bookmarks/issues/238">bookmarks/#238</a></li>
-<li>work around filter_vars limitation with unicode chars in the URL - <a href="https://github.com/owncloud/bookmarks/issues/239">bookmarks/#239</a></li>
-<li>[9.0] Do not override user-provided title when bookmarking via bookmarklet - <a href="https://github.com/owncloud/bookmarks/issues/247">bookmarks/#247</a></li>
-<li>Adding bookmark leads to: SQLSTATE[22021]: Character not in repertoire: 7 ERROR: invalid byte sequence for encoding \"UTF8\" - <a href="https://github.com/owncloud/bookmarks/issues/230">bookmarks/#230</a></li>
 <li>Export Addressbook - <a href="https://github.com/owncloud/contacts/issues/248">contacts/#248</a></li>
-<li>Review dav urls as used in the docs - <a href="https://github.com/owncloud/documentation/issues/2074">documentation/#2074</a></li>
-<li>Acessing files via webdav with curl: wrong link - <a href="https://github.com/owncloud/documentation/issues/2330">documentation/#2330</a></li>
-<li>Remove non-existent warning for file locking - <a href="https://github.com/owncloud/documentation/issues/2351">documentation/#2351</a></li>
-<li>update php5-smbclient status - <a href="https://github.com/owncloud/documentation/issues/2362">documentation/#2362</a></li>
-<li>Re-added some performance hints. - <a href="https://github.com/owncloud/documentation/issues/2367">documentation/#2367</a></li>
-<li>Performance tuning: Recommend redis based file locking - <a href="https://github.com/owncloud/documentation/issues/2381">documentation/#2381</a></li>
-<li>Ubuntu 16.04 - <a href="https://github.com/owncloud/documentation/issues/2396">documentation/#2396</a></li>
 <li>[stable9] Redirect page if not shown in an iframe - <a href="https://github.com/owncloud/files_pdfviewer/issues/109">files_pdfviewer/#109</a></li>
-<li>[Stable9] update version to what is in core files external - <a href="https://github.com/owncloud/objectstore/issues/40">objectstore/#40</a></li>
 <li>Fix wrong path to lost password template - <a href="https://github.com/owncloud/templateeditor/issues/43">templateeditor/#43</a></li>
 <li>3rdparty folder not overwritten on update - <a href="https://github.com/owncloud/updater/issues/316">updater/#316</a></li>
 <li>getExtractionBaseDir should be deleted before code signature is verified - <a href="https://github.com/owncloud/updater/issues/318">updater/#318</a></li>
@@ -84,8 +71,6 @@ Go directly to the latest maintenance release of:
 <li>getExtractionBaseDir should be deleted before code signature is verified - <a href="https://github.com/owncloud/updater/issues/318">updater/#318</a></li>
 <li>Upgrade from 9.0 to 9.1 fails - <a href="https://github.com/owncloud/updater/issues/336">updater/#336</a></li>
 <li>Wrong app path when optional PCNTL module was not enabled - <a href="https://github.com/owncloud/updater/issues/335">updater/#335</a></li>
-<li>Option to delete empty folders after x days - <a href="https://github.com/owncloud/workflow/issues/83">workflow/#83</a></li>
-<li>[9.0] Parent tags missing in userretention - <a href="https://github.com/owncloud/workflow/issues/87">workflow/#87</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.0.2.tar.bz2">owncloud-9.0.2.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.2.zip">owncloud-9.0.2.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.2.tar.bz2.md5">owncloud-9.0.2.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.2.zip.md5">owncloud-9.0.2.zip.md5</a></br>
@@ -135,31 +120,8 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>After switching to Postgresql changing any activity checkbox checks all of the boxes - <a href="https://github.com/owncloud/core/issues/23761">#23761</a></li>
 <li>Wrong documentation link (Performance Tuning) - <a href="https://github.com/owncloud/core/issues/22985">#22985</a></li>
 <li>Activities not loading (Autoload path not allowed) - <a href="https://github.com/owncloud/activity/issues/491">activity/#491</a></li>
-<li>LDAP users don't get listed when I try to share - <a href="https://github.com/owncloud/android/issues/1527">android/#1527</a></li>
 <li>Correct use of passed argument - <a href="https://github.com/owncloud/apps/issues/2157">apps/#2157</a></li>
-<li>[stable8.2] renameTag SQL bugfix - <a href="https://github.com/owncloud/bookmarks/issues/235">bookmarks/#235</a></li>
-<li>use parse_url to verify dn, because filter_var has issues with special chars - <a href="https://github.com/owncloud/bookmarks/issues/240">bookmarks/#240</a></li>
-<li>[8.2] Do not override user-provided title when bookmarking via bookmarklet - <a href="https://github.com/owncloud/bookmarks/issues/248">bookmarks/#248</a></li>
-<li>Adding bookmark leads to: SQLSTATE[22021]: Character not in repertoire: 7 ERROR: invalid byte sequence for encoding \"UTF8\" - <a href="https://github.com/owncloud/bookmarks/issues/230">bookmarks/#230</a></li>
-<li>added missing slash - <a href="https://github.com/owncloud/documentation/issues/2220">documentation/#2220</a></li>
-<li>convert named code blocks to generic code blocks - <a href="https://github.com/owncloud/documentation/issues/2230">documentation/#2230</a></li>
-<li>Add mod_php to system requirements - <a href="https://github.com/owncloud/documentation/issues/2265">documentation/#2265</a></li>
-<li>Remove not existing warning in 8.2 - <a href="https://github.com/owncloud/documentation/issues/2269">documentation/#2269</a></li>
-<li>Documentation page doesn't have favicon - <a href="https://github.com/owncloud/documentation/issues/2173">documentation/#2173</a></li>
-<li>Fixpromolink82 - <a href="https://github.com/owncloud/documentation/issues/2297">documentation/#2297</a></li>
-<li>Change note to warning on some places. - <a href="https://github.com/owncloud/documentation/issues/2304">documentation/#2304</a></li>
-<li>Add encryption migration to upgrading and encryption docs. - <a href="https://github.com/owncloud/documentation/issues/2314">documentation/#2314</a></li>
-<li>Remove non-existent warning for file locking - <a href="https://github.com/owncloud/documentation/issues/2350">documentation/#2350</a></li>
-<li>Re-added some performance hints. - <a href="https://github.com/owncloud/documentation/issues/2367">documentation/#2367</a></li>
-<li>Performance tuning: Recommend redis based file locking - <a href="https://github.com/owncloud/documentation/issues/2381">documentation/#2381</a></li>
-<li>clarify 8.2 upgrade behavior - <a href="https://github.com/owncloud/documentation/issues/2387">documentation/#2387</a></li>
-<li>Ubuntu 16.04 - <a href="https://github.com/owncloud/documentation/issues/2397">documentation/#2397</a></li>
-<li>[stable8.2] Show proper message if link was deleted - <a href="https://github.com/owncloud/files_drop/issues/98">files_drop/#98</a></li>
 <li>[stable8.2] Redirect page if not shown in an iframe - <a href="https://github.com/owncloud/files_pdfviewer/issues/110">files_pdfviewer/#110</a></li>
-<li>Request Time option changes from am to pm - <a href="https://github.com/owncloud/firewall/issues/232">firewall/#232</a></li>
-<li>Failed combination minimum characters + special characters - <a href="https://github.com/owncloud/password_policy/issues/37">password_policy/#37</a></li>
-<li>[BUG] If you introduce the Ñ uppercase the folder/file is not shared and the user is warned - <a href="https://github.com/owncloud/password_policy/issues/42">password_policy/#42</a></li>
-<li>Authentication credentials and document libraries are swapped after adding a new personal credentials - <a href="https://github.com/owncloud/sharepoint/issues/223">sharepoint/#223</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.2.4.tar.bz2">owncloud-8.2.4.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.4.zip">owncloud-8.2.4.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.4.tar.bz2.md5">owncloud-8.2.4.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.4.zip.md5">owncloud-8.2.4.zip.md5</a></br>
@@ -180,9 +142,6 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>Cannot upload file from OC <= 8.2 through fed share to OC 9.0 with unlimited quota - <a href="https://github.com/owncloud/core/issues/23547">#23547</a></li>
 <li>[stable8.1] Ignore certificate file if it starts with file:// - <a href="https://github.com/owncloud/core/issues/24170">#24170</a></li>
 <li>Undefined index: extension at /var/www/owncloud/lib/private/installer.php#272 - <a href="https://github.com/owncloud/core/issues/24228">#24228</a></li>
-<li>[stable8.1] renameTag SQL bugfix - <a href="https://github.com/owncloud/bookmarks/issues/236">bookmarks/#236</a></li>
-<li>[8.1] Do not override user-provided title when bookmarking via bookmarklet - <a href="https://github.com/owncloud/bookmarks/issues/249">bookmarks/#249</a></li>
-<li>Adding bookmark leads to: SQLSTATE[22021]: Character not in repertoire: 7 ERROR: invalid byte sequence for encoding \"UTF8\" - <a href="https://github.com/owncloud/bookmarks/issues/230">bookmarks/#230</a></li>
 <li>[stable8.1] Redirect page if not shown in an iframe - <a href="https://github.com/owncloud/files_pdfviewer/issues/111">files_pdfviewer/#111</a></li>
 <li>[8.1.x] Video can't be played if video file is placed inside parent folder - <a href="https://github.com/owncloud/files_videoplayer/issues/42">files_videoplayer/#42</a></li>
 </ul>
@@ -199,8 +158,6 @@ Packages on our Build Service: <a href="http://software.opensuse.org/download/pa
 <li>"Allow editing" capability in share by link not disabled - <a href="https://github.com/owncloud/core/issues/23325">#23325</a></li>
 <li>[stable8] Workaround to be able to recognize unlimited quota in fed shares - <a href="https://github.com/owncloud/core/issues/24148">#24148</a></li>
 <li>[stable8] Ignore certificate file if it starts with file:// - <a href="https://github.com/owncloud/core/issues/24168">#24168</a></li>
-<li>[stable8] renameTag SQL bugfix - <a href="https://github.com/owncloud/bookmarks/issues/237">bookmarks/#237</a></li>
-<li>use parse_url to verify dn, because filter_var has issues with special chars - <a href="https://github.com/owncloud/bookmarks/issues/244">bookmarks/#244</a></li>
 <li>[stable8] Redirect page if not shown in an iframe - <a href="https://github.com/owncloud/files_pdfviewer/issues/112">files_pdfviewer/#112</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.12.tar.bz2">owncloud-8.0.12.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.12.zip">owncloud-8.0.12.zip</a></br>
@@ -484,7 +441,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.6.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.6.tar.bz2.asc">owncloud-8.1.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.6.zip.asc">owncloud-8.1.6.zip.asc</a></br>
 Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest8.0"></a>
 <h3>Version 8.0.11 <small>March 8 2016</small></h3>
 <ul>
 	<li>Prevent 0 byte downloads when storage returns false - <a href="http://github.com/owncloud/core/issues/19081">github issue</a></li>
@@ -499,7 +455,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2.asc">owncloud-8.0.11.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip.asc">owncloud-8.0.11.zip.asc</a></br>
 Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest7"></a>
 <h3>Version 7.0.13 <small>March 8 2016</small></h3>
 <ul>
 <li>PHPMailer address validation - <a href="http://github.com/owncloud/3rdparty/issues/253">github issue</a></li>
