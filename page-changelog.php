@@ -4,7 +4,7 @@
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 Go directly to the latest maintenance release of:
 <ul>
-<li><a href="#latest9">ownCloud 9</a></li>
+<li><a href="#latest9.0">ownCloud 9</a></li>
 <li><a href="#latest8.2">ownCloud 8.2</a></li>
 <li><a href="#latest8.1">ownCloud 8.1</a></li>
 <li><a href="#latest8.0">ownCloud 8</a></li>
@@ -12,8 +12,174 @@ Go directly to the latest maintenance release of:
 <li><a href="#latest6">ownCloud 6 (unsupported!)</a></li>
 </ul>
 
-<a name="latest9"></a>
-<h3>Version 9.0.1 <small>April 6 2016</small></h3>
+<a name="latest9.0"></a>
+<h3>Version 9.0.2 <small>May 4 2016</small></h3>
+<ul>
+<li>Open sidebar when clicking in the right part of rows in files view - <a href="https://github.com/owncloud/core/issues/23381">#23381</a></li>
+<li>user_ldap: Call to a member function setEMailAddress() on a non-object - <a href="https://github.com/owncloud/core/issues/23759">#23759</a></li>
+<li>Fatal error in dav app while running cron job - <a href="https://github.com/owncloud/core/issues/23496">#23496</a></li>
+<li>Desktop sync fails with big files (OC 8.2.0, client 2.0.2) - <a href="https://github.com/owncloud/core/issues/20261">#20261</a></li>
+<li>Wrong image rotation - <a href="https://github.com/owncloud/core/issues/21485">#21485</a></li>
+<li>Restrict autoloaded paths to loaded apps (and other enhancements) - <a href="https://github.com/owncloud/core/issues/18839">#18839</a></li>
+<li>Exclude autoload_static.php - <a href="https://github.com/owncloud/core/issues/23935">#23935</a></li>
+<li>[encryption] Recovery key feature doesn't work when a not default "User Home Folder Naming Rule" is used - <a href="https://github.com/owncloud/core/issues/23632">#23632</a></li>
+<li>Federated sharing: volatile edit permission - <a href="https://github.com/owncloud/core/issues/24032">#24032</a></li>
+<li>Transfer ownership with encryption break files -> bad signature - <a href="https://github.com/owncloud/core/issues/24095">#24095</a></li>
+<li>TextEditor: Checksum not invalidated on file change - <a href="https://github.com/owncloud/core/issues/23782">#23782</a></li>
+<li>occ files:scan does not invalidate checksums if file changed on disk. - <a href="https://github.com/owncloud/core/issues/23783">#23783</a></li>
+<li>[9.0] handle completely unscanned storages in the background scanner - <a href="https://github.com/owncloud/core/issues/23576">#23576</a></li>
+<li>[stable9] Write .htaccess also from CLI - <a href="https://github.com/owncloud/core/issues/24136">#24136</a></li>
+<li>Share link: user mail is disappearing after selecting expiration date - <a href="https://github.com/owncloud/core/issues/22947">#22947</a></li>
+<li>Folder size not propagated when uploading as share recipient with encryption enabled - <a href="https://github.com/owncloud/core/issues/24105">#24105</a></li>
+<li>Can create events in contacts_birthday calendar - <a href="https://github.com/owncloud/core/issues/24154">#24154</a></li>
+<li>[stable9] Ignore certificate file if it starts with file:// - <a href="https://github.com/owncloud/core/issues/24172">#24172</a></li>
+<li>[stable9] remember email when setting expiration date - <a href="https://github.com/owncloud/core/issues/24149">#24149</a></li>
+<li>cron.php does not exit, consumes RAM - <a href="https://github.com/owncloud/core/issues/23621">#23621</a></li>
+<li>Cron gives errors on getQuota() on null in apps/files_versions/lib/storage.php on line 691 - <a href="https://github.com/owncloud/core/issues/23513">#23513</a></li>
+<li>[9.0] Change the sort order of background jobs to be DESC instead of ASC - <a href="https://github.com/owncloud/core/issues/24196">#24196</a></li>
+<li>No "Personal" calendar created for installing user - <a href="https://github.com/owncloud/core/issues/24082">#24082</a></li>
+<li>[9.0] dont do optimized size propagation for encrypted files - <a href="https://github.com/owncloud/core/issues/24158">#24158</a></li>
+<li>[stable9] on clone Connection, do not take over the existing LDAP resource - <a href="https://github.com/owncloud/core/issues/24236">#24236</a></li>
+<li>[stable9] Fix LDAP race conditions - <a href="https://github.com/owncloud/core/issues/24242">#24242</a></li>
+<li>Catching undefined exception in versions expire - <a href="https://github.com/owncloud/core/issues/24233">#24233</a></li>
+<li>[9.0] Call private cache methods only for `OC\Files\Cache\Cache` - <a href="https://github.com/owncloud/core/issues/24202">#24202</a></li>
+<li>"Deadlock found when trying to get lock" in file locking - <a href="https://github.com/owncloud/core/issues/20555">#20555</a></li>
+<li>[stable9] don't get the config for the same mount multiple times - <a href="https://github.com/owncloud/core/issues/24259">#24259</a></li>
+<li>Scanner doesn't propagate etags any more when file changed - <a href="https://github.com/owncloud/core/issues/24255">#24255</a></li>
+<li>Undefined index: extension at /var/www/owncloud/lib/private/installer.php#272 - <a href="https://github.com/owncloud/core/issues/24228">#24228</a></li>
+<li>[stable9] Disable pastezone for jquery.fileupload - <a href="https://github.com/owncloud/core/issues/24281">#24281</a></li>
+<li>Can't upgrade to 9.0.1 (daily) in CentOS 6.6 - <a href="https://github.com/owncloud/core/issues/24276">#24276</a></li>
+<li>[9.0] error out if a local storage isn't setup correctly - <a href="https://github.com/owncloud/core/issues/24289">#24289</a></li>
+<li>[Stable 9] Make ownCloud work again in php 7.0.6 - <a href="https://github.com/owncloud/core/issues/24343">#24343</a></li>
+<li>After switching to Postgresql changing any activity checkbox checks all of the boxes - <a href="https://github.com/owncloud/core/issues/23761">#23761</a></li>
+<li>Upgrade from o.C. 8.2.X to 9.0.X. Cannot access to oC if and LDAP user that made a share was deleted from the LDAP server. - <a href="https://github.com/owncloud/core/issues/24090">#24090</a></li>
+<li>Update sabre/dav to 3.0.9 for windows 10 support - <a href="https://github.com/owncloud/3rdparty/issues/269">3rdparty/#269</a></li>
+<li>Update sabre/dav to 3.0.9 on stable9 - <a href="https://github.com/owncloud/3rdparty/issues/270">3rdparty/#270</a></li>
+<li>Spinning wheel OC 9 - <a href="https://github.com/owncloud/activity/issues/481">activity/#481</a></li>
+<li>wrong links in RSS feed - <a href="https://github.com/owncloud/activity/issues/508">activity/#508</a></li>
+<li>Announcementcenter is listing only the last 5 announcements - <a href="https://github.com/owncloud/announcementcenter/issues/67">announcementcenter/#67</a></li>
+<li>Export Addressbook - <a href="https://github.com/owncloud/contacts/issues/248">contacts/#248</a></li>
+<li>[stable9] Redirect page if not shown in an iframe - <a href="https://github.com/owncloud/files_pdfviewer/issues/109">files_pdfviewer/#109</a></li>
+<li>Fix wrong path to lost password template - <a href="https://github.com/owncloud/templateeditor/issues/43">templateeditor/#43</a></li>
+<li>3rdparty folder not overwritten on update - <a href="https://github.com/owncloud/updater/issues/316">updater/#316</a></li>
+<li>getExtractionBaseDir should be deleted before code signature is verified - <a href="https://github.com/owncloud/updater/issues/318">updater/#318</a></li>
+<li>BrokenUpdaterRepair SQL issue - <a href="https://github.com/owncloud/updater/issues/331">updater/#331</a></li>
+<li>Wrong app path when optional PCNTL module was not enabled - <a href="https://github.com/owncloud/updater/issues/335">updater/#335</a></li>
+<li>integrity-check command shows error after running updater from 9.0.1 stable to daily stable9 - <a href="https://github.com/owncloud/updater/issues/342">updater/#342</a></li>
+<li>updater/update.log has to be stored in the data folder - <a href="https://github.com/owncloud/updater/issues/317">updater/#317</a></li>
+<li>3rdparty folder not overwritten on update - <a href="https://github.com/owncloud/updater/issues/316">updater/#316</a></li>
+<li>getExtractionBaseDir should be deleted before code signature is verified - <a href="https://github.com/owncloud/updater/issues/318">updater/#318</a></li>
+<li>Upgrade from 9.0 to 9.1 fails - <a href="https://github.com/owncloud/updater/issues/336">updater/#336</a></li>
+<li>Wrong app path when optional PCNTL module was not enabled - <a href="https://github.com/owncloud/updater/issues/335">updater/#335</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.0.2.tar.bz2">owncloud-9.0.2.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.2.zip">owncloud-9.0.2.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.2.tar.bz2.md5">owncloud-9.0.2.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.2.zip.md5">owncloud-9.0.2.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.2.tar.bz2.sha256">owncloud-9.0.2.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.2.zip.sha256">owncloud-9.0.2.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.2.tar.bz2.asc">owncloud-9.0.2.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.2.zip.asc">owncloud-9.0.2.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest8.2"></a>
+<h3>Version 8.2.4 <small>May 4 2016</small></h3>
+<ul>
+<li>[stable8.2] Remove browser autocomplete in new file menu - <a href="https://github.com/owncloud/core/issues/22927">#22927</a></li>
+<li>owncloud-8.2.3.tar.bz2 contains /apps/dav folder - <a href="https://github.com/owncloud/core/issues/22962">#22962</a></li>
+<li>The download archive should be named after the name of the current folder - <a href="https://github.com/owncloud/core/issues/22836">#22836</a></li>
+<li>[Stable 8.2] Rename and move permissions are set when a file is updatable - <a href="https://github.com/owncloud/core/issues/22842">#22842</a></li>
+<li>[stable8.2] Remove disabled autocorrect for new file names - <a href="https://github.com/owncloud/core/issues/23025">#23025</a></li>
+<li>Windows Office files via SMB mount through WebDAV is prompting for authentication - <a href="https://github.com/owncloud/core/issues/22596">#22596</a></li>
+<li>Received share to local user disappears from Webdav when LDAP server unavailable - <a href="https://github.com/owncloud/core/issues/20536">#20536</a></li>
+<li>[stable8.2] Update error text for link passwords - <a href="https://github.com/owncloud/core/issues/22934">#22934</a></li>
+<li>Renaming and moving displays an error in public shared folder with edit permissions. - <a href="https://github.com/owncloud/core/issues/21678">#21678</a></li>
+<li>Sharing to AD group fails when not all users have logged in - <a href="https://github.com/owncloud/core/issues/22907">#22907</a></li>
+<li>"Allow editing" capability in share by link not disabled - <a href="https://github.com/owncloud/core/issues/23325">#23325</a></li>
+<li>Full name is not shown just after modifying it in the Personal Page - <a href="https://github.com/owncloud/core/issues/20455">#20455</a></li>
+<li>Position of edit options in sharing menu confuses user - <a href="https://github.com/owncloud/core/issues/18163">#18163</a></li>
+<li>Password-link shares listed in "Shared in ... with ..." section of sidebar - <a href="https://github.com/owncloud/core/issues/22128">#22128</a></li>
+<li>Users with LDAP photos unable to see SMB external storage on OwnCloud Android app - <a href="https://github.com/owncloud/core/issues/21555">#21555</a></li>
+<li>Webdav invalid request error with samba share - <a href="https://github.com/owncloud/core/issues/22187">#22187</a></li>
+<li>Cannot upload file from OC <= 8.2 through fed share to OC 9.0 with unlimited quota - <a href="https://github.com/owncloud/core/issues/23547">#23547</a></li>
+<li>Encryption + ext storage + versions broken - <a href="https://github.com/owncloud/core/issues/23681">#23681</a></li>
+<li>Desktop sync fails with big files (OC 8.2.0, client 2.0.2) - <a href="https://github.com/owncloud/core/issues/20261">#20261</a></li>
+<li>[stable8.2] Fix conditional check in MySQL setup - <a href="https://github.com/owncloud/core/issues/23807">#23807</a></li>
+<li>[stable8.2] Fixes a possible infinite change-dir-loop - <a href="https://github.com/owncloud/core/issues/23984">#23984</a></li>
+<li>Orientation for shared images broken - <a href="https://github.com/owncloud/core/issues/20484">#20484</a></li>
+<li>[encryption] Recovery key feature doesn't work when a not default "User Home Folder Naming Rule" is used - <a href="https://github.com/owncloud/core/issues/23632">#23632</a></li>
+<li>Share Dialog Problems repeating user list - <a href="https://github.com/owncloud/core/issues/18910">#18910</a></li>
+<li>Federated sharing: volatile edit permission - <a href="https://github.com/owncloud/core/issues/24032">#24032</a></li>
+<li>Share link: user mail is disappearing after selecting expiration date - <a href="https://github.com/owncloud/core/issues/22947">#22947</a></li>
+<li>Cannot upload file from OC <= 8.2 through fed share to OC 9.0 with unlimited quota - <a href="https://github.com/owncloud/core/issues/23547">#23547</a></li>
+<li>[stable8.2] Ignore certificate file if it starts with file:// - <a href="https://github.com/owncloud/core/issues/24171">#24171</a></li>
+<li>[stable8.2] remember email when setting expiration date - <a href="https://github.com/owncloud/core/issues/24150">#24150</a></li>
+<li>Error output when passing --data-dir during command line installation - <a href="https://github.com/owncloud/core/issues/23637">#23637</a></li>
+<li>cron.php does not exit, consumes RAM - <a href="https://github.com/owncloud/core/issues/23621">#23621</a></li>
+<li>[stable8.2] Fix LDAP race conditions - <a href="https://github.com/owncloud/core/issues/24243">#24243</a></li>
+<li>"Deadlock found when trying to get lock" in file locking - <a href="https://github.com/owncloud/core/issues/20555">#20555</a></li>
+<li>Undefined index: extension at /var/www/owncloud/lib/private/installer.php#272 - <a href="https://github.com/owncloud/core/issues/24228">#24228</a></li>
+<li>[8.2] error out if a local storage isn't setup correctly - <a href="https://github.com/owncloud/core/issues/24288">#24288</a></li>
+<li>[Stable 8.2] Make ownCloud work again in php 7.0.6 - <a href="https://github.com/owncloud/core/issues/24344">#24344</a></li>
+<li>After switching to Postgresql changing any activity checkbox checks all of the boxes - <a href="https://github.com/owncloud/core/issues/23761">#23761</a></li>
+<li>Wrong documentation link (Performance Tuning) - <a href="https://github.com/owncloud/core/issues/22985">#22985</a></li>
+<li>Activities not loading (Autoload path not allowed) - <a href="https://github.com/owncloud/activity/issues/491">activity/#491</a></li>
+<li>Correct use of passed argument - <a href="https://github.com/owncloud/apps/issues/2157">apps/#2157</a></li>
+<li>[stable8.2] Redirect page if not shown in an iframe - <a href="https://github.com/owncloud/files_pdfviewer/issues/110">files_pdfviewer/#110</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.2.4.tar.bz2">owncloud-8.2.4.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.4.zip">owncloud-8.2.4.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.4.tar.bz2.md5">owncloud-8.2.4.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.4.zip.md5">owncloud-8.2.4.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.4.tar.bz2.sha256">owncloud-8.2.4.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.4.zip.sha256">owncloud-8.2.4.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.4.tar.bz2.asc">owncloud-8.2.4.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.4.zip.asc">owncloud-8.2.4.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest8.1"></a>
+<h3>Version 8.1.7 <small>May 4 2016</small></h3>
+<ul>
+<li>[Stable 8.1] Rename and move permissions are set when a file is updatable - <a href="https://github.com/owncloud/core/issues/22843">#22843</a></li>
+<li>[stable8.1] Fix broken scanner call in ajax/scan.php - <a href="https://github.com/owncloud/core/issues/23149">#23149</a></li>
+<li>Received share to local user disappears from Webdav when LDAP server unavailable - <a href="https://github.com/owncloud/core/issues/20536">#20536</a></li>
+<li>Renaming and moving displays an error in public shared folder with edit permissions. - <a href="https://github.com/owncloud/core/issues/21678">#21678</a></li>
+<li>Sharing to AD group fails when not all users have logged in - <a href="https://github.com/owncloud/core/issues/22907">#22907</a></li>
+<li>"Allow editing" capability in share by link not disabled - <a href="https://github.com/owncloud/core/issues/23325">#23325</a></li>
+<li>[encryption] Recovery key feature doesn't work when a not default "User Home Folder Naming Rule" is used - <a href="https://github.com/owncloud/core/issues/23632">#23632</a></li>
+<li>Cannot upload file from OC <= 8.2 through fed share to OC 9.0 with unlimited quota - <a href="https://github.com/owncloud/core/issues/23547">#23547</a></li>
+<li>[stable8.1] Ignore certificate file if it starts with file:// - <a href="https://github.com/owncloud/core/issues/24170">#24170</a></li>
+<li>Undefined index: extension at /var/www/owncloud/lib/private/installer.php#272 - <a href="https://github.com/owncloud/core/issues/24228">#24228</a></li>
+<li>[stable8.1] Redirect page if not shown in an iframe - <a href="https://github.com/owncloud/files_pdfviewer/issues/111">files_pdfviewer/#111</a></li>
+<li>[8.1.x] Video can't be played if video file is placed inside parent folder - <a href="https://github.com/owncloud/files_videoplayer/issues/42">files_videoplayer/#42</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.1.7.tar.bz2">owncloud-8.1.7.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.7.zip">owncloud-8.1.7.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.7.tar.bz2.md5">owncloud-8.1.7.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.7.zip.md5">owncloud-8.1.7.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.7.tar.bz2.sha256">owncloud-8.1.7.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.7.zip.sha256">owncloud-8.1.7.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.7.tar.bz2.asc">owncloud-8.1.7.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.7.zip.asc">owncloud-8.1.7.zip.asc</a></br>
+Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest8.0"></a>
+<h3>Version 8.0.12 <small>May 4 2016</small></h3>
+<ul>
+<li>[Stable 8] Rename and move permissions are set when a file is updatable - <a href="https://github.com/owncloud/core/issues/22844">#22844</a></li>
+<li>"Allow editing" capability in share by link not disabled - <a href="https://github.com/owncloud/core/issues/23325">#23325</a></li>
+<li>[stable8] Workaround to be able to recognize unlimited quota in fed shares - <a href="https://github.com/owncloud/core/issues/24148">#24148</a></li>
+<li>[stable8] Ignore certificate file if it starts with file:// - <a href="https://github.com/owncloud/core/issues/24168">#24168</a></li>
+<li>[stable8] Redirect page if not shown in an iframe - <a href="https://github.com/owncloud/files_pdfviewer/issues/112">files_pdfviewer/#112</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.0.12.tar.bz2">owncloud-8.0.12.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.12.zip">owncloud-8.0.12.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.12.tar.bz2.md5">owncloud-8.0.12.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.12.zip.md5">owncloud-8.0.12.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.12.tar.bz2.sha256">owncloud-8.0.12.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.12.zip.sha256">owncloud-8.0.12.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.12.tar.bz2.asc">owncloud-8.0.12.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.12.zip.asc">owncloud-8.0.12.zip.asc</a></br>
+Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest7"></a>
+<h3>Version 7.0.14 <small>May 4 2016</small></h3>
+<ul>
+<li>[stable7] Ignore certificate file if it starts with file:// - <a href="https://github.com/owncloud/core/issues/24167">#24167</a></li>
+<li>[stable7] Redirect page if not shown in an iframe  - <a href="https://github.com/owncloud/files_pdfviewer/issues/113">files_pdfviewer/#113</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.14.tar.bz2">owncloud-7.0.14.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.14.zip">owncloud-7.0.14.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.14.tar.bz2.md5">owncloud-7.0.14.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.14.zip.md5">owncloud-7.0.14.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.14.tar.bz2.sha256">owncloud-7.0.14.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.14.zip.sha256">owncloud-7.0.14.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.14.tar.bz2.asc">owncloud-7.0.14.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.14.zip.asc">owncloud-7.0.14.zip.asc</a></br>
+<p>Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.</p>
+<p><strong>Note</strong> that this is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer.</p>
+
+	<h3>Version 9.0.1 <small>April 6 2016</small></h3>
 <ul>
 <li>Sharing
 	<ul>
@@ -186,7 +352,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.0.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.0.tar.bz2.asc">owncloud-9.0.0.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.0.zip.asc">owncloud-9.0.0.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest8.2"></a>
 <h3>Version 8.2.3 <small>March 8 2016</small></h3>
 <ul>
 	<li>Object of class OC\\Connector\\Sabre\\Directory could not be converted to string - <a href="https://github.com/owncloud/core/issues/21230">github issue</a></li>
@@ -244,7 +409,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.3.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.3.tar.bz2.asc">owncloud-8.2.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.3.zip.asc">owncloud-8.2.3.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest8.1"></a>
 <h3>Version 8.1.6 <small>March 8 2016</small></h3>
 <ul>
 	<li>User management: Password change error display behavior - <a href="https://github.com/owncloud/core/issues/21239">github issue</a></li>
@@ -277,7 +441,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.6.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.6.tar.bz2.asc">owncloud-8.1.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.6.zip.asc">owncloud-8.1.6.zip.asc</a></br>
 Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest8.0"></a>
 <h3>Version 8.0.11 <small>March 8 2016</small></h3>
 <ul>
 	<li>Prevent 0 byte downloads when storage returns false - <a href="http://github.com/owncloud/core/issues/19081">github issue</a></li>
@@ -292,7 +455,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2.asc">owncloud-8.0.11.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip.asc">owncloud-8.0.11.zip.asc</a></br>
 Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest7"></a>
 <h3>Version 7.0.13 <small>March 8 2016</small></h3>
 <ul>
 <li>PHPMailer address validation - <a href="http://github.com/owncloud/3rdparty/issues/253">github issue</a></li>
@@ -302,7 +464,6 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2.md
 SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2.sha256">owncloud-7.0.13.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip.sha256">owncloud-7.0.13.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2.asc">owncloud-7.0.13.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip.asc">owncloud-7.0.13.zip.asc</a></br>
 <p>Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.</p>
-<p><strong>Note</strong> that this is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer.</p>
 
 <h3>Version 8.2.2 <small>December 22 2015</small></h3>
 <ul>
