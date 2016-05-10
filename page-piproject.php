@@ -34,7 +34,7 @@
 			<li><a href="https://owncloud.org/blog/wd-labs-raspberry-pi-owncloud-and-ubuntu/" target="_blank">Announcing Ubuntu Snappy images for testing</a> (Mar 2015)</li>
 			<li><a href="https://owncloud.org/blog/pioneer-our-owncloud-pi-drives/" target="_blank">Availability of Pioneer devices</a> (Mar 2015)</li>
 		</ul>
-		<p>You can <a href="https://github.com/owncloud/pi-image/wiki" target="_blank">get involved here</a>!</p>
+		<p>You can <a href="https://github.com/owncloud/pi-image/wiki" target="_blank">get involved here</a>! Test images of the Snap for Raspberry Pi devices <a href="http://people.canonical.com/~kyrofa/owncloud-pi/" target="_blank">can be found here</a>.</p>
 	</div>
 </div>
 <div class="row conf-partners-title">
