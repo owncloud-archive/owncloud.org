@@ -7,7 +7,7 @@
 <div class="row conf-info">
 	<div class="col-sm-6">
 		<h1 class="text-center"><i class="icon-hdd-o"></i></br> Bring your data home</h1>
-		<p>The goal of the ownCloud Pi Project is to create a device that makes it easier for people to self-host their data. As we <a href="https://owncloud.org/blog/western-digital-and-owncloud-team-up-to-bring-owncloud-to-home-users/" target="_blank">announced in December 2015</a>, we're working with <a href="http://wdlabs.wd.com/" target="_blank">WDLABS</a> on this.</p>
+		<p>The goal of the ownCloud Pi Project is to create a device that makes it easier for people to self-host their data. As we <a href="https://owncloud.org/blog/western-digital-and-owncloud-team-up-to-bring-owncloud-to-home-users/" target="_blank">announced in December 2015</a>, we're working with <a href="http://wdlabs.wd.com/" target="_blank">WDLabs</a> on this.</p>
 		<p>Our goals are to make a device that is:</p>
 		<ul>
 			<li>Affordable</li>
@@ -31,8 +31,8 @@
 		<ul>
 			<li><a href="https://owncloud.org/blog/western-digital-and-owncloud-team-up-to-bring-owncloud-to-home-users/" target="_blank">Announcement and request for proposals</a>(Dec 2015)</li>
 			<li><a href="https://owncloud.org/blog/update-about-the-western-digital-and-owncloud-pi-project/" target="_blank">Progress update</a> (Dec 2015)</li>
-			<li><a href="https://owncloud.org/blog/wd-labs-raspberry-pi-owncloud-and-ubuntu/" target="_blank">Announcing Ubuntu Snappy images for testing</a> (Mar 2015)</li>
-			<li><a href="https://owncloud.org/blog/pioneer-our-owncloud-pi-drives/" target="_blank">Availability of Pioneer devices</a> (Mar 2015)</li>
+			<li><a href="https://owncloud.org/blog/wd-labs-raspberry-pi-owncloud-and-ubuntu/" target="_blank">Announcing Ubuntu Snappy images for testing</a> (Mar 2016)</li>
+			<li><a href="https://owncloud.org/blog/pioneer-our-owncloud-pi-drives/" target="_blank">Availability of Pioneer devices</a> (Mar 2016)</li>
 		</ul>
 		<p>You can <a href="https://github.com/owncloud/pi-image/wiki" target="_blank">get involved here</a>! Test images of the Snap for Raspberry Pi devices <a href="http://people.canonical.com/~kyrofa/owncloud-pi/" target="_blank">can be found here</a>.</p>
 	</div>
