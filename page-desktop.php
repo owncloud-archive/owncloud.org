@@ -1,6 +1,29 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3 id="220">Release 2.2.0 <small>May 12th 2016</small></h3>
+<ul>
+<li>Overlay icons: Refactoring - mainly for performance improvements</li>
+<li>Improved error handling with Sync Journal on USB storages (<a href="https://github.com/owncloud/client/issues/4632">#4632</a>)</li>
+<li>Sharing Completion: Improved UI of completion in sharing from desktop. (<a href="https://github.com/owncloud/client/issues/3737">#3737</a>)</li>
+<li>Show server notifications on the client (<a href="https://github.com/owncloud/client/issues/3733">#3733</a>)</li>
+<li>Improved Speed with small files by dynamic parallel request count (<a href="https://github.com/owncloud/client/issues/4529">#4529</a>)</li>
+<li>LockWatcher: Make sure to sync files after apps released exclusive locks on Windows.</li>
+<li>Improved handling of Win32 file locks and network files</li>
+<li>Workaround Ubuntu 16.04 tray icon bug (<a href="https://github.com/owncloud/client/issues/4693">#4693</a>)</li>
+<li>Removed the Alias field from the folder definition (<a href="https://github.com/owncloud/client/issues/4695">#4695</a>)</li>
+<li>Improved netrc parser (<a href="https://github.com/owncloud/client/issues/4691">#4691</a>)</li>
+<li>Improved user notifications about ignored files and conflicts (<a href="https://github.com/owncloud/client/issues/4761">#4761</a>, <a href="https://github.com/owncloud/client/issues/3222">#3222</a>)</li>
+<li>Add warnings for old server versions (<a href="https://github.com/owncloud/client/issues/4523">#4523</a>)</li>
+<li>Enable tranportation checksums if the server supports based on server capabilities (<a href="https://github.com/owncloud/client/issues/3735">#3735</a>)</li>
+<li>Default Chunk-size changed to 10MB (<a href="https://github.com/owncloud/client/issues/4354">#4354</a>)</li>
+<li>Documentation Improvements, ie. about overlay icons</li>
+<li>Translation fixes</li>
+<li>Countless other bugfixes</li>
+<li>Sqlite Update to recent version</li>
+<li>Update of QtKeyChain to support Windows credential store</li>
+<li>Packaging of dolphin overlay icon module for bleeding edge distros</li>
+</ul>
 <h3 id="211">Release 2.1.1 <small>Februrary 10th 2016</small></h3>
 <ul>
 <li>UI improvements for HiDPI screens, error messages, RTL languages</li>
