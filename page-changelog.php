@@ -56,7 +56,7 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.md
 SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.sha256">owncloud-7.0.15.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip.sha256">owncloud-7.0.15.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.asc">owncloud-7.0.15.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip.asc">owncloud-7.0.15.zip.asc</a></br>
 <p>Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.</p>
-<p><strong>Note</strong> that this is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer.</p>
+<p><strong>Note</strong> that this is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer to ensure the security and safety of your data.</p>
 
 <a name="latest9.0"></a>
 <h3>Version 9.0.2 <small>May 4 2016</small></h3>
@@ -1043,6 +1043,7 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.md5
 SHA256: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.sha256">owncloud-6.0.9.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.9.zip.sha256">owncloud-6.0.9.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.asc">owncloud-6.0.9.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.9.zip.asc">owncloud-6.0.9.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
+<p>Note that this is the very last release of ownCloud 6 and this release is now unsupported. Security problems have been found since this release was published and we strongly urge you to upgrade to a supported release to ensure the safety and security of your data!</p>
 
 <h3>Version 8.0.4 <small>July 6th 2015</small></h3>
 <ul>
