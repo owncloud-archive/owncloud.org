@@ -33,7 +33,7 @@
 				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a>
 			</div>
 		</div>
-		<a href="https://owncloud.org/blog/owncloud-connects-business-users/?pk_campaign=frontpage"><img src="<?php bloginfo('template_directory'); ?>/assets/img/events/business_event_small.png" class="home-event-img" /></a>
+		<a href="https://foundation.owncloud.org"><img src="<?php bloginfo('template_directory'); ?>/assets/img/events/foundation-note.png" class="home-event-img" /></a>
 	</div>
   <?php endif; ?>
 </header>
