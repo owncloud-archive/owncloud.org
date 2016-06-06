@@ -1,6 +1,20 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3 id="221">Release 2.2.1 <small>June 6th 2016</small></h3>
+<ul>
+<li>Fix out of memory error when too many uploads happen (<a href="https://github.com/owncloud/client/issues/4611">#4611</a>)</li>
+<li>Fix display errors in progress display (<a href="https://github.com/owncloud/client/issues/4803">#4803</a>, <a href="https://github.com/owncloud/client/issues/4856">#4856</a>)</li>
+<li>LockWatcher: Remember to upload files after they become unlocked (<a href="https://github.com/owncloud/client/issues/4865">#4865</a>) </li>
+<li>Fix overlay icons for files with umlauts (<a href="https://github.com/owncloud/client/issues/4884">#4884</a>)</li>
+<li>Certs: Re-ask for different cert after rejection (<a href="https://github.com/owncloud/client/issues/4898">#4898</a>, <a href="https://github.com/owncloud/client/issues/4911">#4911</a>)</li>
+<li>Progress: Don't count items without propagation jobs (<a href="https://github.com/owncloud/client/issues/4856">#4856</a>, <a href="https://github.com/owncloud/client/issues/4910">#4910</a>)</li>
+<li>Utility: Fix for the translation of minutes, second (<a href="https://github.com/owncloud/client/issues/4855">#4855</a>)</li>
+<li>SyncEngine: invalid the blacklist entry when the rename destination change</li>
+<li>Several fixes to speed up reconnect after connection changes</li>
+<li>Updater: Fix small memory leak</li>
+<li>Linux: Revert forced HiDPI detection settings (<a href="https://github.com/owncloud/client/issues/4840">#4840</a>, <a href="https://github.com/owncloud/client/issues/4861">#4861</a>)</li>
+</ul>
 <h3 id="220">Release 2.2.0 <small>May 12th 2016</small></h3>
 <ul>
 <li>Overlay icons: Refactoring - mainly for performance improvements</li>
