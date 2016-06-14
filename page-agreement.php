@@ -17,7 +17,7 @@ called apps. We don't require a contributor agreement for the apps, only for the
 <p>We can accept your core contribution if you release your code under the MIT license. Of course we 
 recommend that you sign the agreement because AGPL/GPL protects the freedom of your work better than MIT. But the choice is yours.<p>
 <h3>How difficult is it to sign the agreement?</h3>
-Very easy. Take the PDF, sign it and send it by mail or scan to Carlos: cml@owncloud.com</p>
+Very easy. Take the PDF, sign it and send it by mail or scan to cla@owncloud.com</p>
 <p>or<br />
 Carlos Montero-Luque<br />
 57 Bedford Street, Suite 102<br />
