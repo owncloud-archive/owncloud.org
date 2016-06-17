@@ -1038,10 +1038,10 @@ Half a dozen fixes, including:
 <li>App store application fixes</li>
 <li>Several smaller fixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2">owncloud-6.0.9.tar.bz2</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.zip">owncloud-6.0.9.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.md5">owncloud-6.0.9.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.zip.md5">owncloud-6.0.9.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.sha256">owncloud-6.0.9.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/6/community/owncloud-6.0.9.zip.sha256">owncloud-6.0.9.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.asc">owncloud-6.0.9.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.zip.asc">owncloud-6.0.9.zip.asc</a></br>
+Download: <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.tar.bz2">owncloud-6.0.9.tar.bz2</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.zip">owncloud-6.0.9.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.tar.bz2.md5">owncloud-6.0.9.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.zip.md5">owncloud-6.0.9.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.tar.bz2.sha256">owncloud-6.0.9.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/6/community/6/owncloud-6.0.9.zip.sha256">owncloud-6.0.9.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.tar.bz2.asc">owncloud-6.0.9.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.zip.asc">owncloud-6.0.9.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
 <p>Note that this is the very last release of ownCloud 6 and this release is now unsupported. Security problems have been found since this release was published and we strongly urge you to upgrade to a supported release to ensure the safety and security of your data!</p>
 
@@ -1095,10 +1095,10 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Remove hacky Substring support for MSSQL</li>
 <li>Several smaller fixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.8.tar.bz2">owncloud-6.0.8.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.8.zip">owncloud-6.0.8.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.8.tar.bz2.md5">owncloud-6.0.8.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.8.zip.md5">owncloud-6.0.8.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-6.0.8.tar.bz2.sha256">owncloud-6.0.8.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.8.zip.sha256">owncloud-6.0.8.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-6.0.8.tar.bz2.asc">owncloud-6.0.8.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.8.zip.asc">owncloud-6.0.8.zip.asc</a></br>
+Download: <a href="https://download.owncloud.org/community/6/owncloud-6.0.8.tar.bz2">owncloud-6.0.8.tar.bz2</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.8.zip">owncloud-6.0.8.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/6/owncloud-6.0.8.tar.bz2.md5">owncloud-6.0.8.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.8.zip.md5">owncloud-6.0.8.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/6/owncloud-6.0.8.tar.bz2.sha256">owncloud-6.0.8.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.8.zip.sha256">owncloud-6.0.8.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/6/owncloud-6.0.8.tar.bz2.asc">owncloud-6.0.8.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.8.zip.asc">owncloud-6.0.8.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 8.0.3 <small>May 1st 2015</small></h3>
@@ -1180,10 +1180,10 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
 <li>Several smaller fixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2">owncloud-6.0.7.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.7.zip">owncloud-6.0.7.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.md5">owncloud-6.0.7.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.7.zip.md5">owncloud-6.0.7.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.sha256">owncloud-6.0.7.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.7.zip.sha256">owncloud-6.0.7.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-6.0.7.tar.bz2.asc">owncloud-6.0.7.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.7.zip.asc">owncloud-6.0.7.zip.asc</a></br>
+Download: <a href="https://download.owncloud.org/community/6/owncloud-6.0.7.tar.bz2">owncloud-6.0.7.tar.bz2</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.7.zip">owncloud-6.0.7.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/6/owncloud-6.0.7.tar.bz2.md5">owncloud-6.0.7.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.7.zip.md5">owncloud-6.0.7.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/6/owncloud-6.0.7.tar.bz2.sha256">owncloud-6.0.7.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.7.zip.sha256">owncloud-6.0.7.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/6/owncloud-6.0.7.tar.bz2.asc">owncloud-6.0.7.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.7.zip.asc">owncloud-6.0.7.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Release 5.0.19 <small>March 11th 2015</small></h3>
@@ -1192,10 +1192,10 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Several smaller fixes</li>
 </ul>
 <strong>Notice</strong>: this is the last 5.0.x release. Upgrading to a supported major release is highly recommended.</br>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2">owncloud-5.0.19.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip">owncloud-5.0.19.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.md5">owncloud-5.0.19.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip.md5">owncloud-5.0.19.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.sha256">owncloud-5.0.19.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip.sha256">owncloud-5.0.19.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-5.0.19.tar.bz2.asc">owncloud-5.0.19.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip.asc">owncloud-5.0.19.zip.asc</a></br>
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.19.tar.bz2">owncloud-5.0.19.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip">owncloud-5.0.19.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.19.tar.bz2.md5">owncloud-5.0.19.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip.md5">owncloud-5.0.19.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/5/owncloud-5.0.19.tar.bz2.sha256">owncloud-5.0.19.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip.sha256">owncloud-5.0.19.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/5/owncloud-5.0.19.tar.bz2.asc">owncloud-5.0.19.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-5.0.19.zip.asc">owncloud-5.0.19.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:5.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 8.0.0 <small>Feb 9th 2015</small></h3>
@@ -1291,8 +1291,8 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Several security fixes</li>
 <li>Lots of smaller improvements</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.6.tar.bz2.md5</a></br>
+Download: <a href="https://download.owncloud.org/community/6/owncloud-6.0.6.tar.bz2">https://download.owncloud.org/community/6/owncloud-6.0.6.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/6/owncloud-6.0.6.tar.bz2.md5">https://download.owncloud.org/community/6/owncloud-6.0.6.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 5.0.18 <small>November 13th 2014</small></h3> 
@@ -1302,8 +1302,8 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Several security fixes</li>
 <li>Several smaller fixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2.md5</a></br>
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.18.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.18.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.18.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:5.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 7.0.2 <small>August 28th 2014</small></h3> 
@@ -1359,8 +1359,8 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>Remove etag warning for trash bin</li>
 <li>Hardened SFTP host verification</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.5.tar.bz2.md5</a></br>
+Download: <a href="https://download.owncloud.org/community/6/owncloud-6.0.5.tar.bz2">https://download.owncloud.org/community/6/owncloud-6.0.5.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/6/owncloud-6.0.5.tar.bz2.md5">https://download.owncloud.org/community/6/owncloud-6.0.5.tar.bz2.md5</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
 
 <h3>Version 7.0.1 <small>August 4th 2014</small></h3>
@@ -1433,8 +1433,8 @@ Packages: <a href="http://software.opensuse.org/download/package?project=isv:own
 <li>OCS status code fixes
 <li>Add PostgreSQL version warning
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.4.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.4.tar.bz2</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.4.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.4.tar.bz2.md5</a></br>
+Download: <a href="https://download.owncloud.org/community/6/owncloud-6.0.4.tar.bz2">https://download.owncloud.org/community/6/owncloud-6.0.4.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/6/owncloud-6.0.4.tar.bz2.md5">https://download.owncloud.org/community/6/owncloud-6.0.4.tar.bz2.md5</a></br>
 <h3>Version 5.0.17 <small>June 23rd 2014</small></h3>
 <ul>
 <li>Fixed a security issue (Will be disclosed two weeks after this release)
@@ -1442,8 +1442,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.4.tar.bz2.md5
 <li>Fix button text overflow
 <li>Fix search with Oracle
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.17.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.17.tar.bz2</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.17.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.17.tar.bz2.md5</a></br>
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.17.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.17.tar.bz2</a></br>
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.17.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.17.tar.bz2.md5</a></br>
 <h3>Version 6.0.3 <small>April 29th 2014</small></h3>
 <ul>
 <li>Several security fixes. (Will be disclosed 2 weeks after the release)</li>
@@ -1473,8 +1473,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.17.tar.bz2.md
 <li>Several ownCloud Documents improvements and fixes</li>
 <li>Several smaller bugfixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.3.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.3.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.3.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.3.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/6/owncloud-6.0.3.tar.bz2">https://download.owncloud.org/community/6/owncloud-6.0.3.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/6/owncloud-6.0.3.tar.bz2.md5">https://download.owncloud.org/community/6/owncloud-6.0.3.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.16 <small>April 29th 2014</small></h3>
@@ -1485,8 +1485,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.3.tar.bz2.md5
 <li>Don't block PHP sessions during download</li>
 <li>Several smaller bugfixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.16.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.16.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.16.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.16.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.16.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.16.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.16.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.16.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 6.0.2 <small>March 3rd 2014</small></h3>
@@ -1510,8 +1510,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.16.tar.bz2.md
 <li>Several Documents improvements</li>
 <li>A lot of smaller bug fixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.2.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.2.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.2.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.2.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/6/owncloud-6.0.2.tar.bz2">https://download.owncloud.org/community/6/owncloud-6.0.2.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/6/owncloud-6.0.2.tar.bz2.md5">https://download.owncloud.org/community/6/owncloud-6.0.2.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.15 <small>March 3rd 2014</small></h3>
@@ -1520,8 +1520,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.2.tar.bz2.md5
 <li>Improved trash bin performance for deleting lots of files</li>
 <li>Mobile interface improvements</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.15.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.15.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.15.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.15.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.15.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.15.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.15.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.15.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 6.0.1 <small>Jan 22th 2014</small></h3>
@@ -1546,8 +1546,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.15.tar.bz2.md
 <li>Fix public upload progress bar</li>
 <li>Fix issues with intermittent "Insufficient Storage" message when quota is enabled</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.1.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.1.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.1.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.1.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/6/owncloud-6.0.1.tar.bz2">https://download.owncloud.org/community/6/owncloud-6.0.1.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/6/owncloud-6.0.1.tar.bz2.md5">https://download.owncloud.org/community/6/owncloud-6.0.1.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.14a <small>Dec 17th 2013</small></h3>
@@ -1566,8 +1566,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.1.tar.bz2.md5
 <li>IIS fixes</li>
 <li>Fix some Oracle corner cases</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.14a.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.14a.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.14a.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.14a.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.14a.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.14a.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.14a.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.14a.tar.bz2.md5</a><br />
 <br />
 
 
@@ -1583,8 +1583,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.14a.tar.bz2.m
 <li>Fix migration with lucene search enabled</li>
 <li>Fix migration for postgresql</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.0a.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.0a.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.0a.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.0a.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/6/owncloud-6.0.0a.tar.bz2">https://download.owncloud.org/community/6/owncloud-6.0.0a.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/6/owncloud-6.0.0a.tar.bz2.md5">https://download.owncloud.org/community/6/owncloud-6.0.0a.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 6.0.0 <small>Dec 11th 2013</small></h3>
@@ -1622,8 +1622,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.0a.tar.bz2.md
 <li>The file owner can now also restore deleted shared files</li>
 <li>New version drop-down with previews and the ability to downloading versions directly</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.0.tar.bz2">https://download.owncloud.org/community/owncloud-6.0.0.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.0.tar.bz2.md5">https://download.owncloud.org/community/owncloud-6.0.0.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/6/owncloud-6.0.0.tar.bz2">https://download.owncloud.org/community/6/owncloud-6.0.0.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/6/owncloud-6.0.0.tar.bz2.md5">https://download.owncloud.org/community/6/owncloud-6.0.0.tar.bz2.md5</a><br />
 <br />
 
 
@@ -1655,8 +1655,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.0.tar.bz2.md5
 <li>Cleanup share database table for files that no longer exist</li>
 <li>Adding privilege check on move and rename operations</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.13.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.13.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.13.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.13.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.13.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.13.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.13.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.13.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.12 <small>Oct 4th 2013</small></h3>
@@ -1669,8 +1669,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.13.tar.bz2.md
 <li>Small visual fixes</li>
 <li>File scanner fixes to handle deleted files correctly</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.12.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.12.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.12.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.12.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.12.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.12.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.12.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.12.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.11 <small>Sep 10th 2013</small></h3>
@@ -1695,8 +1695,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.12.tar.bz2.md
 <li>A lof of Contacts fixes</li>
 <li>Several "Tasks" fixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.11.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.11.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.11.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.11.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.11.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.11.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.11.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.11.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.10 <small>Aug 12th 2013</small></h3>
@@ -1725,8 +1725,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.11.tar.bz2.md
 <li>Fixes for Gallery</li>
 <li>Several smaller fixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.10.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.10.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.10.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.10.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.10.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.10.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.10.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.10.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.9 <small>July 15th 2013</small></h3>
@@ -1742,8 +1742,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.10.tar.bz2.md
  <li>user_external fixes</li>
  <li>Several smaller fixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.9.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.9.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.9.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.9.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.9.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.9.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.9.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.9.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.8 <small>July 10th 2013</small></h3>
@@ -1764,8 +1764,8 @@ Fix syncing of external filesystems</li>
 <li>Several Contacts fixes</li>
 <li>A lot of smaller bugfixes all over the place</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.8.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.8.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.8.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.8.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.8.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.8.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.8.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.8.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 4.5.13 <small>July 10th 2013</small></h3>
@@ -1773,8 +1773,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.8.tar.bz2.md5
 <li>SECURITY: Authentication bypass in "user_webdavauth" (<a href="/security/advisory/?id=oC-SA-2013-030">oC-SA-2013-030</a>)</li>
 <li>Fixed deleting old files versions</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-4.5.13.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.13.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-4.5.13.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.13.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/4/owncloud-4.5.13.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.13.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/4/owncloud-4.5.13.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.13.tar.bz2.md5</a><br />
 <br />
 
 
@@ -1792,8 +1792,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-4.5.13.tar.bz2.md
 <li>Add support for copying/moving folders between storages</li>
 <li>Several smaller fixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.7.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.7.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.7.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.7.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.7.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.7.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.7.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.7.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 4.5.12 <small>June 6th 2013</small></h3>
@@ -1803,16 +1803,16 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.7.tar.bz2.md5
 <li>Several Calendar fixes</li>
 <li>Several smaller fixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-4.5.12.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.12.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-4.5.12.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.12.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/4/owncloud-4.5.12.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.12.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/4/owncloud-4.5.12.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.12.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 4.0.16 <small>June 6th 2013</small></h3>
 <ul>
 <li>SECURITY: Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-028">oC-SA-2013-028</a>)</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-4.0.16.tar.bz2">https://download.owncloud.org/community/owncloud-4.0.16.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-4.0.16.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.0.16.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/4/owncloud-4.0.16.tar.bz2">https://download.owncloud.org/community/owncloud-4.0.16.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/4/owncloud-4.0.16.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.0.16.tar.bz2.md5</a><br />
 <br />
 
 
@@ -1853,8 +1853,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-4.0.16.tar.bz2.md
 <li>Increase the SQLite database timeout</li>
 <li>Order images in Gallery</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.6.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.6.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.6.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.6.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.6.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.6.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.6.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.6.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 4.5.11 <small>May 14th 2013</small></h3>
@@ -1864,8 +1864,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.6.tar.bz2.md5
 <li>SECURITY: Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-021">oC-SA-2013-021</a>)</li>
 <li>SECURITY: Privilege escalation in the calendar application (<a href="/security/advisory/?id=oC-SA-2013-024">oC-SA-2013-024</a>)</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-4.5.11.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.11.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-4.5.11.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.11.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/4/owncloud-4.5.11.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.11.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/4/owncloud-4.5.11.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.11.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 4.0.15 <small>May 14th 2013</small></h3>
@@ -1873,8 +1873,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-4.5.11.tar.bz2.md
 <li>SECURITY: Multiple directory traversals (<a href="/security/advisory/?id=oC-SA-2013-020">oC-SA-2013-020</a>)</li>
 <li>SECURITY: Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-021">oC-SA-2013-021</a>)</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-4.0.15.tar.bz2">https://download.owncloud.org/community/owncloud-4.0.15.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-4.0.15.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.0.15.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/4/owncloud-4.0.15.tar.bz2">https://download.owncloud.org/community/owncloud-4.0.15.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/4/owncloud-4.0.15.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.0.15.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.5 <small>April 19th 2013</small></h3>
@@ -1897,8 +1897,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-4.0.15.tar.bz2.md
 <li>Security: XSS in flashmediaelement.swf (<a href="/security/advisory/?id=oC-SA-2013-017">oC-SA-2013-017</a>)</li>
 <li>Security: Authentication bypass in Contacts (<a href="/security/advisory/?id=oC-SA-2013-018">oC-SA-2013-018</a>)</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.5.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.5.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.5.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.5.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.5.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.5.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.5.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.5.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 4.5.10 <small>April 19th 2013</small></h3>
@@ -1906,8 +1906,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.5.tar.bz2.md5
 <li>Security: XSS in flashmediaelement.swf (<a href="/security/advisory/?id=oC-SA-2013-017">oC-SA-2013-017</a>)</li>
 <li>Security: Authentication bypass in calendar (<a href="/security/advisory/?id=oC-SA-2013-018">oC-SA-2013-018</a>)</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-4.5.10.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.10.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-4.5.10.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.10.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/4/owncloud-4.5.10.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.10.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/4/owncloud-4.5.10.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.10.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.4 <small>April 11th 2013</small></h3>
@@ -1937,8 +1937,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-4.5.10.tar.bz2.md
 <li>PostgreSQL: Insecure database password generator (<a href="/security/advisory/?id=oC-SA-2013-015">oC-SA-2013-015)</a></li>
 <li>Windows: Local file disclosure (<a href="/security/advisory/?id=oC-SA-2013-016">oC-SA-2013-016</a>)</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.4.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.4.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.4.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.4.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.4.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.4.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.4.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.4.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 4.5.9 <small>April 11th 2013</small></h3>
@@ -1950,8 +1950,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.4.tar.bz2.md5
 <li>PostgreSQL: Insecure database password generator (<a href="/security/advisory/?id=oC-SA-2013-015">oC-SA-2013-015)</a></li>
 <li>Windows: Local file disclosure (<a href="/security/advisory/?id=oC-SA-2013-016">oC-SA-2013-016</a>)</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-4.5.9.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.9.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-4.5.9.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.9.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/4/owncloud-4.5.9.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.9.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/4/owncloud-4.5.9.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.9.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 4.0.14 <small>April 11th 2013</small></h3>
@@ -1960,8 +1960,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-4.5.9.tar.bz2.md5
 <li>PostgreSQL: Insecure database password generator (<a href="/security/advisory/?id=oC-SA-2013-015">oC-SA-2013-015)</a></li>
 <li>Windows: Local file disclosure (<a href="/security/advisory/?id=oC-SA-2013-016">oC-SA-2013-016</a>)</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-4.0.14.tar.bz2">https://download.owncloud.org/community/owncloud-4.0.14.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-4.0.14.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.0.14.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/4/owncloud-4.0.14.tar.bz2">https://download.owncloud.org/community/owncloud-4.0.14.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/4/owncloud-4.0.14.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.0.14.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.3 <small>April 3th 2013</small></h3>
@@ -1971,8 +1971,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-4.0.14.tar.bz2.md
 <li>Fix database upgrading from old versions</li>
 <li>Improved app styles</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.3.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.3.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.3.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.3.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.3.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.3.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.3.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.3.tar.bz2.md5</a><br />
 <br />
 
 <h3>Version 5.0.2 <small>April 2th 2013</small></h3>
@@ -1980,8 +1980,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.3.tar.bz2.md5
 <li>Fix versioning string</li>
 <li>Fix compatibility with older MySQL versions</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.2.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.2.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.2.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.2.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.2.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.2.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.2.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.2.tar.bz2.md5</a><br />
 <br />
 
 
@@ -2014,8 +2014,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.2.tar.bz2.md5
 <li>Contacts: SQL Injection (<a href="/security/advisory/?id=oC-SA-2013-012">oC-SA-2013-012</a>)</li>
 <li>Multiple XSS vulnerabilities (<a href="/security/advisory/?id=oC-SA-2013-011">oC-SA-2013-011</a>)</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.1.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.1.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.1.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.1.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.1.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.1.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.1.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.1.tar.bz2.md5</a><br />
 
 
 <h3>Version 5.0.0 <small>March 14th 2013</small></h3>
@@ -2037,8 +2037,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.1.tar.bz2.md5
 <li>New OCS REST API support</li>
 <li>Improved apps management</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-5.0.0.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.0.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.0.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.0.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/5/owncloud-5.0.0.tar.bz2">https://download.owncloud.org/community/owncloud-5.0.0.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/5/owncloud-5.0.0.tar.bz2.md5">https://download.owncloud.org/community/owncloud-5.0.0.tar.bz2.md5</a><br />
 
 <h3>Version 4.5.8 <small>March 14th 2013</small></h3>
 <ul>
@@ -2050,8 +2050,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-5.0.0.tar.bz2.md5
 <li>Contacts: Bypass of file blacklist (<a href="/security/advisory/?id=oC-SA-2013-009">oC-SA-2013-009</a>)</li>
 <li>user_migrate: Local file  disclosure (<a href="/security/advisory/?id=oC-SA-2013-010">oC-SA-2013-010</a>)</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-4.5.8.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.8.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-4.5.8.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.8.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/4/owncloud-4.5.8.tar.bz2">https://download.owncloud.org/community/owncloud-4.5.8.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/4/owncloud-4.5.8.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.5.8.tar.bz2.md5</a><br />
 
 
 <h3>Version 4.0.13 <small>March 14th 2013</small></h3>
@@ -2059,8 +2059,8 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-4.5.8.tar.bz2.md5
 <li>Contacts: Bypass of file blacklist (<a href="/security/advisory/?id=oC-SA-2013-009">oC-SA-2013-009)</a></li>
 <li>user_migrate: Local file  disclosure (<a href="/security/advisory/?id=oC-SA-2013-010">oC-SA-2013-010</a>)</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-4.0.13.tar.bz2">https://download.owncloud.org/community/owncloud-4.0.13.tar.bz2</a><br />
-MD5: <a href="https://download.owncloud.org/community/owncloud-4.0.13.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.0.13.tar.bz2.md5</a><br />
+Download: <a href="https://download.owncloud.org/community/4/owncloud-4.0.13.tar.bz2">https://download.owncloud.org/community/owncloud-4.0.13.tar.bz2</a><br />
+MD5: <a href="https://download.owncloud.org/community/4/owncloud-4.0.13.tar.bz2.md5">https://download.owncloud.org/community/owncloud-4.0.13.tar.bz2.md5</a><br />
 
 
 
