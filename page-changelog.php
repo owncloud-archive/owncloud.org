@@ -1038,10 +1038,10 @@ Half a dozen fixes, including:
 <li>App store application fixes</li>
 <li>Several smaller fixes</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2">owncloud-6.0.9.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.9.zip">owncloud-6.0.9.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.md5">owncloud-6.0.9.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.9.zip.md5">owncloud-6.0.9.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.sha256">owncloud-6.0.9.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.9.zip.sha256">owncloud-6.0.9.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.asc">owncloud-6.0.9.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-6.0.9.zip.asc">owncloud-6.0.9.zip.asc</a></br>
+Download: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2">owncloud-6.0.9.tar.bz2</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.zip">owncloud-6.0.9.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.md5">owncloud-6.0.9.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.zip.md5">owncloud-6.0.9.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.sha256">owncloud-6.0.9.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/6/community/owncloud-6.0.9.zip.sha256">owncloud-6.0.9.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-6.0.9.tar.bz2.asc">owncloud-6.0.9.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/6/owncloud-6.0.9.zip.asc">owncloud-6.0.9.zip.asc</a></br>
 Packages: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:6.0&package=owncloud">on the Open Build Service</a></br>
 <p>Note that this is the very last release of ownCloud 6 and this release is now unsupported. Security problems have been found since this release was published and we strongly urge you to upgrade to a supported release to ensure the safety and security of your data!</p>
 
