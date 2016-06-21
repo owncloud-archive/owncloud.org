@@ -1,6 +1,11 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3 id="222">Release 2.2.2 <small>June 21st 2016</small></h3>
+<ul>
+  <li>Excludes: Don't redundantly add the same exclude files (<a href="https://github.com/owncloud/client/issues/4967">#4967</a>, <a href="https://github.com/owncloud/client/issues/4988">#4988</a>)</li>
+  <li> Excludes: Only log if the pattern was really logged. (<a href="https://github.com/owncloud/client/issues/4989">#4989</a>)</li>
+</ul>
 <h3 id="221">Release 2.2.1 <small>June 6th 2016</small></h3>
 <ul>
 <li>Fix out of memory error when too many uploads happen (<a href="https://github.com/owncloud/client/issues/4611">#4611</a>)</li>
