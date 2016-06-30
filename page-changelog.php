@@ -13,15 +13,44 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest8.2"></a>
-<h3>Version 8.2.5 <small>May 13 2016</small></h3>
+<h3>Version 8.2.6 <small>June 30 2016</small></h3>
 <ul>
-	<li>webdav / files broken after upgrade to 8.2.4 <a href="https://github.com/owncloud/core/issues/24487">#24487</a></li>
-	<li>Addressed XSS issues in the files_videoviewer app</li>
+<ul>Fix oc_appconfig fetching performance <a href="https://github.com/owncloud/core/issues/25226">core/#25226</a></ul>
+<ul>Wrong file size for encrypted file when reverting version <a href="https://github.com/owncloud/core/issues/23928">core/#23928</a></ul>
+<ul>Fix app loading order to looad authentication apps first, fixes mail app issue <a href="https://github.com/owncloud/core/issues/25126">core/#25126</a></ul>
+<ul>Fix occ files:scan locking issue with shared folder <a href="https://github.com/owncloud/core/issues/24507">core/#24507</a></ul>
+<ul>Fix quota update after moving files to shared folder in webinterface <a href="https://github.com/owncloud/core/issues/21236">core/#21236</a></ul>
+<ul>Show a proper error message when handle "storage not available" situations <a href="https://github.com/owncloud/core/issues/25037">core/#25037</a></ul>
+<ul>Fix cron job error related to versions <a href="https://github.com/owncloud/core/issues/22450">core/#22450</a></ul>
+<ul>Fix thumbnail download issue with external storage due to inaccurate path handling <a href="https://github.com/owncloud/core/issues/21173">core/#21173</a></ul>
+<ul>Capped cache for the user/group cache <a href="https://github.com/owncloud/core/issues/24958">core/#24958</a></ul>
+<ul>Capped cache for normalized paths <a href="https://github.com/owncloud/core/issues/24340">core/#24340</a></ul>
+<ul>Fix 'lost_password_link' from config.php that did not work as expected <a href="https://github.com/owncloud/core/issues/24789">core/#24789</a></ul>
+<ul>Fix IApacheBackend issue due to wrong initialization order <a href="https://github.com/owncloud/core/issues/23899">core/#23899</a></ul>
+<ul>Fix SSO + master key encryption issue due to wrong initialization order <a href="https://github.com/owncloud/core/issues/24182">core/#24182</a></ul>
+<ul>Read available l10n files also from theme folder <a href="https://github.com/owncloud/core/issues/23571">core/#23571</a></ul>
+<ul>Propagate size changes when running files:scan with explicit path <a href="https://github.com/owncloud/core/issues/24271">core/#24271</a></ul>
+<ul>Fix performance for isLocal in SharedStorage <a href="https://github.com/owncloud/core/issues/24651">core/#24651</a></ul>
+<ul>Clarify filesystem_check_changes in config.sample.php <a href="https://github.com/owncloud/core/issues/24817">core/#24817</a></ul>
+<ul>Free up memory when releasing the last shared lock <a href="https://github.com/owncloud/core/issues/24704">core/#24704</a></ul>
+<ul>Fix issue with chunks that got cleared too early <a href="https://github.com/owncloud/core/issues/24653">core/#24653</a></ul>
+<ul>Fix federated share checkboxes to correctly display disabled state <a href="https://github.com/owncloud/core/issues/24547">core/#24547</a></ul>
+<ul>LDAP: do not attempt to process user records without display name <a href="https://github.com/owncloud/core/issues/20804">core/#20804</a></ul>
+<ul>Updater server URL can now be specified in config.php <a href="https://github.com/owncloud/core/issues/24500">core/#24500</a></ul>
+<ul>Remove "en@pirate" locale which caused issues <a href="https://github.com/owncloud/core/issues/24545">core/#24545</a></ul>
+<ul>Added warning in admin page when using unsupported transaction mode <a href="https://github.com/owncloud/core/issues/24889">core/#24889</a></ul>
+<ul>Don't update search onResize <a href="https://github.com/owncloud/core/issues/24682">core/#24682</a></ul>
+<ul>Gallery: tokens are too loose <a href="https://github.com/owncloud/gallery/issues/669">gallery/#669</a></ul>
+<ul>WND: Fix issue decrypting the password twice, causing to log some errors <a href="https://github.com/owncloud/windows_network_drive/issues/397">windows_network_drive/#397</a></ul>
+<ul>WND: stat / dir / log rework <a href="https://github.com/owncloud/windows_network_drive/issues/399">windows_network_drive/#399</a></ul>
+<ul>WND: Fix js to allow updating the personal mounts with custom credentials properly <a href="https://github.com/owncloud/windows_network_drive/issues/388">windows_network_drive/#388</a></ul>
+<ul>WND: Lockout fix when credentials changed in the storage backend <a href="https://github.com/owncloud/windows_network_drive/issues/387">windows_network_drive/#387</a></ul>
+<ul>WND: Run strreplace only on strings <a href="https://github.com/owncloud/windows_network_drive/issues/386">windows_network_drive/#386</a></ul>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-8.2.5.tar.bz2">owncloud-8.2.5.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.5.zip">owncloud-8.2.5.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.5.tar.bz2.md5">owncloud-8.2.5.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.5.zip.md5">owncloud-8.2.5.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.5.tar.bz2.sha256">owncloud-8.2.5.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.5.zip.sha256">owncloud-8.2.5.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.5.tar.bz2.asc">owncloud-8.2.5.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.5.zip.asc">owncloud-8.2.5.zip.asc</a></br>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2">owncloud-8.2.6.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip">owncloud-8.2.6.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2.md5">owncloud-8.2.6.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip.md5">owncloud-8.2.6.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2.sha256">owncloud-8.2.6.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip.sha256">owncloud-8.2.6.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2.asc">owncloud-8.2.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip.asc">owncloud-8.2.6.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest8.1"></a>
@@ -59,6 +88,83 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 <p><strong>Note</strong> that this is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer to ensure the security and safety of your data.</p>
 
 <a name="latest9.0"></a>
+
+<h3>Version 9.0.3 <small>Jun 30 2016</small></h3>
+<ul>
+<ul>Don't reload page in case of auth errors during setup checks <a href="https://github.com/owncloud/core/issues/25309">core/#25309</a></ul>
+<ul>On mount make sure multiple shares with same target map to unique one <a href="https://github.com/owncloud/core/issues/25244">core/#25244</a></ul>
+<ul>Wrong file size for encrypted file when reverting version <a href="https://github.com/owncloud/core/issues/23928">core/#23928</a></ul>
+<ul>Fix null pointer exception in user_ldap <a href="https://github.com/owncloud/core/issues/25062">core/#25062</a></ul>
+<ul>Catch exceptions while creating shared mounts <a href="https://github.com/owncloud/core/issues/25199">core/#25199</a></ul>
+<ul>Capped cache for the user/group cache <a href="https://github.com/owncloud/core/issues/24958">core/#24958</a></ul>
+<ul>Capped cache for user config <a href="https://github.com/owncloud/core/issues/25165">core/#25165</a></ul>
+<ul>Capped cache for cache info in UserMountCache <a href="https://github.com/owncloud/core/issues/25118">core/#25118</a></ul>
+<ul>Capped cache for normalized paths <a href="https://github.com/owncloud/core/issues/24340">core/#24340</a></ul>
+<ul>Capped cache for encryption's user access list <a href="https://github.com/owncloud/core/issues/25084">core/#25084</a></ul>
+<ul>Capped cache in the user database backend <a href="https://github.com/owncloud/core/issues/24414">core/#24414</a></ul>
+<ul>Improve memory usage when doing operation on users iteratively <a href="https://github.com/owncloud/core/issues/24327">core/#24327</a></ul>
+<ul>Repair job to fix permissions for avatars, fixes missing avatars <a href="https://github.com/owncloud/core/issues/22978">core/#22978</a></ul>
+<ul>Fix OCS Share API path response, UI showing wrong folder names <a href="https://github.com/owncloud/core/issues/24997">core/#24997</a></ul>
+<ul>Fix federated share upload from link share when quota is unlimited <a href="https://github.com/owncloud/core/issues/24961">core/#24961</a></ul>
+<ul>Added warning in admin page when using unsupported transaction mode <a href="https://github.com/owncloud/core/issues/24889">core/#24889</a></ul>
+<ul>Delay files_sharing's registerMountProviders to fix some update issues <a href="https://github.com/owncloud/core/issues/25187">core/#25187</a></ul>
+<ul>Do not recurse link share fetching to avoid endless loops on Oracle <a href="https://github.com/owncloud/core/issues/25160">core/#25160</a></ul>
+<ul>Emit correct signal when disabling an app <a href="https://github.com/owncloud/core/issues/25149">core/#25149</a></ul>
+<ul>Fix app loading order to looad authentication apps first, fixes mail app issue <a href="https://github.com/owncloud/core/issues/25126">core/#25126</a></ul>
+<ul>Fix Dropbox error handling to avoid ownCloud believing that there are no files in some cases <a href="https://github.com/owncloud/core/issues/24739">core/#24739</a></ul>
+<ul>Fix grouped input fields, make sure they take precedence <a href="https://github.com/owncloud/core/issues/25143">core/#25143</a></ul>
+<ul>DAV now returns file name with Content-Disposition header for Chrome with XML files <a href="https://github.com/owncloud/core/issues/25052">core/#25052</a></ul>
+<ul>Decrease initially loaded users in users page <a href="https://github.com/owncloud/core/issues/24734">core/#24734</a></ul>
+<ul>Allow empty host when installing on oracle via CLI <a href="https://github.com/owncloud/core/issues/25106">core/#25106</a></ul>
+<ul>Fix duplicate entries in language selector <a href="https://github.com/owncloud/core/issues/24536">core/#24536</a></ul>
+<ul>Fixed dynamic group ldap access <a href="https://github.com/owncloud/core/issues/24950">core/#24950</a></ul>
+<ul>Fix cron job error related to versions <a href="https://github.com/owncloud/core/issues/22450">core/#22450</a></ul>
+<ul>Delay reloading the page if an ajax error occurs, show notification <a href="https://github.com/owncloud/core/issues/25035">core/#25035</a></ul>
+<ul>Move datadir protection check back from .ocdata to htaccess.txt for more accurate check in some setups <a href="https://github.com/owncloud/core/issues/25045">core/#25045</a></ul>
+<ul>Skip scanning for a user when the user is not setup yet <a href="https://github.com/owncloud/core/issues/25044">core/#25044</a></ul>
+<ul>Catch the ForbiddenException from storage wrappers to make sure it gets handled <a href="https://github.com/owncloud/core/issues/24949">core/#24949</a></ul>
+<ul>Fix file not found in web UI when downloading folder a ZIP with a single file in a folder <a href="https://github.com/owncloud/core/issues/24783">core/#24783</a></ul>
+<ul>Fix 'lost_password_link' from config.php that did not work as expected <a href="https://github.com/owncloud/core/issues/24789">core/#24789</a></ul>
+<ul>Fix thumbnail download issue with external storage due to inaccurate path handling <a href="https://github.com/owncloud/core/issues/21173">core/#21173</a></ul>
+<ul>Fix endless loading loop in public share in some env when password is set <a href="https://github.com/owncloud/core/issues/23066">core/#23066</a></ul>
+<ul>Propagate size changes when running files:scan with explicit path <a href="https://github.com/owncloud/core/issues/24271">core/#24271</a></ul>
+<ul>Properly check for mbstring extension <a href="https://github.com/owncloud/core/issues/24906">core/#24906</a></ul>
+<ul>Enable range requests for public download, fixes video streaming - files_videoplayer/#45, core/#24830</ul>
+<ul>Fix performance for isLocal in SharedStorage <a href="https://github.com/owncloud/core/issues/24651">core/#24651</a></ul>
+<ul>Clarify filesystem_check_changes in config.sample.php <a href="https://github.com/owncloud/core/issues/24817">core/#24817</a></ul>
+<ul>Fix IApacheBackend issue due to wrong initialization order <a href="https://github.com/owncloud/core/issues/23899">core/#23899</a></ul>
+<ul>Fix SSO + master key encryption issue due to wrong initialization order <a href="https://github.com/owncloud/core/issues/24182">core/#24182</a></ul>
+<ul>Properly check "installed" config field which was a boolean string in some older setups <a href="https://github.com/owncloud/core/issues/24714">core/#24714</a></ul>
+<ul>Remove more sensitive values from log when logging objects <a href="https://github.com/owncloud/core/issues/24328">core/#24328</a></ul>
+<ul>Free up memory when releasing the last shared lock <a href="https://github.com/owncloud/core/issues/24705">core/#24705</a></ul>
+<ul>Fix issue with chunks that got cleared too early <a href="https://github.com/owncloud/core/issues/24653">core/#24653</a></ul>
+<ul>Fix issue with language detection for apps <a href="https://github.com/owncloud/core/issues/24441">core/#24441</a></ul>
+<ul>Do not automatically enable index.php-less urls, use "htaccess.RewriteBase" config <a href="https://github.com/owncloud/core/issues/24539">core/#24539</a></ul>
+<ul>Show proper error message when trying to create users with invalid characters <a href="https://github.com/owncloud/core/issues/24512">core/#24512</a></ul>
+<ul>Updater server URL can now be specified in config.php <a href="https://github.com/owncloud/core/issues/24500">core/#24500</a></ul>
+<ul>Help Translate link in personal settings is wrong <a href="https://github.com/owncloud/core/issues/23594">core/#23594</a></ul>
+<ul>Fix infinite loop issue when moving files over Webdav in some envs <a href="https://github.com/owncloud/core/issues/24318">core/#24318</a></ul>
+<ul>Remove "en@pirate" locale which caused issues <a href="https://github.com/owncloud/core/issues/24545">core/#24545</a></ul>
+<ul>Make getShareFolder use given view instead of static FS, fixes LDAP issues with mail attr <a href="https://github.com/owncloud/core/issues/25150">core/#25150</a></ul>
+<ul>Add support to know where the storage test comes from <a href="https://github.com/owncloud/core/issues/25166">core/#25166</a></ul>
+<ul>Don't update search onResize <a href="https://github.com/owncloud/core/issues/24682">core/#24682</a></ul>
+<ul>Removed repair steps for broken updater repair <a href="https://github.com/owncloud/core/issues/24438">core/#24438</a></ul>
+<ul>Put back pcntl warning <a href="https://github.com/owncloud/core/issues/24295">core/#24295</a></ul>
+<ul>Disable integrity check failure message in UI when check is disabled <a href="https://github.com/owncloud/core/issues/24752">core/#24752</a></ul>
+<ul>Fix LDAP login with encryption after changing password <a href="https://github.com/owncloud/core/issues/24832">core/#24832</a></ul>
+<ul>Fix displaying of the date in the activity panel in the sidebar <a href="https://github.com/owncloud/activity/issues/517">activity/#517</a></ul>
+<ul>Updater: move __apps temp folder into data folder <a href="https://github.com/owncloud/updater/issues/332">updater/#332</a></ul>
+<ul>Fix updater issue when encryption was enabled <a href="https://github.com/owncloud/update/issues/350">update/#350</a></ul>
+<ul>Gallery: tokens are too loose <a href="https://github.com/owncloud/gallery/issues/669">gallery/#669</a></ul>
+<ul>Files_drop: Fix retrieving free space when value is unknown for example on external storage <a href="https://github.com/owncloud/files_drop/issues/106">files_drop/#106</a></ul>
+<ul>Workflow: Use the hook for the storage wrapper registration <a href="https://github.com/owncloud/workflow/issues/99">workflow/#99</a></ul>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.0.3.tar.bz2">owncloud-9.0.3.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip">owncloud-9.0.3.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.3.tar.bz2.md5">owncloud-9.0.3.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip.md5">owncloud-9.0.3.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.3.tar.bz2.sha256">owncloud-9.0.3.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip.sha256">owncloud-9.0.3.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.3.tar.bz2.asc">owncloud-9.0.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip.asc">owncloud-9.0.3.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
 <h3>Version 9.0.2 <small>May 4 2016</small></h3>
 <ul>
 <li>Open sidebar when clicking in the right part of rows in files view - <a href="https://github.com/owncloud/core/issues/23381">#23381</a></li>
