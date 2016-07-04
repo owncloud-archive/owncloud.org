@@ -401,18 +401,6 @@
          "imagename":"glowhost.jpg"
       },
       {
-         "title":"hostiso.com",
-         "url":"https:\/\/www.hostiso.com\/owncloud-hosting",
-         "flags":[
-            "us"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"hostiso.png"
-      },
-      {
          "title":"hummingbirdstorage.com",
          "url":"http:\/\/hummingbirdstorage.com",
          "flags":[
@@ -488,13 +476,16 @@
       },
       {
          "title":"hostiso.com",
-         "url":"https:\/\/www.hostiso.com/owncloud-hosting/",
+         "url":"https:\/\/hostiso.com/owncloud-hosting/",
          "flags":[
-            "nz"
+            "us",
+            "eu",
+            "sg"
          ],
-         "freeplans":false,
+         "freeplans":true,
          "supports":[
-
+           "organisations",
+           "consumers"
          ],
          "imagename":"hostiso.png"
       },
