@@ -34,7 +34,7 @@ Go directly to the latest maintenance release of:
 <li>Delay files_sharing's registerMountProviders to fix some update issues <a href="https://github.com/owncloud/core/issues/25187">core/#25187</a></li>
 <li>Do not recurse link share fetching to avoid endless loops on Oracle <a href="https://github.com/owncloud/core/issues/25160">core/#25160</a></li>
 <li>Emit correct signal when disabling an app <a href="https://github.com/owncloud/core/issues/25149">core/#25149</a></li>
-<li>Fix app loading order to looad authentication apps first, fixes mail app issue <a href="https://github.com/owncloud/core/issues/25126">core/#25126</a></li>
+<li>Fix app loading order to load authentication apps first, fixes mail app issue <a href="https://github.com/owncloud/core/issues/25126">core/#25126</a></li>
 <li>Fix Dropbox error handling to avoid ownCloud believing that there are no files in some cases <a href="https://github.com/owncloud/core/issues/24739">core/#24739</a></li>
 <li>Fix grouped input fields, make sure they take precedence <a href="https://github.com/owncloud/core/issues/25143">core/#25143</a></li>
 <li>DAV now returns file name with Content-Disposition header for Chrome with XML files <a href="https://github.com/owncloud/core/issues/25052">core/#25052</a></li>
@@ -47,7 +47,7 @@ Go directly to the latest maintenance release of:
 <li>Move datadir protection check back from .ocdata to htaccess.txt for more accurate check in some setups <a href="https://github.com/owncloud/core/issues/25045">core/#25045</a></li>
 <li>Skip scanning for a user when the user is not setup yet <a href="https://github.com/owncloud/core/issues/25044">core/#25044</a></li>
 <li>Catch the ForbiddenException from storage wrappers to make sure it gets handled <a href="https://github.com/owncloud/core/issues/24949">core/#24949</a></li>
-<li>Fix file not found in web UI when downloading folder a ZIP with a single file in a folder <a href="https://github.com/owncloud/core/issues/24783">core/#24783</a></li>
+<li>Fix file not found in web UI when downloading a single file in a folder <a href="https://github.com/owncloud/core/issues/24783">core/#24783</a></li>
 <li>Fix 'lost_password_link' from config.php that did not work as expected <a href="https://github.com/owncloud/core/issues/24789">core/#24789</a></li>
 <li>Fix thumbnail download issue with external storage due to inaccurate path handling <a href="https://github.com/owncloud/core/issues/21173">core/#21173</a></li>
 <li>Fix endless loading loop in public share in some env when password is set <a href="https://github.com/owncloud/core/issues/23066">core/#23066</a></li>
@@ -94,10 +94,10 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <ul>
 <li>Fix oc_appconfig fetching performance <a href="https://github.com/owncloud/core/issues/25226">core/#25226</a></li>
 <li>Wrong file size for encrypted file when reverting version <a href="https://github.com/owncloud/core/issues/23928">core/#23928</a></li>
-<li>Fix app loading order to looad authentication apps first, fixes mail app issue <a href="https://github.com/owncloud/core/issues/25126">core/#25126</a></li>
+<li>Fix app loading order to load authentication apps first, fixes mail app issue <a href="https://github.com/owncloud/core/issues/25126">core/#25126</a></li>
 <li>Fix occ files:scan locking issue with shared folder <a href="https://github.com/owncloud/core/issues/24507">core/#24507</a></li>
 <li>Fix quota update after moving files to shared folder in webinterface <a href="https://github.com/owncloud/core/issues/21236">core/#21236</a></li>
-<li>Show a proper error message when handle "storage not available" situations <a href="https://github.com/owncloud/core/issues/25037">core/#25037</a></li>
+<li>Show a proper error message when handling "storage not available" situations <a href="https://github.com/owncloud/core/issues/25037">core/#25037</a></li>
 <li>Fix cron job error related to versions <a href="https://github.com/owncloud/core/issues/22450">core/#22450</a></li>
 <li>Fix thumbnail download issue with external storage due to inaccurate path handling <a href="https://github.com/owncloud/core/issues/21173">core/#21173</a></li>
 <li>Capped cache for the user/group cache <a href="https://github.com/owncloud/core/issues/24958">core/#24958</a></li>
@@ -173,9 +173,9 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 <li>Wrong image rotation - <a href="https://github.com/owncloud/core/issues/21485">#21485</a></li>
 <li>Restrict autoloaded paths to loaded apps (and other enhancements) - <a href="https://github.com/owncloud/core/issues/18839">#18839</a></li>
 <li>Exclude autoload_static.php - <a href="https://github.com/owncloud/core/issues/23935">#23935</a></li>
-<li>[encryption] Recovery key feature doesn't work when a not default "User Home Folder Naming Rule" is used - <a href="https://github.com/owncloud/core/issues/23632">#23632</a></li>
+<li>[encryption] Recovery key feature doesn't work when a non-default "User Home Folder Naming Rule" is used - <a href="https://github.com/owncloud/core/issues/23632">#23632</a></li>
 <li>Federated sharing: volatile edit permission - <a href="https://github.com/owncloud/core/issues/24032">#24032</a></li>
-<li>Transfer ownership with encryption break files -> bad signature - <a href="https://github.com/owncloud/core/issues/24095">#24095</a></li>
+<li>Transfer ownership with encryption breaks files -> bad signature - <a href="https://github.com/owncloud/core/issues/24095">#24095</a></li>
 <li>TextEditor: Checksum not invalidated on file change - <a href="https://github.com/owncloud/core/issues/23782">#23782</a></li>
 <li>occ files:scan does not invalidate checksums if file changed on disk. - <a href="https://github.com/owncloud/core/issues/23783">#23783</a></li>
 <li>[9.0] handle completely unscanned storages in the background scanner - <a href="https://github.com/owncloud/core/issues/23576">#23576</a></li>
@@ -203,7 +203,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 <li>[9.0] error out if a local storage isn't setup correctly - <a href="https://github.com/owncloud/core/issues/24289">#24289</a></li>
 <li>[Stable 9] Make ownCloud work again in php 7.0.6 - <a href="https://github.com/owncloud/core/issues/24343">#24343</a></li>
 <li>After switching to Postgresql changing any activity checkbox checks all of the boxes - <a href="https://github.com/owncloud/core/issues/23761">#23761</a></li>
-<li>Upgrade from o.C. 8.2.X to 9.0.X. Cannot access to oC if and LDAP user that made a share was deleted from the LDAP server. - <a href="https://github.com/owncloud/core/issues/24090">#24090</a></li>
+<li>Upgrade from o.C. 8.2.X to 9.0.X. Cannot access oC if an LDAP user that made a share was deleted from the LDAP server. - <a href="https://github.com/owncloud/core/issues/24090">#24090</a></li>
 <li>Update sabre/dav to 3.0.9 for windows 10 support - <a href="https://github.com/owncloud/3rdparty/issues/269">3rdparty/#269</a></li>
 <li>Update sabre/dav to 3.0.9 on stable9 - <a href="https://github.com/owncloud/3rdparty/issues/270">3rdparty/#270</a></li>
 <li>Spinning wheel OC 9 - <a href="https://github.com/owncloud/activity/issues/481">activity/#481</a></li>
@@ -253,7 +253,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>[stable8.2] Fix conditional check in MySQL setup - <a href="https://github.com/owncloud/core/issues/23807">#23807</a></li>
 <li>[stable8.2] Fixes a possible infinite change-dir-loop - <a href="https://github.com/owncloud/core/issues/23984">#23984</a></li>
 <li>Orientation for shared images broken - <a href="https://github.com/owncloud/core/issues/20484">#20484</a></li>
-<li>[encryption] Recovery key feature doesn't work when a not default "User Home Folder Naming Rule" is used - <a href="https://github.com/owncloud/core/issues/23632">#23632</a></li>
+<li>[encryption] Recovery key feature doesn't work when a non-default "User Home Folder Naming Rule" is used - <a href="https://github.com/owncloud/core/issues/23632">#23632</a></li>
 <li>Share Dialog Problems repeating user list - <a href="https://github.com/owncloud/core/issues/18910">#18910</a></li>
 <li>Federated sharing: volatile edit permission - <a href="https://github.com/owncloud/core/issues/24032">#24032</a></li>
 <li>Share link: user mail is disappearing after selecting expiration date - <a href="https://github.com/owncloud/core/issues/22947">#22947</a></li>
@@ -287,7 +287,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>Renaming and moving displays an error in public shared folder with edit permissions. - <a href="https://github.com/owncloud/core/issues/21678">#21678</a></li>
 <li>Sharing to AD group fails when not all users have logged in - <a href="https://github.com/owncloud/core/issues/22907">#22907</a></li>
 <li>"Allow editing" capability in share by link not disabled - <a href="https://github.com/owncloud/core/issues/23325">#23325</a></li>
-<li>[encryption] Recovery key feature doesn't work when a not default "User Home Folder Naming Rule" is used - <a href="https://github.com/owncloud/core/issues/23632">#23632</a></li>
+<li>[encryption] Recovery key feature doesn't work when a non-default "User Home Folder Naming Rule" is used - <a href="https://github.com/owncloud/core/issues/23632">#23632</a></li>
 <li>Cannot upload file from OC <= 8.2 through fed share to OC 9.0 with unlimited quota - <a href="https://github.com/owncloud/core/issues/23547">#23547</a></li>
 <li>[stable8.1] Ignore certificate file if it starts with file:// - <a href="https://github.com/owncloud/core/issues/24170">#24170</a></li>
 <li>Undefined index: extension at /var/www/owncloud/lib/private/installer.php#272 - <a href="https://github.com/owncloud/core/issues/24228">#24228</a></li>
@@ -333,7 +333,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 	<li>Add mimetype to OCS Share API output <a href="https://github.com/owncloud/core/issues/23060">#23060</a></li>
 	<li>Allow group shares, even if not all public keys are available <a href="https://github.com/owncloud/core/issues/23264">#23264</a></li>
 	<li>Allow blocking of group sharing <a href="https://github.com/owncloud/core/issues/23473">#23473</a></li>
-	<li>API share returns the shares that I make even API is disabled <a href="https://github.com/owncloud/core/issues/22668">#22668</a></li>
+	<li>API share returns the shares that I make even if API is disabled <a href="https://github.com/owncloud/core/issues/22668">#22668</a></li>
 	<li>Return remote shares in oc:share-types Webdav property <a href="https://github.com/owncloud/core/issues/23570">#23570</a></li>
 	<li>"Allow editing" capability in share by link not disabled <a href="https://github.com/owncloud/core/issues/23325">#23325</a></li>
 	<li>Fix archive file name when downloading public share <a href="https://github.com/owncloud/core/issues/22922">#22922</a></li>
@@ -355,7 +355,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 	<li>CalDAV / CardDAV URLs no longer working after upgrading to 9.0 <a href="https://github.com/owncloud/core/issues/22988">#22988</a></li>
 	<li>Group calendars can't be edited by group members <a href="https://github.com/owncloud/core/issues/23011">#23011</a></li>
 	<li>Contact birthdays of untouched contacts not displayed in calendar <a href="https://github.com/owncloud/core/issues/22971">#22971</a></li>
-	<li>Shared addressbook is always writable independently on "can edit" checkbox <a href="https://github.com/owncloud/core/issues/23273">#23273</a></li>
+	<li>Shared addressbook is always writable independently of "can edit" checkbox <a href="https://github.com/owncloud/core/issues/23273">#23273</a></li>
 	<li>Calendar: Shared Calendars Aren't Visible After Upgrading From 8.2.2 -> 9.0.0{beta2,RC1,final} <a href="https://github.com/owncloud/core/issues/22678">#22678</a></li>
 	<li>Calendar doesn't support dates before Unix epoch => can't import contact birthdays <a href="https://github.com/owncloud/core/issues/23004">#23004</a></li>
 	<li>The birthday_calendar is read-only <a href="https://github.com/owncloud/core/issues/23105">#23105</a></li>
@@ -515,7 +515,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 	<li>Always use an LDAP URL when connecting to LDAP - <a href="https://github.com/owncloud/core/issues/22766">github issue</a>, <a href="https://github.com/owncloud/core/issues/21631">github issue</a></li>
 	<li>Sharing with LDAP users not working on subsequent attempts when cache is enabled - <a href="https://github.com/owncloud/core/issues/21896">github issue</a></li>
 	<li>Setting enable_avatar to false with occ causes some bugs - <a href="https://github.com/owncloud/core/issues/21949">github issue</a></li>
-	<li>Shares moving back to deault "landing" dir - <a href="https://github.com/owncloud/core/issues/12385">github issue</a></li>
+	<li>Shares moving back to default "landing" dir - <a href="https://github.com/owncloud/core/issues/12385">github issue</a></li>
 	<li>Add some mimetypes - <a href="https://github.com/owncloud/core/issues/21766">github issue</a></li>
 	<li>LDAP second display name - <a href="https://github.com/owncloud/core/issues/22250">github issue</a></li>
 	<li>No error when Home Directory is missing - <a href="https://github.com/owncloud/core/issues/10419">github issue</a></li>
@@ -535,7 +535,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 	<li>backgroundScan must ignore root storage - <a href="https://github.com/owncloud/core/issues/22501">github issue</a></li>
 	<li>Heal unencrypted file sizes at download time - <a href="https://github.com/owncloud/core/issues/22626">github issue</a></li>
 	<li>Can load empty folder of "not available" external storage - <a href="https://github.com/owncloud/core/issues/21125">github issue</a></li>
-	<li>Call to a member function file_exists() on a non-obect in owncloud/lib/private/files/filesystem.php on line 688 - <a href="https://github.com/owncloud/core/issues/18499">github issue</a></li>
+	<li>Call to a member function file_exists() on a non-object in owncloud/lib/private/files/filesystem.php on line 688 - <a href="https://github.com/owncloud/core/issues/18499">github issue</a></li>
 	<li>Command line occ add user group issue - <a href="https://github.com/owncloud/core/issues/20663">github issue</a></li>
 	<li>Federated shared subfolder not syncing - <a href="https://github.com/owncloud/core/issues/20329">github issue</a></li>
 	<li>Skip users with no trashbin - <a href="https://github.com/owncloud/core/issues/22628">github issue</a></li>
