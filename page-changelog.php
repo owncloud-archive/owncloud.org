@@ -229,6 +229,17 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.2.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.2.tar.bz2.asc">owncloud-9.0.2.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.2.zip.asc">owncloud-9.0.2.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
+<h3>Version 8.2.5 <small>May 13 2016</small></h3>
+<ul>
+       <li>webdav / files broken after upgrade to 8.2.4 <a href="https://github.com/owncloud/core/issues/24487">#24487</a></li>
+       <li>Addressed XSS issues in the files_videoviewer app</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.2.5.tar.bz2">owncloud-8.2.5.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.5.zip">owncloud-8.2.5.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.5.tar.bz2.md5">owncloud-8.2.5.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.5.zip.md5">owncloud-8.2.5.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.5.tar.bz2.sha256">owncloud-8.2.5.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.5.zip.sha256">owncloud-8.2.5.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.5.tar.bz2.asc">owncloud-8.2.5.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.5.zip.asc">owncloud-8.2.5.zip.asc</a></br>
+
+
 <h3>Version 8.2.4 <small>May 4 2016</small></h3>
 <ul>
 <li>[stable8.2] Remove browser autocomplete in new file menu - <a href="https://github.com/owncloud/core/issues/22927">#22927</a></li>
