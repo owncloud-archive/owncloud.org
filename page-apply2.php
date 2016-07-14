@@ -5,7 +5,7 @@
 <ul>
 	<li>Entries <strong>must</strong> be factual and relevant to ownCloud. Generic services are not a good fit. Make sure that the link you submit contains references (and a link) to ownCloud.</li>
 	<li>Your organization and in particular the website at the link provided has to <strong>respect the <a href="/trademarks">ownCloud trademark policy</a></strong>.</li>
-        <li>Note that being listed does not apply approval, endorsement or affiliation with the ownCloud community or project or ownCloud, Inc. and your website and/or description should not, incorrectly, claim so.</li>
+        <li>Note that being listed does not apply approval, endorsement or affiliation with the ownCloud community or project or ownCloud GmbH and your website and/or description should not, incorrectly, claim so.</li>
 	<li>The <strong>description</strong> can be up to 135 characters (250 for partners). It should give an idea of the offered services so readers can quickly judge if an entry is of interest. Review the current list for the expected contents and format.</li>
 	<ul>
 		<li><strong>Good</strong>: “We offer deployment support, performance optimization of ownCloud, external storage integration and can develop custom apps”</li>
@@ -26,7 +26,7 @@
 	<form id="mktoForm_1249"></form>
 	<script>MktoForms2.loadForm("//app-ab13.marketo.com", "038-KRL-592", 1249);</script>
         <p>If you are interested in partnering with
-            <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> you can find more information
+            <a target="_blank" href="https://owncloud.com">ownCloud GmbH</a> you can find more information
             <a target="_blank" href="https://owncloud.com/partner/">here</a>.</p>
     </div>
 </div>

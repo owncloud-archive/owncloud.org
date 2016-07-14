@@ -43,7 +43,7 @@
 		<h2>Conferences</h2>
 		<p>ownCloud community members everywhere organize ownCloud presence at trade shows and conferences to present our community and technology to visitors.
 			Below is a list of upcoming tradeshows and conferences where you can find ownCloud represented!</p>
-			<p>If you have business questions and would like to meet ownCloud, Inc. at an event, check out the <a href="https://owncloud.com/events/event/">events page on owncloud.com</a>.
+			<p>If you have business questions and would like to meet ownCloud GmbH at an event, check out the <a href="https://owncloud.com/events/event/">events page on owncloud.com</a>.
 		<table class="table table-striped">
 			<tr>
 				<th>Event</th>

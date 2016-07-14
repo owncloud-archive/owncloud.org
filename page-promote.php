@@ -28,7 +28,7 @@
 	    <a target="_blank" href="https://owncloud.org/blogfeed"><img class="img-circle" width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png"></img></a>
 	    <a target="_blank" href="https://joindiaspora.com/u/owncloud"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/diasporaround.png"></img></a>
       </p>
-      <p>You can also find <a href="http://owncloud.com">ownCloud, Inc.</a> online:<br />
+      <p>You can also find <a href="http://owncloud.com">ownCloud GmbH</a> online:<br />
             <a target="_blank" href="https://plus.google.com/+OwncloudOfficial/posts"><img width=25 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img></a>
 	    <a target="_blank" href="https://www.facebook.com/owncloud"><img width=25 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img></a>
 	    <a target="_blank" href="https://twitter.com/owncloud"><img width=25 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img></a>

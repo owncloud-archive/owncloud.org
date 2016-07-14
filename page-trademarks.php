@@ -5,9 +5,9 @@
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/owncloud-square-logo.png" style="width: 200px" title="ownCloud community logo governed by this document" alt="ownCloud community logo governed by this document" class="img-thumbnail alignright">
 
 <h2>The ownCloud Marks</h2>
-<p>ownCloud and the ownCloud Logo is a registered trademark of <a href="http://owncloud.com" target="_blank">ownCloud, Inc.</a> in the United States, other countries or both.</p>
+<p>ownCloud and the ownCloud Logo is a registered trademark of <a href="http://owncloud.com" target="_blank">ownCloud GmbH</a> in the United States, other countries or both.</p>
 
-<p>These guidelines cover the following marks pertaining both to the product name and the logo: ownCloud and the blue/white cloud logo with or without the word ownCloud. This set of marks is collectively referred to as the "ownCloud Marks." Please note that use of the white/orange/blue cloud logo is used exclusively by ownCloud, Inc. and its approved partners and is therefor not covered under these guidelines. Any permission for usage of that particular logo must be granted explicitly by ownCloud, Inc. whom you can contact at at <a href="https://owncloud.com/contact/" target="_blank">owncloud.com/contact</a></p>
+<p>These guidelines cover the following marks pertaining both to the product name and the logo: ownCloud and the blue/white cloud logo with or without the word ownCloud. This set of marks is collectively referred to as the "ownCloud Marks." Please note that use of the white/orange/blue cloud logo is used exclusively by ownCloud GmbH and its approved partners and is therefor not covered under these guidelines. Any permission for usage of that particular logo must be granted explicitly by ownCloud GmbH whom you can contact at at <a href="https://owncloud.com/contact/" target="_blank">owncloud.com/contact</a></p>
 
 <h2>General Guidelines for Using the ownCloud Marks</h2>
 
