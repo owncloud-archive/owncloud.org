@@ -18,7 +18,7 @@
             });
         </script>-->
         <p>If you are interested in becoming an enterprise provider with a support contract from
-            <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> you can find more information
+            <a target="_blank" href="https://owncloud.com">ownCloud GmbH</a> you can find more information
             <a target="_blank" href="https://owncloud.com/products/service-provider">here</a>.</p>
     </div>
 </div>

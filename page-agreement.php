@@ -19,10 +19,10 @@ recommend that you sign the agreement because AGPL/GPL protects the freedom of y
 <h3>How difficult is it to sign the agreement?</h3>
 Very easy. Take the PDF, sign it and send it by mail or scan to cla@owncloud.com</p>
 <p>or<br />
-Carlos Montero-Luque<br />
-57 Bedford Street, Suite 102<br />
-Lexington, MA 02420<br />
-USA</p>
+ownCloud GmbH<br />
+Schloßäckerstr. 26a<br />
+90443 Nürnberg<br />
+Germany</p>
 <p>We will give you full commit rights as soon as we have received your agreement. If you also want to contribute
 to the ownCloud iOS app please also send the signed "iOS Addendum" document. See the <a href="/contribute/iOS-license-exception/">iOS license exception</a> for testing the ownCloud iOS app on Apple hardware.</p>
 <h3>Is there any risk for me when I sign this agreement?</h3>
@@ -41,5 +41,5 @@ That is guaranteed by the AGPL license.<p>
 ownCloud benefits enormously from the resources that the company invests into it, including coding, marketing and more.
 The company pays ownCloud coders to write features the customers need and works with the community to make ownCloud a better product.
 Because the company works in the open and as part of the community, and because the code is released under the AGPL,
-ownCloud itself continues to be free. Essentially, ownCloud Inc. customers pay for ownCloud contributors writing more AGPL code for ownCloud.
+ownCloud itself continues to be free. Essentially, ownCloud GmbH customers pay for ownCloud contributors writing more AGPL code for ownCloud.
 So we think that we found a solution here which is good for all parties.<p>

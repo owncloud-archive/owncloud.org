@@ -94,7 +94,7 @@
 			  <a href="https://owncloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/IPC.png" title="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area." alt="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area" /></a>
 			</div>
 		</div>
-	<p>Learn more about ownCloud, Inc. customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p>
+	<p>Learn more about ownCloud GmbH customers and their stories <a href="https://owncloud.com/customer-stories/" target="_blank">here</a></p>
 </div>
 
 <div class="wrap newsletter">

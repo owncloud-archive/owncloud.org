@@ -27,7 +27,7 @@ process easy and effective for everyone involved.
 * Submit a pull request to master, on github once the feature/bugfix is complete (this is so we can test it on the staging server)
 * After review (usually following one or two thumbs up), a developer will permit the merge into master
 * Code will be pulled onto staging.owncloud.org for testing (deployment there is automatic)
-* Once the test looks good, staging will be cloned over to www.owncloud.org - this is handled by @jospoortvliet or the ownCloud, Inc. sysadmins including @danimo 
+* Once the test looks good, staging will be cloned over to www.owncloud.org - this is handled by the web team on Github, and sysadmins including @danimo 
 
 ### Notes
 
