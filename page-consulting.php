@@ -1,16 +1,16 @@
 <p>While most ownCloud users are able to install and use ownCloud without any help or with assistance of volunteers in our community support channels, some deployments, especially by corporate users, may have more complex requirements that require professional services. This page lists individuals and companies offering services with regards to deployment, maintenance and integration of ownCloud in your workflow.
 </p>
 
-<div class="alert alert-info">If you offer ownCloud Consulting, you can <a href="/consulting/apply2/">request to be listed on this page</a>. To find out more about becoming an enterprise consultant with a support contract from <a target="_blank" href="https://owncloud.com">ownCloud Inc</a> please see <a target="_blank" href="https://owncloud.com/partner/">the partner page on ownCloud.com</a>.
+<div class="alert alert-info">If you offer ownCloud Consulting, you can <a href="/consulting/apply2/">request to be listed on this page</a>. To find out more about becoming an enterprise consultant with a support contract from <a target="_blank" href="https://owncloud.com">ownCloud GmbH</a> please see <a target="_blank" href="https://owncloud.com/partner/">the partner page on ownCloud.com</a>.
 </div>
 
 <div class="row col-xs-12">
 	<h2>ownCloud Certified Partners</h2>
-	<p>For any projects where ownCloud is mission critical, ownCloud partners provide subscription based offerings from ownCloud and consulting as well as development services backed up by ownCloud, Inc. full-time support personal, engineers and expert knowledge.</p>
+	<p>For any projects where ownCloud is mission critical, ownCloud partners provide subscription based offerings from ownCloud and consulting as well as development services backed up by ownCloud GmbH full-time support personal, engineers and expert knowledge.</p>
 </div>
 <div class="row col-xs-12">
 	<h2>Independent consultants</h2>
-	<p>Besides partners, individuals and firms offer ownCloud related services that may be of interest. The information provided here was provided by the entities named, and is not verified or endorsed by the ownCloud community or ownCloud, Inc. We offer this listing as a service to the ecosystem.</p>
+	<p>Besides partners, individuals and firms offer ownCloud related services that may be of interest. The information provided here was provided by the entities named, and is not verified or endorsed by the ownCloud community or ownCloud GmbH. We offer this listing as a service to the ecosystem.</p>
 </div>
 
 <div class="row">
