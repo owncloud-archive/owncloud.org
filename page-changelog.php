@@ -37,12 +37,12 @@ Go directly to the latest maintenance release of:
 <li>Search: Fix search when operating on share file list sections - <a href="https://github.com/owncloud/core/issues/23774">core/#23774</a></li>
 <li>Updater: Now uses web requests, useful for environments without CLI or proc_open access - <a href="https://github.com/owncloud/core/issues/21085">core/#21085</a></li>
 <li>Updater: fix cleanup routine that failed with some apps - <a href="https://github.com/owncloud/core/issues/24453">core/#24453</a></li>
-<li>Updater: fix integrity check issue when updating from 9.0.0 or 9.0.1 - core/#358</li>
+<li>Updater: fix integrity check issue when updating from 9.0.0 or 9.0.1 - <a href="https://github.com/owncloud/updater/issues/358">updater/#358</a></li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-9.0.4.tar.bz2">owncloud-9.0.3.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip">owncloud-9.0.3.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.4.tar.bz2.md5">owncloud-9.0.3.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip.md5">owncloud-9.0.3.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.4.tar.bz2.sha256">owncloud-9.0.3.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip.sha256">owncloud-9.0.3.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.4.tar.bz2.asc">owncloud-9.0.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip.asc">owncloud-9.0.3.zip.asc</a></br>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.0.4.tar.bz2">owncloud-9.0.4.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.4.zip">owncloud-9.0.4.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.4.tar.bz2.md5">owncloud-9.0.4.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.4.zip.md5">owncloud-9.0.4.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.4.tar.bz2.sha256">owncloud-9.0.4.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.4.zip.sha256">owncloud-9.0.4.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.4.tar.bz2.asc">owncloud-9.0.4.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.4.zip.asc">owncloud-9.0.4.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest8.2"></a></li>
