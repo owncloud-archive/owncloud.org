@@ -80,8 +80,6 @@ Go directly to the latest maintenance release of:
 <li>Updater: move __apps temp folder into data folder <a href="https://github.com/owncloud/updater/issues/332">updater/#332</a></li>
 <li>Fix updater issue when encryption was enabled <a href="https://github.com/owncloud/update/issues/350">update/#350</a></li>
 <li>Gallery: tokens are too loose <a href="https://github.com/owncloud/gallery/issues/669">gallery/#669</a></li>
-<li>Files_drop: Fix retrieving free space when value is unknown for example on external storage <a href="https://github.com/owncloud/files_drop/issues/106">files_drop/#106</a></li>
-<li>Workflow: Use the hook for the storage wrapper registration <a href="https://github.com/owncloud/workflow/issues/99">workflow/#99</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.0.3.tar.bz2">owncloud-9.0.3.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip">owncloud-9.0.3.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.3.tar.bz2.md5">owncloud-9.0.3.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip.md5">owncloud-9.0.3.zip.md5</a></br>
@@ -118,11 +116,6 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>Added warning in admin page when using unsupported transaction mode <a href="https://github.com/owncloud/core/issues/24889">core/#24889</a></li>
 <li>Don't update search onResize <a href="https://github.com/owncloud/core/issues/24682">core/#24682</a></li>
 <li>Gallery: tokens are too loose <a href="https://github.com/owncloud/gallery/issues/669">gallery/#669</a></li>
-<li>WND: Fix issue decrypting the password twice, causing to log some errors <a href="https://github.com/owncloud/windows_network_drive/issues/397">windows_network_drive/#397</a></li>
-<li>WND: stat / dir / log rework <a href="https://github.com/owncloud/windows_network_drive/issues/399">windows_network_drive/#399</a></li>
-<li>WND: Fix js to allow updating the personal mounts with custom credentials properly <a href="https://github.com/owncloud/windows_network_drive/issues/388">windows_network_drive/#388</a></li>
-<li>WND: Lockout fix when credentials changed in the storage backend <a href="https://github.com/owncloud/windows_network_drive/issues/387">windows_network_drive/#387</a></li>
-<li>WND: Run strreplace only on strings <a href="https://github.com/owncloud/windows_network_drive/issues/386">windows_network_drive/#386</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2">owncloud-8.2.6.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip">owncloud-8.2.6.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2.md5">owncloud-8.2.6.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip.md5">owncloud-8.2.6.zip.md5</a></br>
