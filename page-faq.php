@@ -88,7 +88,7 @@ See also the <a href="https://owncloud.com/faq" target="_blank">ownCloud Enterpr
 <ul>
 	<li>You should start with the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a></li>
 	<li>There are a lot of tutorials and how-to's written for installing and managing ownCloud, to be found all over the internet. We collect a list on <a href="https://github.com/owncloud/core/wiki/Reviews-tutorials-and-videos-of-ownCloud"  target="_blank">this page</a> and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">YouTube channel collects video tutorials</a> but if what you are looking for is not there, <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">Google</a> or another search engine can find them easily.</li>
-	<li>The ownCloud forums have a <a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+	<li>We have a <a href="https://central.owncloud.org/c/howto/faq" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
 </ul>
 
 <a name="channels"></a>
@@ -102,7 +102,7 @@ See also the <a href="https://owncloud.com/faq" target="_blank">ownCloud Enterpr
 <h3>Where can I discuss ideas with other ownCloud users?</h3>
 The best places for conversation are:
 <ul>
-	<li><a href="https://forum.owncloud.org" target="_blank">the ownCloud Forums</a></li>
+	<li><a href="https://central.owncloud.org" target="_blank">the ownCloud Central Forums</a></li>
 	<li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud User mailing list</a></li>
 </ul>
 <p>If you have a feature request or proposal which you can support with code, <a href="/contribute/">check out our contribute page</a>. You can put feature requests in the <a href="https://github.com/owncloud/core/issues">issue tracker</a> but please be aware that in open source projects like ownCloud, the constraint is rarely ideas or awareness of what can be improved but rather time to work on them. <a href="/contribute/">Contributing</a> is the best way of making change happen!</p>

@@ -67,7 +67,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
     <div class="col-md-6">
     <h3><i class="icon-book"></i>&nbsp;&nbsp;Answer questions about ownCloud use and development</h3>
         <p>Help answer questions users and developers have about ownCloud!</p>
-        <ul><li>Join the <a href="https://forum.owncloud.org">ownCloud forums</a> and look for <a href="https://forum.owncloud.org/search.php?search_id=unanswered">unanswered questions</a></li>
+        <ul><li>Join <a href="https://contral.owncloud.org">ownCloud the forums on ownCloud Central</a> and look for <a href="https://central.owncloud.org/c/help">unanswered questions</a></li>
         <li>Answer ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
         <li>Answer ownCloud user questions on <a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li></ul>
     </div>
