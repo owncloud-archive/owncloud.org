@@ -121,7 +121,7 @@
 	</div>
 	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
 		<i class="icon-comment"></i>
-		<h3>The latest <a href="https://forum.owncloud.org">from the forum</a></h3>
+		<h3>The latest <a href="https://central.owncloud.org">from the forum</a></h3>
 		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span>
 	</div>
 </div>

@@ -16,7 +16,7 @@
 </div>
 <p>ownCloud users and enthusiasts can discuss and share ownCloud experiences on our Forums, IRC and mailing lists.</p>
       <ul>
-        <li>Join the <a href="https://forum.owncloud.org">ownCloud forums</a> and our <a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
+        <li>Join the <a href="https://central.owncloud.org">ownCloud Central forums</a> and our <a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
         <li>See ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
         <li>Discuss ownCloud on <a href="https://mailman.owncloud.org/mailman/listinfo/user">the ownCloud user mailing list</a></li>
         <li>We meet each other in real life, too, at conferences and meetups. See <a href="/events">our event pages</a> for more information</li>

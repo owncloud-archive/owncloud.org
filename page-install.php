@@ -57,7 +57,7 @@
     <h3><i class="icon-comment"></i> Support Channels</h3>
     <p>Discuss using, installing or maintaining ownCloud in our community support channels.</p>
     <ul>
-      <li><a href="http://forum.owncloud.org" target="_blank" rel="tooltip" title="The ownCloud User Forums">Forum</a> (<a href="https://forum.owncloud.org/viewforum.php?f=17" target="_blank" rel="tooltip" title="The FAQ maintained by the ownCloud Forum Team">Forum FAQ</a>)</li>
+      <li><a href="http://central.owncloud.org" target="_blank" rel="tooltip" title="ownCloud Central Forums">Forum</a> (<a href="https://central.owncloud.org/c/howto/faq" target="_blank" rel="tooltip" title="The FAQ maintained by the ownCloud Central Community">Forum FAQ</a>)</li>
       <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank" rel="tooltip" title="The ownCloud User Mailing List">User Mailing List</a></li>
       <li><a href="irc://#owncloud@freenode.net" target="_blank" rel="tooltip" title="The ownCloud IRC Channel">IRC Channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank"  rel="tooltip" title="Web interface to the ownCloud IRC Channel">Webchat</a>)</li>
     </ul>
