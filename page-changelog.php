@@ -4,12 +4,107 @@
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 Go directly to the latest maintenance release of:
 <ul>
+<li><a href="#latest9.1">ownCloud 9.1</a></li>
 <li><a href="#latest9.0">ownCloud 9</a></li>
 <li><a href="#latest8.2">ownCloud 8.2</a></li>
 <li><a href="#latest8.1">ownCloud 8.1</a></li>
 <li><a href="#latest8.0">ownCloud 8</a></li>
 <li><a href="#latest7">ownCloud 7 (unsupported!)</a></li>
 <li><a href="#latest6">ownCloud 6 (unsupported!)</a></li>
+</ul>
+
+<a name="latest9.1"></a>
+<h3>Version 9.1.0 <small>Jul 21 2016</small></h3>
+
+<b>General</b>
+
+<ul>
+<li>Background jobs (cron) can now run in parallel</li>
+<li>Update notifications in client via API - You can now be notified in your desktop client about available updates for core and apps. The notifications are made available via the notifications API. </li>
+<li>Multi bucket support for primary objectstore integration</li>
+</ul>
+
+<b>Authentication</b>
+
+<ul>
+<li>Pluggable authentication: plugin system that supports different authentication schemes</li>
+<li>Token-based authentication</li>
+<li>Ability to invalidate sessions</li>
+<li>List connected browsers/devices in the personal settings page. Allows the user to disconnect browsers/devices.</li>
+<li>Device-specific passwords/tokens, can be generated in the personal page and revoked</li>
+<li>Disable users and automatically revoke their sessions</li>
+<li>Detect disabled LDAP users or password changes and revoke their sessions</li>
+<li>Log in with email address</li>
+<li>Configuration option to enforce token-based login outside the web UI</li>
+<li>Two Factor authentication plug-in system</li>
+<li>OCC command added to (temporarily) disable/enable two-factor authentication for single users </li>
+</ul>
+
+<i>Note:</i> the current desktop and mobile client versions do not support two-factor yet, this will be added later.
+It is already possible to generate a device specific password and enter that in the current client versions.
+
+<b>Files app</b>
+
+<ul>
+<li>Ability to toggle displaying hidden files</li>
+<li>Remember sort order</li>
+<li>Permalinks for internal shares</li>
+<li>Visual cue when dragging in files app</li>
+<li>Autoscroll file list when dragging files</li>
+<li>Upload progress estimate</li>
+</ul>
+
+<b>Federated sharing</b>
+
+<ul>
+<li>Ability to create federated shares with CRUDS permissions</li>
+<li>Resharing a federated share does not create a chain of shares any more but connects the share owner's server to the reshare recipient</li>
+</ul>
+
+<b>External storage</b>
+
+<ul>
+<li>UTF-8 NFD encoding compatibility support for NFD file names stored directly on external storages (new mount option in external storage admin page)</li>
+<li>Direct links to the configuration pages for setting up a GDrive or Dropbox app for use with ownCloud </li>
+<li>Some performance and memory usage improvements for GDrive, stream download and chunk upload</li>
+<li>Performance and memory usage improvements for Dropbox with stream download</li>
+<li>GDrive library update provides exponential backoff which will reduce rate limit errors</li>
+</ul>
+
+<b>Minor additions</b>
+
+<ul>
+<li>Support for print style sheets</li>
+<li>Command line based update will now be suggested if the instance is bigger to avoid potential timeouts</li>
+<li>Web updater will be disabled if LDAP or shibboleth are installed</li>
+<li>DB/app update process now shows better progress information</li>
+<li>Added `occ files:scan --unscanned` to only scan folders that haven't yet been explored on external storages</li>
+<li>Chunk cache TTL can now be configured</li>
+<li>Added warning for wrongly configured database transactions, helps prevent "database is locked" issues</li>
+<li>Use a capped memory cache to reduce memory usage especially in background jobs and the file scanner</li>
+<li>Allow login by email</li>
+<li>Respect CLASS property in calendar events</li>
+<li>Allow addressbook export using VCFExportPlugin</li>
+<li>Birthdays are also generated based on shared addressbooks</li>
+</ul>
+
+<b>For developers</b>
+
+<ul>
+<li>New DAV endpoint with a new chunking protocol aiming to solve many issues like timeouts (not used by clients yet)</li>
+<li>New webdav property for share permissions</li>
+<li>Background repair steps can be specified info.xml</li>
+<li>Background jobs (cron) can now be declared in info.xml </li>
+<li>Apps can now define repair steps to run at install/uninstall time </li>
+<li>Export contact images via sabre dav plugin </li>
+<li>Sabre DAV's browser plugin is available in debug mode to allow easier development around webdav </li>
+</ul>
+
+<b>Technical debt</b>
+
+<ul>
+<li>PSR-4 autoloading forced for `OC\` and `OCP\`, optional for `OCA\`  docs at https://doc.owncloud.org/server/9.1/developer_manual/app/classloader.html</li>
+<li>More cleanup of the sharing code (ongoing)</li>
 </ul>
 
 <a name="latest9.0"></a>
@@ -2696,6 +2791,6 @@ MD5: <a href="https://owncloud.org/releases/owncloud-3.0.1.tar.bz2.md5">https://
 	<li>Improved photo gallery</li>
 	<li>Improved calendar view</li>
 	<li>PDF viewer</li>
-</ul>
+</ua>
 Download: <a href="https://owncloud.org/releases/owncloud-3.0.tar.bz2">https://owncloud.org/releases/owncloud-3.0.tar.bz2</a><br />
 MD5: <a href="https://owncloud.org/releases/owncloud-3.0.tar.bz2.md5">https://owncloud.org/releases/owncloud-3.0.tar.bz2.md5</a>
