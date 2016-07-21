@@ -41,7 +41,7 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <i>Note:</i> the current desktop and mobile client versions do not support two-factor yet, this will be added later.
-It is already possible to generate a device specific password and enter that in the current client versions.
+It is already possible to generate a device specific password and enter that in the current client versions.<br/><br/>
 
 <b>Files app</b>
 
