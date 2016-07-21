@@ -78,7 +78,7 @@ It is already possible to generate a device specific password and enter that in 
 <li>Command line based update will now be suggested if the instance is bigger to avoid potential timeouts</li>
 <li>Web updater will be disabled if LDAP or shibboleth are installed</li>
 <li>DB/app update process now shows better progress information</li>
-<li>Added `occ files:scan --unscanned` to only scan folders that haven't yet been explored on external storages</li>
+<li>Added <code>occ files:scan --unscanned</code> to only scan folders that haven't yet been explored on external storages</li>
 <li>Chunk cache TTL can now be configured</li>
 <li>Added warning for wrongly configured database transactions, helps prevent "database is locked" issues</li>
 <li>Use a capped memory cache to reduce memory usage especially in background jobs and the file scanner</li>
@@ -103,7 +103,7 @@ It is already possible to generate a device specific password and enter that in 
 <b>Technical debt</b>
 
 <ul>
-<li>PSR-4 autoloading forced for `OC\` and `OCP\`, optional for `OCA\`  docs at https://doc.owncloud.org/server/9.1/developer_manual/app/classloader.html</li>
+<li>PSR-4 autoloading forced for <code>OC\</code> and <code>OCP\</code>, optional for <code>OCA\</code>  docs at https://doc.owncloud.org/server/9.1/developer_manual/app/classloader.html</li>
 <li>More cleanup of the sharing code (ongoing)</li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.1.0.tar.bz2">owncloud-9.1.0.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.0.zip">owncloud-9.1.0.zip</a></br>
