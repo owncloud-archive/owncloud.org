@@ -106,6 +106,12 @@ It is already possible to generate a device specific password and enter that in 
 <li>PSR-4 autoloading forced for `OC\` and `OCP\`, optional for `OCA\`  docs at https://doc.owncloud.org/server/9.1/developer_manual/app/classloader.html</li>
 <li>More cleanup of the sharing code (ongoing)</li>
 </ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.1.0.tar.bz2">owncloud-9.1.0.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.0.zip">owncloud-9.1.0.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.1.0.tar.bz2.md5">owncloud-9.1.0.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.0.zip.md5">owncloud-9.1.0.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.1.0.tar.bz2.sha256">owncloud-9.1.0.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.0.zip.sha256">owncloud-9.1.0.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.1.0.tar.bz2.asc">owncloud-9.1.0.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.0.zip.asc">owncloud-9.1.0.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
 
 <a name="latest9.0"></a>
 <h3>Version 9.0.4 <small>Jul 19 2016</small></h3>
