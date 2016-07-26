@@ -19,7 +19,7 @@
 <li>Decrease memory usage during sync (<a href="https://github.com/owncloud/client/issues/4979">#4979</a>)</li>
 <li>Fix a deadlock when shutting down during discovery (<a href="https://github.com/owncloud/client/issues/4993">#4993</a>)</li>
 <li>Setup csync logging earlier to get all log output (<a href="https://github.com/owncloud/client/issues/4991">#4991</a>)</li>
-<li>Enable Shibboleth debug view with <code>OWNCLOUD_SHIBBOLETH_DEBUG env</code></li>
+<li>Enable Shibboleth debug view with <code>OWNCLOUD_SHIBBOLETH_DEBUG</code> env</li>
 </ul>
 
 <h3 id="222">Release 2.2.2 <small>June 21st 2016</small></h3>
