@@ -1,6 +1,27 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+<h3 id="223">Release 2.2.3 (beta 1) <small>July 26st 2016</small></h3>
+<ul>
+<li>Fix bug with overriding URL in config (<a href="https://github.com/owncloud/client/issues/5016">#5016</a>)</li>
+<li>Sharing: Fix bug with file names containing percent encodes (<a href="https://github.com/owncloud/client/issues/5042">#5042</a>, <a href="https://github.com/owncloud/client/issues/5043">#5043</a>)</li>
+<li>Sharing: Permissions for federated shares on servers &gt;=9.1 (<a href="https://github.com/owncloud/client/issues/4996">#4996</a>, <a href="https://github.com/owncloud/client/issues/5001">#5001</a>)</li>
+<li>Overlays: Fix issues with file name casing on OS X and Windows</li>
+<li>Windows: Skip symlinks and junctions again (<a href="https://github.com/owncloud/client/issues/5019">#5019</a>)</li>
+<li>Only accept notification API Capability if endpoint is OCS-enabled (<a href="https://github.com/owncloud/client/issues/5034">#5034</a>)</li>
+<li>Fix windows HiDPI (<a href="https://github.com/owncloud/client/issues/4994">#4994</a>)</li>
+<li>SocketAPI: Use different pipe name to avoid unusual delay (<a href="https://github.com/owncloud/client/issues/4977">#4977</a>)</li>
+<li>Tray: Add minimal mode as workaround and testing tool for Linux issues (<a href="https://github.com/owncloud/client/issues/4985">#4985</a>, <a href="https://github.com/owncloud/client/issues/4990">#4990</a>)</li>
+<li>owncloudcmd: Fix --exclude regression <a href="https://github.com/owncloud/client/issues/4979">#4979</a></li>
+<li>Small memleak: Use the full file stat destructors (<a href="https://github.com/owncloud/client/issues/4992">#4992</a>)</li>
+<li>Fix small QAction memleak (<a href="https://github.com/owncloud/client/issues/5008">#5008</a>)</li>
+<li>Fix crash on shutting down during propagation (<a href="https://github.com/owncloud/client/issues/4979">#4979</a>)</li>
+<li>Decrease memory usage during sync (<a href="https://github.com/owncloud/client/issues/4979">#4979</a>)</li>
+<li>Fix a deadlock when shutting down during discovery (<a href="https://github.com/owncloud/client/issues/4993">#4993</a>)</li>
+<li>Setup csync logging earlier to get all log output (<a href="https://github.com/owncloud/client/issues/4991">#4991</a>)</li>
+<li>Enable Shibboleth debug view with <code>OWNCLOUD_SHIBBOLETH_DEBUG env</code></li>
+</ul>
+
 <h3 id="222">Release 2.2.2 <small>June 21st 2016</small></h3>
 <ul>
   <li>Excludes: Don't redundantly add the same exclude files (<a href="https://github.com/owncloud/client/issues/4967">#4967</a>, <a href="https://github.com/owncloud/client/issues/4988">#4988</a>)</li>
