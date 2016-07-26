@@ -286,19 +286,6 @@
          "imagename":"computel.jpg"
       },
       {
-         "title":"polskachmurka.pl",
-         "url":"http:\/\/www.polskachmurka.pl\/",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations",
-            "consumers"
-         ],
-         "imagename":"polskachmurka.png"
-      },
-      {
          "title":"oriented.net",
          "url":"http:\/\/oriented.net\/onsite\/en\/index\/hosting\/cloud-storage.html",
          "flags":[
