@@ -241,7 +241,7 @@ Packages on our Build Service: <a href="http://software.opensuse.org/download/pa
 <li>Fix endless loading loop in public share in some env when password is set <a href="https://github.com/owncloud/core/issues/23066">core/#23066</a></li>
 <li>Propagate size changes when running files:scan with explicit path <a href="https://github.com/owncloud/core/issues/24271">core/#24271</a></li>
 <li>Properly check for mbstring extension <a href="https://github.com/owncloud/core/issues/24906">core/#24906</a></li>
-<li>Enable range requests for public download, fixes video streaming - files_videoplayer/#45, core/#24830</li>
+<li>Enable range requests for public download, fixes video streaming <a href="https://github.com/owncloud/files_videoplayer/issues/45">files_videoplayer/#45</a>, <a href="https://github.com/owncloud/core/issues/24830">core/#24830</a></li>
 <li>Fix performance for isLocal in SharedStorage <a href="https://github.com/owncloud/core/issues/24651">core/#24651</a></li>
 <li>Clarify filesystem_check_changes in config.sample.php <a href="https://github.com/owncloud/core/issues/24817">core/#24817</a></li>
 <li>Fix IApacheBackend issue due to wrong initialization order <a href="https://github.com/owncloud/core/issues/23899">core/#23899</a></li>
