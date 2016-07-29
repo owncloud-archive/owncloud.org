@@ -21,12 +21,23 @@
 <li>Setup csync logging earlier to get all log output (<a href="https://github.com/owncloud/client/issues/4991">#4991</a>)</li>
 <li>Enable Shibboleth debug view with <code>OWNCLOUD_SHIBBOLETH_DEBUG</code> env</li>
 </ul>
+Download:
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.2.3.6274beta1-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.2.3.3556beta1.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.2.3beta1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.2.3beta1.tar.xz.asc">PGP signature</a>)
 
 <h3 id="222">Release 2.2.2 <small>June 21st 2016</small></h3>
 <ul>
   <li>Excludes: Don't redundantly add the same exclude files (<a href="https://github.com/owncloud/client/issues/4967">#4967</a>, <a href="https://github.com/owncloud/client/issues/4988">#4988</a>)</li>
   <li> Excludes: Only log if the pattern was really logged. (<a href="https://github.com/owncloud/client/issues/4989">#4989</a>)</li>
 </ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.2.6192-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.2.3472.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.2.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.2.tar.xz.asc">PGP signature</a>)
+
 <h3 id="221">Release 2.2.1 <small>June 6th 2016</small></h3>
 <ul>
 <li>Fix out of memory error when too many uploads happen (<a href="https://github.com/owncloud/client/issues/4611">#4611</a>)</li>
@@ -41,6 +52,7 @@
 <li>Updater: Fix small memory leak</li>
 <li>Linux: Revert forced HiDPI detection settings (<a href="https://github.com/owncloud/client/issues/4840">#4840</a>, <a href="https://github.com/owncloud/client/issues/4861">#4861</a>)</li>
 </ul>
+
 <h3 id="220">Release 2.2.0 <small>May 12th 2016</small></h3>
 <ul>
 <li>Overlay icons: Refactoring - mainly for performance improvements</li>
