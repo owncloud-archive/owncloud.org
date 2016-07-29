@@ -32,7 +32,7 @@
 	<ul>
 	    <li><a href="https://central.owncloud.org" target="_blank">ownCloud Central</a>. We strongly recommend using ownCloud Central</li>
 	    <ul>
-		<li>Note: ownCloud Central hosts <a href="https://central.owncloud.org/c/howto/faq" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+		<li>Note: ownCloud Central hosts <a href="https://central.owncloud.org/c/faq" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
 	    </ul>
 	    <li><a href="https://mailman.owncloud.org/mailman/listinfo/user" target="_blank">the ownCloud user mailing list</a></li>
 	    <li><a href="irc://#owncloud@freenode.net" target="_blank">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=owncloud" target="_blank">webchat</a></li>

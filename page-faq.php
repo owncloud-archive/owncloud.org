@@ -88,7 +88,7 @@ See also the <a href="https://owncloud.com/faq" target="_blank">ownCloud Enterpr
 <ul>
 	<li>You should start with the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a></li>
 	<li>There are a lot of tutorials and how-to's written for installing and managing ownCloud, to be found all over the internet. We collect a list on <a href="https://github.com/owncloud/core/wiki/Reviews-tutorials-and-videos-of-ownCloud"  target="_blank">this page</a> and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">YouTube channel collects video tutorials</a> but if what you are looking for is not there, <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">Google</a> or another search engine can find them easily.</li>
-	<li>We have a <a href="https://central.owncloud.org/c/howto/faq" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+	<li>We have a <a href="https://central.owncloud.org/c/faq" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
 </ul>
 
 <a name="channels"></a>
