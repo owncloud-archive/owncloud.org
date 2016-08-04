@@ -41,7 +41,7 @@
 		<!--<p>Check out <a href="https://owncloud.org/blog/owncloud-contributor-conference-program/">the full program</a>!</p>-->
 		<p>We will publish a Call for Papers in Q2 2016</p>
 		<p>This is a hands-on event. <strong>Bring your laptop!</strong></p>
-		
+
 	</div>
 </div>
 <div class="row conf-info">
@@ -137,9 +137,8 @@
 	</div>
 	<div class="col-sm-6">
 		<h2>Thanks!</h2>
-		<p>The event is made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="https://owncloud.com">ownCloud Inc</a>.</p>
+		<p>The event is made possible thanks to the generous donation of the location by the <a href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a href="https://owncloud.com">ownCloud GmbH</a>.</p>
 		<h2>Spread the word!</h2>
 		<p>You can help us promote the event! Our official hashtag is <em>#owncloudconf</em> - find us on <a title="ownCloud on Twitter" href="https://twitter.com/ownclouders" target="_blank">Twitter</a>, <a title="ownCloud on Facebook" href="https://www.facebook.com/ownclouders" target="_blank">Facebook</a> and <a title="ownCloud on Google+" href="https://plus.google.com/107072838776436530705/posts" target="_blank">Google+</a>. Find some <a href="https://github.com/owncloud/promo/tree/master/Contributor%20Conference" target="_blank">promo materials here</a>.</p>
 	</div>
 </div>
-
