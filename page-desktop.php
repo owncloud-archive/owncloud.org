@@ -1,8 +1,9 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
-<h3 id="223">Release 2.2.3 (beta 1) <small>July 26st 2016</small></h3>
+<h3 id="223">Release 2.2.3 (rc1) <small>August 5th 2016</small></h3>
 <ul>
+<li>SyncEngine: Fix detection of backup (<a href="https://github.com/owncloud/client/issues/5104">#5104</a>)</li>
 <li>Fix bug with overriding URL in config (<a href="https://github.com/owncloud/client/issues/5016">#5016</a>)</li>
 <li>Sharing: Fix bug with file names containing percent encodes (<a href="https://github.com/owncloud/client/issues/5042">#5042</a>, <a href="https://github.com/owncloud/client/issues/5043">#5043</a>)</li>
 <li>Sharing: Permissions for federated shares on servers &gt;=9.1 (<a href="https://github.com/owncloud/client/issues/4996">#4996</a>, <a href="https://github.com/owncloud/client/issues/5001">#5001</a>)</li>
