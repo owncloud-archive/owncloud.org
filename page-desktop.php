@@ -1,7 +1,7 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
-<h3 id="223">Release 2.2.3 (rc1) <small>August 5th 2016</small></h3>
+<h3 id="223">Release 2.2.3 <small>August 8th 2016</small></h3>
 <ul>
 <li>SyncEngine: Fix detection of backup (<a href="https://github.com/owncloud/client/issues/5104">#5104</a>)</li>
 <li>Fix bug with overriding URL in config (<a href="https://github.com/owncloud/client/issues/5016">#5016</a>)</li>
