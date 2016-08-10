@@ -16,7 +16,8 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/275.html">Permission Issues (CWE-275)</a></p>
 <p>HackerOne report: <a href="https://hackerone.com/reports/146067">146067</a></p>
         <h3>Description</h3>
-        <p></p>
+        <p><p>The restore capability of ownCloud was not verifying whether an user has only read-only access to a share. Thus an user with read-only access was able to restore old versions.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>9.0.4</strong> (CVE-2016-????)</li>

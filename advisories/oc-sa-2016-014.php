@@ -16,7 +16,8 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/275.html">Permission Issues (CWE-275)</a></p>
 <p>HackerOne report: <a href="https://hackerone.com/reports/145950">145950</a></p>
         <h3>Description</h3>
-        <p></p>
+        <p><p>The WebDAV endpoint was not properly checking the permission on a WebDAV "COPY" action. This allowed an authenticated attacker with access to a read-only share to put new files in there. It was not possible to modify existing files.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>9.0.4</strong> (CVE-2016-????)</li>

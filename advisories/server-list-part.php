@@ -9,6 +9,7 @@
 <br/><p>Version 9.0.2</p>
 <a href="/security/advisory?id=oc-sa-2016-009">Incorrect setup of external storage</a><br>
 <a href="/security/advisory?id=oc-sa-2016-008">Disclosure of arbitrary certificate files</a><br>
+<a href="/security/advisory?id=oc-sa-2016-007">Open Redirector involving user interaction</a><br>
 <br/><p>Version 8.2.7</p>
 <a href="/security/advisory?id=oc-sa-2016-012">Log pollution can potentially lead to local HTML injection</a><br>
 <a href="/security/advisory?id=oc-sa-2016-015">Read-only share recipient can restore old versions of file</a><br>
@@ -17,6 +18,7 @@
 <a href="/security/advisory?id=oc-sa-2016-010">Insecure Direct Object References in Gallery</a><br>
 <br/><p>Version 8.2.4</p>
 <a href="/security/advisory?id=oc-sa-2016-008">Disclosure of arbitrary certificate files</a><br>
+<a href="/security/advisory?id=oc-sa-2016-007">Open Redirector involving user interaction</a><br>
 <br/><p>Version 8.2.2</p>
 <a href="/security/advisory?id=oc-sa-2016-003">Disclosure of files that begin with ".v" due to unchecked return value</a><br>
 <a href="/security/advisory?id=oc-sa-2016-001">Reflected XSS in OCS provider discovery</a><br>
@@ -27,6 +29,7 @@
 <a href="/security/advisory?id=oc-sa-2016-014">Edit permission check not enforced on WebDAV COPY action</a><br>
 <br/><p>Version 8.1.7</p>
 <a href="/security/advisory?id=oc-sa-2016-008">Disclosure of arbitrary certificate files</a><br>
+<a href="/security/advisory?id=oc-sa-2016-007">Open Redirector involving user interaction</a><br>
 <br/><p>Version 8.1.5</p>
 <a href="/security/advisory?id=oc-sa-2016-003">Disclosure of files that begin with ".v" due to unchecked return value</a><br>
 <a href="/security/advisory?id=oc-sa-2016-001">Reflected XSS in OCS provider discovery</a><br>
@@ -44,6 +47,7 @@
 <a href="/security/advisory?id=oc-sa-2016-014">Edit permission check not enforced on WebDAV COPY action</a><br>
 <br/><p>Version 8.0.12</p>
 <a href="/security/advisory?id=oc-sa-2016-008">Disclosure of arbitrary certificate files</a><br>
+<a href="/security/advisory?id=oc-sa-2016-007">Open Redirector involving user interaction</a><br>
 <br/><p>Version 8.0.10</p>
 <a href="/security/advisory?id=oc-sa-2016-003">Disclosure of files that begin with ".v" due to unchecked return value</a><br>
 <a href="/security/advisory?id=oc-sa-2016-001">Reflected XSS in OCS provider discovery</a><br>
@@ -65,6 +69,7 @@
 <a href="/security/advisory?id=oc-sa-2015-010">Stored XSS in "activity" application</a><br>
 <br/><p>Version 7.0.14</p>
 <a href="/security/advisory?id=oc-sa-2016-008">Disclosure of arbitrary certificate files</a><br>
+<a href="/security/advisory?id=oc-sa-2016-007">Open Redirector involving user interaction</a><br>
 <br/><p>Version 7.0.12</p>
 <a href="/security/advisory?id=oc-sa-2016-003">Disclosure of files that begin with ".v" due to unchecked return value</a><br>
 <a href="/security/advisory?id=oc-sa-2016-001">Reflected XSS in OCS provider discovery</a><br>
