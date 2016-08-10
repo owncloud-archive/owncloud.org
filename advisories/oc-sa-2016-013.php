@@ -33,6 +33,6 @@
         <ul>
             <li><a href="https://twitter.com/meshahriyar" target="_blank" rel="noreferrer">Md. Ishrat Shahriyar - Vulnerability discovery and disclosure.</a></li>
         </ul>
-        <br/>
+        <br/><small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Original source: <a href="https://nextcloud.com/security/advisory/?id=nc-sa-2016-003">nextcloud.com</a></small>
     </div>
 </div>

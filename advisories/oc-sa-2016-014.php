@@ -45,6 +45,6 @@
         <ul>
             <li><a href="http://www.ksaurabh.net" target="_blank" rel="noreferrer">Kumar Saurabh - Vulnerability discovery and disclosure.</a></li>
         </ul>
-        <br/>
+        <br/><small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Original source: <a href="https://nextcloud.com/security/advisory/?id=nc-sa-2016-004">nextcloud.com</a></small>
     </div>
 </div>
