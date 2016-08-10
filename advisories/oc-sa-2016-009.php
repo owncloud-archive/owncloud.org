@@ -30,7 +30,7 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p>The storage code has been reviewed and been patched to properly setup the storage. Furthermore several hardenings have been added to ownCloud which will highly reduce the change of a successful exploitation of similar vulnerabilities in the future.</p>
+        <p>The storage code has been reviewed and been patched to properly setup the storage. Furthermore several hardenings have been added to ownCloud which will highly reduce the chance of a successful exploitation of similar vulnerabilities in the future.</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
