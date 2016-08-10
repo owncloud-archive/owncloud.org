@@ -16,7 +16,8 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/275.html">Permission Issues (CWE-275)</a></p>
 <p>HackerOne report: <a href="https://hackerone.com/reports/146067">146067</a></p>
         <h3>Description</h3>
-        <p></p>
+        <p><p>The restore capability of ownCloud was not verifying whether an user has only read-only access to a share. Thus an user with read-only access was able to restore old versions.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>9.0.4</strong> (CVE-2016-????)</li>
@@ -44,6 +45,6 @@
         <ul>
             <li>Rudra Pratap Singh  - Vulnerability discovery and disclosure.</li>
         </ul>
-        <br/>
+        <br/><small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Original source: <a href="https://nextcloud.com/security/advisory/?id=nc-sa-2016-005">nextcloud.com</a></small>
     </div>
 </div>

@@ -16,7 +16,8 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/451.html">User Interface (UI) Misrepresentation of Critical Information (CWE-451)</a></p>
 <p>HackerOne report: <a href="https://hackerone.com/reports/146046">146046</a></p>
         <h3>Description</h3>
-        <p></p>
+        <p><p>The location bar in the files app was not verifying the passed parameters. An attacker could craft an invalid link to a fake directory structure and use this to display an attacker-controlled error message to the user.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>9.0.4</strong> (CVE-2016-????)</li>
@@ -32,6 +33,6 @@
         <ul>
             <li><a href="https://twitter.com/meshahriyar" target="_blank" rel="noreferrer">Md. Ishrat Shahriyar - Vulnerability discovery and disclosure.</a></li>
         </ul>
-        <br/>
+        <br/><small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Original source: <a href="https://nextcloud.com/security/advisory/?id=nc-sa-2016-003">nextcloud.com</a></small>
     </div>
 </div>

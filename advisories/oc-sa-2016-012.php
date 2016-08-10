@@ -16,7 +16,9 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/209.html">Information Exposure Through an Error Message (CWE-209)</a></p>
 <p>HackerOne report: <a href="https://hackerone.com/reports/146278">146278</a></p>
         <h3>Description</h3>
-        <p></p>
+        <p><p>The "download log" functionality in the admin screen is delivering the log in JSON format to the end-user. The file was delivered with an attachment disposition forcing the browser to download the document. However, Firefox running on Microsoft Windows would offer the user to open the data in the browser as HTML document. Thus any injected data in the log would be executed.</p>
+<p>While the document would only be executed locally (thus on another scope) we have decided to fix this to protect our users.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>8.1.9</strong> (CVE-2016-????)</li>
@@ -40,6 +42,6 @@
         <ul>
             <li>Alejo Popovici - Vulnerability discovery and disclosure.</li>
         </ul>
-        <br/>
+        <br/><small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Original source: <a href="https://nextcloud.com/security/advisory/?id=nc-sa-2016-002">nextcloud.com</a></small>
     </div>
 </div>

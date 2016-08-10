@@ -16,7 +16,8 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/275.html">Permission Issues (CWE-275)</a></p>
 <p>HackerOne report: <a href="https://hackerone.com/reports/145950">145950</a></p>
         <h3>Description</h3>
-        <p></p>
+        <p><p>The WebDAV endpoint was not properly checking the permission on a WebDAV "COPY" action. This allowed an authenticated attacker with access to a read-only share to put new files in there. It was not possible to modify existing files.</p>
+</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>9.0.4</strong> (CVE-2016-????)</li>
@@ -44,6 +45,6 @@
         <ul>
             <li><a href="http://www.ksaurabh.net" target="_blank" rel="noreferrer">Kumar Saurabh - Vulnerability discovery and disclosure.</a></li>
         </ul>
-        <br/>
+        <br/><small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Original source: <a href="https://nextcloud.com/security/advisory/?id=nc-sa-2016-004">nextcloud.com</a></small>
     </div>
 </div>
