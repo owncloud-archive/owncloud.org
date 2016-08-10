@@ -111,10 +111,10 @@ body {
 /* event image */
 
 .home-event-img {
-	height: 25%;
+	height: 40%;
 	margin: 0 0 0 0 !important;
 	position: absolute;
-	bottom:5%;
+	bottom:0;
 	left:35%;
 	/* IE 9 */
 	-ms-transform: rotate(-11deg);

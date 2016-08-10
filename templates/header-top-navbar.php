@@ -33,7 +33,7 @@
 				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a>
 			</div>
 		</div>
-		<a href="https://owncloud.org/blog/new-in-owncloud-9-1/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/events/nineone-note.png" class="home-event-img" /></a>
+		<a href="https://owncloud.org/conf/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/events/occ2016-note.png" class="home-event-img" /></a>
 	</div>
   <?php endif; ?>
 </header>
