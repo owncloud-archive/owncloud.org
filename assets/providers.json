@@ -1461,6 +1461,31 @@
             "organisations"
          ],
          "imagename":"tucloudserver.png"
+      },
+      {
+         "title":"Unico Data AG",
+         "url":"https:\/\/www.unicodata.ch\/produkt\/owncloud\/",
+         "flags":[
+            "ch"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations"
+         ],
+         "imagename":"unicodata.jpg"
+      },
+      {
+         "title":"oCloud.de",
+         "url":"https:\/\/own.ocloud.de\/products\/.php",
+         "flags":[
+            "de"
+         ],
+         "freeplans":true,
+         "supports":[
+            "consumers",
+            "organisations"
+         ],
+         "imagename":"ocloud.png"
       }
     ]
 }
