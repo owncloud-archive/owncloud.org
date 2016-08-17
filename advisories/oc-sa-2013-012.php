@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>ownCloud before 5.0.1 does not neutralize special elements that are passed to the SQL query in addressbookprovider.php which therefore allows an authenticated attacker to execute arbitrary SQL commands.</p>
 </p>

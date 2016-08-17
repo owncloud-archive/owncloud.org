@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Cross-site scripting (XSS) vulnerabilities in js/viewer.js inside the files_videoviewer application via multiple unspecified vectors in all ownCloud versions prior to 5.0.7 and 4.5.12 allows authenticated remote attackers to inject arbitrary web script or HTML via shared files. (CVE-2013-2150)</p>
 <p>Cross-site scripting (XSS) vulnerabilities in core/js/oc-dialogs.js via multiple unspecified vectors in all ownCloud versions prior to 5.0.7 and other versions before 4.0.16 allows authenticated remote attackers to inject arbitrary web script or HTML via shared files. (CVE-2013-2149)</p>

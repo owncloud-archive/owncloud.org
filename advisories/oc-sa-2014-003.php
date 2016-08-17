@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Due to insecure Flash Cross Domain policies an attacker might gain access to stored files of the user.</p>
 </p>

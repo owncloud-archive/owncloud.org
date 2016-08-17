@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Due to an insecure OpenID implementation used by user_openid in ownCloud 5 it is possible to log-into a system using an arbitrary OpenID Account (without knowing any secret information, i.e. the password, about it) by using a malicious OpenID provider.</p>
 </p>

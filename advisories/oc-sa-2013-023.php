@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Low</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Index.php (aka the login page) contains a form that does not disable the autocomplete setting for the password parameter, which makes it easier for local users or physically proximate attackers to obtain the password from web browsers that support autocomplete.</p>
 </p>

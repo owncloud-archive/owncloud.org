@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v2 Base Score: 4 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:P/I:N/A:N)">AV:N/AC:L/Au:S/C:P/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/210.html">Information Exposure Through Self-generated Error Message (CWE-210)</a></p>
+
         <h3>Description</h3>
         <p><p>ownCloud returns exception error messages to the user in two different places, allowing an authenticated adversary to gain information about the installation path of the ownCloud instance. There is no further information disclosure.</p>
 </p>

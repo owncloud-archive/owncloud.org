@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>ownCloud provides multiple user backends that can be used to authenticate users.</p>
 <p>One of those backend providers is "user_external", which authenticates users against FTP, IMAP or SMB servers. This is mainly useful when it is not possible to authenticate against an LDAP server.</p>

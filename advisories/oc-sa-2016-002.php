@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         <p>CVSS v2 Base Score: 4 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:P/I:N/A:N)">AV:N/AC:L/Au:S/C:P/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/548.html">Information Exposure Through Directory Listing (CWE-548)</a></p>
+
         <h3>Description</h3>
         <p><p>Due to an incorrect usage of an ownCloud internal file system function the passed path to the file scanner was resolved relatively. An authenticated adversary may thus be able to get a listing of files existing on the filesystem. However, it is not possible to access any of these files.</p>
 <p>This causes a massive server load and thus an enumeration of the whole server content is unlikely due to the high risk of Denial of Service.</p>

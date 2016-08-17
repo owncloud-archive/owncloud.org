@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>A cross-site scripting (XSS) vulnerability in ownCloud before 4.5.5 and 4.0.10 allow remote attackers to inject arbitrary web script or HTML via the PATH data to index.php in apps/bookmark/</p>
 </p>

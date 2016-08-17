@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         <p>CVSS v2 Base Score: 9 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:C/I:C/A:C)">AV:N/AC:L/Au:S/C:C/I:C/A:C</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/78.html">Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (CWE-78)</a></p>
+
         <h3>Description</h3>
         <p><p>The external legacy SMB storage (not using php-libsmbclient) of ownCloud was not properly neutralizing all special elements which allows an adversary to execute arbitrary SMB commands.</p>
 <p>Effectively this allows an attacker to gain access to any file on the system or overwrite it, potentially leading to a PHP code execution.</p>

@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Due to an insufficient permission check authenticated users are able to access preview pictures of others users.</p>
 </p>

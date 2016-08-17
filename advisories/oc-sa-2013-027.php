@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>The configuration loader in ownCloud 5.0.x before 5.0.6 includes private data such as CSRF tokens in a JavaScript file, which allows remote attackers to obtain sensitive information.</p>
 </p>

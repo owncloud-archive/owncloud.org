@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>A blacklist bypass vulnerability including UTF-8 encoding in file paths in the mentioned ownCloud versions, allows authenticated remote attackers to bypass the file blacklist and upload files such as the <code>.htaccess</code> files.</p>
 <p>An attacker could leverage this bypass by uploading a <code>.htaccess</code> and execute arbitrary PHP code if the <code>/data/</code> directory is stored inside the webroot and a webserver that interprets <code>.htaccess</code> files is used (e.g. Apache)</p>

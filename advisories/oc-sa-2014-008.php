@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Due to not properly sanitzing the mount configuration authenticated users are able to mount the local filesystem into their ownCloud. A successful exploit requires the files_external app to be enabled.</p>
 </p>

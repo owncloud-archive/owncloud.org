@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v2 Base Score: 4 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:P/I:N/A:N)">AV:N/AC:L/Au:S/C:P/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/548.html">Information Exposure Through Directory Listing (CWE-548)</a></p>
+
         <h3>Description</h3>
         <p><p>Due to an incorrect usage of an ownCloud internal file system function the passed path to the file scanner was resolved relatively. An authenticated adversary may thus be able to get a listing of directories (but not the containing files) existing on the filesystem. However, it is not possible to access any of these files.</p>
 <p>For a more technical description please take a look at the <a href="https://www.syss.de/pentest-blog/news-detail/?tx_news_pi1%5Bnews%5D=140&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=3d9e93c60f57ab1885ac335974427a7f">advisory of the reporter</a>.</p>

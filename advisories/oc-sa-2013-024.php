@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Due to not properly checking the ownership of an calendar, an authenticated attacker is able to download calendars of other users via the "calendar_id" GET parameter to /apps/calendar/ajax/events.php</p>
 <p>Note: Successful exploitation of this privilege escalation requires the "calendar" app to be enabled (enabled by default).</p>

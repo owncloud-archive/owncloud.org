@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Cross-site scripting (XSS) vulnerability in apps/files/js/filelist.js in ownCloud before 4.0.5 allows remote attackers to inject arbitrary web script or HTML via the file parameter.</p>
 </p>

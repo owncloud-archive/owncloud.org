@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Due to the deserialization of unstrusted data in core an attacker might be able to delete arbitrary files from the filesystem or executing arbitrary SQL queries.</p>
 <p>This issue has been found in a widely used third-party library, we have removed the component due to general quality concerns from the release and are coordinating this issue to upstream.</p>

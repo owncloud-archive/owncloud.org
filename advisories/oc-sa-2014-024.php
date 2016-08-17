@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>The "documents" application is a collaborative web-based online editor for ODT files. Using this application you can easily share and collaborate on office documents.</p>
 <p>Due to missing access control within the API of this application, the password-protection of shared files can be bypassed.</p>

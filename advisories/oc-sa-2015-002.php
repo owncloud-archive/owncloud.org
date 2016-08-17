@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Due to not sanitising all user provided input, the "documents" application shipped with the mentioned ownCloud versions is vulnerable to multiple stored cross-site scripting attacks.<br/>The "documents" application is enabled by default in the ownCloud Community Edition but not shipped with the ownCloud Enterprise Edition.</p>
 <p>Successful exploitation requires that the adversary is able to modify a WebODF document and a victim opens the shared document.</p>

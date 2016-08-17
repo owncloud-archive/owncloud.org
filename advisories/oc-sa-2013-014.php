@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>A cross-site scripting (XSS) vulnerability in all ownCloud versions prior to 5.0.5 including the 4.0.x branch allows remote attackers to execute arbitrary javascript when a user opens a special crafted URL.</p>
 <p>This vulnerability exists in the bundled 3rdparty plugin "jPlayer", "jPlayer" released version 2.2.20 which addresses the problem.</p>

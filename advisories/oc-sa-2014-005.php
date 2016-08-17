@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Due to not properly sanitizing the LDAP queries an attacker is able to:<ul><li>Gain information about existing LDAP users</li><li>Modify the login query, e.g. with a wildcard</li></ul></p>
 </p>

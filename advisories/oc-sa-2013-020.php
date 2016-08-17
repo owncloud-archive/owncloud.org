@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Multiple directory traversal vulnerabilities in (1) apps/files_trashbin/index.php via the "dir" GET parameter and (2) lib/files/view.php via undefined vectors in all ownCloud versions prior to 5.0.6 and other versions before 4.0.15, allow authenticated remote attackers to get access to arbitrary local files.</p>
 </p>

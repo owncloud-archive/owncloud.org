@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Low</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>ownCloud 7 introduced the so-called "Asset Pipeline". It is disabled by default, but can be enabled by setting asset-pipeline.enabled to true in config.php</p>
 <p>When the setting is enabled ownCloud concatenates all CSS and JS files into a single large blob file. Thus the amount of initial required requests to the ownCloud instance is lower and therefore the instance is loaded faster.</p>

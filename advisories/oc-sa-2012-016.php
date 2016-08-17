@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>ownCloud 4.0.6 and all versions previous to this doesn't sufficiently verify whether a request to appconfig.php was sent by an admin, which allows remote authenticated users to edit app configurations.</p>
 <p>NOTE: this can be leveraged by unauthenticated remote attackers using CVE-2012-4393.</p>

@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>A cross-site scripting (XSS) vulnerability in ownCloud 4.5.x before 4.5.2 allow remote attackers to inject arbitrary web script or HTML via the POST data to settings.php in apps/user_webdavauth/</p>
 </p>

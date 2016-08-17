@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Incomplete blacklist vulnerability in lib/migrate.php in ownCloud before 4.0.13 and 4.5.8 allows an authenticated remote attacker to import arbitrary files on the server inside his user account.</p>
 </p>

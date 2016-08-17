@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>"user_ldap" (in the web-interface called "LDAP user and group backend") is an optional authentication backend for ownCloud for using LDAP users and groups within the ownCloud web application.</p>
 <p>The ownCloud team has discovered a vulnerability within the "user_ldap" application which, depending on the setup, might allow an attacker to effectively login without providing valid credentials. This security advisory should help you to understand whether this security bug affects you.</p>
