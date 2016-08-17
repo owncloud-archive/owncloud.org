@@ -24,7 +24,7 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>To protect our users ownCloud has issued the 2.2.3 client which no longer loads code from this location. Users of older ownCloud clients are encouraged to import their certificate into the local system trust store.</p>
+        <p><p>To protect our users ownCloud has issued the 2.2.3 client which no longer loads code from this location.</p>
 </p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
