@@ -12,7 +12,7 @@
         <h2>Local Code Injection (oC-SA-2016-016)</h2>
         <p>17th August 2016</p>
         <p>Risk level: <strong>Medium</strong></p>
-        <p>CVSS v2 Base Score: 3.9 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:L/AC:M/Au:S/C:C/I:P/A:N/E:POC/RL:OF/RC:C)">AV:L/AC:M/Au:S/C:C/I:P/A:N/E:POC/RL:OF/RC:C</a>)</p>
+        <p>CVSS v2 Base Score: 4.1 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:L/AC:M/Au:S/C:C/I:P/A:N/E:F/RL:OF/RC:C)">AV:L/AC:M/Au:S/C:C/I:P/A:N/E:F/RL:OF/RC:C</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/114.html">Process Control (CWE-114)</a></p>
 
         <h3>Description</h3>
