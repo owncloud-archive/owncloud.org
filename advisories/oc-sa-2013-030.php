@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>A not further specified authentication bypass in the user_webdavauth application has been found. Using this vulnerability an attacker might login to the ownCloud instance without valid credentials.</p>
 </p>

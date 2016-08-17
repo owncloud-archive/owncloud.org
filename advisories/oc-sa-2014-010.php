@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Due to not sanitising all user provided input the below mentioned ownCloud versions are vulnerable against several <a href="https://cwe.mitre.org/data/definitions/79.html">XSS attack vectors</a>.</p>
 <p>ownCloud advises browsers to disable inline JavaScript execution due to the used Content-Security-Policy, this vulnerability is therefore likely not exploitable if you use a browser that <a href="http://caniuse.com/contentsecuritypolicy">fully supports</a> the current CSP standard.</p>

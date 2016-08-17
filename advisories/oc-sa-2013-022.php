@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Low</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Open redirect vulnerability in index.php (aka the Login Page) in ownCloud before 5.0.6 allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via a URL in the redirect_url parameter.</p>
 </p>

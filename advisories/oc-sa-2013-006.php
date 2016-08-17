@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>A code executions vulnerability in ownCloud 4.5.6 and 4.0.11 and all prior versions allow authenticated remote attackers to execute arbitrary PHP code via</p>
 <ul> <li>unspecified POST parameters to translations.php in /core/ajax/</li> <ul> <li><strong>Commits:</strong> 74e73bc (stable4), ece08cd (stable45)</li> <li><strong>Risk:</strong> Critical</li></ul> </ul><p></p>

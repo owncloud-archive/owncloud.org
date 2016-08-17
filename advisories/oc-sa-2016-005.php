@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         <p>CVSS v3 Base Score: 5.9 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N">AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/592.html">Authentication Bypass Issues (CWE-592)</a></p>
+
         <h3>Description</h3>
         <p><p>The ownCloud Android application does support setting a PIN that has to be provided before the application can be opened. An attacker may remove the PIN by clearing the application data via the Android system settings. By doing that the application information would be removed while the authentication information would still stay on the system.</p>
 <p>Thus an adversary with local access could bypass the PIN functionality. One should note that physical access often implies a high risk and encrypting the device as well as setting an additional PIN code on the device is highly recommended.</p>

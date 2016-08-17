@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Low</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>The rand and mt_rand functions in PHP < 5.4.x do not produce cryptographically strong random numbers, which allows attackers to leverage exposures in products that rely on these functions for security-relevant functionality, as demonstrated by the password-reset functionality in ownCloud 4.0.x.</p>
 </p>

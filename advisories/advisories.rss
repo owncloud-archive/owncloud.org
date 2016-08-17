@@ -5,6 +5,11 @@
  <link>https://owncloud.org/security/advisories/</link>
  <description>The ownCloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Desktop Client: Local Code Injection (oC-SA-2016-016)</title>
+  <description>&lt;p&gt;The ownCloud Client was vunerable to a local code injection attack. A malicious local user could create a special path where the client would load libraries from during startup. As on Windows, everyone by default has the permission to write to the &lt;code&gt;C:&lt;/code&gt; drive and create arbitrary directories and subdirectories, this attack is practically feasible in any non-hardened Windows environment. This could lead to injecting code into other users' ownCloud Client.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-016&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2016-016</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2016-016</guid>
+  <pubDate>Wed, 17 Aug 2016 17:37:31 +0200</pubDate>
   <title>Server: Read-only share recipient can restore old versions of file (oC-SA-2016-015)</title>
   <description>&lt;p&gt;The restore capability of ownCloud was not verifying whether an user has only read-only access to a share. Thus an user with read-only access was able to restore old versions.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-015&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://owncloud.org/security/advisory/?id=oC-SA-2016-015</link>

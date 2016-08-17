@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v2 Base Score: 4.3 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:M/Au:N/C:P/I:N/A:N)">AV:N/AC:M/Au:N/C:P/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/79.html">Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') (CWE-79)</a></p>
+
         <h3>Description</h3>
         <p><p>A Cross-site scripting (XSS) vulnerability in the OCS discovery provider in ownCloud Servers allows remote attackers to inject arbitrary web script or HTML via the URL resulting in a reflected Cross-Site-Scripting.</p>
 <p>Since ownCloud employs a strict Content-Security-Policy that forbids inline script execution this bug is unlikely to be exploitable on recent browsers that support Content-Security-Policy. (Firefox >= 23, Chrome >= 25, Safari >= 7, Microsoft Edge)</p>

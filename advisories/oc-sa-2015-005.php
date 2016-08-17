@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         <p>CVSS v2 Base Score: 4.6 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:H/Au:M/C:C/I:N/A:N)">AV:N/AC:H/Au:M/C:C/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/552.html">Files or Directories Accessible to External Parties (CWE-552)</a></p>
+
         <h3>Description</h3>
         <p><p>A bug in the SDK used to connect ownCloud against the Dropbox server might allow the owner of "Dropbox.com" to gain access to any files on the ownCloud server if an external Dropbox storage was mounted.</p>
 <p>This was caused by a feature of PHP (which has been turned off per default as of PHP 5.6.0) in the handling of POST values sent to the remote host. If a value was prefixed with <code>@</code> the content of the value was replaced with the file name specified after the <code>@</code>.</p>

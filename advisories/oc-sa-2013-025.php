@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Due to an insufficient permission check, an authenticated attacker is able to execute API commands as administrator. Additionally, an unauthenticated attacker could abuse this flaw as a cross-site request forgery vulnerability.</p>
 </p>

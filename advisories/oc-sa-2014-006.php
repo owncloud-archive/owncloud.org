@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Multiple third party components of ownCloud are vulnerable to XXE attacks, which may lead to:</p>
  <ul> <li>Local File Disclosure</li> <li>Server Side Request Forgery</li> <li>DoS</li> <li>Code Execution (depending on the PHP wrappers)</li> <li>&#8230;</li> </ul> <p>The following libraries are affected:</p>

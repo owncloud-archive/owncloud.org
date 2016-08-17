@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Low</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Due to not verifying whether a request was intentionally provided by the user who submitted an request the documents application is vulnerable against several CSRF attacks.</p>
 <p>An attacker could have used this to arbitrary modify existing files or rename it.</p>

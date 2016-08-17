@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Multiple cross-site scripting (XSS) vulnerabilities in ownCloud before 4.0.1 allow remote attackers to inject arbitrary web script or HTML via</p>
 <ul><li>the calendar displayname to part.choosecalendar.rowfields.php</li><li>part.choosecalendar.rowfields.shared.php in apps/calendar/templates/</li> <li>unspecified vectors to apps/contacts/lib/vcard.php</li></ul></p>

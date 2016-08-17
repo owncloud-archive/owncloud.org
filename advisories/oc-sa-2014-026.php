@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>ownCloud includes a preview system which generates the small thumbnails shown in the file list of the web interface. This functionality can be controlled with the enable_previews switch in config.php and is enabled by default.</p>
 <p>Multiple unspecified vulnerabilities have been found within the preview system. Using these vulnerabilities an authenticated adversary (or an unauthenticated one if public uploads are enabled) may be able to extract local files from the ownCloud system.</p>

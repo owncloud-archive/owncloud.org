@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>index.php before ownCloud 4.0.7 does not properly validate the oc_token cookie, which allows remote attackers to bypass authentication via a crafted oc_token cookie value.</p>
 </p>

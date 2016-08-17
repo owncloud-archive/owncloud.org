@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Incomplete blacklist vulnerability in ownCloud before 5.0.6 allows authenticated remote attackers to execute arbitrary PHP code by uploading a crafted file and accessing an uploaded PHP file.</p>
 <p>Note: Successful exploitation requires that the /data/ directory is stored inside the webroot and a webserver that interprets .htaccess files (e.g. Apache)</p>

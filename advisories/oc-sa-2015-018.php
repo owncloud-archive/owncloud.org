@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         <p>CVSS v2 Base Score: 9 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:C/I:C/A:C)">AV:N/AC:L/Au:S/C:C/I:C/A:C</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/470.html">Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') (CWE-470)</a></p>
+
         <h3>Description</h3>
         <p><p>A user may instantiate arbitrary ownCloud classes due to a lack of a proper check of the mount point options provided by a user via the web front end. These may include constructor arguments and could potentially lead to a remote code execution.</p>
 </p>

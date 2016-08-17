@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>/lib/base.php before ownCloud 4.0.8 does not properly validate the user_id session variable via WebDAV, which allows authenticated attackers to gain access to other users files.</p>
 </p>

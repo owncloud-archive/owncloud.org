@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>Multiple cross-site scripting (XSS) vulnerabilities in ownCloud 4.5.0 allow remote attackers to inject arbitrary web script or HTML via </p>
 <ul><li>the filename to to versions.js in apps/files_versions/js/</li><li>the filename to filelist.js in apps/files/js/</li><li>the event title to fullcalendar.js in 3rdparty/fullcalendar/js/</li></ul></p>

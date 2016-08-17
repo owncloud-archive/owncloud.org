@@ -14,6 +14,7 @@
         <p>Risk level: <strong>High</strong></p>
         <p>CVSS v2 Base Score: 7.8 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:A/AC:L/Au:N/C:C/I:C/A:N)">AV:A/AC:L/Au:N/C:C/I:C/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/297.html">Improper Validation of Certificate with Host Mismatch (CWE-297)</a></p>
+
         <h3>Description</h3>
         <p><p>The <a href="https://github.com/owncloud/ios-library">ownCloud iOS Library</a> was vulnerable against a remotely exploitable certification problem until version 1.1.2. The vulnerable library version is used by the official ownCloud iOS client until version 3.4.4.</p>
 <p>Specifically it has been discovered that the used networking library (<a href="https://github.com/AFNetworking/AFNetworking/">AFNetworking</a>) is per default not ensuring whether the host-specific data (i.e. the Common Name ("CN") of the certificate) is actually associated with the connected remote host.</p>

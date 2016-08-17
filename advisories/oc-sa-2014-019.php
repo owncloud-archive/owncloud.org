@@ -14,6 +14,7 @@
         <p>Risk level: <strong>Low</strong></p>
         
         
+
         <h3>Description</h3>
         <p><p>The SFTP external storage driver was verifying the RSA Host Key after logging in. This allows for a man-in-the-middle (MITM) attack even if the host key is already known and can be validated. Basically, at the point where the host key was validated, the secret has already been given away.</p>
 <p>It should be noted, that you're only affected by this vulnerability if you're using SFTP external storage. Furthermore, a successful attack requires an attacker to be able to impersonate the remote server, i.e. by having control over the routing.</p>
