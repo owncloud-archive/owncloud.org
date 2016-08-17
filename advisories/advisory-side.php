@@ -1,3 +1,7 @@
+<br/><p>ownCloud server 9.0.3</p>
+<a href="/security/advisory?id=oc-sa-2016-010">Insecure Direct Object References in Gallery</a><br/>
+<br/><p>ownCloud desktop 2.2.3</p>
+<a href="/security/advisory?id=oc-sa-2016-016">Local Code Injection</a><br/>
 <br/><p>ownCloud server 9.0.4</p>
 <a href="/security/advisory?id=oc-sa-2016-011">Stored XSS in gallery application</a><br/>
 <a href="/security/advisory?id=oc-sa-2016-013">Content-Spoofing in files app</a><br/>
