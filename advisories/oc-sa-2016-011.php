@@ -18,7 +18,7 @@
         <h3>Description</h3>
         <p>Due to a recent migration of the Gallery app to the new sharing endpoint a parameter changed from an integer to a string value. This value wasn't sanitized before and was thus now vulnerable to a Cross-Site-Scripting attack.</p>
 <p>To exploit this vulnerability an authenticated attacker has to share a folder with someone else, get them to open the shared folder in the Gallery app and open the sharing window there.</p>
-<p>Since ownCloud employes a strict Content-Security-Policy this vulnerability is only exploitable in browsers not supporting Content-Security-Policy. You can check at <a href="http://caniuse.com/#feat=contentsecuritypolicy">caniuse.com</a> whether your browser supports CSP.</p>
+<p>Since ownCloud employs a strict Content-Security-Policy this vulnerability is only exploitable in browsers not supporting Content-Security-Policy. You can check at <a href="http://caniuse.com/#feat=contentsecuritypolicy">caniuse.com</a> whether your browser supports CSP.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>9.0.4</strong> (CVE-2016-????)</li>
@@ -28,7 +28,7 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p>The user input is now properly sanitised before provided back to the user.</p>
+        <p>The user input is now properly sanitised before being provided back to the user.</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

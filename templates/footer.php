@@ -8,7 +8,7 @@
     </div>
   </div>
 <footer class="content-info" role="contentinfo">
-<div class="container">   
+<div class="container">
    <div class="row">
      <div class="col-sm-2 col-sm-offset-1">
         <div class="footer-nav">
@@ -18,6 +18,7 @@
             <li class="menu-history"><a href="<?php get_bloginfo('url'); ?>/history/">History</a></li>
             <li class="menu-events"><a href="<?php get_bloginfo('url'); ?>/events/">Events</a></li>
             <li class="menu-press"><a href="/press">Press</a></li>
+            <li class="menu-trademark"><a href="<?php get_bloginfo('url'); ?>/trademarks/">Trademark</a></li>
             <li class="menu-privacy"><a href="<?php get_bloginfo('url'); ?>/privacy/">Privacy policy</a></li>
           </ul>
         </div>
