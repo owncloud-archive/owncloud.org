@@ -47,15 +47,15 @@
 <p>We have ownCloud banners available for your blog or website! These are the sizes available:
 
 <ul>
-<li><a href="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-160x600.png">160x600</a></li>
-<li><a href="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-728x90.png">728x90</a></li>
-<li><a href="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-460x70.png">460x70</a></li>
-<li><a href="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-300x300.png">300x300</a></li>
-<li><a href="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-300x250.png">300x250</a></li>
+<li><a href="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-160x600.png">160x600</a>, <a href="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-160x600@2x.png">160x600@2x</a></li>
+<li><a href="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-728x90.png">728x90</a>, <a href="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-728x90@2x.png">728x90@2x</a></li>
+<li><a href="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-460x70.png">460x70</a>, <a href="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-460x70@2x.png">460x70@2x</a></li>
+<li><a href="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-300x300.png">300x300</a>, <a href="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-300x300@2x.png">300x300@2x</a></li>
+<li><a href="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-300x250.png">300x250</a>, <a href="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-300x250@2x.png">300x250@2x</a></li>
 </ul>
 
 Example code:</p>
 
-<p><code>&lt;a href="http://owncloud.org/features"&gt;&lt;img src="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-460x70.png" alt="ownCloud release" width="460" height="70" /&gt;&lt;/a&gt;</code></p>
+<p><code>&lt;a href="https://owncloud.org/features"&gt;&lt;img src="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-460x70.png" srcset="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-460x70.png 1x, https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-460x70@2x.png 2x" alt="ownCloud release" width="460" height="70" /&gt;&lt;/a&gt;</code></p>
 Will look like this:</br>
-<p><a href="http://owncloud.org/conf"><img class="alignnone size-full wp-image-8049" src="https://owncloud.org/wp-content/themes/owncloudorgnew/assets/img/features/ownCloud-release-460x70.png" alt="ownCloud release 460x70" width="460" height="70" /></a>
+<p><a href="https://owncloud.org/features"><img class="alignnone size-full wp-image-8049" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-460x70.png" srcset="<?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-460x70.png 1x, <?php echo get_bloginfo('template_directory'); ?>/assets/img/features/ownCloud-release-460x70@2x.png 2x" alt="ownCloud release 460x70" width="460" height="70" /></a>
