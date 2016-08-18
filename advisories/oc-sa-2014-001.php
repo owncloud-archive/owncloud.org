@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to authenticating a user without invalidating any existing session identifier an attacker has the opportunity to steal authenticated sessions. A successful exploit requires that PHP is configured to accept session parameters via <code>GET</code>.</p>
 </p>

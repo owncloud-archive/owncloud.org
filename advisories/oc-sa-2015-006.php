@@ -14,7 +14,6 @@
         <p>Risk level: <strong>High</strong></p>
         <p>CVSS v2 Base Score: 9 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:C/I:C/A:C)">AV:N/AC:L/Au:S/C:C/I:C/A:C</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/98.html">Improper Control of Filename for Include/Require Statement in PHP Program ("PHP Remote File Inclusion") (CWE-98)</a></p>
-
         <h3>Description</h3>
         <p><p>Due to an improper control of the filename for a <code>require_once()</code> statement in the routing component a limited local file inclusion vulnerability is existent in all below mentioned ownCloud versions when running on the MS Windows Platform.</p>
 <p>Depending on the ownCloud configuration and the authentication state of a remote attacker this vulnerability may have different impact. Specifically:</p>

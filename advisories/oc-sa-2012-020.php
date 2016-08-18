@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Multiple cross-site scripting (XSS) vulnerabilities in ownCloud before 4.0.2 allow remote attackers to inject arbitrary web script or HTML via</p>
 <ul> <li>file names to apps/user_ldap/settings.php</li><li>url or title parameter to apps/bookmarks/ajax/editBookmark.php</li><li>tag or page parameter to apps/bookmarks/ajax/updateList.php</li><li>identity to apps/user_openid/settings.php</li><li>stack name in apps/gallery/lib/tiles.php</li><li>root parameter to apps/gallery/templates/index.php</li><li>calendar displayname in apps/calendar/templates/part.import.php</li><li>calendar uri in apps/calendar/templates/part.choosecalendar.rowfields.php</li><li> title, location, or description parameter in apps/calendar/lib/object.php</li><li>certain vectors in core/js/multiselect.js</li><li>artist, album, or title comments parameter in apps/media/lib_scanner.php</li></ul></p>

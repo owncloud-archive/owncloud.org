@@ -14,7 +14,6 @@
         <p>Risk level: <strong>High</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to not verifying whether an user has been granted access to add external storages an authenticated user could even mount external storage (e.g. SMB/FTP/etc.) without permission.</p>
 </p>

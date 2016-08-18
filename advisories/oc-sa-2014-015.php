@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Low</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to using the auto-incrementing <code>file_id</code> instead of the random generated <code>token</code> to access files in the documents app an authenticated users could enumerate shared files of other users.</p>
 </p>

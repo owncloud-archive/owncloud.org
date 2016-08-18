@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to not properly checking the ownership of a single contact, an authenticated attacker is able to download contacts of other users in all ownCloud versions prior to 5.0.5 including the 4.5.x branch.</p>
 <p>Note: Successful exploitation of this privilege escalation requires the "contacts" app to be enabled (enabled by default).</p>

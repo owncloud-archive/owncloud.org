@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Low</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to not verifying the CSRF token on the import functionality of the "bookmarks" application, it was vulnerable against CSRF attacks.<br/>The "bookmarks" application is disabled by default.</p>
 <p>An unauthenticated attacker could have used this to import bookmarks into the "bookmarks" application if the victim visits a specially crafted website and is logged-in into the ownCloud instance at the same time.<br/>Furthermore, an unauthenticated attacker could leverage this vulnerability with <a href="/security/advisory/?id=oc-sa-2014-028">oC-SA-2014-028</a> resulting in a potential Cross-site scripting vulnerability.</p>

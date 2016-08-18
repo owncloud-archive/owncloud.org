@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>The "documents" application is a collaborative web-based online editor for ODT files. Using this application you can easily share and collaborate on office documents.</p>
 <p>This application uses strong and very long random "Session IDs" to limit access to specific resources. Knowledge of this ID allows access to the files they are protecting.</p>
