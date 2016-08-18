@@ -25,7 +25,7 @@
             "organisations"
          ],
          "imagename":"vboxx.png",
-         "supported":true
+         "supported":false
       },
       {
          "title":"kangaroot.net",
@@ -38,7 +38,7 @@
             "organisations"
          ],
          "imagename":"kangaroot.png",
-         "supported":true
+         "supported":false
       },
       {
          "title":"enavn.net",
@@ -52,7 +52,7 @@
             "consumers"
          ],
          "imagename":"enavn.png",
-         "supported":true
+         "supported":false
       },
       {
          "title":"noris.de",
@@ -65,7 +65,7 @@
 
          ],
          "imagename":"noris.png",
-         "supported":true
+         "supported":false
       },
       {
          "title":"extensys.it",
@@ -78,7 +78,7 @@
 
          ],
          "imagename":"extensys.png",
-         "supported":true
+         "supported":false
       },
       {
          "title":"netaffairs.nl",
@@ -104,10 +104,10 @@
             "organisations"
          ],
          "imagename":"a2hosting.png",
-         "supported":true
+         "supported":false
       },
       {
-         "title":"datacentre.de",
+         "title":"datacenter.de",
          "url":"http:\/\/www.datacenter.de\/produkte\/cloud-services\/file-sharing\/",
          "flags":[
             "de"
@@ -117,7 +117,7 @@
             "organisations"
          ],
          "imagename":"datacenter.png",
-         "supported":true
+         "supported":false
       },
       {
          "title":"owndrive.com",
@@ -1486,6 +1486,45 @@
             "organisations"
          ],
          "imagename":"ocloud.png"
+      },
+      {
+         "title":"ACP",
+         "url":"http:\/\/www.acp.de\/",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations"
+         ],
+         "imagename":"acp.png",
+         "supported":true
+      },
+      {
+         "title":"Cyminds",
+         "url":"http:\/\/www.cyminds.eu\/",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations"
+         ],
+         "imagename":"cyminds.png",
+         "supported":true
+      },
+      {
+         "title":"KIGST",
+         "url":"http:\/\/www.kigst.de\/",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations"
+         ],
+         "imagename":"kigst.png",
+         "supported":true
       }
     ]
 }
