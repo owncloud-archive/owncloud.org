@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to not sanitising all user provided input, the "bookmarks" application shipped with the below mentioned ownCloud versions is vulnerable to a stored Cross-site scripting attack.<br/>The "bookmarks" application is disabled by default.</p>
 <p>Abusing this vulnerability requires the user to import a malicious crafted "bookmark file". However, an attacker can leverage <a href="/security/advisory/?id=oc-sa-2014-027">oC-SA-2014-027</a> to achieve this.</p>

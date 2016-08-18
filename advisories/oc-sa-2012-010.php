@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Low</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>A Header injection vulnerability in ownCloud before 4.0.8 allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server via the HTTP url path parameter to index.php.</p>
 </p>

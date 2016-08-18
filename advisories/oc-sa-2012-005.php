@@ -14,7 +14,6 @@
         <p>Risk level: <strong>High</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Incomplete blacklist vulnerability in lib/filesystem.php in ownCloud before 4.0.9 and 4.5.2 allows authenticated remote attackers to execute arbitrary code by uploading a file with a special crafted filename.</p>
 </p>

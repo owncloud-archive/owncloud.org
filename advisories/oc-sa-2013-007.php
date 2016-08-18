@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to not properly checking the ownership of an calendar, an authenticated attacker is able to download calendars of other users via the "calid" GET parameter to export.php in /apps/calendar/</p>
 </p>

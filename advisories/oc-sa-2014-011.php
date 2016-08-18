@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to not verifying whether an user has been granted access to an address book, authenticated users are able to access arbitrary contacts of other users.</p>
 </p>

@@ -14,7 +14,6 @@
         <p>Risk level: <strong>High</strong></p>
         <p>CVSS v2 Base Score: 9 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:C/I:C/A:C)">AV:N/AC:L/Au:S/C:C/I:C/A:C</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/78.html">Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (CWE-78)</a></p>
-
         <h3>Description</h3>
         <p><p>The external SMB storage of ownCloud was not properly neutralizing all special elements which allows an adversary to execute arbitrary SMB commands.</p>
 <p>This was caused by improperly sanitizing the ; character which is interpreted as command separator by smbclient (the used software to connect to SMB shared by ownCloud)</p>

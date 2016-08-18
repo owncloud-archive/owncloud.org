@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to trusting user supplied input and interpret it as Host header an attacker is able to craft a password reset mail with a link pointing to his own site. If a user clicks on the link or a software (e.g. antivirus) is accessing the link the attacker is able to reset the user password.</p>
 </p>

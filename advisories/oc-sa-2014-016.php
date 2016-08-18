@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to an improper authorization check in core an attacker with access to at least two user account is able to access the file names of other users.</p>
 <p>Our post-mortem audit showed that this vulnerability does not leak any content of the file or the directory structure except the filename.</p>

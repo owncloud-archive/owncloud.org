@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v2 Base Score: 4 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:S/C:P/I:N/A:N)">AV:N/AC:L/Au:S/C:P/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/639.html">Authorization Bypass Through User-Controlled Key (CWE-639)</a></p>
-
         <h3>Description</h3>
         <p><p>Due to not properly checking the ownership of an calendar, an authenticated attacker is able to download calendars of other users via the "calid" GET parameter to export.php in /apps/calendar/</p>
 </p>

@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         <p>CVSS v2 Base Score: 5 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:L/Au:N/C:P/I:N/A:N)">AV:N/AC:L/Au:N/C:P/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/932.html">Insecure Direct Object References (CWE-932)</a></p>
-
         <h3>Description</h3>
         <p><p>ownCloud was vulnerable to a insecure direct object reference. Any unauthenticated user would be able to download any image from the server if the gallery app is enabled.</p>
 </p>

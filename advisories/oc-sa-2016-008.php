@@ -14,9 +14,8 @@
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v3 Base Score: 2.6 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N">AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/610.html">Externally Controlled Reference to a Resource in Another Sphere (CWE-610)</a></p>
-
         <h3>Description</h3>
-        <p>The 'Import root certificate' ability that users are able to use once files_external is enabled allow users to import their own root certificates for connections. (e.g. server-to-server shares to servers using a self-signed certificate or external storages)<br>The functionality was using the PHP OpenSSL parsing functions for parsing these certificate files. Namedly, `openssl_pkey_get_public` and `openssl_x509_parse`. It turned out that these internally call `php_openssl_x509_from_zval` which allow passing in a file:///<br>Therefore an attacker could pass a file beginning with `file://` and ownCloud would try to parse the corresponding file. This leads to a disclosure of arbitrary certificate files if the adversary can guess the correct path.</p>
+        <p>The 'Import root certificate' ability that users are able to use once files_external is enabled allows users to import their own root certificates for connections. (e.g. server-to-server shares to servers using a self-signed certificate or external storages)<br>The functionality was using the PHP OpenSSL parsing functions for parsing these certificate files. Namely, `openssl_pkey_get_public` and `openssl_x509_parse`. It turned out that these internally call `php_openssl_x509_from_zval` which allow passing in a file:///<br>Therefore an attacker could pass a file beginning with `file://` and ownCloud would try to parse the corresponding file. This leads to a disclosure of arbitrary certificate files if the adversary can guess the correct path.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>7.0.14</strong> (CVE-2016-xxxx)</li>
@@ -46,7 +45,7 @@
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-
+            <li>Lukas Reschke - Vulnerability discovery and disclosure.</li>
         </ul>
         <br/>
     </div>

@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Low</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>apps/calendar/appinfo/remote.php and apps/contacts/appinfo/remote.php in ownCloud before 4.0.7 allows remote authenticated users to enumerate the registered users via unspecified vectors.</p>
 </p>

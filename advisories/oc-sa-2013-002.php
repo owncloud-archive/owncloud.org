@@ -14,7 +14,6 @@
         <p>Risk level: <strong>High</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to not sufficiently sanitizing the user input in "settings/personal.php" in ownCloud 4.5.x before 4.5.6 an authenticated remote attackers may be able to execute arbitrary code by entering special crafted PHP code in the mount point settings.</p>
 </p>
