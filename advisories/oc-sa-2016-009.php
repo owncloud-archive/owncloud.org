@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         <p>CVSS v3 Base Score: 7.5 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H">AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/538.html">File and Directory Information Exposure (CWE-538)</a></p>
-
         <h3>Description</h3>
         <p><p>The external storage functionality as implemented in ownCloud 9.0.x before 9.0.2 is improperly setting up external storages when multiple groups have been granted access to an external storage and a user is member of both groups.</p>
 <p>The storage class is setup without any setup information, leading to multiple issues, including:</p>
@@ -31,11 +30,11 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p>The storage code has been reviewed and been patched to properly setup the storage. Furthermore several hardenings have been added to ownCloud which will highly reduce the change of a successful exploitation of similar vulnerabilities in the future.</p>
+        <p>The storage code has been reviewed and been patched to properly setup the storage. Furthermore several hardenings have been added to ownCloud which will highly reduce the chance of a successful exploitation of similar vulnerabilities in the future.</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-
+            <li>Lukas Reschke - Vulnerability discovery and disclosure.</li>
         </ul>
         <br/>
     </div>

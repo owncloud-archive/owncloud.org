@@ -14,7 +14,6 @@
         <p>Risk level: <strong>High</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>ownCloud offers the <code>OC_Util::getUrlContent()</code> to developers. Using this function applications can download content from remote websites.</p>
 <p>Due to a newly introduced bug in this functionality it was following redirects to other protocols such as <code>file://</code>. Thus, an attacker may be able to gain access to local files stored on the ownCloud instance.</p>

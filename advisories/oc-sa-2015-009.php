@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         <p>CVSS v2 Base Score: 6.1 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:H/Au:N/C:C/I:P/A:N)">AV:N/AC:H/Au:N/C:C/I:P/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/297.html">Improper Validation of Certificate with Host Mismatch (CWE-297)</a></p>
-
         <h3>Description</h3>
         <p><p>The ownCloud Desktop Client was vulnerable against MITM attacks until version 1.8.2 in combination with self-signed certificates. To be exploitable the following conditions have to be met:</p>
 <ul><li>The connection to the remote ownCloud server must be secured using a self-signed certificate which the user imported in the ownCloud client.</li><li>While the ownCloud client is connected to the remote ownCloud server an attacker starts a MITM attack and the user has to manually distrust the new certificate. If the connection is already MITM'd while the client is not yet running the ownCloud client will behave properly.</li><li>User clicks "Cancel" on the appearing SSL warning.</li></ul><p>If all conditions are met the client will continue syncing and considers the malicious certificate as valid. This allows adversaries in a MITM position to sniff the user credentials which are transfered in the Basic Authentication header as well as to other sensitive information. (including the PHP session and transferred files)</p>

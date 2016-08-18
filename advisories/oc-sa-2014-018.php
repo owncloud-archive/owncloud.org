@@ -14,7 +14,6 @@
         <p>Risk level: <strong>High</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to an improper control of the filename for a <code>require_once()</code> statement in the routing component a limited local file inclusion vulnerability is existent in all below mentioned ownCloud versions.</p>
 <p>Depending on the ownCloud configuration and the authentication state of a remote attacker this vulnerability may have different impact. Specifically:</p>

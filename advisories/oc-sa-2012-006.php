@@ -14,7 +14,6 @@
         <p>Risk level: <strong>High</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>ownCloud 4.5.4, ownCloud 4.0.9 and all versions previous to this doesn't sufficiently verify whether a request to settings.php was sent by an admin, which allows unauthenticated users to edit app configurations of user_webdavauth and user_ldap. An unauthenticated attacker may use this to gain access to any user account on the server if these plugins are enabled.</p>
 </p>

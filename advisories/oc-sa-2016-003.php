@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v2 Base Score: 4.3 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:M/Au:S/C:P/I:N/A:N)">AV:N/AC:M/Au:S/C:P/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/252.html">Unchecked Return Value (CWE-252)</a></p>
-
         <h3>Description</h3>
         <p><p>Due to a incorrect usage of the <code>getOwner</code> function of the ownCloud virtual filesystem,done authenticated users with incoming shares of other users are able to access files beginning with ".v" of the sharing user. This can only be exploited if the "files_versions" application is enabled on the server.</p>
 </p>

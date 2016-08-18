@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v2 Base Score: 2.6 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:H/Au:N/C:P/I:N/A:N)">AV:N/AC:H/Au:N/C:P/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/201.html">Information Exposure Through Sent Data (CWE-201)</a></p>
-
         <h3>Description</h3>
         <p><p>A bug in the ownCloud iOS application below version 3.4.4 may leak credentials as well as cookies used for authentication purposes to other configured ownCloud instances.</p>
 <p>Specifically, the ownCloud iOS application allows users to connect to multiple ownCloud instances offering an easy way to switch between different accounts on different instances. An user may for example configure their hosted ownCloud by a third-party provider as well as their company ownCloud instance.</p>

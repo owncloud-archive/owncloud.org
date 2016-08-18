@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to not verifying whether an user has permission to rename files of other users an authenticated user could rename files of other users without permission.</p>
 </p>

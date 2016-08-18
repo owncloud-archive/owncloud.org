@@ -14,7 +14,6 @@
         <p>Risk level: <strong>High</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Incomplete blacklist vulnerability in apps/contacts/import.php and apps/contacts/ajax/uploadimport.php in ownCloud before 4.0.13 and 4.5.8 allows an authenticated remote attacker to upload a .htaccess file and therefore the execution of arbitrary PHP code in a standard Apache installation.</p>
 </p>

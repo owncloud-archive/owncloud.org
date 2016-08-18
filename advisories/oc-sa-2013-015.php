@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Due to using "time()" as random source in the ownCloud installation routine, the entropy of the generated PostgreSQL database user password is very low and can be easily guessed.</p>
 <p>This issue is inside the ownCloud setup routine and is not related to any PostgreSQL vulnerability.</p>

@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Medium</strong></p>
         <p>CVSS v2 Base Score: 3.5 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:M/Au:S/C:P/I:N/A:N)">AV:N/AC:M/Au:S/C:P/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/252.html">Unchecked Return Value (CWE-252)</a></p>
-
         <h3>Description</h3>
         <p><p>Due to a common incorrect usage of the <code>getPath</code> function of the ownCloud virtual filesystem multiple security issues occurred. Especially the function may return <code>null</code> in case the specified file does not exist anymore. When passing the result of <code>getPath</code> in combination with <code>null</code> to functions that setup a virtual chroot or other security relevant limitations PHP would typecast the return value to an empty string and thus effectively bypassing the internal security functions of ownCloud.</p>
 <p><code>getPath</code> with a return type of <code>null</code> is a common occurrence in case a folder has been shared publicly and the parent item has been deleted later from the database. Due to missing foreign keys the share is still considered valid and will finally resolve to the users' root directory.</p>

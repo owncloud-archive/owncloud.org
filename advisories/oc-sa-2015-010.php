@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v2 Base Score: 3.5 (<a href="https://nvd.nist.gov/cvss.cfm?calculator&version=2&vector=(AV:N/AC:M/Au:S/C:P/I:N/A:N)">AV:N/AC:M/Au:S/C:P/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/97.html">Improper Neutralization of Input During Web Page Generation (CWE-97)</a></p>
-
         <h3>Description</h3>
         <p><p>Due to not sanitising all user provided input, the "activity" application shipped with the mentioned ownCloud versions is vulnerable to stored cross-site scripting attacks. The "activity" application is enabled by default in the ownCloud Community Edition and Enterprise Edition.</p>
 <p>Successful exploitation requires that the adversary is able to create files containing the <code>&quot;</code> character. This character is forbidden by default in any current ownCloud version except 8.1.0 RC1, thus an actual exploitation requires that the user has mounted an external storage within ownCloud where a user can create files with such characters. Alternatively an adversary may discover a way to circumvent the input validation. (ownCloud is not aware of a bypass of to the input validation) - Furthermore the attacker must be able to share a folder containing the files with malicious filename with the victim.</p>

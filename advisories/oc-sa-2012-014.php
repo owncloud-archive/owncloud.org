@@ -14,7 +14,6 @@
         <p>Risk level: <strong>Low</strong></p>
         
         
-
         <h3>Description</h3>
         <p><p>Cross-site request forgery (CSRF) vulnerability in core/ajax/appconfig.php in ownCloud before 4.0.7 allows remote attackers to hijack the authentication of administrators for requests that edit the app configurations.</p>
 </p>
