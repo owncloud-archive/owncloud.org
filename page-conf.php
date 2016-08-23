@@ -1,5 +1,7 @@
 <div class="row conf-header">
-	<img class="conf-img" style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/occ16-schedule-overview.png" alt="schedule" />
+	<div class="col-sm-10 col-sm-offset-1">
+		<img class="conf-img" style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/occ16-schedule-overview.png" alt="schedule" />
+	</div>
 	<div class="col-sm-6 col-sm-offset-3">
 		<!-- <img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" /> -->
 		<h2 class="conf-location">ownCloud Conference: Sept 9 - 15 2016, Berlin</h2>
