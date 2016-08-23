@@ -1,18 +1,20 @@
 <div class="row conf-header">
 	<div class="col-sm-6 col-sm-offset-3">
-		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" />
+		<!-- <img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" /> -->
+		<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/occ16-schedule-overview.png" alt="schedule" />
 		<h2 class="conf-location">Hold the date: Sept 9 - 15 2016, Berlin</h2>
 		<a href="https://conference.owncloud.org/conference/oCC2016/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register here <i class="icon-check"></i></a>
 		<h3>Annually bringing ownCloud Contributors from around the world together for a week of coding, design, discussion, talks & fun.</h3><br />
-<!--		<p><a href="https://conference.owncloud.org/conference/oCC2015/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>-->
-		<!--<p>Find <a href="confinfo">practical information for visitors here</a>.</p>-->
+		<p><a href="https://conference.owncloud.org/conference/oCC2016/schedule#2016-09-10" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>
 	</div>
 </div>
+
 <!--<div class="row">
 	<div class="text-center videoWrapper">
 		<iframe width="95%" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y" frameborder="0" allowfullscreen></iframe>
 	</div>
 </div>-->
+
 <div class="row conf-info">
 	<div class="col-sm-6">
 		<i class="icon-code"></i>
