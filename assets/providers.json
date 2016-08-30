@@ -1512,6 +1512,19 @@
          ],
          "imagename":"kigst.png",
          "supported":true
+      },
+      {
+         "title":"Ooredoo",
+         "url":"http:\/\/http://www.ooredoo.dz/\/",
+         "flags":[
+            "dz"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers"
+         ],
+         "imagename":"ooredo.png",
+         "supported":true
       }
     ]
 }
