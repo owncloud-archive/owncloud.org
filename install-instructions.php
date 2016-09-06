@@ -244,7 +244,8 @@
 									<a href="https://owncloud.com/download/?ref=orgB" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
 									<hr />
 									<div class="download-notes">
-										<p><strong>Note:</strong><br> the appliances have been updated to the <a href="https://owncloud.org/blog/owncloud-server-9-0-released/">freshly released ownCloud 9.0</a> but have only gone through absolutely minimal testing. It is recommended to not use these for important data yet - giving them a trial run however and giving us feedback is greatly appreciated!</p>
+										<p><strong>NOTE</strong>: the appliances have been updated to the <a href="https://owncloud.org/blog/owncloud-server-9-0-released/">freshly released ownCloud 9.0</a> but have only gone through absolutely minimal testing. It is recommended to not use these for important data yet - giving them a trial run however and giving us feedback is greatly appreciated!</p>
+ 										<p><strong>NOTE</strong>: The appliances have been updated to the <a href="https://owncloud.org/blog/new-in-owncloud-9-1/">freshly released ownCloud 9.1</a>. </p>
 										<p><strong>Security Note:</strong><br />These images do not all offer automatic update technology. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
 										<p><strong>Channels:</strong><br />We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages</a> for testing here.</p>
 									</div>
