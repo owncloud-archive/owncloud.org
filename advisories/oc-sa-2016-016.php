@@ -19,7 +19,7 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Desktop &lt; <strong>2.2.3</strong> (CVE pending)</li>
+            <li>ownCloud Desktop &lt; <strong>2.2.3</strong> (CVE-2016-7102)</li>
 
         </ul>
         <h3>Action Taken</h3>

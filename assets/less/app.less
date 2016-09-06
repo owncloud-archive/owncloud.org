@@ -10,10 +10,10 @@
    ========================================================================== */
 
 body {
-  background-color: #EFEFEF; 
-  color: #1D2D44; 
-  font-size: 16px; 
-  line-height: 1.7; 
+  background-color: #EFEFEF;
+  color: #1D2D44;
+  font-size: 16px;
+  line-height: 1.7;
   font-family: sans-serif;
 }
 
@@ -22,9 +22,9 @@ i {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: inherit; 
-  font-family: inherit; 
-  font-weight: 500; 
+  color: inherit;
+  font-family: inherit;
+  font-weight: 500;
   line-height: 1.5;
 }
  h1 {
@@ -45,18 +45,18 @@ code {
 }
 
 /* ==========================================================================
-  Pages 
+  Pages
    ========================================================================== */
 
 .home {
   div.wrap > .content {
-    background-color: transparent; 
-    background-repeat: no-repeat; 
-    background-attachment: scroll; 
-    background-position: 0% 0%; 
-    background-clip: border-box; 
-    background-origin: padding-box; 
-    background-image: url("/wp-content/themes/owncloudorgnew/assets/img/cloud.png"); 
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-image: url("/wp-content/themes/owncloudorgnew/assets/img/cloud.png");
     background-size: 100% auto;
     h2.slogan {
       margin: 20px 15px 0;
@@ -153,7 +153,7 @@ code {
     display: inline;
   }
   .page-header > a {
-    margin-left: 30px; 
+    margin-left: 30px;
     vertical-align: top;
   }
   a[property="rdfs:label skos:prefLabel"] {
@@ -181,14 +181,14 @@ code {
 	margin-bottom: 0;
       }
       .contribook_bloguser {
-	float:right; 
-	margin-top: 62px; 
+	float:right;
+	margin-top: 62px;
 	margin-right: -65px;
 	a {
 	  font-size: 90%;
 	}
       }
-      .contribook_blogheadline { 
+      .contribook_blogheadline {
 	font-size: 1.25em;
       }
       .contribook_blognavibutton {
@@ -198,7 +198,7 @@ code {
 	text-decoration: underline;
 	padding-right: 0.125em;
       }
-      .contribook_blogtime, 
+      .contribook_blogtime,
       .contribook_microblogtime {
 	font-size: 90%;
       }
@@ -238,10 +238,11 @@ code {
    Install page
    ========================================================================== */
 body.install {
+  div#edition,
   div#instructions-server,
   div#instructions-web,
   div#instructions-packages {
-    height: auto%;
+    height: auto;
     margin: 0 auto;
     color: #1D2D44;
     position: absolute;
@@ -289,6 +290,7 @@ body.install {
     margin-right: 15px;
     }
   }
+  div#edition:target, div#edition:target + a.mask,
   div#instructions-server:target, div#instructions-server:target + a.mask,
   div#instructions-web:target, div#instructions-web:target + a.mask,
   div#instructions-packages:target, div#instructions-packages:target + a.mask {
@@ -303,6 +305,7 @@ body.install {
       opacity: 1;
     }
   }
+  div#open-edition,
   div#open-instructions-server,
   div#open-instructions-web,
   div#open-instructions-packages {
@@ -318,11 +321,364 @@ body.install {
     border-radius:10px;
   }
   a.btn-lg {
-    font-size: 16px; 
+    font-size: 16px;
   }
   div.btn-group {
     margin-bottom: 15px;
   }
+}
+
+/* ==========================================================================
+   Download Editions
+   ========================================================================== */
+
+   .branch {
+
+    .col-xs-offset-1.col-xs-10 {
+     padding:35px 0 70px 0;
+     }
+
+     h2 {
+       font-size: 20px;
+       margin-bottom: 30px;
+     }
+
+
+     .community {
+       padding-left: 0;
+       padding-right: 5px;
+     }
+
+     .enterprise {
+       padding-right: 0;
+       padding-left: 5px;
+     }
+
+     .community,
+     .enterprise {
+
+       p {
+         letter-spacing: -0.25px;
+         font-size: 13px;
+       }
+
+       strong {
+         font-size: 16px;
+         display: inline-block;
+
+         line-height: 22px;
+         margin-bottom: 10px;
+
+         @media (min-width: 767px) and (max-width: 1199px) {
+           min-height: 45px;
+         }
+
+         @media (min-width: 1200px) {
+         		min-height: 25px;
+         }
+       }
+
+       span {
+         display: inline-block;
+
+
+         @media (min-width: 767px) and (max-width: 991px) {
+         		min-height: 70px;
+         }
+
+         @media (min-width: 992px) {
+           min-height: 50px;
+         }
+
+       }
+
+     }
+
+     .button-area {
+
+       text-align: center;
+       padding:40px;
+
+       @media (max-width: 767px) {
+       		margin-top: 10px;
+       }
+
+       .button {
+         margin-top: 25px;
+       }
+     }
+
+     .col-sm-6 {
+       @media (max-width: 767px) {
+          padding:0;
+       }
+     }
+
+   }
+
+/* ==========================================================================
+   Download Modal
+   ========================================================================== */
+
+body.install .instructions {
+
+  hr {
+	border-top:1px solid #f0f0f0;
+	border-bottom:none;
+  }
+
+  p,li {
+    color:#555;
+  	font-size: 14px;
+  	text-rendering: optimizeLegibility;
+  }
+
+  h1 {
+    font-size: 23px;
+  	margin-top: 0;
+  }
+
+  h3 {
+    font-size: 17px;
+  	font-weight: normal;
+  	margin: 8px 0;
+  }
+
+  h4 {
+    font-size: 12px;
+  	margin-top: 0;
+  }
+
+  .thumbnail {
+  	border:1px solid #f0f0f0;
+  	margin-bottom: 0;
+  }
+
+  .description {
+    @media (min-width: 991px) {
+  		padding-bottom: 35px;
+  		padding-right: 30px;
+  	}
+  }
+
+  p.installatlation-instructions {
+  	margin:30px 0 15px 0
+  }
+
+  .button-area hr {
+  	border-top:1px solid #e5e5e5;
+  	margin:40px 0
+  }
+
+  .download-notes  p {
+  	font-size: 12px;
+  	line-height: 18px;
+  	margin-bottom: 15px;
+
+    :last-child {
+    	margin-bottom: 0;
+    }
+
+  }
+
+
+  @media (max-width: 991px) {
+
+  	p,
+  	li {
+  		font-size: 12px;
+  	}
+
+  	.archive-types {
+  		font-size: 11px;
+  	}
+
+  	h3 {
+  			font-size: 14px;
+  	}
+
+  }
+
+}
+
+.install-steps {
+	counter-reset: install-counter;
+	padding:0 0 0 0;
+	list-style: none;
+	margin:15px 0;
+
+  li {
+  	margin: 7px 0;
+  	padding-left: 32px;
+  	position: relative;
+  }
+
+  li:before {
+  	content: counter(install-counter);
+  	counter-increment: install-counter;
+  	position: absolute;
+  	left: 0;
+  	top: 0;
+  	background: #428bca;
+  	font-size: 12px;
+  	line-height: 20px;
+  	text-align: center;
+  	height:22px;
+  	width:22px;
+  	border:1px solid #4575d2;
+  	border-radius: 20px;
+  	color:#fff;
+  	text-shadow: 0px 0px 5px rgba(69, 117, 210, 1);
+  }
+
+}
+
+.button-area {
+	background: #f5f9fa;
+	border:1px solid #f2f2f2;
+	border-radius: 3px;
+	padding:20px 35px 35px 35px;
+
+  @media (max-width: 767px) {
+  		margin-top: 30px;
+  }
+}
+
+.button {
+	border-radius: 3px;
+	color:white;
+	font-weight: bold;
+	text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+	text-decoration: none;
+	color: white;
+}
+
+.button.blue {
+	background-color: #428bca;
+	border:1px solid #447ccf;
+	text-shadow: 0px 0px 8px rgba(69, 117, 210, 1);
+}
+
+.button.orange {
+	background-color: #e66f35;
+	border:1px solid #d76832;
+	text-shadow: 0px 0px 8px rgba(215, 104, 50, 1);
+}
+
+.button.blue:hover {
+	background-color: #447ccf;
+}
+
+.button.orange:hover {
+	background-color: #d76832;
+}
+
+.button.primary {
+	padding: 20px 40px;
+	margin:10px 0;
+	display: block;
+
+  @media (max-width: 991px) {
+    font-size: 13px;
+		padding: 20px;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+  		font-size: 13px;
+  		padding: 20px;
+  }
+
+}
+
+.button.secondary {
+	font-size: 12px;
+	padding: 12px 22px;
+	margin:0 5px 5px 0;
+	display: block;
+	float: left;
+
+  @media (min-width: 767px) and (max-width: 1199px) {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+}
+
+.changelog {
+	display: block;
+	margin-bottom: 20px;
+}
+
+
+
+@media (min-width: 992px) {
+
+	.row-eq-height { /* Equal heights for description and download area*/
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display:         flex;
+	}
+
+}
+
+/*vm list*/
+
+.vmlist {
+	padding-top: 10px;
+}
+
+.vmlist .col-xs-3 {
+	padding-left: 0;
+	padding-right: 0;
+	width:20%;
+}
+
+.vmlist .col-xs-9 {
+	width: 80%;
+}
+
+.vmlist .col-xs-3 a {
+	display: block;
+}
+
+.vmlist .col-xs-3 img {
+	max-width:100%;
+	max-height:100%;
+	margin: 0;
+}
+
+.instructions  .vmlist .col-xs-9 p {
+	font-size: 12px;
+}
+
+/*Helper Classes*/
+
+.clear {
+	clear:both;
+	height: 1px;
+}
+
+.mb0 {
+	margin-bottom: 0;
+}
+
+.mb15 {
+	margin-bottom: 15px;
+}
+
+.mt15 {
+	margin-top: 15px;
+}
+
+.mt30 {
+	margin-top: 30px;
 }
 
 /* ==========================================================================
@@ -395,21 +751,21 @@ body.providers div.thumbnail {
    Header
    ========================================================================== */
 
-.banner { 
+.banner {
   background-color: #1D2D44;
     img {
       margin: 0;
-      padding-top: 9px; 
+      padding-top: 9px;
       padding-bottom: 9px;
     }
     ul#menu-header.nav {
-      float: right; 
+      float: right;
       padding-top: 20px;
       > li {
 	padding: 15px 15px 0 15px;
       }
      > li > a {
-       color: #FFFFFF; 
+       color: #FFFFFF;
        font-size: 1.125em;
        padding: 0 0 12px;
      }
@@ -417,21 +773,21 @@ body.providers div.thumbnail {
        padding: 0 0 0 15px;
        margin-top: 7px;
        margin-left: 10px;
-       background-color: #428BCA; 
-       border-radius: 6px; 
-       border-color: #357EBD; 
+       background-color: #428BCA;
+       border-radius: 6px;
+       border-color: #357EBD;
        &:hover, &:focus, &:active {
 	 background-color: #3276B1;
          border-color: #285E8E;
       }
     }
      > li.menu-install a {
-       padding: 7px 16px 7px 0; 
+       padding: 7px 16px 7px 0;
        line-height: 1.25;
        border-bottom: 0;
      }
-     .active > a, 
-     a:hover, 
+     .active > a,
+     a:hover,
      a:focus {
        background-color: transparent;
        border-bottom: 1px solid #FFFFFF;
@@ -476,7 +832,7 @@ nav.nav-infopages > ul {
 
 /* Gallery Shortcode */
 .gallery-row {
-  padding: 15px 0; 
+  padding: 15px 0;
 }
 
 
@@ -513,7 +869,7 @@ footer {
     padding-top: 3em;
   }
   div.footer-nav > a {
-    color: #FFFFFF; 
+    color: #FFFFFF;
     font-size: 1.125em;
    }
   &.content-info {
@@ -521,11 +877,11 @@ footer {
       .make-lg-column(4);
     }
     h3 {
-      color: #FFFFFF; 
+      color: #FFFFFF;
       padding-bottom: 10px;
     }
     ul {
-      list-style: none; 
+      list-style: none;
       padding-left: 0;
     }
     a {
@@ -568,6 +924,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	height: 1.5em;
 	margin-bottom: 10px;
    }
+    body.install div#edition div.instructions,
     body.install div#instructions-server div.instructions,
     body.install div#instructions-web div.instructions,
     body.install div#instructions-packages div.instructions {
@@ -584,6 +941,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	height: 1.5em;
 	margin-bottom: 10px;
    }
+    body.install div#edition div.instructions,
     body.install div#instructions-server div.instructions,
     body.install div#instructions-web div.instructions,
     body.install div#instructions-packages div.instructions {
@@ -592,6 +950,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
+    body.install div#edition div.instructions,
     body.install div#instructions-server div.instructions,
     body.install div#instructions-web div.instructions,
     body.install div#instructions-packages div.instructions {
@@ -600,6 +959,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 @media (max-width: 499px) {
+    body.install div#edition div.instructions,
     body.install div#instructions-server div.instructions,
     body.install div#instructions-web div.instructions,
     body.install div#instructions-packages div.instructions {

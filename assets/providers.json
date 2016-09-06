@@ -81,19 +81,6 @@
          "supported":false
       },
       {
-         "title":"netaffairs.nl",
-         "url":"http:\/\/netaffairs.nl\/",
-         "flags":[
-            "nl"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"netaffairs.jpg",
-         "supported":true
-      },
-      {
          "title":"a2hosting.com",
          "url":"http:\/\/a2hosting.com\/owncloud-hosting",
          "flags":[
@@ -1524,6 +1511,19 @@
             "organisations"
          ],
          "imagename":"kigst.png",
+         "supported":true
+      },
+      {
+         "title":"Ooredoo",
+         "url":"http:\/\/http://www.ooredoo.dz/\/",
+         "flags":[
+            "dz"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers"
+         ],
+         "imagename":"ooredo.png",
          "supported":true
       }
     ]
