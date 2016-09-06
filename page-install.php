@@ -73,7 +73,7 @@
     <p><a class="btn btn-default btn-lg" role="button" href="#testing-development" rel="tooltip" title="Contribute to testing" id="testing" data-toggle="popover">Testing Packages</a></p>
     <p>See more <a href="/contribute" target="_blank" rel="tooltip" title="The ownCloud Contribute Page">ways to get involved</a>!</p>
   </div>
-</div> 
+</div>
 <hr></hr>
 <script>
     $('#mobile').click(function () {

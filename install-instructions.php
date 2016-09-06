@@ -1,9 +1,5 @@
-<style type="text/css">
-      ul.tabs { padding: 5px 0 0 5px; }
-      ul.tabs li { float: left; list-style: none; margin-left: 5px; padding-left: 0; }
-      .overlay-header, .overlay-footer { padding: 8px; }
-</style>
 <div class="installers">
+
 	<div id="instructions-server" class="container row PopupGetStarted">
 		<div class="instructions">
 			<div class="row">
@@ -16,143 +12,218 @@
 				</ul>
 			</div>
 			<br>
-			<div class="overlay-header row">
-				<p>Latest stable version:  <span class="label label-blue"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a href="/changelog"><small>Changelog</small></a>)</br>
-				<p>ownCloud Server supports Linux (like) operating systems, and is available via packages, sources, appliances or a one file php installer.</p>
-			</div>
+
 			<div  class="tab-content">
 				<div id="tab-archive" role="tabpanel" class="tab-pane active">
-					<div class="overlay-body row">
-						<div class="col-md-6">
-							<p>The .tar <strong>archive</strong> is the classic way of installing ownCloud server. It provides the server and all immediate 3rd party PHP libraries.</p>
-							<ol>
-								<li>Download <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> or <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> archive.</li>
-								<li>Check package integrity using MD5 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">.zip</a>) or SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">.zip</a>)</li>
-								<li>Verify the authenticity via PGP (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). The ownCloud GPG key <a target="_blank" href="<?php echo $OWNCLOUD_GPG ; ?>">is here</a>.</li>
-								<li>Follow the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation">ownCloud Admin Manuals’</a> installation chapter.</br>
-															If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/update.html">update documentation</a> for minor releases and the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a> for moving to major new ownCloud releases</li>
-							</ol>
-							<p><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
-						</div>
-						<div class="col-md-6">
-							<div class="thumbnail">
-								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
-							</div>
-								<!--<p><strong>Note:</strong></br> If you run ownCloud on Linux, <a id="packages" href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab">using packages</a> is recommended.</p>-->
+					<div class="overlay-body row row-eq-height">
+            <div class="col-sm-7 description">
+              <h1>ownCloud Server Archive File</h1>
+              <hr>
+              <div class="row">
+                <div class="col-xs-5 thumbnail">
+                  <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
+                </div>
+                <div class="col-xs-7">
+                  <p>ownCloud Server supports Linux (like) operating systems. The archive is the classic way of installing ownCloud server. It provides the server and all immediate 3rd party PHP libraries.</p>
+                </div>
+              </div>
+              <hr>
+              <p class="installatlation-instructions"><strong>Installation Instructions:</strong></p>
+              <ol class="install-steps">
+                <li>Download <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> or <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> archive.</li>
+                <li>Check package integrity using MD5 (.tar.bz2 / .zip) or SHA256 (.tar.bz2 / .zip)</li>
+                <li>Verify the authenticity via PGP (.tar.bz2 /.zip). The ownCloud GPG key is <a target="_blank" href="<?php echo $OWNCLOUD_GPG ; ?>">here</a>.</li>
+                <li>Follow the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation">ownCloud Admin Manuals’</a> installation chapter. If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/update.html">update documentation</a> for minor releases and the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a> for moving to major new ownCloud releases.</li>
+              </ol>
+            </div>
+            <div class="col-sm-5 button-area">
+              <h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
+							<h4><strong><a class="changelog" href="/changelog">See what's new (Changelog)</a></strong></h4>
+							<a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>" class="button blue primary">Download ownCloud Server</a>
+							<p class="text-center archive-types">.zip (38,8 MB) | <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">Download tar.bz2 (27,7 MB)</a></p>
+							<p class="mt30">Want to use ownCloud for your Company?</p>
+							<a href="https://owncloud.com/download/?ref=orgA" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
+							<hr />
+							<div class="download-notes">
 								<p>Looking for <a href="/changelog">older versions or major releases</a>?</p>
-								<p><small>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</small></p>
+								<p>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using the <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</p>
+								<p><strong>Security Note:</strong><br />To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
+								<p><strong>Channels:</strong><br />We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages</a> for testing here.</p>
 							</div>
-						</div>
+            </div>
 					</div>
-					<div id="tab-web" role="tabpanel" class="tab-pane">
-						<div class="overlay-body row">
-							<div class="col-md-6">
-								<p>The <strong>Web Installer</strong> is the easiest way to install ownCloud on a web space. It checks the dependencies, downloads ownCloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the ownCloud installer.</p>
-								<ol>
-									<li>Right-click <a href="https://download.owncloud.com/download/community/setup-owncloud.php">here</a> and save the file to your computer</li>
-									<li>Upload <tt>setup-owncloud.php</tt> to your web space</li>
-									<li>Point your web browser to <tt>setup-owncloud.php</tt> on your webspace</li>
-									<li>Follow the instructions and configure ownCloud</li>
-									<li>Login to your newly created ownCloud instance!</li>
-								</ol>
-								<p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</p>
-								<p><strong>Note</strong> that the installer uses the same ownCloud version as available for the built in updater in ownCloud. After a major release it can take up to a month before it becomes available through the web installer and the updater. This is done to spread the deployment of new major releases out over time.</p>
-							</div>
-							<div class="col-md-6">
-								<div class="thumbnail">
+				</div>
+
+				<div id="tab-web" role="tabpanel" class="tab-pane">
+					<div class="overlay-body row row-eq-height">
+						<div class="col-sm-7 description">
+							<h1>ownCloud Web Installer</h1>
+							<hr>
+							<div class="row">
+								<div class="col-xs-5 thumbnail">
 									<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
 								</div>
-									<p><strong>Security note:</strong></br> Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
-									<p><small>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</small></p>
+								<div class="col-xs-7">
+									<p>ownCloud Server supports Linux (like) operating systems. The Web Installer is the easiest way to install ownCloud on a web space. It checks the dependencies, downloads ownCloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the ownCloud installer.</p>
 								</div>
 							</div>
+							<hr>
+							<p class="installatlation-instructions"><strong>Installation Instructions:</strong></p>
+							<ol class="install-steps">
+								<li><a href="https://download.owncloud.com/download/community/setup-owncloud.php">Download</a> and save the file to your computer</li>
+								<li>Upload <tt>setup-owncloud.php</tt> to your web space</li>
+								<li>Point your web browser to <tt>etup-owncloud.php</tt> on your webspace</li>
+								<li>Follow the instructions and configure ownCloud</li>
+								<li>Login to your newly created ownCloud instance!</li>
+							</ol>
+							<hr />
+							<p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation">ownCloud Admin Manual</a>.</p>
+							<p><strong>Note:</strong> The installer uses the same ownCloud version as available for the built in updater in ownCloud. After a major release it can take up to a month before it becomes available through the web installer and the updater. This is done to spread the deployment of new major releases out over time.</p>
 						</div>
-						<div id="tab-packages" role="tabpanel" class="tab-pane">
-							<div class="overlay-body row">
-								<div class="col-md-6">
-									<p>ownCloud provides ready-to-deploy <strong>packages</strong> for popular Linux distributions such as Debian, Ubuntu, Fedora, RedHat Enterprise Linux, CentOS and openSUSE.</p>
-									<p>Clicking on “Continue” will forward you to the ownCloud download page, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there. Here is the <a href="<?php echo get_template_directory_uri(); ?>/assets/files/obs-release-signing.gpg">key used to sign our packages</a>.</p>
-									<p>The repositories allow you to stay on an up-to-date version of ownCloud using your distributions’ update mechanism, with packages maintained by the ownCloud community.</p>
-									<p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>">ownCloud Admin Manual</a>.</br>
-									If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a> for moving to new ownCloud releases.</p>
-										<br/><a class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br></br>
-								</div>
-								<div class="col-md-6">
-									<div class="thumbnail">
-										<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
-									</div>
-										<p><strong>Security note:</strong></br> We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security 	issues. Find the <a href="<?php echo $OWNCLOUD_GPG; ?>">public ownCloud GPG key here</a>.</p>
-										<p>Looking for repositories of <a href="/changelog">previous major releases</a>?</p>
-										<p><small>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</small></p>
-									</div>
-								</div>
+						<div class="col-sm-5 button-area">
+							<h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
+							<h4><strong><a class="changelog" href="/changelog">See what's new (Changelog)</a></strong></h4>
+							<a href="https://download.owncloud.com/download/community/setup-owncloud.php" class="button blue primary">Download ownCloud Web Installer</a>
+							<p class="mt30">Want to use ownCloud for your Company?</p>
+							<a href="https://owncloud.com/download/?ref=orgA" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
+							<hr />
+							<div class="download-notes">
+								<p>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using the <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</p>
+								<p><strong>Security Note:</strong><br />Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+								<p><strong>Channels:</strong><br />We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages</a> for testing here.</p>
 							</div>
-							<div id="tab-cloud" role="tabpanel" class="tab-pane">
-								<div class="overlay-body row">
-									<div class="col-md-8">
-										<p>ownCloud provides an official appliance as the easiest way to get ownCloud up and running for non-technical users. It is built on Ubuntu Linux and fully set up and configured with a secure connection and the <a href="/connect">ownCloud Proxy app</a>. You can install <a href="https://www.virtualbox.org/">virtual box</a>, download our <a href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> file and load it up. See our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/appliance_installation.html">documentation for more details</a>.</p>
-										<p><strong>NOTE</strong>: The appliances have been updated to the <a href="https://owncloud.org/blog/new-in-owncloud-9-1/">freshly released ownCloud 9.1</a>. </p>
-										<h4>Grab the official ownCloud virtual machine image in one of these formats:</h4>
-										<a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_QCOW2; ?>">QCOW2</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_RAW; ?>">raw</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VHDX; ?>">VHDX</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VMDK; ?>">VMDK</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VMX; ?>">VMX</a>
-										
-										<h4>Third party ownCloud VM images</h4>
-										<p>These are not maintained by the ownCloud community itself.</p>
-										<div class="row">
-											<div class="row">
-												<div class="col-md-3 vmlist">
-													<a target="_blank" style="margin: 0 14px 0 7px;" href="https://susestudio.com/a/TadMax/owncloud-in-a-box"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/susestudio.png"></img></a>
-												</div>
-												<div class="col-md-9 vmlist">
-													ownCloud-in-a-box offers live USB stick, liveCD and preload ISO images as well a wide variety of VM images.
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md-3 vmlist">
-													<a target="_blank" style="margin: 0 14px 0 7px;" href="https://www.collaboraoffice.com/code/"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/code.png"></img></a>
-												</div>
-												<div class="col-md-9 vmlist">
-													Collabora offers a VM with Collabora Online Development Edition, LibreOffice Online and ownCloud.
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md-3 vmlist">
-													<a target="_blank" style="margin: 0 14px 0 7px;" href="https://bitnami.com/stack/owncloud"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/bitnami.png"></img></a>
-												</div>
-												<div class="col-md-9 vmlist">
-													Offers direct deployment to Google/Amazon/Microsoft clouds, Docker and VM images and installers.
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md-3 vmlist">
-													<a target="_blank" style="margin: 0 14px 0 7px;" href="https://jujucharms.com/owncloud/"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/juju.png"></img></a>
-												</div>
-												<div class="col-md-9 vmlist">
-													This charm installs Apache2 and configures ownCloud with SQLite as a standalone server on an Ubuntu system.
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md-3 vmlist">
-													<a target="_blank" style="margin: 0 14px 0 7px;" href="https://www.techandme.se/owncloud_/pre-configured-owncloud-installaton/"><img width=113 src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/en0ch.png"></img></a>
-												</div>
-												<div class="col-md-9 vmlist">
-													<a href="https://www.techandme.se/machine-setup-owncloud/" target="_blank">Pre-configured Ubuntu 16.04 VM with PHP 7, Apache and MySQL</a>. Manages updates with script, can be automated.
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="thumbnail">
-											<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
-										</div>
-										<p><strong>Security note:</strong></br> These images do not all offer automatic update technology. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="overlay-footer row">
-							<p>We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages for testing here</a>.</p>
 						</div>
 					</div>
+				</div>
+
+					<div id="tab-packages" role="tabpanel" class="tab-pane">
+						<div class="overlay-body row row-eq-height">
+							<div class="col-sm-7 description">
+								<h1>ownCloud Packages</h1>
+								<hr>
+								<div class="row">
+									<div class="col-xs-5 thumbnail">
+										<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
+									</div>
+									<div class="col-xs-7">
+										<p>ownCloud provides ready-to-deploy packages for popular Linux distributions such as Debian, Ubuntu, Fedora, RedHat Enterprise Linux, CentOS and openSUSE. ownCloud Server supports Linux (like) operating systems.</p>
+									</div>
+								</div>
+								<hr>
+								<p class="installatlation-instructions"><strong>Installation Instructions:</strong></p>
+								<p>Clicking on “Continue” will forward you to the ownCloud download page, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there. Here is the <a href="<?php echo get_template_directory_uri(); ?>/assets/files/obs-release-signing.gpg">key used to sign our packages</a>.</p>
+								<p>The repositories allow you to stay on an up-to-date version of ownCloud using your distributions’ update mechanism, with packages maintained by the ownCloud community.</p>
+								<p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation">ownCloud Admin Manual</a>. If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a for moving to new ownCloud releases.</p>
+							</div>
+							<div class="col-sm-5 button-area">
+								<h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
+								<h4><strong><a class="changelog" href="/changelog">See what's new (Changelog)</a></strong></h4>
+								<a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>" class="button blue primary">Continue to the Packages</a>
+								<p class="mt30">Want to use ownCloud for your Company?</p>
+								<a href="https://owncloud.com/download/?ref=orgA" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
+								<hr />
+								<div class="download-notes">
+									<p>Looking for repositories of <a href="/changelog">previous major releases</a>?</p>
+									<p>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using the <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</p>
+									<p><strong>Security Note:</strong><br />To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
+									<p><strong>Channels:</strong><br />We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages</a> for testing here.</p>
+								</div>
+							</div>
+						</div>
+						</div>
+
+						<div id="tab-cloud" role="tabpanel" class="tab-pane">
+							<div class="overlay-body row row-eq-height">
+								<div class="col-sm-7 description">
+									<h1>ownCloud Appliances</h1>
+									<hr>
+									<div class="row">
+										<div class="col-xs-5 thumbnail">
+											<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="ownCloud Server" />
+										</div>
+										<div class="col-xs-7">
+											<p>ownCloud provides an official appliance as the easiest way to get ownCloud up and running for non-technical users. It is built on Ubuntu Linux and fully set up and configured with a secure connection and the ownCloud Proxy app. You can install virtual box, download our OVA file and load it up. See our documentation for more details. ownCloud Server supports Linux (like) operating systems.</p>
+										</div>
+									</div>
+									<hr>
+									<p class="installatlation-instructions"><strong>Third party ownCloud VM images</strong><br />These are not maintained by the ownCloud community itself.</p>
+
+									<!-- suse -->
+									<div class="row vmlist">
+										<div class="col-xs-3">
+											<a href="https://susestudio.com/a/TadMax/owncloud-in-a-box" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/susestudio.png"></img></a>
+										</div>
+										<div class="col-xs-9">
+											<p>ownCloud-in-a-box offers live USB stick, liveCD and preload ISO images as well a wide variety of VM images.</p>
+										</div>
+									</div>
+
+									<!-- collabora -->
+									<div class="row vmlist">
+										<div class="col-xs-3">
+											<a href="https://www.collaboraoffice.com/code/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/code.png"></img></a>
+										</div>
+										<div class="col-xs-9">
+											<p>Collabora offers a VM with Collabora Online Development Edition, LibreOffice Online and ownCloud.</p>
+										</div>
+									</div>
+
+									<!-- bitnami -->
+									<div class="row vmlist">
+										<div class="col-xs-3">
+											<a href="https://bitnami.com/stack/owncloud" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/bitnami.png"></img></a>
+										</div>
+										<div class="col-xs-9">
+											<p>Offers direct deployment to Google/Amazon/Microsoft clouds, Docker and VM images and installers.</p>
+										</div>
+									</div>
+
+									<!-- juju -->
+									<div class="row vmlist">
+										<div class="col-xs-3">
+											<a href="https://jujucharms.com/owncloud/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/juju.png"></img></a>
+										</div>
+										<div class="col-xs-9">
+											<p>This charm installs Apache2 and configures ownCloud with SQLite as a standalone server on an Ubuntu system.</p>
+										</div>
+									</div>
+
+									<!-- en0ch -->
+									<div class="row vmlist">
+										<div class="col-xs-3">
+											<a href="https://www.techandme.se/owncloud_/pre-configured-owncloud-installaton/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/clouds/en0ch.png"></img></a>
+										</div>
+										<div class="col-xs-9">
+											<p><a href="https://www.techandme.se/machine-setup-owncloud/" target="_blank">Pre-configured Ubuntu 16.04 VM with PHP 7, Apache and MySQL</a>. Manages updates with script, can be automated.</p>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-sm-5 button-area">
+									<h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
+									<h4><strong><a class="changelog mb0" href="/changelog">See what's new (Changelog)</a></strong></h4>
+									<h5 class="mb15">Grab the official ownCloud virtual machine image in one of these formats:</h5>
+									<a href="<?php echo $DOWNLOAD_VM_OVA; ?>" class="button blue secondary">OVA</a>
+									<a href="<?php echo $DOWNLOAD_VM_QCOW2; ?>" class="button blue secondary">QCOW2</a>
+									<a href="<?php echo $DOWNLOAD_VM_RAW; ?>" class="button blue secondary">raw</a>
+									<a href="<?php echo $DOWNLOAD_VM_VHDX; ?>" class="button blue secondary">VHDX</a>
+									<a href="<?php echo $DOWNLOAD_VM_VMDK; ?>" class="button blue secondary">VMDK</a>
+									<a href="<?php echo $DOWNLOAD_VM_VMX; ?>" class="button blue secondary">VMX</a>
+									<div class="clear"></div>
+									<p class="mt15">Want to use ownCloud for your Company?</p>
+									<a href="https://owncloud.com/download/?ref=orgA" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
+									<hr />
+									<div class="download-notes">
+										<p><strong>NOTE</strong>: the appliances have been updated to the <a href="https://owncloud.org/blog/owncloud-server-9-0-released/">freshly released ownCloud 9.0</a> but have only gone through absolutely minimal testing. It is recommended to not use these for important data yet - giving them a trial run however and giving us feedback is greatly appreciated!</p>
+ 										<p><strong>NOTE</strong>: The appliances have been updated to the <a href="https://owncloud.org/blog/new-in-owncloud-9-1/">freshly released ownCloud 9.1</a>. </p>
+										<p><strong>Security Note:</strong><br />These images do not all offer automatic update technology. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+										<p><strong>Channels:</strong><br />We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages</a> for testing here.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 	</div>
 <!--         </div> -->
 <!--  Mask instructions server -->
@@ -239,7 +310,7 @@
 			    <p>Latest testing version: <span class="label label-blue"><?php echo $SERVER_TESTING_VERSION; ?></span></p>
 		    <?php } ?>
 		    <div class="btn-group">
-		    
+
 		    <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>
 		    <?php if(!empty($DOWNLOAD_SERVER_ZIP_TESTING)) { ?>
 			      <a href="<?php echo $DOWNLOAD_SERVER_ZIP_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> zip</a>
