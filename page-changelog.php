@@ -55,7 +55,7 @@ Go directly to the latest maintenance release of:
 <li>Sharing: Reallow spaces in federated share autocomplete in share dialog - <a href="https://github.com/owncloud/core/issue/25955">core/#25955</a></li>
 <li>Encryption: OCC command for decryption now doesn't decrypt received shares - <a href="https://github.com/owncloud/core/issue/25599">core/#25599</a></li>
 <li>Files_external: Removed reference magic to avoid potential infinite loops - <a href="https://github.com/owncloud/core/issue/25844">core/#25844</a></li>
-<li>Files_external: Added conditional trace logging for debugging SMB on productive systems - <a href="https://github.com/owncloud/core/issue/25758">core/#25758</a></li>
+<li>Files_external: Added conditional trace logging for debugging SMB on production systems - <a href="https://github.com/owncloud/core/issue/25758">core/#25758</a></li>
 <li>Files_external: Fix config database issue when using Oracle - <a href="https://github.com/owncloud/core/issue/25764">core/#25764</a></li>
 <li>Files_external: SMB subfolders with read-only attribute are now writeable in OC to match spec - <a href="https://github.com/owncloud/core/issue/24608">core/#24608</a></li>
 <li>Files_external: Fix "save in session" mode when using Webdav without cookies/session - <a href="https://github.com/owncloud/core/issue/25511">core/#25511</a></li>
@@ -202,7 +202,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>Sharing: Fix issue where videos did not play from share links with PHP 7 - <a href="https://github.com/owncloud/core/issue/25483">core/#25483</a></li>
 <li>Encryption: OCC command for decryption now doesn't decrypt received shares - <a href="https://github.com/owncloud/core/issue/25599">core/#25599</a></li>
 <li>Files_external: Removed reference magic to avoid potential infinite loops - <a href="https://github.com/owncloud/core/issue/25844">core/#25844</a></li>
-<li>Files_external: Added conditional trace logging for debugging SMB on productive systems - <a href="https://github.com/owncloud/core/issue/25758">core/#25758</a></li>
+<li>Files_external: Added conditional trace logging for debugging SMB on production systems - <a href="https://github.com/owncloud/core/issue/25758">core/#25758</a></li>
 <li>Files_external: Fix config database issue when using Oracle - <a href="https://github.com/owncloud/core/issue/25764">core/#25764</a></li>
 <li>Files_external: SMB subfolders with read-only attribute are now writeable in OC to match spec - <a href="https://github.com/owncloud/core/issue/24608">core/#24608</a></li>
 <li>Files_external: Fix "save in session" mode when using Webdav without cookies/session - <a href="https://github.com/owncloud/core/issue/25511">core/#25511</a></li>
