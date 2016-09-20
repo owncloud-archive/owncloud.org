@@ -16,64 +16,64 @@ Go directly to the latest maintenance release of:
 <a name="latest9.1"></a>
 <h3>Version 9.1.1 <small>Sep 20 2016</small></h3>
 <ul>
-<li>Core: Remove OCS response body for HTTP status 204 and 304 which disturbed some firewalls - <a href="https://github.com/owncloud/core/issue/25835">core/#25835</a></li>
-<li>Core: Map Oracle driver options to params - <a href="https://github.com/owncloud/core/issue/23938">core/#23938</a></li>
-<li>Core: Log cron job class name for easier troubleshooting - <a href="https://github.com/owncloud/core/issue/25743">core/#25743</a></li>
-<li>Core: Skip version and trash expiry for users that never logged in - <a href="https://github.com/owncloud/core/issue/25741">core/#25741</a></li>
-<li>Core: Added white download icons for apps to use - <a href="https://github.com/owncloud/core/issue/23891">core/#23891</a></li>
-<li>Core: Fix warning about undefined offset in LoginController - <a href="https://github.com/owncloud/core/issue/25714">core/#25714</a></li>
-<li>Core: Fix warning about undefined two factor providers - <a href="https://github.com/owncloud/core/issue/25606">core/#25606</a></li>
-<li>Core: Load app before executing its repair steps - <a href="https://github.com/owncloud/core/issue/25674">core/#25674</a></li>
-<li>Core: Fix "defaultapp" setting - <a href="https://github.com/owncloud/core/issue/25562">core/#25562</a></li>
-<li>Core: Fix issue when opening some file app links received in share emails - <a href="https://github.com/owncloud/core/issue/25200">core/#25200</a></li>
-<li>Core: Reconnect DB in occ files:scan to avoid DB timeouts - <a href="https://github.com/owncloud/core/issue/25853">core/#25853</a></li>
-<li>Core: Fix status.php page redirection with non-standard port - <a href="https://github.com/owncloud/core/issue/25946">core/#25946</a></li>
-<li>Core: Improve users page loading performance with many groups - <a href="https://github.com/owncloud/core/issue/25922">core/#25922</a></li>
-<li>Core: Don't log credentials from tryLogin - <a href="https://github.com/owncloud/core/issue/25895">core/#25895</a></li>
-<li>Core: Fix password recovery with case sensitive user names - <a href="https://github.com/owncloud/core/issue/25684">core/#25684</a></li>
-<li>Core: Fix two factor page cyclic reload with some providers - <a href="https://github.com/owncloud/core/issue/25893">core/#25893</a></li>
-<li>Core: Add visual feedback when updating password in users page - <a href="https://github.com/owncloud/core/issue/25532">core/#25532</a></li>
-<li>Core: Fix useless warning when overwriting file when open_basedir is set - <a href="https://github.com/owncloud/core/issue/26033">core/#26033</a></li>
-<li>Files: Display hidden files in footer and selection summary - <a href="https://github.com/owncloud/core/issue/25855">core/#25855</a></li>
-<li>Files: Fix hidden files handling with insertion or selection - <a href="https://github.com/owncloud/core/issue/25856">core/#25856</a></li>
-<li>DAV: Faster classification migration in CalDAV - <a href="https://github.com/owncloud/core/issue/25638">core/#25638</a></li>
-<li>DAV: Error message about forbidden password login is now logged in debug level - <a href="https://github.com/owncloud/core/issue/25486">core/#25486</a></li>
-<li>DAV: Return "data-fingerprint" property on any file related element - <a href="https://github.com/owncloud/core/issue/25482">core/#25482</a></li>
-<li>DAV: Fix missing properties in CalDAV subscriptions - <a href="https://github.com/owncloud/core/issue/24469">core/#24469</a></li>
-<li>DAV: Improve performance of chunking in new DAV endpoint- <a href="https://github.com/owncloud/core/issue/26072">core/#26072</a></li>
-<li>Sharing: Fixed wrong insufficient storage error - <a href="https://github.com/owncloud/core/issue/25582">core/#25582</a></li>
-<li>Sharing: Prevent shared storage recursions to avoid memory issues and crashes - <a href="https://github.com/owncloud/core/issue/25557">core/#25557</a></li>
-<li>Sharing: Group received shares which have same source and target - <a href="https://github.com/owncloud/core/issue/25113">core/#25113</a></li>
-<li>Sharing: Fix sharing over API when dealing with trailing slashes - <a href="https://github.com/owncloud/core/issue/25464">core/#25464</a></li>
-<li>Sharing: Fix public upload issue with quota in some scenarios - <a href="https://github.com/owncloud/core/issue/24751">core/#24751</a></li>
-<li>Sharing: Fix issue where videos did not play from share links with PHP 7 - <a href="https://github.com/owncloud/core/issue/25483">core/#25483</a></li>
-<li>Sharing: Fix BadMethodCallException in cron or scanner - <a href="https://github.com/owncloud/core/issue/25506">core/#25506</a></li>
-<li>Sharing: Prevent ghost mounts for deleted/orphaned shares - <a href="https://github.com/owncloud/core/issue/26001">core/#26001</a></li>
-<li>Sharing: Fix fatal error for users with older existing shares from OC <= 8.2 - <a href="https://github.com/owncloud/core/issue/25933">core/#25933</a></li>
-<li>Sharing: Always allow share owner to increase permissions - <a href="https://github.com/owncloud/core/issue/25542">core/#25542</a></li>
-<li>Sharing: Properly retry federated shares after they were unavailable - <a href="https://github.com/owncloud/core/issue/26037">core/#26037</a></li>
-<li>Sharing: Reallow spaces in federated share autocomplete in share dialog - <a href="https://github.com/owncloud/core/issue/25955">core/#25955</a></li>
-<li>Encryption: OCC command for decryption now doesn't decrypt received shares - <a href="https://github.com/owncloud/core/issue/25599">core/#25599</a></li>
-<li>Files_external: Removed reference magic to avoid potential infinite loops - <a href="https://github.com/owncloud/core/issue/25844">core/#25844</a></li>
-<li>Files_external: Added conditional trace logging for debugging SMB on production systems - <a href="https://github.com/owncloud/core/issue/25758">core/#25758</a></li>
-<li>Files_external: Fix config database issue when using Oracle - <a href="https://github.com/owncloud/core/issue/25764">core/#25764</a></li>
-<li>Files_external: SMB subfolders with read-only attribute are now writeable in OC to match spec - <a href="https://github.com/owncloud/core/issue/24608">core/#24608</a></li>
-<li>Files_external: Fix "save in session" mode when using Webdav without cookies/session - <a href="https://github.com/owncloud/core/issue/25511">core/#25511</a></li>
-<li>Files_external: Respect theme for external folder icon - <a href="https://github.com/owncloud/core/issue/25461">core/#25461</a></li>
-<li>Files_external: Disable NFD encoding wrapper that was enabled by mistake for local storages - <a href="https://github.com/owncloud/core/issue/25819">core/#25819</a></li>
-<li>Files_external: Some SMB fixes and better debug logging - <a href="https://github.com/owncloud/core/issue/25817">core/#25817</a></li>
-<li>Files_trashbin: Add occ command to trigger trashbin retention expiration - <a href="https://github.com/owncloud/core/issue/25878">core/#25878</a></li>
-<li>Files_versions: Add occ command to trigger versions retention expiration - <a href="https://github.com/owncloud/core/issue/25878">core/#25878</a></li>
-<li>LDAP: Fix login issue when dealing with display name of deleted users - <a href="https://github.com/owncloud/core/issue/23248">core/#23248</a></li>
-<li>LDAP: Prevent triggering email change events at login time for unchanged email - <a href="https://github.com/owncloud/core/issue/25553">core/#25553</a></li>
-<li>LDAP: Fix login and logging issue with big avatars by reducing their size - <a href="https://github.com/owncloud/core/issue/25857">core/#25857</a></li>
-<li>LDAP: Hide LDAP admin password in wizard - <a href="https://github.com/owncloud/core/issue/25702">core/#25702</a></li>
-<li>Provisioning API: Fixed issue where subadmins could not change group memberships - <a href="https://github.com/owncloud/core/issue/25496">core/#25496</a></li>
-<li>Provisioning API: Added flag to enable/disable two-factor auth for users - <a href="https://github.com/owncloud/core/issue/25876">core/#25876</a></li>
-<li>Activity: Fix owner name processing for received federated shares - <a href="https://github.com/owncloud/core/issue/24938">core/#24938</a></li>
-<li>Updater: Fix web update issue with filesystem apps - <a href="https://github.com/owncloud/updater/issue/371">updater/#371</a></li>
-<li>Antivirus: Fix incorrect report of file size - files_<a href="https://github.com/owncloud/antivirus/issue/120">antivirus/#120</a></li>
-<li>Antivirus: Fix background scan - files_<a href="https://github.com/owncloud/antivirus/issue/109">antivirus/#109</a></li>
+<li>Core: Remove OCS response body for HTTP status 204 and 304 which disturbed some firewalls - <a href="https://github.com/owncloud/core/issues/25835">core/#25835</a></li>
+<li>Core: Map Oracle driver options to params - <a href="https://github.com/owncloud/core/issues/23938">core/#23938</a></li>
+<li>Core: Log cron job class name for easier troubleshooting - <a href="https://github.com/owncloud/core/issues/25743">core/#25743</a></li>
+<li>Core: Skip version and trash expiry for users that never logged in - <a href="https://github.com/owncloud/core/issues/25741">core/#25741</a></li>
+<li>Core: Added white download icons for apps to use - <a href="https://github.com/owncloud/core/issues/23891">core/#23891</a></li>
+<li>Core: Fix warning about undefined offset in LoginController - <a href="https://github.com/owncloud/core/issues/25714">core/#25714</a></li>
+<li>Core: Fix warning about undefined two factor providers - <a href="https://github.com/owncloud/core/issues/25606">core/#25606</a></li>
+<li>Core: Load app before executing its repair steps - <a href="https://github.com/owncloud/core/issues/25674">core/#25674</a></li>
+<li>Core: Fix "defaultapp" setting - <a href="https://github.com/owncloud/core/issues/25562">core/#25562</a></li>
+<li>Core: Fix issue when opening some file app links received in share emails - <a href="https://github.com/owncloud/core/issues/25200">core/#25200</a></li>
+<li>Core: Reconnect DB in occ files:scan to avoid DB timeouts - <a href="https://github.com/owncloud/core/issues/25853">core/#25853</a></li>
+<li>Core: Fix status.php page redirection with non-standard port - <a href="https://github.com/owncloud/core/issues/25946">core/#25946</a></li>
+<li>Core: Improve users page loading performance with many groups - <a href="https://github.com/owncloud/core/issues/25922">core/#25922</a></li>
+<li>Core: Don't log credentials from tryLogin - <a href="https://github.com/owncloud/core/issues/25895">core/#25895</a></li>
+<li>Core: Fix password recovery with case sensitive user names - <a href="https://github.com/owncloud/core/issues/25684">core/#25684</a></li>
+<li>Core: Fix two factor page cyclic reload with some providers - <a href="https://github.com/owncloud/core/issues/25893">core/#25893</a></li>
+<li>Core: Add visual feedback when updating password in users page - <a href="https://github.com/owncloud/core/issues/25532">core/#25532</a></li>
+<li>Core: Fix useless warning when overwriting file when open_basedir is set - <a href="https://github.com/owncloud/core/issues/26033">core/#26033</a></li>
+<li>Files: Display hidden files in footer and selection summary - <a href="https://github.com/owncloud/core/issues/25855">core/#25855</a></li>
+<li>Files: Fix hidden files handling with insertion or selection - <a href="https://github.com/owncloud/core/issues/25856">core/#25856</a></li>
+<li>DAV: Faster classification migration in CalDAV - <a href="https://github.com/owncloud/core/issues/25638">core/#25638</a></li>
+<li>DAV: Error message about forbidden password login is now logged in debug level - <a href="https://github.com/owncloud/core/issues/25486">core/#25486</a></li>
+<li>DAV: Return "data-fingerprint" property on any file related element - <a href="https://github.com/owncloud/core/issues/25482">core/#25482</a></li>
+<li>DAV: Fix missing properties in CalDAV subscriptions - <a href="https://github.com/owncloud/core/issues/24469">core/#24469</a></li>
+<li>DAV: Improve performance of chunking in new DAV endpoint- <a href="https://github.com/owncloud/core/issues/26072">core/#26072</a></li>
+<li>Sharing: Fixed wrong insufficient storage error - <a href="https://github.com/owncloud/core/issues/25582">core/#25582</a></li>
+<li>Sharing: Prevent shared storage recursions to avoid memory issues and crashes - <a href="https://github.com/owncloud/core/issues/25557">core/#25557</a></li>
+<li>Sharing: Group received shares which have same source and target - <a href="https://github.com/owncloud/core/issues/25113">core/#25113</a></li>
+<li>Sharing: Fix sharing over API when dealing with trailing slashes - <a href="https://github.com/owncloud/core/issues/25464">core/#25464</a></li>
+<li>Sharing: Fix public upload issue with quota in some scenarios - <a href="https://github.com/owncloud/core/issues/24751">core/#24751</a></li>
+<li>Sharing: Fix issue where videos did not play from share links with PHP 7 - <a href="https://github.com/owncloud/core/issues/25483">core/#25483</a></li>
+<li>Sharing: Fix BadMethodCallException in cron or scanner - <a href="https://github.com/owncloud/core/issues/25506">core/#25506</a></li>
+<li>Sharing: Prevent ghost mounts for deleted/orphaned shares - <a href="https://github.com/owncloud/core/issues/26001">core/#26001</a></li>
+<li>Sharing: Fix fatal error for users with older existing shares from OC <= 8.2 - <a href="https://github.com/owncloud/core/issues/25933">core/#25933</a></li>
+<li>Sharing: Always allow share owner to increase permissions - <a href="https://github.com/owncloud/core/issues/25542">core/#25542</a></li>
+<li>Sharing: Properly retry federated shares after they were unavailable - <a href="https://github.com/owncloud/core/issues/26037">core/#26037</a></li>
+<li>Sharing: Reallow spaces in federated share autocomplete in share dialog - <a href="https://github.com/owncloud/core/issues/25955">core/#25955</a></li>
+<li>Encryption: OCC command for decryption now doesn't decrypt received shares - <a href="https://github.com/owncloud/core/issues/25599">core/#25599</a></li>
+<li>Files_external: Removed reference magic to avoid potential infinite loops - <a href="https://github.com/owncloud/core/issues/25844">core/#25844</a></li>
+<li>Files_external: Added conditional trace logging for debugging SMB on production systems - <a href="https://github.com/owncloud/core/issues/25758">core/#25758</a></li>
+<li>Files_external: Fix config database issue when using Oracle - <a href="https://github.com/owncloud/core/issues/25764">core/#25764</a></li>
+<li>Files_external: SMB subfolders with read-only attribute are now writeable in OC to match spec - <a href="https://github.com/owncloud/core/issues/24608">core/#24608</a></li>
+<li>Files_external: Fix "save in session" mode when using Webdav without cookies/session - <a href="https://github.com/owncloud/core/issues/25511">core/#25511</a></li>
+<li>Files_external: Respect theme for external folder icon - <a href="https://github.com/owncloud/core/issues/25461">core/#25461</a></li>
+<li>Files_external: Disable NFD encoding wrapper that was enabled by mistake for local storages - <a href="https://github.com/owncloud/core/issues/25819">core/#25819</a></li>
+<li>Files_external: Some SMB fixes and better debug logging - <a href="https://github.com/owncloud/core/issues/25817">core/#25817</a></li>
+<li>Files_trashbin: Add occ command to trigger trashbin retention expiration - <a href="https://github.com/owncloud/core/issues/25878">core/#25878</a></li>
+<li>Files_versions: Add occ command to trigger versions retention expiration - <a href="https://github.com/owncloud/core/issues/25878">core/#25878</a></li>
+<li>LDAP: Fix login issue when dealing with display name of deleted users - <a href="https://github.com/owncloud/core/issues/23248">core/#23248</a></li>
+<li>LDAP: Prevent triggering email change events at login time for unchanged email - <a href="https://github.com/owncloud/core/issues/25553">core/#25553</a></li>
+<li>LDAP: Fix login and logging issue with big avatars by reducing their size - <a href="https://github.com/owncloud/core/issues/25857">core/#25857</a></li>
+<li>LDAP: Hide LDAP admin password in wizard - <a href="https://github.com/owncloud/core/issues/25702">core/#25702</a></li>
+<li>Provisioning API: Fixed issue where subadmins could not change group memberships - <a href="https://github.com/owncloud/core/issues/25496">core/#25496</a></li>
+<li>Provisioning API: Added flag to enable/disable two-factor auth for users - <a href="https://github.com/owncloud/core/issues/25876">core/#25876</a></li>
+<li>Activity: Fix owner name processing for received federated shares - <a href="https://github.com/owncloud/core/issues/24938">core/#24938</a></li>
+<li>Updater: Fix web update issue with filesystem apps - <a href="https://github.com/owncloud/updater/issues/371">updater/#371</a></li>
+<li>Antivirus: Fix incorrect report of file size - files_<a href="https://github.com/owncloud/antivirus/issues/120">antivirus/#120</a></li>
+<li>Antivirus: Fix background scan - files_<a href="https://github.com/owncloud/antivirus/issues/109">antivirus/#109</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.1.1.tar.bz2">owncloud-9.1.1.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.1.zip">owncloud-9.1.1.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.1.1.tar.bz2.md5">owncloud-9.1.1.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.1.zip.md5">owncloud-9.1.1.zip.md5</a></br>
@@ -84,38 +84,38 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <a name="latest9.0"></a>
 <h3>Version 9.0.5 <small>Sep 20 2016</small></h3>
 <ul>
-<li>Core: Remove OCS response body for HTTP status 204 and 304 which disturbed some firewalls - <a href="https://github.com/owncloud/core/issue/25835">core/#25835</a></li>
-<li>Core: Sanitize more data in config report - <a href="https://github.com/owncloud/core/issue/23728">core/#23728</a></li>
-<li>Core: Map Oracle driver options to params - <a href="https://github.com/owncloud/core/issue/23938">core/#23938</a></li>
-<li>Core: Log cron job class name for easier troubleshooting - <a href="https://github.com/owncloud/core/issue/25743">core/#25743</a></li>
-<li>Core: Skip version and trash expiry for users that never logged in - <a href="https://github.com/owncloud/core/issue/25741">core/#25741</a></li>
-<li>Core: Added white download icons for apps to use - <a href="https://github.com/owncloud/core/issue/23891">core/#23891</a></li>
-<li>Core: Reconnect DB in occ files:scan to avoid DB timeouts - <a href="https://github.com/owncloud/core/issue/25853">core/#25853</a></li>
-<li>Core: Fix status.php page redirection with non-standard port - <a href="https://github.com/owncloud/core/issue/25946">core/#25946</a></li>
-<li>Core: Improve users page loading performance with many groups - <a href="https://github.com/owncloud/core/issue/25922">core/#25922</a></li>
-<li>DAV: Added quota plugin to new DAV files endpoint - <a href="https://github.com/owncloud/core/issue/25646">core/#25646</a></li>
-<li>Sharing: Group received shares which have same source and target - <a href="https://github.com/owncloud/core/issue/25113">core/#25113</a></li>
-<li>Sharing: Fix public upload issue with quota in some scenarios - <a href="https://github.com/owncloud/core/issue/24751">core/#24751</a></li>
-<li>Sharing: Fix sharing over API when dealing with trailing slashes - <a href="https://github.com/owncloud/core/issue/25464">core/#25464</a></li>
-<li>Sharing: Fix path sent by shared storage hooks, could affect some apps like gallery - <a href="https://github.com/owncloud/core/issue/23620">core/#23620</a></li>
-<li>Sharing: Fix issue where videos did not play from share links with PHP 7 - <a href="https://github.com/owncloud/core/issue/25483">core/#25483</a></li>
-<li>Encryption: OCC command for decryption now doesn't decrypt received shares - <a href="https://github.com/owncloud/core/issue/25599">core/#25599</a></li>
-<li>Files_external: Removed reference magic to avoid potential infinite loops - <a href="https://github.com/owncloud/core/issue/25844">core/#25844</a></li>
-<li>Files_external: Added conditional trace logging for debugging SMB on production systems - <a href="https://github.com/owncloud/core/issue/25758">core/#25758</a></li>
-<li>Files_external: Fix config database issue when using Oracle - <a href="https://github.com/owncloud/core/issue/25764">core/#25764</a></li>
-<li>Files_external: SMB subfolders with read-only attribute are now writeable in OC to match spec - <a href="https://github.com/owncloud/core/issue/24608">core/#24608</a></li>
-<li>Files_external: Fix "save in session" mode when using Webdav without cookies/session - <a href="https://github.com/owncloud/core/issue/25511">core/#25511</a></li>
-<li>Files_external: Respect theme for external folder icon - <a href="https://github.com/owncloud/core/issue/25461">core/#25461</a></li>
-<li>Files_external: Some SMB fixes and better debug logging - <a href="https://github.com/owncloud/core/issue/25817">core/#25817</a></li>
-<li>Files_trashbin: Add occ command to trigger trashbin retention expiration - <a href="https://github.com/owncloud/core/issue/25878">core/#25878</a></li>
-<li>Files_versions: Add occ command to trigger versions retention expiration - <a href="https://github.com/owncloud/core/issue/25878">core/#25878</a></li>
-<li>LDAP: Fix login issue when dealing with display name of deleted users - <a href="https://github.com/owncloud/core/issue/23248">core/#23248</a></li>
-<li>LDAP: Fix login and logging issue with big avatars by reducing their size - <a href="https://github.com/owncloud/core/issue/25857">core/#25857</a></li>
-<li>LDAP: Prevent triggering email change events at login time for unchanged email - <a href="https://github.com/owncloud/core/issue/25553">core/#25553</a></li>
-<li>LDAP: Hide LDAP admin password in wizard - <a href="https://github.com/owncloud/core/issue/25702">core/#25702</a></li>
-<li>Provisioning API: Fixed issue where subadmins could not change group memberships - <a href="https://github.com/owncloud/core/issue/25496">core/#25496</a></li>
-<li>Activity: Fix owner name processing for received federated shares - <a href="https://github.com/owncloud/core/issue/24938">core/#24938</a></li>
-<li>Updater: Fix web update issue with filesystem apps - <a href="https://github.com/owncloud/updater/issue/371">updater/#371</a></li>
+<li>Core: Remove OCS response body for HTTP status 204 and 304 which disturbed some firewalls - <a href="https://github.com/owncloud/core/issues/25835">core/#25835</a></li>
+<li>Core: Sanitize more data in config report - <a href="https://github.com/owncloud/core/issues/23728">core/#23728</a></li>
+<li>Core: Map Oracle driver options to params - <a href="https://github.com/owncloud/core/issues/23938">core/#23938</a></li>
+<li>Core: Log cron job class name for easier troubleshooting - <a href="https://github.com/owncloud/core/issues/25743">core/#25743</a></li>
+<li>Core: Skip version and trash expiry for users that never logged in - <a href="https://github.com/owncloud/core/issues/25741">core/#25741</a></li>
+<li>Core: Added white download icons for apps to use - <a href="https://github.com/owncloud/core/issues/23891">core/#23891</a></li>
+<li>Core: Reconnect DB in occ files:scan to avoid DB timeouts - <a href="https://github.com/owncloud/core/issues/25853">core/#25853</a></li>
+<li>Core: Fix status.php page redirection with non-standard port - <a href="https://github.com/owncloud/core/issues/25946">core/#25946</a></li>
+<li>Core: Improve users page loading performance with many groups - <a href="https://github.com/owncloud/core/issues/25922">core/#25922</a></li>
+<li>DAV: Added quota plugin to new DAV files endpoint - <a href="https://github.com/owncloud/core/issues/25646">core/#25646</a></li>
+<li>Sharing: Group received shares which have same source and target - <a href="https://github.com/owncloud/core/issues/25113">core/#25113</a></li>
+<li>Sharing: Fix public upload issue with quota in some scenarios - <a href="https://github.com/owncloud/core/issues/24751">core/#24751</a></li>
+<li>Sharing: Fix sharing over API when dealing with trailing slashes - <a href="https://github.com/owncloud/core/issues/25464">core/#25464</a></li>
+<li>Sharing: Fix path sent by shared storage hooks, could affect some apps like gallery - <a href="https://github.com/owncloud/core/issues/23620">core/#23620</a></li>
+<li>Sharing: Fix issue where videos did not play from share links with PHP 7 - <a href="https://github.com/owncloud/core/issues/25483">core/#25483</a></li>
+<li>Encryption: OCC command for decryption now doesn't decrypt received shares - <a href="https://github.com/owncloud/core/issues/25599">core/#25599</a></li>
+<li>Files_external: Removed reference magic to avoid potential infinite loops - <a href="https://github.com/owncloud/core/issues/25844">core/#25844</a></li>
+<li>Files_external: Added conditional trace logging for debugging SMB on production systems - <a href="https://github.com/owncloud/core/issues/25758">core/#25758</a></li>
+<li>Files_external: Fix config database issue when using Oracle - <a href="https://github.com/owncloud/core/issues/25764">core/#25764</a></li>
+<li>Files_external: SMB subfolders with read-only attribute are now writeable in OC to match spec - <a href="https://github.com/owncloud/core/issues/24608">core/#24608</a></li>
+<li>Files_external: Fix "save in session" mode when using Webdav without cookies/session - <a href="https://github.com/owncloud/core/issues/25511">core/#25511</a></li>
+<li>Files_external: Respect theme for external folder icon - <a href="https://github.com/owncloud/core/issues/25461">core/#25461</a></li>
+<li>Files_external: Some SMB fixes and better debug logging - <a href="https://github.com/owncloud/core/issues/25817">core/#25817</a></li>
+<li>Files_trashbin: Add occ command to trigger trashbin retention expiration - <a href="https://github.com/owncloud/core/issues/25878">core/#25878</a></li>
+<li>Files_versions: Add occ command to trigger versions retention expiration - <a href="https://github.com/owncloud/core/issues/25878">core/#25878</a></li>
+<li>LDAP: Fix login issue when dealing with display name of deleted users - <a href="https://github.com/owncloud/core/issues/23248">core/#23248</a></li>
+<li>LDAP: Fix login and logging issue with big avatars by reducing their size - <a href="https://github.com/owncloud/core/issues/25857">core/#25857</a></li>
+<li>LDAP: Prevent triggering email change events at login time for unchanged email - <a href="https://github.com/owncloud/core/issues/25553">core/#25553</a></li>
+<li>LDAP: Hide LDAP admin password in wizard - <a href="https://github.com/owncloud/core/issues/25702">core/#25702</a></li>
+<li>Provisioning API: Fixed issue where subadmins could not change group memberships - <a href="https://github.com/owncloud/core/issues/25496">core/#25496</a></li>
+<li>Activity: Fix owner name processing for received federated shares - <a href="https://github.com/owncloud/core/issues/24938">core/#24938</a></li>
+<li>Updater: Fix web update issue with filesystem apps - <a href="https://github.com/owncloud/updater/issues/371">updater/#371</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.0.5.tar.bz2">owncloud-9.0.5.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.5.zip">owncloud-9.0.5.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.5.tar.bz2.md5">owncloud-9.0.5.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.5.zip.md5">owncloud-9.0.5.zip.md5</a></br>
@@ -126,12 +126,12 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <a name="latest8.2"></a></li>
 <h3>Version 8.2.8 <small>Sep 20 2016</small></h3></li>
 <ul>
-<li>Core: Sanitize more data in config report - <a href="https://github.com/owncloud/core/issue/23728">core/#23728</a></li>
-<li>Core: Reconnect DB in occ files:scan to avoid DB timeouts - <a href="https://github.com/owncloud/core/issue/25853">core/#25853</a></li>
-<li>Files_trashbin: Add occ command to trigger trashbin retention expiration - <a href="https://github.com/owncloud/core/issue/25878">core/#25878</a></li>
-<li>Sharing: Fix path sent by shared storage hooks, could affect some apps like gallery - <a href="https://github.com/owncloud/core/issue/23620">core/#23620</a></li>
-<li>LDAP: Fix user cleanup tool deletion detection accuracy - <a href="https://github.com/owncloud/core/issue/25338">core/#25338</a></li>
-<li>Updater: Fix "unable to extract package Array" - <a href="https://github.com/owncloud/updater/issue/134">updater/#134</a></li>
+<li>Core: Sanitize more data in config report - <a href="https://github.com/owncloud/core/issues/23728">core/#23728</a></li>
+<li>Core: Reconnect DB in occ files:scan to avoid DB timeouts - <a href="https://github.com/owncloud/core/issues/25853">core/#25853</a></li>
+<li>Files_trashbin: Add occ command to trigger trashbin retention expiration - <a href="https://github.com/owncloud/core/issues/25878">core/#25878</a></li>
+<li>Sharing: Fix path sent by shared storage hooks, could affect some apps like gallery - <a href="https://github.com/owncloud/core/issues/23620">core/#23620</a></li>
+<li>LDAP: Fix user cleanup tool deletion detection accuracy - <a href="https://github.com/owncloud/core/issues/25338">core/#25338</a></li>
+<li>Updater: Fix "unable to extract package Array" - <a href="https://github.com/owncloud/updater/issues/134">updater/#134</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.2.8.tar.bz2">owncloud-8.2.8.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.8.zip">owncloud-8.2.8.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.8.tar.bz2.md5">owncloud-8.2.8.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.8.zip.md5">owncloud-8.2.8.zip.md5</a></br>
@@ -142,9 +142,9 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <a name="latest8.1"></a></li>
 <h3>Version 8.1.10 <small>Sep 20 2016</small></h3></li>
 <ul>
-<li>LDAP: Fix user cleanup tool deletion detection accuracy - <a href="https://github.com/owncloud/core/issue/25338">core/#25338</a></li>
-<li>Updater: Properly copy ca-bundle.crt when updating to 8.1.x - <a href="https://github.com/owncloud/updater/issue/164">updater/#164</a></li>
-<li>Updater: Fix "unable to extract package Array" - <a href="https://github.com/owncloud/updater/issue/134">updater/#134</a></li>
+<li>LDAP: Fix user cleanup tool deletion detection accuracy - <a href="https://github.com/owncloud/core/issues/25338">core/#25338</a></li>
+<li>Updater: Properly copy ca-bundle.crt when updating to 8.1.x - <a href="https://github.com/owncloud/updater/issues/164">updater/#164</a></li>
+<li>Updater: Fix "unable to extract package Array" - <a href="https://github.com/owncloud/updater/issues/134">updater/#134</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.1.10.tar.bz2">owncloud-8.1.10.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.10.zip">owncloud-8.1.10.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.10.tar.bz2.md5">owncloud-8.1.10.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.10.zip.md5">owncloud-8.1.10.zip.md5</a></br>
@@ -155,8 +155,8 @@ Packages on the openSUSE Build Service: <a href="http://software.opensuse.org/do
 <a name="latest8.0"></a></li>
 <h3>Version 8.0.15 <small>Sep 20 2016</small></h3></li>
 <ul>
-<li>Updater: Properly copy ca-bundle.crt when updating to 8.1.x - <a href="https://github.com/owncloud/updater/issue/164">updater/#164</a></li>
-<li>Updater: Fix "unable to extract package Array" - <a href="https://github.com/owncloud/updater/issue/134">updater/#134</a></li>
+<li>Updater: Properly copy ca-bundle.crt when updating to 8.1.x - <a href="https://github.com/owncloud/updater/issues/164">updater/#164</a></li>
+<li>Updater: Fix "unable to extract package Array" - <a href="https://github.com/owncloud/updater/issues/134">updater/#134</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.15.tar.bz2">owncloud-8.0.15.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.15.zip">owncloud-8.0.15.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.15.tar.bz2.md5">owncloud-8.0.15.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.15.zip.md5">owncloud-8.0.15.zip.md5</a></br>
