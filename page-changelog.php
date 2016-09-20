@@ -116,8 +116,6 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>Provisioning API: Fixed issue where subadmins could not change group memberships - <a href="https://github.com/owncloud/core/issue/25496">core/#25496</a></li>
 <li>Activity: Fix owner name processing for received federated shares - <a href="https://github.com/owncloud/core/issue/24938">core/#24938</a></li>
 <li>Updater: Fix web update issue with filesystem apps - <a href="https://github.com/owncloud/updater/issue/371">updater/#371</a></li>
-<li>Password Policy: Properly adjust expiration date when toggling password - password_<a href="https://github.com/owncloud/policy/issue/56">policy/#56</a></li>
-<li>Firewall: Properly block upload of archive files - <a href="https://github.com/owncloud/firewall/issue/247">firewall/#247</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.0.5.tar.bz2">owncloud-9.0.5.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.5.zip">owncloud-9.0.5.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.5.tar.bz2.md5">owncloud-9.0.5.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.5.zip.md5">owncloud-9.0.5.zip.md5</a></br>
