@@ -1,4 +1,4 @@
-<!-- Choose ownCloud Server or Enterprise -->
+<!-- Choose the ownCloud Version – Server or Enterprise -->
 <div class="installers">
       <div id="instructions-server" class="container row PopupGetStarted branch">
           <div class="instructions">
