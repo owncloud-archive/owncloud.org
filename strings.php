@@ -15,7 +15,7 @@ $DOCUMENTATION_DEVELOPER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR
 $DOCUMENTATION_ADMIN = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'/admin_manual/';
 $DOCUMENTATION_USER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'/user_manual/';
 $DOCUMENTATION_CLIENT_DESKTOP = $DOCUMENTATION_BASE.'/desktop/'.$VERSIONS_CLIENT_DESKTOP_STABLE_SHORT;
-$VERSIONS_VM = '9.1.0-1.1-201608261246';
+$VERSIONS_VM = '9.1.0-1.1-201609161544';
 $VM_UBUNTU_RELEASE = '14.04';
 
 /* DOWNLOADS */
@@ -62,9 +62,9 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.owncloud.org/download/reposi
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.owncloud.org/download/repositories/testing/owncloud';
-$SERVER_TESTING_VERSION ='9.1.0 RC4';
-$DOWNLOAD_SERVER_TAR_TESTING ='http://download.owncloud.org/community/testing/owncloud-9.1.0RC4.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='http://download.owncloud.org/community/testing/owncloud-9.1.0RC4.zip';
+$SERVER_TESTING_VERSION ='9.1.1 RC3';
+$DOWNLOAD_SERVER_TAR_TESTING ='http://download.owncloud.org/community/testing/owncloud-9.1.1RC3.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='http://download.owncloud.org/community/testing/owncloud-9.1.1RC3.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
