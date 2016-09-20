@@ -1,6 +1,36 @@
+<!-- Choose the ownCloud Version – Server or Enterprise -->
+<div class="installers">
+      <div id="instructions-server" class="container row PopupGetStarted branch">
+          <div class="instructions">
+                <div class="overlay-body row">
+										<a href="#" class="close">&times;</a>
+										<div class="col-xs-offset-1 col-xs-10">
+											<h2>Please choose your ownCloud download type</h2>
+											<div class="row row-eq-height">
+												<div class="col-sm-6 community">
+													<div class="button-area">
+														<p><strong>Get the ownCloud Server</strong><br /><span>Setup an ownCloud instance yourself with the free ownCloud Server</span></p>
+														<a href="#edition" class="button blue primary">Download ownCloud Server</a>
+													</div>
+												</div>
+												<div class="col-sm-6 enterprise">
+													<div class="button-area">
+														<p><strong>Try ownCloud Enterprise Edition free for 30 days</strong><br /><span>Get started in no time providing a complete ownCloud environment, fully setup and ready to go!</span></p>
+														<a href="https://owncloud.com/download/?ref=orgB" target="_blank" class="button orange primary">Download Enterprise Edition</a>
+													</div>
+												</div>
+											</div>
+										</div>
+								</div>
+					</div>
+	  	</div>
+
+   <a href="#" class="mask"></a><!--  Mask instructions server -->
+</div>
+
 <div class="installers">
 
-	<div id="instructions-server" class="container row PopupGetStarted">
+	<div id="edition" class="container row PopupGetStarted">
 		<div class="instructions">
 			<div class="row">
 				<a href="#" class="close">&times;</a>
@@ -42,7 +72,7 @@
 							<a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>" class="button blue primary">Download ownCloud Server</a>
 							<p class="text-center archive-types">.zip (38,8 MB) | <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">Download tar.bz2 (27,7 MB)</a></p>
 							<p class="mt30">Want to use ownCloud for your Company?</p>
-							<a href="https://owncloud.com/download/?ref=orgA" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
+							<a href="https://owncloud.com/download/?ref=orgB" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
 							<hr />
 							<div class="download-notes">
 								<p>Looking for <a href="/changelog">older versions or major releases</a>?</p>
@@ -85,7 +115,7 @@
 							<h4><strong><a class="changelog" href="/changelog">See what's new (Changelog)</a></strong></h4>
 							<a href="https://download.owncloud.com/download/community/setup-owncloud.php" class="button blue primary">Download ownCloud Web Installer</a>
 							<p class="mt30">Want to use ownCloud for your Company?</p>
-							<a href="https://owncloud.com/download/?ref=orgA" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
+							<a href="https://owncloud.com/download/?ref=orgB" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
 							<hr />
 							<div class="download-notes">
 								<p>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using the <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</p>
@@ -120,7 +150,7 @@
 								<h4><strong><a class="changelog" href="/changelog">See what's new (Changelog)</a></strong></h4>
 								<a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>" class="button blue primary">Continue to the Packages</a>
 								<p class="mt30">Want to use ownCloud for your Company?</p>
-								<a href="https://owncloud.com/download/?ref=orgA" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
+								<a href="https://owncloud.com/download/?ref=orgB" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
 								<hr />
 								<div class="download-notes">
 									<p>Looking for repositories of <a href="/changelog">previous major releases</a>?</p>
@@ -211,7 +241,7 @@
 									<a href="<?php echo $DOWNLOAD_VM_VMX; ?>" class="button blue secondary">VMX</a>
 									<div class="clear"></div>
 									<p class="mt15">Want to use ownCloud for your Company?</p>
-									<a href="https://owncloud.com/download/?ref=orgA" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
+									<a href="https://owncloud.com/download/?ref=orgB" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
 									<hr />
 									<div class="download-notes">
 										<p><strong>NOTE</strong>: the appliances have been updated to the <a href="https://owncloud.org/blog/owncloud-server-9-0-released/">freshly released ownCloud 9.0</a> but have only gone through absolutely minimal testing. It is recommended to not use these for important data yet - giving them a trial run however and giving us feedback is greatly appreciated!</p>
