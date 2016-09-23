@@ -9,7 +9,7 @@
 		<p>The ownCloud community organizes and participates in many events around the globe. Interested in meeting fellow ownCloud users and contributors? Look for an 
 			event that happens close to you or organize one!</p>
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup_small.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
-		<h2>Meetups</h2>
+		<!--<h2>Meetups</h2>
 		<p>ownCloud community members all around the globe get together in meetups to learn, share ideas and work on 
 			ownCloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below is a list of local meetup groups.</p>
 		<script type="text/javascript" src="https://www.meetup.com/embed/largest/owncloud/"></script>
@@ -18,10 +18,10 @@
 			<p><a target="_blank" href="https://owncloud.meetup.com/" class="btn btn-lg btn-default">
 			<i class="icon-group"></i> Join a Meetup!</a>
 			<a target="_blank" href="/events/meetups" class="btn btn-lg btn-default">
-			<i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>
+			<i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>-->
 <!-- 			<p><a target="_blank" href="/conf/" class="btn btn-lg btn-primary"> -->
 <!-- 			<i class="icon-code"></i> ownCloud Contributor Conference!</a></p> -->
-		</div>
+		<!--</div>-->
 <!--<div class="wrap container pad-bottom">
 	<div class="row">
 		<div class="col-md-12 text-center">
