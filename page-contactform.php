@@ -2,8 +2,9 @@
   <h1><a href="/events">Events</a> > Contact</h1>
 </div>
 <div class="sub-nav">
-  <a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
-  |&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a>
+  <!-- a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
+  |&nbsp;&nbsp; -->
+<a href="/events/conference-program">Conference Program</a>
   |&nbsp;&nbsp;Contact
 </div></br>
 
