@@ -1,7 +1,8 @@
 <?php get_template_part('templates/parts/title'); ?>
 <div class="sub-nav">
-	<a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
-	|&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a>
+	<!-- a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
+	|&nbsp;&nbsp; -->
+	<a href="/events/conference-program">Conference Program</a>
 	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
 </div>
 <div class="row">
@@ -9,7 +10,7 @@
 		<p>The ownCloud community organizes and participates in many events around the globe. Interested in meeting fellow ownCloud users and contributors? Look for an 
 			event that happens close to you or organize one!</p>
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup_small.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
-		<h2>Meetups</h2>
+		<!--<h2>Meetups</h2>
 		<p>ownCloud community members all around the globe get together in meetups to learn, share ideas and work on 
 			ownCloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below is a list of local meetup groups.</p>
 		<script type="text/javascript" src="https://www.meetup.com/embed/largest/owncloud/"></script>
@@ -18,10 +19,10 @@
 			<p><a target="_blank" href="https://owncloud.meetup.com/" class="btn btn-lg btn-default">
 			<i class="icon-group"></i> Join a Meetup!</a>
 			<a target="_blank" href="/events/meetups" class="btn btn-lg btn-default">
-			<i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>
+			<i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>-->
 <!-- 			<p><a target="_blank" href="/conf/" class="btn btn-lg btn-primary"> -->
 <!-- 			<i class="icon-code"></i> ownCloud Contributor Conference!</a></p> -->
-		</div>
+		<!--</div>-->
 <!--<div class="wrap container pad-bottom">
 	<div class="row">
 		<div class="col-md-12 text-center">
@@ -56,14 +57,14 @@
 				<td>ownCloud Contributor Conference 2016</td>
 				<td>Berlin, Germany</td>
 				<td>September 9-15</td>
-				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
+				<td><a target="_blank" href="https://central.owncloud.org/users/kawohl">John</a></td>
 				<td><a target="_blank" href="/conf">website</a></td>
 			</tr>
 			<tr>
 				<td>ownCloud Hackathon at openSUSE Conference 2016</td>
 				<td>Nuremberg, Germany</td>
 				<td>June 22-23</td>
-				<td><a target="_blank" href="http://blog.jospoortvliet.com">Jos</a></td>
+				<td><a target="_blank" href="https://central.owncloud.org/users/kawohl">John</a></td>
 				<td><a target="_blank" href="https://events.opensuse.org/conference/oSC16">website</a>, <a href="/hackathon">our info page</a></td>
 			</tr>
 			<tr>

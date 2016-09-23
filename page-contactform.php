@@ -2,8 +2,9 @@
   <h1><a href="/events">Events</a> > Contact</h1>
 </div>
 <div class="sub-nav">
-  <a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
-  |&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a>
+  <!-- a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
+  |&nbsp;&nbsp; -->
+<a href="/events/conference-program">Conference Program</a>
   |&nbsp;&nbsp;Contact
 </div></br>
 
@@ -20,7 +21,7 @@
 	<a href="https://owncloud.com/resources/">enterprise resources page</a> on owncloud.com.
 </p>
 <br/>
-<h2>Contact form</h2>
-<script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
-<script> hbspt.forms.create({ portalId: '328096', formId: '611ecd05-87a5-4df6-b668-43a09e74cdd8' }); </script>
+<h2><a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Contact form</a></h2>
+<!-- script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
+<script> hbspt.forms.create({ portalId: '328096', formId: '611ecd05-87a5-4df6-b668-43a09e74cdd8' }); </script -->
 
