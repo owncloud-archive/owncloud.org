@@ -1,7 +1,8 @@
 <?php get_template_part('templates/parts/title'); ?>
 <div class="sub-nav">
-	<a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
-	|&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a>
+	<!-- a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
+	|&nbsp;&nbsp; -->
+	<a href="/events/conference-program">Conference Program</a>
 	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
 </div>
 <div class="row">
