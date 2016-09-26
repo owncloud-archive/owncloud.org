@@ -1,0 +1,8 @@
+{
+  "userBlacklist": [
+    "owncloud-bot",
+    "scrutinizer-auto-fixer",
+    "owncloud-news-gitter-bot",
+    "jospoortvliet",
+  ]
+}
