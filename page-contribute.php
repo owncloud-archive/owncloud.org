@@ -44,7 +44,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
             <h3><i class="icon-refresh"></i>&nbsp;&nbsp;Test ownCloud</h3>
             <p>Testing upcoming ownCloud Server releases is the best way of making sure the new release can do what you need it 
             to do. And of course, only if you report a problem to us we know about it and can fix it! If you have a bug to report,
-            find the <a href="https://github.com/owncloud/core/blob/master/CONTRIBUTING.md">issue submission guidelines here</a>.</p>
+            find the <a href="https://github.com/owncloud/core/blob/master/.github/CONTRIBUTING.md">issue submission guidelines here</a>.</p>
             <p>Anybody interested in helping out with ownCloud Server testing is invited to join the ownCloud Test Pilot team.
             See <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing">the Test Pilot documentation</a> for information!.</p>
 	</div>
