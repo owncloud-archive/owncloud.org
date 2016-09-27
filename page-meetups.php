@@ -39,7 +39,7 @@
 		<p>Now you have a place and some participants, but what to do? It is easiest to separate two kinds of Meetups: the one where (potential) ownCloud 
 			contributors come together; and one where users meet up.</p>
 		<p><strong>Development Meetups</strong> need very little: room, wifi, people with laptops. Keep it simple: ownClouders will get along just fine. Open by doing
-			a round of introductions, ask everybody to share what they would like to do. You can use one or more of our <a href="http://github.com/owncloud/promo">ready-made workshop presentations to get started</a> but if everybody just wants to get hacking: that's great!</p>
+			a round of introductions, ask everybody to share what they would like to do. You can use one or more of our <a href="https://github.com/owncloud/promo">ready-made workshop presentations to get started</a> but if everybody just wants to get hacking: that's great!</p>
 
 		<p>Of course, every now and then you could get an interesting speaker to discuss some Cloudy subject.</p>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup2.jpg" style="width: 400px" title="pic by Raghu Nayar" alt="pic by Raghu Nayar" class="img-thumbnail alignright">

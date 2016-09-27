@@ -924,11 +924,11 @@ Packages on the openSUSE Build Service: <a href="http://software.opensuse.org/do
 
 <h3>Version 8.0.11 <small>March 8 2016</small></h3>
 <ul>
-	<li>Prevent 0 byte downloads when storage returns false - <a href="http://github.com/owncloud/core/issues/19081">github issue</a></li>
-	<li>Keep scroll position in user's page when sorting - <a href="http://github.com/owncloud/core/issues/21634">github issue</a></li>
-	<li>Always use an LDAP URL when connecting to LDAP - <a href="http://github.com/owncloud/core/issues/21634">github issue</a></li>
-	<li>Shares moving back to default "landing" dir - <a href="http://github.com/owncloud/core/issues/12385">github issue</a></li>
-	<li>PHPMailer address validation fix - <a href="http://github.com/owncloud/3rdparty/issues/253">github issue</a></li>
+	<li>Prevent 0 byte downloads when storage returns false - <a href="https://github.com/owncloud/core/issues/19081">github issue</a></li>
+	<li>Keep scroll position in user's page when sorting - <a href="https://github.com/owncloud/core/issues/21634">github issue</a></li>
+	<li>Always use an LDAP URL when connecting to LDAP - <a href="https://github.com/owncloud/core/issues/21634">github issue</a></li>
+	<li>Shares moving back to default "landing" dir - <a href="https://github.com/owncloud/core/issues/12385">github issue</a></li>
+	<li>PHPMailer address validation fix - <a href="https://github.com/owncloud/3rdparty/issues/253">github issue</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2">owncloud-8.0.11.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip">owncloud-8.0.11.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.11.tar.bz2.md5">owncloud-8.0.11.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.11.zip.md5">owncloud-8.0.11.zip.md5</a></br>
@@ -938,7 +938,7 @@ Packages on the openSUSE Build Service: <a href="http://software.opensuse.org/do
 
 <h3>Version 7.0.13 <small>March 8 2016</small></h3>
 <ul>
-<li>PHPMailer address validation - <a href="http://github.com/owncloud/3rdparty/issues/253">github issue</a></li>
+<li>PHPMailer address validation - <a href="https://github.com/owncloud/3rdparty/issues/253">github issue</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2">owncloud-7.0.13.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip">owncloud-7.0.13.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.13.tar.bz2.md5">owncloud-7.0.13.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.13.zip.md5">owncloud-7.0.13.zip.md5</a></br>

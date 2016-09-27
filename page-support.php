@@ -38,7 +38,7 @@
 	    <li><a href="irc://#owncloud@freenode.net" target="_blank">the ownCloud IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=owncloud" target="_blank">webchat</a></li>
 	    <li>You can ask over our social media, including in the <a href="https://plus.google.com/communities/101550101068949663712" target="_blank">ownCloud Google Plus community</a>, the <a href="https://www.facebook.com/ownClouders" target="_blank">Facebook page</a> or on <a href="https://twitter.com/search?q=%23owncloud&src=typd" target="_blank">Twitter</a></li>
 	    <li>Check out our documentation wiki page for <a href="https://github.com/owncloud/documentation/wiki">edge cases and rare issues</a></li>
-	    <li>Finally, you could report a issue at our <a href="https://github.com/owncloud/core/blob/master/CONTRIBUTING.md#submitting-issues" target="_blank">bug trackers</a> if you think you found a bug in ownCloud itself</li>
+	    <li>Finally, you could report a issue at our <a href="https://github.com/owncloud/core/blob/master/.github/CONTRIBUTING.md#submitting-issues" target="_blank">bug trackers</a> if you think you found a bug in ownCloud itself</li>
 	</ul>
 	<p>Please understand that all these channels essentially consist of users like you helping each other out. Consider helping others out where you can, to contribute back for the help you get. This is the only way to keep a community like ownCloud healthy and sustainable!</p>
       </td>

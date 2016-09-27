@@ -1,6 +1,23 @@
 <div class="page-header">
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
+
+<h3 id="224">Release 2.2.4 <small>September 27th 2016</small></h3>
+<ul>
+<li>Dolphin Plugin: Use the Application name for the socket path (<a href="https://github.com/owncloud/client/issues/5172">#5172</a>)</li>
+<li>SyncEngine: Fix renaming of folder when file are changed (<a href="https://github.com/owncloud/client/issues/5195">#5195</a>)</li>
+<li>Selective Sync: Fix HTTP request loop and show error in view (<a href="https://github.com/owncloud/client/issues/5154">#5154</a>)</li>
+<li>ConnectionValidator: properly handle error in status.php request (<a href="https://github.com/owncloud/client/issues/5188">#5188</a>)</li>
+<li>Discovery: Set thread priority to low (<a href="https://github.com/owncloud/client/issues/5017">#5017</a>)</li>
+<li>ExcludeFiles: Fix when the folder casing is not the same in the settings and in the FS</li>
+<li>ShareLink: Ensure the password line edit is enabled (<a href="https://github.com/owncloud/client/issues/5117">#5117</a>)</li>
+</ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.4.6408-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.4.3709.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.4.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.2.4.tar.xz.asc">PGP signature</a>)
+
 <h3 id="223">Release 2.2.3 <small>August 8th 2016</small></h3>
 <ul>
 <li>SyncEngine: Fix detection of backup (<a href="https://github.com/owncloud/client/issues/5104">#5104</a>)</li>
@@ -25,8 +42,9 @@
 Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.3.6307-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.3.3601.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.2.3.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.2.3.tar.xz.asc">PGP signature</a>)
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.3.tar.xz">Sources</a>
+(<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.3.tar.xz.asc">PGP signature</a>)
 
 <h3 id="222">Release 2.2.2 <small>June 21st 2016</small></h3>
 <ul>

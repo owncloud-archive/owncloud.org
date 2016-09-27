@@ -18,7 +18,7 @@
 <p>We acknowledge and support your right to make <em>"fair use"</em> of the ownCloud Marks, and do not mean to suggest with these guidelines that our permission is required in such cases. We cannot, however, tell you categorically what will and will not qualify as a "fair use."</p>
 
 <h3>Applying our Logo</h3>
-<p>For copies of the ownCloud logo itself, please refer to the <a href="http://github.com/owncloud/promo" target="_blank">promo GitHub page</a>. There you find also additional guidance about modifications you should avoid and how to integrate the logo in artwork or a website.</p>
+<p>For copies of the ownCloud logo itself, please refer to the <a href="https://github.com/owncloud/promo" target="_blank">promo GitHub page</a>. There you find also additional guidance about modifications you should avoid and how to integrate the logo in artwork or a website.</p>
 
 <h3>Logo Usage Requirements</h3>
 <p>Do not alter the logo in any way or overlap it with additional logos or images.</p>
