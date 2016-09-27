@@ -331,7 +331,7 @@
 		  <div class="col-md-6">
 		    <a name="testing"></a>
 		    <p>Our server is in constant development and help is always needed in testing the latest bugfixes and features. Please report any issues to the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/bugtracker/" target="_blank">tracker</a>.</p>
-		    <h4>ownCloud Server <small>Daily build</small></h4>
+		    <h2>ownCloud Server <small>Daily build</small></h2>
 		    <div class="btn-group">
 		      <a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  Archive File</a>
 		      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>
