@@ -266,7 +266,8 @@
 			<div class="row">
 				<a href="#" class="close">&times;</a>
 				<ul class="nav nav-tabs" role="tablist">
-					<li id="li-tab-desktop" class="active"><a href="#tab-desktop" class="btn btn-lg" title="Install Desktop Clients" role="tab" data-toggle="tab"><i class="icon-archive"></i> Install Desktop Clients</a></li>
+					<li id="li-tab-
+                  " class="active"><a href="#tab-desktop" class="btn btn-lg" title="Install Desktop Clients" role="tab" data-toggle="tab"><i class="icon-archive"></i> Install Desktop Clients</a></li>
 					<li id="li-tab-mobile"><a href="#tab-mobile" class="btn btn-lg" title="Install Mobile Apps" role="tab" data-toggle="tab"><i class="icon-code"></i> Install Mobile Apps</a></li>
 				</ul>
 			</div>
@@ -364,7 +365,7 @@
 	 		    <p>Our desktop team provides regular nightly builds. Please report any issues to the <a href="https://github.com/owncloud/client/issues" target="_blank">tracker</a>.</p>
 			    <div class="btn-group">
 			      <a href="http://download.owncloud.com/desktop/daily/" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows</a>
-			      <a href="http://download.owncloud.com/desktop/daily/>" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac</a>
+			      <a href="http://download.owncloud.com/desktop/daily/" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac</a>
 			      <a href="https://software.opensuse.org/download.html?project=isv%3AownCloud%3Acommunity%3Anightly&package=owncloud-client" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux</a>
 			      <a href="https://github.com/owncloud/client" class="btn btn-lg btn-default"><i class="icon-archive"></i> Sources</a>
 			    </div>
