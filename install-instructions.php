@@ -102,7 +102,7 @@
 							<ol class="install-steps">
 								<li><a href="https://download.owncloud.com/download/community/setup-owncloud.php">Download</a> and save the file to your computer</li>
 								<li>Upload <tt>setup-owncloud.php</tt> to your web space</li>
-								<li>Point your web browser to <tt>etup-owncloud.php</tt> on your webspace</li>
+								<li>Point your web browser to <tt>setup-owncloud.php</tt> on your webspace</li>
 								<li>Follow the instructions and configure ownCloud</li>
 								<li>Login to your newly created ownCloud instance!</li>
 							</ol>
