@@ -1,20 +1,6 @@
 {
    "providers":[
       {
-         "title":"arvixe.com",
-         "url":"http:\/\/www.arvixe.com\/owncloud_hosting?utm_campaign=Providers&utm_medium=showcase&utm_source=owncloud.com",
-         "freeurl":"http:\/\/www.arvixe.com\/owncloud-trial?utm_campaign=Free&utm_medium=showcase&utm_source=owncloud.com",
-         "flags":[
-            "gb"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers"
-         ],
-         "imagename":"arvixe.png",
-         "supported":true
-      },
-      {
          "title":"vboxx.nl",
          "url":"http:\/\/vboxx.nl\/",
          "flags":[
