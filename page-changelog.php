@@ -46,7 +46,7 @@ Go directly to the latest maintenance release of:
 <li>User_LDAP: Added OCC command to update group mappings - user_<a href="https://github.com/owncloud/ldap/issues/14">user_ldap/#14</a></li>
 <li>User_LDAP: Fix issue with "(2)" appearing on shares when refreshing users in some scenarios - <a href="https://github.com/owncloud/core/issues/25718">core/#25718</a></li>
 <li>User_external: Double verify the SMB response - <a href="https://github.com/owncloud/apps/issues/2198">apps/#2198</a></li>
-<li>Firstrunwizard: Only display it wizard when in files app - <a href="https://github.com/owncloud/firstrunwizard/issues/52">firstrunwizard/#52</a></li>
+<li>Firstrunwizard: Only display the wizard when in files app - <a href="https://github.com/owncloud/firstrunwizard/issues/52">firstrunwizard/#52</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.1.2.tar.bz2">owncloud-9.1.2.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.2.zip">owncloud-9.1.2.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.1.2.tar.bz2.md5">owncloud-9.1.2.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.2.zip.md5">owncloud-9.1.2.zip.md5</a></br>
