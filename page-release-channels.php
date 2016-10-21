@@ -28,8 +28,8 @@
 		    Production repositories are available for the following major versions:
 		    <a href="https://download.owncloud.org/download/repositories/9.0/owncloud/">9.0</a> (new since 9.0.1), 
 		    <a href="https://download.owncloud.org/download/repositories/8.2/owncloud/">8.2</a>, 
-		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1</a> and
-		    <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0</a>
+		    <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1</a> and
+		    <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0</a>
 		    <br>Register and activate one of these repositories with your package manager to get updates within the same major version<a href="#warning">*</a>
             </td>
     </tr>
@@ -58,7 +58,7 @@
         <p>If you are looking to grab an archive of a specific version or are looking for the version-specific Linux package repositories, you can find links to them in our <a href="/changelog">changelog</a>.</p>
         <p>Note that releases don't show up in the updater app right away. We usually stagger releases out to watch the impact and hold off in case very serious problems pop up. In practice, most bugfix releases are available within a week, major releases within a week for the Stable channel and a week after the first bugfix release (for example, 9.0.1) for the Production channel. Packages for the Stable channel are available close by or at the release date, Production also waits for the first minor update after a major release.</p>
         <p><strong>Security note:</strong></br>
-        To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
+        To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="https://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
         <a name="warning"></a>
         <p><strong>Warning:</strong></br>
         If you pick a <strong>specific Linux Package repository</strong> rather than following stable, you assume the responsibility for a timely upgrade to a new stable release once your current release is no longer supported. We support releases for a significant time, but not forever, and at some point you have to move to a newer version to continue to receive security and stability improvements.</br>
