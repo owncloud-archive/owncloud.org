@@ -43,7 +43,7 @@ Go directly to the latest maintenance release of:
 <li>CardDAV: Unset photo before setting a new one - <a href="https://github.com/owncloud/core/issues/26242">core/#26242</a></li>
 <li>CardDAV: Fix for birthday entries - <a href="https://github.com/owncloud/core/issues/25636">core/#25636</a></li>
 <li>Updater: Fix web UI update in some environments - <a href="https://github.com/owncloud/updater/issues/378">updater/#378</a></li>
-<li>User_LDAP: Added OCC command to update group mappings - user_<a href="https://github.com/owncloud/ldap/issues/14">user_ldap/#14</a></li>
+<li>User_LDAP: Added OCC command to update group mappings - <a href="https://github.com/owncloud/user_ldap/issues/14">user_ldap/#14</a></li>
 <li>User_LDAP: Fix issue with "(2)" appearing on shares when refreshing users in some scenarios - <a href="https://github.com/owncloud/core/issues/25718">core/#25718</a></li>
 <li>User_external: Double verify the SMB response - <a href="https://github.com/owncloud/apps/issues/2198">apps/#2198</a></li>
 <li>Firstrunwizard: Only display the wizard when in files app - <a href="https://github.com/owncloud/firstrunwizard/issues/52">firstrunwizard/#52</a></li>
@@ -71,9 +71,9 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>Federation: Save some memory in sync job by releasing mount info after each user - <a href="https://github.com/owncloud/core/issues/26204">core/#26204</a></li>
 <li>CardDAV: Unset photo before setting a new one - <a href="https://github.com/owncloud/core/issues/26242">core/#26242</a></li>
 <li>Updater: Fix web UI update in some environments - <a href="https://github.com/owncloud/updater/issues/378">updater/#378</a></li>
-<li>User_LDAP: Added OCC command to update group mappings - user_<a href="https://github.com/owncloud/ldap/issues/14">user_ldap/#14</a></li>
+<li>User_LDAP: Added OCC command to update group mappings - <a href="https://github.com/owncloud/user_ldap/issues/14">user_ldap/#14</a></li>
 <li>User_external: Double verify the SMB response - <a href="https://github.com/owncloud/apps/issues/2198">apps/#2198</a></li>
-<li>Antivirus: Fix background scan - files_<a href="https://github.com/owncloud/antivirus/issues/128">files_antivirus/#128</a></li>
+<li>Antivirus: Fix background scan - <a href="https://github.com/owncloud/files_antivirus/issues/128">files_antivirus/#128</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.0.6.tar.bz2">owncloud-9.0.6.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.6.zip">owncloud-9.0.6.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.6.tar.bz2.md5">owncloud-9.0.6.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.6.zip.md5">owncloud-9.0.6.zip.md5</a></br>
@@ -103,7 +103,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <h3>Version 8.1.11 <small>Oct 26 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
-<li>Updater: Fixed to properly use update server URL from config - <a href="https://github.com/owncloud/core/issues/381">core/#381</a></li>
+<li>Updater: Fixed to properly use update server URL from config - <a href="https://github.com/owncloud/updater/issues/381">updater/#381</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.1.11.tar.bz2">owncloud-8.1.11.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.11.zip">owncloud-8.1.11.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.11.tar.bz2.md5">owncloud-8.1.11.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.11.zip.md5">owncloud-8.1.11.zip.md5</a></br>
@@ -115,7 +115,7 @@ Packages on the openSUSE Build Service: <a href="http://software.opensuse.org/do
 <h3>Version 8.0.16 <small>Oct 26 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
-<li>Updater: Fixed to properly use update server URL from config - <a href="https://github.com/owncloud/core/issues/382">core/#382</a></li>
+<li>Updater: Fixed to properly use update server URL from config - <a href="https://github.com/owncloud/updater/issues/382">updater/#382</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.16.tar.bz2">owncloud-8.0.16.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.16.zip">owncloud-8.0.16.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.16.tar.bz2.md5">owncloud-8.0.16.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.16.zip.md5">owncloud-8.0.16.zip.md5</a></br>
@@ -182,8 +182,8 @@ Packages on the openSUSE Build Service: <a href="http://software.opensuse.org/do
 <li>Provisioning API: Added flag to enable/disable two-factor auth for users - <a href="https://github.com/owncloud/core/issues/25876">core/#25876</a></li>
 <li>Activity: Fix owner name processing for received federated shares - <a href="https://github.com/owncloud/core/issues/24938">core/#24938</a></li>
 <li>Updater: Fix web update issue with filesystem apps - <a href="https://github.com/owncloud/updater/issues/371">updater/#371</a></li>
-<li>Antivirus: Fix incorrect report of file size - files_<a href="https://github.com/owncloud/antivirus/issues/120">files_antivirus/#120</a></li>
-<li>Antivirus: Fix background scan - files_<a href="https://github.com/owncloud/antivirus/issues/109">files_antivirus/#109</a></li>
+<li>Antivirus: Fix incorrect report of file size - <a href="https://github.com/owncloud/files_antivirus/issues/120">files_antivirus/#120</a></li>
+<li>Antivirus: Fix background scan - <a href="https://github.com/owncloud/files_antivirus/issues/109">files_antivirus/#109</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.1.1.tar.bz2">owncloud-9.1.1.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.1.zip">owncloud-9.1.1.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.1.1.tar.bz2.md5">owncloud-9.1.1.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.1.zip.md5">owncloud-9.1.1.zip.md5</a></br>
