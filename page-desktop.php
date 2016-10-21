@@ -778,7 +778,7 @@ csync 0.90.2 required
 <ul>
 <li>Disable comparison of local inode values for the win32 platform, workaround for bug #779</li>
 <li>detect if server does not send an etag after an upload completed.</li>
-<li>fix crash in case of network timeout, reported as https://github.com/owncloud/mirall/issues/1010</li>
+<li>fix crash in case of network timeout, reported as https://github.com/owncloud/client/issues/1010</li>
 <li>compile and cmake fixes for win32</li>
 <li>fixed behaviour of csync_exclude</li>
 <li>documentation and spelling fixes.</li>
