@@ -31,10 +31,15 @@ Go directly to the latest maintenance release of:
 <li>Core: Enabling an app now also analyzes dependencies at this time instead of only at install - <a href="https://github.com/owncloud/core/issues/26295">core/#26295</a></li>
 <li>Core: Reuse cached app info to avoid high load on some environments - <a href="https://github.com/owncloud/core/issues/25603">core/#25603</a></li>
 <li>Core: Show warning instead of exception when trying to run ownCloud on Windows - <a href="https://github.com/owncloud/core/issues/26208">core/#26208</a></li>
+<li>Core: Fix misleading SSL/TLS SMTP email configuration - <a href="https://github.com/owncloud/core/issues/26447">core/#26447</a></li>
+<li>Core: Fix malformed attribute in files app page - <a href="https://github.com/owncloud/core/issues/26480">core/#26480</a></li>
 <li>DAV: Improve chunk assembly performance for new DAV endpoint - <a href="https://github.com/owncloud/core/issues/26062">core/#26062</a></li>
 <li>DAV: New chunking now returns Etag and OC-Etag on the final MOVE - <a href="https://github.com/owncloud/core/issues/25682">core/#25682</a></li>
+<li>DAV: Do not print exception messages in HTML - <a href="https://github.com/owncloud/core/issues/26460">core/#26460</a></li>
+<li>DAV: Sanitize length headers when validating quota - <a href="https://github.com/owncloud/core/issues/26366">core/#26366</a></li>
 <li>Files: Allow uploading empty files in the web UI - <a href="https://github.com/owncloud/core/issues/19116">core/#19116</a></li>
 <li>Files: Properly translate file summary in lists - <a href="https://github.com/owncloud/core/issues/26221">core/#26221</a></li>
+<li>Files: Exclude more invalid chars in path - <a href="https://github.com/owncloud/core/issues/26461">core/#26461</a></li>
 <li>Sharing: Let the share owner increase permissions - <a href="https://github.com/owncloud/core/issues/25542">core/#25542</a></li>
 <li>Federation: Fix sharing with remote user names containing spaces - <a href="https://github.com/owncloud/core/issues/25955">core/#25955</a></li>
 <li>Federation: Save some memory in sync job by releasing mount info after each user - <a href="https://github.com/owncloud/core/issues/26204">core/#26204</a></li>
@@ -42,11 +47,14 @@ Go directly to the latest maintenance release of:
 <li>CalDAV: Add Schedule and IMip plugins when receiving webdav v1 api calendar calls - <a href="https://github.com/owncloud/core/issues/23600">core/#23600</a></li>
 <li>CardDAV: Unset photo before setting a new one - <a href="https://github.com/owncloud/core/issues/26242">core/#26242</a></li>
 <li>CardDAV: Fix for birthday entries - <a href="https://github.com/owncloud/core/issues/25636">core/#25636</a></li>
+<li>CardDAV: Limit image export mime types - <a href="https://github.com/owncloud/core/issues/26459">core/#26459</a></li>
 <li>Updater: Fix web UI update in some environments - <a href="https://github.com/owncloud/updater/issues/378">updater/#378</a></li>
+<li>Updater: Retrigger integrity check after update - <a href="https://github.com/owncloud/updater/issues/405">updater/#405</a></li>
 <li>User_LDAP: Added OCC command to update group mappings - <a href="https://github.com/owncloud/user_ldap/issues/14">user_ldap/#14</a></li>
 <li>User_LDAP: Fix issue with "(2)" appearing on shares when refreshing users in some scenarios - <a href="https://github.com/owncloud/core/issues/25718">core/#25718</a></li>
 <li>User_external: Double verify the SMB response - <a href="https://github.com/owncloud/apps/issues/2198">apps/#2198</a></li>
 <li>Firstrunwizard: Only display the wizard when in files app - <a href="https://github.com/owncloud/firstrunwizard/issues/52">firstrunwizard/#52</a></li>
+<li>Gallery: Do not display technical error messages - <a href="https://github.com/owncloud/gallery/issues/707">gallery/#707</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.1.2.tar.bz2">owncloud-9.1.2.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.2.zip">owncloud-9.1.2.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.1.2.tar.bz2.md5">owncloud-9.1.2.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.2.zip.md5">owncloud-9.1.2.zip.md5</a></br>
@@ -65,15 +73,21 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>Core: Release mount info memory after running background jobs - <a href="https://github.com/owncloud/core/issues/26223">core/#26223</a></li>
 <li>Core: Improve users page performance by not sorting after every add - <a href="https://github.com/owncloud/core/issues/26234">core/#26234</a></li>
 <li>Core: Escape special chars in some queries - <a href="https://github.com/owncloud/core/issues/25429">core/#25429</a></li>
+<li>Core: Fix misleading SSL/TLS SMTP email configuration - <a href="https://github.com/owncloud/core/issues/26447">core/#26447</a></li>
+<li>DAV: Do not print exception messages in HTML - <a href="https://github.com/owncloud/core/issues/26460">core/#26460</a></li>
+<li>DAV: Sanitize length headers when validating quota - <a href="https://github.com/owncloud/core/issues/26366">core/#26366</a></li>
 <li>Files: Allow uploading empty files in the web UI - <a href="https://github.com/owncloud/core/issues/19116">core/#19116</a></li>
+<li>Files: Exclude more invalid chars in path - <a href="https://github.com/owncloud/core/issues/26461">core/#26461</a></li>
 <li>Sharing: Let the share owner increase permissions - <a href="https://github.com/owncloud/core/issues/25542">core/#25542</a></li>
 <li>Federation: Fix sharing with remote user names containing spaces - <a href="https://github.com/owncloud/core/issues/25955">core/#25955</a></li>
 <li>Federation: Save some memory in sync job by releasing mount info after each user - <a href="https://github.com/owncloud/core/issues/26204">core/#26204</a></li>
 <li>CardDAV: Unset photo before setting a new one - <a href="https://github.com/owncloud/core/issues/26242">core/#26242</a></li>
 <li>Updater: Fix web UI update in some environments - <a href="https://github.com/owncloud/updater/issues/378">updater/#378</a></li>
+<li>Updater: Retrigger integrity check after update - <a href="https://github.com/owncloud/updater/issues/405">updater/#405</a></li>
 <li>User_LDAP: Added OCC command to update group mappings - <a href="https://github.com/owncloud/user_ldap/issues/14">user_ldap/#14</a></li>
 <li>User_external: Double verify the SMB response - <a href="https://github.com/owncloud/apps/issues/2198">apps/#2198</a></li>
 <li>Antivirus: Fix background scan - <a href="https://github.com/owncloud/files_antivirus/issues/128">files_antivirus/#128</a></li>
+<li>Gallery: Do not display technical error messages - <a href="https://github.com/owncloud/gallery/issues/707">gallery/#707</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-9.0.6.tar.bz2">owncloud-9.0.6.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.6.zip">owncloud-9.0.6.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.6.tar.bz2.md5">owncloud-9.0.6.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.6.zip.md5">owncloud-9.0.6.zip.md5</a></br>
@@ -89,6 +103,8 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>Core: Fix mime type detection in hidden directories - <a href="https://github.com/owncloud/core/issues/26133">core/#26133</a></li>
 <li>Core: Change forum URL to central - <a href="https://github.com/owncloud/core/issues/25644">core/#25644</a></li>
 <li>Core: Fix unshare from self etag propagation - <a href="https://github.com/owncloud/core/issues/26346">core/#26346</a></li>
+<li>Core: Fix misleading SSL/TLS SMTP email configuration - <a href="https://github.com/owncloud/core/issues/26447">core/#26447</a></li>
+<li>DAV: Sanitize length headers when validating quota - <a href="https://github.com/owncloud/core/issues/26366">core/#26366</a></li>
 <li>Updater: Fix signature data not found error when updating to 9.0 - <a href="https://github.com/owncloud/updater/issues/384">updater/#384</a></li>
 <li>Updater: Clicking notification now updates doc in new tab - <a href="https://github.com/owncloud/core/issues/26260">core/#26260</a></li>
 <li>User_external: Double verify the SMB response - <a href="https://github.com/owncloud/apps/issues/2198">apps/#2198</a></li>
@@ -103,6 +119,8 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <h3>Version 8.1.11 <small>Oct 26 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
+<li>Core: Fix misleading SSL/TLS SMTP email configuration - <a href="https://github.com/owncloud/core/issues/26447">core/#26447</a></li>
+<li>DAV: Sanitize length headers when validating quota - <a href="https://github.com/owncloud/core/issues/26366">core/#26366</a></li>
 <li>Updater: Fixed to properly use update server URL from config - <a href="https://github.com/owncloud/updater/issues/381">updater/#381</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.1.11.tar.bz2">owncloud-8.1.11.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.11.zip">owncloud-8.1.11.zip</a></br>
@@ -115,6 +133,7 @@ Packages on the openSUSE Build Service: <a href="http://software.opensuse.org/do
 <h3>Version 8.0.16 <small>Oct 26 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
+<li>DAV: Sanitize length headers when validating quota - <a href="https://github.com/owncloud/core/issues/26366">core/#26366</a></li>
 <li>Updater: Fixed to properly use update server URL from config - <a href="https://github.com/owncloud/updater/issues/382">updater/#382</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-8.0.16.tar.bz2">owncloud-8.0.16.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.16.zip">owncloud-8.0.16.zip</a></br>
