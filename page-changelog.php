@@ -82,6 +82,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>Federation: Fix sharing with remote user names containing spaces - <a href="https://github.com/owncloud/core/issues/25955">core/#25955</a></li>
 <li>Federation: Save some memory in sync job by releasing mount info after each user - <a href="https://github.com/owncloud/core/issues/26204">core/#26204</a></li>
 <li>CardDAV: Unset photo before setting a new one - <a href="https://github.com/owncloud/core/issues/26242">core/#26242</a></li>
+<li>CardDAV: Limit image export mime types - <a href="https://github.com/owncloud/core/issues/26459">core/#26459</a></li>
 <li>Updater: Fix web UI update in some environments - <a href="https://github.com/owncloud/updater/issues/378">updater/#378</a></li>
 <li>Updater: Retrigger integrity check after update - <a href="https://github.com/owncloud/updater/issues/405">updater/#405</a></li>
 <li>User_LDAP: Added OCC command to update group mappings - <a href="https://github.com/owncloud/user_ldap/issues/14">user_ldap/#14</a></li>
