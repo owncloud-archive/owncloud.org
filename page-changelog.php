@@ -14,7 +14,7 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest9.1"></a></li>
-<h3>Version 9.1.2 <small>Oct 26 2016</small></h3></li>
+<h3>Version 9.1.2 <small>Nov 8 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
 <li>Core: Display feedback in users page when changing password - <a href="https://github.com/owncloud/core/issues/25532">core/#25532</a></li>
@@ -63,7 +63,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.0"></a></li>
-<h3>Version 9.0.6 <small>Oct 26 2016</small></h3></li>
+<h3>Version 9.0.6 <small>Nov 8 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
 <li>Core: Display feedback in users page when changing password - <a href="https://github.com/owncloud/core/issues/25532">core/#25532</a></li>
@@ -97,7 +97,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest8.2"></a></li>
-<h3>Version 8.2.9 <small>Oct 26 2016</small></h3></li>
+<h3>Version 8.2.9 <small>Nov 8 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
 <li>Core: Display feedback in users page when changing password - <a href="https://github.com/owncloud/core/issues/25532">core/#25532</a></li>
@@ -117,7 +117,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest8.1"></a></li>
-<h3>Version 8.1.11 <small>Oct 26 2016</small></h3></li>
+<h3>Version 8.1.11 <small>Nov 8 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
 <li>Core: Fix misleading SSL/TLS SMTP email configuration - <a href="https://github.com/owncloud/core/issues/26447">core/#26447</a></li>
@@ -131,7 +131,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on the openSUSE Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest8.0"></a></li>
-<h3>Version 8.0.16 <small>Oct 26 2016</small></h3></li>
+<h3>Version 8.0.16 <small>Nov 8 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
 <li>DAV: Sanitize length headers when validating quota - <a href="https://github.com/owncloud/core/issues/26366">core/#26366</a></li>
