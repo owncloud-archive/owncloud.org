@@ -2,7 +2,7 @@
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.    
-https://doc.ownCloud.org is not maintained here, but in https://github.com/owncloud/documentation
+https://doc.owncloud.org is not maintained here, but in https://github.com/owncloud/documentation
 
 ## Setup of a local development environment
 

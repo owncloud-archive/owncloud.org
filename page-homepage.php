@@ -69,7 +69,7 @@
 			  <a href="https://www.amnesty.de/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/amnesty.png" alt="Amnesty Germany" /></a>
 			</div>-->
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="http://oc.owncloud.com/opencloudmesh.html" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni." title="The university of Hawaii has 50.000 students and famous alumni." /></a>
+			  <a href="https://oc.owncloud.com/opencloudmesh.html" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni." title="The university of Hawaii has 50.000 students and famous alumni." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
 			  <a href="https://owncloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/rakuten.png" title="Rakuten, Inc. is a Japanese electronic commerce and Internet company based in Tokyo, Japan. Its B2B2C e-commerce platform Rakuten Ichiba is among the world’s largest by sales." /></a>

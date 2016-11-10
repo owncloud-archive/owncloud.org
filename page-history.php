@@ -45,7 +45,7 @@ div.office {
 <p>ownCloud gives you universal access to your files through a web interface or WebDAV. It also provides a platform to easily view & sync your contacts, calendars and bookmarks across all your devices and enables basic editing right on the web.
 Installation has minimal server requirements, doesn’t need special permissions and is quick. ownCloud Server is extendable via a simple but powerful API for applications and plugins.</p>
 <p>ownCloud started with a <a href="https://www.youtube.com/watch?v=5IdMWxtMMB8">keynote by Frank Karlitschek</a> at Camp KDE’10 where he talked about the need of a self-controlled free and open source cloud.</p>
-<p>Two years later, <a href="http://blog.karlitschek.de/2011/12/owncloud-inc-and-owncloud-community.html">Frank announced</a> the start of <a href="http://owncloud.com">ownCloud Inc.</a></p>
+<p>Two years later, <a href="http://blog.karlitschek.de/2011/12/owncloud-inc-and-owncloud-community.html">Frank announced</a> the start of <a href="https://owncloud.com">ownCloud Inc.</a></p>
 <p>The company makes it possible for developers to work full time on ownCloud, organizing ownCloud events, marketing ownCloud to a wider audience and supporting companies, governments and schools in their ownCloud deployments.</p>
 <p>The business model of ownCloud Inc. is very similar to other successful Open Source companies, offering services and support around ownCloud for the enterprise. The company is dedicated to working entirely in the open, accelerating development in the areas of its customers' needs while enabling a completely open development process where everybody can contribute.</p>
 
@@ -367,7 +367,7 @@ Installation has minimal server requirements, doesn’t need special permissions
         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> July 2014</small></p>
       </div>
       <div class="tl-body">
-        <p>introducing server-to-server sharing and improved user management (<a href="http://owncloud.org/blog/owncloud-7-released-with-more-sharing-and-control/">announcement</a>)</p>
+        <p>introducing server-to-server sharing and improved user management (<a href="https://owncloud.org/blog/owncloud-7-released-with-more-sharing-and-control/">announcement</a>)</p>
         <iframe width="100%" height="240" src="https://www.youtube.com/embed/xA3tfBTvH0c?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
