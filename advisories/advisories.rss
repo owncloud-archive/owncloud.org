@@ -5,11 +5,35 @@
  <link>https://owncloud.org/security/advisories/</link>
  <description>The ownCloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
-  <title>Desktop Client: Local Code Injection (oC-SA-2016-016)</title>
-  <description>&lt;p&gt;The ownCloud Client was vunerable to a local code injection attack. A malicious local user could create a special path where the client would load libraries from during startup. As on Windows, everyone by default has the permission to write to the &lt;code&gt;C:&lt;/code&gt; drive and create arbitrary directories and subdirectories, this attack is practically feasible in any non-hardened Windows environment. This could lead to injecting code into other users' ownCloud Client.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-016&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <title>Server: Content-Spoofing in &quot;dav&quot; app (oC-SA-2016-020)</title>
+  <description>&lt;p&gt;The exception message displayed on the DAV endpoints contained partially user-controllable input leading to a potential misrepresentation of information.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-020&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2016-020</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2016-020</guid>
+  <pubDate>Thu, 10 Nov 2016 11:59:16 +0100</pubDate>
+ </item><item>
+  <title>Server: Content-Spoofing in &quot;files&quot; app (oC-SA-2016-019)</title>
+  <description>&lt;p&gt;The location bar in the files app was not verifying the passed parameters. An attacker could craft an invalid link to a fake directory structure and use this to display an attacker-controlled error message to the user.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-019&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2016-019</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2016-019</guid>
+  <pubDate>Thu, 10 Nov 2016 11:59:16 +0100</pubDate>
+ </item><item>
+  <title>Server: Reflected XSS in Gallery application (oC-SA-2016-018)</title>
+  <description>&lt;p&gt;The gallery app was not properly sanitizing exception messages from the ownCloud server. Due to an endpoint where an attacker could influence the error message this lead to a reflected Cross-Site-Scripting vulnerability.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-018&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2016-018</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2016-018</guid>
+  <pubDate>Thu, 10 Nov 2016 11:59:16 +0100</pubDate>
+ </item><item>
+  <title>Server: Stored XSS in CardDAV image export (oC-SA-2016-017)</title>
+  <description>&lt;p&gt;The CardDAV image export functionality as implemented in ownCloud allows the download of images stored within a vCard. Due to not performing any kind of verification on the image content this is prone to a stored Cross-Site Scripting attack.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt;ownCloud employs a very strict Content Security Policy on the DAV endpoints. This is thus only exploitable on browsers that don't support Content Security Policy.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-017&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2016-017</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2016-017</guid>
+  <pubDate>Thu, 10 Nov 2016 11:59:16 +0100</pubDate>
+ </item><item>
+  <title>Server: SMB User Authentication Bypass (oC-SA-2016-016)</title>
+  <description>&lt;p&gt;ownCloud includes an optional and not by default enabled SMB authentication component that allows to authenticate users against an SMB server. This backend is implemented in a way that it tries to connect to a SMB server and if that succeeded consider the user logged-in. The backend did not properly take into account SMB servers that any kind of anonymous auth configured. This is the default on SMB servers nowadays and allows an unauthenticated attacker to gain access to an account without valid credentials.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; The SMB backend is disabled by default and requires manual configuration in the ownCloud config file. If you have not configured the SMB backend then you're not affected by this vulnerability.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-016&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://owncloud.org/security/advisory/?id=oC-SA-2016-016</link>
   <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2016-016</guid>
-  <pubDate>Wed, 17 Aug 2016 17:37:31 +0200</pubDate>
+  <pubDate>Thu, 10 Nov 2016 11:59:16 +0100</pubDate>
  </item><item>
   <title>Server: Read-only share recipient can restore old versions of file (oC-SA-2016-015)</title>
   <description>&lt;p&gt;The restore capability of ownCloud was not verifying whether an user has only read-only access to a share. Thus an user with read-only access was able to restore old versions.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-015&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
