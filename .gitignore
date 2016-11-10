@@ -5,3 +5,4 @@ node_modules
 # Mac OS
 .DS_Store
 config.php
+.idea/
