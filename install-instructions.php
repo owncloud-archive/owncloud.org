@@ -77,7 +77,7 @@
 							<div class="download-notes">
 								<p>Looking for <a href="/changelog">older versions or major releases</a>?</p>
 								<p>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using the <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</p>
-								<p><strong>Security Note:</strong><br />To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
+								<p><strong>Security Note:</strong><br />To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="https://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
 								<p><strong>Channels:</strong><br />We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages</a> for testing here.</p>
 							</div>
             </div>
@@ -119,7 +119,7 @@
 							<hr />
 							<div class="download-notes">
 								<p>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using the <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</p>
-								<p><strong>Security Note:</strong><br />Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+								<p><strong>Security Note:</strong><br />Once the setup is done, the ownCloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="https://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
 								<p><strong>Channels:</strong><br />We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages</a> for testing here.</p>
 							</div>
 						</div>
@@ -155,7 +155,7 @@
 								<div class="download-notes">
 									<p>Looking for repositories of <a href="/changelog">previous major releases</a>?</p>
 									<p>ownCloud Server does <strong>not</strong> support Microsoft Windows. We recommend using the <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the ownCloud Appliance</a> on Windows Server.</p>
-									<p><strong>Security Note:</strong><br />To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
+									<p><strong>Security Note:</strong><br />To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="https://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
 									<p><strong>Channels:</strong><br />We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages</a> for testing here.</p>
 								</div>
 							</div>
@@ -246,7 +246,7 @@
 									<div class="download-notes">
  										<p><strong>NOTE</strong>: The appliances have been updated to the <a href="https://owncloud.org/blog/new-in-owncloud-9-1/">freshly released ownCloud 9.1</a>. </p>
 										<p><strong>NOTE</strong>: The appliances have been updated to the <a href="https://owncloud.org/blog/owncloud-server-9-0-released/">freshly released ownCloud 9.0</a> but have only gone through absolutely minimal testing. It is recommended to not use these for important data yet - giving them a trial run however and giving us feedback is greatly appreciated!</p>
-										<p><strong>Security Note:</strong><br />These images do not all offer automatic update technology. We recommend a subscription to our low-traffic <a href="http://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
+										<p><strong>Security Note:</strong><br />These images do not all offer automatic update technology. We recommend a subscription to our low-traffic <a href="https://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
 										<p><strong>Channels:</strong><br />We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages</a> for testing here.</p>
 									</div>
 								</div>
@@ -304,7 +304,7 @@
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/blackberry.png">
 							</a>
 							<br />
-							<p>Looking for the <a href="https://github.com/owncloud/android">Android</a> or <a href="https://github.com/owncloud/ios">iOS sources</a>? Looking for <a href="http://f-droid.org/app/com.owncloud.android">F-Droid</a>?</p>
+							<p>Looking for the <a href="https://github.com/owncloud/android">Android</a> or <a href="https://github.com/owncloud/ios">iOS sources</a>? Looking for <a href="https://f-droid.org/app/com.owncloud.android">F-Droid</a>?</p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
@@ -364,8 +364,8 @@
 			    <h2>Desktop Clients <small><?php echo $VERSIONS_CLIENT_DESKTOP_TESTING; ?></small></h2>
 	 		    <p>Our desktop team provides regular nightly builds. Please report any issues to the <a href="https://github.com/owncloud/client/issues" target="_blank">tracker</a>.</p>
 			    <div class="btn-group">
-			      <a href="http://download.owncloud.com/desktop/daily/" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows</a>
-			      <a href="http://download.owncloud.com/desktop/daily/" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac</a>
+			      <a href="https://download.owncloud.com/desktop/daily/" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows</a>
+			      <a href="https://download.owncloud.com/desktop/daily/" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac</a>
 			      <a href="https://software.opensuse.org/download.html?project=isv%3AownCloud%3Acommunity%3Anightly&package=owncloud-client" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux</a>
 			      <a href="https://github.com/owncloud/client" class="btn btn-lg btn-default"><i class="icon-archive"></i> Sources</a>
 			    </div>
