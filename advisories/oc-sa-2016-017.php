@@ -9,35 +9,39 @@
         <?php get_template_part('advisories/advisory-side'); ?>
     </div>
     <div class="col-md-8">
-        <h2>Stored XSS in CardDAV image export (oC-SA-2016-017)</h2>
+        <h2>SMB User Authentication Bypass (oC-SA-2016-017)</h2>
         <p>10th November 2016</p>
-        <p>Risk level: <strong>Medium</strong></p>
-        <p>CVSS v3 Base Score: 5.4 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N">AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N</a>)</p>
-        <p>CWE: <a href="https://cwe.mitre.org/data/definitions/79.html">Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') (CWE-79)</a></p>
-<p>HackerOne report: <a href="https://hackerone.com/reports/163338">163338</a></p>
+        <p>Risk level: <strong>High</strong></p>
+        <p>CVSS v3 Base Score: 7.4 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N">AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N</a>)</p>
+        <p>CWE: <a href="https://cwe.mitre.org/data/definitions/303.html">Incorrect Implementation of Authentication Algorithms (CWE-303)</a></p>
+<p>HackerOne report: <a href="https://hackerone.com/reports/148151">148151</a></p>
         <h3>Description</h3>
-        <p><p>The CardDAV image export functionality as implemented in ownCloud allows the download of images stored within a vCard. Due to not performing any kind of verification on the image content this is prone to a stored Cross-Site Scripting attack.</p>
-<p><b>Note:</b>ownCloud employs a very strict Content Security Policy on the DAV endpoints. This is thus only exploitable on browsers that don't support Content Security Policy.</p>
+        <p><p>ownCloud includes an optional and not by default enabled SMB authentication component that allows to authenticate users against an SMB server. This backend is implemented in a way that it tries to connect to a SMB server and if that succeeded consider the user logged-in. The backend did not properly take into account SMB servers that any kind of anonymous auth configured. This is the default on SMB servers nowadays and allows an unauthenticated attacker to gain access to an account without valid credentials.</p>
+<p><b>Note:</b> The SMB backend is disabled by default and requires manual configuration in the ownCloud config file. If you have not configured the SMB backend then you're not affected by this vulnerability.</p>
 </p>
         <h3>Affected Software</h3>
         <ul>
             <li>ownCloud Server &lt; <strong>9.1.2</strong> (CVE-2016-????)</li>
 <ul>
-<li><a href="https://github.com/owncloud/core/commit/6bf3be3877d9d9fda9c66926fe273fe79cbaf58e">core/6bf3be3877d9d9fda9c66926fe273fe79cbaf58e</a></li>
+<li><a href="https://github.com/owncloud/apps/commit/5d47e7b52646cf79edadd78ce10c754290cbb732">apps/5d47e7b52646cf79edadd78ce10c754290cbb732</a></li>
 </ul>
 <li>ownCloud Server &lt; <strong>9.0.6</strong> (CVE-2016-????)</li>
 <ul>
-<li><a href="https://github.com/owncloud/core/commit/b5a5be24c418033cb2ef965a4f3f06b7b4213845">core/b5a5be24c418033cb2ef965a4f3f06b7b4213845</a></li>
+<li><a href="https://github.com/owncloud/apps/commit/16cbccfc946c8711721fa684d78135ca1fb64791">apps/16cbccfc946c8711721fa684d78135ca1fb64791</a></li>
+</ul>
+<li>ownCloud Server &lt; <strong>8.2.9</strong> (CVE-2016-????)</li>
+<ul>
+<li><a href="https://github.com/owncloud/apps/commit/a0e07b7ddd5a5fd850a6e07f8457d05b76a300b3">apps/a0e07b7ddd5a5fd850a6e07f8457d05b76a300b3</a></li>
 </ul>
 
         </ul>
         <h3>Action Taken</h3>
-        <p>The mimetype of the exported image is now compared with a whitelist as well as download disposition headers have been set on the response.</p>
+        <p>The SMB backend is now performing an additional authentication attempt with invalid credentials. If that succeeds as well it assumes that anonymous authentications are enabled and denies the login attempt.</p>
         <h3>Acknowledgements</h3>
         <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li><a href="https://nextcloud.com/" target="_blank" rel="noreferrer">Lukas Reschke - Nextcloud GmbH - Vulnerability discovery and disclosure.</a></li>
+            <li><a href="https://rhinosecuritylabs.com/" target="_blank" rel="noreferrer">Dwight Hohnstein - Rhino Security Labs - Vulnerability discovery and disclosure.</a></li>
         </ul>
-        <br/><small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Original source: <a href="https://nextcloud.com/security/advisory/?id=NC-SA-2016-008">nextcloud.com</a></small>
+        <br/><small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Original source: <a href="https://nextcloud.com/security/advisory/?id=NC-SA-2016-006">nextcloud.com</a></small>
     </div>
 </div>

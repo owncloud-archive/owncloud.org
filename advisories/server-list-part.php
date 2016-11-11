@@ -1,15 +1,15 @@
 <p>Version 9.1.2</p>
-<a href="/security/advisory?id=oc-sa-2016-016">SMB User Authentication Bypass</a><br>
-<a href="/security/advisory?id=oc-sa-2016-017">Stored XSS in CardDAV image export</a><br>
-<a href="/security/advisory?id=oc-sa-2016-018">Reflected XSS in Gallery application</a><br>
-<a href="/security/advisory?id=oc-sa-2016-019">Content-Spoofing in "files" app</a><br>
-<a href="/security/advisory?id=oc-sa-2016-020">Content-Spoofing in "dav" app</a><br>
+<a href="/security/advisory?id=oc-sa-2016-017">SMB User Authentication Bypass</a><br>
+<a href="/security/advisory?id=oc-sa-2016-018">Stored XSS in CardDAV image export</a><br>
+<a href="/security/advisory?id=oc-sa-2016-019">Reflected XSS in Gallery application</a><br>
+<a href="/security/advisory?id=oc-sa-2016-020">Content-Spoofing in "files" app</a><br>
+<a href="/security/advisory?id=oc-sa-2016-021">Content-Spoofing in "dav" app</a><br>
 <br/><p>Version 9.0.6</p>
-<a href="/security/advisory?id=oc-sa-2016-016">SMB User Authentication Bypass</a><br>
-<a href="/security/advisory?id=oc-sa-2016-017">Stored XSS in CardDAV image export</a><br>
-<a href="/security/advisory?id=oc-sa-2016-018">Reflected XSS in Gallery application</a><br>
-<a href="/security/advisory?id=oc-sa-2016-019">Content-Spoofing in "files" app</a><br>
-<a href="/security/advisory?id=oc-sa-2016-020">Content-Spoofing in "dav" app</a><br>
+<a href="/security/advisory?id=oc-sa-2016-017">SMB User Authentication Bypass</a><br>
+<a href="/security/advisory?id=oc-sa-2016-018">Stored XSS in CardDAV image export</a><br>
+<a href="/security/advisory?id=oc-sa-2016-019">Reflected XSS in Gallery application</a><br>
+<a href="/security/advisory?id=oc-sa-2016-020">Content-Spoofing in "files" app</a><br>
+<a href="/security/advisory?id=oc-sa-2016-021">Content-Spoofing in "dav" app</a><br>
 <br/><p>Version 9.0.4</p>
 <a href="/security/advisory?id=oc-sa-2016-011">Stored XSS in gallery application</a><br>
 <a href="/security/advisory?id=oc-sa-2016-012">Log pollution can potentially lead to local HTML injection</a><br>
@@ -23,7 +23,7 @@
 <a href="/security/advisory?id=oc-sa-2016-008">Disclosure of arbitrary certificate files</a><br>
 <a href="/security/advisory?id=oc-sa-2016-009">Incorrect setup of external storage</a><br>
 <br/><p>Version 8.2.9</p>
-<a href="/security/advisory?id=oc-sa-2016-016">SMB User Authentication Bypass</a><br>
+<a href="/security/advisory?id=oc-sa-2016-017">SMB User Authentication Bypass</a><br>
 <br/><p>Version 8.2.7</p>
 <a href="/security/advisory?id=oc-sa-2016-012">Log pollution can potentially lead to local HTML injection</a><br>
 <a href="/security/advisory?id=oc-sa-2016-014">Edit permission check not enforced on WebDAV COPY action</a><br>
