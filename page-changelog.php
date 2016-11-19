@@ -5,10 +5,10 @@
 Go directly to the latest maintenance release of:
 <ul>
 <li><a href="#latest9.1">ownCloud 9.1</a></li>
-<li><a href="#latest9.0">ownCloud 9</a></li>
+<li><a href="#latest9.0">ownCloud 9.0</a></li>
 <li><a href="#latest8.2">ownCloud 8.2</a></li>
 <li><a href="#latest8.1">ownCloud 8.1</a></li>
-<li><a href="#latest8.0">ownCloud 8</a></li>
+<li><a href="#latest8.0">ownCloud 8.0 (unsupported!)</a></li>
 <li><a href="#latest7">ownCloud 7 (unsupported!)</a></li>
 <li><a href="#latest6">ownCloud 6 (unsupported!)</a></li>
 </ul>
