@@ -108,7 +108,7 @@
   <pubDate>Wed, 06 Jan 2016 01:40:33 +0100</pubDate>
  </item><item>
   <title>Server: Disclosure of files that begin with &quot;.v&quot; due to unchecked return value (oC-SA-2016-003)</title>
-  <description>&lt;p&gt;Due to a incorrect usage of the &lt;code&gt;getOwner&lt;/code&gt; function of the ownCloud virtual filesystem,done authenticated users with incoming shares of other users are able to access files beginning with &quot;.v&quot; of the sharing user. This can only be exploited if the &quot;files_versions&quot; application is enabled on the server.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>&lt;p&gt;Due to a incorrect usage of the &lt;code&gt;getOwner&lt;/code&gt; function of the ownCloud virtual filesystem, authenticated users with incoming shares of other users are able to access files beginning with &quot;.v&quot; of the sharing user. This can only be exploited if the &quot;files_versions&quot; application is enabled on the server.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://owncloud.org/security/advisory/?id=oC-SA-2016-003</link>
   <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2016-003</guid>
   <pubDate>Wed, 06 Jan 2016 01:40:33 +0100</pubDate>
