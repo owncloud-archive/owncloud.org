@@ -14,6 +14,58 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest9.1"></a></li>
+<h3>Version 9.1.3 <small>Dec 13 2016</small></h3></li>
+<ul>
+<li>[major] UI: File list now works properly with many hidden entries - <a href="https://github.com/owncloud/core/issues/26518">core/#26518</a></li>
+<li>[major] Transfer ownership fails in some sharing scenario - <a href="https://github.com/owncloud/core/issues/26523">core/#26523</a></li>
+<li>[major] Transfer ownership fails if external storage with user-specified password - <a href="https://github.com/owncloud/core/issues/26530">core/#26530</a></li>
+<li>[major] Transfer ownership fails with file shares with invalid permissions - <a href="https://github.com/owncloud/core/issues/26541">core/#26541</a></li>
+<li>[major] Transfer ownership must skip trashed shares - <a href="https://github.com/owncloud/core/issues/26525">core/#26525</a></li> 
+<li>[major] Versions on external storage never expire - <a href="https://github.com/owncloud/core/issues/24161">core/#24161</a></li>
+<li>[major] Properly convert public upload OCS params - <a href="https://github.com/owncloud/core/issues/26691">core/#26691</a></li>
+<li>[major] Properly load object store apps at install time when required in config - <a href="https://github.com/owncloud/core/issues/26299">core/#26299</a></li>
+<li>[major] Fix issue in sharing API that can happen with Galera Cluster - <a href="https://github.com/owncloud/core/issues/26700">core/#26700</a></li>
+<li>[major] Cannot delete file in share link from global external storage - <a href="https://github.com/owncloud/core/issues/25618">core/#25618</a></li>
+<li>[major] Fix issue where first run wizard made web UI unusable in IE11 - <a href="https://github.com/owncloud/core/issues/26438">core/#26438</a></li>
+<li>[major] Cannot upload to federated share when only create/update permission given - <a href="https://github.com/owncloud/core/issues/26173">core/#26173</a></li>
+<li>[major] Auth header in new DAV endpoint can break with Windows Webdav - <a href="https://github.com/owncloud/core/issues/26412">core/#26412</a></li>
+<li>[minor] Transfer ownership don't bail out on error - <a href="https://github.com/owncloud/core/issues/26524">core/#26524</a></li>
+<li>[minor] Don't scan received shares in OCC files scan or background jobs - <a href="https://github.com/owncloud/core/issues/26600">core/#26600</a></li>
+<li>[minor] Remove useless warning in log when accessing public shares - <a href="https://github.com/owncloud/core/issues/25455">core/#25455</a></li>
+<li>[minor] Fix disappearance of share info when clicking favorite star - <a href="https://github.com/owncloud/core/issues/26241">core/#26241</a></li>
+<li>[minor] Don't bother fetching preview images if previews disabled in config.php - <a href="https://github.com/owncloud/core/issues/26705">core/#26705</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.1.3.tar.bz2">owncloud-9.1.3.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.3.zip">owncloud-9.1.3.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.1.3.tar.bz2.md5">owncloud-9.1.3.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.3.zip.md5">owncloud-9.1.3.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.1.3.tar.bz2.sha256">owncloud-9.1.3.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.3.zip.sha256">owncloud-9.1.3.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.1.3.tar.bz2.asc">owncloud-9.1.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.3.zip.asc">owncloud-9.1.3.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest9.0"></a></li>
+<h3>Version 9.0.7 <small>Dec 13 2016</small></h3></li>
+<ul>
+<li>[major] Transfer ownership fails in some sharing scenario - <a href="https://github.com/owncloud/core/issues/26523">core/#26523</a></li>
+<li>[major] Transfer ownership fails if external storage with user-specified password - <a href="https://github.com/owncloud/core/issues/26530">core/#26530</a></li>
+<li>[major] Transfer ownership fails with file shares with invalid permissions - <a href="https://github.com/owncloud/core/issues/26541">core/#26541</a></li>
+<li>[major] Transfer ownership must skip trashed shares - <a href="https://github.com/owncloud/core/issues/26525">core/#26525</a></li>
+<li>[major] Versions on external storage never expire - <a href="https://github.com/owncloud/core/issues/24161">core/#24161</a></li>
+<li>[major] Properly convert public upload OCS params - <a href="https://github.com/owncloud/core/issues/26691">core/#26691</a></li>
+<li>[major] Properly load object store apps at install time when required in config - <a href="https://github.com/owncloud/core/issues/26299">core/#26299</a></li>
+<li>[major] Fix issue in sharing API that can happen with Galera Cluster - <a href="https://github.com/owncloud/core/issues/26700">core/#26700</a></li>
+<li>[major] Cannot delete file in share link from global external storage - <a href="https://github.com/owncloud/core/issues/25618">core/#25618</a></li>
+<li>[major] Auth header in new DAV endpoint can break with Windows Webdav - <a href="https://github.com/owncloud/core/issues/26412">core/#26412</a></li>
+<li>[minor] Transfer ownership don't bail out on error - <a href="https://github.com/owncloud/core/issues/26524">core/#26524</a></li>
+<li>[minor] Don't scan received shares in occ files:scan or background jobs - <a href="https://github.com/owncloud/core/issues/26600">core/#26600</a></li>
+<li>[minor] Fix disappearance of share info when clicking favorite star - <a href="https://github.com/owncloud/core/issues/26241">core/#26241</a></li>
+<li>[minor] Don't bother fetching preview images if previews disabled in config.php - <a href="https://github.com/owncloud/core/issues/26705">core/#26705</a></li>
+<li>[minor] Fix Webdav auth realm - <a href="https://github.com/owncloud/core/issues/26721">core/#26721</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.0.7.tar.bz2">owncloud-9.0.7.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.7.zip">owncloud-9.0.7.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.7.tar.bz2.md5">owncloud-9.0.7.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.7.zip.md5">owncloud-9.0.7.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.7.tar.bz2.sha256">owncloud-9.0.7.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.7.zip.sha256">owncloud-9.0.7.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.7.tar.bz2.asc">owncloud-9.0.7.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.7.zip.asc">owncloud-9.0.7.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
 <h3>Version 9.1.2 <small>Nov 8 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
