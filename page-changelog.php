@@ -30,7 +30,7 @@ Go directly to the latest maintenance release of:
 <li>[major] Cannot upload to federated share when only create/update permission given - <a href="https://github.com/owncloud/core/issues/26173">core/#26173</a></li>
 <li>[major] Auth header in new DAV endpoint can break with Windows Webdav - <a href="https://github.com/owncloud/core/issues/26412">core/#26412</a></li>
 <li>[minor] Transfer ownership don't bail out on error - <a href="https://github.com/owncloud/core/issues/26524">core/#26524</a></li>
-<li>[minor] Don't scan received shares in OCC files scan or background jobs - <a href="https://github.com/owncloud/core/issues/26600">core/#26600</a></li>
+<li>[minor] Don't scan received shares in OCC files scan or background jobs - <a href="https://github.com/owncloud/core/issues/26590">core/#26590</a></li>
 <li>[minor] Remove useless warning in log when accessing public shares - <a href="https://github.com/owncloud/core/issues/25455">core/#25455</a></li>
 <li>[minor] Fix disappearance of share info when clicking favorite star - <a href="https://github.com/owncloud/core/issues/26241">core/#26241</a></li>
 <li>[minor] Don't bother fetching preview images if previews disabled in config.php - <a href="https://github.com/owncloud/core/issues/26705">core/#26705</a></li>
@@ -55,7 +55,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>[major] Cannot delete file in share link from global external storage - <a href="https://github.com/owncloud/core/issues/25618">core/#25618</a></li>
 <li>[major] Auth header in new DAV endpoint can break with Windows Webdav - <a href="https://github.com/owncloud/core/issues/26412">core/#26412</a></li>
 <li>[minor] Transfer ownership don't bail out on error - <a href="https://github.com/owncloud/core/issues/26524">core/#26524</a></li>
-<li>[minor] Don't scan received shares in occ files:scan or background jobs - <a href="https://github.com/owncloud/core/issues/26600">core/#26600</a></li>
+<li>[minor] Don't scan received shares in occ files:scan or background jobs - <a href="https://github.com/owncloud/core/issues/26590">core/#26590</a></li>
 <li>[minor] Fix disappearance of share info when clicking favorite star - <a href="https://github.com/owncloud/core/issues/26241">core/#26241</a></li>
 <li>[minor] Don't bother fetching preview images if previews disabled in config.php - <a href="https://github.com/owncloud/core/issues/26705">core/#26705</a></li>
 <li>[minor] Fix Webdav auth realm - <a href="https://github.com/owncloud/core/issues/26721">core/#26721</a></li>
