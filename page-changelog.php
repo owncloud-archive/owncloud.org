@@ -658,10 +658,10 @@ Packages on the openSUSE Build Service: <a href="http://software.opensuse.org/do
 <ul>
 	<li>Addressed XSS issues in the files_videoviewer app</li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2">owncloud-7.0.15.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip">owncloud-7.0.15.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.md5">owncloud-7.0.15.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip.md5">owncloud-7.0.15.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.sha256">owncloud-7.0.15.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip.sha256">owncloud-7.0.15.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.asc">owncloud-7.0.15.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip.asc">owncloud-7.0.15.zip.asc</a></br>
+Download: <a href="https://download.owncloud.org/community/7.0/owncloud-7.0.15.tar.bz2">owncloud-7.0.15.tar.bz2</a> or <a href="https://download.owncloud.org/community/7.0/owncloud-7.0.15.zip">owncloud-7.0.15.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/7.0/owncloud-7.0.15.tar.bz2.md5">owncloud-7.0.15.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/7.0/owncloud-7.0.15.zip.md5">owncloud-7.0.15.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/7.0/owncloud-7.0.15.tar.bz2.sha256">owncloud-7.0.15.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/7.0/owncloud-7.0.15.zip.sha256">owncloud-7.0.15.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/7.0/owncloud-7.0.15.tar.bz2.asc">owncloud-7.0.15.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/7.0/owncloud-7.0.15.zip.asc">owncloud-7.0.15.zip.asc</a></br>
 <p>Packages on the openSUSE Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.</p>
 <p><strong>Note</strong> that this is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer to ensure the security and safety of your data.</p>
 
@@ -836,7 +836,7 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.14.tar.bz2.md
 SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.14.tar.bz2.sha256">owncloud-7.0.14.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.14.zip.sha256">owncloud-7.0.14.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.14.tar.bz2.asc">owncloud-7.0.14.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.14.zip.asc">owncloud-7.0.14.zip.asc</a></br>
 <p>Packages on the openSUSE Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.</p>
-<p><strong>Note</strong> that this is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer.</p>
+<p><strong>Note</strong> 7.0.15 is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer.</p>
 
 <h3>Version 9.0.1 <small>April 6 2016</small></h3>
 <ul>
