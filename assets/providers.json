@@ -578,18 +578,18 @@
       },
       {
          "title":"cubico.cloud",
-         "url":"https:\/\/cubico.cloud/\/owncloud-hosting",
+         "url":"https:\/\/cubico.cloud\/owncloud-hosting",
          "flags":[
             "us",
             "eu",
-            "as"
+            "sg"
          ],
          "freeplans":true,
          "supports":[
            "consumers",
            "organisations"
          ],
-         "imagename":"cubico.gif",
+         "imagename":"cubico.jpg",
          "supported":false
       },
       {
