@@ -54,6 +54,22 @@
          "supported":false
       },
       {
+         "title":"cubico.cloud",
+         "url":"https:\/\/cubico.cloud/\/owncloud-hosting",
+         "flags":[
+            "us",
+            "eu",
+            "as"
+         ],
+         "freeplans":false,
+         "supports":[
+           "consumers",
+           "organisations"
+         ],
+         "imagename":"cubico.gif",
+         "supported":false
+      },
+      {
          "title":"extensys.it",
          "url":"http:\/\/www.extensys.it\/",
          "flags":[
