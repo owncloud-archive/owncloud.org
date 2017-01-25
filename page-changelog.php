@@ -23,6 +23,7 @@ Go directly to the latest maintenance release of:
 <li>[major] Properly react on memcache errors - <a href="https://github.com/owncloud/core/issues/25692">core/#25692</a></li>
 <li>[major] Fix random normalizedPathCache log messages / garbage collection issues from PHP 7 - <a href="https://github.com/owncloud/core/issues/22370">core/#22370</a></li>
 <li>[major] Properly deal with inconsistent LDAP/memcache or user/group manager responses - <a href="https://github.com/owncloud/core/issues/26871">core/#26871</a></li>
+<li>[major] Added configreport app which will help with better bug reports - <a href="https://github.com/owncloud/configreport/issues/6">configreport/#6</a></li>
 <li>[minor] Fix syncing of file names with colon followed by a number - <a href="https://github.com/owncloud/core/issues/25479">core/#25479</a></li>
 <li>[minor] Prevent empty user uid from LDAP - <a href="https://github.com/owncloud/user_ldap/issues/6">user_ldap/#6</a></li>
 <li>[minor] Prevent repeated log messages when dealing with broken picture files - <a href="https://github.com/owncloud/core/issues/26758">core/#26758</a></li>
@@ -55,6 +56,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>[major] Fix performance regression with many received shares - <a href="https://github.com/owncloud/core/issues/26912">core/#26912</a></li>
 <li>[major] Fix random normalizedPathCache log messages / garbage collection issues from PHP 7 - <a href="https://github.com/owncloud/core/issues/22370">core/#22370</a></li>
 <li>[major] Prevent LDAP avatar to be duplicated repeatedly in vCard - <a href="https://github.com/owncloud/core/issues/26242">core/#26242</a></li>
+<li>[major] Added configreport app which will help with better bug reports - <a href="https://github.com/owncloud/configreport/issues/6">configreport/#6</a></li>
 <li>[minor] Fix syncing of file names with colon followed by a number - <a href="https://github.com/owncloud/core/issues/25479">core/#25479</a></li>
 <li>[minor] Prevent empty user uid from LDAP - <a href="https://github.com/owncloud/user_ldap/issues/6">user_ldap/#6</a></li>
 <li>[minor] Prevent repeated log messages when dealing with broken picture files - <a href="https://github.com/owncloud/core/issues/26758">core/#26758</a></li>
