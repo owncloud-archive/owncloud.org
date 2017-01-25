@@ -20,8 +20,8 @@ recommend that you sign the agreement because AGPL/GPL protects the freedom of y
 Very easy. Take the PDF, sign it and send it by mail or scan to cla@owncloud.com</p>
 <p>or<br />
 ownCloud GmbH<br />
-Schloßäckerstr. 26a<br />
-90443 Nürnberg<br />
+Leiziger Platz 21<br />
+90491 Nürnberg<br />
 Germany</p>
 <p>We will give you full commit rights as soon as we have received your agreement. If you also want to contribute
 to the ownCloud iOS app please also send the signed "iOS Addendum" document. See the <a href="/contribute/iOS-license-exception/">iOS license exception</a> for testing the ownCloud iOS app on Apple hardware.</p>
