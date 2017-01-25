@@ -14,6 +14,88 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest9.1"></a></li>
+<h3>Version 9.1.4 <small>Jan 31 2017</small></h3></li>
+<ul>
+<li>[major] Make error message for password reset form more generic - <a href="https://github.com/owncloud/core/issues/27011">core/#27011</a></li>
+<li>[major] When sharing autocomplete is disabled, also disable for the email field - <a href="https://github.com/owncloud/core/issues/26504">core/#26504</a></li>
+<li>[major] Add command to clean up invalid/expired remote storages - <a href="https://github.com/owncloud/core/issues/26379">core/#26379</a></li>
+<li>[major] Fix encryption key storage when using LDAP home folder rules - <a href="https://github.com/owncloud/core/issues/26820">core/#26820</a></li>
+<li>[major] Properly react on memcache errors - <a href="https://github.com/owncloud/core/issues/25692">core/#25692</a></li>
+<li>[major] Fix random normalizedPathCache log messages / garbage collection issues from PHP 7 - <a href="https://github.com/owncloud/core/issues/22370">core/#22370</a></li>
+<li>[major] Properly deal with inconsistent LDAP/memcache or user/group manager responses - <a href="https://github.com/owncloud/core/issues/26871">core/#26871</a></li>
+<li>[minor] Fix syncing of file names with colon followed by a number - <a href="https://github.com/owncloud/core/issues/25479">core/#25479</a></li>
+<li>[minor] Prevent empty user uid from LDAP - <a href="https://github.com/owncloud/user_ldap/issues/6">user_ldap/#6</a></li>
+<li>[minor] Prevent repeated log messages when dealing with broken picture files - <a href="https://github.com/owncloud/core/issues/26758">core/#26758</a></li>
+<li>[minor] Fix group-enable option in apps page when memcache is enabled - <a href="https://github.com/owncloud/core/issues/26638">core/#26638</a></li>
+<li>[minor] Add AVMaxFileSize config option - <a href="https://github.com/owncloud/files_antivirus/issues/133">files_antivirus/#133</a></li>
+<li>[minor] Reduce number of federated share requests when dealing with non-existing entries - <a href="https://github.com/owncloud/core/issues/26324">core/#26324</a></li>
+<li>[minor] Remove obsolete legacy storage repair routine - <a href="https://github.com/owncloud/core/issues/26774">core/#26774</a></li>
+<li>[minor] Fix broken remote avatar image in activities tab - <a href="https://github.com/owncloud/activity/issues/529">activity/#529</a></li>
+<li>[minor] When grouping duplicate shares, sort by stime then id - <a href="https://github.com/owncloud/core/issues/25830">core/#25830</a></li>
+<li>[minor] Make file upload post hooks consistent between chunking and non-chunking mode - <a href="https://github.com/owncloud/core/issues/26387">core/#26387</a></li>
+<li>[minor] Fix wrong German translation in upload progress bar by using momentjs library - <a href="https://github.com/owncloud/core/issues/26804">core/#26804</a></li>
+<li>[minor] Skip unavailable storages in background file scan instead of failing - <a href="https://github.com/owncloud/core/issues/26055">core/#26055</a></li>
+<li>[minor] Update PHP 7.1 incompatibility warning - <a href="https://github.com/owncloud/core/issues/26982">core/#26982</a></li>
+<li>[minor] Warning notification when uploading 4+ GB file in IE11 - <a href="https://github.com/owncloud/core/issues/27004">core/#27004</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.1.4.tar.bz2">owncloud-9.1.4.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.4.zip">owncloud-9.1.4.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.1.4.tar.bz2.md5">owncloud-9.1.4.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.4.zip.md5">owncloud-9.1.4.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.1.4.tar.bz2.sha256">owncloud-9.1.4.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.4.zip.sha256">owncloud-9.1.4.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.1.4.tar.bz2.asc">owncloud-9.1.4.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.4.zip.asc">owncloud-9.1.4.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest9.0"></a></li>
+<h3>Version 9.0.8 <small>Jan 31 2017</small></h3></li>
+<ul>
+<li>[major] Make error message for password reset form more generic - <a href="https://github.com/owncloud/core/issues/27011">core/#27011</a></li>
+<li>[major] When sharing autocomplete is disabled, also disable for the email field - <a href="https://github.com/owncloud/core/issues/26504">core/#26504</a></li>
+<li>[major] Add command to clean up invalid/expired remote storages - <a href="https://github.com/owncloud/core/issues/26379">core/#26379</a></li>
+<li>[major] Fix encryption key storage when using LDAP home folder rules - <a href="https://github.com/owncloud/core/issues/26820">core/#26820</a></li>
+<li>[major] Properly react on memcache errors - <a href="https://github.com/owncloud/core/issues/25692">core/#25692</a></li>
+<li>[major] Fix performance regression with many received shares - <a href="https://github.com/owncloud/core/issues/26912">core/#26912</a></li>
+<li>[major] Fix random normalizedPathCache log messages / garbage collection issues from PHP 7 - <a href="https://github.com/owncloud/core/issues/22370">core/#22370</a></li>
+<li>[major] Prevent LDAP avatar to be duplicated repeatedly in vCard - <a href="https://github.com/owncloud/core/issues/26242">core/#26242</a></li>
+<li>[minor] Fix syncing of file names with colon followed by a number - <a href="https://github.com/owncloud/core/issues/25479">core/#25479</a></li>
+<li>[minor] Prevent empty user uid from LDAP - <a href="https://github.com/owncloud/user_ldap/issues/6">user_ldap/#6</a></li>
+<li>[minor] Prevent repeated log messages when dealing with broken picture files - <a href="https://github.com/owncloud/core/issues/26758">core/#26758</a></li>
+<li>[minor] Fix group-enable option in apps page when memcache is enabled - <a href="https://github.com/owncloud/core/issues/26638">core/#26638</a></li>
+<li>[minor] Add AVMaxFileSize config option - <a href="https://github.com/owncloud/files_antivirus/issues/133">files_antivirus/#133</a></li>
+<li>[minor] Reduce number of federated share requests when dealing with non-existing entries - <a href="https://github.com/owncloud/core/issues/26324">core/#26324</a></li>
+<li>[minor] Remove obsolete legacy storage repair routine - <a href="https://github.com/owncloud/core/issues/26774">core/#26774</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.0.8.tar.bz2">owncloud-9.0.8.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.8.zip">owncloud-9.0.8.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.8.tar.bz2.md5">owncloud-9.0.8.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.8.zip.md5">owncloud-9.0.8.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.8.tar.bz2.sha256">owncloud-9.0.8.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.8.zip.sha256">owncloud-9.0.8.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.8.tar.bz2.asc">owncloud-9.0.8.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.8.zip.asc">owncloud-9.0.8.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest8.2"></a></li>
+<h3>Version 8.2.10 <small>Jan 31 2017</small></h3></li>
+<ul>
+<li>[major] Make error message for password reset form more generic - <a href="https://github.com/owncloud/core/issues/27011">core/#27011</a></li>
+<li>[major] When sharing autocomplete is disabled, also disable for the email field - <a href="https://github.com/owncloud/core/issues/26504">core/#26504</a></li>
+<li>[major] Fix LDAP "undefined OfflineUser::composeAndStoreDisplayName()" - <a href="https://github.com/owncloud/core/issues/25588">core/#25588</a></li>
+<li>[minor] Prevent repeated log messages when dealing with broken picture files - <a href="https://github.com/owncloud/core/issues/26758">core/#26758</a></li>
+<li>[minor] Add AVMaxFileSize config option - <a href="https://github.com/owncloud/files_antivirus/issues/133">files_antivirus/#133</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.2.10.tar.bz2">owncloud-8.2.10.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.10.zip">owncloud-8.2.10.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.10.tar.bz2.md5">owncloud-8.2.10.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.10.zip.md5">owncloud-8.2.10.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.10.tar.bz2.sha256">owncloud-8.2.10.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.10.zip.sha256">owncloud-8.2.10.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.10.tar.bz2.asc">owncloud-8.2.10.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.10.zip.asc">owncloud-8.2.10.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<h3>Version 8.1.12 <small>Jan 31 2017</small></h3></li>
+<ul>
+<li>[major] Make error message for password reset form more generic - <a href="https://github.com/owncloud/core/issues/27011">core/#27011</a></li>
+<li>[major] When sharing autocomplete is disabled, also disable for the email field - <a href="https://github.com/owncloud/core/issues/26504">core/#26504</a></li>
+<li>[minor] Prevent repeated log messages when dealing with broken picture files - <a href="https://github.com/owncloud/core/issues/26758">core/#26758</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.1.12.tar.bz2">owncloud-8.1.12.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.12.zip">owncloud-8.1.12.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.12.tar.bz2.md5">owncloud-8.1.12.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.12.zip.md5">owncloud-8.1.12.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.12.tar.bz2.sha256">owncloud-8.1.12.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.12.zip.sha256">owncloud-8.1.12.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.12.tar.bz2.asc">owncloud-8.1.12.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.12.zip.asc">owncloud-8.1.12.zip.asc</a></br>
+Packages on the openSUSE Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
 <h3>Version 9.1.3 <small>Dec 13 2016</small></h3></li>
 <ul>
 <li>[major] UI: File list now works properly with many hidden entries - <a href="https://github.com/owncloud/core/issues/26518">core/#26518</a></li>
@@ -41,7 +123,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-9.1.3.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.1.3.tar.bz2.asc">owncloud-9.1.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.3.zip.asc">owncloud-9.1.3.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest9.0"></a></li>
 <h3>Version 9.0.7 <small>Dec 13 2016</small></h3></li>
 <ul>
 <li>[major] Transfer ownership fails in some sharing scenario - <a href="https://github.com/owncloud/core/issues/26523">core/#26523</a></li>
@@ -114,7 +195,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-9.1.2.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.1.2.tar.bz2.asc">owncloud-9.1.2.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.2.zip.asc">owncloud-9.1.2.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest9.0"></a></li>
 <h3>Version 9.0.6 <small>Nov 8 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
@@ -148,7 +228,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.6.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.6.tar.bz2.asc">owncloud-9.0.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.6.zip.asc">owncloud-9.0.6.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest8.2"></a></li>
 <h3>Version 8.2.9 <small>Nov 8 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
@@ -168,7 +247,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.9.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.9.tar.bz2.asc">owncloud-8.2.9.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.9.zip.asc">owncloud-8.2.9.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest8.1"></a></li>
 <h3>Version 8.1.11 <small>Nov 8 2016</small></h3></li>
 <ul>
 <li>Core: Adjusted documentation link to issue template - <a href="https://github.com/owncloud/core/issues/26087">core/#26087</a></li>
