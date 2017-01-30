@@ -1527,6 +1527,20 @@
          ],
          "imagename":"ooredo.png",
          "supported":true
+      },
+      {
+         "title":"WebhostOne",
+         "url":"https:\/\/www.webhostone.de\/",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+            "consumers",
+            "organisations"
+         ],
+         "imagename":"webhostone.png",
+         "supported":false
       }
     ]
 }
