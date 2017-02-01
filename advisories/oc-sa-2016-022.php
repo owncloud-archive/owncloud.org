@@ -19,11 +19,7 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>9.2.*</strong> (CVE-2016-????)</li>
-<ul>
-<li><a href="https://github.com/owncloud/core/commit/1309dfdcc88ee92bb4deb4d1e87a7120956e24c6">core/1309dfdcc88ee92bb4deb4d1e87a7120956e24c6</a></li>
-</ul>
-<li>ownCloud Server &lt; <strong>9.1.*</strong> (CVE-2016-????)</li>
+            <li>ownCloud Server &lt; <strong>9.1.*</strong> (CVE-2016-????)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/c7c1b61e10514fe4d8efbaf1156501dd795e7ac1">core/c7c1b61e10514fe4d8efbaf1156501dd795e7ac1</a></li>
 </ul>

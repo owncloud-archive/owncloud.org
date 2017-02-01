@@ -1,6 +1,4 @@
-<p>Version 9.2.*</p>
-<a href="/security/advisory?id=oc-sa-2016-022">Bypass received read-only share permissions using read-write reshare</a><br>
-<br/><p>Version 9.1.2</p>
+<p>Version 9.1.2</p>
 <a href="/security/advisory?id=oc-sa-2016-017">SMB User Authentication Bypass</a><br>
 <a href="/security/advisory?id=oc-sa-2016-018">Stored XSS in CardDAV image export</a><br>
 <a href="/security/advisory?id=oc-sa-2016-019">Reflected XSS in Gallery application</a><br>
