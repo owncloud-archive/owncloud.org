@@ -14,7 +14,7 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest9.1"></a></li>
-<h3>Version 9.1.4 <small>Jan 31 2017</small></h3></li>
+<h3>Version 9.1.4 <small>Feb 1 2017</small></h3></li>
 <ul>
 <li>[major] Make error message for password reset form more generic - <a href="https://github.com/owncloud/core/issues/27011">core/#27011</a></li>
 <li>[major] When sharing autocomplete is disabled, also disable for the email field - <a href="https://github.com/owncloud/core/issues/26504">core/#26504</a></li>
@@ -46,7 +46,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.0"></a></li>
-<h3>Version 9.0.8 <small>Jan 31 2017</small></h3></li>
+<h3>Version 9.0.8 <small>Feb 1 2017</small></h3></li>
 <ul>
 <li>[major] Make error message for password reset form more generic - <a href="https://github.com/owncloud/core/issues/27011">core/#27011</a></li>
 <li>[major] When sharing autocomplete is disabled, also disable for the email field - <a href="https://github.com/owncloud/core/issues/26504">core/#26504</a></li>
@@ -72,7 +72,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest8.2"></a></li>
-<h3>Version 8.2.10 <small>Jan 31 2017</small></h3></li>
+<h3>Version 8.2.10 <small>Feb 1 2017</small></h3></li>
 <ul>
 <li>[major] Make error message for password reset form more generic - <a href="https://github.com/owncloud/core/issues/27011">core/#27011</a></li>
 <li>[major] When sharing autocomplete is disabled, also disable for the email field - <a href="https://github.com/owncloud/core/issues/26504">core/#26504</a></li>
@@ -86,7 +86,7 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.10.tar.bz2
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.10.tar.bz2.asc">owncloud-8.2.10.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.10.zip.asc">owncloud-8.2.10.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<h3>Version 8.1.12 <small>Jan 31 2017</small></h3></li>
+<h3>Version 8.1.12 <small>Feb 1 2017</small></h3></li>
 <ul>
 <li>[major] Make error message for password reset form more generic - <a href="https://github.com/owncloud/core/issues/27011">core/#27011</a></li>
 <li>[major] When sharing autocomplete is disabled, also disable for the email field - <a href="https://github.com/owncloud/core/issues/26504">core/#26504</a></li>
