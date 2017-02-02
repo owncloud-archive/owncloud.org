@@ -1,5 +1,7 @@
 <p>Version 9.1.3</p>
-<a href="/security/advisory?id=oc-sa-2016-022">Bypass received read-only share permissions using read-write reshare</a><br>
+<a href="/security/advisory?id=oc-sa-2017-001">User enumeration with error messages</a><br>
+<a href="/security/advisory?id=oc-sa-2017-002">Information disclosure in email field dialog at sharing</a><br>
+<a href="/security/advisory?id=oc-sa-2017-003">Flooding logfiles with a 1 Bit BMP File</a><br>
 <br/><p>Version 9.1.2</p>
 <a href="/security/advisory?id=oc-sa-2016-017">SMB User Authentication Bypass</a><br>
 <a href="/security/advisory?id=oc-sa-2016-018">Stored XSS in CardDAV image export</a><br>
@@ -7,7 +9,9 @@
 <a href="/security/advisory?id=oc-sa-2016-020">Content-Spoofing in "files" app</a><br>
 <a href="/security/advisory?id=oc-sa-2016-021">Content-Spoofing in "dav" app</a><br>
 <br/><p>Version 9.0.7</p>
-<a href="/security/advisory?id=oc-sa-2016-022">Bypass received read-only share permissions using read-write reshare</a><br>
+<a href="/security/advisory?id=oc-sa-2017-001">User enumeration with error messages</a><br>
+<a href="/security/advisory?id=oc-sa-2017-002">Information disclosure in email field dialog at sharing</a><br>
+<a href="/security/advisory?id=oc-sa-2017-003">Flooding logfiles with a 1 Bit BMP File</a><br>
 <br/><p>Version 9.0.6</p>
 <a href="/security/advisory?id=oc-sa-2016-017">SMB User Authentication Bypass</a><br>
 <a href="/security/advisory?id=oc-sa-2016-018">Stored XSS in CardDAV image export</a><br>
@@ -28,6 +32,9 @@
 <a href="/security/advisory?id=oc-sa-2016-009">Incorrect setup of external storage</a><br>
 <br/><p>Version 8.2.9</p>
 <a href="/security/advisory?id=oc-sa-2016-017">SMB User Authentication Bypass</a><br>
+<a href="/security/advisory?id=oc-sa-2017-001">User enumeration with error messages</a><br>
+<a href="/security/advisory?id=oc-sa-2017-002">Information disclosure in email field dialog at sharing</a><br>
+<a href="/security/advisory?id=oc-sa-2017-003">Flooding logfiles with a 1 Bit BMP File</a><br>
 <br/><p>Version 8.2.7</p>
 <a href="/security/advisory?id=oc-sa-2016-012">Log pollution can potentially lead to local HTML injection</a><br>
 <a href="/security/advisory?id=oc-sa-2016-014">Edit permission check not enforced on WebDAV COPY action</a><br>
@@ -41,6 +48,10 @@
 <a href="/security/advisory?id=oc-sa-2016-001">Reflected XSS in OCS provider discovery</a><br>
 <a href="/security/advisory?id=oc-sa-2016-002">Information Exposure Through Directory Listing in the file scanner</a><br>
 <a href="/security/advisory?id=oc-sa-2016-003">Disclosure of files that begin with ".v" due to unchecked return value</a><br>
+<br/><p>Version 8.1.11</p>
+<a href="/security/advisory?id=oc-sa-2017-001">User enumeration with error messages</a><br>
+<a href="/security/advisory?id=oc-sa-2017-002">Information disclosure in email field dialog at sharing</a><br>
+<a href="/security/advisory?id=oc-sa-2017-003">Flooding logfiles with a 1 Bit BMP File</a><br>
 <br/><p>Version 8.1.9</p>
 <a href="/security/advisory?id=oc-sa-2016-012">Log pollution can potentially lead to local HTML injection</a><br>
 <a href="/security/advisory?id=oc-sa-2016-014">Edit permission check not enforced on WebDAV COPY action</a><br>

@@ -5,11 +5,23 @@
  <link>https://owncloud.org/security/advisories/</link>
  <description>The ownCloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
-  <title>Server: Bypass received read-only share permissions using read-write reshare (oC-SA-2016-022)</title>
-  <description>&lt;p&gt;User can upload and modify the link share contents even though the original sharer has only read-only access.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-022&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
-  <link>https://owncloud.org/security/advisory/?id=oC-SA-2016-022</link>
-  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2016-022</guid>
-  <pubDate>Tue, 20 Dec 2016 09:51:25 +0100</pubDate>
+  <title>Server: Flooding logfiles with a 1 Bit BMP File (oC-SA-2017-003)</title>
+  <description>&lt;p&gt;An Attacker can upload a 1 Bit BMP File and the server hangs and doesn't stop to populate a logfile&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2017-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2017-003</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2017-003</guid>
+  <pubDate>Thu, 02 Feb 2017 08:46:29 +0100</pubDate>
+ </item><item>
+  <title>Server: Information disclosure in email field dialog at sharing (oC-SA-2017-002)</title>
+  <description>&lt;p&gt;An attacker can get sensitive information in the E-Mail share dialog with the autocompletion by default&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2017-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2017-002</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2017-002</guid>
+  <pubDate>Thu, 02 Feb 2017 08:46:29 +0100</pubDate>
+ </item><item>
+  <title>Server: User enumeration with error messages (oC-SA-2017-001)</title>
+  <description>&lt;p&gt;This issue occurs at sending a password reset E-Mail, where a difference in error messages could allow an attacker to determine if the username is valid or not&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2017-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2017-001</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2017-001</guid>
+  <pubDate>Thu, 02 Feb 2017 08:46:29 +0100</pubDate>
  </item><item>
   <title>Server: Content-Spoofing in &quot;dav&quot; app (oC-SA-2016-021)</title>
   <description>&lt;p&gt;The exception message displayed on the DAV endpoints contained partially user-controllable input leading to a potential misrepresentation of information.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-021&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
