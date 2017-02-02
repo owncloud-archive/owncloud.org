@@ -8,7 +8,6 @@
 <a href="/security/advisory?id=oc-sa-2016-019">Reflected XSS in Gallery application</a><br>
 <a href="/security/advisory?id=oc-sa-2016-020">Content-Spoofing in "files" app</a><br>
 <a href="/security/advisory?id=oc-sa-2016-021">Content-Spoofing in "dav" app</a><br>
-<br/><p>Version 9.1.*</p>
 <a href="/security/advisory?id=oc-sa-2016-022">Bypass received read-only share permissions using read-write reshare</a><br>
 <br/><p>Version 9.0.7</p>
 <a href="/security/advisory?id=oc-sa-2017-001">User enumeration with error messages</a><br>
@@ -20,6 +19,7 @@
 <a href="/security/advisory?id=oc-sa-2016-019">Reflected XSS in Gallery application</a><br>
 <a href="/security/advisory?id=oc-sa-2016-020">Content-Spoofing in "files" app</a><br>
 <a href="/security/advisory?id=oc-sa-2016-021">Content-Spoofing in "dav" app</a><br>
+<a href="/security/advisory?id=oc-sa-2016-022">Bypass received read-only share permissions using read-write reshare</a><br>
 <br/><p>Version 9.0.4</p>
 <a href="/security/advisory?id=oc-sa-2016-011">Stored XSS in gallery application</a><br>
 <a href="/security/advisory?id=oc-sa-2016-012">Log pollution can potentially lead to local HTML injection</a><br>
@@ -32,8 +32,6 @@
 <a href="/security/advisory?id=oc-sa-2016-007">Open Redirector involving user interaction</a><br>
 <a href="/security/advisory?id=oc-sa-2016-008">Disclosure of arbitrary certificate files</a><br>
 <a href="/security/advisory?id=oc-sa-2016-009">Incorrect setup of external storage</a><br>
-<br/><p>Version 9.0.*</p>
-<a href="/security/advisory?id=oc-sa-2016-022">Bypass received read-only share permissions using read-write reshare</a><br>
 <br/><p>Version 8.2.9</p>
 <a href="/security/advisory?id=oc-sa-2016-017">SMB User Authentication Bypass</a><br>
 <a href="/security/advisory?id=oc-sa-2017-001">User enumeration with error messages</a><br>
