@@ -141,7 +141,7 @@
 								</div>
 								<hr>
 								<p class="installatlation-instructions"><strong>Installation Instructions:</strong></p>
-								<p>Clicking on “Continue” will forward you to the ownCloud download page, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there. Here is the <a href="<?php echo get_template_directory_uri(); ?>/assets/files/obs-release-signing.gpg">key used to sign our packages</a>.</p>
+								<p>Clicking on “Continue” will forward you to the ownCloud download page, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there. Here are the <a href="<?php echo get_template_directory_uri(); ?>/assets/files/opensuse_obs-release-signing.gpg">ownCloud packages <= 8.1</a> and <a href="<?php echo get_template_directory_uri(); ?>/assets/files/owncloud_org_obs-release-signing.gpg">ownCloud packages >= 8.2</a> used to sign our packages.</p>
 								<p>The repositories allow you to stay on an up-to-date version of ownCloud using your distributions’ update mechanism, with packages maintained by the ownCloud community.</p>
 								<p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation">ownCloud Admin Manual</a>. If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a for moving to new ownCloud releases.</p>
 							</div>
@@ -282,6 +282,7 @@
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Multiple distributions</small></a>
 							<br><br>
 							<p>Looking for the <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>">Sources</a> (<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP; ?>">PGP signature</a>) or <a href="/changelog/desktop">older versions</a>? For more information on the sync client, check out the <a target="_blank" href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>/">documentation</a>.</p>
+							<p>Here is the <a href="<?php echo get_template_directory_uri(); ?>/assets/files/opensuse_obs-release-signing.gpg">key used to sign our packages</a>.</p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
