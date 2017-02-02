@@ -23,6 +23,12 @@
   <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2017-001</guid>
   <pubDate>Thu, 02 Feb 2017 08:46:29 +0100</pubDate>
  </item><item>
+  <title>Server: Bypass received read-only share permissions using read-write reshare (oC-SA-2016-022)</title>
+  <description>&lt;p&gt;User can upload and modify the link share contents even though the original sharer has only read-only access.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-022&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2016-022</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2016-022</guid>
+  <pubDate>Tue, 20 Dec 2016 09:51:25 +0100</pubDate>
+ </item><item>
   <title>Server: Content-Spoofing in &quot;dav&quot; app (oC-SA-2016-021)</title>
   <description>&lt;p&gt;The exception message displayed on the DAV endpoints contained partially user-controllable input leading to a potential misrepresentation of information.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2016-021&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://owncloud.org/security/advisory/?id=oC-SA-2016-021</link>
