@@ -19,19 +19,19 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>9.1.3</strong> (CVE-2017-????)</li>
+            <li>ownCloud Server &lt; <strong>9.1.3</strong> (CVE-2017-5865)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/d2f47acb38675d2798fe9e9b6294981f24613d40">core/d2f47acb38675d2798fe9e9b6294981f24613d40</a></li>
 </ul>
-<li>ownCloud Server &lt; <strong>9.0.7</strong> (CVE-2017-????)</li>
+<li>ownCloud Server &lt; <strong>9.0.7</strong> (CVE-2017-5865)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/108c8131abf3c9e4728908475c2afc4ec5f0651e">core/108c8131abf3c9e4728908475c2afc4ec5f0651e</a></li>
 </ul>
-<li>ownCloud Server &lt; <strong>8.2.9</strong> (CVE-2017-????)</li>
+<li>ownCloud Server &lt; <strong>8.2.9</strong> (CVE-2017-5865)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/f36952f4d1a2dbeac43fd9c2760c7a23035537c2">core/f36952f4d1a2dbeac43fd9c2760c7a23035537c2</a></li>
 </ul>
-<li>ownCloud Server &lt; <strong>8.1.11</strong> (CVE-2017-????)</li>
+<li>ownCloud Server &lt; <strong>8.1.11</strong> (CVE-2017-5865)</li>
 <ul>
 <li><a href="https://github.com/owncloud/core/commit/cc616a79398a2be5beb64bcf52511f75833629ca">core/cc616a79398a2be5beb64bcf52511f75833629ca</a></li>
 </ul>
