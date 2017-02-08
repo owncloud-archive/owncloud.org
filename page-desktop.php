@@ -2,6 +2,54 @@
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
 
+<h3 id="230">Release 2.3.0 <b>beta1</b> <small>February 8th 2017</small></h3>
+<ul>
+    <li>Decreased memory usage during sync</li>
+    <li>Overlay icons: Lower CPU usage</li>
+    <li>Allow to not sync the server's external storages by default</li>
+    <li>Switch Windows and OS X build to 5.6.2</li>
+    <li>Switch to new ownCloud server WebDAV endpoint</li>
+    <li>Chunking NG: New file upload chunking algorithmn for ownCloud server 9.2</li>
+    <li>Allow to sync a folder to multiple different servers (Filename change from .csync_journal.db to _sync_$HASH.db)</li>
+    <li>Conflicts: Use the local mtime for the conflict file name (<a href="https://github.com/owncloud/client/issues/5273">#5273</a>)</li>
+    <li>"Sync now" menu item</li>
+    <li>SSL Client certificate support improved (Show UI, Store keys in keychain)</li>
+    <li>Propagator: Upload more small files in parallel</li>
+    <li>Sync Engine: Read data-fingerprint property to detect backups (<a href="https://github.com/owncloud/client/issues/2325">#2325</a>)</li>
+    <li>GUI: Show link to ceate an app password/token for syncing</li>
+    <li>Share dialog: Add 'Mail link' button</li>
+    <li>Caja file manager plugin</li>
+    <li>Make "backup detected" message to not trigger in wrong cases</li>
+    <li>SyncEngine: Fix renaming of folder when file are changed (<a href="https://github.com/owncloud/client/issues/5192">#5192</a>)</li>
+    <li>Fix reconnect bug if status.php intermittently returns wrong data (<a href="https://github.com/owncloud/client/issues/5188">#5188</a>)</li>
+    <li>Improve sync scheduling (<a href="https://github.com/owncloud/client/issues/5317">#5317</a>)</li>
+    <li>Overlay icons: Improvements in correctnes</li>
+    <li>Tray menu: Only update on demand to fix Linux desktop integration glitches</li>
+    <li>Progress: Better time/bandwidth estimations</li>
+    <li>Network: Follow certain HTTP redirects (<a href="https://github.com/owncloud/client/issues/2791">#2791</a>)</li>
+    <li>Network: Remove all cookies (including load balancers etc) when logging out</li>
+    <li>Discovery thread: Low priority</li>
+    <li>owncloudsync.log: Write during propagation</li>
+    <li>Better error message for files with trailing spaces on Windows</li>
+    <li>Excludes: Consider files in hidden folders excluded (<a href="https://github.com/owncloud/client/issues/5163">#5163</a>)</li>
+    <li>Allow sync directory to be a symlinked directory</li>
+    <li>Add manifest file on Windows to make the application UAC aware</li>
+    <li>macOS: Improve monochrome tray icons</li>
+    <li>Don't blacklist 507 Insufficent Storage (<a href="https://github.com/owncloud/client/issues/5346">#5346</a>, <a href="https://github.com/owncloud/client/issues/5424">#5424</a>)</li>
+    <li>Shibboleth bugfixes</li>
+    <li>Fixes with regards to low disk space</li>
+    <li>A ton of other bugfixes</li>
+    <li>Refactorings</li>
+    <li>Improved documentation</li>
+    <li>Crash fixes</li>
+</ul>
+Download:
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.0.6724beta1-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.0.4038beta1.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.0beta1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.0.tar.xz.asc">PGP signature</a>)
+
+
 <h3 id="224">Release 2.2.4 <small>September 27th 2016</small></h3>
 <ul>
 <li>Dolphin Plugin: Use the Application name for the socket path (<a href="https://github.com/owncloud/client/issues/5172">#5172</a>)</li>
