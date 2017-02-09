@@ -86,6 +86,7 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.10.tar.bz2
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.10.tar.bz2.asc">owncloud-8.2.10.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.10.zip.asc">owncloud-8.2.10.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
+<a name="latest8.1"></a></li>
 <h3>Version 8.1.12 <small>Feb 2 2017</small></h3></li>
 <ul>
 <li>[major] Make error message for password reset form more generic - <a href="https://github.com/owncloud/core/issues/27011">core/#27011</a></li>
