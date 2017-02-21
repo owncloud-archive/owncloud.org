@@ -2,12 +2,12 @@
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
 
-<h3 id="230">Release 2.3.0 <b>beta1</b> <small>February 8th 2017</small></h3>
+<h3 id="230">Release 2.3.0 <b>rc1</b> <small>February 21th 2017</small></h3>
 <ul>
     <li>Decreased memory usage during sync</li>
     <li>Overlay icons: Lower CPU usage</li>
     <li>Allow to not sync the server's external storages by default</li>
-    <li>Switch Windows and OS X build to 5.6.2</li>
+    <li>Switch Windows and OS X build to Qt 5.6.2</li>
     <li>Switch to new ownCloud server WebDAV endpoint</li>
     <li>Chunking NG: New file upload chunking algorithmn for ownCloud server 9.2</li>
     <li>Allow to sync a folder to multiple different servers (Filename change from .csync_journal.db to _sync_$HASH.db)</li>
@@ -35,7 +35,6 @@
     <li>Allow sync directory to be a symlinked directory</li>
     <li>Add manifest file on Windows to make the application UAC aware</li>
     <li>macOS: Improve monochrome tray icons</li>
-    <li>Don't blacklist 507 Insufficent Storage (<a href="https://github.com/owncloud/client/issues/5346">#5346</a>, <a href="https://github.com/owncloud/client/issues/5424">#5424</a>)</li>
     <li>Shibboleth bugfixes</li>
     <li>Fixes with regards to low disk space</li>
     <li>A ton of other bugfixes</li>
@@ -44,10 +43,10 @@
     <li>Crash fixes</li>
 </ul>
 Download:
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.0.6724beta1-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.0.4038beta1.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.0beta1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.0.tar.xz.asc">PGP signature</a>)
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.0.6752rc1-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.0.4067rc1.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&amp;package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.0rc1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.0rc1.tar.xz.asc">PGP signature</a>)
 
 
 <h3 id="224">Release 2.2.4 <small>September 27th 2016</small></h3>
@@ -63,7 +62,7 @@ Download:
 Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.4.6408-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.4.3709.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.4.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.2.4.tar.xz.asc">PGP signature</a>)
 
 <h3 id="223">Release 2.2.3 <small>August 8th 2016</small></h3>
@@ -90,7 +89,7 @@ Download:
 Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.3.6307-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.3.3601.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.3.tar.xz">Sources</a>
 (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.3.tar.xz.asc">PGP signature</a>)
 
@@ -102,7 +101,7 @@ Download:
 Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.2.6192-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.2.3472.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.2.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.2.tar.xz.asc">PGP signature</a>)
 
 <h3 id="221">Release 2.2.1 <small>June 6th 2016</small></h3>
