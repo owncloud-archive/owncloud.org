@@ -45,7 +45,7 @@
 Download:
 <a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.0.6752rc1-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.0.4067rc1.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&package=owncloud-client">Linux</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&amp;package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.0rc1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.0rc1.tar.xz.asc">PGP signature</a>)
 
 
@@ -62,7 +62,7 @@ Download:
 Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.4.6408-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.4.3709.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.4.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.2.4.tar.xz.asc">PGP signature</a>)
 
 <h3 id="223">Release 2.2.3 <small>August 8th 2016</small></h3>
@@ -89,7 +89,7 @@ Download:
 Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.3.6307-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.3.3601.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.3.tar.xz">Sources</a>
 (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.3.tar.xz.asc">PGP signature</a>)
 
@@ -101,7 +101,7 @@ Download:
 Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.2.6192-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.2.2.3472.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client">Linux</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.2.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.2.2.tar.xz.asc">PGP signature</a>)
 
 <h3 id="221">Release 2.2.1 <small>June 6th 2016</small></h3>
