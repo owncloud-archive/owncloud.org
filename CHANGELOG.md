@@ -1,4 +1,5 @@
 # note that this file is no longer maintained. See owncloud.org/changelog for the current change log.
+# the changelog for the client is in page-desktop.php
 
 ### HEAD
 * Switch `div.main` to `main` element now that Modernizr uses the latest HTML5 Shiv
