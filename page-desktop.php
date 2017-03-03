@@ -2,7 +2,7 @@
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
 
-<h3 id="230">Release 2.3.0 <b>rc3</b> <small>February 27th 2017</small></h3>
+<h3 id="230">Release 2.3.0 <small>March 3rd 2017</small></h3>
 <ul>
     <li>Decreased memory usage during sync</li>
     <li>Overlay icons: Lower CPU usage</li>
@@ -43,10 +43,10 @@
     <li>Crash fixes</li>
 </ul>
 Download:
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.0.6770rc3-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.0.4086rc3.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&amp;package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.0rc3.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.0rc3.tar.xz.asc">PGP signature</a>)
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.0.6780-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.0.4097.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.0.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.0.tar.xz.asc">PGP signature</a>)
 
 
 <h3 id="224">Release 2.2.4 <small>September 27th 2016</small></h3>
