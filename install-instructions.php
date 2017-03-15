@@ -70,7 +70,7 @@
               <h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
 							<h4><strong><a class="changelog" href="/changelog">See what's new (Changelog)</a></strong></h4>
 							<a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>" class="button blue primary">Download ownCloud Server</a>
-							<p class="text-center archive-types">.zip (38,8 MB) | <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">Download tar.bz2 (27,7 MB)</a></p>
+							<p class="text-center archive-types"><a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">Download tar.bz2</a></p>
 							<p class="mt30">Want to use ownCloud for your Company?</p>
 							<a href="https://owncloud.com/download/?ref=orgB" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
 							<hr />
