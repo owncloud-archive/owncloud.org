@@ -7,7 +7,7 @@
 	<li>Fix several crashes (thanks to everyone submitting to our crash reporter!)</li>
 	<li>Improve HTTP redirect handling (<a href="https://github.com/owncloud/client/issues/5555">#5555</a>)</li>
 	<li>Blacklist: Escalate repeated soft error to normal error (<a href="https://github.com/owncloud/client/issues/5500">#5500</a>)</li>
-	<li>NTFS: Do not attempt to upload two existing files with similar casing (<a href="https://github.com/owncloud/client/issues/5533">#5533</a>)</li>
+	<li>NTFS: Do not attempt to upload two existing files with similar casing (<a href="https://github.com/owncloud/client/issues/5544">#5544</a>)</li>
 	<li>Fix URL for linking to application password generation for ownCloud 10.0 (<a href="https://github.com/owncloud/client/issues/5605">#5605</a>)</li>
 </ul>	
 Download:
