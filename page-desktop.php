@@ -2,7 +2,7 @@
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
 
-<h3 id="231">Release 2.3.1 <b>rc1</b> <small>March 16th 2017</small></h3>
+<h3 id="231">Release 2.3.1<small>March 21th 2017</small></h3>
 <ul>
 	<li>Fix several crashes (thanks to everyone submitting to our crash reporter!)</li>
 	<li>Improve HTTP redirect handling (<a href="https://github.com/owncloud/client/issues/5555">#5555</a>)</li>
@@ -11,10 +11,10 @@
 	<li>Fix URL for linking to application password generation for ownCloud 10.0 (<a href="https://github.com/owncloud/client/issues/5605">#5605</a>)</li>
 </ul>	
 Download:
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.1.6812rc1-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.1.4127rc1.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&amp;package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.1rc1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.1rc1.tar.xz.asc">PGP signature</a>)
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.1.6824-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.1.4139.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.1.tar.xz.asc">PGP signature</a>)
 
 <h3 id="230">Release 2.3.0 <small>March 3rd 2017</small></h3>
 <ul>
