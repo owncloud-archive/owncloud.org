@@ -1541,6 +1541,47 @@
          ],
          "imagename":"webhostone.png",
          "supported":false
+      },
+      {
+         "title":"Mydreams.cz",
+         "url":"http:\/\/mydreams.cz/cz/saas-servery/owncloud-hosting.html\/",
+         "flags":[
+            "cz"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations"
+         ],
+         "imagename":"mydreams.cz_logo.png",
+         "supported":false
+      },
+      {
+         "title":"Mijnbubbel",
+         "url":"https:\/\/abo.mijnbubbel.nl\/",
+         "flags":[
+            "nl"
+         ],
+         "freeplans":false,
+         "supports":[
+           "consumers",
+           "organisations"
+         ],
+         "imagename":"mijnbubbel_logo.png",
+         "supported":false
+      },
+      {
+         "title":"Yourcloud.Asia",
+         "url":"https:\/\/yourcloud.asia\/",
+         "flags":[
+            "hk"
+         ],
+         "freeplans":false,
+         "supports":[
+           "consumers",
+           "organisations"
+         ],
+         "imagename":"yourcloud-asia_logo.png",
+         "supported":false
       }
     ]
 }
