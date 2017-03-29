@@ -42,7 +42,7 @@ Do you want to <strong>help</strong> translate, promote or document ownCloud?</p
 	</div>
 	<div class="col-md-6">
             <h3><i class="icon-refresh"></i>&nbsp;&nbsp;Test ownCloud</h3>
-            <p> Download test packages from <a href="https://owncloud.org/install/#testing-development">https://owncloud.org/install/#testing-development</a>.
+            <p> Download test archives and packages from <a href="https://owncloud.org/install/#testing-development">https://owncloud.org/install/#testing-development</a>.
               
             <p>Testing upcoming ownCloud Server releases is the best way of making sure the new release can do what you need it 
             to do. And of course, only if you report a problem to us we know about it and can fix it! If you have a bug to report,
