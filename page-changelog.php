@@ -76,7 +76,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <a name="latest8.2"></a></li>
 <h3>Version 8.2.11 <small>Apr 18 2017</small></h3></li>
 <ul>
-<li>[major] Use proxy settings when connecting to remote shres - <a href="https://github.com/owncloud/core/issues/27410">core/#27410</a></li>
+<li>[major] Use proxy settings when connecting to remote shares - <a href="https://github.com/owncloud/core/issues/27410">core/#27410</a></li>
 <li>[major] Fix issue with non-deletable SMB folders when trashbin is disabled - <a href="https://github.com/owncloud/core/issues/27101">core/#27101</a></li>
 <li>[minor] Updated ca-bundle.crt
 <li>[minor] Fix inconsistent default value for share dialog user enumeration setting - <a href="https://github.com/owncloud/core/issues/27224">core/#27224</a></li>
