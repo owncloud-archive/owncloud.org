@@ -983,19 +983,6 @@
          "imagename":"webhostface.png"
       },
       {
-         "title":"edxinfo.com.br",
-         "url":"http:\/\/www.edxinfo.com.br\/#!novidades\/c1pmg",
-         "flags":[
-            "br"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"edx.jpeg"
-      },
-      {
          "title":"huyn.de",
          "url":"http:\/\/www.huynh.de\/index.php?id=226",
          "flags":[
@@ -1177,19 +1164,6 @@
          "imagename":"prega.png"
       },
       {
-         "title":"syndicat",
-         "url":"http:\/\/www.syndicat.com\/internet\/internet_services/cloud\/owncloud\/index_ger.html",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"syndicat.png"
-      },
-      {
          "title":"agilogik",
          "url":"http:\/\/agilogik.de",
          "flags":[
@@ -1252,19 +1226,6 @@
             "organisations"
             ],
          "imagename":"webis.png"
-      },
-      {
-         "title":"JABA hosting",
-         "url":"http:\/\/www.jaba.hosting\/owncloud",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"jaba.png"
       },
       {
          "title":"Yorkshire Hosting",
@@ -1346,20 +1307,6 @@
          "imagename":"wint.png"
       },
       {
-         "title":"ownserver.org",
-         "url":"http:\/\/ownserver.org",
-         "flags":[
-            "us",
-            "nl"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"ownserver.jpg"
-      },
-      {
          "title":"cloudron.io",
          "url":"http:\/\/cloudron.io\/appstore.html#org.owncloud.cloudronapp",
          "flags":[
@@ -1387,19 +1334,6 @@
          "imagename":"d9tready.png"
       },
       {
-         "title":"unixcorn.org",
-         "url":"http:\/\/unixcorn.org",
-         "flags":[
-            "fr"
-         ],
-         "freeplans":true,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"unixcorn.png"
-      },
-      {
          "title":"spryservers.net",
          "url":"http:\/\/spryservers.net\/sprycloud",
          "flags":[
@@ -1411,18 +1345,6 @@
             "organisations"
             ],
          "imagename":"spryservers.png"
-      },
-      {
-         "title":"quexacloud.de",
-         "url":"http:\/\/quexacloud.de",
-         "flags":[
-            "de"
-            ],
-         "freeplans":true,
-         "supports":[
-            "consumers"
-            ],
-         "imagename":"quexacloud.png"
       },
       {
          "title":"DFI.ch",
