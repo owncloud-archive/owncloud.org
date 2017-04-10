@@ -25,10 +25,8 @@ ownCloud Server:
 </ul>
 ownCloud Desktop Client:
 <ul>
-	<li>1.6.x</li>
-	<li>1.7.x</li>
-  <li>1.8.x</li>
-	<li>2.0.x</li>
+	<li>2.2.4</li>
+	<li>2.3.1</li>
 </ul>
 <h3>Unsupported Product Versions</h3>
 ownCloud Server:
