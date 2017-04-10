@@ -16,6 +16,7 @@ Go directly to the latest maintenance release of:
 <a name="latest9.1"></a></li>
 <h3>Version 9.1.5 <small>Apr 18 2017</small></h3></li>
 <ul>
+<li>[major] Fix potential DB crash due to DB locks with Galera Cluster - <a href="https://github.com/owncloud/core/issues/27071">core/#27071</a></li>
 <li>[major] Renaming SMB mount point now does not delete its contents - <a href="https://github.com/owncloud/core/issues/27377">core/#27377</a></li>
 <li>[major] Fix quota behavior inconsistencies with LDAP quota - <a href="https://github.com/owncloud/core/issues/27420">core/#27420</a></li>
 <li>[major] Prevent useless queries to local DB users table when using LDAP - <a href="https://github.com/owncloud/core/issues/27068">core/#27068</a></li>
