@@ -8,7 +8,7 @@
 <div class="row">
 	<div class="col-md-12">
 		<h2>Event Archive</h2>
-		<p>This is our event archive. Here you can find the events where we participated in the last years, beginning from 2015. For current events, take a look at our <a target="_blank" href="page-events.php">events page</a>.</p>
+		<p>This is our event archive. Here you can find the events where we participated in the last years, beginning from 2015. For current events, take a look at our <a target="_blank" href="/events/">events page</a>.</p>
 
 		<h3>Events we've been at in 2016</h3>
 		<table class="table table-striped">
