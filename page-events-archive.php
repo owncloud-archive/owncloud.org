@@ -1,14 +1,10 @@
-<?php get_template_part('templates/parts/title'); ?>
-<div class="sub-nav">
-	<!-- a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
-	|&nbsp;&nbsp; -->
-	<a href="/events/conference-program">Conference Program</a>
-	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
+<div class="page-header">
+	<h1><a href="/events">Events</a> > Archive</h1>
 </div>
 <div class="row">
 	<div class="col-md-12">
 		<h2>Event Archive</h2>
-		<p>This is our event archive. Here you can find the events where we participated in the last years, beginning from 2015. For current events, take a look at our <a target="_blank" href="page-events.php">events page</a>.</p>
+		<p>This is our event archive. Here you can find the events where we participated in the last years, beginning from 2015. For current events, take a look at our <a target="_blank" href="/events/">events page</a>.</p>
 
 		<h3>Events we've been at in 2016</h3>
 		<table class="table table-striped">
