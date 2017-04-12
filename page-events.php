@@ -164,10 +164,10 @@
 				<td><a target="_blank" href="https://owncloud.org/blog/printing-our-own-cloud/">blog</a></td>
 			</tr>
 			<tr>
-				<td>CS3</td>
+				<td>Talk at CS3</td>
 				<td>Amsterdam, Netherlands</td>
 				<td>January 30-February 1</td>
-				<td><a target="_blank" href="https://cs3.surfsara.nl/">website</a></td>
+				<td><a target="_blank" href="https://cs3.surfsara.nl/">website</a> and <a target="_blank" "href="https://www.youtube.com/watch?v=fryGxDdG1LY">talk</a></td>
 			</tr>
 			<tr>
 				<td>Univention Summit</td>
