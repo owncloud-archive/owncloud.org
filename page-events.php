@@ -176,10 +176,8 @@
 			</tr>
 		</table>
 		
-<!-- Link is broken. Include this as soon as it is fixed
 		<h3>Events before 2017</h3>
-		<p>For events before 2017, please take a look into our <a target="_blank" href="page-events-archive.php">Event Archive</a>.</p>
---!>
+		<p>For events before 2017, please take a look into our <a target="_blank" href="/events-archive">Event Archive</a>.</p>
 
 <!--		<h2>Release parties</h2>
 		<p>One of the best parts of an ownCloud release, are the community release parties! A release party can be a meeting in a cafe or office with a
