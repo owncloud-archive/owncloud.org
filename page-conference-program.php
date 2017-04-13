@@ -4,8 +4,8 @@
 <div class="sub-nav">
 	<!-- a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
 	|&nbsp;&nbsp; -->
-	Conference Program&nbsp;&nbsp;
-	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
+	<a href="/events/conference-program">Conference Program</a>
+	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>|&nbsp;&nbsp;<a href="/events/events-archive">Events Archive</a>
 </div>
 <div class="row">
 	<div class="col-md-12">
