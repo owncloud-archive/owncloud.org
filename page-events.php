@@ -116,7 +116,7 @@
 			</tr>
 		</table>
 		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
-		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know via the contact form</a> or email the events mailing list!</p>
+		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know via the contact form</a> or email the user mailing list!</p>
 
 		<h3>Events we've been at in 2017</h3>
 		<table class="table table-striped">
@@ -163,10 +163,10 @@
 				<td><a target="_blank" href="https://owncloud.org/blog/printing-our-own-cloud/">blog</a></td>
 			</tr>
 			<tr>
-				<td>CS3</td>
+				<td>Talk at CS3</td>
 				<td>Amsterdam, Netherlands</td>
 				<td>January 30-February 1</td>
-				<td><a target="_blank" href="https://cs3.surfsara.nl/">website</a></td>
+				<td><a target="_blank" href="https://cs3.surfsara.nl/">website</a> and <a target="_blank" "href="https://www.youtube.com/watch?v=fryGxDdG1LY">talk</a></td>
 			</tr>
 			<tr>
 				<td>Univention Summit</td>
@@ -176,10 +176,8 @@
 			</tr>
 		</table>
 		
-<!-- Link is broken. Include this as soon as it is fixed
 		<h3>Events before 2017</h3>
-		<p>For events before 2017, please take a look into our <a target="_blank" href="page-events-archive.php">Event Archive</a>.</p>
---!>
+		<p>For events before 2017, please take a look into our <a target="_blank" href="/events-archive">Event Archive</a>.</p>
 
 <!--		<h2>Release parties</h2>
 		<p>One of the best parts of an ownCloud release, are the community release parties! A release party can be a meeting in a cafe or office with a
