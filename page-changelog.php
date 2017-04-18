@@ -28,7 +28,8 @@ Go directly to the latest maintenance release of:
 <li>[major] Add support for custom Sabre auth plugin registration in core - <a href="https://github.com/owncloud/core/issues/27370">core/#27370</a></li>
 <li>[major] Fix home folder deletion which could fail with LDAP and home attribute in some cases - <a href="https://github.com/owncloud/core/issues/26848">core/#26848</a></li>
 <li>[major] Enable exponential backoff in GDrive SDK library to reduce API rate limit issues - <a href="https://github.com/owncloud/core/issues/20481">core/#20481</a></li>
-<li>[minor] Updated ca-bundle.crt
+<li>[minor] Fix web updater on some setups that show error message about session already closed - <a href="https://github.com/owncloud/core/issues/27647">core/#27647</a></li>
+<li>[minor] Updated ca-bundle.crt - <a href="https://github.com/owncloud/core/issues/27513">core/#27513</a></li>
 <li>[minor] Remove useless warning about contact id when sharing with email - <a href="https://github.com/owncloud/core/issues/27225">core/#27225</a></li>
 <li>[minor] Don't store empty groups in system tags table - <a href="https://github.com/owncloud/core/issues/27295">core/#27295</a></li>
 <li>[minor] When running cron the log now contains each job's last duration - <a href="https://github.com/owncloud/core/issues/27239">core/#27239</a></li>
@@ -57,7 +58,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <li>[major] Fix quota behavior inconsistencies with LDAP quota - <a href="https://github.com/owncloud/core/issues/27420">core/#27420</a></li>
 <li>[major] Prevent useless queries to local DB users table when using LDAP - <a href="https://github.com/owncloud/core/issues/27068">core/#27068</a></li>
 <li>[major] Reduce queries to storages table by caching known entries in memcache - <a href="https://github.com/owncloud/core/issues/27312">core/#27312</a></li>
-<li>[minor] Updated ca-bundle.crt
+<li>[minor] Updated ca-bundle.crt - <a href="https://github.com/owncloud/core/issues/27513">core/#27513</a></li>
 <li>[minor] Sharing field now does not show remote entry when entering local account/email address - <a href="https://github.com/owncloud/core/issues/26647">core/#26647</a></li>
 <li>[minor] Fix integrity check warning about gitignore when updating to 9.1 - <a href="https://github.com/owncloud/updater/issues/418">updater/#418</a></li>
 <li>[minor] Fix mixed translations for LDAP users on some setups - <a href="https://github.com/owncloud/core/issues/27328">core/#27328</a></li>
@@ -79,7 +80,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
 <ul>
 <li>[major] Use proxy settings when connecting to remote shares - <a href="https://github.com/owncloud/core/issues/27410">core/#27410</a></li>
 <li>[major] Fix issue with non-deletable SMB folders when trashbin is disabled - <a href="https://github.com/owncloud/core/issues/27101">core/#27101</a></li>
-<li>[minor] Updated ca-bundle.crt
+<li>[minor] Updated ca-bundle.crt - <a href="https://github.com/owncloud/core/issues/27513">core/#27513</a></li>
 <li>[minor] Fix inconsistent default value for share dialog user enumeration setting - <a href="https://github.com/owncloud/core/issues/27224">core/#27224</a></li>
 <li>[minor] Fix small autoloader issue in rare situations - <a href="https://github.com/owncloud/core/issues/27108">core/#27108</a></li>
 <li>[minor] Fix log message with monochrome BMP preview - <a href="https://github.com/owncloud/core/issues/27044">core/#27044</a></li>
