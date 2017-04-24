@@ -5,7 +5,7 @@
 <h3 id="232">Release 2.3.2 <b>rc1</b> <small>April 24th 2017</small></h3>
 <ul>
 	<li>Fix more crashes (thanks to everyone submitting to our crash reporter!)</li>
-	<li>Improve compatibility with server 10.0 (<a href="https://github.com/owncloud/client/issues/5691">5691</a>, <pre>X-OC-Total-Size</pre>)</li>
+	<li>Improve compatibility with server 10.0 (<a href="https://github.com/owncloud/client/issues/5691">5691</a>, <tt>X-OC-Total-Size</tt>)</li>
 	<li>Share dialog: UI improvements, Bring to front on tray click</li>
 	<li>owncloudcmd: Align process return value with sync return value (<a href="https://github.com/owncloud/client/issues/3936">3936</a>)</li>
 
