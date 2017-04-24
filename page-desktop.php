@@ -2,6 +2,21 @@
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
 
+<h3 id="232">Release 2.3.2 <b>rc1</b> <small>April 24th 2017</small></h3>
+<ul>
+	<li>Fix more crashes (thanks to everyone submitting to our crash reporter!)</li>
+	<li>Improve compatibility with server 10.0 (<a href="https://github.com/owncloud/client/issues/5691">5691</a>, <pre>X-OC-Total-Size</pre>)</li>
+	<li>Share dialog: UI improvements, Bring to front on tray click</li>
+	<li>owncloudcmd: Align process return value with sync return value (<a href="https://github.com/owncloud/client/issues/3936">3936</a>)</li>
+
+</ul>
+Download:
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.2.6896rc1-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.2.4217rc1.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&amp;package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.2rc1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.2rc1.tar.xz.asc">PGP signature</a>)
+
+
 <h3 id="231">Release 2.3.1<small>March 21th 2017</small></h3>
 <ul>
 	<li>Fix several crashes (thanks to everyone submitting to our crash reporter!)</li>
