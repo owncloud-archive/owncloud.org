@@ -1465,6 +1465,22 @@
          ],
          "imagename":"visualcosmos.jpg",
          "supported":false
+      },
+      {
+         "title":"Slavedata",
+         "url":"https:\/\/slavedata.com/eservices/cloud-storage\/",
+         "flags":[
+            "cy",
+            "fr",
+            "sk"
+         ],
+         "freeplans":false,
+         "supports":[
+           "consumers",
+           "organisations"
+         ],
+         "imagename":"slavedata-black-logo.png",
+         "supported":false
       }
     ]
 }
