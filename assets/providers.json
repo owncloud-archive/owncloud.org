@@ -14,19 +14,6 @@
          "supported":false
       },
       {
-         "title":"kangaroot.net",
-         "url":"http:\/\/www.kangaroot.net\/kangaroot-owncloud\/",
-         "flags":[
-            "gb"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations"
-         ],
-         "imagename":"kangaroot.png",
-         "supported":false
-      },
-      {
          "title":"enavn.net",
          "url":"http:\/\/web.enavn.dk\/diskmotel\/",
          "flags":[
@@ -38,19 +25,6 @@
             "consumers"
          ],
          "imagename":"enavn.png",
-         "supported":false
-      },
-      {
-         "title":"noris.de",
-         "url":"http:\/\/www.noris.de\/",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"noris.png",
          "supported":false
       },
       {
@@ -77,19 +51,6 @@
             "organisations"
          ],
          "imagename":"a2hosting.png",
-         "supported":false
-      },
-      {
-         "title":"datacenter.de",
-         "url":"http:\/\/www.datacenter.de\/produkte\/cloud-services\/file-sharing\/",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations"
-         ],
-         "imagename":"datacenter.png",
          "supported":false
       },
       {
@@ -130,20 +91,6 @@
             "consumers"
          ],
          "imagename":"owncube.png"
-      },
-      {
-         "title":"portknox.net",
-         "url":"https:\/\/portknox.net\/?pk_campaign=opp",
-         "flags":[
-            "gb",
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations",
-            "consumers"
-         ],
-         "imagename":"portknox_v5.png"
       },
       {
          "title":"cloudlay.com",
@@ -1503,6 +1450,20 @@
            "organisations"
          ],
          "imagename":"yourcloud-asia_logo.png",
+         "supported":false
+      },
+      {
+         "title":"°visualcosmos",
+         "url":"https:\/\/www.visualcosmos.com/agentur-f%C3%BCr-cloudl%C3%B6sungen\/",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":[
+           "consumers",
+           "organisations"
+         ],
+         "imagename":"visualcosmos.jpg",
          "supported":false
       }
     ]
