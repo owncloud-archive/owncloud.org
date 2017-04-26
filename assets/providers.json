@@ -245,18 +245,6 @@
          "imagename":"nublue.png"
       },
       {
-         "title":"nimmerland.de",
-         "url":"https:\/\/nimmerland.de\/",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"nimmerland.jpg"
-      },
-      {
          "title":"cloud.zaclys.fr",
          "url":"http:\/\/cloud.zaclys.fr\/",
          "flags":[
