@@ -28,7 +28,7 @@
 			<div class="text-center intro-text">
 				<h1><span class="avoidwrap">ownCloud X is out!</span></h1>
 				<h2><span class="avoidwrap">A safe home</span> <span class="avoidwrap">for all your data</span></h2>
-				<p><span class="avoidwrap">Access & share your files</span>, calendars, contacts, <span class="avoidwrap">mail & more</span> <span class="avoidwrap">from any device, on your terms</span></p>
+				<p><span class="avoidwrap">Access &amp; share your files</span>, calendars, contacts, <span class="avoidwrap">mail &amp; more</span> <span class="avoidwrap">from any device, on your terms</span></p>
 				<br>
 				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a>
 			</div>
