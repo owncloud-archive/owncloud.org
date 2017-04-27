@@ -4,6 +4,7 @@
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest ownCloud Server version which fits your needs.</p>
 Go directly to the latest maintenance release of:
 <ul>
+<li><a href="#latest10.0">ownCloud 10.0</a></li>
 <li><a href="#latest9.1">ownCloud 9.1</a></li>
 <li><a href="#latest9.0">ownCloud 9.0</a></li>
 <li><a href="#latest8.2">ownCloud 8.2</a></li>
@@ -11,6 +12,95 @@ Go directly to the latest maintenance release of:
 <li><a href="#latest8.0">ownCloud 8.0 (unsupported!)</a></li>
 <li><a href="#latest7">ownCloud 7 (unsupported!)</a></li>
 <li><a href="#latest6">ownCloud 6 (unsupported!)</a></li>
+</ul>
+
+<a name="latest10.0"></a></li>
+<h3>Version 10.0.0 <small>Apr 27 2017</small></h3></li>
+<b>General</b>
+
+<ul>
+<li>Allows users to add the app to the Android homescreen - <a href="https://github.com/owncloud/core/issues/25438">core/#25438</a></li>
+<li>Compatible with PHP 7.1 - <a href="https://github.com/owncloud/core/issues/25436">core/#25436</a></li>
+<li>MySQL 4-byte UTF8 support: (utf8mb4 for e.g. Emoticons) - <a href="https://github.com/owncloud/core/issues/17978">core/#17978</a></li>
+<li>Admin, personal pages and app management are now merged together into a single "Settings" entry - <a href="https://github.com/owncloud/core/issues/26449">core/#26449</a></li>
+<li>Admin page displays the output of the server's status.php - <a href="https://github.com/owncloud/core/issues/27238">core/#27238</a></li>
+<li>Also allow using email address for password recovery - <a href="https://github.com/owncloud/core/issues/27168">core/#27168</a></li>
+<li>Support Redis Cluster - <a href="https://github.com/owncloud/core/issues/26407">core/#26407</a></li>
+<li>ownCloud log entry reorder - <a href="https://github.com/owncloud/core/issues/27562">core/#27562</a></li>
+<li>ownCloud log file rules to split into separate files - <a href="https://github.com/owncloud/core/issues/27443">core/#27443</a></li>
+<li>occ scanner optimized memory usage for large scans by using autocommits - <a href="https://github.com/owncloud/core/issues/27527">core/#27527</a></li>
+</ul>
+
+<b>Filesystem</b>
+
+<ul>
+<li>Ability to exclude folders from being processed, like snapshot folders - <a href="https://github.com/owncloud/core/issues/19235">core/#19235</a></li>
+<li>Checksum is computed on the fly and verified - <a href="https://github.com/owncloud/core/issues/26655">core/#26655</a></li>
+</ul>
+
+<b>Files App</b>
+
+<ul>
+<li>Share Link can be copied to the clipboard - <a href="https://github.com/owncloud/core/issues/25418">core/#25418</a></li>
+<li>Display version sizes in versions panel - <a href="https://github.com/owncloud/core/issues/26511">core/#26511</a></li>
+<li>Transfer ownership now works for individual folders - <a href="https://github.com/owncloud/core/issues/27343">core/#27343</a></li>
+<li>Favorite star indicator now visible in the file lists related to sharing (ex: "Shared with you") - <a href="https://github.com/owncloud/core/issues/19753">core/#19753</a></li>
+</ul>
+
+<b>User management</b>
+
+<ul>
+<li>Ability to disable users in the users page (enable column first under cog icon) - <a href="https://github.com/owncloud/core/issues/27333">core/#27333</a></li>
+<li>When changing personal email, an email confirmation is now sent - <a href="https://github.com/owncloud/core/issues/7326">core/#7326</a></li>
+<li>When password is changed through any means, the user will now receive an email - <a href="https://github.com/owncloud/core/issues/27498">core/#27498</a></li>
+<li>Change user preferences through OCC - <a href="https://github.com/owncloud/core/issues/24770">core/#24770</a></li>
+</ul>
+
+<b>External storage</b>
+
+<ul>
+<li>"Local" storage type can now be disabled by sysadmin in config.php - <a href="https://github.com/owncloud/core/issues/26653">core/#26653</a></li>
+<li>External storage backends must use the <a href="https://doc.owncloud.org/server/10.0/developer_manual/app/extstorage.html">core external storage API</a> to work without files_external - <a href="https://github.com/owncloud/core/issues/18160">core/#18160</a></li>
+<li>FTP external storage moved to a separate app <a href="https://github.com/owncloud/files_external_ftp">files_external_ftp</a>
+</ul>
+
+### Dav App
+
+<ul>
+<li>CalDAV calendar public sharing - <a href="https://github.com/owncloud/core/issues/25351">core/#25351</a></li>
+</ul>
+
+<b>Sharing</b>
+
+<ul>
+<li>Support for multiple link shares - <a href="https://github.com/owncloud/core/issues/27337">core/#27337</a></li>
+<li>When a recipient moves a file or folder out of a received share, the owner now receives a backup in their trashbin - <a href="https://github.com/owncloud/core/issues/27042">core/#27042</a></li>
+<li>User avatars now visible in sharing autocomplete dropdown - <a href="https://github.com/owncloud/core/issues/25976">core/#25976</a></li>
+</ul>
+
+<b>Minor changes</b>
+
+<ul>
+<li>status.php now returns whether an instance requires a DB update - <a href="https://github.com/owncloud/core/issues/26209">core/#26209</a></li>
+<li>config option to hide server version in status.php - <a href="https://github.com/owncloud/core/issues/27473">core/#27473</a></li>
+<li>provisioning API now also returns the user's home path - <a href="https://github.com/owncloud/core/issues/26850">core/#26850</a></li>
+<li>web updater shows link to changelog in admin page - <a href="https://github.com/owncloud/core/issues/26796">core/#26796</a></li>
+</ul>
+
+<b>For developers</b>
+
+<ul>
+<li>Users from all user backends are now stored in a central account table, improves performance by reducing recurring backend traffic - <a href="https://github.com/owncloud/core/issues/23558">core/#23558</a></li>
+<li>Added event whenever a user is enabled or disabled - <a href="https://github.com/owncloud/core/issues/23970">core/#23970</a></li>
+<li>Added first login event - <a href="https://github.com/owncloud/core/issues/26206">core/#26206</a></li>
+<li>Added postLogout hook - <a href="https://github.com/owncloud/core/issues/27048">core/#27048</a></li>
+<li>New column in oc_jobs table to store last duration - <a href="https://github.com/owncloud/core/issues/27144">core/#27144</a></li>
+<li>Ability to specify offset and limit when doing a REPORT query on a files endpoint - <a href="https://github.com/owncloud/core/issues/26507">core/#26507</a></li>
+<li>Avatar API via WebDAV - <a href="https://github.com/owncloud/core/issues/26872">core/#26872</a></li>
+<li>Improve return value support for two factor auth providers API - <a href="https://github.com/owncloud/core/issues/26593">core/#26593</a></li>
+<li>Apps can now register Sabre plugins in info.xml - <a href="https://github.com/owncloud/core/issues/26195">core/#26195</a></li>
+<li>REPORT method for files endpoint now allows searching for favorites - <a href="https://github.com/owncloud/core/issues/26099">core/#26099</a></li>
+<li>Group backends can now return group display names (partial support, only used by sharing autocomplete) - <a href="https://github.com/owncloud/core/issues/26750">core/#26750</a></li>
 </ul>
 
 <a name="latest9.1"></a></li>
