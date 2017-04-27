@@ -14,9 +14,6 @@
       <ul id="menu-header" class="nav navbar-nav">
         <li class="<?php if(is_page('news')){ echo 'top-nav-active '; } ?>menu-news"><a href="/news/">News</a></li>
         <li class="<?php if(is_page('features')){ echo 'top-nav-active '; } ?>menu-features"><a href="/features/">Features</a></li>
-<!-- 
-        <li class="menu-demo"><a target="_blank" href="https://demo.owncloud.org">Demo</a></li>
- -->
         <li class="menu-documentation"><a href="https://doc.owncloud.org">Documentation</a></li>
         <li class="<?php if(is_page('contribute')){ echo 'top-nav-active '; } ?>menu-contribute"><a href="/contribute/">Contribute</a>
         <li class="<?php if(is_page('support')){ echo 'top-nav-active '; } ?>menu-support"><a href="/support/">Support</a></li>
@@ -35,6 +32,7 @@
 				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a>
 			</div>
 		</div>
+		<a href="https://owncloud.com/de/lp/owncloud-x/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/events/xlaunch.png" class="home-event-img" /></a>
 	</div>
   <?php endif; ?>
 </header>
