@@ -64,7 +64,7 @@ Go directly to the latest maintenance release of:
 <li>FTP external storage moved to a separate app <a href="https://github.com/owncloud/files_external_ftp">files_external_ftp</a>
 </ul>
 
-### Dav App
+<b>Dav App</b>
 
 <ul>
 <li>CalDAV calendar public sharing - <a href="https://github.com/owncloud/core/issues/25351">core/#25351</a></li>
@@ -102,6 +102,11 @@ Go directly to the latest maintenance release of:
 <li>REPORT method for files endpoint now allows searching for favorites - <a href="https://github.com/owncloud/core/issues/26099">core/#26099</a></li>
 <li>Group backends can now return group display names (partial support, only used by sharing autocomplete) - <a href="https://github.com/owncloud/core/issues/26750">core/#26750</a></li>
 </ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-10.0.0.tar.bz2">owncloud-10.0.0.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.0.zip">owncloud-10.0.0.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-10.0.0.tar.bz2.md5">owncloud-10.0.0.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.0.zip.md5">owncloud-10.0.0.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.0.tar.bz2.sha256">owncloud-10.0.0.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.0.zip.sha256">owncloud-10.0.0.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-10.0.0.tar.bz2.asc">owncloud-10.0.0.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.0.zip.asc">owncloud-10.0.0.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.1"></a></li>
 <h3>Version 9.1.5 <small>Apr 18 2017</small></h3></li>
