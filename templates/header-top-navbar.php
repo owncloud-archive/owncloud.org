@@ -26,9 +26,9 @@
 	<div class="container-fluid teaser-area">
 		<div class="col-xs-offset-0 col-sm-offset-1 col-md-offset-2 col-lg-offset-3  col-xs-12 col-sm-10 col-md-8 col-lg-6">
 			<div class="text-center intro-text">
+				<h1><span class="avoidwrap">ownCloud X is out!</span></h1>
 				<h2><span class="avoidwrap">A safe home</span> <span class="avoidwrap">for all your data</span></h2>
 				<p><span class="avoidwrap">Access & share your files</span>, calendars, contacts, <span class="avoidwrap">mail & more</span> <span class="avoidwrap">from any device, on your terms</span></p>
-				<h1><span class="avoidwrap">ownCloud X is out!</span> <span class="avoidwrap">Grab it now!</span></h1>
 				<br>
 				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a>
 			</div>
