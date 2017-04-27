@@ -64,7 +64,7 @@ Go directly to the latest maintenance release of:
 <li>FTP external storage moved to a separate app <a href="https://github.com/owncloud/files_external_ftp">files_external_ftp</a>
 </ul>
 
-### Dav App
+<b>Dav App</b>
 
 <ul>
 <li>CalDAV calendar public sharing - <a href="https://github.com/owncloud/core/issues/25351">core/#25351</a></li>
