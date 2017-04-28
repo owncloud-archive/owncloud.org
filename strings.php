@@ -2,8 +2,8 @@
 // Strings used throughout ownCloud.org.
 
 /* VERSIONS */
-$VERSIONS_SERVER_MAJOR_STABLE = '9.1';
-$VERSIONS_SERVER_FULL_STABLE = '9.1.4';
+$VERSIONS_SERVER_MAJOR_STABLE = '10.0';
+$VERSIONS_SERVER_FULL_STABLE = '10.0.0';
 $VERSIONS_SERVER_MAJOR_DEVELOPMENT = '10.0';
 $VERSIONS_SERVER_MAJOR_DEV_DOCS = '10.0'; // Used in dev docs links
 $VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.3.1';
@@ -15,7 +15,7 @@ $DOCUMENTATION_DEVELOPER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR
 $DOCUMENTATION_ADMIN = $DOCUMENTATION_BASE.'/server/latest/admin_manual/';
 $DOCUMENTATION_USER = $DOCUMENTATION_BASE.'/server/latest/user_manual/';
 $DOCUMENTATION_CLIENT_DESKTOP = $DOCUMENTATION_BASE.'/desktop/'.$VERSIONS_CLIENT_DESKTOP_STABLE_SHORT;
-$VERSIONS_VM = '9.1.4-2.1-201703101635';
+$VERSIONS_VM = '9.1.5-1.1-201704201507';
 $VM_UBUNTU_RELEASE = '14.04';
 
 /* DOWNLOADS */
@@ -31,15 +31,15 @@ $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_STABLE_SO
 
 // Desktop client testing
 // By having an empty VERSIONS_CLIENT_DESKTOP_TESTING the website should show the nightly links instead
-$VERSIONS_CLIENT_DESKTOP_TESTING = '';
+$VERSIONS_CLIENT_DESKTOP_TESTING = '2.3.2 rc1';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE= 'https://download.owncloud.com/desktop/testing/';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-2.3.1.6812rc1-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-2.3.1.4127rc1.pkg';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-2.3.2.6896rc1-setup.exe';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-2.3.2.4217rc1.pkg';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX = 'https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&amp;package=owncloud-client';
-$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'testpilotcloud-2.3.1.6813rc1-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'testpilotcloud-2.3.1.4128rc1.pkg';
+$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'testpilotcloud-2.3.2.6897rc1-setup.exe';
+$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'testpilotcloud-2.3.2.4219rc1.pkg';
 $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_LINUX = 'https://software.opensuse.org/download/package?project=isv:ownCloud:testpilot:testing&amp;package=testpilotcloud-client';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES= $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'owncloudclient-2.3.1rc1.tar.xz';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES= $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'owncloudclient-2.3.2rc1.tar.xz';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES.'.asc';
 
 // Server
@@ -63,9 +63,9 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.owncloud.org/download/reposi
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.owncloud.org/download/repositories/testing/owncloud';
-$SERVER_TESTING_VERSION ='10.0.0 beta';
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.owncloud.org/community/testing/owncloud-10.0.0beta.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.owncloud.org/community/testing/owncloud-10.0.0beta.zip';
+$SERVER_TESTING_VERSION ='10.0.0 RC2';
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.owncloud.org/community/testing/owncloud-10.0.0RC2.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.owncloud.org/community/testing/owncloud-10.0.0RC2.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';

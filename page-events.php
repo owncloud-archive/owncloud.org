@@ -3,7 +3,7 @@
 	<!-- a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
 	|&nbsp;&nbsp; -->
 	<a href="/events/conference-program">Conference Program</a>
-	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
+	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>|&nbsp;&nbsp;<a href="/events/events-archive">Events Archive</a>
 </div>
 <div class="row">
 	<div class="col-md-12">
@@ -177,7 +177,7 @@
 		</table>
 		
 		<h3>Events before 2017</h3>
-		<p>For events before 2017, please take a look into our <a target="_blank" href="/events-archive">Event Archive</a>.</p>
+		<p>For events before 2017, please take a look into our <a href="/events/events-archive">Event Archive</a>.</p>
 
 <!--		<h2>Release parties</h2>
 		<p>One of the best parts of an ownCloud release, are the community release parties! A release party can be a meeting in a cafe or office with a

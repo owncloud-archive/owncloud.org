@@ -2,11 +2,11 @@
   <h1><a href="/events">Events</a> > Contact</h1>
 </div>
 <div class="sub-nav">
-  <!-- a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
-  |&nbsp;&nbsp; -->
-<a href="/events/conference-program">Conference Program</a>
-  |&nbsp;&nbsp;Contact
-</div></br>
+	<!-- a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
+	|&nbsp;&nbsp; -->
+	<a href="/events/conference-program">Conference Program</a>
+	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>|&nbsp;&nbsp;<a href="/events/events-archive">Events Archive</a>
+</div>
 
 <p>
 	Planning a community release party, conference or meetup? Let us know the details – dates, links, session details,

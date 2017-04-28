@@ -14,9 +14,6 @@
       <ul id="menu-header" class="nav navbar-nav">
         <li class="<?php if(is_page('news')){ echo 'top-nav-active '; } ?>menu-news"><a href="/news/">News</a></li>
         <li class="<?php if(is_page('features')){ echo 'top-nav-active '; } ?>menu-features"><a href="/features/">Features</a></li>
-<!-- 
-        <li class="menu-demo"><a target="_blank" href="https://demo.owncloud.org">Demo</a></li>
- -->
         <li class="menu-documentation"><a href="https://doc.owncloud.org">Documentation</a></li>
         <li class="<?php if(is_page('contribute')){ echo 'top-nav-active '; } ?>menu-contribute"><a href="/contribute/">Contribute</a>
         <li class="<?php if(is_page('support')){ echo 'top-nav-active '; } ?>menu-support"><a href="/support/">Support</a></li>
@@ -29,12 +26,14 @@
 	<div class="container-fluid teaser-area">
 		<div class="col-xs-offset-0 col-sm-offset-1 col-md-offset-2 col-lg-offset-3  col-xs-12 col-sm-10 col-md-8 col-lg-6">
 			<div class="text-center intro-text">
-				<h1><span class="avoidwrap">A safe home</span> <span class="avoidwrap">for all your data</span></h1>
-				<p><span class="avoidwrap">Access & share your files</span>, calendars, contacts, <span class="avoidwrap">mail & more</span> <span class="avoidwrap">from any device, on your terms</span></p>
+				<h1><span class="avoidwrap">ownCloud X is out!</span></h1>
+				<h2><span class="avoidwrap">A safe home</span> <span class="avoidwrap">for all your data</span></h2>
+				<p><span class="avoidwrap">Access &amp; share your files</span>, calendars, contacts, <span class="avoidwrap">mail &amp; more</span> <span class="avoidwrap">from any device, on your terms</span></p>
 				<br>
 				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a>
 			</div>
 		</div>
+		<a href="https://owncloud.org/install/#instructions-server"><img src="<?php bloginfo('template_directory'); ?>/assets/img/events/xlaunch.png" class="home-event-img" /></a>
 	</div>
   <?php endif; ?>
 </header>
