@@ -26,19 +26,17 @@
 		       That does not imply that these releases are bug free. The issues are known and can be worked around. The downside of this channel is that the releases are behind in terms of features and performance.</td>
             <td class="info">Older archives are available from our <a href="/changelog">changelog</a>.<br />
 		    Production repositories are available for the following major versions:
-		    <a href="https://download.owncloud.org/download/repositories/9.0/owncloud/">9.0</a> (new since 9.0.1), 
-		    <a href="https://download.owncloud.org/download/repositories/8.2/owncloud/">8.2</a>, 
-		    <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1</a> and
-		    <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0</a>
+		    <a href="https://download.owncloud.org/download/repositories/9.1/owncloud/">9.1</a>, 
+		    <a href="https://download.owncloud.org/download/repositories/9.0/owncloud/">9.0</a>, 
+		    <a href="https://download.owncloud.org/download/repositories/8.2/owncloud/">8.2</a>
 		    <br>Register and activate one of these repositories with your package manager to get updates within the same major version<a href="#warning">*</a>
             </td>
     </tr>
     <tr>
       <td class="warning"><h1>Stable</h1></td>
       <td class="info">This channel delivers the latest feature releases ready for home users at minimal risk.</td>
-            <td class="info"><a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Archive File</a> (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">MD5</a>)<br />
-      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a></td>
-    </tr>
+            <td class="info">The current stable version is 10.0.0, available via the archives: <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Archive File</a> (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">MD5</a>)<br />
+<!--      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a> --> </td>     </tr>
     <tr>
       <td class="warning"><h1>Beta</h1></td>
       <td class="info">Betas and release candidates are the versions of choice for testers in preparation for an ownCloud release. They provide a short-term-stable point to report bugs against. Grab these to make sure the upcoming release works well on your infrastructure.<br>Automatically generated <a href="/install/#testing-development">snapshot tarballs and packages</a> track daily ownCloud development. These are suitable to check if bugs are fixed but can break any time.</td>
