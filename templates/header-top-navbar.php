@@ -33,7 +33,6 @@
 				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your ownCloud &raquo;</a>
 			</div>
 		</div>
-		<a href="https://owncloud.com/de/lp/owncloud-x/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/events/xlaunch.png" class="home-event-img" /></a>
 	</div>
   <?php endif; ?>
 </header>
