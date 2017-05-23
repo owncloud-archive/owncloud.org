@@ -15,6 +15,70 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest10.0"></a></li>
+
+<h3>Version 10.0.1 <small>May 23 2017</small></h3></li>
+<ul>
+<li>[major] Clear cached app info before installing app - <a href="https://github.com/owncloud/core/issues/27953">core/#27953</a></li>
+<li>[major] Fix to allow admin login when using home object store mode - <a href="https://github.com/owncloud/core/issues/27963">core/#27963</a></li>
+<li>[major] Skeleton files correct copied for shibboleth - <a href="https://github.com/owncloud/core/issues/27935">core/#27935</a></li>
+<li>[major] Automatically enable market app when upgrading from OC < 10 - <a href="https://github.com/owncloud/core/issues/27930">core/#27930</a></li>
+<li>[major] Fix issue where market would run app migrations twice in some scenarios - market/76
+<li>[major] Fetch search terms from user backend (ex: LDAP) for more extended user search ability - <a href="https://github.com/owncloud/core/issues/27906">core/#27906</a></li> 
+<li>[major] Added support for upload-only link shares - <a href="https://github.com/owncloud/core/issues/27548">core/#27548</a></li>
+<li>[major] When enabling default encryption module the admin must now explicitly choose encryption type (master key vs user key) - <a href="https://github.com/owncloud/core/issues/27512">core/#27512</a></li>
+<li>[major] Fix missing "publicuri" field when upgrading from 9.1.5 - <a href="https://github.com/owncloud/core/issues/27754">core/#27754</a></li>
+<li>[major] Add options to the user:sync command to handle missing accounts - <a href="https://github.com/owncloud/core/issues/27798">core/#27798</a></li>
+<li>[major] Maintenance mode now properly blocks syncing on new DAV endpoint - <a href="https://github.com/owncloud/core/issues/27821">core/#27821</a></li>
+<li>[major] Copy button for multiple link share now copies the correct link - <a href="https://github.com/owncloud/core/issues/27863">core/#27863</a></li>
+<li>[major] Fix upload issues with IE11 - <a href="https://github.com/owncloud/core/issues/27875">core/#27875</a></li>
+<li>[major] Allow apps to register multiple settings panels - <a href="https://github.com/owncloud/core/issues/27885">core/#27885</a></li>
+<li>[major] Account table doesn't sync from user backends that have no listing support - <a href="https://github.com/owncloud/core/issues/27862">core/#27862</a></li>
+<li>[major] Add events for password validation - <a href="https://github.com/owncloud/core/issues/27883">core/#27883</a></li>
+<li>[major] Add JS event after external storage mount config is loaded, for UI extensions - <a href="https://github.com/owncloud/core/issues/27740">core/#27740</a></li>
+<li>[major] Fix theming of setup page by autoloading default_enable theme apps - <a href="https://github.com/owncloud/core/issues/27819">core/#27819</a></li>
+<li>[major] Allow apps to register custom settings page sections in info.xml - <a href="https://github.com/owncloud/core/issues/27634">core/#27634</a></li>
+<li>[major] Add admin sharing option to restrict autocomplete to membership groups but still allow typing full name if known - <a href="https://github.com/owncloud/core/issues/27869">core/#27869</a></li>
+<li>[minor] Market app update now doesn't overwrite local git checkouts - <a href="https://github.com/owncloud/core/issues/27973">core/#27973</a></li>
+<li>[minor] Delete "appstoreenabled" config value when enabling market - <a href="https://github.com/owncloud/core/issues/27956">core/#27956</a></li>
+<li>[minor] Do not verify email address when entered by an admin on their personal page - <a href="https://github.com/owncloud/core/issues/27921">core/#27921</a></li>
+<li>[minor] Fix default share permission issue in public API <a href="https://github.com/owncloud/core/issues/27927">core/#27927</a></li>
+<li>[minor] Properly rethrow exception when error occurred when enabling an app - <a href="https://github.com/owncloud/core/issues/27970">core/#27970</a></li>
+<li>[minor] Remove own shares from "Shared with you" section - <a href="https://github.com/owncloud/core/issues/27972">core/#27972</a></li>
+<li>[minor] Fix updating to daily from 10.0.0 with web updater - <a href="https://github.com/owncloud/updater/issues/422">updater/#422</a></li>
+<li>[minor] Fix updating to 10.0.1 with web updater - <a href="https://github.com/owncloud/core/issues/27965">core/#27965</a></li>
+<li>[minor] Removed unused and non-working auto-login after setup - <a href="https://github.com/owncloud/core/issues/27971">core/#27971</a></li>
+<li>[minor] Fix SMB storage to return false if stat failed - <a href="https://github.com/owncloud/core/issues/27859">core/#27859</a></li>
+<li>[minor] Update swiftmailer - <a href="https://github.com/owncloud/core/issues/27897">core/#27897</a></li>
+<li>[minor] Escape filter in search - <a href="https://github.com/owncloud/core/issues/27900">core/#27900</a></li>
+<li>[minor] Fix file name output in error pages - <a href="https://github.com/owncloud/core/issues/27808">core/#27808</a></li>
+<li>[minor] Support for alternative login buttons through config.php - <a href="https://github.com/owncloud/core/issues/27607">core/#27607</a></li>
+<li>[minor] Example theme app renamed to "theme-example" by convention - <a href="https://github.com/owncloud/core/issues/27632">core/#27632</a></li>
+<li>[minor] Fix missing translation of built-in section names - <a href="https://github.com/owncloud/core/issues/27645">core/#27645</a></li>
+<li>[minor] Add ability to disable password reset form in config - <a href="https://github.com/owncloud/core/issues/27676">core/#27676</a></li>
+<li>[minor] Add support for themed radio buttons - <a href="https://github.com/owncloud/core/issues/27681">core/#27681</a></li>
+<li>[minor] Fix customjs extension handling for external storage apps - <a href="https://github.com/owncloud/core/issues/27683">core/#27683</a></li>
+<li>[minor] Fix upgrade error with mod_fcgid and PHP 7 - <a href="https://github.com/owncloud/core/issues/27553">core/#27553</a></li>
+<li>[minor] Remove sharing subtab when link sharing is disallowed - <a href="https://github.com/owncloud/core/issues/27708">core/#27708</a></li>
+<li>[minor] Add privacy warning in link shares panel - <a href="https://github.com/owncloud/core/issues/27844">core/#27844</a></li>
+<li>[minor] Fix files app name in navigation menu - <a href="https://github.com/owncloud/core/issues/27843">core/#27843</a></li>
+<li>[minor] Fix mimetype table code to ignore folder extensions - <a href="https://github.com/owncloud/core/issues/27668">core/#27668</a></li>
+<li>[minor] Automatically focus the password field in password reset page - <a href="https://github.com/owncloud/core/issues/27889">core/#27889</a></li>
+<li>[minor] Trashbin restore warnings due to missing entries now logged as debug - <a href="https://github.com/owncloud/core/issues/27826">core/#27826</a></li>
+<li>[minor] Remove obsolete repair step RemoveOldShares - <a href="https://github.com/owncloud/core/issues/27737">core/#27737</a></li>
+<li>[minor] "local link" was renamed to "private link" - <a href="https://github.com/owncloud/core/issues/27594">core/#27594</a></li>
+<li>[minor] Fix column sorting in public file list page - <a href="https://github.com/owncloud/core/issues/27308">core/#27308</a></li>
+<li>[minor] Don't display error when not connected to market - <a href="https://github.com/owncloud/market/issues/51">market/#51</a></li>
+<li>[minor] Fix issue with some apps info formats - <a href="https://github.com/owncloud/market/issues/49">market/#49</a></li>
+<li>[minor] Add ability to uninstall apps in market app UI - <a href="https://github.com/owncloud/market/issues/67">market/#67</a></li>
+<li>[minor] Improve visual feedback when installing market apps - <a href="https://github.com/owncloud/market/issues/64">market/#64</a></li>
+<li>[minor] Don't display license key in config report - <a href="https://github.com/owncloud/configreport/issues/27">configreport/#27</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-10.0.1.tar.bz2">owncloud-10.0.1.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.1.zip">owncloud-10.0.1.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-10.0.1.tar.bz2.md5">owncloud-10.0.1.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.1.zip.md5">owncloud-10.0.1.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.1.tar.bz2.sha256">owncloud-10.0.1.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.1.zip.sha256">owncloud-10.0.1.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-10.0.1.tar.bz2.asc">owncloud-10.0.1.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.1.zip.asc">owncloud-10.0.1.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a><!-- and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>-->. Learn more about <a href="/release-channels">Release Channels</a>.
+
 <h3>Version 10.0.0 <small>Apr 27 2017</small></h3></li>
 <b>General</b>
 
