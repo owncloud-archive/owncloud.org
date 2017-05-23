@@ -73,6 +73,7 @@ Go directly to the latest maintenance release of:
 <li>[minor] Improve visual feedback when installing market apps - <a href="https://github.com/owncloud/market/issues/64">market/#64</a></li>
 <li>[minor] Don't display license key in config report - <a href="https://github.com/owncloud/configreport/issues/27">configreport/#27</a></li>
 </ul>
+Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-1">Release notes</a></br>
 Download: <a href="https://download.owncloud.org/community/owncloud-10.0.1.tar.bz2">owncloud-10.0.1.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.1.zip">owncloud-10.0.1.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-10.0.1.tar.bz2.md5">owncloud-10.0.1.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.1.zip.md5">owncloud-10.0.1.zip.md5</a></br>
 SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.1.tar.bz2.sha256">owncloud-10.0.1.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.1.zip.sha256">owncloud-10.0.1.zip.sha256</a></br>
