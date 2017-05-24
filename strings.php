@@ -3,10 +3,10 @@
 
 /* VERSIONS */
 $VERSIONS_SERVER_MAJOR_STABLE = '10.0';
-$VERSIONS_SERVER_FULL_STABLE = '10.0.0';
+$VERSIONS_SERVER_FULL_STABLE = '10.0.1';
 $VERSIONS_SERVER_MAJOR_DEVELOPMENT = '10.0';
 $VERSIONS_SERVER_MAJOR_DEV_DOCS = '10.0'; // Used in dev docs links
-$VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.3.1';
+$VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.3.2';
 $VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.3'; // For use in documentation link
 
 /* DOCUMENTATION */
@@ -23,15 +23,15 @@ $OWNCLOUD_GPG = 'https://owncloud.org/owncloud.asc';
 
 // Desktop client stable
 $DOWNLOAD_CLIENT_DESKTOP_BASE = 'https://download.owncloud.com/desktop/stable/';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-2.3.1.6824-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-2.3.1.4139.pkg';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-2.3.2.6928-setup.exe';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-2.3.2.4250.pkg';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = 'https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = $DOWNLOAD_CLIENT_DESKTOP_BASE.'owncloudclient-2.3.1.tar.xz';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = $DOWNLOAD_CLIENT_DESKTOP_BASE.'owncloudclient-2.3.2.tar.xz';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES.'.asc';
 
 // Desktop client testing
 // By having an empty VERSIONS_CLIENT_DESKTOP_TESTING the website should show the nightly links instead
-$VERSIONS_CLIENT_DESKTOP_TESTING = '2.3.2 rc1';
+$VERSIONS_CLIENT_DESKTOP_TESTING = '';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE= 'https://download.owncloud.com/desktop/testing/';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-2.3.2.6896rc1-setup.exe';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-2.3.2.4217rc1.pkg';
@@ -63,9 +63,9 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.owncloud.org/download/reposi
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.owncloud.org/download/repositories/testing/owncloud';
-$SERVER_TESTING_VERSION ='10.0.0 RC2';
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.owncloud.org/community/testing/owncloud-10.0.0RC2.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.owncloud.org/community/testing/owncloud-10.0.0RC2.zip';
+$SERVER_TESTING_VERSION ='10.0.1';
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.owncloud.org/community/owncloud-10.0.1.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.owncloud.org/community/owncloud-10.0.1.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';

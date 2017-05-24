@@ -1456,6 +1456,20 @@
          ],
          "imagename":"slavedata-black-logo.png",
          "supported":false
+      },
+      {
+         "title":"CiviHosting",
+         "url":"https:\/\/civihosting.com/owncloud-hosting\/",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":[
+           "consumers",
+           "organisations"
+         ],
+         "imagename":"CiviHosting.ownCloud.png",
+         "supported":false
       }
     ]
 }
