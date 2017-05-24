@@ -233,18 +233,13 @@
 									<h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
 									<h4><strong><a class="changelog mb0" href="/changelog">See what's new (Changelog)</a></strong></h4>
 									<h5 class="mb15">Grab the official ownCloud virtual machine image in one of these formats:</h5>
-									<a href="<?php echo $DOWNLOAD_VM_ESX_OVA; ?>" class="button blue secondary">ESX</a>
-									<a href="<?php echo $DOWNLOAD_VM_VIRTUALBOX_OVA; ?>" class="button blue secondary">Virtualbox</a>
+									<a href="<?php echo $DOWNLOAD_VM_OVA; ?>" class="button blue secondary">OVA</a>
 									<a href="<?php echo $DOWNLOAD_VM_QCOW2; ?>" class="button blue secondary">QCOW2</a>
-									<a href="<?php echo $DOWNLOAD_VM_VMWARE; ?>" class="button blue secondary">VMware</a>
-<!-- The appliances are now provided by univention, and we changed the formats. These are outdated:
-                  <a href="<?php /* echo $DOWNLOAD_VM_OVA; */ ?>" class="button blue secondary">OVA</a>
-									<a href="<?php /* echo $DOWNLOAD_VM_RAW; */ ?>" class="button blue secondary">raw</a>
-									<a href="<?php /* echo $DOWNLOAD_VM_VHDX; */ ?>" class="button blue secondary">VHDX</a>
-									<a href="<?php /* echo $DOWNLOAD_VM_VMDK; */ ?>" class="button blue secondary">VMDK</a>
-									<a href="<?php /* echo $DOWNLOAD_VM_VMX; */ ?>" class="button blue secondary">VMX</a>
--->
-                  <div class="clear"></div>
+									<a href="<?php echo $DOWNLOAD_VM_RAW; ?>" class="button blue secondary">raw</a>
+									<a href="<?php echo $DOWNLOAD_VM_VHDX; ?>" class="button blue secondary">VHDX</a>
+									<a href="<?php echo $DOWNLOAD_VM_VMDK; ?>" class="button blue secondary">VMDK</a>
+									<a href="<?php echo $DOWNLOAD_VM_VMX; ?>" class="button blue secondary">VMX</a>
+									<div class="clear"></div>
 									<p class="mt15">Want to use ownCloud for your Company?</p>
 									<a href="https://owncloud.com/download/?ref=orgB" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
 									<hr />
