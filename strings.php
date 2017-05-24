@@ -71,7 +71,7 @@ $DOWNLOAD_SERVER_ZIP_TESTING ='https://download.owncloud.org/community/owncloud-
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
 
 // VM
-$DOWNLOAD_VM_BASE = 'http://appcenter.software-univention.de/univention-apps/current/owncloud/Univention-App-owncloud-';
+$DOWNLOAD_VM_BASE = 'https://appcenter.software-univention.de/univention-apps/current/owncloud/Univention-App-owncloud-';
 
  // In the past there was also 'Ubuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM. inside the below variables.
 $DOWNLOAD_VM_ESX_OVA        = $DOWNLOAD_VM_BASE.'ESX.ova';
