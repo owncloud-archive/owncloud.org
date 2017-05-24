@@ -71,10 +71,14 @@ $DOWNLOAD_SERVER_ZIP_TESTING ='https://download.owncloud.org/community/owncloud-
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
 
 // VM
-$DOWNLOAD_VM_BASE = 'https://download.owncloud.org/community/production/vm/';
+$DOWNLOAD_VM_BASE = 'https://appcenter.software-univention.de/univention-apps/current/owncloud/Univention-App-owncloud-';
 
-$DOWNLOAD_VM_OVA   = $DOWNLOAD_VM_BASE.'Ubuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.ova.zip';
-$DOWNLOAD_VM_QCOW2 = $DOWNLOAD_VM_BASE.'Ubuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.qcow2.zip';
+ // In the past there was also 'Ubuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM. inside the below variables.
+$DOWNLOAD_VM_ESX_OVA        = $DOWNLOAD_VM_BASE.'ESX.ova';
+$DOWNLOAD_VM_VIRTUALBOX_OVA = $DOWNLOAD_VM_BASE.'virtualbox.ova';
+$DOWNLOAD_VM_QCOW2          = $DOWNLOAD_VM_BASE.'KVM.qcow2';
+$DOWNLOAD_VM_VMWARE         = $DOWNLOAD_VM_BASE.'vmware.zip';
+// These links are outdated, but I'll leave the variables intact as I'm not sure if php would run into errors elsewise.
 $DOWNLOAD_VM_RAW   = $DOWNLOAD_VM_BASE.'Ubuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.raw.zip';
 $DOWNLOAD_VM_VHDX  = $DOWNLOAD_VM_BASE.'Ubuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.vhdx.zip';
 $DOWNLOAD_VM_VMDK  = $DOWNLOAD_VM_BASE.'Ubuntu_'.$VM_UBUNTU_RELEASE.'-owncloud-'.$VERSIONS_VM.'.vmdk.zip';
