@@ -7,7 +7,7 @@ Go directly to the latest maintenance release of:
 <li><a href="#latest10.0">ownCloud 10.0</a></li>
 <li><a href="#latest9.1">ownCloud 9.1</a></li>
 <li><a href="#latest9.0">ownCloud 9.0</a></li>
-<li><a href="#latest8.2">ownCloud 8.2</a></li>
+<li><a href="#latest8.2">ownCloud 8.2 (unsupported!)</a></li>
 <li><a href="#latest8.1">ownCloud 8.1 (unsupported!)</a></li>
 <li><a href="#latest8.0">ownCloud 8.0 (unsupported!)</a></li>
 <li><a href="#latest7">ownCloud 7 (unsupported!)</a></li>
@@ -15,6 +15,51 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest10.0"></a></li>
+<h3>Version 10.0.2 <small>May 30 2017</small></h3></li>
+Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-2">Release notes</a></br>
+<ul>
+<li>[major] Fix issue with database.xml migration being triggered twice on market app install - <a href="https://github.com/owncloud/core/issues/27982">core/#27982</a></li>
+<li>[major] Apps formerly marked as shipped can now be uninstalled - <a href="https://github.com/owncloud/core/issues/27985">core/#27985</a></li>
+<li>[major] Market now properly updates app version when using multiple apps paths - <a href="https://github.com/owncloud/core/issues/27989">core/#27989</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2">owncloud-10.0.2.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip">owncloud-10.0.2.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2.md5">owncloud-10.0.2.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip.md5">owncloud-10.0.2.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2.sha256">owncloud-10.0.2.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip.sha256">owncloud-10.0.2.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2.asc">owncloud-10.0.2.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip.asc">owncloud-10.0.2.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a><!-- and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>-->. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest9.1"></a></li>
+<h3>Version 9.1.6 <small>May 30 2017</small></h3></li>
+<ul>
+<li>[major] Default quota display in users page now works correctly again - <a href="https://github.com/owncloud/core/issues/27896">core/#27896</a></li>
+<li>[major] Maintenance mode now properly blocks access on new DAV endpoint - <a href="https://github.com/owncloud/core/issues/27821">core/#27821</a></li>
+<li>[minor] Escape filter in search - <a href="https://github.com/owncloud/core/issues/27900">core/#27900</a></li>
+<li>[minor] Fix file name output in error pages - <a href="https://github.com/owncloud/core/issues/27808">core/#27808</a></li>
+<li>[minor] Fix PDF download button in embedded viewer - <a href="https://github.com/owncloud/core/issues/27521">core/#27521</a></li>
+<li>[minor] Fix rare issue where one cannot comment due to inconsistent mount cache table with deleted users - <a href="https://github.com/owncloud/core/issues/27012">core/#27012</a></li>
+<li>[minor] Trashbin restore warnings due to missing entries now logged as debug - <a href="https://github.com/owncloud/core/issues/27826">core/#27826</a></li>
+<li>[minor] Remove own shares from "Shared with you" section - <a href="https://github.com/owncloud/core/issues/27972">core/#27972</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.1.6.tar.bz2">owncloud-9.1.6.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.6.zip">owncloud-9.1.6.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.1.6.tar.bz2.md5">owncloud-9.1.6.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.6.zip.md5">owncloud-9.1.6.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.1.6.tar.bz2.sha256">owncloud-9.1.6.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.6.zip.sha256">owncloud-9.1.6.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.1.6.tar.bz2.asc">owncloud-9.1.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.6.zip.asc">owncloud-9.1.6.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest9.0"></a></li>
+<h3>Version 9.0.10 <small>May 30 2017</small></h3></li>
+<ul>
+<li>[minor] Escape filter in search - <a href="https://github.com/owncloud/core/issues/27900">core/#27900</a></li>
+<li>[minor] Fix file name output in error pages - <a href="https://github.com/owncloud/core/issues/27808">core/#27808</a></li>
+<li>[minor] Fix PDF download button in embedded viewer - <a href="https://github.com/owncloud/core/issues/27521">core/#27521</a></li>
+<li>[minor] Fix rare issue where one cannot comment due to inconsistent mount cache table with deleted users - <a href="https://github.com/owncloud/core/issues/27012">core/#27012</a></li>
+<li>[minor] Remove own shares from "Shared with you" section - <a href="https://github.com/owncloud/core/issues/27972">core/#27972</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.0.10.tar.bz2">owncloud-9.0.10.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.10.zip">owncloud-9.0.10.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.10.tar.bz2.md5">owncloud-9.0.10.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.10.zip.md5">owncloud-9.0.10.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.10.tar.bz2.sha256">owncloud-9.0.10.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.10.zip.sha256">owncloud-9.0.10.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.10.tar.bz2.asc">owncloud-9.0.10.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.10.zip.asc">owncloud-9.0.10.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <h3>Version 10.0.1 <small>May 23 2017</small></h3></li>
 Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-1">Release notes</a></br>
@@ -173,7 +218,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.0.tar.bz2
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-10.0.0.tar.bz2.asc">owncloud-10.0.0.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.0.zip.asc">owncloud-10.0.0.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest9.1"></a></li>
 <h3>Version 9.1.5 <small>Apr 18 2017</small></h3></li>
 <ul>
 <li>[major] Fix potential DB crash due to DB locks with Galera Cluster - <a href="https://github.com/owncloud/core/issues/27071">core/#27071</a></li>
@@ -211,7 +255,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-9.1.5.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.1.5.tar.bz2.asc">owncloud-9.1.5.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.5.zip.asc">owncloud-9.1.5.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest9.0"></a></li>
 <h3>Version 9.0.9 <small>Apr 18 2017</small></h3></li>
 <ul>
 <li>[major] Renaming SMB mount point now does not delete its contents - <a href="https://github.com/owncloud/core/issues/27377">core/#27377</a></li>
