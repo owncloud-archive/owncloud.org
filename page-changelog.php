@@ -59,6 +59,7 @@ Download: <a href="https://download.owncloud.org/community/owncloud-9.0.10.tar.b
 MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.10.tar.bz2.md5">owncloud-9.0.10.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.10.zip.md5">owncloud-9.0.10.zip.md5</a></br>
 SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.10.tar.bz2.sha256">owncloud-9.0.10.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.10.zip.sha256">owncloud-9.0.10.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.10.tar.bz2.asc">owncloud-9.0.10.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.10.zip.asc">owncloud-9.0.10.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a>.
 
 <h3>Version 10.0.1 <small>May 23 2017</small></h3></li>
 Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-1">Release notes</a></br>
