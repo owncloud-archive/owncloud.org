@@ -68,7 +68,7 @@ Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/releas
 <li>[major] Fix to allow admin login when using home object store mode - <a href="https://github.com/owncloud/core/issues/27963">core/#27963</a></li>
 <li>[major] Skeleton files correct copied for shibboleth - <a href="https://github.com/owncloud/core/issues/27935">core/#27935</a></li>
 <li>[major] Automatically enable market app when upgrading from OC < 10 - <a href="https://github.com/owncloud/core/issues/27930">core/#27930</a></li>
-<li>[major] Fix issue where market would run app migrations twice in some scenarios - market/76
+<li>[major] Fix issue where market would run app migrations twice in some scenarios - <a href="https://github.com/owncloud/market/issues/76">market/#76</a></li>
 <li>[major] Fetch search terms from user backend (ex: LDAP) for more extended user search ability - <a href="https://github.com/owncloud/core/issues/27906">core/#27906</a></li> 
 <li>[major] Added support for upload-only link shares - <a href="https://github.com/owncloud/core/issues/27548">core/#27548</a></li>
 <li>[major] When enabling default encryption module the admin must now explicitly choose encryption type (master key vs user key) - <a href="https://github.com/owncloud/core/issues/27512">core/#27512</a></li>
