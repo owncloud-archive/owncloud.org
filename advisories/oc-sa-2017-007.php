@@ -19,10 +19,10 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>10.0.2</strong> (CVE-2017-8896)</li>
-<li>ownCloud Server &lt; <strong>9.1.6</strong> (CVE-2017-8896)</li>
-<li>ownCloud Server &lt; <strong>9.0.10</strong> (CVE-2017-8896)</li>
-<li>ownCloud Server &lt; <strong>8.2.12</strong> (CVE-2017-8896)</li>
+            <li>ownCloud Server &lt; <strong>10.0.2</strong> (CVE-2017-9338)</li>
+<li>ownCloud Server &lt; <strong>9.1.6</strong> (CVE-2017-9338)</li>
+<li>ownCloud Server &lt; <strong>9.0.10</strong> (CVE-2017-9338)</li>
+<li>ownCloud Server &lt; <strong>8.2.12</strong> (CVE-2017-9338)</li>
 
         </ul>
         <h3>Action Taken</h3>

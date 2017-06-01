@@ -20,7 +20,7 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>ownCloud Server &lt; <strong>10.0.2</strong> (CVE-2017-0894)</li>
+            <li>ownCloud Server &lt; <strong>10.0.2</strong> (CVE-2017-9339)</li>
 
         </ul>
         <h3>Action Taken</h3>

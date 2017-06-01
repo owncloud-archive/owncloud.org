@@ -11,7 +11,7 @@ Description
 -----------
 A Attacker is logged in as a normal user and can somehow make admin to delete shared folders
 
-ownCloud Server <  10.0.2 (CVE-2017-8896)
+ownCloud Server <  10.0.2 (CVE-2017-9340)
 
 Action Taken
 -------------

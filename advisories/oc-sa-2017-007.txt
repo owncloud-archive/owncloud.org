@@ -11,10 +11,10 @@ Description
 -----------
 Inadequate escaping lead to XSS vulnerability in the search module. To be exploitable an user has to write or paste malicious content into the search dialogue.
 
-ownCloud Server <  10.0.2 (CVE-2017-8896)
-ownCloud Server <  9.1.6 (CVE-2017-8896)
-ownCloud Server <  9.0.10 (CVE-2017-8896)
-ownCloud Server <  8.2.12 (CVE-2017-8896)
+ownCloud Server <  10.0.2 (CVE-2017-9338)
+ownCloud Server <  9.1.6 (CVE-2017-9338)
+ownCloud Server <  9.0.10 (CVE-2017-9338)
+ownCloud Server <  8.2.12 (CVE-2017-9338)
 
 Action Taken
 -------------
