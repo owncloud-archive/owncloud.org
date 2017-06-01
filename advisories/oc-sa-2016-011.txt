@@ -16,3 +16,5 @@ ownCloud Server <  9.0.4 (CVE-2016-????)
 Action Taken
 -------------
 The user input is now properly sanitised before being provided back to the user.
+
+This advisory is licensed CC BY-SA 4.0. Original source: https://nextcloud.com/security/advisory/?id=nc-sa-2016-001

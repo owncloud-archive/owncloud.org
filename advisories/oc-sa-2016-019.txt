@@ -17,3 +17,5 @@ ownCloud Server <  9.0.6 (CVE-2016-????)
 Action Taken
 -------------
 Error messages are now properly sanitized.
+
+This advisory is licensed CC BY-SA 4.0. Original source: https://nextcloud.com/security/advisory/?id=NC-SA-2016-009

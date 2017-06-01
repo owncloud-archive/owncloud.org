@@ -18,3 +18,5 @@ ownCloud Server <  8.2.9 (CVE-2016-????)
 Action Taken
 -------------
 The SMB backend is now performing an additional authentication attempt with invalid credentials. If that succeeds as well it assumes that anonymous authentications are enabled and denies the login attempt.
+
+This advisory is licensed CC BY-SA 4.0. Original source: https://nextcloud.com/security/advisory/?id=NC-SA-2016-006

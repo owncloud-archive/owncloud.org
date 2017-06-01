@@ -16,3 +16,5 @@ ownCloud Server <  10.0.2 (CVE-2017-9339)
 Action Taken
 -------------
 <p>The error has been fixed and regression tests been added.</p>
+
+This advisory is licensed CC BY-SA 4.0. Original source: https://nextcloud.com/security/advisory/?id=nc-sa-2017-011

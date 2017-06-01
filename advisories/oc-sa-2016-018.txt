@@ -17,3 +17,5 @@ ownCloud Server <  9.0.6 (CVE-2016-????)
 Action Taken
 -------------
 The mimetype of the exported image is now compared with a whitelist as well as download disposition headers have been set on the response.
+
+This advisory is licensed CC BY-SA 4.0. Original source: https://nextcloud.com/security/advisory/?id=NC-SA-2016-008

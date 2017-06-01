@@ -19,3 +19,5 @@ ownCloud Server <  8.0.14 (CVE-2016-????)
 Action Taken
 -------------
 The permission check is now also performed on "COPY" actions
+
+This advisory is licensed CC BY-SA 4.0. Original source: https://nextcloud.com/security/advisory/?id=nc-sa-2016-004
