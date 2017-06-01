@@ -1,0 +1,20 @@
+SMB User Authentication Bypass
+==============================
+
+- Risk: High
+- CVSS v3 Base Score: 7.4
+- CVSS v3 Vector: AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+- CWE ID: 303
+- CWE Name: Incorrect Implementation of Authentication Algorithms
+
+Description
+-----------
+ownCloud includes an optional and not by default enabled SMB authentication component that allows to authenticate users against an SMB server. This backend is implemented in a way that it tries to connect to a SMB server and if that succeeded consider the user logged-in. The backend did not properly take into account SMB servers that any kind of anonymous auth configured. This is the default on SMB servers nowadays and allows an unauthenticated attacker to gain access to an account without valid credentials.Note: The SMB backend is disabled by default and requires manual configuration in the ownCloud config file. If you have not configured the SMB backend then you're not affected by this vulnerability.
+
+ownCloud Server <  9.1.2 (CVE-2016-????)
+ownCloud Server <  9.0.6 (CVE-2016-????)
+ownCloud Server <  8.2.9 (CVE-2016-????)
+
+Action Taken
+-------------
+The SMB backend is now performing an additional authentication attempt with invalid credentials. If that succeeds as well it assumes that anonymous authentications are enabled and denies the login attempt.

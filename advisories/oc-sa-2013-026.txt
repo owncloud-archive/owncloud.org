@@ -1,0 +1,9 @@
+Incomplete blacklist vulnerability
+==================================
+
+- Risk: High
+Description
+-----------
+Incomplete blacklist vulnerability in ownCloud before 5.0.6 allows authenticated remote attackers to execute arbitrary PHP code by uploading a crafted file and accessing an uploaded PHP file.Note: Successful exploitation requires that the /data/ directory is stored inside the webroot and a webserver that interprets .htaccess files (e.g. Apache)
+
+ownCloud Server <  5.0.6 (CVE-2013-2089)

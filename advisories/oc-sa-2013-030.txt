@@ -1,0 +1,14 @@
+Auth bypass in "user_webdavauth"
+================================
+
+- Risk: Medium
+Description
+-----------
+A not further specified authentication bypass in the user_webdavauth application has been found. Using this vulnerability an attacker might login to the ownCloud instance without valid credentials.
+
+ownCloud Server <  5.0.8 ()
+ownCloud Server <  4.5.13 ()
+
+Action Taken
+-------------
+

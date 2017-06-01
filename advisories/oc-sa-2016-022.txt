@@ -1,0 +1,19 @@
+Bypass received read-only share permissions using read-write reshare
+====================================================================
+
+- Risk: Medium
+- CVSS v3 Base Score: 6.5
+- CVSS v3 Vector: AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:H/A:N
+- CWE ID: 275
+- CWE Name: Permission Issues
+
+Description
+-----------
+User can upload and modify the link share contents even though the original sharer has only read-only access.
+
+ownCloud Server <  9.1.2 (CVE-2016-????)
+ownCloud Server <  9.0.6 (CVE-2016-????)
+
+Action Taken
+-------------
+Make share permission check work correctly from share manager.

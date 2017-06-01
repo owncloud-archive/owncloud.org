@@ -1,0 +1,9 @@
+Multiple XSS vulnerabilities
+============================
+
+- Risk: Medium
+Description
+-----------
+Multiple cross-site scripting (XSS) vulnerabilities in ownCloud before 4.0.8 allow remote attackers to inject arbitrary web script or HTML via the readyCallback parameter to PUT.swf in apps/files_odfviewer/src/webodf/webodf/flashput/the root parameter to index.php in apps/gallery/templates/a malformed query to db.php in lib/
+
+ownCloud Server <  4.0.8 (CVE-2012-5056)

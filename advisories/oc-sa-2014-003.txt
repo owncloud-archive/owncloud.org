@@ -1,0 +1,14 @@
+Insecure Flash Cross Domain policies
+====================================
+
+- Risk: High
+Description
+-----------
+Due to insecure Flash Cross Domain policies an attacker might gain access to stored files of the user.
+
+ownCloud Server <  6.0.2 (CVE-2014-2047)
+ownCloud Server <  5.0.15 (CVE-2014-2049)
+
+Action Taken
+-------------
+<p>All packaged Flash files have been audited whether they have potentially insecure Cross Domain policies and vulnerable files have been fixed.</p>

@@ -1,0 +1,19 @@
+Reflected XSS in Gallery application
+====================================
+
+- Risk: Medium
+- CVSS v3 Base Score: 6.1
+- CVSS v3 Vector: AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+- CWE ID: 79
+- CWE Name: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+
+Description
+-----------
+The gallery app was not properly sanitizing exception messages from the ownCloud server. Due to an endpoint where an attacker could influence the error message this lead to a reflected Cross-Site-Scripting vulnerability.
+
+ownCloud Server <  9.1.2 (CVE-2016-????)
+ownCloud Server <  9.0.6 (CVE-2016-????)
+
+Action Taken
+-------------
+Error messages are now properly sanitized.

@@ -1,0 +1,9 @@
+Reflected XSS in the file list
+==============================
+
+- Risk: Medium
+Description
+-----------
+Cross-site scripting (XSS) vulnerability in apps/files/js/filelist.js in ownCloud before 4.0.5 allows remote attackers to inject arbitrary web script or HTML via the file parameter.
+
+ownCloud Server <  4.0.5 (CVE-2012-4394)

@@ -1,0 +1,13 @@
+Improper authorization checks in contacts
+=========================================
+
+- Risk: Medium
+Description
+-----------
+Due to not verifying whether an user has been granted access to an address book, authenticated users are able to access arbitrary contacts of other users.
+
+ownCloud Server <  6.0.3 (CVE-2014-3834)
+
+Action Taken
+-------------
+<p>We reviewed the access-control of the contacts application and ensured that permissions are checked properly for every action.</p>

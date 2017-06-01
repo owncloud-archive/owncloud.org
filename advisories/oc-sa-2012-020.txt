@@ -1,0 +1,9 @@
+Multiple reflected XSS
+======================
+
+- Risk: Medium
+Description
+-----------
+Multiple cross-site scripting (XSS) vulnerabilities in ownCloud before 4.0.2 allow remote attackers to inject arbitrary web script or HTML via file names to apps/user_ldap/settings.phpurl or title parameter to apps/bookmarks/ajax/editBookmark.phptag or page parameter to apps/bookmarks/ajax/updateList.phpidentity to apps/user_openid/settings.phpstack name in apps/gallery/lib/tiles.phproot parameter to apps/gallery/templates/index.phpcalendar displayname in apps/calendar/templates/part.import.phpcalendar uri in apps/calendar/templates/part.choosecalendar.rowfields.php title, location, or description parameter in apps/calendar/lib/object.phpcertain vectors in core/js/multiselect.jsartist, album, or title comments parameter in apps/media/lib_scanner.php
+
+ownCloud Server <  4.0.2 (CVE-2012-4395)

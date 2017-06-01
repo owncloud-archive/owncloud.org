@@ -1,0 +1,13 @@
+Improper authorization checks in documents
+==========================================
+
+- Risk: Medium
+Description
+-----------
+Due to not verifying whether an user has permission to rename files of other users an authenticated user could rename files of other users without permission.
+
+ownCloud Server <  6.0.3 (CVE-2014-3834)
+
+Action Taken
+-------------
+<p>We reviewed the access-control of the documents application and ensured that permissions are checked properly for every action.</p>

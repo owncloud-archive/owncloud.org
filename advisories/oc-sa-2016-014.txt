@@ -1,0 +1,21 @@
+Edit permission check not enforced on WebDAV COPY action
+========================================================
+
+- Risk: Medium
+- CVSS v3 Base Score: 3.1
+- CVSS v3 Vector: AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
+- CWE ID: 275
+- CWE Name: Permission Issues
+
+Description
+-----------
+The WebDAV endpoint was not properly checking the permission on a WebDAV "COPY" action. This allowed an authenticated attacker with access to a read-only share to put new files in there. It was not possible to modify existing files.
+
+ownCloud Server <  9.0.4 (CVE-2016-????)
+ownCloud Server <  8.2.7 (CVE-2016-????)
+ownCloud Server <  8.1.9 (CVE-2016-????)
+ownCloud Server <  8.0.14 (CVE-2016-????)
+
+Action Taken
+-------------
+The permission check is now also performed on "COPY" actions

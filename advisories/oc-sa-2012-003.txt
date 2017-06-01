@@ -1,0 +1,9 @@
+XSS vulnerability in user_webdavauth
+====================================
+
+- Risk: Medium
+Description
+-----------
+A cross-site scripting (XSS) vulnerability in ownCloud 4.5.x before 4.5.2 allow remote attackers to inject arbitrary web script or HTML via the POST data to settings.php in apps/user_webdavauth/
+
+ownCloud Server <  4.5.2 (CVE-2012-5608)

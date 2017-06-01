@@ -5,6 +5,30 @@
  <link>https://owncloud.org/security/advisories/</link>
  <description>The ownCloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: XSS in search dialogue (oC-SA-2017-007)</title>
+  <description>&lt;p&gt;Inadequate escaping lead to XSS vulnerability in the search module. To be exploitable an user has to write or paste malicious content into the search dialogue.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2017-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2017-007</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2017-007</guid>
+  <pubDate>Wed, 31 May 2017 10:39:57 +0200</pubDate>
+ </item><item>
+  <title>Server: Normal user can somehow make admin to delete shared folders (oC-SA-2017-006)</title>
+  <description>&lt;p&gt;A Attacker is logged in as a normal user and can somehow make admin to delete shared folders&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2017-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2017-006</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2017-006</guid>
+  <pubDate>Wed, 31 May 2017 10:39:57 +0200</pubDate>
+ </item><item>
+  <title>Server: Share tokens for public calendars disclosed (oC-SA-2017-005)</title>
+  <description>&lt;p&gt;A logical error caused disclosure of valid share tokens for public calendars. Thus granting an attacker potentially access to publicly shared calendars without knowing the share token.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2017-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2017-005</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2017-005</guid>
+  <pubDate>Wed, 31 May 2017 10:39:57 +0200</pubDate>
+ </item><item>
+  <title>Server: XSS in Error Page (oC-SA-2017-004)</title>
+  <description>&lt;p&gt;A Attacker can inject HTML script code into a error message&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2017-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://owncloud.org/security/advisory/?id=oC-SA-2017-004</link>
+  <guid isPermaLink="true">https://owncloud.org/security/advisory/?id=oC-SA-2017-004</guid>
+  <pubDate>Wed, 31 May 2017 10:39:57 +0200</pubDate>
+ </item><item>
   <title>Server: Flooding logfiles with a 1 Bit BMP File (oC-SA-2017-003)</title>
   <description>&lt;p&gt;An Attacker can upload a 1 Bit BMP File and the server hangs and doesn't stop to populate a logfile&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://owncloud.org/security/advisory/?id=oC-SA-2017-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://owncloud.org/security/advisory/?id=oC-SA-2017-003</link>

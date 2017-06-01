@@ -1,0 +1,20 @@
+Log pollution can potentially lead to local HTML injection
+==========================================================
+
+- Risk: Low
+- CVSS v3 Base Score: 4.3
+- CVSS v3 Vector: AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+- CWE ID: 209
+- CWE Name: Information Exposure Through an Error Message
+
+Description
+-----------
+The "download log" functionality in the admin screen is delivering the log in JSON format to the end-user. The file was delivered with an attachment disposition forcing the browser to download the document. However, Firefox running on Microsoft Windows would offer the user to open the data in the browser as HTML document. Thus any injected data in the log would be executed.While the document would only be executed locally (thus on another scope) we have decided to fix this to protect our users.
+
+ownCloud Server <  8.1.9 (CVE-2016-????)
+ownCloud Server <  8.2.7 (CVE-2016-????)
+ownCloud Server <  9.0.4 (CVE-2016-????)
+
+Action Taken
+-------------
+The file is now delivered with a content-type of "application/octet-stream".

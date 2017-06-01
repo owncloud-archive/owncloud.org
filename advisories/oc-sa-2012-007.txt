@@ -1,0 +1,10 @@
+XSS vulnerability in bookmarks
+==============================
+
+- Risk: Medium
+Description
+-----------
+A cross-site scripting (XSS) vulnerability in ownCloud before 4.5.5 and 4.0.10 allow remote attackers to inject arbitrary web script or HTML via the PATH data to index.php in apps/bookmark/
+
+ownCloud Server <  4.5.5 (CVE-2013-5666)
+ownCloud Server <  4.0.10 (CVE-2013-5666)
