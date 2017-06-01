@@ -5,7 +5,7 @@ XSS in Error Page
 - CVSS v3 Base Score: 4.3
 - CVSS v3 Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
 - CWE ID: 79
-- CWE Name: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')a
+- CWE Name: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
 
 Description
 -----------

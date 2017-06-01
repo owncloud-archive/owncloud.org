@@ -13,7 +13,7 @@
         <p>31st May 2017</p>
         <p>Risk level: <strong>Medium</strong></p>
         <p>CVSS v3 Base Score: 4.3 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N">CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N</a>)</p>
-        <p>CWE: <a href="https://cwe.mitre.org/data/definitions/79.html">Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')a (CWE-79)</a></p>
+        <p>CWE: <a href="https://cwe.mitre.org/data/definitions/79.html">Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') (CWE-79)</a></p>
 <p>HackerOne report: <a href="https://hackerone.com/reports/215410">215410</a></p>
         <h3>Description</h3>
         <p><p>A Attacker can inject HTML script code into a error message</p>
