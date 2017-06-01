@@ -20,7 +20,7 @@ Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/releas
 <ul>
 <li>[major] Fix issue with database.xml migration being triggered twice on market app install - <a href="https://github.com/owncloud/core/issues/27982">core/#27982</a></li>
 <li>[major] Apps formerly marked as shipped can now be uninstalled - <a href="https://github.com/owncloud/core/issues/27985">core/#27985</a></li>
-<li>[major] Market now properly updates app version when using multiple apps paths - <a href="https://github.com/owncloud/core/issues/27989">core/#27989</a></li>
+<li>[major] Market now properly updates app version when using multiple apps paths - <a href="https://github.com/owncloud/core/issues/28002">core/#28002</a></li>
 </ul>
 Download: <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2">owncloud-10.0.2.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip">owncloud-10.0.2.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2.md5">owncloud-10.0.2.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip.md5">owncloud-10.0.2.zip.md5</a></br>
