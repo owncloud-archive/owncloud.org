@@ -26,9 +26,9 @@
 		       That does not imply that these releases are bug free. The issues are known and can be worked around. The downside of this channel is that the releases are behind in terms of features and performance.</td>
             <td class="info">Older archives are available from our <a href="/changelog">changelog</a>.<br />
 		    Production repositories are available for the following major versions:
+        <a href="https://download.owncloud.org/download/repositories/10.0/owncloud/">10.0</a>,
 		    <a href="https://download.owncloud.org/download/repositories/9.1/owncloud/">9.1</a>, 
 		    <a href="https://download.owncloud.org/download/repositories/9.0/owncloud/">9.0</a>, 
-		    <a href="https://download.owncloud.org/download/repositories/8.2/owncloud/">8.2</a>
 		    <br>Register and activate one of these repositories with your package manager to get updates within the same major version<a href="#warning">*</a>
             </td>
     </tr>
@@ -36,7 +36,7 @@
       <td class="warning"><h1>Stable</h1></td>
       <td class="info">This channel delivers the latest feature releases ready for home users at minimal risk.</td>
             <td class="info">The current stable version is 10.0.0, available via the archives: <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Archive File</a> (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">MD5</a>)<br />
-<!--      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a> --> </td>     </tr>
+            <!--or via the packages: <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>--></td>     </tr>
     <tr>
       <td class="warning"><h1>Beta</h1></td>
       <td class="info">Betas and release candidates are the versions of choice for testers in preparation for an ownCloud release. They provide a short-term-stable point to report bugs against. Grab these to make sure the upcoming release works well on your infrastructure.<br>Automatically generated <a href="/install/#testing-development">snapshot tarballs and packages</a> track daily ownCloud development. These are suitable to check if bugs are fixed but can break any time.</td>
@@ -61,8 +61,7 @@
         <p><strong>Warning:</strong></br>
         If you pick a <strong>specific Linux Package repository</strong> rather than following stable, you assume the responsibility for a timely upgrade to a new stable release once your current release is no longer supported. We support releases for a significant time, but not forever, and at some point you have to move to a newer version to continue to receive security and stability improvements.</br>
         If at all possible, we suggest to <strong>upgrade sooner rather than later</strong>. Doing a test on a copy of your production environment is a better way of ensuring the new version works for you than waiting and hoping all issues are found and fixed – that way, you lose out on many of the benefits of the new release, not only in terms of features and user interface enhancements but also when it comes to performance improvements and scalability.</p>
-        <p>Note that from 8.2 onward, ownCloud packages can be found on download.owncloud.org rather than on the openSUSE Open Build Service. This means you will have to move repositories if you want to upgrade from the Stable 8.1 release.</p>
-        <p>To <em>upgrade in the safest way possible</em>, always update to the latest minor release before upgrading to a new version. As an extreme example, to upgrade from 7.0 all the way to 9.0, upgrade 7.0.x to 7.0.15, then upgrade to 8.0.16, 8.1.11, 8.2.9, then 9.0.7.</p>
+        <p>To <em>upgrade in the safest way possible</em>, always update to the latest minor release before upgrading to a new version. As an extreme example, to upgrade from 8.2 all the way to 10.0, upgrade 8.2.x to 9.0.9, then upgrade to 9.1.5, then to 10.0.2.</p>
     </div>
     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-10">
         <a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels.png" title="Update Channel selection in Updater app" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/eight-one/update-channels-wee.png" style="width: 100%" alt="..." class="img-thumbnail"></a>
