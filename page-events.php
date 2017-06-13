@@ -76,6 +76,20 @@
 				<td>June 24</td>
 				<td><a target="_blank" href="http://www.tuebix.org/">website</a></td>
 			</tr>
+
+			</tr>
+		</table>
+		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
+		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know via the contact form</a> or email the user mailing list!</p>
+
+		<h3>Events we've been at in 2017</h3>
+		<table class="table table-striped">
+			<tr>
+				<th>Event</th>
+				<th>Location</th>
+				<th>Date</th>
+				<th>Link (report)</th>
+			</tr>
 			<tr>
 				<td>TNC 17 Networking Conference</td>
 				<td>Linz, Austria</td>
@@ -86,13 +100,19 @@
 				<td>openSUSE Conference 17</td>
 				<td>Nuremberg, Germany</td>
 				<td>May 26-28</td>
-				<td><a target="_blank" href="https://events.opensuse.org/conference/oSC17">website</a></td>
+				<td><a target="_blank" href="https://owncloud.com/events/opensuse-conference-2017/">event details</a></td>
+			</tr>
+			<tr>
+				<td>ownCloud X launch event</td>
+				<td>Cologne, Germany</td>
+				<td>May 23</td>
+				<td><a href="https://owncloud.com/attend-owncloud-x-enterprise-launch-event/">website</a></td>
 			</tr>
 			<tr>
 				<td>nueww - Nuremberg Web Week</td>
 				<td>Nuremberg, Germany</td>
 				<td>May 15-21</td>
-				<td><a target="_blank" href="http://nueww.de/">website</a></td>
+				<td><a target="_blank" href="https://owncloud.org/blog/owncloud-at-the-nurnberg-web-week-2017/">blog</a></td>
 			</tr>
 			<tr>
 				<td>devOps Camp</td>
@@ -111,20 +131,6 @@
 				<td>Dusseldorf, Germany</td>
 				<td>April 24</td>
 				<td><a target="_blank" href=""></a></td>
-			</tr>
-
-			</tr>
-		</table>
-		<p>Is there a conference, trade show or other event close by and you want ownCloud to be there? <a target="_blank" href="/events/conference-program">Help make it happen!</a> If you want to present ownCloud to an audience, find <a target="_blank" href="https://github.com/owncloud/promo/tree/master/Presentation%20materials">presentation slides here</a> and checkout our page with <a href="/events/conference-program/speaking">tips and ideas about giving a talk</a>.</p>
-		<p>Are you presenting about ownCloud or running a booth at an upcoming event that should be listed here? <a href="/events/contactform">Let us know via the contact form</a> or email the user mailing list!</p>
-
-		<h3>Events we've been at in 2017</h3>
-		<table class="table table-striped">
-			<tr>
-				<th>Event</th>
-				<th>Location</th>
-				<th>Date</th>
-				<th>Link (report)</th>
 			</tr>
 			<tr>
 				<td>ownCloud Greek Translation Hackathon</td>
