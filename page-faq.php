@@ -74,14 +74,21 @@ See also the <a href="https://owncloud.com/faq" target="_blank">ownCloud Enterpr
 <h3>Things ownCloud does not do</h3>
 <p>Note that ownCloud is NOT a backup tool: the desktop client, for example, will synchronize the contents of a local folder with the server. That works for file modifications and additions, but also deletions. If you delete a file on the server, it gets deleted on all devices that you installed the client on! And if you delete a file on the client, it gets deleted on the server and then deleted on other clients that were syncing that file. ownCloud does have a <strong>trash</strong> for deleted files and retains older <strong>versions of files</strong>, which means deleted or modified files can be brought back. But this functionality can be disabled by the system administrator and depending on the space usage settings, deleted or older versions of files get deleted over time. You should always backup your ownCloud server!</p>
 <p>Similarly, note that External Storage and the Server to Server sharing which ownCloud supports, connects ownCloud to an external storage like FTP or Samba, or to another ownCloud server. Files will show up in your web interface and can be synced with the client. However, they are <strong>not replicated</strong> on your ownCloud server! They are merely fetched whenever you request them in the web interface. Once the external storage disappears or the other ownCloud server retracts your access, you can no longer access the files! Make a copy if you want to have them on your own ownCloud server.</p>
+
 <h2>See what ownCloud can do in this video</h2>
 <div class="row">
-	<div class="col-md-8">
-		<iframe width="95%" height="360" src="https://www.youtube.com/embed/g3b0XDpcvuc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
-	</div>
-</div>
+    <div class="col-md-8">
+<!--
+Ugly solution. The video is not available on YouTube, so the thumbnail is only an image, not a real video thumbnail.
 
-		</div>
+The video is not on YouTube so we can ask for contact data, before people can watch the video.
+-->
+	<a href="https://owncloud.com/playback/whats-new-owncloud-x/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/video_thumbnail.png" alt="Video thumbnail" height="272" width="484"></a>
+    <div class="row">
+<div class="col-md-8">
+
+	</div>
+
 <h2>Running ownCloud</h2>
 
 <a name="install"></a>
