@@ -12,6 +12,7 @@
 	<li><a href="#upgradeyet">Is it safe to upgrade to the new release?</a></li>
 	<li><a href="#decentralization">If I have my ownCloud server hosted, does that still help me protect my privacy?</a></li>
 </ul>
+<a href="https://marketplace.owncloud.com/faq"><h4>I have Questions about the ownCloud Marketplace.</h4></a>
 <h4>Technology</h4>
 <ul>
 	<li><a href="#rsync">Why don't you just use rsync?</a></li>
@@ -86,15 +87,14 @@ See also the <a href="https://owncloud.com/faq" target="_blank">ownCloud Enterpr
 <a name="install"></a>
 <h3>Where do I find information on how to use/install ownCloud?</h3>
 <ul>
-	<li>You should start with the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a></li>
-	<li>There are a lot of tutorials and how-to's written for installing and managing ownCloud, to be found all over the internet. We collect a list on <a href="https://github.com/owncloud/core/wiki/Reviews-tutorials-and-videos-of-ownCloud"  target="_blank">this page</a> and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">YouTube channel collects video tutorials</a> but if what you are looking for is not there, <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">Google</a> or another search engine can find them easily.</li>
-	<li>We have a <a href="https://central.owncloud.org/c/faq" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+	<li>You can find guides how to install ownCloud in different ways in our <a href="https://doc.owncloud.org/server/10.0/admin_manual/installation/linux_installation.html" target="_blank">ownCloud Documentation</a></li>.
 </ul>
 
 <a name="channels"></a>
 <h3>I have a problem, what do I do?</h3>
 <ul>
 	<li>If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a> does not help and <a href="https://www.google.com/search?q=owncloud+installation+problem" target="_blank">Google</a> can't solve your problem either you should check out <a href="/support/">our support page</a>.</li>
+	<li>At <a href="https://central.owncloud.org">central.ownCloud.org</a> the ownCloud community is helping each other with problems. You should ask for help there! Or better, do a short search if someone else had the same problem before.</li>
 	<li>If you are using ownCloud in a business, educational setting or other professional or large scale deployments, note that the <a href="#entcomparison">ownCloud GmbH</a> offers support contracts as well as <a href="https://owncloud.com/resources">resources</a> like white papers, webinars and a knowledge base to help successfully deploy and use ownCloud in your business.</li>
 </ul>
 
@@ -272,12 +272,6 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 	<li>ownCloud has an estimated <a href="https://owncloud.org/blog/owncloud-grows-to-8-million-users/" target="_blank">8 million users</a> and over 350 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="https://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself. We track the development of the ownCloud user and contributor base on <a href="/history">our history page</a>.</li>
 </ul>
 
-<a name="howitstarted"></a>
-<h3>How did ownCloud get started?</h3>
-<ul>
-	<li>ownCloud started with a keynote by Frank Karlitschek at Camp KDE’10 where he talked about the need for a self-controlled free and open source cloud. Two years later, Frank announced the start of ownCloud GmbH which is headquartered in Nuremberg, Germany. Find out more on <a href="/contribute/" target="_blank">our history page</a>.</li>
-</ul>
-
 <a name="getinvolved"></a>
 <h3>How can I get involved in the ownCloud Community?</h3>
 <ul>
@@ -302,9 +296,10 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h3>Where can I find ownCloud apps?</h3>
 <ul>
 	<li>There is a large selection of built in and community-approved apps available for download from within the App management screen in your ownCloud installation. Featuring apps like the Music app, the Calendar app and so on you can watch your movies, share your pictures and keep your bookmarks synced. Download is seamless (just 'enable' the app and wait while it is downloaded, installed and enabled) and upgrading is easy from the same screen.</li>
-	<li>If the built in and approved apps are not enough, you can get more than 200 community and enterprise-developed ownCloud apps at <a href="https://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more. Note that unlike the apps available for download from the App Management screen in ownCloud, the apps on <a href="https://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> are not extensively checked for safety and compatibility, so you should be careful with them. For this reason, we do not support automatic download and installation for these, but require users to download the apps and install them in their ownCloud by hand.</li>
+	<li>If the built in and approved apps are not enough, you can get community and enterprise-developed ownCloud apps at <a href="https://marketplace.owncloud.com/" target="_blank">marketplace.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more.</li>
 	<li>If you are looking for third-party apps that integrate ownCloud in mobile and desktop applications, see our <a href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd-party apps</a> page.</li>
 	<li>Building a new ownCloud app is easy. If you're interested in developing your own ownCloud app, see <a href="/contribute/" target="_blank">the contribute page</a>, where you can find a link to the latest App Development documentation.</li>
+	<li>If you have questions about the ownCloud Marketplace, you should <a href="https://marketplace.owncloud.com/faq">take a look at its FAQ.</a></li>
 </ul>
 
 <a name="communityswag"></a>
