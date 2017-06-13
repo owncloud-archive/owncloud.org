@@ -17,7 +17,7 @@
         <li class="menu-documentation"><a href="https://doc.owncloud.org">Documentation</a></li>
         <li class="<?php if(is_page('contribute')){ echo 'top-nav-active '; } ?>menu-contribute"><a href="/contribute/">Contribute</a>
         <li class="<?php if(is_page('support')){ echo 'top-nav-active '; } ?>menu-support"><a href="/support/">Support</a></li>
-        <li class="menu-commercial"><a target="_blank" href="https://owncloud.com">Enterprise Edition</a></li>
+        <li class="menu-commercial"><a target="_blank" href="https://owncloud.com/download">Enterprise Edition</a></li>
         <li class="<?php if(is_page('news')){ echo 'top-nav-active '; } ?>menu-install"><a href="/install/">Download</a></li>
       </ul>
     </nav>
