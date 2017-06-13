@@ -124,7 +124,7 @@
 				<td>Talk at Linux Presentation Day</td>
 				<td>Erlangen, Germany</td>
 				<td>May 6</td>
-				<td><a target="_blank" href="https://www.vhs-erlangen.de/programm/beruf.html?action[89]=course&cat_ID=480-CAT-KAT122&dataTotal=10&courseId=480-C-17S401962&categoriesId=480-CAT-KAT122&dataIndex=7">website</a></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td>FSFE Fellowship Meeting</td>
