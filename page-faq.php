@@ -12,6 +12,7 @@
 	<li><a href="#upgradeyet">Is it safe to upgrade to the new release?</a></li>
 	<li><a href="#decentralization">If I have my ownCloud server hosted, does that still help me protect my privacy?</a></li>
 </ul>
+<a href="https://marketplace.owncloud.com/faq"><h4>I have Questions about the ownCloud Marketplace.</h4></a>
 <h4>Technology</h4>
 <ul>
 	<li><a href="#rsync">Why don't you just use rsync?</a></li>
@@ -36,7 +37,6 @@
 <ul>
 	<li><a href="#communitylocation">Where is the ownCloud community hosted?</a></li>
 	<li><a href="#communitysize">How big is the ownCloud Community?</a></li>
-	<li><a href="#howitstarted">How did ownCloud get started?</a></li>
 	<li><a href="#getinvolved">How can I get involved in the ownCloud Community?</a></li>
 	<li><a href="#notechknowledge">But what if I'm not very technical?</a></li>
 	<li><a href="#mobile">How can I get started writing mobile (Android, iOS) clients or third party (web) apps?</a></li>
@@ -73,28 +73,34 @@ See also the <a href="https://owncloud.com/faq" target="_blank">ownCloud Enterpr
 <h3>Things ownCloud does not do</h3>
 <p>Note that ownCloud is NOT a backup tool: the desktop client, for example, will synchronize the contents of a local folder with the server. That works for file modifications and additions, but also deletions. If you delete a file on the server, it gets deleted on all devices that you installed the client on! And if you delete a file on the client, it gets deleted on the server and then deleted on other clients that were syncing that file. ownCloud does have a <strong>trash</strong> for deleted files and retains older <strong>versions of files</strong>, which means deleted or modified files can be brought back. But this functionality can be disabled by the system administrator and depending on the space usage settings, deleted or older versions of files get deleted over time. You should always backup your ownCloud server!</p>
 <p>Similarly, note that External Storage and the Server to Server sharing which ownCloud supports, connects ownCloud to an external storage like FTP or Samba, or to another ownCloud server. Files will show up in your web interface and can be synced with the client. However, they are <strong>not replicated</strong> on your ownCloud server! They are merely fetched whenever you request them in the web interface. Once the external storage disappears or the other ownCloud server retracts your access, you can no longer access the files! Make a copy if you want to have them on your own ownCloud server.</p>
+
 <h2>See what ownCloud can do in this video</h2>
 <div class="row">
-	<div class="col-md-8">
-		<iframe width="95%" height="360" src="https://www.youtube.com/embed/g3b0XDpcvuc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe>
-	</div>
-</div>
+    <div class="col-md-8">
+<!--
+Ugly solution. The video is not available on YouTube, so the thumbnail is only an image, not a real video thumbnail.
 
-		</div>
+The video is not on YouTube so we can ask for contact data, before people can watch the video.
+-->
+	<a href="https://owncloud.com/playback/whats-new-owncloud-x/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/video_thumbnail.png" alt="Video thumbnail" height="272" width="484"></a>
+    <div class="row">
+<div class="col-md-8">
+
+	</div>
+
 <h2>Running ownCloud</h2>
 
 <a name="install"></a>
 <h3>Where do I find information on how to use/install ownCloud?</h3>
 <ul>
-	<li>You should start with the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a></li>
-	<li>There are a lot of tutorials and how-to's written for installing and managing ownCloud, to be found all over the internet. We collect a list on <a href="https://github.com/owncloud/core/wiki/Reviews-tutorials-and-videos-of-ownCloud"  target="_blank">this page</a> and our <a href="https://www.youtube.com/playlist?list=PLtZe22ggl2YBi1u2dH0qg9fgnym5DwYbW" target="_blank">YouTube channel collects video tutorials</a> but if what you are looking for is not there, <a href="https://www.google.com/search?q=owncloud+installation+tutorial" target="_blank">Google</a> or another search engine can find them easily.</li>
-	<li>We have a <a href="https://central.owncloud.org/c/faq" target="_blank">special FAQ page</a> where each topic corresponds to typical mistakes or frequently occurring issues</li>
+	<li>You can find guides how to install ownCloud in different ways in our <a href="https://doc.owncloud.org/server/10.0/admin_manual/installation/linux_installation.html" target="_blank">ownCloud Documentation</a>.</li>
 </ul>
 
 <a name="channels"></a>
 <h3>I have a problem, what do I do?</h3>
 <ul>
 	<li>If the <a href="https://doc.owncloud.org" target="_blank">ownCloud Documentation</a> does not help and <a href="https://www.google.com/search?q=owncloud+installation+problem" target="_blank">Google</a> can't solve your problem either you should check out <a href="/support/">our support page</a>.</li>
+	<li>At <a href="https://central.owncloud.org">central.ownCloud.org</a> the ownCloud community is helping each other with problems. You should ask for help there! Or better, do a short search in the central if someone else had the same problem before and already asked.</li>
 	<li>If you are using ownCloud in a business, educational setting or other professional or large scale deployments, note that the <a href="#entcomparison">ownCloud GmbH</a> offers support contracts as well as <a href="https://owncloud.com/resources">resources</a> like white papers, webinars and a knowledge base to help successfully deploy and use ownCloud in your business.</li>
 </ul>
 
@@ -272,12 +278,6 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 	<li>ownCloud has an estimated <a href="https://owncloud.org/blog/owncloud-grows-to-8-million-users/" target="_blank">8 million users</a> and over 350 programmers contributed code in the last 12 months. Tens of thousands participate on our forums, mailing lists, translation and documentation tools, and IRC channels in testing, discussions, translation, documentation and so on. See <a href="http://blog.jospoortvliet.com/2014/08/owncloud-numbers.html" target="_blank">this blog</a> for an analysis and dig into the statistics <a href="https://owncloud.org/blog/announcing-owncloud-community-statistics-provided-by-bitergia/" target="_blank">on Bitergia</a> so you can judge the health of our community yourself. We track the development of the ownCloud user and contributor base on <a href="/history">our history page</a>.</li>
 </ul>
 
-<a name="howitstarted"></a>
-<h3>How did ownCloud get started?</h3>
-<ul>
-	<li>ownCloud started with a keynote by Frank Karlitschek at Camp KDE’10 where he talked about the need for a self-controlled free and open source cloud. Two years later, Frank announced the start of ownCloud GmbH which is headquartered in Nuremberg, Germany. Find out more on <a href="/contribute/" target="_blank">our history page</a>.</li>
-</ul>
-
 <a name="getinvolved"></a>
 <h3>How can I get involved in the ownCloud Community?</h3>
 <ul>
@@ -302,9 +302,10 @@ Rather the opposite. It signals that ownCloud is a mature project taking respons
 <h3>Where can I find ownCloud apps?</h3>
 <ul>
 	<li>There is a large selection of built in and community-approved apps available for download from within the App management screen in your ownCloud installation. Featuring apps like the Music app, the Calendar app and so on you can watch your movies, share your pictures and keep your bookmarks synced. Download is seamless (just 'enable' the app and wait while it is downloaded, installed and enabled) and upgrading is easy from the same screen.</li>
-	<li>If the built in and approved apps are not enough, you can get more than 200 community and enterprise-developed ownCloud apps at <a href="https://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more. Note that unlike the apps available for download from the App Management screen in ownCloud, the apps on <a href="https://apps.owncloud.com/" target="_blank">apps.owncloud.com</a> are not extensively checked for safety and compatibility, so you should be careful with them. For this reason, we do not support automatic download and installation for these, but require users to download the apps and install them in their ownCloud by hand.</li>
+	<li>If you want details on the apps, you can also look at our community and enterprise-developed ownCloud apps at <a href="https://marketplace.owncloud.com/" target="_blank">marketplace.owncloud.com</a> that have been developed with our open API. You can find apps in all categories: multimedia, PIM, productivity, games, tools and more.</li>
 	<li>If you are looking for third-party apps that integrate ownCloud in mobile and desktop applications, see our <a href="https://github.com/owncloud/core/wiki/Apps" target="_blank">3rd-party apps</a> page.</li>
 	<li>Building a new ownCloud app is easy. If you're interested in developing your own ownCloud app, see <a href="/contribute/" target="_blank">the contribute page</a>, where you can find a link to the latest App Development documentation.</li>
+	<li>If you have questions about the ownCloud Marketplace, you should <a href="https://marketplace.owncloud.com/faq">take a look at its FAQ.</a></li>
 </ul>
 
 <a name="communityswag"></a>

@@ -76,42 +76,6 @@
 				<td>June 24</td>
 				<td><a target="_blank" href="http://www.tuebix.org/">website</a></td>
 			</tr>
-			<tr>
-				<td>TNC 17 Networking Conference</td>
-				<td>Linz, Austria</td>
-				<td>May 29-June 2</td>
-				<td><a target="_blank" href="https://owncloud.com/events/tnc17-networking-conference/">event details</a></td>
-			</tr>
-			<tr>
-				<td>openSUSE Conference 17</td>
-				<td>Nuremberg, Germany</td>
-				<td>May 26-28</td>
-				<td><a target="_blank" href="https://events.opensuse.org/conference/oSC17">website</a></td>
-			</tr>
-			<tr>
-				<td>nueww - Nuremberg Web Week</td>
-				<td>Nuremberg, Germany</td>
-				<td>May 15-21</td>
-				<td><a target="_blank" href="http://nueww.de/">website</a></td>
-			</tr>
-			<tr>
-				<td>devOps Camp</td>
-				<td>Nuremberg, Germany</td>
-				<td>May 12-14</td>
-				<td><a target="_blank" href="https://devops-camp.de/">website</a></td>
-			</tr>
-			<tr>
-				<td>Talk at Linux Presentation Day</td>
-				<td>Erlangen, Germany</td>
-				<td>May 6</td>
-				<td><a target="_blank" href="https://www.vhs-erlangen.de/programm/beruf.html?action[89]=course&cat_ID=480-CAT-KAT122&dataTotal=10&courseId=480-C-17S401962&categoriesId=480-CAT-KAT122&dataIndex=7">website</a></td>
-			</tr>
-			<tr>
-				<td>FSFE Fellowship Meeting</td>
-				<td>Dusseldorf, Germany</td>
-				<td>April 24</td>
-				<td><a target="_blank" href=""></a></td>
-			</tr>
 
 			</tr>
 		</table>
@@ -125,6 +89,48 @@
 				<th>Location</th>
 				<th>Date</th>
 				<th>Link (report)</th>
+			</tr>
+			<tr>
+				<td>TNC 17 Networking Conference</td>
+				<td>Linz, Austria</td>
+				<td>May 29-June 2</td>
+				<td><a target="_blank" href="https://owncloud.com/events/tnc17-networking-conference/">event details</a></td>
+			</tr>
+			<tr>
+				<td>openSUSE Conference 17</td>
+				<td>Nuremberg, Germany</td>
+				<td>May 26-28</td>
+				<td><a target="_blank" href="https://owncloud.com/events/opensuse-conference-2017/">event details</a></td>
+			</tr>
+			<tr>
+				<td>ownCloud X launch event</td>
+				<td>Cologne, Germany</td>
+				<td>May 23</td>
+				<td><a href="https://owncloud.com/attend-owncloud-x-enterprise-launch-event/">website</a></td>
+			</tr>
+			<tr>
+				<td>nueww - Nuremberg Web Week</td>
+				<td>Nuremberg, Germany</td>
+				<td>May 15-21</td>
+				<td><a target="_blank" href="https://owncloud.org/blog/owncloud-at-the-nurnberg-web-week-2017/">blog</a></td>
+			</tr>
+			<tr>
+				<td>devOps Camp</td>
+				<td>Nuremberg, Germany</td>
+				<td>May 12-14</td>
+				<td><a target="_blank" href="https://devops-camp.de/">website</a></td>
+			</tr>
+			<tr>
+				<td>Talk at Linux Presentation Day</td>
+				<td>Erlangen, Germany</td>
+				<td>May 6</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>FSFE Fellowship Meeting</td>
+				<td>Dusseldorf, Germany</td>
+				<td>April 24</td>
+				<td><a target="_blank" href=""></a></td>
 			</tr>
 			<tr>
 				<td>ownCloud Greek Translation Hackathon</td>
