@@ -146,7 +146,7 @@
 								<p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation">ownCloud Admin Manual</a>. If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a for moving to new ownCloud releases.</p>
 							</div>
 							<div class="col-sm-5 button-area">
-								<h3>Latest stable version<!--: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong>--></h3>
+								<h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_PACKAGES_STABLE; ?></strong></h3>
 								<h4><strong><a class="changelog" href="/changelog">See what's new (Changelog)</a></strong></h4>
 								<a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>" class="button blue primary">Continue to the Packages</a>
 								<p class="mt30">Want to use ownCloud for your Company?</p>
@@ -230,7 +230,7 @@
 
 								</div>
 								<div class="col-sm-5 button-area">
-									<h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
+									<h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_APPLIANCE_STABLE; ?></strong></h3>
 									<h4><strong><a class="changelog mb0" href="/changelog">See what's new (Changelog)</a></strong></h4>
 									<h5 class="mb15">Grab the official ownCloud virtual machine image in one of these formats:</h5>
 									<a href="<?php echo $DOWNLOAD_VM_ESX_OVA; ?>" class="button blue secondary">ESX</a>
@@ -249,7 +249,6 @@
 									<a href="https://owncloud.com/download/?ref=orgB" target="_blank" class="button orange primary mb30">Test Enterprise Edition free for 30 days</a>
 									<hr />
 									<div class="download-notes">
- 										<p><strong>NOTE</strong>: The appliances have been updated to <a href="https://owncloud.org/blog/introducing-owncloud-x/">ownCloud 10.0</a> but have only gone through absolutely minimal testing. It is recommended to not use these for important data yet - giving them a trial run however and giving us feedback is greatly appreciated!</p>
 										<p><strong>Security Note:</strong><br />These images do not all offer automatic update technology. We recommend a subscription to our low-traffic <a href="https://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public ownCloud <a href="<?php echo $OWNCLOUD_GPG; ?>">GPG key</a>.</p>
 										<p><strong>Channels:</strong><br />We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages</a> for testing here.</p>
 									</div>
