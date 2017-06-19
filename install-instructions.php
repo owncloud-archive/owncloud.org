@@ -58,7 +58,7 @@
                 </div>
               </div>
               <hr>
-              <p class="installatlation-instructions"><strong>Installation Instructions:</strong></p>
+              <p class="installation-instructions"><strong>Installation Instructions:</strong></p>
               <ol class="install-steps">
                 <li>Download <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> or <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> archive.</li>
                 <li>Check package integrity using MD5 (.tar.bz2 / .zip) or SHA256 (.tar.bz2 / .zip)</li>
@@ -98,7 +98,7 @@
 								</div>
 							</div>
 							<hr>
-							<p class="installatlation-instructions"><strong>Installation Instructions:</strong></p>
+							<p class="installation-instructions"><strong>Installation Instructions:</strong></p>
 							<ol class="install-steps">
 								<li><a href="https://download.owncloud.com/download/community/setup-owncloud.php">Download</a> and save the file to your computer</li>
 								<li>Upload <tt>setup-owncloud.php</tt> to your web space</li>
@@ -140,7 +140,7 @@
 									</div>
 								</div>
 								<hr>
-								<p class="installatlation-instructions"><strong>Installation Instructions:</strong></p>
+								<p class="installation-instructions"><strong>Installation Instructions:</strong></p>
 								<p>Clicking on “Continue” will forward you to the ownCloud download page, which hosts the repositories for all distributions. Further instructions on how to install ownCloud for your distribution are also provided there. Here are the <a href="<?php echo get_template_directory_uri(); ?>/assets/files/opensuse_obs-release-signing.gpg">ownCloud packages <= 8.1</a> and <a href="<?php echo get_template_directory_uri(); ?>/assets/files/owncloud_org_obs-release-signing.gpg">ownCloud packages >= 8.2</a> used to sign our packages.</p>
 								<p>The repositories allow you to stay on an up-to-date version of ownCloud using your distributions’ update mechanism, with packages maintained by the ownCloud community.</p>
 								<p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation">ownCloud Admin Manual</a>. If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a for moving to new ownCloud releases.</p>
@@ -176,7 +176,7 @@
 										</div>
 									</div>
 									<hr>
-									<p class="installatlation-instructions"><strong>Third party ownCloud VM images</strong><br />These are not maintained by the ownCloud community itself.</p>
+									<p class="installation-instructions"><strong>Third party ownCloud VM images</strong><br />These are not maintained by the ownCloud community itself.</p>
 
 									<!-- suse -->
 									<div class="row vmlist">
