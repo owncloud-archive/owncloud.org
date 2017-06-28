@@ -227,7 +227,7 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 	<div class="col-md-4 featureblock">
 		<img class="thumbnail" alt="something" src="<?php bloginfo('template_directory'); ?>/assets/img/features/avatar.png" />
 		<h3 class="featuretitle">Play music, watch movies, store passwords</h3>
-		<p class="featuredesc">Use the Music app to listen to your songs, securely store your passwords in Passman and stream your movies with the Streaming app. Simply enable <a href="https://apps.owncloud.com" target="_blank">one of over 250 applications</a> in the built in ownCloud App store.</p>
+		<p class="featuredesc">Use the Music app to listen to your songs, securely store your passwords in Passman and stream your movies with the Streaming app. Simply enable <a href="https://marketplace.owncloud.com" target="_blank">one of over 250 applications</a> in the built in ownCloud App store.</p>
 	</div>
 </div>
 
