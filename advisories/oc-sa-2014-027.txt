@@ -1,0 +1,15 @@
+CSRF in "bookmarks" application
+===============================
+
+- Risk: Low
+Description
+-----------
+Due to not verifying the CSRF token on the import functionality of the "bookmarks" application, it was vulnerable against CSRF attacks.The "bookmarks" application is disabled by default.An unauthenticated attacker could have used this to import bookmarks into the "bookmarks" application if the victim visits a specially crafted website and is logged-in into the ownCloud instance at the same time.Furthermore, an unauthenticated attacker could leverage this vulnerability with oC-SA-2014-028 resulting in a potential Cross-site scripting vulnerability.
+
+ownCloud Server <  7.0.3 (CVE-2014-9041)
+ownCloud Server <  6.0.6 (CVE-2014-9041)
+ownCloud Server <  5.0.18 (CVE-2014-9041)
+
+Action Taken
+-------------
+<p>The import functionality is now verifying the CSRF token.</p>

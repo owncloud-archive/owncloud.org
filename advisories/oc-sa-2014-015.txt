@@ -1,0 +1,13 @@
+Enumeration of shared files in documents
+========================================
+
+- Risk: Low
+Description
+-----------
+Due to using the auto-incrementing file_id instead of the random generated token to access files in the documents app an authenticated users could enumerate shared files of other users.
+
+ownCloud Server <  6.0.3 (CVE-2014-3837)
+
+Action Taken
+-------------
+<p>We replaced the usage of <code>file_id</code> with our random generated file sharing token.</p>

@@ -1,0 +1,14 @@
+ACLs not properly enforced in "documents" application
+=====================================================
+
+- Risk: Medium
+Description
+-----------
+The "documents" application is a collaborative web-based online editor for ODT files. Using this application you can easily share and collaborate on office documents.This application uses strong and very long random "Session IDs" to limit access to specific resources. Knowledge of this ID allows access to the files they are protecting.A legacy API method used for debugging was not properly removed, which allows authenticated users to list all currently valid session IDs. Using these IDs an authenticated adversary can access recently edited documents of every existing user.
+
+ownCloud Server <  7.0.3 (CVE-2014-9049)
+ownCloud Server <  6.0.6 (CVE-2014-9049)
+
+Action Taken
+-------------
+<p>The debugging code has been removed.</p>

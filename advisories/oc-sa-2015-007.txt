@@ -1,0 +1,20 @@
+Resource Exthaustion when sanitizing filenames
+==============================================
+
+- Risk: Medium
+- CVSS v2 Base Score: 7.8
+- CVSS v2 Vector: AV:N/AC:L/Au:N/C:N/I:N/A:C
+- CWE ID: 400
+- CWE Name: Uncontrolled Resource Consumption ('Resource Exhaustion')
+
+Description
+-----------
+The sanitization component for filenames was vulnerable to DoS when parsing specially crafted file names passed via specific endpoints.Effectively this lead to a endless loop filling the log file until the system is not anymore responsive.
+
+ownCloud Server <  6.0.8 (CVE-2015-4717)
+ownCloud Server <  7.0.6 (CVE-2015-4717)
+ownCloud Server <  8.0.4 (CVE-2015-4717)
+
+Action Taken
+-------------
+<p>This was caused by the PHP behaviour of allowing to cast <code>$_GET</code> values to an array. The critical usages have been fixed in all affected versions and with ownCloud 8.1 the usages of <code>$_GET</code> in the whole code base has been reviewed.</p>

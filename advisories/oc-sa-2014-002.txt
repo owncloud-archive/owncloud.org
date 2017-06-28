@@ -1,0 +1,13 @@
+Insecure OpenID implementation
+==============================
+
+- Risk: High
+Description
+-----------
+Due to an insecure OpenID implementation used by user_openid in ownCloud 5 it is possible to log-into a system using an arbitrary OpenID Account (without knowing any secret information, i.e. the password, about it) by using a malicious OpenID provider.
+
+ownCloud Server <  5.0.15 (CVE-2014-2048)
+
+Action Taken
+-------------
+<p>As the application is not longer maintained anymore, user_openid has been removed from the release.</p>

@@ -1,0 +1,18 @@
+Normal user can somehow make admin to delete shared folders
+===========================================================
+
+- Risk: Medium
+- CVSS v3 Base Score: 4.3
+- CVSS v3 Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+- CWE ID: 269
+- CWE Name: Improper Privilege Management
+
+Description
+-----------
+A Attacker is logged in as a normal user and can somehow make admin to delete shared folders
+
+ownCloud Server <  10.0.2 (CVE-2017-9340)
+
+Action Taken
+-------------
+Adjust privileges

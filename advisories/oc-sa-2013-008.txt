@@ -1,0 +1,9 @@
+Multiple XSS vulnerabilities
+============================
+
+- Risk: Medium
+Description
+-----------
+Multiple cross-site scripting (XSS) vulnerabilities in ownCloud 4.5.8 and all prior versions (except 4.0.x) allow remote attackers to inject arbitrary web script or HTML via  the "quota" POST parameter to setquota.php in /core/settings/ajax/  Commits: 2364c79 (stable45) Risk: Low Note: Successful exploitation of this stored XSS requires administrator privileges.  the group input field to settings.php  Commits: 4cff6df (stable45) Risk: Low Note: Successful exploitation of this DOM based self XSS requires group admin privileges.  the share with input field  Commits: 7b0a8f4 (stable45) Risk: Low Note: Successful exploitation of this DOM based self XSS requires group admin privileges.  
+
+ownCloud Server <  4.5.8 (CVE-2013-1822)
