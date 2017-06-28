@@ -1,0 +1,11 @@
+Multiple directory traversals
+=============================
+
+- Risk: High
+Description
+-----------
+Multiple directory traversal vulnerabilities in (1) apps/files_trashbin/index.php via the "dir" GET parameter and (2) lib/files/view.php via undefined vectors in all ownCloud versions prior to 5.0.6 and other versions before 4.0.15, allow authenticated remote attackers to get access to arbitrary local files.
+
+ownCloud Server <  5.0.6 (CVE-2013-2039, CVE-2013-2085)
+ownCloud Server <  4.5.11 (CVE-2013-2039)
+ownCloud Server <  4.0.15 (CVE-2013-2039)

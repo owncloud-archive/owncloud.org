@@ -1,0 +1,19 @@
+Full installation path disclosure through error message
+=======================================================
+
+- Risk: Low
+- CVSS v2 Base Score: 4
+- CVSS v2 Vector: AV:N/AC:L/Au:S/C:P/I:N/A:N
+- CWE ID: 210
+- CWE Name: Information Exposure Through Self-generated Error Message
+
+Description
+-----------
+ownCloud returns exception error messages to the user in two different places, allowing an authenticated adversary to gain information about the installation path of the ownCloud instance. There is no further information disclosure.
+
+ownCloud Server <  8.1.4 (CVE-2016-1501)
+ownCloud Server <  8.0.9 (CVE-2016-1501)
+
+Action Taken
+-------------
+<p>The vulnerable components have been adjusted to not leak the exception error message and thus not disclose the server installation path.</p>

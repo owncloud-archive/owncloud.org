@@ -1,0 +1,9 @@
+contacts: SQL Injection
+=======================
+
+- Risk: High
+Description
+-----------
+ownCloud before 5.0.1 does not neutralize special elements that are passed to the SQL query in addressbookprovider.php which therefore allows an authenticated attacker to execute arbitrary SQL commands.
+
+ownCloud Server <  5.0.1 (CVE-2013-1893)

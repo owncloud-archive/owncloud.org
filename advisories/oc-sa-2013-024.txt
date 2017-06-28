@@ -1,0 +1,10 @@
+Privilege escalation in the calendar application
+================================================
+
+- Risk: Medium
+Description
+-----------
+Due to not properly checking the ownership of an calendar, an authenticated attacker is able to download calendars of other users via the "calendar_id" GET parameter to /apps/calendar/ajax/events.phpNote: Successful exploitation of this privilege escalation requires the "calendar" app to be enabled (enabled by default).
+
+ownCloud Server <  5.0.6 (CVE-2013-2043)
+ownCloud Server <  4.5.11 (CVE-2013-2043)

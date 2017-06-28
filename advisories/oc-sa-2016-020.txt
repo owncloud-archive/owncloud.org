@@ -1,0 +1,21 @@
+Content-Spoofing in "files" app
+===============================
+
+- Risk: Low
+- CVSS v3 Base Score: 3.1
+- CVSS v3 Vector: AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N
+- CWE ID: 451
+- CWE Name: User Interface (UI) Misrepresentation of Critical Information
+
+Description
+-----------
+The location bar in the files app was not verifying the passed parameters. An attacker could craft an invalid link to a fake directory structure and use this to display an attacker-controlled error message to the user.
+
+ownCloud Server <  9.1.2 (CVE-2016-????)
+ownCloud Server <  9.0.6 (CVE-2016-????)
+
+Action Taken
+-------------
+The passed parameter is now verified.
+
+This advisory is licensed CC BY-SA 4.0. Original source: https://nextcloud.com/security/advisory/?id=NC-SA-2016-010

@@ -1,0 +1,19 @@
+Information Exposure Through Directory Listing in the file scanner
+==================================================================
+
+- Risk: Low
+- CVSS v2 Base Score: 4
+- CVSS v2 Vector: AV:N/AC:L/Au:S/C:P/I:N/A:N
+- CWE ID: 548
+- CWE Name: Information Exposure Through Directory Listing
+
+Description
+-----------
+Due to an incorrect usage of an ownCloud internal file system function the passed path to the file scanner was resolved relatively. An authenticated adversary may thus be able to get a listing of directories (but not the containing files) existing on the filesystem. However, it is not possible to access any of these files.For a more technical description please take a look at the advisory of the reporter.
+
+ownCloud Server <  8.1.1 (CVE-2015-6500)
+ownCloud Server <  8.0.6 (CVE-2015-6500)
+
+Action Taken
+-------------
+<p>The vulnerable component has been patched and <a href="https://github.com/owncloud/core/issues/17906">will be replaced by a cron job in a future ownCloud release</a></p>

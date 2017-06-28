@@ -1,0 +1,10 @@
+Users can mount the local filesystem
+====================================
+
+- Risk: High
+Description
+-----------
+Due to not properly sanitzing the mount configuration authenticated users are able to mount the local filesystem into their ownCloud. A successful exploit requires the files_external app to be enabled.
+
+ownCloud Server <  6.0.2 ()
+ownCloud Server <  5.0.15 ()

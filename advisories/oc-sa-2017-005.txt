@@ -1,0 +1,20 @@
+Share tokens for public calendars disclosed
+===========================================
+
+- Risk: Medium
+- CVSS v3 Base Score: 4.3
+- CVSS v3 Vector: AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+- CWE ID: 548
+- CWE Name: Information Exposure Through Directory Listing
+
+Description
+-----------
+A logical error caused disclosure of valid share tokens for public calendars. Thus granting an attacker potentially access to publicly shared calendars without knowing the share token.
+
+ownCloud Server <  10.0.2 (CVE-2017-9339)
+
+Action Taken
+-------------
+<p>The error has been fixed and regression tests been added.</p>
+
+This advisory is licensed CC BY-SA 4.0. Original source: https://nextcloud.com/security/advisory/?id=nc-sa-2017-011

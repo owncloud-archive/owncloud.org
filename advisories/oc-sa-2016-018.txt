@@ -1,0 +1,21 @@
+Stored XSS in CardDAV image export
+==================================
+
+- Risk: Medium
+- CVSS v3 Base Score: 5.4
+- CVSS v3 Vector: AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+- CWE ID: 79
+- CWE Name: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+
+Description
+-----------
+The CardDAV image export functionality as implemented in ownCloud allows the download of images stored within a vCard. Due to not performing any kind of verification on the image content this is prone to a stored Cross-Site Scripting attack.Note:ownCloud employs a very strict Content Security Policy on the DAV endpoints. This is thus only exploitable on browsers that don't support Content Security Policy.
+
+ownCloud Server <  9.1.2 (CVE-2016-????)
+ownCloud Server <  9.0.6 (CVE-2016-????)
+
+Action Taken
+-------------
+The mimetype of the exported image is now compared with a whitelist as well as download disposition headers have been set on the response.
+
+This advisory is licensed CC BY-SA 4.0. Original source: https://nextcloud.com/security/advisory/?id=NC-SA-2016-008

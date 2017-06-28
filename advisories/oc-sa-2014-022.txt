@@ -1,0 +1,14 @@
+Login bypass when using the external FTP user backend
+=====================================================
+
+- Risk: High
+Description
+-----------
+ownCloud provides multiple user backends that can be used to authenticate users.One of those backend providers is "user_external", which authenticates users against FTP, IMAP or SMB servers. This is mainly useful when it is not possible to authenticate against an LDAP server.The FTP backend provided by "user_external" was not properly URL-encoding the password. Thus, an attacker may use a specially crafted password to login to the remote server.If the ownCloud instance is able to access external FTP servers this effectively allows an adversary to login without providing valid credentials, if the "user_external" FTP backend has been enabled and configured.
+
+ownCloud Server <  6.0.6 (CVE-2014-9045)
+ownCloud Server <  5.0.18 (CVE-2014-9045)
+
+Action Taken
+-------------
+<p>The FTP user backend within "user_external" is now properly encoding the credentials.</p>

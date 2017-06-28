@@ -93,7 +93,7 @@
 		<div class="row">
 			<div class="col-md-3"><a href="https://owncloud.org/blog/about-activities-and-notifications-in-owncloud/" title="Learn more about notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/notifications.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 			<div class="col-md-3"><a href="https://owncloud.org/blog/owncloud-9-0-boosts-team-collaboration/" title="Learn more about comments and tags" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/collaboration_blog.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
-			<div class="col-md-3"><a href="https://apps.owncloud.com" title="See some ownCloud Apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/apps.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
+			<div class="col-md-3"><a href="https://marketplace.owncloud.com" title="See some ownCloud Apps" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/apps.png" style="width: 100%" alt="..." class="img-thumbnail"></a></div>
 		</div>
 		<div class="row">
 			<div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification.png" title="Notifications" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/server/nine/receiving-notification-wee.png" style="width: 100%" alt="..."></a></div>

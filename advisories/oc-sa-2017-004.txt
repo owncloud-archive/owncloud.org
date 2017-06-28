@@ -1,0 +1,21 @@
+XSS in Error Page
+=================
+
+- Risk: Medium
+- CVSS v3 Base Score: 4.3
+- CVSS v3 Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+- CWE ID: 79
+- CWE Name: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+
+Description
+-----------
+A Attacker can inject HTML script code into a error message
+
+ownCloud Server <  10.0.2 (CVE-2017-8896)
+ownCloud Server <  9.1.6 (CVE-2017-8896)
+ownCloud Server <  9.0.10 (CVE-2017-8896)
+ownCloud Server <  8.2.12 (CVE-2017-8896)
+
+Action Taken
+-------------
+Escape output

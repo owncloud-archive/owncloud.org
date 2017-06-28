@@ -1,0 +1,10 @@
+Multiple XSS vulnerabilities
+============================
+
+- Risk: High
+Description
+-----------
+Multiple cross-site scripting (XSS) vulnerabilities in ownCloud 4.5.5 and 4.0.10 and all prior versions allow remote attackers to inject arbitrary web script or HTML via  the GET parameters to resetpassword.php in core/lostpassword/templates/ (CVE-2013-0201)  Commits: c05c8ab (stable45), 4e2b834 (stable4) Risk: Medium Note: This is a reflected XSS, which can be only abused using Internet Explorer 9 and prior.  the mime parameter to mimeicon.php in apps/files/ajax/ (CVE-2013-0201)  Commits: b8e0309 (stable45), f603454 (stable4) Risk: Medium Note: This is a reflected XSS, which only affects ownCloud versions hosted by Windows.  the token parameter to sharing.php in apps/gallery/ (CVE-2013-0201)  Commits: 34ac2f5 (stable45), f71f0ad (stable4) Risk: Medium Note: This is a reflected XSS, for a successful exploitation the &#8220;gallery&#8221; app needs to be enabled.  the action parameter to sharing.php in core/ajax/ (CVE-2013-0202)  Commits: fb334f3 (stable45), 306d5ee (stable4) Risk: Low Note: This is a self XSS, for a successful exploitation the user needs to enter malicious Javascript on his own.  the POST parameters to new.php in apps/calendar/ajax/event/ (CVE-2013-0203)  Commits: 9e6ba80e (stable45), 708bd (stable4) Risk: High Note: This is a stored XSS, for a successful exploitation the &#8220;calendar&#8221; app needs to be enabled. An authenticated remote attacker may be able to share this crafted event with other users.  the url parameter to addBookmark.php in apps/bookmarks/ajax/ (CVE-2013-0203)  Commits: 6aba1e8 (stable45), 3f37063 (stable4) Risk: Low Note: This is a stored XSS, for a successful exploitation the &#8220;bookmarks&#8221; app needs to be enabled.  
+
+ownCloud Server <  4.0.11 (CVE-2013-0201, CVE-2013-0202, CVE-2013-0203)
+ownCloud Server <  4.5.6 (CVE-2013-0201, CVE-2013-0202, CVE-2013-0203)

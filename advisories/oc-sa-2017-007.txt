@@ -1,0 +1,23 @@
+XSS in search dialogue
+======================
+
+- Risk: Low
+- CVSS v3 Base Score: 2.6
+- CVSS v3 Vector: CVSS:AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N
+- CWE ID: 79
+- CWE Name: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')a
+
+Description
+-----------
+Inadequate escaping lead to XSS vulnerability in the search module. To be exploitable an user has to write or paste malicious content into the search dialogue.
+
+ownCloud Server <  10.0.2 (CVE-2017-9338)
+ownCloud Server <  9.1.6 (CVE-2017-9338)
+ownCloud Server <  9.0.10 (CVE-2017-9338)
+ownCloud Server <  8.2.12 (CVE-2017-9338)
+
+Action Taken
+-------------
+Escape output
+
+This advisory is licensed CC BY-SA 4.0. Original source: https://nextcloud.com/security/advisory/?id=nc-sa-2017-007

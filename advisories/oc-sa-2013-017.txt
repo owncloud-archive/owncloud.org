@@ -1,0 +1,10 @@
+XSS Vulnerability in MediaElement.js
+====================================
+
+- Risk: High
+Description
+-----------
+A cross-site scripting (XSS) vulnerability in all ownCloud versions prior to 5.0.5 including the 4.5.x branch allows remote attackers to execute arbitrary javascript when a user opens a special crafted URL.This vulnerability exists in the bundled 3rdparty plugin "MediaElement.js", "MediaElement.js" released version 2.11.2 which addresses the problem.
+
+ownCloud Server <  5.0.5 (CVE-2013-1967)
+ownCloud Server <  4.5.10 (CVE-2013-1967)

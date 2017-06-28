@@ -1,0 +1,10 @@
+user_migrate: Local file disclosure
+===================================
+
+- Risk: High
+Description
+-----------
+Incomplete blacklist vulnerability in lib/migrate.php in ownCloud before 4.0.13 and 4.5.8 allows an authenticated remote attacker to import arbitrary files on the server inside his user account.
+
+ownCloud Server <  4.5.8 (CVE-2013-1851)
+ownCloud Server <  4.0.13 (CVE-2013-1851)
