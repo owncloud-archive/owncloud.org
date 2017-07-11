@@ -16,7 +16,7 @@
 												<div class="col-sm-6 enterprise">
 													<div class="button-area">
 														<p><strong>Try ownCloud Enterprise Edition free for 30 days</strong><br /><span>Get started in no time providing a complete ownCloud environment, fully setup and ready to go!</span></p>
-														<a href="https://owncloud.com/download/?ref=orgB" target="_blank" class="button orange primary">Download Enterprise Edition</a>
+														<a href="https://marketplace.owncloud.com/enterprise-trial" target="_blank" class="button orange primary">Download Enterprise Edition</a>
 													</div>
 												</div>
 											</div>
