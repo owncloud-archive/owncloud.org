@@ -407,7 +407,7 @@
 	<a href="#" class="close">&times;</a>
   <div class="subscribe content">
     <p>Sign up to get interesting ownCloud Community news and updates delivered directly to your inbox.</p>
-    <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&p=oi&m=1121878184680&sit=mf4qye7jb&f=cc4cd13f-acdf-45d3-b132-75252542c37d" class="button blue" target="blank">Sign Up</a>
+<!--    <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&p=oi&m=1121878184680&sit=mf4qye7jb&f=cc4cd13f-acdf-45d3-b132-75252542c37d" class="button blue" target="blank">Sign Up</a> -->
   </div>
 </div>
 <!-- /Newsletter Subscription -->

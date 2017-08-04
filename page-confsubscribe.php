@@ -10,10 +10,10 @@
        <span id="success_message" style="display:none;">
            <div style="text-align:center;">Thanks for signing up!</div>
        </span>
-       <form data-id="embedded_signup:form" class="ctct-custom-form Form" name="embedded_signup" method="POST" action="https://visitor2.constantcontact.com/api/signup">
+ <!--      <form data-id="embedded_signup:form" class="ctct-custom-form Form" name="embedded_signup" method="POST" action="https://visitor2.constantcontact.com/api/signup">
            <h2 style="margin:0;">Sign up to be the first to know!</h2>
            <p>Sign up to receive information on the ownCloud Contributor Conference.</p>
-           <!-- The following code must be included to ensure your sign-up form works properly. -->
+           The following code must be included to ensure your sign-up form works properly
            <input data-id="ca:input" type="hidden" name="ca" value="8c4e5bd7-6eaf-4d88-99bf-9b310b6f3240">
            <input data-id="list:input" type="hidden" name="list" value="1100989519">
            <input data-id="source:input" type="hidden" name="source" value="EFD">
@@ -25,7 +25,7 @@
            <p data-id="I run ownCloud Server at::p"><label data-id="I run ownCloud Server at::label" data-name="cf_text_value--0" class="">I run ownCloud Server at: (home raspberry Pi, laptop from work, ...)</label><input data-id="I run ownCloud Server at:_value:input" type="text" name="cf_text_value--0" value=""></p><input data-id="I run ownCloud Server at:_name:input" type="hidden" name="cf_text_name--0" value="i_run_owncloud_server_at"><input data-id="I run ownCloud Server at:_label:input" type="hidden" name="cf_text_label--0" value="I run ownCloud Server at:"><p data-id="Number of Users on my ownCloud Server::p"><label data-id="Number of Users on my ownCloud Server::label" data-name="cf_text_value--1" class="">Number of Users on my ownCloud Server:</label><input data-id="Number of Users on my ownCloud Server:_value:input" type="text" name="cf_text_value--1" value=""></p><input data-id="Number of Users on my ownCloud Server:_name:input" type="hidden" name="cf_text_name--1" value="number_of_users_on_my_owncloud_server"><input data-id="Number of Users on my ownCloud Server:_label:input" type="hidden" name="cf_text_label--1" value="Number of Users on my ownCloud Server:"><p data-id="True or False: I already contribute to ownCloud::p"><label data-id="True or False: I already contribute to ownCloud::label" data-name="cf_text_value--2" class="">True or False: I already contribute to ownCloud:</label><input data-id="True or False: I already contribute to ownCloud:_value:input" type="text" name="cf_text_value--2" value=""></p><input data-id="True or False: I already contribute to ownCloud:_name:input" type="hidden" name="cf_text_name--2" value="true_or_false_i_already_contribute_to_owncloud"><input data-id="True or False: I already contribute to ownCloud:_label:input" type="hidden" name="cf_text_label--2" value="True or False: I already contribute to ownCloud:">           
            <button type="submit" class="Button ctct-button Button--block Button-secondary" data-enabled="enabled">Sign Up</button>
                 <div><p class="ctct-form-footer">By submitting this form, you are granting: ownCloud GmbH, Schloßäckerstr. 26a, 90443 Nürnberg, Germany, http://www.owncloud.com permission to email you. You may unsubscribe via the link found at the bottom of every email.  (See our <a href="http://www.constantcontact.com/legal/privacy-statement" target="_blank">Email Privacy Policy</a> for details.) Emails are serviced by Constant Contact.</p></div>
-       </form>
+       </form> -->
    </div>
 </div>
 <script type='text/javascript'>
