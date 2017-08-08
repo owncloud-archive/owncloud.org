@@ -2,6 +2,29 @@
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
 
+
+<h3 id="233">Release 2.3.3 <b>rc1</b> <small>August 8th 2017</small></h3>
+<ul>
+	<li>Chunking NG: Don't use old chunking on new DAV endpoint (<a href="https://github.com/owncloud/client/issues/5855">5855</a>)</li>
+	<li>Selective Sync: Skip excluded folders when reading DB, don't let them show errors (<a href="https://github.com/owncloud/client/issues/5772">5772</a>)</li>
+	<li>Settings: Make window bigger so Qt version is always visible (<a href="https://github.com/owncloud/client/issues/5760">5760</a>)</li>
+	<li>Share links: Show warning that public link shares are public (<a href="https://github.com/owncloud/client/issues/5786">5786</a>)</li>
+	<li>Downloads: Re-trigger folder discovery on HTTP 404 (<a href="https://github.com/owncloud/client/issues/5799">5799</a>)</li>
+	<li>Notifications: Propagate "Dismiss" as DELETE to server (<a href="https://github.com/owncloud/client/issues/5922">5922</a>)</li>
+	<li>Overlay Icons: Fix potential hangs on Windows</li>
+	<li>SyncJournalDB: Don't use ._ as filename pattern if that does not work because of SMB storage settings (<a href="https://github.com/owncloud/client/issues/5844">5844</a>)</li>
+	<li>SyncJournalDB: Log reason for sqlite3 opening errors</li>
+	<li>Windows: Fix a memory leak in FileSystem::longWinPath</li>
+	<li>Switch Linux build also to Qt 5.6.2 (<a href="https://github.com/owncloud/client/issues/5470">5470</a>)</li>
+	<li>Stopped maintaining Qt 4 buildability</li>
+</ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.3.8149rc1-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.3.8153rc1.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&amp;package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.3.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.3.tar.xz.asc">PGP signature</a>)
+
+
 <h3 id="232">Release 2.3.2 <small>May 8th 2017</small></h3>
 <ul>
 	<li>Fix more crashes (thanks to everyone submitting to our crash reporter!)</li>
