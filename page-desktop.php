@@ -19,10 +19,10 @@
 	<li>Stopped maintaining Qt 4 buildability</li>
 </ul>
 Download:
-<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.3.8149rc1-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.3.8153rc1.pkg">Mac</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.3.8149rc1-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.3.8153rc1.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&amp;package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.3.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.3.tar.xz.asc">PGP signature</a>)
+<a href="https://github.com/owncloud/client/releases">Sources from GitHub</a>
 
 
 <h3 id="232">Release 2.3.2 <small>May 8th 2017</small></h3>
