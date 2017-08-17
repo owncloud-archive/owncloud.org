@@ -68,8 +68,8 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.owncloud.org/download/reposi
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.owncloud.org/download/repositories/testing/owncloud';
 $SERVER_TESTING_VERSION ='10.0.3beta';
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.owncloud.org/community/owncloud-10.0.3beta.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.owncloud.org/community/owncloud-10.0.3beta.zip';
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.owncloud.org/community/testing/owncloud-10.0.3beta.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.owncloud.org/community/testing/owncloud-10.0.3beta.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.owncloud.com/download/community/setup-owncloud.php';
