@@ -29,20 +29,22 @@ $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-2.
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-2.3.2.4250.pkg';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = 'https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = $DOWNLOAD_CLIENT_DESKTOP_BASE.'owncloudclient-2.3.2.tar.xz';
+// The .tar.gz on github and our .tar.xz differ because of submodules etc!
 // $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = 'https://github.com/owncloud/client/archive/v2.3.3.tar.gz';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES.'.asc';
 
 // Desktop client testing
 // By having an empty VERSIONS_CLIENT_DESKTOP_TESTING the website should show the nightly links instead
-$VERSIONS_CLIENT_DESKTOP_TESTING = '2.3.3 rc1';
+$VERSIONS_CLIENT_DESKTOP_TESTING = '2.3.3 rc2';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE= 'https://download.owncloud.com/desktop/testing/';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-2.3.3.8149rc1-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-2.3.3.8153rc1.pkg';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-2.3.3.8193rc2-setup.exe';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'ownCloud-2.3.3.8187rc2.pkg';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX = 'https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&amp;package=owncloud-client';
-$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'testpilotcloud-2.3.3.8150rc1-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'testpilotcloud-2.3.3.8154rc1.pkg';
+$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'testpilotcloud-2.3.3.8194rc2-setup.exe';
+$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'testpilotcloud-2.3.3.8188rc2.pkg';
 $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_LINUX = 'https://software.opensuse.org/download/package?project=isv:ownCloud:testpilot:testing&amp;package=testpilotcloud-client';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES= $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'owncloudclient-2.3.3-rc2.tar.xz';
+// The .tar.gz on github and our .tar.xz differ because of submodules etc!
 // $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES = 'https://github.com/owncloud/client/archive/v2.3.3-rc1.tar.gz';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES.'.asc';
 

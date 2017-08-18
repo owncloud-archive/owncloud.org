@@ -2,8 +2,8 @@
   <h1>ownCloud Desktop Client Changelog</h1>
 </div>
 
-
-<h3 id="233">Release 2.3.3 <b>rc1</b> <small>August 8th 2017</small></h3>
+<!-- When doing beta/rc vs release, always check the subdirectory name and the OBS repo name!! //-->
+<h3 id="233">Release 2.3.3 <b>rc2</b> <small>August 18th 2017</small></h3>
 <ul>
 	<li>Chunking NG: Don't use old chunking on new DAV endpoint (<a href="https://github.com/owncloud/client/issues/5855">5855</a>)</li>
 	<li>Selective Sync: Skip excluded folders when reading DB, don't let them show errors (<a href="https://github.com/owncloud/client/issues/5772">5772</a>)</li>
@@ -19,10 +19,10 @@
 	<li>Stopped maintaining Qt 4 buildability</li>
 </ul>
 Download:
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.3.8149rc1-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.3.8153rc1.pkg">Mac</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.3.8193rc2-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.3.8187rc2.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&amp;package=owncloud-client">Linux</a> |
-<a href="https://github.com/owncloud/client/releases">Sources from GitHub</a>
+<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.3-rc2.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.3-rc2.tar.xz.asc">PGP signature</a>)
 
 
 <h3 id="232">Release 2.3.2 <small>May 8th 2017</small></h3>
@@ -37,7 +37,7 @@ Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.2.6928-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.2.4250.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.2.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.2.tar.xz.asc">PGP signature</a>)
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.2.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.2.tar.xz.asc">PGP signature</a>)
 
 
 <h3 id="231">Release 2.3.1<small>March 21th 2017</small></h3>
