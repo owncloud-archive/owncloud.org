@@ -389,6 +389,8 @@
 		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Sources</a>
 		    </div>
 		    <?php } ?>
+                    <h2>Android Beta Client</h2>
+                    <p>If you want to test the Android Beta Client, you can <a href="https://f-droid.org/packages/com.owncloud.android.beta/">download it on Fdroid.</a></p>
 		  </div>
 		</div>
 		<div class="overlay-body row">
