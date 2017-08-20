@@ -16,7 +16,7 @@
 												<div class="col-sm-6 enterprise">
 													<div class="button-area">
 														<p><strong>Try ownCloud Enterprise Edition free for 30 days</strong><br /><span>Get started in no time providing a complete ownCloud environment, fully setup and ready to go!</span></p>
-														<a href="https://owncloud.com/download/?ref=orgB" target="_blank" class="button orange primary">Download Enterprise Edition</a>
+														<a href="https://marketplace.owncloud.com/enterprise-trial" target="_blank" class="button orange primary">Download Enterprise Edition</a>
 													</div>
 												</div>
 											</div>
@@ -61,7 +61,7 @@
               <p class="installatlation-instructions"><strong>Installation Instructions:</strong></p>
               <ol class="install-steps">
                 <li>Download <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> or <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> archive.</li>
-                <li>Check package integrity using MD5 (.tar.bz2 / .zip) or SHA256 (.tar.bz2 / .zip)</li>
+                <li>Check the <a href="https://owncloud.org/changelog/">package integrity for your version </a>using MD5 (.tar.bz2 / .zip) or SHA256 (.tar.bz2 / .zip)</li>
                 <li>Verify the authenticity via PGP (.tar.bz2 /.zip). The ownCloud GPG key is <a target="_blank" href="<?php echo $OWNCLOUD_GPG ; ?>">here</a>.</li>
                 <li>Follow the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation">ownCloud Admin Manuals’</a> installation chapter. If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/update.html">update documentation</a> for minor releases and the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a> for moving to major new ownCloud releases.</li>
               </ol>
@@ -269,8 +269,7 @@
 			<div class="row">
 				<a href="#" class="close">&times;</a>
 				<ul class="nav nav-tabs" role="tablist">
-					<li id="li-tab-
-                  " class="active"><a href="#tab-desktop" class="btn btn-lg" title="Install Desktop Clients" role="tab" data-toggle="tab"><i class="icon-archive"></i> Install Desktop Clients</a></li>
+					<li id="li-tab-desktop" class="active"><a href="#tab-desktop" class="btn btn-lg" title="Install Desktop Clients" role="tab" data-toggle="tab"><i class="icon-archive"></i> Install Desktop Clients</a></li>
 					<li id="li-tab-mobile"><a href="#tab-mobile" class="btn btn-lg" title="Install Mobile Apps" role="tab" data-toggle="tab"><i class="icon-code"></i> Install Mobile Apps</a></li>
 				</ul>
 			</div>

@@ -154,7 +154,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="Updates" src="<?php bloginfo('template_directory'); ?>/assets/img/features/store.png" />
 				<h3 class="featuretitle">Experimental apps</h3></br>
-				<p class="featuredesc">The built in app store now has the ability to install all apps from the <a href="https://apps.owncloud.com">online app store</a>, including the apps not yet approved and verified. This comes, of course, at a security- and stability risk, which the administrator should be aware off.</p>
+				<p class="featuredesc">The built in app store now has the ability to install all apps from the <a href="https://marketplace.owncloud.com">online app store</a>, including the apps not yet approved and verified. This comes, of course, at a security- and stability risk, which the administrator should be aware off.</p>
 			</div>
 		</div>
 

@@ -1,0 +1,9 @@
+Privilege escalation and CSRF in the API
+========================================
+
+- Risk: Medium
+Description
+-----------
+Due to an insufficient permission check, an authenticated attacker is able to execute API commands as administrator. Additionally, an unauthenticated attacker could abuse this flaw as a cross-site request forgery vulnerability.
+
+ownCloud Server <  5.0.6 (CVE-2013-2048)

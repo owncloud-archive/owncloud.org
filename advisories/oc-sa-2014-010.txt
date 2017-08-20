@@ -1,0 +1,14 @@
+Multiple XSS
+============
+
+- Risk: Medium
+Description
+-----------
+Due to not sanitising all user provided input the below mentioned ownCloud versions are vulnerable against several XSS attack vectors.ownCloud advises browsers to disable inline JavaScript execution due to the used Content-Security-Policy, this vulnerability is therefore likely not exploitable if you use a browser that fully supports the current CSP standard.
+
+ownCloud Server <  6.0.3 (CVE-2014-3832, CVE-2014-3833)
+ownCloud Server <  5.0.16 (CVE-2014-3833)
+
+Action Taken
+-------------
+<p>ownCloud offers the functions <code>p()</code> which encodes potential dangerous input using `htmlspecialchars()`. We have reviewed whether the potential insecure pendant <code>print_unescaped()</code> was used in other places and replaced unneeded occurrences with the safe variant.</p><p>This review helped us to discover vulnerabilities in the following components.</p><strong>stable6</strong><ul><li>Gallery (stored) (CVE-2014-3833)</li><li>ownCloud core (stored + reflected) (CVE-2014-3833)</li><li>Documents (stored) (CVE-2014-3832)</li></ul><strong>stable5</strong><ul><li>Gallery (stored) (CVE-2014-3833)</li><li>ownCloud core (stored + reflected) (CVE-2014-3833)</li></ul>

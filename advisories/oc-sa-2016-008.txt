@@ -1,0 +1,22 @@
+Disclosure of arbitrary certificate files
+=========================================
+
+- Risk: Low
+- CVSS v3 Base Score: 2.6
+- CVSS v3 Vector: AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N
+- CWE ID: 610
+- CWE Name: Externally Controlled Reference to a Resource in Another Sphere
+
+Description
+-----------
+The 'Import root certificate' ability that users are able to use once files_external is enabled allows users to import their own root certificates for connections. (e.g. server-to-server shares to servers using a self-signed certificate or external storages)The functionality was using the PHP OpenSSL parsing functions for parsing these certificate files. Namely, `openssl_pkey_get_public` and `openssl_x509_parse`. It turned out that these internally call `php_openssl_x509_from_zval` which allow passing in a file:///Therefore an attacker could pass a file beginning with `file://` and ownCloud would try to parse the corresponding file. This leads to a disclosure of arbitrary certificate files if the adversary can guess the correct path.
+
+ownCloud Server <  7.0.14 (CVE-2016-xxxx)
+ownCloud Server <  8.0.12 (CVE-2016-xxxx)
+ownCloud Server <  8.1.7 (CVE-2016-xxxx)
+ownCloud Server <  8.2.4 (CVE-2016-xxxx)
+ownCloud Server <  9.0.2 (CVE-2016-xxxx)
+
+Action Taken
+-------------
+ownCloud is now preventing files that being with 'file://' from being parsed.

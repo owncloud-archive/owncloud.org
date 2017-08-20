@@ -1,0 +1,9 @@
+Multiple stored XSS
+===================
+
+- Risk: Medium
+Description
+-----------
+Multiple cross-site scripting (XSS) vulnerabilities in ownCloud before 4.0.1 allow remote attackers to inject arbitrary web script or HTML viathe calendar displayname to part.choosecalendar.rowfields.phppart.choosecalendar.rowfields.shared.php in apps/calendar/templates/ unspecified vectors to apps/contacts/lib/vcard.php
+
+ownCloud Server <  4.0.1 (CVE-2012-4395)

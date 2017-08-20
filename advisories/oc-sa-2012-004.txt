@@ -1,0 +1,10 @@
+Code execution in /lib/migrate.php
+==================================
+
+- Risk: High
+Description
+-----------
+Incomplete blacklist vulnerability in lib/migrate.php in ownCloud before 4.5.2 allows authenticated remote attackers to execute arbitrary code by uploading a crafted mount.php file in an imported ZIP file.
+
+ownCloud Server <  4.0.10 (CVE-2013-5665)
+ownCloud Server <  4.5.5 (CVE-2013-5665)

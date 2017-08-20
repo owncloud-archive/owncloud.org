@@ -108,7 +108,7 @@
 			<div class="col-md-4 featureblock">
 				<img class="thumbnail" alt="notification" src="<?php bloginfo('template_directory'); ?>/assets/img/features/notification.png" />
 				<h3 class="featuretitle">Notification Mechanism</h3></br>
-				<p class="featuredesc">ownCloud now offers a notification window where an admin can push notifications out to users of the ownCloud system, such as notification about a maintenance window. This is currently only in the web interface but future mobile and desktop client releases will incorporate the notification feature. There is an <a href="https://apps.owncloud.com/content/show.php?content=173921">Announcement Center App in the app store</a> for sending system wide notifications.</p>
+				<p class="featuredesc">ownCloud now offers a notification window where an admin can push notifications out to users of the ownCloud system, such as notification about a maintenance window. This is currently only in the web interface but future mobile and desktop client releases will incorporate the notification feature. There is an <a href="https://marketplace.owncloud.com/content/show.php?content=173921">Announcement Center App in the app store</a> for sending system wide notifications.</p>
 			</div>
 
 			<div class="col-md-4 featureblock">

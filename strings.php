@@ -8,8 +8,8 @@ $VERSIONS_SERVER_MAJOR_DEVELOPMENT = '10.0';
 $VERSIONS_SERVER_MAJOR_DEV_DOCS = '10.0'; // Used in dev docs links
 $VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.3.2';
 $VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.3'; // For use in documentation link
-$VERSIONS_SERVER_APPLIANCE_STABLE = '10.0.1'; // only as long as the versions differ
-$VERSIONS_SERVER_PACKAGES_STABLE = '9.1.6'; // only as long as the versions differ
+$VERSIONS_SERVER_APPLIANCE_STABLE = '10.0.1'; // only as long as the versions differ, used only in install-instructions.php
+$VERSIONS_SERVER_PACKAGES_STABLE = '9.1.6'; // only as long as the versions differ, used only in install-instructions.php
 
 /* DOCUMENTATION */
 $DOCUMENTATION_BASE = 'https://doc.owncloud.org';

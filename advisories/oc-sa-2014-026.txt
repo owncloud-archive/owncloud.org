@@ -1,0 +1,14 @@
+Local file disclosure due to the preview system
+===============================================
+
+- Risk: High
+Description
+-----------
+ownCloud includes a preview system which generates the small thumbnails shown in the file list of the web interface. This functionality can be controlled with the enable_previews switch in config.php and is enabled by default.Multiple unspecified vulnerabilities have been found within the preview system. Using these vulnerabilities an authenticated adversary (or an unauthenticated one if public uploads are enabled) may be able to extract local files from the ownCloud system.
+
+ownCloud Server <  7.0.3 (CVE-2014-9047)
+ownCloud Server <  6.0.6 (CVE-2014-9047)
+
+Action Taken
+-------------
+<p>An additional configuration switch has been added to <code>config.php</code>. The <code>enabledPreviewProviders</code> option allows defining which preview providers are enabled.</p><p>By default the preview system is now only generating thumbnails for images and plain-text based formats. File formats that may leak local file content have been disabled by default.</p>
