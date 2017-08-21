@@ -4,7 +4,7 @@
       <a target="_blank" href="https://www.facebook.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.svg" title="Like our facebook page!" alt="Like our facebook page!"></img></a>
       <a target="_blank" href="https://twitter.com/ownClouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitter.svg" title="Subscribe to our twitter channel!" alt="Subscribe to our twitter channel!"></img></a>
       <a target="_blank" href="https://owncloud.org/blogfeed"><img class="img-circle" width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.svg" title="Subscribe to our news feed!" alt="Subscribe to our news feed!"></img></a>
-      <a target="_blank" href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/mail.svg" title="Subscribe to our newsletter!" alt="Subscribe to our newsletter!"></img></a>
+      <!-- <a target="_blank" href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/mail.svg" title="Subscribe to our newsletter!" alt="Subscribe to our newsletter!"></img></a> -->
     </div>
   </div>
 <footer class="content-info" role="contentinfo">

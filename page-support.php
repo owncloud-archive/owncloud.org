@@ -57,8 +57,8 @@
 		<div class="col-md-6 col-md-offset-3 text-center">
                     <h2>Subscribe to our newsletter</h2>
                     Stay up to date with ownCloud news - releases, events and development are covered monthly in our news letter.
-                    <!-- Constant Contact Email List Form Button -->
-		    <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a><br />
+                    <!-- Constant Contact Email List Form Button
+		    <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a><br /> -->
 		</div>
 	</div>
 </div>
