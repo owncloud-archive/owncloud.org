@@ -389,8 +389,8 @@
 		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Sources</a>
 		    </div>
 		    <?php } ?>
-                    <h2>Android Beta Client</h2>
-                    <p>If you want to test the Android Beta Client, you can <a href="https://f-droid.org/packages/com.owncloud.android.beta/">download it on Fdroid.</a></p>
+                    <h2>Android Clients <small><?php echo $VERSIONS_CLIENT_ANDROID_TESTING; ?></small></h2>
+                    <p>Our mobile team provides regular pre-releases. You can install them from the <a href="https://f-droid.org/packages/com.owncloud.android.beta/" target="_blank">F-Droid Android Appstore</a>. Please report any issues to the <a href="https://github.com/owncloud/android/issues" target="_blank">tracker</a>.</p>
 		  </div>
 		</div>
 		<div class="overlay-body row">

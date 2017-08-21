@@ -44,6 +44,9 @@ $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_LINUX = 'https://software.opensuse.org/downlo
 $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES= $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'owncloudclient-2.3.2rc1.tar.xz';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES.'.asc';
 
+// Only used in https://owncloud.org/install/#testing-development
+$VERSIONS_CLIENT_ANDROID_TESTING= '2.5.0-beta.1'
+
 // Server
 $DOWNLOAD_SERVER_BASE = 'https://download.owncloud.org/community/';
 
