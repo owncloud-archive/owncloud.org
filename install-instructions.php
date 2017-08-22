@@ -379,8 +379,7 @@
 		      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/codebasephp.png" alt="ownCloud Code" />
 		    </div>
 		    <?php if(!empty($VERSIONS_CLIENT_DESKTOP_TESTING)) { ?>
-		    <br />
-                    <h2>Testpilot Clients</h2>
+        <h2>Testpilot Clients</h2>
  		    <p>For those who prefer to install the test version next to the stable ownCloud version, we offer the "Testpilot" edition of the client, which will install in parallel to the original client:</p>
 		    <div class="btn-group">
 		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_WIN; ?>" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows</a>
@@ -389,8 +388,6 @@
 		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Sources</a>
 		    </div>
 		    <?php } ?>
-                    <h2>Android Clients <small><?php echo $VERSIONS_CLIENT_ANDROID_TESTING; ?></small></h2>
-                    <p>Our mobile team provides regular pre-releases. You can install them from the <a href="https://f-droid.org/packages/com.owncloud.android.beta/" target="_blank">F-Droid Android Appstore</a>. Please report any issues to the <a href="https://github.com/owncloud/android/issues" target="_blank">tracker</a>.</p>
 		  </div>
 		</div>
 		<div class="overlay-body row">
@@ -410,7 +407,7 @@
 	<a href="#" class="close">&times;</a>
   <div class="subscribe content">
     <p>Sign up to get interesting ownCloud Community news and updates delivered directly to your inbox.</p>
-    <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&p=oi&m=1121878184680&sit=mf4qye7jb&f=cc4cd13f-acdf-45d3-b132-75252542c37d" class="button blue" target="blank">Sign Up</a>
+<!--    <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&p=oi&m=1121878184680&sit=mf4qye7jb&f=cc4cd13f-acdf-45d3-b132-75252542c37d" class="button blue" target="blank">Sign Up</a> -->
   </div>
 </div>
 <!-- /Newsletter Subscription -->
