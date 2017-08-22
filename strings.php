@@ -48,6 +48,9 @@ $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES= $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'owncl
 // $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES = 'https://github.com/owncloud/client/archive/v2.3.3-rc1.tar.gz';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES.'.asc';
 
+// Only used in https://owncloud.org/install/#testing-development
+$VERSIONS_CLIENT_ANDROID_TESTING= '2.5.0-beta.1';
+
 // Server
 $DOWNLOAD_SERVER_BASE = 'https://download.owncloud.org/community/';
 
