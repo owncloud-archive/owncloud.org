@@ -17,9 +17,7 @@ recommend that you sign the agreement because AGPL/GPL protects the freedom of y
 <h3>How difficult is it to sign the agreement?</h3>
 Very easy. When you submit your pull request you will prompted to sign the cla by clicking a button. We Use <a href="https://cla-assistant.io/" cla-assistant.io </a> for this
 </p>
-<p>or<br />
-
-<p>We will give you full commit rights as soon as we have received your agreement. 
+<p><br />
 <h3>Is there any risk for me when I sign this agreement?</h3>
 <p>We don&#39;t think so. You have to give us the right to use your software patents if you have any and if they apply to your patch.
 That’s all. Probably not a problem for you because software patents are bad and we all don&#39;t hold any patents anyway.<p>
