@@ -11,20 +11,15 @@ as AGPL (or GPL in the case of the desktop and Android clients and GPLv3 in case
 <p>The agreement allows the company to offer customers ownCloud under another license, in exchange for money.
 This thus helps pay the bills for ownCloud contributors.</p>
 <h3>Does this mean that everybody who wants to contribute to ownCloud has to sign this agreement?</h3>
-<p>No. Only the <a href="https://github.com/owncloud/core">ownCloud core repository</a> is covered by this contributor agreement. ownCloud is build out of a lot of small modules
-called apps. We don't require a contributor agreement for the apps, only for the core, the desktop clients and android.<p>
-<h3>But I want to contribute to ownCloud and can&#39;t or don&#39;t want to sign a contributor agreement. What can I do?</h3>
+<p>No. 
 <p>We can accept your core contribution if you release your code under the MIT license. Of course we 
 recommend that you sign the agreement because AGPL/GPL protects the freedom of your work better than MIT. But the choice is yours.<p>
 <h3>How difficult is it to sign the agreement?</h3>
-Very easy. Take the PDF, sign it and send it by mail or scan to cla@owncloud.com</p>
+Very easy. When you submit your pull request you will prompted to sign the cla by clicking a button. We Use <a href="https://cla-assistant.io/" cla-assistant.io </a> for this
+</p>
 <p>or<br />
-ownCloud GmbH<br />
-Leiziger Platz 21<br />
-90491 Nürnberg<br />
-Germany</p>
-<p>We will give you full commit rights as soon as we have received your agreement. If you also want to contribute
-to the ownCloud iOS app please also send the signed "iOS Addendum" document. See the <a href="/contribute/iOS-license-exception/">iOS license exception</a> for testing the ownCloud iOS app on Apple hardware.</p>
+
+<p>We will give you full commit rights as soon as we have received your agreement. 
 <h3>Is there any risk for me when I sign this agreement?</h3>
 <p>We don&#39;t think so. You have to give us the right to use your software patents if you have any and if they apply to your patch.
 That’s all. Probably not a problem for you because software patents are bad and we all don&#39;t hold any patents anyway.<p>
