@@ -15,7 +15,7 @@ This thus helps pay the bills for ownCloud contributors.</p>
 We can accept your core contribution if you release your code under the MIT license. Of course we 
 recommend that you sign the agreement because AGPL/GPL protects the freedom of your work better than MIT. But the choice is yours.</p>
 <h3>How difficult is it to sign the agreement?</h3>
-<p>Very easy. When you submit your pull request you will prompted to sign the cla by clicking a button. We Use <a href="https://cla-assistant.io/" cla-assistant.io> </a> for this.
+<p>Very easy. When you submit your pull request you will prompted to sign the cla by clicking a button. We use <a href="https://cla-assistant.io/">cla-assistant.io</a> for this.
 </p>
 <br />
 <h3>Is there any risk for me when I sign this agreement?</h3>
