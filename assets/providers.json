@@ -1461,7 +1461,8 @@
          "title":"CiviHosting",
          "url":"https:\/\/civihosting.com/owncloud-hosting\/",
          "flags":[
-            "us"
+            "us",
+            "eu"
          ],
          "freeplans":false,
          "supports":[
