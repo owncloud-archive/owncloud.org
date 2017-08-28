@@ -379,7 +379,7 @@
 		      <img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/codebasephp.png" alt="ownCloud Code" />
 		    </div>
 		    <?php if(!empty($VERSIONS_CLIENT_DESKTOP_TESTING)) { ?>
-        <h2>Testpilot Clients</h2>
+        <h2>Testpilot Desktop Clients</h2>
  		    <p>For those who prefer to install the test version next to the stable ownCloud version, we offer the "Testpilot" edition of the client, which will install in parallel to the original client:</p>
 		    <div class="btn-group">
 		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_WIN; ?>" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows</a>
@@ -390,6 +390,9 @@
 		    <?php } ?>
                     <h2>Android Clients <small><?php echo $VERSIONS_CLIENT_ANDROID_TESTING; ?></small></h2>
                     <p>Our mobile team provides regular pre-releases. You can install them from the <a href="https://f-droid.org/packages/com.owncloud.android.beta/" target="_blank">F-Droid Android Appstore</a>. Please report any issues to the <a href="https://github.com/owncloud/android/issues" target="_blank">tracker</a>.</p>
+                    <div class="btn-group">
+			<a href="https://f-droid.org/packages/com.owncloud.android.beta/" class="btn btn-lg btn-default"><img class="logo" src=<?php echo get_template_directory_uri(); ?>"/assets/img/Get_it_on_F-Droid.svg" alt="Get it on F-Droid!" />
+                    </div>
 		  </div>
 		</div>
 		<div class="overlay-body row">
