@@ -3,7 +3,7 @@
 </div>
 
 <!-- When doing beta/rc vs release, always check the subdirectory name and the OBS repo name!! //-->
-<h3 id="233">Release 2.3.3 <b>rc2</b> <small>August 18th 2017</small></h3>
+<h3 id="233">Release 2.3.3 <small>August 28th 2017</small></h3>
 <ul>
 	<li>Chunking NG: Don't use old chunking on new DAV endpoint (<a href="https://github.com/owncloud/client/issues/5855">5855</a>)</li>
 	<li>Selective Sync: Skip excluded folders when reading DB, don't let them show errors (<a href="https://github.com/owncloud/client/issues/5772">5772</a>)</li>
@@ -17,12 +17,17 @@
 	<li>Windows: Fix a memory leak in FileSystem::longWinPath</li>
 	<li>Switch Linux build also to Qt 5.6.2 (<a href="https://github.com/owncloud/client/issues/5470">5470</a>)</li>
 	<li>Stopped maintaining Qt 4 buildability</li>
+        <li>Linux packaging fixes: install the owncloud-client-nemo, owncloud-client-nautilus, owncloud-client-caja, owncloud-client-dolphin package for sync-state icons and a share-with menu in your file manager.</li>
+        <li>Linux deprecation: Releases after 2.3.3 do not support Fedora_24 or lower, openSUSE_13.2 or lower, Debian_7.0 or lower.</li>
 </ul>
 Download:
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.3.8193rc2-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.3.3.8187rc2.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:community:testing&amp;package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.3-rc2.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.3-rc2.tar.xz.asc">PGP signature</a>)
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.3.8250-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/testpilotcloud-2.3.3.8251-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.3.8242.pkg">Mac</a> |
+<a href="https://download.owncloud.com/desktop/stable/testpilotcloud-2.3.3.8243.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:testpilot&amp;package=testpilotcloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.3.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.3.tar.xz.asc">PGP signature</a>)
 
 
 <h3 id="232">Release 2.3.2 <small>May 8th 2017</small></h3>
