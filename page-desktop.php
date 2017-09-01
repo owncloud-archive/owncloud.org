@@ -27,7 +27,7 @@ Download:
 <a href="https://download.owncloud.com/desktop/stable/testpilotcloud-2.3.3.8243.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:testpilot&amp;package=testpilotcloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.3.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.3.3-rc2.tar.xz.asc">PGP signature</a>)
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.3.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.3.tar.xz.asc">PGP signature</a>)
 
 
 <h3 id="232">Release 2.3.2 <small>May 8th 2017</small></h3>
