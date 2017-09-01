@@ -17,8 +17,11 @@
 	<li>Windows: Fix a memory leak in FileSystem::longWinPath</li>
 	<li>Switch Linux build also to Qt 5.6.2 (<a href="https://github.com/owncloud/client/issues/5470">5470</a>)</li>
 	<li>Stopped maintaining Qt 4 buildability</li>
-        <li>Linux packaging fixes: install the owncloud-client-nemo, owncloud-client-nautilus, owncloud-client-caja, owncloud-client-dolphin package for sync-state icons and a share-with menu in your file manager.</li>
-        <li>Linux deprecation: Releases after 2.3.3 do not support Fedora_24 or lower, openSUSE_13.2 or lower, Debian_7.0 or lower.</li>
+  <li>Linux packaging fixes: install the owncloud-client-nemo, owncloud-client-nautilus, owncloud-client-caja, owncloud-client-dolphin package for sync-state icons and a share-with menu in your file manager.</li>
+  <li>Linux deprecation: Releases after 2.3.3 do not support Fedora 24 or lower, openSUSE Leap 42.1 or lower, Debian 7.0 or lower.</li>
+  <li>2.4.0 deprecation: No more 32-bit Linux support, no more MacOS X 10.9 support or lower.</li>
+  <li>Supported platforms are documented at <a href="https://doc.owncloud.org/server/latest/admin_manual/installation/system_requirements.html#desktop">Desktop System Requirements</a>.</li>
+  
 </ul>
 Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.3.8250-setup.exe">Windows</a> 
