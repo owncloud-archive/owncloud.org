@@ -3,7 +3,7 @@
 </div>
 
 <!-- When doing beta/rc vs release, always check the subdirectory name and the OBS repo name!! //-->
-<h3 id="233">Release 2.3.3 <small>August 28th 2017</small></h3>
+<h3 id="233">Release 2.3.3 <small>August 29th 2017</small></h3>
 <ul>
 	<li>Chunking NG: Don't use old chunking on new DAV endpoint (<a href="https://github.com/owncloud/client/issues/5855">5855</a>)</li>
 	<li>Selective Sync: Skip excluded folders when reading DB, don't let them show errors (<a href="https://github.com/owncloud/client/issues/5772">5772</a>)</li>
@@ -15,8 +15,8 @@
 	<li>SyncJournalDB: Don't use ._ as filename pattern if that does not work because of SMB storage settings (<a href="https://github.com/owncloud/client/issues/5844">5844</a>)</li>
 	<li>SyncJournalDB: Log reason for sqlite3 opening errors</li>
 	<li>Windows: Fix a memory leak in FileSystem::longWinPath</li>
-	<li>Switch Linux build also to Qt 5.6.2 (<a href="https://github.com/owncloud/client/issues/5470">5470</a>)</li>
-	<li>Stopped maintaining Qt 4 buildability</li>
+	<li>Switch Linux builds also to Qt 5.6.2 (<a href="https://github.com/owncloud/client/issues/5470">5470</a>)</li>
+	<li>Stopped maintaining Qt 4 support</li>
   <li>Linux packaging fixes: install the owncloud-client-nemo, owncloud-client-nautilus, owncloud-client-caja, owncloud-client-dolphin package for sync-state icons and a share-with menu in your file manager.</li>
   <li>Linux deprecation: Releases after 2.3.3 do not support Fedora 24 or lower, openSUSE Leap 42.1 or lower, Debian 7.0 or lower.</li>
   <li>2.4.0 deprecation: No more 32-bit Linux support, no more MacOS X 10.9 support or lower.</li>
