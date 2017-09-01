@@ -21,12 +21,12 @@
         <li>Linux deprecation: Releases after 2.3.3 do not support Fedora_24 or lower, openSUSE_13.2 or lower, Debian_7.0 or lower.</li>
 </ul>
 Download:
-<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.3.8250-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/stable/testpilotcloud-2.3.3.8251-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.3.8250-setup.exe">Windows</a> 
+<a href="https://download.owncloud.com/desktop/stable/testpilotcloud-2.3.3.8251-setup.exe">(+)</a> |
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.3.8242.pkg">Mac</a> |
-<a href="https://download.owncloud.com/desktop/stable/testpilotcloud-2.3.3.8243.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
-<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:testpilot&amp;package=testpilotcloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/testpilotcloud-2.3.3.8243.pkg">(+)</a> 
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> 
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:testpilot&amp;package=testpilotcloud-client">(+)</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.3.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.3.tar.xz.asc">PGP signature</a>)
 
 
