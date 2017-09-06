@@ -389,8 +389,9 @@
 		    </div>
 		    <?php } else {?>
         <h2>Testpilot Desktop Clients</h2>
- 		    <p>For those who prefer to install the test version of the nightly client next to the stable ownCloud version, we offer the "Testpilot" edition of the client, which will install in parallel to the original client.
-			For Windows and Mac, just look for the most recent testpilot file in the directory.</p>
+ 		    <p>For those who prefer to install the test version of the nightly client next to the stable ownCloud version, we offer the "Testpilot" edition of the client. 
+          It will be installed next to the original client and does not interfere with it.
+          For Windows and Mac, just look for the most recent testpilot file in the directory.</p>
 		    <div class="btn-group">
 		      <a href="https://download.owncloud.com/desktop/daily/?C=M;O=D" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows</a>
 		      <a href="https://download.owncloud.com/desktop/daily/?C=M;O=D" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac</a>
