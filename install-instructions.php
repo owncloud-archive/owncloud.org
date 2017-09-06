@@ -387,6 +387,16 @@
 		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_LINUX; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux</a>
 		      <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Sources</a>
 		    </div>
+		    <?php } else {?>
+        <h2>Testpilot Desktop Clients</h2>
+ 		    <p>For those who prefer to install the test version of the nightly client next to the stable ownCloud version, we offer the "Testpilot" edition of the client, which will install in parallel to the original client.
+			For Windows and Mac, just look for the most recent testpilot file in the directory.</p>
+		    <div class="btn-group">
+		      <a href="https://download.owncloud.com/desktop/daily/?C=M;O=D" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows</a>
+		      <a href="https://download.owncloud.com/desktop/daily/?C=M;O=D" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac</a>
+		      <a href="https://software.opensuse.org//download.html?project=isv%3AownCloud%3Atestpilot%3Anightly&package=testpilotcloud-client" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux</a>
+		      <a href="https://github.com/owncloud/client" class="btn btn-lg btn-default"><i class="icon-archive"></i> Sources</a>
+		    </div>
 		    <?php } ?>
                     <h2>Android Clients <small><?php echo $VERSIONS_CLIENT_ANDROID_TESTING; ?></small></h2>
                     <p>Our mobile team provides regular pre-releases. You can install them from the <a href="https://f-droid.org/packages/com.owncloud.android.beta/" target="_blank">F-Droid Android Appstore</a>. Please report any issues to the <a href="https://github.com/owncloud/android/issues" target="_blank">tracker</a>.</p>
