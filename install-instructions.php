@@ -67,7 +67,7 @@
               </ol>
             </div>
             <div class="col-sm-5 button-area">
-              <h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
+              <h3>Latest fresh version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
 							<h4><strong><a class="changelog" href="/changelog">See what's new (Changelog)</a></strong></h4>
 							<a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>" class="button blue primary">Download ownCloud Server</a>
 							<p class="text-center archive-types"><a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">Download tar.bz2</a></p>
@@ -111,7 +111,7 @@
 							<p><strong>Note:</strong> The installer uses the same ownCloud version as available for the built in updater in ownCloud. After a major release it can take up to a month before it becomes available through the web installer and the updater. This is done to spread the deployment of new major releases out over time.</p>
 						</div>
 						<div class="col-sm-5 button-area">
-							<h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
+							<h3>Latest fresh version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
 							<h4><strong><a class="changelog" href="/changelog">See what's new (Changelog)</a></strong></h4>
 							<a href="https://download.owncloud.com/download/community/setup-owncloud.php" class="button blue primary">Download ownCloud Web Installer</a>
 							<p class="mt30">Want to use ownCloud for your Company?</p>
@@ -146,7 +146,7 @@
 								<p>You can find further instructions in the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation">ownCloud Admin Manual</a>. If you already run ownCloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a for moving to new ownCloud releases.</p>
 							</div>
 							<div class="col-sm-5 button-area">
-								<h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_PACKAGES_STABLE; ?></strong></h3>
+								<h3>Latest fresh version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
 								<h4><strong><a class="changelog" href="/changelog">See what's new (Changelog)</a></strong></h4>
 								<a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>" class="button blue primary">Continue to the Packages</a>
 								<p class="mt30">Want to use ownCloud for your Company?</p>
@@ -230,7 +230,7 @@
 
 								</div>
 								<div class="col-sm-5 button-area">
-									<h3>Latest stable version: <strong><?php echo $VERSIONS_SERVER_APPLIANCE_STABLE; ?></strong></h3>
+									<h3>Latest fresh version: <strong><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></strong></h3>
 									<h4><strong><a class="changelog mb0" href="/changelog">See what's new (Changelog)</a></strong></h4>
 									<h5 class="mb15">Grab the official ownCloud virtual machine image in one of these formats:</h5>
 									<a href="<?php echo $DOWNLOAD_VM_ESX_OVA; ?>" class="button blue secondary">ESX</a>
