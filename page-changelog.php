@@ -174,7 +174,7 @@ Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/releas
 <li>Added missing "fatal" log level to occ log:manage level command - <a href="https://github.com/owncloud/core/issues/28683">#28683</a></li>
 </ul>
 
-Download: <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">owncloud-10.0.3.tar.bz2</a> or <a href="<?php echo DOWNLOAD_SERVER_STABLE_ZIP ?>">owncloud-10.0.3.zip</a></br>
+Download: <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">owncloud-10.0.3.tar.bz2</a> or <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP ?>">owncloud-10.0.3.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2.md5">owncloud-10.0.3.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip.md5">owncloud-10.0.3.zip.md5</a></br>
 SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2.sha256">owncloud-10.0.3.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip.sha256">owncloud-10.0.3.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2.asc">owncloud-10.0.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip.asc">owncloud-10.0.3.zip.asc</a></br>
