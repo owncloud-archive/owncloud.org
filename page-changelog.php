@@ -15,18 +15,170 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest10.0"></a></li>
-<h3>Version 10.0.2 <small>May 30 2017</small></h3></li>
-Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-2">Release notes</a></br>
+<h3>Version 10.0.3 <small>Sep 15 2017</small></h3></li>
+Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-3">Release notes</a></br>
+
+<h4>Added</h4>
 <ul>
-<li>[major] Fix issue with database.xml migration being triggered twice on market app install - <a href="https://github.com/owncloud/core/issues/27982">core/#27982</a></li>
-<li>[major] Apps formerly marked as shipped can now be uninstalled - <a href="https://github.com/owncloud/core/issues/27985">core/#27985</a></li>
-<li>[major] Market now properly updates app version when using multiple apps paths - <a href="https://github.com/owncloud/core/issues/28002">core/#28002</a></li>
+<li>[added] It is now possible to upgrade from 8.2.11 directly to 10 - <a href="https://github.com/owncloud/core/issues/28655">core/#28655</a> <a href="https://github.com/owncloud/core/issues/28673">core/#28673</a></li>
+<li>[added] Added extra check in case of missing home storage - <a href="https://github.com/owncloud/core/issues/28504">core/#28504</a></li>
+<li>[added] Added Shield and Workflow icons - <a href="https://github.com/owncloud/core/issues/28588">core/#28588</a></li>
+<li>[added] Enable chunking for big files in web UI when logged in - <a href="https://github.com/owncloud/core/issues/28547">core/#28547</a></li>
+<li>[added] Added emitting of hook "post_unshareFromSelf" to Share 2.0 - <a href="https://github.com/owncloud/core/issues/28413">core/#28413</a></li>
+<li>[added] Added occ user:inactive command to list inactive users - <a href="https://github.com/owncloud/core/issues/28294">core/#28294</a></li>
+<li>[added] Added internal setting for the periodic credentials validity check - <a href="https://github.com/owncloud/core/issues/28298">core/#28298</a></li>
+<li>[added] Added jquery events for external storage settings UI when using OAuth - <a href="https://github.com/owncloud/core/issues/28210">core/#28210</a></li>
+<li>[added] Added public IThemeService which allows apps like the template editor to interact with the current theme - <a href="https://github.com/owncloud/core/issues/28647">core/#28647</a> <a href="https://github.com/owncloud/core/issues/28926">core/#28926</a></li>
+<li>[added] Added "passwordEnabled" field to hook data of link shares - <a href="https://github.com/owncloud/core/issues/28827">core/#28827</a></li>
+<li>[added] Add new option to disable sharing in every user-mounted external storages - <a href="https://github.com/owncloud/core/issues/28706">core/#28706</a></li>
+<li>[added] Added default user and group share permissions - <a href="https://github.com/owncloud/core/issues/28903">core/#28903</a></li>
+<li>[added] Added occ command to list routes - <a href="https://github.com/owncloud/core/issues/28907">core/#28907</a></li>
+<li>[added] Added mime types for m3u, m3u8, pls mappings to audio streams - <a href="https://github.com/owncloud/core/issues/28885">core/#28885</a></li>
 </ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2">owncloud-10.0.2.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip">owncloud-10.0.2.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2.md5">owncloud-10.0.2.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip.md5">owncloud-10.0.2.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2.sha256">owncloud-10.0.2.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip.sha256">owncloud-10.0.2.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2.asc">owncloud-10.0.2.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip.asc">owncloud-10.0.2.zip.asc</a></br>
-Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a><!-- and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>-->. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<h4>Changed</h4>
+<ul>
+<li>[changed] Transfer ownership now works with master key encryption - <a href="https://github.com/owncloud/core/issues/28537">core/#28537</a> <a href="https://github.com/owncloud/core/issues/28845">core/#28845</a></li>
+<li>[changed] Reenable medial search by default - <a href="https://github.com/owncloud/core/issues/28064">core/#28064</a></li>
+<li>[changed] The LoginController now emits "failedLogin" hook signal after a failed login - <a href="https://github.com/owncloud/core/issues/28631">core/#28631</a></li>
+<li>[changed] All columns that use the fileid have been changed to bigint (64-bits) - <a href="https://github.com/owncloud/core/issues/28581">core/#28581</a></li>
+<li>[changed] Added search pattern for the occ app:list command - <a href="https://github.com/owncloud/core/issues/28653">core/#28653</a></li>
+<li>[changed] Allow phpredis develop branch - <a href="https://github.com/owncloud/core/issues/28717">core/#28717</a></li>
+<li>[changed] Default minimum desktop version in config.php is now 2.2.4 - <a href="https://github.com/owncloud/core/issues/28540">core/#28540</a></li>
+<li>[changed] Reallow negative mtimes by default in storage implementations - <a href="https://github.com/owncloud/core/issues/28697">core/#28697</a></li>
+</ul>
+
+<h4>Removed</h4>
+<ul>
+<li>[removed] Removed "themes" folder - <a href="https://github.com/owncloud/core/issues/28617">core/#28617</a> <a href="https://github.com/owncloud/core/issues/28999">core/#28999</a></li>
+<li>[removed] Removed unused Windows checks - <a href="https://github.com/owncloud/core/issues/28612">core/#28612</a></li>
+<li>[removed] Removed "appstoreenabled" from config.php - <a href="https://github.com/owncloud/core/issues/28714">core/#28714</a></li>
+<li>[removed] Slash in filename when renaming is not allowed any more in the frontend (unintended "feature") - <a href="https://github.com/owncloud/core/issues/28490">core/#28490</a></li>
+<li>[removed] Using old chunking protocol on new DAV endpoint is now disallowed - <a href="https://github.com/owncloud/core/issues/28637">core/#28637</a></li>
+</ul>
+
+<h4>Fixed</h4>
+
+<h5>Platform</h5>
+<ul>
+<li>Fix issue with folder sizes on 32-bit systems - <a href="https://github.com/owncloud/core/issues/28654">#28654</a></li>
+<li>Fix null error in ActivityManager on some setups - <a href="https://github.com/owncloud/core/issues/28420">#28420</a></li>
+<li>Load app code before running app specific migrations - <a href="https://github.com/owncloud/core/issues/28391">#28391</a></li>
+<li>Prevent certificate manager to access FS too early, fixes 8.2 to 10 migration issue - <a href="https://github.com/owncloud/core/pull/28668">#28668</a></li>
+<li>Clustering: Better support of read only config file and apps folder - <a href="https://github.com/owncloud/core/issues/28594">#28594</a> <a href="https://github.com/owncloud/core/issues/28601">#28601</a></li>
+<li>Only use IndexIgnore in htaccess if mod_autoindex.c is enabled/loaded - <a href="https://github.com/owncloud/core/issues/28591">#28591</a></li>
+<li>Fix app enable of not existing app - <a href="https://github.com/owncloud/core/issues/28317">#28317</a></li>
+<li>Keep redirect information when logging in with wrong password - <a href="https://github.com/owncloud/core/issues/28511">#28511</a></li>
+<li>Use SwiftMailer antiflood plugin to reconnect after multiple emails sent - <a href="https://github.com/owncloud/core/issues/28180">#28180</a></li>
+<li>Theme is now properly loaded when displaying full page error messages - <a href="https://github.com/owncloud/core/pull/28622">#28622</a></li>
+<li>Adjusted warning for PHP 5.5 EOL - <a href="https://github.com/owncloud/core/issues/28765">#28765</a></li>
+<li>Don't enable market app on upgrade from OC &lt; 10 if "appstoreenabled" was false in config.php - <a href="https://github.com/owncloud/core/issues/28757">#28757</a></li>
+<li>Use different CSS comment style for IE11 support - <a href="https://github.com/owncloud/core/issues/28752">#28752</a></li>
+<li>Adjust default slogan - <a href="https://github.com/owncloud/core/issues/28724">#28724</a></li>
+<li>Catch filecache inconsistencies instead of logging warnings - <a href="https://github.com/owncloud/core/issues/28710">#28710</a></li>
+<li>Check for null when traversing app passwords table rows - <a href="https://github.com/owncloud/core/issues/28894">#28894</a></li>
+<li>Improve market upgrade messages + new switch - <a href="https://github.com/owncloud/core/issues/28871">#28871</a></li>
+<li>Make occ upgrade verbose by default - <a href="https://github.com/owncloud/core/issues/28876">#28876</a></li>
+<li>Add more information to updatechecker config doc - <a href="https://github.com/owncloud/core/issues/28867">#28867</a></li>
+</ul>
+
+<h5>Database</h5>
+<ul>
+<li>All columns that use the fileid have been changed to bigint (64-bits) - <a href="https://github.com/owncloud/core/issues/28581">#28581</a></li>
+<li>Fix length of account search term column which broke installs on some DB setups - <a href="https://github.com/owncloud/core/issues/28576">#28576</a></li>
+<li>Fix column lengths on migrations table to fix index - <a href="https://github.com/owncloud/core/issues/28254">#28254</a></li>
+<li>Fixed some repeated duplicate key errors relate to oc_preferences table - <a href="https://github.com/owncloud/core/issues/28486">#28486</a></li>
+<li>Add migration step to fix birthday calendars - <a href="https://github.com/owncloud/core/issues/28338">#28338</a></li>
+<li>Added cache for new card uri-id mapping to fix db cluster execution - <a href="https://github.com/owncloud/core/issues/28308">#28308</a></li>
+</ul>
+
+<h5>Performance</h5>
+<ul>
+<li>Optimize upload - don't fetch info of non-existing file - <a href="https://github.com/owncloud/core/issues/28704">#28704</a></li>
+<li>Optimize upload - don't check if file exists if already known - <a href="https://github.com/owncloud/core/issues/28704">#28704</a></li>
+<li>Optimize upload - do not fetch metadata for part file during checksuming - <a href="https://github.com/owncloud/core/issues/28633">#28633</a></li>
+<li>Optimize shares retrieval logic with complex scenarios - <a href="https://github.com/owncloud/core/issues/28524">#28524</a></li>
+<li>Optimize query logger - <a href="https://github.com/owncloud/core/issues/28220">#28220</a></li>
+<li>Remove initial scanning overhead to speed up federated shares with lots of entries - <a href="https://github.com/owncloud/core/issues/28604">#28604</a></li>
+<li>Improve contact search performance - <a href="https://github.com/owncloud/core/issues/28042">#28042</a></li>
+<li>Improved search performance for federated instance users - <a href="https://github.com/owncloud/core/issues/28209">#28209</a></li>
+<li>Add database index on "oc_share.share_with" column - <a href="https://github.com/owncloud/core/issues/28856">#28856</a></li>
+</ul>
+
+<h5>Filesystem/storage</h5>
+<ul>
+<li>Don't trigger hooks for every new dav chunk, only for final file - <a href="https://github.com/owncloud/core/issues/28817">#28817</a></li>
+<li>Prevent creating file cache inconsistencies when moving a subtree in or out of a share - <a href="https://github.com/owncloud/core/issues/28219">#28219</a></li>
+<li>Add check for empty result in storage memcache - <a href="https://github.com/owncloud/core/issues/28548">#28548</a></li>
+<li>Fix error message when accessing of non-existing file on external storage - <a href="https://github.com/owncloud/core/issues/28613">#28613</a></li>
+<li>Fixed OAuth frontend logic when connecting to external storage - <a href="https://github.com/owncloud/core/issues/28496">#28496</a> <a href="https://github.com/owncloud/core/issues/28400">#28400</a></li>
+<li>Fix quota handling on new Webdav endpoint (affects desktop client 2.2+) - <a href="https://github.com/owncloud/core/issues/28261">#28261</a></li>
+<li>Fix mounting Webdav as drive in Windows 10 - <a href="https://github.com/owncloud/core/issues/28243">#28243</a></li>
+<li>Fix rare error that happens when mounting invalid shares - <a href="https://github.com/owncloud/core/issues/28342">#28342</a></li>
+<li>Handle BSD case for 32 bit filemtime and install warning - <a href="https://github.com/owncloud/core/issues/28790">#28790</a></li>
+<li>Properly check target rename path in new dav endpoint - <a href="https://github.com/owncloud/core/issues/28737">#28737</a></li>
+<li>Increment required only when encryption is enabled - <a href="https://github.com/owncloud/core/issues/28880">#28880</a></li>
+</ul>
+
+<h5>Files app</h5>
+<ul>
+<li>Make sure passed upload mtime is always an int - <a href="https://github.com/owncloud/core/issues/28186">#28186</a></li>
+<li>Fix directory mime type in trashbin list - <a href="https://github.com/owncloud/core/issues/28803">#28803</a></li>
+<li>Properly highlight files when opening private link - <a href="https://github.com/owncloud/core/issues/28681">#28681</a></li>
+<li>Fix overlapping selectively in default fileslist - <a href="https://github.com/owncloud/core/issues/28906">#28906</a></li>
+<li>Better timeout detection in web UI uploads + chunked uploads - <a href="https://github.com/owncloud/core/issues/28896">#28896</a></li>
+<li>Fix getting drop target when dragging from file manager  - <a href="https://github.com/owncloud/core/issues/28882">#28882</a></li>
+<li>Improve file upload progress bar - <a href="https://github.com/owncloud/core/issues/28861">#28861</a></li>
+</ul>
+
+<h5>Sharing</h5>
+<ul>
+<li>Creating link shares now doesn't forget "Allow editing" permission any more - <a href="https://github.com/owncloud/core/issues/28065">#28065</a></li>
+<li>Fix "notify user" checkbox in share panel - <a href="https://github.com/owncloud/core/issues/28237">#28237</a></li>
+<li>Proper message shown when accessing unreachable private links - <a href="https://github.com/owncloud/core/issues/28600">#28600</a></li>
+<li>Fix exact search term match for LDAP in share autocomplete - <a href="https://github.com/owncloud/core/issues/28851">#28851</a></li>
+<li>Add tooltip to public shares panel - <a href="https://github.com/owncloud/core/issues/28781">#28781</a></li>
+<li>Validate share link password even if unchanged when updating share - <a href="https://github.com/owncloud/core/issues/28713">#28713</a></li>
+<li>Fix DiscoveryManager error during upgrade by untangling federated share app dependencies - <a href="https://github.com/owncloud/core/pull/28858">#28858</a></li>
+</ul>
+
+<h5>User management</h5>
+<ul>
+<li>Don't set email if invalid in user:add command - <a href="https://github.com/owncloud/core/issues/28577">#28577</a></li>
+<li>Group admins can now properly edit members' email addresses - <a href="https://github.com/owncloud/core/issues/28366">#28366</a></li>
+<li>Fixed "settings_ajax_changegroupname" typo in route name - <a href="https://github.com/owncloud/core/issues/28746">#28746</a></li>
+<li>Use IProvidesEMailBackend to fix syncing with LDAP backend - <a href="https://github.com/owncloud/core/issues/28736">#28736</a></li>
+</ul>
+
+<h5>API related</h5>
+<ul>
+<li>Make Backbone PROPPATCH work with options.wait mode - <a href="https://github.com/owncloud/core/issues/28791">#28791</a> <a href="https://github.com/owncloud/core/issues/28837">#28837</a></li>
+<li>Detect PROPPATCH failure by parsing multistatus in Backbone Webdav adapter - <a href="https://github.com/owncloud/core/issues/28628">#28628</a></li>
+<li>Error messages from the server on upload are now displayed in the web UI instead of generic messages - <a href="https://github.com/owncloud/core/issues/28635">#28635</a></li>
+<li>Properly set the status text in OCS API v2 calls - <a href="https://github.com/owncloud/core/issues/28595">#28595</a></li>
+<li>Data was not properly set in case of OCS Result object - <a href="https://github.com/owncloud/core/issues/28198">#28198</a></li>
+</ul>
+
+<h5>Other</h5>
+<ul>
+<li>Only reload file list when switching navigation sections - <a href="https://github.com/owncloud/core/issues/28843">#28843</a></li>
+<li>Make new text file tooltip messages update properly - <a href="https://github.com/owncloud/core/issues/28151">#28151</a></li>
+<li>Fix trashbin preview icons - <a href="https://github.com/owncloud/core/issues/28158">#28158</a></li>
+<li>Allow user "0" as in comments - <a href="https://github.com/owncloud/core/issues/28422">#28422</a></li>
+<li>Better description for occ files:scan command - <a href="https://github.com/owncloud/core/issues/28839">#28839</a></li>
+<li>Better description for occ files:cleanup command - <a href="https://github.com/owncloud/core/issues/28841">#28841</a></li>
+<li>Reworded upgrade message for admin with big instance - <a href="https://github.com/owncloud/core/issues/28828">#28828</a></li>
+<li>Make lost password errors distinguishable - <a href="https://github.com/owncloud/core/issues/28756">#28756</a></li>
+<li>Add height to menutoggler - <a href="https://github.com/owncloud/core/issues/28723">#28723</a></li>
+<li>Remove apostrophe from full page file read error text - <a href="https://github.com/owncloud/core/issues/28702">#28702</a></li>
+<li>Added missing "fatal" log level to occ log:manage level command - <a href="https://github.com/owncloud/core/issues/28683">#28683</a></li>
+</ul>
+
+Download: <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">owncloud-10.0.3.tar.bz2</a> or <a href="<?php echo DOWNLOAD_SERVER_STABLE_ZIP ?>">owncloud-10.0.3.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2.md5">owncloud-10.0.3.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip.md5">owncloud-10.0.3.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2.sha256">owncloud-10.0.3.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip.sha256">owncloud-10.0.3.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2.asc">owncloud-10.0.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip.asc">owncloud-10.0.3.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/fresh/owncloud/">Fresh Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.1"></a></li>
 <h3>Version 9.1.6 <small>May 30 2017</small></h3></li>
@@ -60,6 +212,19 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.10.tar.bz2.md
 SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.10.tar.bz2.sha256">owncloud-9.0.10.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.10.zip.sha256">owncloud-9.0.10.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.10.tar.bz2.asc">owncloud-9.0.10.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.10.zip.asc">owncloud-9.0.10.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<h3>Version 10.0.2 <small>May 30 2017</small></h3></li>
+Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-2">Release notes</a></br>
+<ul>
+<li>[major] Fix issue with database.xml migration being triggered twice on market app install - <a href="https://github.com/owncloud/core/issues/27982">core/#27982</a></li>
+<li>[major] Apps formerly marked as shipped can now be uninstalled - <a href="https://github.com/owncloud/core/issues/27985">core/#27985</a></li>
+<li>[major] Market now properly updates app version when using multiple apps paths - <a href="https://github.com/owncloud/core/issues/28002">core/#28002</a></li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2">owncloud-10.0.2.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip">owncloud-10.0.2.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2.md5">owncloud-10.0.2.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip.md5">owncloud-10.0.2.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2.sha256">owncloud-10.0.2.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip.sha256">owncloud-10.0.2.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2.asc">owncloud-10.0.2.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.2.zip.asc">owncloud-10.0.2.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a><!-- and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>-->. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <h3>Version 10.0.1 <small>May 23 2017</small></h3></li>
 Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-1">Release notes</a></br>
