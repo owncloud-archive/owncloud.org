@@ -6,7 +6,7 @@
 <div class="row">
       <div class="col-lg-6 col-md-5 col-sm-4 col-xs-12">
 	      <p>With millions of ownCloud users, there are a wide variety of needs and requirements. We offer Release Channels to give our users more flexibility in choosing an ownCloud version to meet their needs. Below you can find and pick the best Channel for you.</p>
-	      <p>You can choose a channel of your preference in the Administrator settings in your ownCloud instance if you have installed ownCloud from an archive. If you prefer using Linux packages, you can pick a repository for a specific version, a repository with daily snapshots or follow the repository which always has the latest fresh feature release.</p>
+	      <p>You can choose a channel of your preference in the Administrator settings in your ownCloud instance if you have installed ownCloud from an archive. If you prefer using Linux packages, you can pick a repository for a specific version, a repository with daily snapshots or follow the repository which always has the latest stable feature release.</p>
 	      <p>NOTE that you can <strong>only upgrade to a newer version</strong>. <em>Skipping major versions</em> when upgrading and <em>downgrading</em> to older versions is not supported by ownCloud.</p>
       </div>
       <div class="col-lg-6 col-md-7 col-sm-8 col-xs-12">
@@ -33,10 +33,10 @@
             </td>
     </tr>
     <tr>
-      <td class="warning"><h1>Fresh</h1></td>
+      <td class="warning"><h1>Stable</h1></td>
       <td class="info">This channel delivers the latest feature releases ready for home users at minimal risk.</td>
-            <td class="info">The current fresh version is <?php echo $$VERSIONS_SERVER_FULL_STABLE; ?>, available via the archives: <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Archive File</a> (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">MD5</a>)<br />
-            or via the packages: <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a></td>     </tr>
+            <td class="info">The current stable version is 10.0.0, available via the archives: <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Archive File</a> (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">MD5</a>)<br />
+            <!--or via the packages: <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux Packages</a>--></td>     </tr>
     <tr>
       <td class="warning"><h1>Beta</h1></td>
       <td class="info">Betas and release candidates are the versions of choice for testers in preparation for an ownCloud release. They provide a short-term-stable point to report bugs against. Grab these to make sure the upcoming release works well on your infrastructure.<br>Automatically generated <a href="/install/#testing-development">snapshot tarballs and packages</a> track daily ownCloud development. These are suitable to check if bugs are fixed but can break any time.</td>
@@ -54,12 +54,12 @@
 <div class="row">
     <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
         <p>If you are looking to grab an archive of a specific version or are looking for the version-specific Linux package repositories, you can find links to them in our <a href="/changelog">changelog</a>.</p>
-        <p>Note that releases don't show up in the updater app right away. We usually stagger releases out to watch the impact and hold off in case very serious problems pop up. In practice, most bugfix releases are available within a week, major releases within a week for the Fresh channel and a week after the first bugfix release (for example, 9.0.1) for the Production channel. Packages for the Fresh channel are available close by or at the release date, Production also waits for the first minor update after a major release.</p>
+        <p>Note that releases don't show up in the updater app right away. We usually stagger releases out to watch the impact and hold off in case very serious problems pop up. In practice, most bugfix releases are available within a week, major releases within a week for the Stable channel and a week after the first bugfix release (for example, 9.0.1) for the Production channel. Packages for the Stable channel are available close by or at the release date, Production also waits for the first minor update after a major release.</p>
         <p><strong>Security note:</strong></br>
         To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="https://mailman.owncloud.org/mailman/listinfo/announcements">announcement mailing list</a>.</p>
         <a name="warning"></a>
         <p><strong>Warning:</strong></br>
-        If you pick a <strong>specific Linux Package repository</strong> rather than following fresh, you assume the responsibility for a timely upgrade to a new fresh release once your current release is no longer supported. We support releases for a significant time, but not forever, and at some point you have to move to a newer version to continue to receive security and stability improvements.</br>
+        If you pick a <strong>specific Linux Package repository</strong> rather than following stable, you assume the responsibility for a timely upgrade to a new stable release once your current release is no longer supported. We support releases for a significant time, but not forever, and at some point you have to move to a newer version to continue to receive security and stability improvements.</br>
         If at all possible, we suggest to <strong>upgrade sooner rather than later</strong>. Doing a test on a copy of your production environment is a better way of ensuring the new version works for you than waiting and hoping all issues are found and fixed – that way, you lose out on many of the benefits of the new release, not only in terms of features and user interface enhancements but also when it comes to performance improvements and scalability.</p>
         <p>To <em>upgrade in the safest way possible</em>, always update to the latest minor release before upgrading to a new version. As an extreme example, to upgrade from 8.2 all the way to 10.0, upgrade 8.2.x to 9.0.9, then upgrade to 9.1.5, then to 10.0.2.</p>
     </div>
