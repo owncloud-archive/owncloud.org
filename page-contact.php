@@ -35,4 +35,4 @@ if(CONTRIBOOK) {
 ?>
 Note that, unfortunately, most of our contributors have not (yet) set up a blog and and added themselves here. You can find a much more complete list of past and present ownCloud contributors on <a href="https://github.com/orgs/owncloud/people">github</a>, which is where we develop ownCloud.
 
-If you want to be added to the blog roll, please ping us at ownclouders@owncloud.com .
+If you want to be added to the blog roll, please ping us at <a href="mailto:ownclouders@owncloud.com">ownclouders@owncloud.com</a>.
