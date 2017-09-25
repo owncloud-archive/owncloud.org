@@ -35,4 +35,7 @@ if(CONTRIBOOK) {
 ?>
 Note that, unfortunately, most of our contributors have not (yet) set up a blog and and added themselves here. You can find a much more complete list of past and present ownCloud contributors on <a href="https://github.com/orgs/owncloud/people">github</a>, which is where we develop ownCloud.
 
-If you want to be added to the blog roll, please ping the ownCloud community manager on IRC (nick: jospoortvliet) or via <a href="https://plus.google.com/117563705675081959469">G+</a>, <a href="https://twitter.com/jospoortvliet">twitter</a> or <a href="https://pod.geraspora.de/u/jospoortvliet">diaspora</a>.
+If you want to be added to the blog roll, please ping us via <a href="mailto:ownclouders@owncloud.com">E-Mail</a>,
+<a href="https://plus.google.com/u/0/communities/101550101068949663712">Google+</a>,
+<a href="https://www.facebook.com/ownClouders">Facebook</a> or
+<a href="https://twitter.com/ownClouders">Twitter</a>.
