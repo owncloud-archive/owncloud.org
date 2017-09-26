@@ -18,6 +18,7 @@
 <p><div class="colmd12 col-sm-4 promote-buttons" style="text-align: center">
 	<a target="_blank" href="https://central.owncloud.org" class="btn btn-default btn-lg promote">Discuss on Central!</a>
 </div></p>
+<p></p>
       <ul>
         <li>Join the <a href="https://central.owncloud.org">ownCloud Central forums</a> and our <a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
         <li>See ownCloud development questions on <a href="https://stackoverflow.com/questions/tagged/owncloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
