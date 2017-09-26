@@ -14,6 +14,11 @@
 <div>
 	 <h2>Discuss ownCloud with others</h2>
 </div>
+<div class="row">
+	<div class="colmd12 col-sm-4 promote-buttons" style="text-align: center">
+		<a target="_blank" href="https://central.owncloud.org" class="btn btn-default btn-lg promote">Discuss on Central!</a>
+	</div>
+</div>
 <p>ownCloud users and enthusiasts can discuss and share ownCloud experiences on our Forums, IRC and mailing lists.</p>
       <ul>
         <li>Join the <a href="https://central.owncloud.org">ownCloud Central forums</a> and our <a href="irc://#owncloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=owncloud" target="_blank">Webchat</a>)</li>
