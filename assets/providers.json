@@ -28,6 +28,24 @@
          "supported":false
       },
       {
+         "title":"infomaniak.com",
+         "url":"https:\/\/www.infomaniak.com\/en\/create-a-website\/cms\/owncloud-hosting",
+         "flags":[
+            "it",
+            "es",
+            "de",
+            "uk",
+            "fr"
+         ],
+         "freeplans":false,
+         "supports":[
+            "organisations",
+            "consumers"
+         ],
+         "imagename":"infomaniak.png",
+         "supported":false
+      },
+      {
          "title":"extensys.it",
          "url":"http:\/\/www.extensys.it\/",
          "flags":[
@@ -35,7 +53,7 @@
          ],
          "freeplans":false,
          "supports":[
-
+	    "organisations"
          ],
          "imagename":"extensys.png",
          "supported":false
