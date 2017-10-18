@@ -56,7 +56,7 @@
 				<td>ownCloud Conference 17</td>
 				<td>Nuremberg, Germany</td>
 				<td>September 20-23</td>
-				<td>website in progress</td>
+				<td><a target="_blank" href="https://occon17.owncloud.org/">website</a></td>
 			</tr>
 			<tr>
 				<td>Talk at FROSCON 17</td>
