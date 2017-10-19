@@ -67,6 +67,12 @@
 				<th>Link (report)</th>
 			</tr>
 			<tr>
+				<td>8th DevOps Camp compact</td>
+				<td>Ansbach, Germany</td>
+				<td>Oktober 6-7</td>
+				<td><a target="_blank" href="https://devops-camp.de/">website</a></td>
+			</tr>
+			<tr>
 				<td>ownCloud Conference 17</td>
 				<td>Nuremberg, Germany</td>
 				<td>September 20-23</td>
