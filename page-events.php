@@ -70,6 +70,12 @@
 				<th>Link (report)</th>
 			</tr>
 			<tr>
+				<td>ownCloud Thessaloniki Meetup</td>
+				<td>Thessaloniki, Greece</td>
+				<td>Oktober 2</td>
+				<td><a target="_blank" href="https://owncloud.org/blog/join-the-owncloud-meetup-in-thessaloniki/">blog</a></td>
+			</tr>
+			<tr>
 				<td>8th DevOps Camp compact</td>
 				<td>Ansbach, Germany</td>
 				<td>Oktober 6-7</td>
