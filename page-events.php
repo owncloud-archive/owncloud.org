@@ -52,30 +52,6 @@
 				<th>Date</th>
 				<th>Link</th>
 			</tr>
-			<tr>
-				<td>ownCloud Conference 17</td>
-				<td>Nuremberg, Germany</td>
-				<td>September 20-23</td>
-				<td><a target="_blank" href="https://occon17.owncloud.org/">website</a></td>
-			</tr>
-			<tr>
-				<td>Talk at FROSCON 17</td>
-				<td>Bonn, Germany</td>
-				<td>August 19-20</td>
-				<td><a target="_blank" href="https://www.froscon.de/1/home/">website</a></td>
-			</tr>
-			<tr>
-				<td>Developer Week</td>
-				<td>Nuremberg, Germany</td>
-				<td>June 26-29</td>
-				<td><a target="_blank" href="http://www.developer-week.de/">website</a></td>
-			</tr>
-			<tr>
-				<td>Talk at Tübix</td>
-				<td>Tübingen, Germany</td>
-				<td>June 24</td>
-				<td><a target="_blank" href="http://www.tuebix.org/">website</a></td>
-			</tr>
 
 			</tr>
 		</table>
@@ -89,6 +65,30 @@
 				<th>Location</th>
 				<th>Date</th>
 				<th>Link (report)</th>
+			</tr>
+			<tr>
+				<td>ownCloud Conference 17</td>
+				<td>Nuremberg, Germany</td>
+				<td>September 20-23</td>
+				<td><a target="_blank" href="https://owncloud.org/blog/owncloud-conference-2017-recap/">blog</a></td>
+			</tr>
+			<tr>
+				<td>Talk at FROSCON 17</td>
+				<td>Bonn, Germany</td>
+				<td>August 19-20</td>
+				<td><a target="_blank" href="https://owncloud.org/blog/this-years-froscon-was-awesome/">blog</a></td>
+			</tr>
+			<tr>
+				<td>Developer Week</td>
+				<td>Nuremberg, Germany</td>
+				<td>June 26-29</td>
+				<td><a target="_blank" href="http://www.developer-week.de/">website</a></td>
+			</tr>
+			<tr>
+				<td>Talk at Tübix</td>
+				<td>Tübingen, Germany</td>
+				<td>June 24</td>
+				<td><a target="_blank" href="http://www.tuebix.org/">website</a></td>
 			</tr>
 			<tr>
 				<td>TNC 17 Networking Conference</td>
