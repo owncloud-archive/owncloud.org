@@ -52,6 +52,9 @@
 				<th>Date</th>
 				<th>Link</th>
 			</tr>
+			<tr>
+				<th>This year, all events are over.</th>
+			</tr>
 
 			</tr>
 		</table>
