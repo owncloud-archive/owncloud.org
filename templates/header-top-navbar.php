@@ -37,12 +37,12 @@
   <?php endif; ?>
 </header>
 
-<?php if(is_page('homepage')): ?>
-<!-- Conference Banner -
+<!-- <?php /* if(is_page('homepage')): ?>
+Conference Banner 
 <div class="banner conference">
   <div class="container">
     <p>Register now for ownCloud Conference 2017</p>
     <a href="https://occon17.owncloud.org/" target="_blank" class="btn btn-primary btn-lg">Register now »</a>
   </div>
-</div> ->
-<?php endif; ?>
+</div>
+<?php endif; */ ?> -->
