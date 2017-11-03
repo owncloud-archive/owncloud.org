@@ -4,6 +4,18 @@
 
 <!-- When doing beta/rc vs release, always check the subdirectory name and the OBS repo name!! //-->
 
+<h3 id="234">Release 2.3.4 <small>November 3rd 2017</small></h3>
+<ul>
+<li>Checksums: Use addData function</li>
+<li>Packaging: Require ZLIB</li>
+</ul>
+Download:
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.4.8624-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.4.8537.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.4.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.4.tar.xz.asc">PGP signature</a>)
+
+
 <h3 id="240">Release 2.4.0 <b>alpha1</b> <small>October 6th 2017</small></h3>
 <ul>
 <li>OAuth2 authentication support by opening external browser</li>
