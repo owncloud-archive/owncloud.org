@@ -6,7 +6,7 @@
 
 <h3 id="234">Release 2.3.4 <small>November 3rd 2017</small></h3>
 <ul>
-<li>Checksums: Use addData function</li>
+<li>Checksums: Use addData function to avoid endless loop CPU load issues with Office files</li>
 <li>Packaging: Require ZLIB</li>
 </ul>
 Download:
@@ -14,7 +14,10 @@ Download:
 <a href="https://download.owncloud.com/desktop/stable/ownCloud-2.3.4.8537.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&amp;package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.4.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.3.4.tar.xz.asc">PGP signature</a>)
-
+<br/>Download testpilotcloud client:
+<a href="https://download.owncloud.com/desktop/stable/testpilotcloud-2.3.4.8627-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/stable/testpilotcloud-2.3.4.8541.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download.html?project=isv%3AownCloud%3Atestpilot&package=testpilotcloud-client">Linux</a>
 
 <h3 id="240">Release 2.4.0 <b>alpha1</b> <small>October 6th 2017</small></h3>
 <ul>
