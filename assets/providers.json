@@ -46,6 +46,20 @@
          "supported":false
       },
       {
+         "title":"Rocho DataCenter",
+         "url":"https:\/\/www.rochodc.com\/produit\/owncloud\/",
+         "flags":[
+            "fr"
+         ],
+         "freeplans":false,
+         "supports":[
+	    "organisations",
+            "consumers"
+         ],
+         "imagename":"video_thumbnail.png",
+         "supported":false
+      },
+      {
          "title":"extensys.it",
          "url":"http:\/\/www.extensys.it\/",
          "flags":[
