@@ -99,30 +99,6 @@
          "imagename":"tarsis.png"
       },
       {
-         "title":"owndrive.com",
-         "url":"https:\/\/owndrive.com\/",
-         "flags":[
-            "gb"
-         ],
-         "freeplans":true,
-         "supports":[
-            "consumers"
-         ],
-         "imagename":"owndrive.png"
-      },
-      {
-         "title":"cloudu.de",
-         "url":"https:\/\/cloudu.de\/",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers"
-         ],
-         "imagename":"cloudu.png"
-      },
-      {
          "title":"owncube.com",
          "url":"https:\/\/owncube.com\/",
          "flags":[
@@ -138,19 +114,6 @@
          "imagename":"owncube.png"
       },
       {
-         "title":"cloudlay.com",
-         "url":"http:\/\/www.cloudlay.com\/",
-         "flags":[
-            "gb",
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"cloudlay.png"
-      },
-      {
          "title":"aixpro.de",
          "url":"https:\/\/www.aix-cloud.de",
          "flags":[
@@ -162,18 +125,6 @@
             "consumers"
          ],
          "imagename":"aixpro.png"
-      },
-      {
-         "title":"saasweb.net",
-         "url":"http:\/\/www.saasweb.net\/de\/produkte\/details\/owncloud\/",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations"
-         ],
-         "imagename":"saasweb.jpg"
       },
       {
          "title":"aventer.biz",
@@ -251,21 +202,6 @@
          "imagename":"computel.jpg"
       },
       {
-         "title":"oriented.net",
-         "url":"http:\/\/oriented.net\/onsite\/en\/index\/hosting\/cloud-storage.html",
-         "flags":[
-            "gb",
-            "de",
-            "ch"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations",
-            "consumers"
-         ],
-         "imagename":"oriented.png"
-      },
-      {
          "title":"nbiserv.de",
          "url":"http:\/\/www.nbiserv.de\/owncloud.html",
          "flags":[
@@ -330,7 +266,7 @@
       },
       {
          "title":"glowhost.com",
-         "url":"http:\/\/glowhost.com\/script-hosting\/owncloud-hosting.html",
+         "url":"https://apps.glowhost.com/files/owncloud/",
          "flags":[
             "us"
          ],
@@ -339,20 +275,6 @@
 
          ],
          "imagename":"glowhost.jpg"
-      },
-      {
-         "title":"hummingbirdstorage.com",
-         "url":"http:\/\/hummingbirdstorage.com",
-         "flags":[
-            "de",
-            "us",
-            "gb"
-         ],
-         "freeplans":false,
-         "supports":[
-
-         ],
-         "imagename":"hummingbird.jpg"
       },
       {
          "title":"ovh.com",
@@ -593,18 +515,6 @@
          "imagename":"webplacedhosting.png"
       },
       {
-         "title":"gn.apc.org",
-         "url":"https:\/\/www.gn.apc.org\/services\/greencloud",
-         "flags":[
-            "gb"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations"
-            ],
-         "imagename":"greenet.png"
-      },
-      {
          "title":"edv-luehr.de",
          "url":"https:\/\/www.edv-luehr.de\/cloud-web-services\/cloud-service",
          "flags":[
@@ -616,16 +526,6 @@
             "consumers"
             ],
          "imagename":"edv-luehr.png"
-      },
-      {
-         "title":"green.ch",
-         "url":"http:\/\/www.green.ch\/de-ch\/greencloud\/owncloud\/owncloud.aspx",
-         "flags":[
-            "ch"
-         ],
-         "freeplans":false,
-         "supports":[],
-         "imagename":"green.png"
       },
       {
          "title":"peaknetworks.net",
@@ -746,7 +646,7 @@
       },
       {
          "title":"myitbrain.net",
-         "url":"http:\/\/www.united-hoster.de\/server\/owncloud.html",
+         "url":"https://www.united-hoster.de/mail-team/owncloud.html",
          "flags":[
             "de"
          ],
@@ -1028,20 +928,6 @@
          "imagename":"HostedPower4.png"
       },
       {
-         "title":"switchlayer.com",
-         "url":"http:\/\/www.switchlayer.com\/owncloud-servers",
-         "flags":[
-            "in",
-            "us"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"switchlayer.png"
-      },
-      {
          "title":"verkkotuki.fi",
          "url":"http:\/\/www.verkkotuki.fi\/palvelut\/tiedostopalvelin-verkkolevy",
          "flags":[
@@ -1116,19 +1002,6 @@
             "consumers"
             ],
          "imagename":"swisspacket.png"
-      },
-      {
-         "title":"Prega Design",
-         "url":"http:\/\/prega-design.de\/sicherheit-und-cloud-services\/",
-         "flags":[
-            "de"
-         ],
-         "freeplans":true,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"prega.png"
       },
       {
          "title":"agilogik",
