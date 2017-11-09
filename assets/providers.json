@@ -127,19 +127,6 @@
          "imagename":"aixpro.png"
       },
       {
-         "title":"aventer.biz",
-         "url":"https:\/\/www.aventer.biz\/45-0-OwnCloud.html",
-         "flags":[
-            "gb",
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers"
-         ],
-         "imagename":"aventer.png"
-      },
-      {
          "title":"hosthane.de",
          "url":"http:\/\/www.hosthane.de\/en\/hosting\/cloud-space",
          "flags":[
@@ -224,19 +211,6 @@
 
          ],
          "imagename":"nublue.png"
-      },
-      {
-         "title":"cloud.zaclys.fr",
-         "url":"http:\/\/cloud.zaclys.fr\/",
-         "flags":[
-            "fr"
-         ],
-         "freeplans":true,
-         "supports":[
-            "organisations",
-            "consumers"
-         ],
-         "imagename":"zaclys.jpg"
       },
       {
          "title":"cahoots.nl",
@@ -449,16 +423,6 @@
          "imagename":"trisdex.png"
       },
       {
-         "title":"hostingworld.at",
-         "url":"http:\/\/www.hostingworld.at\/webhosting\/owncloud",
-         "flags":[
-            "at"
-         ],
-         "freeplans":false,
-         "supports":[],
-         "imagename":"hostingworld.png"
-      },
-      {
          "title":"utixo.it",
          "url":"http:\/\/www.utixo.it\/",
          "flags":[
@@ -479,22 +443,6 @@
          "imagename":"blaucloud.png"
       },
       {
-         "title":"cubico.cloud",
-         "url":"https:\/\/cubico.cloud\/owncloud-hosting",
-         "flags":[
-            "us",
-            "eu",
-            "sg"
-         ],
-         "freeplans":true,
-         "supports":[
-           "consumers",
-           "organisations"
-         ],
-         "imagename":"cubico.jpg",
-         "supported":false
-      },
-      {
          "title":"rosehosting.com",
          "url":"https:\/\/www.rosehosting.com\/owncloud-hosting.html",
          "flags":[
@@ -503,16 +451,6 @@
          "freeplans":false,
          "supports":[],
          "imagename":"rosehosting.png"
-      },
-      {
-         "title":"web-placed.de",
-         "url":"https:\/\/web-placed.de\/cart.php?gid=10",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[],
-         "imagename":"webplacedhosting.png"
       },
       {
          "title":"edv-luehr.de",
@@ -617,19 +555,6 @@
             "organisations"
             ],
          "imagename":"nexucom.png"
-      },
-      {
-         "title":"myitbrain.net",
-         "url":"http:\/\/www.myitbrain.net\/",
-         "flags":[
-            "us"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"myitbrain.jpg"
       },
       {
          "title":"smartfreehosting.net",
@@ -746,19 +671,6 @@
          "imagename":"tuxis.png"
       },
       {
-         "title":"systemec.nl",
-         "url":"http:\/\/www.systemec.nl\/nl\/webservices\/owncloud\/",
-         "flags":[
-            "nl",
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "organisations"
-            ],
-         "imagename":"Systemec-logo.png"
-      },
-      {
          "title":"hostingfields.com",
          "url":"http:\/\/www.hostingfields.com\/cms-hosting\/managed-owncloud-hosting\/",
          "flags":[
@@ -782,32 +694,6 @@
             "organisations"
             ],
          "imagename":"xentos_logo_owncloud.png"
-      },
-      {
-         "title":"smartglobalservices.com",
-         "url":"http:\/\/www.smartglobalservices.com\/index.php\/owncloud-hosting",
-         "flags":[
-            "pa"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"SGSLogo.jpg"
-      },
-      {
-         "title":"isolated-cloud.de",
-         "url":"http:\/\/isolated-cloud.de",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"ic_complete_cyan_290x70.png"
       },
       {
          "title":"my2storage.com",
@@ -876,32 +762,6 @@
          "imagename":"equipe.png"
       },
       {
-         "title":"wyffy.com",
-         "url":"http:\/\/wyffy.com",
-         "flags":[
-            "de",
-            "us"
-         ],
-         "freeplans":true,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"wyffy.png"
-      },
-      {
-         "title":"host-on.de",
-         "url":"http:\/\/www.host-on.de\/owncloud.php",
-         "flags":[
-            "de"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers"
-            ],
-         "imagename":"host-on.png"
-      },
-      {
          "title":"tripple8.net",
          "url":"http:\/\/triple8.net\/services\/owncloud.cfm",
          "flags":[
@@ -926,19 +786,6 @@
             "organisations"
             ],
          "imagename":"HostedPower4.png"
-      },
-      {
-         "title":"verkkotuki.fi",
-         "url":"http:\/\/www.verkkotuki.fi\/palvelut\/tiedostopalvelin-verkkolevy",
-         "flags":[
-            "fi"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"suomen-verkkotuki-oy-290-70.png"
       },
       {
          "title":"hostingxtreme.com",
@@ -977,31 +824,6 @@
             "consumers"
             ],
          "imagename":"xt3.png"
-      },
-      {
-         "title":"Lander Networks",
-         "url":"http:\/\/owncloud.landernetworks.mx\/owncloud",
-         "flags":[
-            "mx"
-         ],
-         "freeplans":true,
-         "supports":[
-            "consumers",
-            "organisations"
-            ],
-         "imagename":"landers.png"
-      },
-      {
-         "title":"Swiss Packet",
-         "url":"http:\/\/swisspacket.com",
-         "flags":[
-            "sc"
-         ],
-         "freeplans":false,
-         "supports":[
-            "consumers"
-            ],
-         "imagename":"swisspacket.png"
       },
       {
          "title":"agilogik",
