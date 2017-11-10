@@ -287,18 +287,6 @@
          "imagename":"thexyz.png"
       },
       {
-         "title":"woelkli.com",
-         "url":"https:\/\/woelkli.com",
-         "flags":[
-            "ch"
-         ],
-         "freeplans":true,
-         "supports":[
-
-         ],
-         "imagename":"woelkli.png"
-      },
-      {
          "title":"weblumina.nl",
          "url":"http:\/\/www.weblumina.nl\/owncloud",
          "flags":[
