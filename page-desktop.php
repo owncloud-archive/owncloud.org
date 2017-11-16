@@ -4,7 +4,7 @@
 
 <!-- When doing beta/rc vs release, always check the subdirectory name and the OBS repo name!! //-->
 
-<h3 id="240">Release 2.4.0<small>November XXth 2017</small></h3>
+<h3 id="240">Release 2.4.0 <b>beta1</b> <small>November 16th 2017</small></h3>
 <ul>
 <li>If you're using 2.4.0 alpha1, please upgrade as the alpha1 had an issue with hidden files!</li>
 <li>OAuth2 authentication support by opening external browser (<a href='https://github.com/owncloud/client/issues/5668'>#5668</a>)</li>
@@ -103,7 +103,7 @@ Download:
 <a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8702beta1-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8619beta1.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download/package?project=isv%3AownCloud%3Acommunity%3Atesting&amp;package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-beta1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/stable/owncloudclient-2.4.0-beta1.tar.xz.asc">PGP signature</a>)
+<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-beta1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-beta1.tar.xz.asc">PGP signature</a>)
 <br/>Download testpilotcloud client:
 <a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8703beta1-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8620beta1.pkg">Mac</a> |
