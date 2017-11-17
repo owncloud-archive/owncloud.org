@@ -4,6 +4,111 @@
 
 <!-- When doing beta/rc vs release, always check the subdirectory name and the OBS repo name!! //-->
 
+<h3 id="240">Release 2.4.0 <b>beta1</b> <small>November 16th 2017</small></h3>
+<ul>
+<li>If you're using 2.4.0 alpha1, please upgrade as the alpha1 had an issue with hidden files!</li>
+<li>OAuth2 authentication support by opening external browser (<a href='https://github.com/owncloud/client/issues/5668'>#5668</a>)</li>
+<li>Sharing: Add support for multiple public link shares (<a href='https://github.com/owncloud/client/issues/5655'>#5655</a>)</li>
+<li>Sharing: Add option to copy/email private links (<a href='https://github.com/owncloud/client/issues/5023'>#5023</a>, <a href='https://github.com/owncloud/client/issues/5627'>#5627</a>)</li>
+<li>Sharing: Add option "show file listing" (<a href='https://github.com/owncloud/client/issues/5837'>#5837</a>)</li>
+<li>Sharing: Show warning that links are public (<a href='https://github.com/owncloud/client/issues/5747'>#5747</a>)</li>
+<li>Sharing: Sharing dialog redesign: multiple share links support (<a href='https://github.com/owncloud/client/issues/5695'>#5695</a>)</li>
+<li>Sharing: Make "can edit" partially checked sometimes (<a href='https://github.com/owncloud/client/issues/5642'>#5642</a>)</li>
+<li>Sharing: Trigger a sync for folder affected by a change of sharing (<a href='https://github.com/owncloud/client/issues/6098'>#6098</a>)</li>
+<li>Wizard: Never propose an existing folder for syncing (<a href='https://github.com/owncloud/client/issues/5597'>#5597</a>)</li>
+<li>Wizard: Don't show last page anymore, go to settings directly (<a href='https://github.com/owncloud/client/issues/5726'>#5726</a>)</li>
+<li>Wizard: Handle url-shortener redirects (<a href='https://github.com/owncloud/client/issues/5954'>#5954</a>)</li>
+<li>Wizard: Resolve url/ redirects only if url/status.php not found (<a href='https://github.com/owncloud/client/issues/5954'>#5954</a>)</li>
+<li>Wizard: Add explanation text when server error is shown (<a href='https://github.com/owncloud/client/issues/6157'>#6157</a>)</li>
+<li>Wizard: Update the window size on high dpi screen (<a href='https://github.com/owncloud/client/issues/6156'>#6156</a>)</li>
+<li>Wizard: Don't report confusing error message (<a href='https://github.com/owncloud/client/issues/6116'>#6116</a>)</li>
+<li>Gui: Display the user server avatar (<a href='https://github.com/owncloud/client/issues/5482'>#5482</a>)</li>
+<li>Gui: Use display name of user, not internal name</li>
+<li>Server URL: Update configuration in case of permanent redirection (<a href='https://github.com/owncloud/client/issues/5972'>#5972</a>)</li>
+<li>Gui: Allow to add multiple sync folder connection of the same folder (<a href='https://github.com/owncloud/client/issues/6032'>#6032</a>)</li>
+<li>Tray Menu: More detailed status messages</li>
+<li>Tray Menu: Shibboleth: raise the browser when clicking on the tray (<a href='https://github.com/owncloud/client/issues/6105'>#6105</a>)</li>
+<li>Activity: Link errors from the account tab, allow filtering by account/folder (<a href='https://github.com/owncloud/client/issues/5861'>#5861</a>)</li>
+<li>Activity: Present conflicts more prominently (<a href='https://github.com/owncloud/client/issues/5894'>#5894</a>)</li>
+<li>Activity: Allow sorting the columns in issues and protocol tabs (<a href='https://github.com/owncloud/client/issues/6093'>#6093</a>, <a href='https://github.com/owncloud/client/issues/6086'>#6086</a>)</li>
+<li>Selective Sync: Open sub folder context menu (<a href='https://github.com/owncloud/client/issues/5596'>#5596</a>)</li>
+<li>Selective Sync: Skip excluded folders when reading db (<a href='https://github.com/owncloud/client/issues/5772'>#5772</a>)</li>
+<li>Selective Sync: Remove local files of unselected folder despite other modified files (<a href='https://github.com/owncloud/client/issues/5783'>#5783</a>)</li>
+<li>Excludes: Remove .htaccess form list of excluded files (<a href='https://github.com/owncloud/client/issues/5701'>#5701</a>)</li>
+<li>Excludes: Hardcode desktop.ini</li>
+<li>Excludes: Allow escaping "#" (<a href='https://github.com/owncloud/client/issues/6012'>#6012</a>)</li>
+<li>Excludes: Use faster matching via QRegularExpression (<a href='https://github.com/owncloud/client/issues/6063'>#6063</a>)</li>
+<li>Discovery: Increase the MAX_DEPTH and show deep folders as ignored (<a href='https://github.com/owncloud/client/issues/1067'>#1067</a>)</li>
+<li>Discovery: General speed improvements</li>
+<li>Downloads: Remove empty temporary if disk space full (<a href='https://github.com/owncloud/client/issues/5746'>#5746</a>)</li>
+<li>Downloads: Read Content-MD5 header for object store setups</li>
+<li>Checksums: Add global disable environment variable (<a href='https://github.com/owncloud/client/issues/5017'>#5017</a>)</li>
+<li>Quota: PropagateUpload: Model of remote quota, avoid some uploads (<a href='https://github.com/owncloud/client/issues/5537'>#5537</a>)</li>
+<li>Create favorite also in folder wizard (<a href='https://github.com/owncloud/client/issues/455'>#455</a>)</li>
+<li>Windows: Use the application icon for the Windows 8 sidebar favorite (<a href='https://github.com/owncloud/client/issues/2446'>#2446</a>, <a href='https://github.com/owncloud/client/issues/5690'>#5690</a>)</li>
+<li>macOS: Finder sidebar icon (<a href='https://github.com/owncloud/client/issues/296'>#296</a>)</li>
+<li>Overlay Icons: Consider also the "shared by me" as shared (<a href='https://github.com/owncloud/client/issues/4788'>#4788</a>)</li>
+<li>Overlay Icons: Update right after sharing (<a href='https://github.com/owncloud/client/issues/6115'>#6115</a>)</li>
+<li>Overlay Icons: Fix different case paths not matching (<a href='https://github.com/owncloud/client/issues/5257'>#5257</a>)</li>
+<li>Overlay Icons: Detect changes in the shared flag (<a href='https://github.com/owncloud/client/issues/6098'>#6098</a>)</li>
+<li>Windows Overlay Icons: Potential hang fixes</li>
+<li>Linux Overlay Icons: fix branded nemo and caja shell integration (<a href='https://github.com/owncloud/client/issues/5966'>#5966</a>)</li>
+<li>Credentials: Fix behavior for bad password (<a href='https://github.com/owncloud/client/issues/5989'>#5989</a>)</li>
+<li>Credentials: Don't create empty client cert keychain entries (<a href='https://github.com/owncloud/client/issues/5752'>#5752</a>)</li>
+<li>Credentials: Namespace windows cred keys (<a href='https://github.com/owncloud/client/issues/6125'>#6125</a>)</li>
+<li>Credentials: Use per-account keychain entries (<a href='https://github.com/owncloud/client/issues/5830'>#5830</a>, <a href='https://github.com/owncloud/client/issues/6126'>#6126</a>)</li>
+<li>AccountSettings: Triggering log in re-ask about previously rejected certificates (<a href='https://github.com/owncloud/client/issues/5819'>#5819</a>)</li>
+<li>owncloudcmd: Added bandwidth limit parameter (<a href='https://github.com/owncloud/client/issues/5707'>#5707</a>)</li>
+<li>owncloudcmd: Fix timestamps, Fix --logdebug</li>
+<li>AccountSettings: Sync with clean discovery on Ctrl-F6 (<a href='https://github.com/owncloud/client/issues/5666'>#5666</a>)</li>
+<li>Sync: Dynamic sizing of chunks in chunked uploads for improved big file upload performance (<a href='https://github.com/owncloud/client/issues/5852'>#5852</a>)</li>
+<li>Sync: Introduce overall errors that are not tied to a file (<a href='https://github.com/owncloud/client/issues/5746'>#5746</a>)</li>
+<li>Sync: Better messaging for 507 Insufficient Storage (<a href='https://github.com/owncloud/client/issues/5537'>#5537</a>)</li>
+<li>Sync: Create conflicts by comparing the hash of files with identical mtime/size (<a href='https://github.com/owncloud/client/issues/5589'>#5589</a>)</li>
+<li>Sync: Upload conflict files if OWNCLOUD_UPLOAD_CONFLICT_FILES environment variable is set (<a href='https://github.com/owncloud/client/issues/6038'>#6038</a>)</li>
+<li>Sync: Blacklist: Don't let errors become warnings (<a href='https://github.com/owncloud/client/issues/5516'>#5516</a>)</li>
+<li>Sync: Check etag again after active sync (<a href='https://github.com/owncloud/client/issues/4116'>#4116</a>)</li>
+<li>Sync: Rename handling fixes: duplicate file ids (<a href='https://github.com/owncloud/client/issues/6096'>#6096</a>)</li>
+<li>Sync: Rename handling fixes: File size must be equal</li>
+<li>Sync: Rename handling: Fix duplicate files on abort/resume sync (<a href='https://github.com/owncloud/client/issues/5949'>#5949</a>)</li>
+<li>Sync: Add capability for invalid filename regexes (<a href='https://github.com/owncloud/client/issues/6092'>#6092</a>)</li>
+<li>SyncJournalDB: Fall back to DELETE journal mode if WAL mode does not seem to work (<a href='https://github.com/owncloud/client/issues/5723'>#5723</a>)</li>
+<li>SyncJournalDB: Don't crash if the db file is readonly (<a href='https://github.com/owncloud/client/issues/6050'>#6050</a>)</li>
+<li>SyncJournalDB: DB close error is not fatal</li>
+<li>Fix at least one memory leak</li>
+<li>Documentation improvements</li>
+<li>Logging improvements (With Qt logging categories) (<a href='https://github.com/owncloud/client/issues/5671'>#5671</a>)</li>
+<li>Logging filtering per account (<a href='https://github.com/owncloud/client/issues/5672'>#5672</a>)</li>
+<li>Crash fixes</li>
+<li>Test improvements</li>
+<li>Small UI layout fixes</li>
+<li>Maintenance Mode: Detect maintenance mode (<a href='https://github.com/owncloud/client/issues/4485'>#4485</a>)</li>
+<li>Maintenance Mode: Add a 1 to 5 min reconnection delay (<a href='https://github.com/owncloud/client/issues/5872'>#5872</a>)</li>
+<li>HTTP: Send a unique X-Request-ID with each request (<a href='https://github.com/owncloud/client/issues/5853'>#5853</a>)</li>
+<li>HTTP: Support HTTP2 when built and running with Qt 5.9.x (Official packages still on Qt 5.6.x) (<a href='https://github.com/owncloud/client/issues/5659'>#5659</a>)</li>
+<li>owncloudcmd: Don't start if connection or auth fails (<a href='https://github.com/owncloud/client/issues/5692'>#5692</a>)</li>
+<li>csync: Switch build from C to C++ (<a href='https://github.com/owncloud/client/issues/6033'>#6033</a>)</li>
+<li>csync: Refactor a lot to use common data structures to save memory and memory copying</li>
+<li>csync: Switch some data structures to Qt data structures</li>
+<li>csync: Switch to using upper layer SyncJournalDB (<a href='https://github.com/owncloud/client/issues/6087'>#6087</a>)</li>
+<li>Switch 3rdparty/json usage to Qt5's QJson (<a href='https://github.com/owncloud/client/issues/5710'>#5710</a>)</li>
+<li>OpenSSL: Don't require directly, only via Qt (<a href='https://github.com/owncloud/client/issues/5833'>#5833</a>)</li>
+<li>Remove iconv dependency, use Qt for file system locale encoding/decoding (emoji filename support on macOS) (<a href='https://github.com/owncloud/client/issues/5875'>#5875</a>)</li>
+<li>Compilation: Remove Qt 4 code (<a href='https://github.com/owncloud/client/issues/6025'>#6025</a>, <a href='https://github.com/owncloud/client/issues/5702'>#5702</a>, <a href='https://github.com/owncloud/client/issues/5505'>#5505</a>)</li>
+<li>Harmonize source code style with clang-format (<a href='https://github.com/owncloud/client/issues/5732'>#5732</a>)</li>
+<li>Switch over to Qt 5 function pointer signal/slot syntax (<a href='https://github.com/owncloud/client/issues/6041'>#6041</a>)</li>
+<li>Updater: Rudimentary support for beta channel (<a href='https://github.com/owncloud/client/issues/6048'>#6048</a>)</li>
+</ul>
+Download:
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8702beta1-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8619beta1.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download/package?project=isv%3AownCloud%3Acommunity%3Atesting&amp;package=owncloud-client">Linux</a> |
+<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-beta1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-beta1.tar.xz.asc">PGP signature</a>)
+<br/>Download testpilotcloud client:
+<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8703beta1-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8620beta1.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download.html?project=isv%3AownCloud%3Atestpilot&amp;package=testpilotcloud-client">Linux</a>
+
 <h3 id="234">Release 2.3.4 <small>November 3rd 2017</small></h3>
 <ul>
 <li>Checksums: Use addData function to avoid endless loop CPU load issues with Office files</li>
@@ -18,87 +123,6 @@ Download:
 <a href="https://download.owncloud.com/desktop/stable/testpilotcloud-2.3.4.8627-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/stable/testpilotcloud-2.3.4.8541.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download.html?project=isv%3AownCloud%3Atestpilot&amp;package=testpilotcloud-client">Linux</a>
-
-<h3 id="240">Release 2.4.0 <b>alpha1</b> <small>October 6th 2017</small></h3>
-<ul>
-<li>OAuth2 authentication support by opening external browser</li>
-<li>Sync Issues: More functional error view including filters and conflicts (<a href='https://github.com/owncloud/client/issues/5516'>#5516</a>)</li>
-<li>Sharing: Add support for multiple public link shares (<a href='https://github.com/owncloud/client/issues/5655'>#5655</a>)</li>
-<li>Sharing: Add option to copy/email private links (<a href='https://github.com/owncloud/client/issues/5627'>#5627</a>, <a href='https://github.com/owncloud/client/issues/5023'>#5023</a>)</li>
-<li>Sharing: Add option "show file listing" (<a href='https://github.com/owncloud/client/issues/5837'>#5837</a>)</li>
-<li>Sharing: Show warning that links are public</li>
-<li>Sharing: Many UI improvements</li>
-<li>Sharing: Make "can edit" partially checked sometimes (<a href='https://github.com/owncloud/client/issues/5642'>#5642</a>)</li>
-<li>Wizard: Never propose an existing folder for syncing (<a href='https://github.com/owncloud/client/issues/5597'>#5597</a>)</li>
-<li>Wizard: Don't show last page anymore, go to settings directly (<a href='https://github.com/owncloud/client/issues/5726'>#5726</a>)</li>
-<li>Wizard: Handle url-shortener redirects (<a href='https://github.com/owncloud/client/issues/5954'>#5954</a>)</li>
-<li>Gui: Display the user server avatar</li>
-<li>Server URL: Update configuration in case of permanent redirection (<a href='https://github.com/owncloud/client/issues/5972'>#5972</a>)</li>
-<li>Gui: Allow to add multiple sync folder connection of the same folder</li>
-<li>Selective Sync: Open sub folder context menu (<a href='https://github.com/owncloud/client/issues/5596'>#5596</a>)</li>
-<li>Selective Sync: Skip excluded folders when reading db</li>
-<li>Selective Sync: Remove local files of unselected folder despite other modified files (<a href='https://github.com/owncloud/client/issues/5783'>#5783</a>)</li>
-<li>Excludes: remove .htaccess form list of excluded files</li>
-<li>Excludes: Hardcode desktop.ini</li>
-<li>Excludes: Allow escaping "#" (<a href='https://github.com/owncloud/client/issues/6012'>#6012</a>)</li>
-<li>Excludes: Use faster matching via QRegularExpression</li>
-<li>Discovery: Increase the MAX_DEPTH and show deep folders as ignored</li>
-<li>Discovery: General speed improvements</li>
-<li>Downloads: Remove empty temporary if disk space full (<a href='https://github.com/owncloud/client/issues/5746'>#5746</a>)</li>
-<li>Downloads: Re-trigger folder discovery on 404</li>
-<li>Quota:  PropagateUpload: Model of remote quota, avoid some uploads (<a href='https://github.com/owncloud/client/issues/5537'>#5537</a>)</li>
-<li>When creating explorer favorite use more specific windows functions (<a href='https://github.com/owncloud/client/issues/5690'>#5690</a>)</li>
-<li>Create favorite also in folder wizard (<a href='https://github.com/owncloud/client/issues/455'>#455</a>)</li>
-<li>Windows: Use the application icon for the Windows 8 sidebar favorite (<a href='https://github.com/owncloud/client/issues/2446'>#2446</a>)</li>
-<li>macOS: Finder sidebar icon (<a href='https://github.com/owncloud/client/issues/296'>#296</a>)</li>
-<li>Overlay Icons: Consider also the "shared by me" as shared (<a href='https://github.com/owncloud/client/issues/4788'>#4788</a>)</li>
-<li>Overlay Icons: Fix different case paths not matching (<a href='https://github.com/owncloud/client/issues/5257'>#5257</a>)</li>
-<li>Windows Overlay Icons: Potential hang fixes</li>
-<li>Linux Overlay Icons: fix branded nemo and caja shell integration (<a href='https://github.com/owncloud/client/issues/5966'>#5966</a>)</li>
-<li>Http credentials: Fix behavior for bad password (<a href='https://github.com/owncloud/client/issues/5989'>#5989</a>)</li>
-<li>Credentials: Use per-account keychain entries (<a href='https://github.com/owncloud/client/issues/5830'>#5830</a>)</li>
-<li>AccountSettings: Triggering log in re-ask about previously rejected certificates (<a href='https://github.com/owncloud/client/issues/5819'>#5819</a>)</li>
-<li>Added owncloudcmd bandwidth limit parameter (<a href='https://github.com/owncloud/client/issues/5707'>#5707</a>)</li>
-<li>AccountSettings: Sync with clean discovery on Ctrl-F6 (<a href='https://github.com/owncloud/client/issues/5666'>#5666</a>)</li>
-<li>Sync: Dynamic sizing of chunks in chunked uploads for improved big file upload performance</li>
-<li>Sync: Introduce overall errors that are not tied to a file (<a href='https://github.com/owncloud/client/issues/5746'>#5746</a>)</li>
-<li>Sync: Better messaging for 507 Insufficient Storage (<a href='https://github.com/owncloud/client/issues/5537'>#5537</a>)</li>
-<li>Sync: Create conflicts by comparing the hash of files with identical mtime/size (<a href='https://github.com/owncloud/client/issues/5589'>#5589</a>)</li>
-<li>Sync: Blacklist: Don't let errors become warnings (<a href='https://github.com/owncloud/client/issues/5516'>#5516</a>)</li>
-<li>Sync: Check etag again after active sync (<a href='https://github.com/owncloud/client/issues/4116'>#4116</a>)</li>
-<li>SyncJournalDB: Fall back to DELETE journal mode if WAL mode does not seem to work (<a href='https://github.com/owncloud/client/issues/5723'>#5723</a>)</li>
-<li>Fix at least one memory leak</li>
-<li>Documentation improvements</li>
-<li>Logging improvements (With Qt logging categories)</li>
-<li>Crash fixes</li>
-<li>Test improvements</li>
-<li>Small UI layout fixes</li>
-<li>Maintenance Mode: Detect maintenance mode (<a href='https://github.com/owncloud/client/issues/4485'>#4485</a>)</li>
-<li>Maintenance Mode: Add a 1 to 5 min reconnection delay (<a href='https://github.com/owncloud/client/issues/5872'>#5872</a>)</li>
-<li>HTTP: Send a unique X-Request-ID with each request (<a href='https://github.com/owncloud/client/issues/5853'>#5853</a>)</li>
-<li>HTTP: Support HTTP2 when built and running with Qt 5.9.x (Official packages still on Qt 5.6.x)</li>
-<li>owncloudcmd: Don't start if connection or auth fails (<a href='https://github.com/owncloud/client/issues/5692'>#5692</a>)</li>
-<li>csync: Switch build from C to C++</li>
-<li>csync: Refactor a lot to use common data structures to save memory and memory copying</li>
-<li>csync: Switch some data structures to Qt data structures</li>
-<li>csync: Switch to using upper layer SyncJournalDB</li>
-<li>Switch 3rdparty/json usage to Qt5's QJson (<a href='https://github.com/owncloud/client/issues/5710'>#5710</a>)</li>
-<li>OpenSSL: Don't require directly, only via Qt</li>
-<li>Remove iconv dependency, use Qt for file system locale encoding/decoding (emoji filename support on macOS)</li>
-<li>Compilation: Remove Qt 4 code</li>
-<li>Harmonize source code style with clang-format</li>
-<li>Switch over to Qt 5 function pointer signal/slot syntax</li>
-<li>Updater: Rudimentary support for beta channel</li>
-</ul>
-Download:
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8457alpha1-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8391alpha1.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download.html?project=isv%3AownCloud%3Acommunity%3Atesting&amp;package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-alpha1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-alpha1.tar.xz.asc">PGP signature</a>)
-<br/>Download testpilotcloud client:
-<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8458alpha1-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8392alpha1.pkg">Mac</a> |
-<a href="https://software.opensuse.org//download.html?project=isv%3AownCloud%3Atestpilot%3Atesting&amp;package=testpilotcloud-client">Linux</a>
 
 <h3 id="233">Release 2.3.3 <small>August 29th 2017</small></h3>
 <ul>
