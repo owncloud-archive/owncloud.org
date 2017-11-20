@@ -230,7 +230,7 @@
 
 								</div>
 								<div class="col-sm-5 button-area">
-									<h3>Latest stable version: <strong>10.0.2<!--<?php echo $VERSIONS_SERVER_FULL_STABLE; ?>--></strong></h3>
+									<h3>Latest stable version: <strong>10.0.3<!--<?php echo $VERSIONS_SERVER_FULL_STABLE; ?>--></strong></h3>
 									<h4><strong><a class="changelog mb0" href="/changelog">See what's new (Changelog)</a></strong></h4>
 									<h5 class="mb15">Grab the official ownCloud virtual machine image in one of these formats:</h5>
 									<a href="<?php echo $DOWNLOAD_VM_ESX_OVA; ?>" class="button blue secondary">ESX</a>
