@@ -283,7 +283,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.1"></a></li>
-      <h3>9.1.7 RC2</h3>
+      <h3>9.1.7 <small>Nov 23 2017</small></h3>
       <ul>
          <li>Fix user deletion for LDAP users <a  href="https://github.com/owncloud/core/pull/28008">#28008</a></li>
          <li>Added “occ files:scan” repair mode to repair mismatch filecache paths - <a  href="https://github.com/owncloud/core/pull/29487">#29487</a></li>
@@ -324,7 +324,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.0"></a></li>
-      <h3>9.0.11 RC2</h3>
+      <h3>9.0.11 <small>Nov 23 2017</small></h3>
       <ul>
          <li>Added “occ files:scan” repair mode to repair mismatch filecache paths - <a  href="https://github.com/owncloud/core/pull/29491">#29491</a></li>
          <li>Add extra check in case of missing home storage - <a  href="https://github.com/owncloud/core/issues/29046">#29046</a></li>
