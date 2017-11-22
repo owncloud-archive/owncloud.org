@@ -15,9 +15,9 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest10.0"></a></li>
-<h3>Version 10.0.4 <small>Nov 22 2017</small><br></h3>
-<p>Release notes: <a  href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-3">Release notes</a><br></p>
-      <h4>Added<br></h4>
+<h3>Version 10.0.4 RC2<small>Nov 22 2017</small></h3>
+<p>Release notes: <a  href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-3">Release notes</a></p>
+      <h4>Added</h4>
       <ul>
          <li>Added support for eml mimetype - <a  href="https://github.com/owncloud/core/issues/29204">#29204</a></li>
          <li>Added "occ dav:cleanup-chunks" command to clean up expired uploads - <a  href="https://github.com/owncloud/core/issues/29180">#29180</a></li>
@@ -58,7 +58,7 @@ Go directly to the latest maintenance release of:
          <li>Replace notify user for local shares with button - <a  href="https://github.com/owncloud/core/issues/29463">#29463</a></li>
          <li>Log out current user after submitting form in password reset page - <a  href="https://github.com/owncloud/core/issues/29464">#29464</a></li>
          <li>Update minimum supported browser versions - <a  href="https://github.com/owncloud/core/issues/29507">#29507</a></li>
-         <li>Admins can now change display name even when its modification is disallowed for regular users - <a  href="https://github.com/owncloud/core/issues/29442">#29442</a><br></li>
+         <li>Admins can now change display name even when its modification is disallowed for regular users - <a  href="https://github.com/owncloud/core/issues/29442">#29442</a></li>
       </ul>
       <h4>Removed</h4>
       <ul>
@@ -114,7 +114,7 @@ Go directly to the latest maintenance release of:
          <li>Fix race condition in browser when uploading folder tree - <a  href="https://github.com/owncloud/core/issues/29435">#29435</a></li>
          <li>Disable nginx buffering for file downloads to avoid huge memory usage in some scenarios - <a  href="https://github.com/owncloud/core/issues/29403">#29403</a></li>
          <li>Fix many issues related to session removal - <a  href="https://github.com/owncloud/core/issues/28879">#28879</a></li>
-         <li>Fix SMB to better detect when overwriting through rename - <a  href="https://github.com/owncloud/core/issues/29564">#29564</a><br></li>
+         <li>Fix SMB to better detect when overwriting through rename - <a  href="https://github.com/owncloud/core/issues/29564">#29564</a></li>
       </ul>
 
 <h3>Version 10.0.3 <small>Sep 15 2017</small></h3></li>
@@ -283,7 +283,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.1"></a></li>
-      <h3>9.1.7<br></h3>
+      <h3>9.1.7 RC2</h3>
       <ul>
          <li>Fix user deletion for LDAP users <a  href="https://github.com/owncloud/core/pull/28008">#28008</a></li>
          <li>Added “occ files:scan” repair mode to repair mismatch filecache paths - <a  href="https://github.com/owncloud/core/pull/29487">#29487</a></li>
@@ -324,7 +324,7 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.0"></a></li>
-      <h3>9.0.11<br></h3>
+      <h3>9.0.11 RC2</h3>
       <ul>
          <li>Added “occ files:scan” repair mode to repair mismatch filecache paths - <a  href="https://github.com/owncloud/core/pull/29491">#29491</a></li>
          <li>Add extra check in case of missing home storage - <a  href="https://github.com/owncloud/core/issues/29046">#29046</a></li>
@@ -333,7 +333,7 @@ Packages on our Build Service: <a href="https://download.owncloud.org/download/r
          <li>Stop processing in case of filecache loop inside propagator - <a  href="https://github.com/owncloud/core/issues/28320">#28320</a></li>
          <li>Fix cross-storage move info - <a  href="https://github.com/owncloud/core/issues/28284">#28284</a></li>
          <li>Fix default quota - <a  href="https://github.com/owncloud/core/issues/28302">#28302</a></li>
-         <li>Always load most recent app from dirs - <a  href="https://github.com/owncloud/core/issues/28224">#28224</a><br></li>
+         <li>Always load most recent app from dirs - <a  href="https://github.com/owncloud/core/issues/28224">#28224</a></li>
       </ul>
 
 
