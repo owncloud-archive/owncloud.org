@@ -15,6 +15,108 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest10.0"></a></li>
+<h3>Version 10.0.4RC2 <small>Nov 22 2017</small><br></h3>
+<p>Release notes: <a data-cke-saved-href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-3" href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-3">Release notes</a><br></p>
+      <h4>Added<br></h4>
+      <ul>
+         <li>Added support for eml mimetype - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29204" href="https://github.com/owncloud/core/issues/29204">#29204</a></li>
+         <li>Added "occ dav:cleanup-chunks" command to clean up expired uploads - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29180" href="https://github.com/owncloud/core/issues/29180">#29180</a></li>
+         <li>Added "occ files:scan" repair mode to repair mismatch filecache paths - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29074" href="https://github.com/owncloud/core/issues/29074">#29074</a> <a data-cke-saved-href="https://github.com/owncloud/core/issues/29232" href="https://github.com/owncloud/core/issues/29232">#29232</a></li>
+         <li>Added occ command to change/recreate master-key - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29260" href="https://github.com/owncloud/core/issues/29260">#29260</a></li>
+         <li>Detailed mode for "occ security:routes" - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29095" href="https://github.com/owncloud/core/issues/29095">#29095</a></li>
+         <li>Webdav property to retrieve a private link to files or folders - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29041" href="https://github.com/owncloud/core/issues/29041">#29041</a></li>
+         <li>CORS support for public API routes - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28852" href="https://github.com/owncloud/core/issues/28852">#28852</a></li>
+         <li>More "files_sharing" capabilities entries - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29040" href="https://github.com/owncloud/core/issues/29040">#29040</a></li>
+         <li>Display server name in admin page, don't show in status.php - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28938" href="https://github.com/owncloud/core/issues/28938">#28938</a></li>
+         <li>Validate public link mail on the client side - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29042" href="https://github.com/owncloud/core/issues/29042">#29042</a></li>
+         <li>Expose XHR response in share dialog autocomplete callback for extensions - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29231" href="https://github.com/owncloud/core/issues/29231">#29231</a></li>
+         <li>Let apps provide icons for settings sections - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29358" href="https://github.com/owncloud/core/issues/29358">#29358</a></li>
+         <li>Added cancellable prehooks for logout operation - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29352" href="https://github.com/owncloud/core/issues/29352">#29352</a></li>
+         <li>Markdown support for app descriptions in apps settings panel - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29333" href="https://github.com/owncloud/core/issues/29333">#29333</a></li>
+         <li>Add option to allow user to share only with the groups they belong to - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29391" href="https://github.com/owncloud/core/issues/29391">#29391</a></li>
+         <li>Cacheable storage adapter for use by Flysystem based external storage backends - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29414" href="https://github.com/owncloud/core/issues/29414">#29414</a></li>
+         <li>Add user additional info field for share autocomplete - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29457" href="https://github.com/owncloud/core/issues/29457">#29457</a></li>
+         <li>Add dispatcher event for remote fed shares - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29482" href="https://github.com/owncloud/core/issues/29482">#29482</a></li>
+         <li>Adding mode of operations - either single-instance or clus… - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29492" href="https://github.com/owncloud/core/issues/29492">#29492</a></li>
+         <li>Added support for MariaDB 10.2.7+ - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29240" href="https://github.com/owncloud/core/issues/29240">#29240</a></li>
+         <li>Admins can now exclude files from integrity check in config.php - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29460" href="https://github.com/owncloud/core/issues/29460">#29460</a></li>
+         <li>Use X-Request-ID header as request id if provided by client, useful for logging - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29434" href="https://github.com/owncloud/core/issues/29434">#29434</a></li>
+         <li>Added authentication headers verification to validate the session - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29525" href="https://github.com/owncloud/core/issues/29525">#29525</a></li>
+         <li>Added IServiceLoader on server container to load app service classes from XML tags in info.xml - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29525" href="https://github.com/owncloud/core/issues/29525">#29525</a></li>
+         <li>Trigger events for federated shares - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29566" href="https://github.com/owncloud/core/issues/29566">#29566</a></li>
+      </ul>
+      <h4><a data-cke-saved-href="https://github.com/owncloud/core/blob/stable10/CHANGELOG.md#changed" href="https://github.com/owncloud/core/blob/stable10/CHANGELOG.md#changed" id="user-content-changed" class="anchor"></a>Changed<br></h4>
+      <ul>
+         <li>Exclude mimetypelist.js from integrity check - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29048" href="https://github.com/owncloud/core/issues/29048">#29048</a> <a data-cke-saved-href="https://github.com/owncloud/core/issues/29316" href="https://github.com/owncloud/core/issues/29316">#29316</a></li>
+         <li>Refactor set and reset of capabilities - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29200" href="https://github.com/owncloud/core/issues/29200">#29200</a></li>
+         <li>All amazon locations support v4 now - v3 deprecated - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29153" href="https://github.com/owncloud/core/issues/29153">#29153</a></li>
+         <li>Modified time value of files is now 64 bits long - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28961" href="https://github.com/owncloud/core/issues/28961">#28961</a></li>
+         <li>User names must now be at least 3 characters long - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29237" href="https://github.com/owncloud/core/issues/29237">#29237</a></li>
+         <li>AccountMapper get by email is now case insensitive - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29341" href="https://github.com/owncloud/core/issues/29341">#29341</a></li>
+         <li>Remove deprecated federated share API warning as it needlessly pollutes logs - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29364" href="https://github.com/owncloud/core/issues/29364">#29364</a></li>
+         <li>Improve UI for public link sharing permissions for folders - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29413" href="https://github.com/owncloud/core/issues/29413">#29413</a></li>
+         <li>Replace notify user for local shares with button - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29463" href="https://github.com/owncloud/core/issues/29463">#29463</a></li>
+         <li>Log out current user after submitting form in password reset page - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29464" href="https://github.com/owncloud/core/issues/29464">#29464</a></li>
+         <li>Update minimum supported browser versions - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29507" href="https://github.com/owncloud/core/issues/29507">#29507</a></li>
+         <li>Admins can now change display name even when its modification is disallowed for regular users - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29442" href="https://github.com/owncloud/core/issues/29442">#29442</a><br></li>
+      </ul>
+      <h4><a data-cke-saved-href="https://github.com/owncloud/core/blob/stable10/CHANGELOG.md#removed" href="https://github.com/owncloud/core/blob/stable10/CHANGELOG.md#removed" id="user-content-removed" class="anchor"></a>Removed<br></h4>
+      <ul>
+         <li>Remove AvatarPermissions repair step - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29202" href="https://github.com/owncloud/core/issues/29202">#29202</a></li>
+         <li>Remove unused FTP code - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29186" href="https://github.com/owncloud/core/issues/29186">#29186</a></li>
+         <li>Remove app store related code obsoleted by market app - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29249" href="https://github.com/owncloud/core/issues/29249">#29249</a></li>
+      </ul>
+      <h4><a data-cke-saved-href="https://github.com/owncloud/core/blob/stable10/CHANGELOG.md#fixed" href="https://github.com/owncloud/core/blob/stable10/CHANGELOG.md#fixed" id="user-content-fixed" class="anchor"></a>Fixed<br></h4>
+      <ul>
+         <li>Corrected namespace for OC\Memcache\ArrayCache which caused errors on some environments - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29219" href="https://github.com/owncloud/core/issues/29219">#29219</a></li>
+         <li>External storage Javascript code from apps is now loaded correctly (fixes Dropbox app and others) - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29225" href="https://github.com/owncloud/core/issues/29225">#29225</a></li>
+         <li>Use product name from theme - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29251" href="https://github.com/owncloud/core/issues/29251">#29251</a></li>
+         <li>Make sure the external storage folder name is editable when returning from OAuth authorization - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29253" href="https://github.com/owncloud/core/issues/29253">#29253</a></li>
+         <li>Fix duplicate external storage config that appear sometimes when returning from OAuth authorization - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29254" href="https://github.com/owncloud/core/issues/29254">#29254</a></li>
+         <li>Log exceptions in decrypt-all command - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29248" href="https://github.com/owncloud/core/issues/29248">#29248</a></li>
+         <li>SFTP key pair mode now works again - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29156" href="https://github.com/owncloud/core/issues/29156">#29156</a></li>
+         <li>Use correct class namespace for ownCloud ext storage - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28935" href="https://github.com/owncloud/core/issues/28935">#28935</a></li>
+         <li>Fix generated zip file to avoid errors with some zip tools - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29149" href="https://github.com/owncloud/core/issues/29149">#29149</a></li>
+         <li>Fix position of dialog boxes - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29133" href="https://github.com/owncloud/core/issues/29133">#29133</a> <a data-cke-saved-href="https://github.com/owncloud/core/issues/29467" href="https://github.com/owncloud/core/issues/29467">#29467</a></li>
+         <li>Move 64bit mtime migration from dav to core - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29121" href="https://github.com/owncloud/core/issues/29121">#29121</a></li>
+         <li>Allow 0 byte quota to be entered on UI - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29113" href="https://github.com/owncloud/core/issues/29113">#29113</a></li>
+         <li>Don't display warning about limited commands when running maintenance:install - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28968" href="https://github.com/owncloud/core/issues/28968">#28968</a></li>
+         <li>Handle no user session in isSharingDisabledForUser() - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28915" href="https://github.com/owncloud/core/issues/28915">#28915</a></li>
+         <li>Fix icon format for federated cloud sharing - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28972" href="https://github.com/owncloud/core/issues/28972">#28972</a></li>
+         <li>Fix for decrypting user specific keys - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29189" href="https://github.com/owncloud/core/issues/29189">#29189</a></li>
+         <li>Remove alternate keys storage during user delete - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29155" href="https://github.com/owncloud/core/issues/29155">#29155</a></li>
+         <li>Fix error logs due to deletion of keys - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28934" href="https://github.com/owncloud/core/issues/28934">#28934</a></li>
+         <li>Fix encryption panel to properly detect current mode after upgrade to ownCloud 10 - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29049" href="https://github.com/owncloud/core/issues/29049">#29049</a></li>
+         <li>Fix quota check when uploading to federated shares - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29325" href="https://github.com/owncloud/core/issues/29325">#29325</a> <a data-cke-saved-href="https://github.com/owncloud/core/issues/29424" href="https://github.com/owncloud/core/issues/29424">#29424</a></li>
+         <li>Fix issue when mounting another encrypted ownCloud - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29360" href="https://github.com/owncloud/core/issues/29360">#29360</a></li>
+         <li>AccountMapper get by email is now case insensitive - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29341" href="https://github.com/owncloud/core/issues/29341">#29341</a></li>
+         <li>Fix order of apps to be deterministic during install process - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29267" href="https://github.com/owncloud/core/issues/29267">#29267</a></li>
+         <li>Only initiate connection to federated share when necessary - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29314" href="https://github.com/owncloud/core/issues/29314">#29314</a></li>
+         <li>Allow group named "0" to be deleted - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29323" href="https://github.com/owncloud/core/issues/29323">#29323</a></li>
+         <li>Do not translate CORS header in settings page - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29313" href="https://github.com/owncloud/core/issues/29313">#29313</a></li>
+         <li>Disable background scan for home storage/cache - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29306" href="https://github.com/owncloud/core/issues/29306">#29306</a></li>
+         <li>Fixed double escaping in full page error messages - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29304" href="https://github.com/owncloud/core/issues/29304">#29304</a></li>
+         <li>Updated davclient.js which fixes issue whenever an app extends Array prototype - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29305" href="https://github.com/owncloud/core/issues/29305">#29305</a></li>
+         <li>Fix OCS apps API to correctly include attributes into generated XML - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29303" href="https://github.com/owncloud/core/issues/29303">#29303</a></li>
+         <li>Make enum type mapping work with migrations - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29268" href="https://github.com/owncloud/core/issues/29268">#29268</a></li>
+         <li>Handle invalid storage when getting storage root id - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29278" href="https://github.com/owncloud/core/issues/29278">#29278</a></li>
+         <li>Fix storing/retrieval for dav properties of non files - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29273" href="https://github.com/owncloud/core/issues/29273">#29273</a></li>
+         <li>Remove double quotes from boolean values in status.php output - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29271" href="https://github.com/owncloud/core/issues/29271">#29271</a></li>
+         <li>Tidy code in DAV related classes - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29272" href="https://github.com/owncloud/core/issues/29272">#29272</a></li>
+         <li>Fix the missing argument to DecryptAll - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29371" href="https://github.com/owncloud/core/issues/29371">#29371</a></li>
+         <li>Skip copying skeleton files if skeleton dir is not accessible - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29379" href="https://github.com/owncloud/core/issues/29379">#29379</a></li>
+         <li>Use chunked DB query when preloading directory content for DAV properties - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29416" href="https://github.com/owncloud/core/issues/29416">#29416</a></li>
+         <li>Fix failure when checking integrity signature for non-existing files - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29433" href="https://github.com/owncloud/core/issues/29433">#29433</a></li>
+         <li>Prevent uploading of part files through WebDav - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29432" href="https://github.com/owncloud/core/issues/29432">#29432</a></li>
+         <li>Only trigger "changeUser" event if account object really changed - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29429" href="https://github.com/owncloud/core/issues/29429">#29429</a></li>
+         <li>Only load app type once in app manager classes - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29428" href="https://github.com/owncloud/core/issues/29428">#29428</a></li>
+         <li>Use efficient startsWith implementation in server container - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29427" href="https://github.com/owncloud/core/issues/29427">#29427</a></li>
+         <li>Fix race condition in browser when uploading folder tree - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29435" href="https://github.com/owncloud/core/issues/29435">#29435</a></li>
+         <li>Disable nginx buffering for file downloads to avoid huge memory usage in some scenarios - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29403" href="https://github.com/owncloud/core/issues/29403">#29403</a></li>
+         <li>Fix many issues related to session removal - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28879" href="https://github.com/owncloud/core/issues/28879">#28879</a></li>
+         <li>Fix SMB to better detect when overwriting through rename - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29564" href="https://github.com/owncloud/core/issues/29564">#29564</a><br></li>
+      </ul>
+
 <h3>Version 10.0.3 <small>Sep 15 2017</small></h3></li>
 Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-3">Release notes</a></br>
 
@@ -181,6 +283,29 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.1"></a></li>
+      <h3>9.1.7RC2<br></h3>
+      <ul>
+         <li>Fix user deletion for LDAP users <a data-cke-saved-href="https://github.com/owncloud/core/pull/28008" href="https://github.com/owncloud/core/pull/28008">#28008</a></li>
+         <li>Added “occ files:scan” repair mode to repair mismatch filecache paths - <a data-cke-saved-href="https://github.com/owncloud/core/pull/29487" href="https://github.com/owncloud/core/pull/29487">#29487</a></li>
+         <li>Add extra check in case of missing home storage - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28505" href="https://github.com/owncloud/core/issues/28505">#28505</a></li>
+         <li>Add cache for new card uri&lt;-&gt;id to fix db cluster execution - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28304" href="https://github.com/owncloud/core/issues/28304">#28304</a></li>
+         <li>Create new birthday calendar without VTODO and give order 100 - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28550" href="https://github.com/owncloud/core/issues/28550">#28550</a></li>
+         <li>Username must be at least 3 characters long - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29239" href="https://github.com/owncloud/core/issues/29239">#29239</a></li>
+         <li>Use correct class namespace for ownCloud ext storage - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28978" href="https://github.com/owncloud/core/issues/28978">#28978</a></li>
+         <li>Remove input autofocus on Internet Explorer - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28830" href="https://github.com/owncloud/core/issues/28830">#28830</a></li>
+         <li>PHP 5.5 is EOL as well by now - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28766" href="https://github.com/owncloud/core/issues/28766">#28766</a></li>
+         <li>Do not reset quota to “default” whe no LDAP quota attributes configured - <a data-cke-saved-href="https://github.com/owncloud/core/pull/28404" href="https://github.com/owncloud/core/pull/28404">#28404</a></li>
+         <li>Add check for empty result in storage memcache - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28229" href="https://github.com/owncloud/core/issues/28229">#28229</a></li>
+         <li>Only use IndexIgnore if mod_autoindex.c is enabled/loaded. - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28592" href="https://github.com/owncloud/core/issues/28592">#28592</a></li>
+         <li>Make setValues use insertIfNotExists - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28484" href="https://github.com/owncloud/core/issues/28484">#28484</a></li>
+         <li>Add emitting of hook post_unshareFromSelf to Share 2.0 - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28412" href="https://github.com/owncloud/core/issues/28412">#28412</a></li>
+         <li>Data is not properly set in case of OCS Result object - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28199" href="https://github.com/owncloud/core/issues/28199">#28199</a></li>
+         <li>Check that the most recent app version is loaded - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28222" href="https://github.com/owncloud/core/issues/28222">#28222</a></li>
+         <li>Add Win10 User Agent for FakeLockerPlugin. Add missing response status. - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28288" href="https://github.com/owncloud/core/issues/28288">#28288</a></li>
+         <li>Fix cross storage move info - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28238" href="https://github.com/owncloud/core/issues/28238">#28238</a></li>
+         <li>Fix SMB to better detect when overwriting through rename - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29565" href="https://github.com/owncloud/core/issues/29565">#29565</a></li>
+      </ul>
+
 <h3>Version 9.1.6 <small>May 30 2017</small></h3></li>
 <ul>
 <li>[major] Default quota display in users page now works correctly again - <a href="https://github.com/owncloud/core/issues/27896">core/#27896</a></li>
@@ -199,6 +324,19 @@ PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://down
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.0"></a></li>
+      <h3>9.0.11RC2<br></h3>
+      <ul>
+         <li>Added “occ files:scan” repair mode to repair mismatch filecache paths - <a data-cke-saved-href="https://github.com/owncloud/core/pull/29491" href="https://github.com/owncloud/core/pull/29491">#29491</a></li>
+         <li>Add extra check in case of missing home storage - <a data-cke-saved-href="https://github.com/owncloud/core/issues/29046" href="https://github.com/owncloud/core/issues/29046">#29046</a></li>
+         <li>Only use IndexIgnore if mod_autoindex.c is enabled/loaded. - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28593" href="https://github.com/owncloud/core/issues/28593">#28593</a></li>
+         <li>Make setValues use insertIfNotExists - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28485" href="https://github.com/owncloud/core/issues/28485">#28485</a></li>
+         <li>Stop processing in case of filecache loop inside propagator - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28320" href="https://github.com/owncloud/core/issues/28320">#28320</a></li>
+         <li>Fix cross-storage move info - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28284" href="https://github.com/owncloud/core/issues/28284">#28284</a></li>
+         <li>Fix default quota - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28302" href="https://github.com/owncloud/core/issues/28302">#28302</a></li>
+         <li>Always load most recent app from dirs - <a data-cke-saved-href="https://github.com/owncloud/core/issues/28224" href="https://github.com/owncloud/core/issues/28224">#28224</a><br></li>
+      </ul>
+
+
 <h3>Version 9.0.10 <small>May 30 2017</small></h3></li>
 <ul>
 <li>[minor] Escape filter in search - <a href="https://github.com/owncloud/core/issues/27900">core/#27900</a></li>
