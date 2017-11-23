@@ -16,7 +16,7 @@ Go directly to the latest maintenance release of:
 
 <a name="latest10.0"></a></li>
 <h3>Version 10.0.4 RC2<small>Nov 22 2017</small></h3>
-<p>Release notes: <a  href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-3">Release notes</a></p>
+<p>Release notes: <a  href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-4">Release notes</a></p>
       <h4>Added</h4>
       <ul>
          <li>Added support for eml mimetype - <a  href="https://github.com/owncloud/core/issues/29204">#29204</a></li>
