@@ -109,7 +109,7 @@ Download:
 <br/>Download testpilotcloud client:
 <a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8786rc1-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8708rc1.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download.html?project=isv%3AownCloud%3Atestpilot&amp;package=testpilotcloud-client">Linux</a>
+<a href="https://software.opensuse.org/download.html?project=isv%3AownCloud%3Atestpilot%3Atesting&amp;package=testpilotcloud-client">Linux</a>
 
 <h3 id="234">Release 2.3.4 <small>November 3rd 2017</small></h3>
 <ul>
