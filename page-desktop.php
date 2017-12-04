@@ -4,10 +4,11 @@
 
 <!-- When doing beta/rc vs release, always check the subdirectory name and the OBS repo name!! //-->
 
-<h3 id="240">Release 2.4.0 <b>beta1</b> <small>November 16th 2017</small></h3>
+<h3 id="240">Release 2.4.0 <b>rc1</b> <small>December 4th 2017</small></h3>
 <ul>
 <li>If you're using 2.4.0 alpha1, please upgrade as the alpha1 had an issue with hidden files!</li>
 <li>OAuth2 authentication support by opening external browser (<a href='https://github.com/owncloud/client/issues/5668'>#5668</a>)</li>
+<li>Shibboleth: Change to use OAuth2 if supported (<a href='https://github.com/owncloud/client/issues/6198'>#6198</a>)</li>
 <li>Sharing: Add support for multiple public link shares (<a href='https://github.com/owncloud/client/issues/5655'>#5655</a>)</li>
 <li>Sharing: Add option to copy/email private links (<a href='https://github.com/owncloud/client/issues/5023'>#5023</a>, <a href='https://github.com/owncloud/client/issues/5627'>#5627</a>)</li>
 <li>Sharing: Add option "show file listing" (<a href='https://github.com/owncloud/client/issues/5837'>#5837</a>)</li>
@@ -65,6 +66,7 @@
 <li>Sync: Introduce overall errors that are not tied to a file (<a href='https://github.com/owncloud/client/issues/5746'>#5746</a>)</li>
 <li>Sync: Better messaging for 507 Insufficient Storage (<a href='https://github.com/owncloud/client/issues/5537'>#5537</a>)</li>
 <li>Sync: Create conflicts by comparing the hash of files with identical mtime/size (<a href='https://github.com/owncloud/client/issues/5589'>#5589</a>)</li>
+<li>Sync: Avoid downloads by comparing the hash of files with identical mtime/size (<a href='https://github.com/owncloud/client/issues/6153'>#6153</a>)</li>
 <li>Sync: Upload conflict files if OWNCLOUD_UPLOAD_CONFLICT_FILES environment variable is set (<a href='https://github.com/owncloud/client/issues/6038'>#6038</a>)</li>
 <li>Sync: Blacklist: Don't let errors become warnings (<a href='https://github.com/owncloud/client/issues/5516'>#5516</a>)</li>
 <li>Sync: Check etag again after active sync (<a href='https://github.com/owncloud/client/issues/4116'>#4116</a>)</li>
@@ -100,14 +102,14 @@
 <li>Updater: Rudimentary support for beta channel (<a href='https://github.com/owncloud/client/issues/6048'>#6048</a>)</li>
 </ul>
 Download:
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8702beta1-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8619beta1.pkg">Mac</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8784rc1-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8703rc1.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download/package?project=isv%3AownCloud%3Acommunity%3Atesting&amp;package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-beta1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-beta1.tar.xz.asc">PGP signature</a>)
+<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-rc1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-rc1.tar.xz.asc">PGP signature</a>)
 <br/>Download testpilotcloud client:
-<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8703beta1-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8620beta1.pkg">Mac</a> |
-<a href="https://software.opensuse.org/download.html?project=isv%3AownCloud%3Atestpilot&amp;package=testpilotcloud-client">Linux</a>
+<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8786rc1-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8708rc1.pkg">Mac</a> |
+<a href="https://software.opensuse.org/download.html?project=isv%3AownCloud%3Atestpilot%3Atesting&amp;package=testpilotcloud-client">Linux</a>
 
 <h3 id="234">Release 2.3.4 <small>November 3rd 2017</small></h3>
 <ul>
