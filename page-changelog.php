@@ -15,7 +15,7 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest10.0"></a></li>
-<h3>Version 10.0.4 RC2 <small>Dec 1 2017</small></h3>
+<h3>Version 10.0.4 RC2 <small>Dec 4 2017</small></h3>
 <p>Release notes: <a  href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-4">Release notes</a></p>
       <h4>Added</h4>
       <ul>
@@ -118,7 +118,7 @@ Go directly to the latest maintenance release of:
       </ul>
 
 <a name="latest9.1"></a></li>
-      <h3>Version 9.1.7 <small>Nov 23 2017</small></h3>
+      <h3>Version 9.1.7 <small>Dec 5 2017</small></h3>
       <ul>
          <li>Fix user deletion for LDAP users <a  href="https://github.com/owncloud/core/pull/28008">#28008</a></li>
          <li>Added “occ files:scan” repair mode to repair mismatch filecache paths - <a  href="https://github.com/owncloud/core/pull/29487">#29487</a></li>
@@ -142,7 +142,7 @@ Go directly to the latest maintenance release of:
       </ul>
 
 <a name="latest9.0"></a></li>
-      <h3>Version 9.0.11 <small>Nov 23 2017</small></h3>
+      <h3>Version 9.0.11 <small>Dec 5 2017</small></h3>
       <ul>
          <li>Added “occ files:scan” repair mode to repair mismatch filecache paths - <a  href="https://github.com/owncloud/core/pull/29491">#29491</a></li>
          <li>Add extra check in case of missing home storage - <a  href="https://github.com/owncloud/core/issues/29046">#29046</a></li>
