@@ -6,13 +6,50 @@ Go directly to the latest maintenance release of:
 <ul>
 <li><a href="#latest10.0">ownCloud 10.0</a></li>
 <li><a href="#latest9.1">ownCloud 9.1</a></li>
-<li><a href="#latest9.0">ownCloud 9.0</a></li>
+<li><a href="#latest9.0">ownCloud 9.0 (unsupported!)</a></li>
 <li><a href="#latest8.2">ownCloud 8.2 (unsupported!)</a></li>
 <li><a href="#latest8.1">ownCloud 8.1 (unsupported!)</a></li>
 <li><a href="#latest8.0">ownCloud 8.0 (unsupported!)</a></li>
 <li><a href="#latest7">ownCloud 7 (unsupported!)</a></li>
 <li><a href="#latest6">ownCloud 6 (unsupported!)</a></li>
 </ul>
+
+<a name="latest9.1"></a></li>
+      <h3>Version 9.1.7 <small>Dec 5 2017</small></h3>
+      <ul>
+         <li>Fix user deletion for LDAP users <a  href="https://github.com/owncloud/core/pull/28008">#28008</a></li>
+         <li>Added “occ files:scan” repair mode to repair mismatch filecache paths - <a  href="https://github.com/owncloud/core/pull/29487">#29487</a></li>
+         <li>Add extra check in case of missing home storage - <a  href="https://github.com/owncloud/core/issues/28505">#28505</a></li>
+         <li>Add cache for new card uri&lt;-&gt;id to fix db cluster execution - <a  href="https://github.com/owncloud/core/issues/28304">#28304</a></li>
+         <li>Create new birthday calendar without VTODO and give order 100 - <a  href="https://github.com/owncloud/core/issues/28550">#28550</a></li>
+         <li>Username must be at least 3 characters long - <a  href="https://github.com/owncloud/core/issues/29239">#29239</a></li>
+         <li>Use correct class namespace for ownCloud ext storage - <a  href="https://github.com/owncloud/core/issues/28978">#28978</a></li>
+         <li>Remove input autofocus on Internet Explorer - <a  href="https://github.com/owncloud/core/issues/28830">#28830</a></li>
+         <li>PHP 5.5 is EOL as well by now - <a  href="https://github.com/owncloud/core/issues/28766">#28766</a></li>
+         <li>Do not reset quota to “default” whe no LDAP quota attributes configured - <a  href="https://github.com/owncloud/core/pull/28404">#28404</a></li>
+         <li>Add check for empty result in storage memcache - <a  href="https://github.com/owncloud/core/issues/28229">#28229</a></li>
+         <li>Only use IndexIgnore if mod_autoindex.c is enabled/loaded. - <a  href="https://github.com/owncloud/core/issues/28592">#28592</a></li>
+         <li>Make setValues use insertIfNotExists - <a  href="https://github.com/owncloud/core/issues/28484">#28484</a></li>
+         <li>Add emitting of hook post_unshareFromSelf to Share 2.0 - <a  href="https://github.com/owncloud/core/issues/28412">#28412</a></li>
+         <li>Data is not properly set in case of OCS Result object - <a  href="https://github.com/owncloud/core/issues/28199">#28199</a></li>
+         <li>Check that the most recent app version is loaded - <a  href="https://github.com/owncloud/core/issues/28222">#28222</a></li>
+         <li>Add Win10 User Agent for FakeLockerPlugin. Add missing response status. - <a  href="https://github.com/owncloud/core/issues/28288">#28288</a></li>
+         <li>Fix cross storage move info - <a  href="https://github.com/owncloud/core/issues/28238">#28238</a></li>
+         <li>Fix SMB to better detect when overwriting through rename - <a  href="https://github.com/owncloud/core/issues/29565">#29565</a></li>
+      </ul>
+
+<a name="latest9.0"></a></li>
+      <h3>Version 9.0.11 <small>Dec 5 2017</small></h3>
+      <ul>
+         <li>Added “occ files:scan” repair mode to repair mismatch filecache paths - <a  href="https://github.com/owncloud/core/pull/29491">#29491</a></li>
+         <li>Add extra check in case of missing home storage - <a  href="https://github.com/owncloud/core/issues/29046">#29046</a></li>
+         <li>Only use IndexIgnore if mod_autoindex.c is enabled/loaded. - <a  href="https://github.com/owncloud/core/issues/28593">#28593</a></li>
+         <li>Make setValues use insertIfNotExists - <a  href="https://github.com/owncloud/core/issues/28485">#28485</a></li>
+         <li>Stop processing in case of filecache loop inside propagator - <a  href="https://github.com/owncloud/core/issues/28320">#28320</a></li>
+         <li>Fix cross-storage move info - <a  href="https://github.com/owncloud/core/issues/28284">#28284</a></li>
+         <li>Fix default quota - <a  href="https://github.com/owncloud/core/issues/28302">#28302</a></li>
+         <li>Always load most recent app from dirs - <a  href="https://github.com/owncloud/core/issues/28224">#28224</a></li>
+      </ul>
 
 <a name="latest10.0"></a></li>
 <h3>Version 10.0.3 <small>Sep 15 2017</small></h3></li>
@@ -180,7 +217,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2.asc">owncloud-10.0.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip.asc">owncloud-10.0.3.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest9.1"></a></li>
 <h3>Version 9.1.6 <small>May 30 2017</small></h3></li>
 <ul>
 <li>[major] Default quota display in users page now works correctly again - <a href="https://github.com/owncloud/core/issues/27896">core/#27896</a></li>
@@ -198,7 +234,6 @@ SHA256: <a href="https://download.owncloud.org/community/owncloud-9.1.6.tar.bz2.
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.1.6.tar.bz2.asc">owncloud-9.1.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.6.zip.asc">owncloud-9.1.6.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
-<a name="latest9.0"></a></li>
 <h3>Version 9.0.10 <small>May 30 2017</small></h3></li>
 <ul>
 <li>[minor] Escape filter in search - <a href="https://github.com/owncloud/core/issues/27900">core/#27900</a></li>
