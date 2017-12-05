@@ -14,6 +14,115 @@ Go directly to the latest maintenance release of:
 <li><a href="#latest6">ownCloud 6 (unsupported!)</a></li>
 </ul>
 
+
+<a name="latest10.0"></a></li>
+<h3>Version 10.0.4 <small>Dec 6 2017</small></h3>
+   <h3>Added</h3>
+   <ul>
+      <li>Added support for eml mimetype - <a  href="https://github.com/owncloud/core/issues/29204">#29204</a></li>
+      <li>Added "occ dav:cleanup-chunks" command to clean up expired uploads - <a  href="https://github.com/owncloud/core/issues/29180">#29180</a></li>
+      <li>Added "occ files:scan" repair mode to repair mismatch filecache paths - <a  href="https://github.com/owncloud/core/issues/29074">#29074</a> <a  href="https://github.com/owncloud/core/issues/29232">#29232</a></li>
+      <li>Added occ command to change/recreate master-key - <a  href="https://github.com/owncloud/core/issues/29260">#29260</a> <a  href="https://github.com/owncloud/core/issues/29735">#29735</a></li>
+      <li>Detailed mode for "occ security:routes" - <a  href="https://github.com/owncloud/core/issues/29095">#29095</a></li>
+      <li>Webdav property to retrieve a private link to files or folders - <a  href="https://github.com/owncloud/core/issues/29041">#29041</a></li>
+      <li>CORS support for public API routes - <a  href="https://github.com/owncloud/core/issues/28852">#28852</a> <a  href="https://github.com/owncloud/core/issues/29741">#29741</a> <a  href="https://github.com/owncloud/core/issues/29749">#29749</a></li>
+      <li>More "files_sharing" capabilities entries - <a  href="https://github.com/owncloud/core/issues/29040">#29040</a></li>
+      <li>Display server name in admin page, don't show in status.php - <a  href="https://github.com/owncloud/core/issues/28938">#28938</a></li>
+      <li>Validate public link mail on the client side - <a  href="https://github.com/owncloud/core/issues/29042">#29042</a></li>
+      <li>Expose XHR response in share dialog autocomplete callback for extensions - <a  href="https://github.com/owncloud/core/issues/29231">#29231</a></li>
+      <li>Let apps provide icons for settings sections - <a  href="https://github.com/owncloud/core/issues/29358">#29358</a></li>
+      <li>Added cancellable prehooks for logout operation - <a  href="https://github.com/owncloud/core/issues/29352">#29352</a></li>
+      <li>Markdown support for app descriptions in apps settings panel - <a  href="https://github.com/owncloud/core/issues/29333">#29333</a></li>
+      <li>Add option to allow user to share only with the groups they belong to - <a  href="https://github.com/owncloud/core/issues/29391">#29391</a></li>
+      <li>Cacheable storage adapter for use by Flysystem based external storage backends - <a  href="https://github.com/owncloud/core/issues/29414">#29414</a></li>
+      <li>Add user additional info field for share autocomplete - <a  href="https://github.com/owncloud/core/issues/29457">#29457</a></li>
+      <li>Add dispatcher event for remote fed shares - <a  href="https://github.com/owncloud/core/issues/29482">#29482</a></li>
+      <li>Adding mode of operations - either single-instance or clus… - <a  href="https://github.com/owncloud/core/issues/29492">#29492</a></li>
+      <li>Added support for MariaDB 10.2.7+ - <a  href="https://github.com/owncloud/core/issues/29240">#29240</a></li>
+      <li>Admins can now exclude files from integrity check in config.php - <a  href="https://github.com/owncloud/core/issues/29460">#29460</a></li>
+      <li>Use X-Request-ID header as request id if provided by client, useful for logging - <a  href="https://github.com/owncloud/core/issues/29434">#29434</a></li>
+      <li>Added authentication headers verification to validate the session - <a  href="https://github.com/owncloud/core/issues/29525">#29525</a></li>
+      <li>Added IServiceLoader on server container to load app service classes from XML tags in info.xml - <a  href="https://github.com/owncloud/core/issues/29525">#29525</a></li>
+      <li>Trigger events for federated shares - <a  href="https://github.com/owncloud/core/issues/29566">#29566</a></li>
+   </ul>
+   <h3>Changed</h3>
+   <ul>
+      <li>Exclude mimetypelist.js from integrity check - <a  href="https://github.com/owncloud/core/issues/29048">#29048</a> <a  href="https://github.com/owncloud/core/issues/29316">#29316</a></li>
+      <li>Refactor set and reset of capabilities - <a  href="https://github.com/owncloud/core/issues/29200">#29200</a></li>
+      <li>All amazon locations support v4 now - v3 deprecated - <a  href="https://github.com/owncloud/core/issues/29153">#29153</a></li>
+      <li>Modified time value of files is now 64 bits long - <a  href="https://github.com/owncloud/core/issues/28961">#28961</a></li>
+      <li>User names must now be at least 3 characters long - <a  href="https://github.com/owncloud/core/issues/29237">#29237</a></li>
+      <li>AccountMapper get by email is now case insensitive - <a  href="https://github.com/owncloud/core/issues/29341">#29341</a></li>
+      <li>Remove deprecated federated share API warning as it needlessly pollutes logs - <a  href="https://github.com/owncloud/core/issues/29364">#29364</a></li>
+      <li>Improve UI for public link sharing permissions for folders - <a  href="https://github.com/owncloud/core/issues/29413">#29413</a></li>
+      <li>Replace notify user for local shares with button - <a  href="https://github.com/owncloud/core/issues/29463">#29463</a></li>
+      <li>Log out current user after submitting form in password reset page - <a  href="https://github.com/owncloud/core/issues/29464">#29464</a></li>
+      <li>Update minimum supported browser versions - <a  href="https://github.com/owncloud/core/issues/29507">#29507</a></li>
+      <li>Admins can now change display name even when its modification is disallowed for regular users - <a  href="https://github.com/owncloud/core/issues/29442">#29442</a></li>
+   </ul>
+   <h3>Removed</h3>
+   <ul>
+      <li>Remove AvatarPermissions repair step - <a  href="https://github.com/owncloud/core/issues/29202">#29202</a></li>
+      <li>Remove unused FTP code - <a  href="https://github.com/owncloud/core/issues/29186">#29186</a></li>
+      <li>Remove app store related code obsoleted by market app - <a  href="https://github.com/owncloud/core/issues/29249">#29249</a></li>
+      <li>Remove a route to removed script - <a  href="https://github.com/owncloud/core/issues/29553">#29553</a></li>
+   </ul>
+   <h3></a>Fixed</h3>
+   <ul>
+      <li>Corrected namespace for OC\Memcache\ArrayCache which caused errors on some environments - <a  href="https://github.com/owncloud/core/issues/29219">#29219</a></li>
+      <li>External storage Javascript code from apps is now loaded correctly (fixes Dropbox app and others) - <a  href="https://github.com/owncloud/core/issues/29225">#29225</a></li>
+      <li>Use product name from theme - <a  href="https://github.com/owncloud/core/issues/29251">#29251</a></li>
+      <li>Make sure the external storage folder name is editable when returning from OAuth authorization - <a  href="https://github.com/owncloud/core/issues/29253">#29253</a></li>
+      <li>Fix duplicate external storage config that appear sometimes when returning from OAuth authorization - <a  href="https://github.com/owncloud/core/issues/29254">#29254</a></li>
+      <li>Log exceptions in decrypt-all command - <a  href="https://github.com/owncloud/core/issues/29248">#29248</a></li>
+      <li>SFTP key pair mode now works again - <a  href="https://github.com/owncloud/core/issues/29156">#29156</a></li>
+      <li>Use correct class namespace for ownCloud ext storage - <a  href="https://github.com/owncloud/core/issues/28935">#28935</a></li>
+      <li>Fix generated zip file to avoid errors with some zip tools - <a  href="https://github.com/owncloud/core/issues/29149">#29149</a></li>
+      <li>Fix position of dialog boxes - <a  href="https://github.com/owncloud/core/issues/29133">#29133</a> <a  href="https://github.com/owncloud/core/issues/29467">#29467</a></li>
+      <li>Move 64bit mtime migration from dav to core - <a  href="https://github.com/owncloud/core/issues/29121">#29121</a></li>
+      <li>Allow 0 byte quota to be entered on UI - <a  href="https://github.com/owncloud/core/issues/29113">#29113</a></li>
+      <li>Don't display warning about limited commands when running maintenance:install - <a  href="https://github.com/owncloud/core/issues/28968">#28968</a></li>
+      <li>Handle no user session in isSharingDisabledForUser() - <a  href="https://github.com/owncloud/core/issues/28915">#28915</a></li>
+      <li>Fix icon format for federated cloud sharing - <a  href="https://github.com/owncloud/core/issues/28972">#28972</a></li>
+      <li>Fix for decrypting user specific keys - <a  href="https://github.com/owncloud/core/issues/29189">#29189</a></li>
+      <li>Remove alternate keys storage during user delete - <a  href="https://github.com/owncloud/core/issues/29155">#29155</a></li>
+      <li>Fix error logs due to deletion of keys - <a  href="https://github.com/owncloud/core/issues/28934">#28934</a></li>
+      <li>Fix encryption panel to properly detect current mode after upgrade to ownCloud 10 - <a  href="https://github.com/owncloud/core/issues/29049">#29049</a></li>
+      <li>Fix quota check when uploading to federated shares - <a  href="https://github.com/owncloud/core/issues/29325">#29325</a> <a  href="https://github.com/owncloud/core/issues/29424">#29424</a></li>
+      <li>Fix issue when mounting another encrypted ownCloud - <a  href="https://github.com/owncloud/core/issues/29360">#29360</a></li>
+      <li>AccountMapper get by email is now case insensitive - <a  href="https://github.com/owncloud/core/issues/29341">#29341</a></li>
+      <li>Fix order of apps to be deterministic during install process - <a  href="https://github.com/owncloud/core/issues/29267">#29267</a></li>
+      <li>Only initiate connection to federated share when necessary - <a  href="https://github.com/owncloud/core/issues/29314">#29314</a></li>
+      <li>Allow group named "0" to be deleted - <a  href="https://github.com/owncloud/core/issues/29323">#29323</a></li>
+      <li>Do not translate CORS header in settings page - <a  href="https://github.com/owncloud/core/issues/29313">#29313</a></li>
+      <li>Disable background scan for home storage/cache - <a  href="https://github.com/owncloud/core/issues/29306">#29306</a></li>
+      <li>Fixed double escaping in full page error messages - <a  href="https://github.com/owncloud/core/issues/29304">#29304</a></li>
+      <li>Updated davclient.js which fixes issue whenever an app extends Array prototype - <a  href="https://github.com/owncloud/core/issues/29305">#29305</a></li>
+      <li>Fix OCS apps API to correctly include attributes into generated XML - <a  href="https://github.com/owncloud/core/issues/29303">#29303</a></li>
+      <li>Make enum type mapping work with migrations - <a  href="https://github.com/owncloud/core/issues/29268">#29268</a></li>
+      <li>Handle invalid storage when getting storage root id - <a  href="https://github.com/owncloud/core/issues/29278">#29278</a></li>
+      <li>Fix storing/retrieval for dav properties of non files - <a  href="https://github.com/owncloud/core/issues/29273">#29273</a></li>
+      <li>Remove double quotes from boolean values in status.php output - <a  href="https://github.com/owncloud/core/issues/29271">#29271</a></li>
+      <li>Tidy code in DAV related classes - <a  href="https://github.com/owncloud/core/issues/29272">#29272</a></li>
+      <li>Fix the missing argument to DecryptAll - <a  href="https://github.com/owncloud/core/issues/29371">#29371</a></li>
+      <li>Skip copying skeleton files if skeleton dir is not accessible - <a  href="https://github.com/owncloud/core/issues/29379">#29379</a></li>
+      <li>Use chunked DB query when preloading directory content for DAV properties - <a  href="https://github.com/owncloud/core/issues/29416">#29416</a></li>
+      <li>Fix failure when checking integrity signature for non-existing files - <a  href="https://github.com/owncloud/core/issues/29433">#29433</a></li>
+      <li>Prevent uploading of part files through WebDav - <a  href="https://github.com/owncloud/core/issues/29432">#29432</a></li>
+      <li>Only trigger "changeUser" event if account object really changed - <a  href="https://github.com/owncloud/core/issues/29429">#29429</a></li>
+      <li>Only load app type once in app manager classes - <a  href="https://github.com/owncloud/core/issues/29428">#29428</a></li>
+      <li>Use efficient startsWith implementation in server container - <a  href="https://github.com/owncloud/core/issues/29427">#29427</a></li>
+      <li>Fix race condition in browser when uploading folder tree - <a  href="https://github.com/owncloud/core/issues/29435">#29435</a></li>
+      <li>Disable nginx buffering for file downloads to avoid huge memory usage in some scenarios - <a  href="https://github.com/owncloud/core/issues/29403">#29403</a></li>
+      <li>Fix many issues related to session removal - <a  href="https://github.com/owncloud/core/issues/28879">#28879</a></li>
+      <li>Fix SMB to better detect when overwriting through rename - <a  href="https://github.com/owncloud/core/issues/29564">#29564</a></li>
+      <li>Fix files scan repair in bulk warning - <a  href="https://github.com/owncloud/core/issues/29631">#29631</a></li>
+      <li>Fix federated share import from public link - <a  href="https://github.com/owncloud/core/issues/29677">#29677</a></li>
+      <li>Fix status.php to properly display product name - <a  href="https://github.com/owncloud/core/issues/29728">#29728</a></li>
+      <li>Sort allowed storages checkbox list - <a  href="https://github.com/owncloud/core/issues/29746">#29746</a></li>
+   </ul>
+
+
 <a name="latest9.1"></a></li>
       <h3>Version 9.1.7 <small>Dec 5 2017</small></h3>
       <ul>
@@ -51,7 +160,6 @@ Go directly to the latest maintenance release of:
          <li>Always load most recent app from dirs - <a  href="https://github.com/owncloud/core/issues/28224">#28224</a></li>
       </ul>
 
-<a name="latest10.0"></a></li>
 <h3>Version 10.0.3 <small>Sep 15 2017</small></h3></li>
 Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-3">Release notes</a></br>
 
