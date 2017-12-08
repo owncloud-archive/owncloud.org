@@ -121,7 +121,11 @@ Go directly to the latest maintenance release of:
       <li>Fix status.php to properly display product name - <a  href="https://github.com/owncloud/core/issues/29728">#29728</a></li>
       <li>Sort allowed storages checkbox list - <a  href="https://github.com/owncloud/core/issues/29746">#29746</a></li>
    </ul>
-
+Download: <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">owncloud-10.0.4.tar.bz2</a> or <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP ?>">owncloud-10.0.4.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-10.0.4.tar.bz2.md5">owncloud-10.0.4.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.4.zip.md5">owncloud-10.0.4.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.4.tar.bz2.sha256">owncloud-10.0.4.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.4.zip.sha256">owncloud-10.0.4.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-10.0.4.tar.bz2.asc">owncloud-10.0.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip.asc">owncloud-10.0.4.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/10.0/owncloud">10.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.1"></a></li>
       <h3>Version 9.1.7 <small>Dec 5 2017</small></h3>
@@ -146,6 +150,11 @@ Go directly to the latest maintenance release of:
          <li>Fix cross storage move info - <a  href="https://github.com/owncloud/core/issues/28238">#28238</a></li>
          <li>Fix SMB to better detect when overwriting through rename - <a  href="https://github.com/owncloud/core/issues/29565">#29565</a></li>
       </ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.1.7.tar.bz2">owncloud-9.1.7.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.7.zip">owncloud-9.1.7.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.1.7.tar.bz2.md5">owncloud-9.1.7.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.7.zip.md5">owncloud-9.1.7.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.1.7.tar.bz2.sha256">owncloud-9.1.7.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.7.zip.sha256">owncloud-9.1.7.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.1.7.tar.bz2.asc">owncloud-9.1.7.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.1.7.zip.asc">owncloud-9.1.7.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.1/owncloud">9.1 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <a name="latest9.0"></a></li>
       <h3>Version 9.0.11 <small>Dec 5 2017</small></h3>
@@ -159,6 +168,11 @@ Go directly to the latest maintenance release of:
          <li>Fix default quota - <a  href="https://github.com/owncloud/core/issues/28302">#28302</a></li>
          <li>Always load most recent app from dirs - <a  href="https://github.com/owncloud/core/issues/28224">#28224</a></li>
       </ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-9.0.11.tar.bz2">owncloud-9.0.11.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.11.zip">owncloud-9.0.11.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.11.tar.bz2.md5">owncloud-9.0.11.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.11.zip.md5">owncloud-9.0.11.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.11.tar.bz2.sha256">owncloud-9.0.11.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.11.zip.sha256">owncloud-9.0.11.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.11.tar.bz2.asc">owncloud-9.0.11.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.11.zip.asc">owncloud-9.0.11.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
 
 <h3>Version 10.0.3 <small>Sep 15 2017</small></h3></li>
 Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/release_notes.html#changes-in-10-0-3">Release notes</a></br>
@@ -319,7 +333,7 @@ Release notes: <a href="https://doc.owncloud.org/server/10.0/admin_manual/releas
 <li>Added missing "fatal" log level to occ log:manage level command - <a href="https://github.com/owncloud/core/issues/28683">#28683</a></li>
 </ul>
 
-Download: <a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">owncloud-10.0.3.tar.bz2</a> or <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP ?>">owncloud-10.0.3.zip</a></br>
+Download: <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2">owncloud-10.0.3.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip">owncloud-10.0.3.zip</a></br>
 MD5: <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2.md5">owncloud-10.0.3.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip.md5">owncloud-10.0.3.zip.md5</a></br>
 SHA256: <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2.sha256">owncloud-10.0.3.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip.sha256">owncloud-10.0.3.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-10.0.3.tar.bz2.asc">owncloud-10.0.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-10.0.3.zip.asc">owncloud-10.0.3.zip.asc</a></br>
