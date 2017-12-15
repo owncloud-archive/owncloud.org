@@ -4,9 +4,9 @@
 
 <!-- When doing beta/rc vs release, always check the subdirectory name and the OBS repo name!! //-->
 
-<h3 id="240">Release 2.4.0 <b>rc1</b> <small>December 4th 2017</small></h3>
+<h3 id="240">Release 2.4.0 <b>rc2</b> <small>December 15th 2017</small></h3>
 <ul>
-<li>If you're using 2.4.0 alpha1, please upgrade as the alpha1 had an issue with hidden files!</li>
+<li>If you're using 2.4.0 alpha1, please upgrade as previous alphas/rcs had an issue with hidden files and renames!</li>
 <li>OAuth2 authentication support by opening external browser (<a href='https://github.com/owncloud/client/issues/5668'>#5668</a>)</li>
 <li>Shibboleth: Change to use OAuth2 if supported (<a href='https://github.com/owncloud/client/issues/6198'>#6198</a>)</li>
 <li>Sharing: Add support for multiple public link shares (<a href='https://github.com/owncloud/client/issues/5655'>#5655</a>)</li>
@@ -70,7 +70,7 @@
 <li>Sync: Upload conflict files if OWNCLOUD_UPLOAD_CONFLICT_FILES environment variable is set (<a href='https://github.com/owncloud/client/issues/6038'>#6038</a>)</li>
 <li>Sync: Blacklist: Don't let errors become warnings (<a href='https://github.com/owncloud/client/issues/5516'>#5516</a>)</li>
 <li>Sync: Check etag again after active sync (<a href='https://github.com/owncloud/client/issues/4116'>#4116</a>)</li>
-<li>Sync: Rename handling fixes: duplicate file ids (<a href='https://github.com/owncloud/client/issues/6096'>#6096</a>)</li>
+<li>Sync: Rename handling fixes: duplicate file ids (<a href='https://github.com/owncloud/client/issues/6096'>#6096</a>, <a href='https://github.com/owncloud/client/issues/6212'>#6212</a>)</li>
 <li>Sync: Rename handling fixes: File size must be equal</li>
 <li>Sync: Rename handling: Fix duplicate files on abort/resume sync (<a href='https://github.com/owncloud/client/issues/5949'>#5949</a>)</li>
 <li>Sync: Add capability for invalid filename regexes (<a href='https://github.com/owncloud/client/issues/6092'>#6092</a>)</li>
@@ -84,6 +84,7 @@
 <li>Crash fixes</li>
 <li>Test improvements</li>
 <li>Small UI layout fixes</li>
+<li>Performance improvements</li>
 <li>Maintenance Mode: Detect maintenance mode (<a href='https://github.com/owncloud/client/issues/4485'>#4485</a>)</li>
 <li>Maintenance Mode: Add a 1 to 5 min reconnection delay (<a href='https://github.com/owncloud/client/issues/5872'>#5872</a>)</li>
 <li>HTTP: Send a unique X-Request-ID with each request (<a href='https://github.com/owncloud/client/issues/5853'>#5853</a>)</li>
@@ -99,16 +100,17 @@
 <li>Compilation: Remove Qt 4 code (<a href='https://github.com/owncloud/client/issues/6025'>#6025</a>, <a href='https://github.com/owncloud/client/issues/5702'>#5702</a>, <a href='https://github.com/owncloud/client/issues/5505'>#5505</a>)</li>
 <li>Harmonize source code style with clang-format (<a href='https://github.com/owncloud/client/issues/5732'>#5732</a>)</li>
 <li>Switch over to Qt 5 function pointer signal/slot syntax (<a href='https://github.com/owncloud/client/issues/6041'>#6041</a>)</li>
+<li>Compile with stack-smashing protection on macOS and Linux</li>
 <li>Updater: Rudimentary support for beta channel (<a href='https://github.com/owncloud/client/issues/6048'>#6048</a>)</li>
 </ul>
 Download:
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8784rc1-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8703rc1.pkg">Mac</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8852rc2-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8770rc2.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download/package?project=isv%3AownCloud%3Acommunity%3Atesting&amp;package=owncloud-client">Linux</a> |
 <a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-rc1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-rc1.tar.xz.asc">PGP signature</a>)
 <br/>Download testpilotcloud client:
-<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8786rc1-setup.exe">Windows</a> |
-<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8708rc1.pkg">Mac</a> |
+<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8853rc2-setup.exe">Windows</a> |
+<a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8771rc2.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download.html?project=isv%3AownCloud%3Atestpilot%3Atesting&amp;package=testpilotcloud-client">Linux</a>
 
 <h3 id="234">Release 2.3.4 <small>November 3rd 2017</small></h3>
@@ -138,7 +140,8 @@ Download:
 	<li>SyncJournalDB: Don't use ._ as filename pattern if that does not work because of SMB storage settings (<a href="https://github.com/owncloud/client/issues/5844">5844</a>)</li>
 	<li>SyncJournalDB: Log reason for sqlite3 opening errors</li>
 	<li>Windows: Fix a memory leak in FileSystem::longWinPath</li>
-	<li>Switch Linux builds also to Qt 5.6.2 (<a href="https://github.com/owncloud/client/issues/5470">5470</a>)</li>
+	<li>Notifications: Proapgate "Dismiss" button action to server (<a href="https://github.com/owncloud/client/issues/5922">#5922</a>)</li>
+    <li>Switch Linux builds also to Qt 5.6.2 (<a href="https://github.com/owncloud/client/issues/5470">5470</a>)</li>
 	<li>Stopped maintaining Qt 4 support</li>
   <li>Linux packaging fixes: install the owncloud-client-nemo, owncloud-client-nautilus, owncloud-client-caja, owncloud-client-dolphin package for sync-state icons and a share-with menu in your file manager.</li>
   <li>Linux deprecation: Releases after 2.3.3 do not support Fedora 24 or lower, openSUSE Leap 42.1 or lower, Debian 7.0 or lower.</li>
