@@ -107,7 +107,7 @@ Download:
 <a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8852rc2-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/testing/ownCloud-2.4.0.8770rc2.pkg">Mac</a> |
 <a href="https://software.opensuse.org/download/package?project=isv%3AownCloud%3Acommunity%3Atesting&amp;package=owncloud-client">Linux</a> |
-<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-rc1.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-rc1.tar.xz.asc">PGP signature</a>)
+<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-rc2.tar.xz">Sources</a> (<a href="https://download.owncloud.com/desktop/testing/owncloudclient-2.4.0-rc2.tar.xz.asc">PGP signature</a>)
 <br/>Download testpilotcloud client:
 <a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8853rc2-setup.exe">Windows</a> |
 <a href="https://download.owncloud.com/desktop/testing/testpilotcloud-2.4.0.8771rc2.pkg">Mac</a> |
