@@ -75,5 +75,5 @@ Enables post preview links
 # Customizations
 ## Auto-pull of Changelogs
 The pages on https://owncloud.org/changelog/ are pulled via cronjob from (for example "server") https://raw.githubusercontent.com/owncloud/core/stable10/CHANGELOG.md
-See loadGithub_execute() in functions.php
+See https://github.com/owncloud/owncloud.org/blob/78f1d3a56b77c4c9fdf0df345776b502525d8e13/functions.php#L259
 These pages must not be cached, see the WP Fastest Cache Settings above.
