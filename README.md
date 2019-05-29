@@ -6,6 +6,8 @@ https://doc.owncloud.org is not maintained here, but in https://github.com/owncl
 
 This repo contains the Wordpress theme for owncloud.org. To setup a (development) environment please note the following.
 
+The theme is work in progress. Some contents are still hardcoded and not cms'ified yet.
+
 # Mandatory Plugins
 
 ## Advanced Custom Fields (ACF) Pro
@@ -75,5 +77,7 @@ Enables post preview links
 # Customizations
 ## Auto-pull of Changelogs
 The pages on https://owncloud.org/changelog/ are pulled via cronjob from (for example "server") https://raw.githubusercontent.com/owncloud/core/stable10/CHANGELOG.md
+
 See https://github.com/owncloud/owncloud.org/blob/78f1d3a56b77c4c9fdf0df345776b502525d8e13/functions.php#L259
+
 These pages must not be cached, see the WP Fastest Cache Settings above.
