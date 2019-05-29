@@ -1,12 +1,22 @@
-<?php get_template_part('templates/page', 'header'); ?>
+<?php
+header("HTTP/1.0 404 Not Found");
+get_header();
+?>
 
-<div class="alert alert-warning">
-  <p>Sorry, but the page you were trying to view does not exist.</p>
-</div>
-<div class="row">
-	<div class="span12">
-		<p>We've recently reorganised the website and some old links may no longer be working correctly. If you think there is an issue within our website, please report it using the <a href="https://github.com/owncloud/owncloud.org/issues/new" target="_blank">issue tracker</a> or <a href="https://github.com/owncloud/owncloud.org/blob/master/README.md" target="_blank">submit a patch</a>. Please try searching for the page you are looking for:</p>
-	</div>
-</div>
+<article class="container">
+    <h1 class="headline-page">404</h1>
+    <div class="row">
+        <div class="col">
+            <p>Oops. It seems like you are lost in the clouds. Maybe we can help you?</p>
+            <a href="<?php echo get_page_link(23); ?>" class="button-oc stacked">Go to home</a>
+            <a href="<?php echo get_page_link(14); ?>" class="button-oc stacked">Learn about ownCloud features</a>
+            <a href="<?php echo get_page_link(87); ?>" class="button-oc stacked">Download ownCloud here<i class="fa fa-download"></i></a>
+            <a href="<?php echo get_page_link(2); ?>" class="button-oc stacked">Read our blog<i class="fa fa-rss" aria-hidden="true"></i></a>
+            <?php echo get_template_part('template-parts/social-media', 'follow'); ?>
+        </div>
+    </div>
 
-<?php get_search_form(); ?>
+</article>
+
+<?php
+get_footer();

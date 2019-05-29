@@ -1,9 +1,0 @@
-Multiple XSS vulnerabilities
-============================
-
-- Risk: Medium
-Description
------------
-Multiple cross-site scripting (XSS) vulnerabilities in ownCloud 5.0.0 allow remote attackers to inject arbitrary web script or HTML via  the "new_name" POST parameter to renameTag.php in /apps/bookmarks/ajax/  Commits: 1c63eb1 (stable5) Risk: Medium Note: Successful exploitation of this stored XSS requires the "bookmark" app to be enabled. (enabled by default)  multiple unspecified parameters to several files in apps/contacts/ajax/  Commits: ae9e5a4 (stable5) Risk: Medium Note: Successful exploitation of this stored XSS requires the "calendar" app to be enabled. (enabled by default)  
-
-ownCloud Server <  5.0.1 (CVE-2013-1890)

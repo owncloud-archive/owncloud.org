@@ -1,9 +1,0 @@
-Reflected XSS
-=============
-
-- Risk: Medium
-Description
------------
-Cross-site scripting (XSS) vulnerability in index.php in ownCloud before 4.0.3 allows remote attackers to inject arbitrary web script or HTML via the redirect_url parameter.
-
-ownCloud Server <  4.0.3 (CVE-2012-4395)

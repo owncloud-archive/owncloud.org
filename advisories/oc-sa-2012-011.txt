@@ -1,9 +1,0 @@
-Auth bypass in /lib/base.php
-============================
-
-- Risk: High
-Description
------------
-/lib/base.php before ownCloud 4.0.8 does not properly validate the user_id session variable via WebDAV, which allows authenticated attackers to gain access to other users files.
-
-ownCloud Server <  4.0.8 (CVE-2012-5336)

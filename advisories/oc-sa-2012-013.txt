@@ -1,9 +1,0 @@
-User enumeration
-================
-
-- Risk: Low
-Description
------------
-apps/calendar/appinfo/remote.php and apps/contacts/appinfo/remote.php in ownCloud before 4.0.7 allows remote authenticated users to enumerate the registered users via unspecified vectors.
-
-ownCloud Server <  4.0.7 (CVE-2012-4390)

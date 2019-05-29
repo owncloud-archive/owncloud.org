@@ -1,9 +1,0 @@
-Users can mount the local filesystem
-====================================
-
-- Risk: High
-Description
------------
-Due to an insufficient permission check authenticated users are able to access preview pictures of others users.
-
-ownCloud Server <  6.0.1 ()
