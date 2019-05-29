@@ -9,7 +9,8 @@ This repo contains the Wordpress theme for owncloud.org. To setup a (development
 # Mandatory Plugins
 
 ## Advanced Custom Fields (ACF) Pro
-Install the plugin and import acf-export.json.
+Install the plugin and import https://github.com/owncloud/owncloud.org/blob/master/acf-export.json
+
 If the custom fields are changed in production please export the custom fields setup and overwrite the acf-export.json file.
 
 ## YOAST! SEO
@@ -19,8 +20,6 @@ Mandatory for SEO and page loading optimization.
 Processor for SCSS files.
 SCSS directory: /scss
 CSS directory: /css
-
-There is also a directory called css_fixed
 
 ## WP Fastest Cache (Pro)
 Caches pages for faster content delivery and optimizes script compression and loading.
@@ -32,6 +31,7 @@ Import this file to set up all custom post types. If custom post types are chang
 
 ## Shield
 https://wordpress.org/plugins/wp-simple-firewall/
+
 Not feature but security relevant. Most important settings are:
 - hide standard wordpress login page (URL changer)
 - enable 2FA
@@ -42,26 +42,34 @@ The following plugins are needed for some features but do not impair the website
 
 ## Recent Tweets Widget
 https://wordpress.org/plugins/recent-tweets-widget/
+
 Includes recent tweets from a twitter channel
 
 ## Co-Authors Plus
 https://wordpress.org/plugins/co-authors-plus/
+
 Enables multiple authors on articles
 
 ## Contact Form 7
 https://wordpress.org/plugins/contact-form-7/
+
 Easily set up contact forms
 
 ## Material Design for Contact Form 7
 https://wordpress.org/plugins/material-design-for-contact-form-7/
+
 Design addon for Contact Forms 7
 There are some custom changes on this plugin:
-freemius/includes/class-freemius.php: remove line 3014: Avoid API call which slows down DB
-admin/cf7-material-design-admin.php: remove line line 28: Prevent DB performance decrease
+
+plugins/material-design-for-contact-form-7/freemius/includes/class-freemius.php: remove line 3014: Avoid API call which slows down DB
+
+plugins/material-design-for-contact-form-7/admin/cf7-material-design-admin.php: remove line line 28: Prevent DB performance decrease
+
 This needs to be considered if the plugin gets updated!
 
 ## Public Post Preview
 https://wordpress.org/plugins/public-post-preview/
+
 Enables post preview links
 
 # Customizations
