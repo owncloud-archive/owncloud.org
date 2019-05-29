@@ -1,21 +1,33 @@
-<?php get_template_part('templates/page', 'header'); ?>
+<?php
 
-<?php if (!have_posts()) : ?>
-  <div class="alert alert-warning">
-    <?php _e('Sorry, no results were found.', 'roots'); ?>
+get_header();
+
+if (!has_post_thumbnail())
+    $class = ' no-image';
+else
+    $class = ' ';
+?>
+<article class="clearfix container<?php echo $class; ?>">
+  <header role="banner" style="background-image: url(<?php echo get_the_post_thumbnail_url(null, 'full') ?>);" class="d-flex align-items-end">
+  </header>
+
+  <div class="container">
+    <div class="post-container wide">
+      <div class="headline-wrap">
+        <h1 class="headline-page"><?php the_title(); ?></h1>
+      </div>
+
+      <div class="content">
+            <?php 
+            while ( have_posts() ) : the_post();
+                the_content(); 
+            endwhile;
+            ?>
+      </div>
+    </div>
   </div>
-  <?php get_search_form(); ?>
-<?php endif; ?>
+</article>
 
-<?php while (have_posts()) : the_post(); ?>
-  <?php get_template_part('templates/content', get_post_format()); ?>
-<?php endwhile; ?>
+<?php
+get_footer();
 
-<?php if ($wp_query->max_num_pages > 1) : ?>
-  <nav class="post-nav">
-    <ul class="pager">
-      <li class="previous"><?php next_posts_link(__('&larr; Older posts', 'roots')); ?></li>
-      <li class="next"><?php previous_posts_link(__('Newer posts &rarr;', 'roots')); ?></li>
-    </ul>
-  </nav>
-<?php endif; ?>

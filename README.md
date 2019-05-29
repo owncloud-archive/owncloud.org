@@ -4,32 +4,68 @@ Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.    
 https://doc.owncloud.org is not maintained here, but in https://github.com/owncloud/documentation
 
-## Setup of a local development environment
+This repo contains the Wordpress theme for owncloud.org. To setup a (development) environment please note the following.
 
-1. Install Wordpress >= 3.8.1
-  * Must be in the document root of the webserver (otherwise images won't load :( )
-  * Enter what you like for site title, admin user and password, none of this is stored in git
-2. Setup the repository
-  1. Clone the www repo in a folder of your choice
-    * `git clone git@github.com:owncloud/owncloud.org owncloudorgnew`
-  2. In the wordpress installation in the wp-content/themes folder, create a link to the folder you just cloned our www repo in under the name 'owncloudorgnew'
-3. Activate the theme in Appearance > Themes
-4. Import the website content.xml file
-  * First install the Wordpress Import Plugin (via Tools > Import > Wordpress Import > Install Plugin)
-  * Select the content.xml file from the www repo and click upload
-  * Select Import
-5. Copy over config.php.sample to config.php and adjust settings as necessary (defaults will work just fine for local environments)
-6. In Settings > Reading assign a static front page of 'homepage'
+# Mandatory Plugins
 
-## Development Process
+## Advanced Custom Fields (ACF) Pro
+Install the plugin and import acf-export.json.
+If the custom fields are changed in production please export the custom fields setup and overwrite the acf-export.json file.
 
-* Fork the www repository
-* Setup your local development environment using the instructions above, changing the remote origin url
-* Submit a pull request to master, on github once the feature/bugfix is complete (this is so we can test it on the staging server)
-* After review (usually following one or two thumbs up), a developer will permit the merge into master
-* Code will be pulled onto staging.owncloud.org for testing (deployment there is automatic)
-* Once the test looks good, staging will be cloned over to www.owncloud.org - this is handled by the web team on Github, and sysadmins including @danimo 
+## YOAST! SEO
+Mandatory for SEO and page loading optimization.
 
-### Notes
+## WP_SCSS
+Processor for SCSS files.
+SCSS directory: /scss
+CSS directory: /css
 
-* Please don't commit straight into the master or live branches, these branches should remain as stable as possible, and changes should be discussed amongst the community.
+There is also a directory called css_fixed
+
+## WP Fastest Cache (Pro)
+Caches pages for faster content delivery and optimizes script compression and loading.
+Note that for production environment the /changelog/ URL must be entered as URL rule to not be cached (see "Auto-pull of Changelogs" below)
+
+## Custom Post Type UI
+Handles the administration of custom post types. Please see custom_post_types_export.txt.
+Import this file to set up all custom post types. If custom post types are changed in production please export and overwrite the file custom_post_types_export.txt.
+
+## Shield
+https://wordpress.org/plugins/wp-simple-firewall/
+Not feature but security relevant. Most important settings are:
+- hide standard wordpress login page (URL changer)
+- enable 2FA
+- enable Bruteforce protection
+
+# Less critical plugins
+The following plugins are needed for some features but do not impair the websites basic features.
+
+## Recent Tweets Widget
+https://wordpress.org/plugins/recent-tweets-widget/
+Includes recent tweets from a twitter channel
+
+## Co-Authors Plus
+https://wordpress.org/plugins/co-authors-plus/
+Enables multiple authors on articles
+
+## Contact Form 7
+https://wordpress.org/plugins/contact-form-7/
+Easily set up contact forms
+
+## Material Design for Contact Form 7
+https://wordpress.org/plugins/material-design-for-contact-form-7/
+Design addon for Contact Forms 7
+There are some custom changes on this plugin:
+freemius/includes/class-freemius.php: remove line 3014: Avoid API call which slows down DB
+admin/cf7-material-design-admin.php: remove line line 28: Prevent DB performance decrease
+This needs to be considered if the plugin gets updated!
+
+## Public Post Preview
+https://wordpress.org/plugins/public-post-preview/
+Enables post preview links
+
+# Customizations
+## Auto-pull of Changelogs
+The pages on https://owncloud.org/changelog/ are pulled via cronjob from (for example "server") https://raw.githubusercontent.com/owncloud/core/stable10/CHANGELOG.md
+See loadGithub_execute() in functions.php
+These pages must not be cached, see the WP Fastest Cache Settings above.

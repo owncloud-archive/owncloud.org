@@ -1,9 +1,0 @@
-Information disclosure
-======================
-
-- Risk: Low
-Description
------------
-Due to the inclusion of the Amazon SDK testing suite an unauthenticated attacker is able to gain additional informations about the server including: the PHP version the cURL version informations wether the following functions/modules are available:  SimpleXML DOM SPL JSON PCRE File System Read/Write OpenSSL Zlib APC XCache Memcache Memcached PDO PDO-SQLite SQLite 2 SQLite 3  the following PHP settings:  open_basedir safe_mode zend.enable_gc  the server architecture (32bit/64bit) 
-
-ownCloud Server <  4.0.12 (CVE-2013-0302)

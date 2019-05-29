@@ -1,9 +1,0 @@
-Auth bypass in index.php
-========================
-
-- Risk: High
-Description
------------
-ownCloud 4.0.6 and all versions previous to this doesn't sufficiently verify whether a request to appconfig.php was sent by an admin, which allows remote authenticated users to edit app configurations.NOTE: this can be leveraged by unauthenticated remote attackers using CVE-2012-4393.
-
-ownCloud Server <  4.0.6 (CVE-2012-4752)
