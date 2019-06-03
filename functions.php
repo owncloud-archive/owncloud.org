@@ -60,7 +60,7 @@ function add_theme_scripts() {
               'template_path' => get_template_directory_uri()
             ) );
             wp_enqueue_script( $page_template . '-script' );
-        }        
+        }
     }
 
     if (is_single()) {
@@ -80,15 +80,15 @@ function add_theme_scripts() {
         }
 
         if ($postType === 'post') {
- 
+
             // just register for now, we will enqueue it below
             wp_register_script( 'ajax_comment', get_stylesheet_directory_uri() . '/js/ajax-comment.js', array('jquery') );
-         
+
             // let's pass ajaxurl here, you can do it directly in JavaScript but sometimes it can cause problems, so better is PHP
             wp_localize_script( 'ajax_comment', 'misha_ajax_comment_params', array(
                 'ajaxurl' => site_url() . '/wp-admin/admin-ajax.php'
             ) );
-         
+
             wp_enqueue_script( 'ajax_comment' );
         }
     }
@@ -394,7 +394,7 @@ add_action( 'wp_ajax_nopriv_marketo', 'marketo' );
 function marketo() {
 
     require 'php/marketo-client/marketo-client.php';
-        
+
     $Marketo = new Marketo(get_field('marketo-api-url', 'option'), get_field('marketo-client-id', 'option'), get_field('marketo-client-secret', 'option'));
 
     switch($_POST['data']['action']) {
@@ -423,7 +423,7 @@ function marketo() {
     case 'conference-signup':
         if ($_POST['data']['lead']['newsletter'] == 'true') {
             unset($_POST['data']['lead']['newsletter']);
-            
+
             $_POST['data']['lead']['unsubscribed'] = false;
             $_POST['data']['lead']['leadSource'] = 'Newsletter owncloud.org';
             $Newsletter = new Marketo(get_field('marketo-api-url', 'option'), get_field('marketo-client-id', 'option'), get_field('marketo-client-secret', 'option'));
@@ -438,7 +438,7 @@ function marketo() {
         $result = $Marketo->setProgramStatus($result['result']['id'], 1527, 'RSVP');
 
         echo json_encode(array('success' => $result['success']));
-        break; 
+        break;
     }
 
     wp_die();
@@ -448,7 +448,7 @@ function marketo() {
 /* COMMENT SECTION */
 add_action( 'wp_ajax_ajaxcomments', 'misha_submit_ajax_comment' ); // wp_ajax_{action} for registered user
 add_action( 'wp_ajax_nopriv_ajaxcomments', 'misha_submit_ajax_comment' ); // wp_ajax_nopriv_{action} for not registered users
- 
+
 function misha_submit_ajax_comment(){
     /*
      * Wow, this cool function appeared in WordPress 4.4.0, before that my code was muuuuch mooore longer
@@ -464,13 +464,13 @@ function misha_submit_ajax_comment(){
             wp_die( 'Unknown error' );
         }
     }
- 
+
     /*
      * Set Cookies
      */
     $user = wp_get_current_user();
     do_action('set_comment_cookies', $comment, $user);
- 
+
     /*
      * If you do not like this loop, pass the comment depth from JavaScript code
      */
@@ -481,13 +481,13 @@ function misha_submit_ajax_comment(){
         $parent_comment = get_comment( $comment_parent );
         $comment_parent = $parent_comment->comment_parent;
     }
- 
+
     /*
      * Set the globals, so our comment functions below will work correctly
      */
     $GLOBALS['comment'] = $comment;
     $GLOBALS['comment_depth'] = $comment_depth;
- 
+
     /*
      * Here is the comment template, you can configure it for your website
      * or you can try to find a ready function in your theme files
@@ -501,20 +501,27 @@ function misha_submit_ajax_comment(){
                 </div>
                 <div class="comment-metadata">
                     <a href="' . esc_url( get_comment_link( $comment->comment_ID ) ) . '">' . sprintf('%1$s at %2$s', get_comment_date(),  get_comment_time() ) . '</a>';
- 
+
                     if( $edit_link = get_edit_comment_link() )
                         $comment_html .= '<span class="edit-link"><a class="comment-edit-link" href="' . $edit_link . '">Edit</a></span>';
- 
+
                 $comment_html .= '</div>';
                 if ( $comment->comment_approved == '0' )
                     $comment_html .= '<p class="comment-awaiting-moderation">Your comment is awaiting moderation.</p>';
- 
+
             $comment_html .= '</footer>
             <div class="comment-content">' . apply_filters( 'comment_text', get_comment_text( $comment ), $comment ) . '</div>
         </article>
     </li>';
     echo $comment_html;
- 
+
     die();
- 
+
+}
+
+
+// Extend Pubic preview time: https://wordpress.org/plugins/public-post-preview/
+add_filter( 'ppp_nonce_life', 'my_nonce_life' );
+function my_nonce_life() {
+    return 60 * 60 * 24 * 5; // 5 days
 }
