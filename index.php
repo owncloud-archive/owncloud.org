@@ -15,12 +15,13 @@ else
     <div class="post-container wide">
       <div class="headline-wrap">
         <h1 class="headline-page"><?php the_title(); ?></h1>
+        <div class="excerpt bold"><?php the_excerpt(); ?> </div>
       </div>
 
       <div class="content">
-            <?php 
+            <?php
             while ( have_posts() ) : the_post();
-                the_content(); 
+                the_content();
             endwhile;
             ?>
       </div>
@@ -30,4 +31,3 @@ else
 
 <?php
 get_footer();
-

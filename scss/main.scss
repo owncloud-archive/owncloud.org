@@ -473,7 +473,7 @@ form.newsletter-subscribe {
       color: green;
       margin-right: 1rem;
       font-size: 3rem;
-    } 
+    }
   }
 }
 
@@ -1013,13 +1013,20 @@ body.page-template-default {
 
         .post-date {
           padding: 15px 0;
-          margin-bottom: 15px;
+          margin-bottom: 0;
           border-bottom: 1px solid $lightgray;
         }
 
         .excerpt {
           font-weight: $bold;
-          max-width: 38rem;
+		      margin-top: 15px;
+	        padding-bottom: 15px;
+          border-bottom: 1px solid $lightgray;
+
+    			p {
+    				margin: 0;
+    				padding: 0;
+    			}
         }
       }
 
@@ -2060,7 +2067,7 @@ ul.children li {
     z-index: 999;
 	-webkit-animation: 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s normal forwards 1 fadein;
     animation: 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s normal forwards 1 fadein;
-	
+
 	.award-icon {
 		background-color: #fefefe;
 		display: block;
@@ -2089,7 +2096,7 @@ ul.children li {
 		margin-bottom: .125rem;
 		margin-top: .4375rem
 	}
-	
+
 	.award-sub {
 		font-size: .8125rem;
 	}
