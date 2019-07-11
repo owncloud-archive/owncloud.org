@@ -17,8 +17,8 @@
 
         <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
         <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
-        <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" /> 
-        
+        <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
+
         <?php wp_head(); ?>
     </head>
     <body <?php echo body_class(); ?>>
@@ -31,7 +31,7 @@
                     <button class="toggle-nav"><span class="open-menu">Menu</span><span class="close-menu">close</span></button>
                     <nav class="mainnav" role="navigation">
                         <ul>
-                            <?php 
+                            <?php
                             foreach(wp_get_nav_menu_items('MainMenu') as $item) {
                                 echo '<li><a href="' . $item->url . '" title="' . $item->title . '">' . $item->title . '</a></li>';
                             }
@@ -42,4 +42,3 @@
                 </div>
             </div>
         </header>
-
