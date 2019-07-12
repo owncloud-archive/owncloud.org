@@ -30,17 +30,26 @@ if ( have_posts() ) :
           </h2>
           <a href="<?php echo get_page_link(14); ?>" class="button-oc">Explore the features &nbsp;» </a>
         </div>
-
-        <!-- <div class="teaser">
-            <a href="https://streaming.media.ccc.de/occon18/"><span class="badge badge-primary">#ocCon18</span><span>See the live stream here</span></a> | <a href="https://cfp.owncloud.com/occon18/schedule/">See the talk schedule here</a>   
-         </div>-->
-        
-
       </div>
-
-      <!-- <a href="<?php echo get_page_link(14); ?>" class="button-oc">Explore the features&nbsp;» </a> -->
     </div>
   </header>
+
+    <section id="cloudstorage" class="py-5">
+      <div class="container">
+        <div class="row row-eq-height">
+          <div class="col-sm-6 d-flex align-items-center">
+            <div>
+              <?php the_field('home-generalinfo-text'); ?>
+            </div>
+
+          </div>
+
+          <div class="col-sm-6">
+            <?php echo wp_get_attachment_image(get_field('home-generalinfo-image'), 'full', false, array('class'=>'img-fluid')); ?>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="trusted">
         <div class="container text-center">
@@ -59,6 +68,69 @@ if ( have_posts() ) :
             }
             ?>
         </div>
+    </section>
+
+    <section id="product-overview" class="my-5">
+      <div class="container">
+        <div class="mb-5">
+          <div class="row my-5 py-5">
+            <div class="col-sm-6 d-flex align-items-center">
+              <div>
+                <?php the_field('home-comparison-introtext'); ?>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <?php echo wp_get_attachment_image(get_field('home-comparison-introimage'), 'full', false, array('class'=>'img-fluid')); ?>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-eq-height mt-5">
+          <?php
+          if( have_rows('product-comparison') ):
+            while ( have_rows('product-comparison') ) : the_row(); ?>
+
+            <div class="col-lg-4 px-4">
+              <div class="text-center mb-5">
+                <?php echo wp_get_attachment_image(get_sub_field('comparison-logo'), 'full', false, array('style'=>'max-height: 100px;')); ?>
+              </div>
+
+              <?php the_sub_field('comparison-text'); ?>
+              <?php $link = get_sub_field('comparison-link'); ?>
+
+              <div class="text-center d-block d-lg-none">
+                <a href="<?php echo $link['url']; ?>" class="button-oc"><?php echo $link['title']; ?></a>
+                <hr class="my-5" />
+              </div>
+            </div>
+
+            <?php
+            endwhile;
+          endif;
+          ?>
+        </div>
+
+        <div class="row d-md-none d-lg-flex">
+          <?php
+          if( have_rows('product-comparison') ):
+            while ( have_rows('product-comparison') ) : the_row(); ?>
+
+            <?php $link = get_sub_field('comparison-link'); ?>
+
+            <div class="col-lg-4 px-4">
+              <div class="text-center">
+                <i class="fa fa-chevron-down iconx2 d-block my-3"></i>
+                <a href="<?php echo $link['url']; ?>" class="button-oc"><?php echo $link['title']; ?></a>
+              </div>
+            </div>
+
+            <?php
+            endwhile;
+          endif;
+          ?>
+        </div>
+      </div>
     </section>
 
     <section class="users" style="background-image: url(<?php echo wp_get_attachment_image_url(get_field('users_image'), 'full'); ?>);">

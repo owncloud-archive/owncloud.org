@@ -175,7 +175,7 @@
               a {
                 color: #fff;
               }
-              
+
               .badge-primary {
                 background-color: #f433ab;
                 margin-right: 15px;
@@ -186,6 +186,12 @@
                 }
               }
             }
+        }
+
+        #cloudstorage {
+          background: $ocLightBlue;
+          color: #fff;
+          min-height: 100vh;
         }
 
         .subnote {

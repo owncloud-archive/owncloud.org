@@ -234,6 +234,11 @@ input[type="submit"],
     color: $white;
   }
 
+  &.oconline {
+    background: $ocOnline;
+    color: $white;
+  }
+
   &.small {
     font-size: .8rem;
     padding: .1125rem .5375rem;
@@ -473,7 +478,7 @@ form.newsletter-subscribe {
       color: green;
       margin-right: 1rem;
       font-size: 3rem;
-    } 
+    }
   }
 }
 
@@ -2060,7 +2065,7 @@ ul.children li {
     z-index: 999;
 	-webkit-animation: 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s normal forwards 1 fadein;
     animation: 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s normal forwards 1 fadein;
-	
+
 	.award-icon {
 		background-color: #fefefe;
 		display: block;
@@ -2089,7 +2094,7 @@ ul.children li {
 		margin-bottom: .125rem;
 		margin-top: .4375rem
 	}
-	
+
 	.award-sub {
 		font-size: .8125rem;
 	}
