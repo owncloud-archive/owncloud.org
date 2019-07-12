@@ -15,17 +15,18 @@ Install the plugin and import https://github.com/owncloud/owncloud.org/blob/mast
 
 If the custom fields are changed in production please export the custom fields setup and overwrite the acf-export.json file.
 
-## YOAST! SEO
-Mandatory for SEO and page loading optimization.
-
 ## WP_SCSS
 Processor for SCSS files.
-SCSS directory: /scss
-CSS directory: /css
+SCSS directory: /scss/
+CSS directory: /css/
+Compiling Mode: Crunched
+Source Map Mode: None
+Error Display: Show to logged in users
+Enqueue Stylesheets: Yes
 
-## WP Fastest Cache (Pro)
-Caches pages for faster content delivery and optimizes script compression and loading.
-Note that for production environment the /changelog/ URL must be entered as URL rule to not be cached (see "Auto-pull of Changelogs" below)
+## Co-Authors Plus
+https://wordpress.org/plugins/co-authors-plus/
+Enables multiple authors on articles
 
 ## Custom Post Type UI
 Handles the administration of custom post types. Please see custom_post_types_export.txt.
@@ -42,15 +43,17 @@ Not feature but security relevant. Most important settings are:
 # Less critical plugins
 The following plugins are needed for some features but do not impair the websites basic features.
 
+## WP Fastest Cache (Pro)
+Caches pages for faster content delivery and optimizes script compression and loading.
+Note that for production environment the /changelog/ URL must be entered as URL rule to not be cached (see "Auto-pull of Changelogs" below)
+
+## YOAST! SEO
+Mandatory for SEO and page loading optimization.
+
 ## Recent Tweets Widget
 https://wordpress.org/plugins/recent-tweets-widget/
 
 Includes recent tweets from a twitter channel
-
-## Co-Authors Plus
-https://wordpress.org/plugins/co-authors-plus/
-
-Enables multiple authors on articles
 
 ## Contact Form 7
 https://wordpress.org/plugins/contact-form-7/
