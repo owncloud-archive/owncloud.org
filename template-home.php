@@ -141,10 +141,10 @@ if ( have_posts() ) :
             <div class="row">
                 <div class="col-md-6">
                     <h1>ownCloud conference 2019</h1>
-                    <div class=" subnote">September 17th - September 20th, 2019 Nuremberg|</div>
+                    <div class=" subnote">September 17th - September 20th, 2019 Nuremberg</div>
                     <p>The annual ownCloud conference will happen for the 7th time. We are expecting attendees from all over the world to join us for four days of conference, hacking and learning from the best in the field. <br />
                       Check out your free ticket and get in touch with the experts!</p>
-                    <a href="<?php echo get_page_link(14); ?>" class="button-oc mt-3">Join the conference today &nbsp;» </a>
+                    <a href="https://conference.owncloud.org" class="button-oc mt-3">Join the conference today &nbsp;» </a>
                 </div>
             </div>
         </div>
