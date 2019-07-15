@@ -133,6 +133,27 @@ if ( have_posts() ) :
       </div>
     </section>
 
+    <?php
+    if (time() < mktime(0,0,0, 9,17,2019)) :
+    ?>
+    <section class="users" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/ownClound-conference-2019.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>ownCloud conference 2019</h1>
+                    <div class=" subnote">September 17th - September 20th, 2019 Nuremberg|</div>
+                    <p>The annual ownCloud conference will happen for the 7th time. We are expecting attendees from all over the world to join us for four days of conference, hacking and learning from the best in the field. <br />
+                      Check out your free ticket and get in touch with the experts!</p>
+                    <a href="<?php echo get_page_link(14); ?>" class="button-oc mt-3">Join the conference today &nbsp;» </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <?php
+    endif;
+    ?>
+
     <section class="users" style="background-image: url(<?php echo wp_get_attachment_image_url(get_field('users_image'), 'full'); ?>);">
         <div class="container">
             <div class="row">
