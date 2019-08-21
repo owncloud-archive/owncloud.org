@@ -331,12 +331,8 @@ iframe {
 [class^='wp-image-'],
 [class*=' wp-image'] {
   height: auto;
-  margin: 0 -15px;
-  max-width: calc(100% + 30px);
 
   @media all and (min-width: $media-small) {
-    margin: 0 -100px;
-    max-width: calc(100% + 200px);
 
     &.size-medium {
       max-width: 50%;
@@ -1057,13 +1053,6 @@ body.page-template-default {
           font-style: italic;
           text-align: center;
         }
-      }
-
-
-      .aligncenter {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
       }
 
       .newsletter-subscribe {
