@@ -30,10 +30,12 @@ h2.nickname {
   margin-top: 0;
 }
 
-nav ul,
-ul,
-ul.slick-slider {
+ul {
   list-style: none;
+}
+
+nav ul,
+ul.slick-slider {
   margin: 0;
   padding: 0;
 }
@@ -88,9 +90,6 @@ article {
     margin-bottom: 1rem;
 
     li {
-      list-style-position: inside;
-      padding-left: 1em;
-      text-indent: -1em;
 
       &:before {
         content: '\f105';
@@ -100,6 +99,8 @@ article {
         margin-right: 10px;
         vertical-align: text-bottom;
         width: 10px;
+        float: left;
+        margin-left: calc(-1em - 10px);
       }
     }
 
