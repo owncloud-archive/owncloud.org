@@ -173,6 +173,15 @@ add_filter( 'rest_authentication_errors', function( $result ) {
     return $result;
 });
 
+// Remove URL field from comments section
+add_filter('comment_form_default_fields', 'website_remove');
+function website_remove($fields)
+{
+	if(isset($fields['url']))
+	unset($fields['url']);
+	return $fields;
+}
+
 
 function oc_widgets_init() {
     register_sidebar(array(
