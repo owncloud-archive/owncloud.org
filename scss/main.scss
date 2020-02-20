@@ -330,13 +330,22 @@ iframe {
 }
 
 [class^='wp-image-'],
-[class*=' wp-image'] {
+[class*=' wp-image'],
+figure.wp-block-image,
+figure.aligncenter {
   height: auto;
-  margin: 0 -15px;
+  margin: 25px -15px;
   max-width: calc(100% + 30px);
+  text-align: center;
+
+  figcaption {
+    margin-top: -15px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
 
   @media all and (min-width: $media-small) {
-    margin: 0 -100px;
+    margin: 50px -100px;
     max-width: calc(100% + 200px);
 
     &.size-medium {
@@ -359,6 +368,10 @@ iframe {
       float: left;
       margin: 0 15px 15px 0;
       max-width: 100%;
+    }
+
+    figcaption {
+      margin-top: -40px;
     }
   }
 }
@@ -1069,18 +1082,6 @@ body.page-template-default {
 
       .newsletter-subscribe {
         margin: 1rem 0;
-      }
-    }
-
-    &.no-image {
-      header {
-        display: none !important;
-      }
-
-      .post-container {
-        @media all and (min-width: $media-medium) {
-          margin-top: 5vh;
-        }
       }
     }
   }
